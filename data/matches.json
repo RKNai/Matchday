@@ -1,0 +1,697 @@
+[
+  {
+    "id": 1,
+    "stage": "Group A • Match #1",
+    "home": "Mexico",
+    "homeFlag": "🇲🇽",
+    "away": "South Africa",
+    "awayFlag": "🇿🇦",
+    "homeScore": 1,
+    "awayScore": 0,
+    "status": "live",
+    "minute": 32,
+    "date": "Jun 11, 19:00 UTC",
+    "location": "Mexico City Stadium",
+    "events": [
+      {
+        "minute": 24,
+        "team": "Mexico",
+        "type": "goal",
+        "desc": "Santiago Giménez ⚽ (Spectacular volley, Assist: Edson Álvarez)"
+      }
+    ],
+    "stats": {
+      "possession": [
+        55,
+        45
+      ],
+      "shots": [
+        8,
+        4
+      ],
+      "fouls": [
+        6,
+        7
+      ],
+      "corners": [
+        3,
+        2
+      ]
+    },
+    "lineups": {
+      "home": [
+        "Starting XI",
+        "Giménez",
+        "Álvarez",
+        "Lozano",
+        "Chávez",
+        "Vasquez",
+        "Montes",
+        "Ochoa"
+      ],
+      "away": [
+        "TBD Squad"
+      ]
+    }
+  },
+  {
+    "id": 2,
+    "stage": "Group A • Match #2",
+    "home": "Korea Republic",
+    "homeFlag": "🇰🇷",
+    "away": "Czechia",
+    "awayFlag": "🇨🇿",
+    "homeScore": 0,
+    "awayScore": 0,
+    "status": "upcoming",
+    "minute": 0,
+    "date": "Jun 12, 02:00 UTC",
+    "location": "Guadalajara Stadium",
+    "events": [],
+    "stats": {
+      "possession": [
+        50,
+        50
+      ],
+      "shots": [
+        0,
+        0
+      ],
+      "fouls": [
+        0,
+        0
+      ],
+      "corners": [
+        0,
+        0
+      ]
+    },
+    "lineups": {
+      "home": [
+        "TBD Squad"
+      ],
+      "away": [
+        "TBD Squad"
+      ]
+    }
+  },
+  {
+    "id": 3,
+    "stage": "Group B • Match #3",
+    "home": "Canada",
+    "homeFlag": "🇨🇦",
+    "away": "Bosnia and Herzegovina",
+    "awayFlag": "🇧🇦",
+    "homeScore": 2,
+    "awayScore": 2,
+    "status": "live",
+    "minute": 76,
+    "date": "Jun 12, 19:00 UTC",
+    "location": "Toronto Stadium",
+    "events": [
+      {
+        "minute": 18,
+        "team": "USA",
+        "type": "goal",
+        "desc": "Christian Pulisic ⚽ (Direct Free Kick)"
+      },
+      {
+        "minute": 44,
+        "team": "TBD",
+        "type": "goal",
+        "desc": "Opponent Strike ⚽"
+      },
+      {
+        "minute": 58,
+        "team": "USA",
+        "type": "goal",
+        "desc": "Folarin Balogun ⚽ (Assist: Timothy Weah)"
+      },
+      {
+        "minute": 71,
+        "team": "TBD",
+        "type": "goal",
+        "desc": "Opponent Penalty ⚽"
+      }
+    ],
+    "stats": {
+      "possession": [
+        55,
+        45
+      ],
+      "shots": [
+        8,
+        4
+      ],
+      "fouls": [
+        6,
+        7
+      ],
+      "corners": [
+        3,
+        2
+      ]
+    },
+    "lineups": {
+      "home": [
+        "TBD Squad"
+      ],
+      "away": [
+        "TBD Squad"
+      ]
+    }
+  },
+  {
+    "id": 4,
+    "stage": "Group D • Match #4",
+    "home": "USA",
+    "homeFlag": "🇺🇸",
+    "away": "Paraguay",
+    "awayFlag": "🇵🇾",
+    "homeScore": 0,
+    "awayScore": 0,
+    "status": "upcoming",
+    "minute": 0,
+    "date": "Jun 13, 01:00 UTC",
+    "location": "Los Angeles Stadium",
+    "events": [],
+    "stats": {
+      "possession": [
+        50,
+        50
+      ],
+      "shots": [
+        0,
+        0
+      ],
+      "fouls": [
+        0,
+        0
+      ],
+      "corners": [
+        0,
+        0
+      ]
+    },
+    "lineups": {
+      "home": [
+        "TBD Squad"
+      ],
+      "away": [
+        "TBD Squad"
+      ]
+    }
+  },
+  {
+    "id": 8,
+    "stage": "Group B • Match #8",
+    "home": "Qatar",
+    "homeFlag": "🇶🇦",
+    "away": "Switzerland",
+    "awayFlag": "🇨🇭",
+    "homeScore": 0,
+    "awayScore": 0,
+    "status": "upcoming",
+    "minute": 0,
+    "date": "Jun 13, 19:00 UTC",
+    "location": "San Francisco Bay Area Stadium",
+    "events": [],
+    "stats": {
+      "possession": [
+        50,
+        50
+      ],
+      "shots": [
+        0,
+        0
+      ],
+      "fouls": [
+        0,
+        0
+      ],
+      "corners": [
+        0,
+        0
+      ]
+    },
+    "lineups": {
+      "home": [
+        "TBD Squad"
+      ],
+      "away": [
+        "TBD Squad"
+      ]
+    }
+  },
+  {
+    "id": 7,
+    "stage": "Group C • Match #7",
+    "home": "Brazil",
+    "homeFlag": "🇧🇷",
+    "away": "Morocco",
+    "awayFlag": "🇲🇦",
+    "homeScore": 0,
+    "awayScore": 0,
+    "status": "upcoming",
+    "minute": 0,
+    "date": "Jun 13, 22:00 UTC",
+    "location": "New York/New Jersey Stadium",
+    "events": [],
+    "stats": {
+      "possession": [
+        50,
+        50
+      ],
+      "shots": [
+        0,
+        0
+      ],
+      "fouls": [
+        0,
+        0
+      ],
+      "corners": [
+        0,
+        0
+      ]
+    },
+    "lineups": {
+      "home": [
+        "TBD Squad"
+      ],
+      "away": [
+        "TBD Squad"
+      ]
+    }
+  },
+  {
+    "id": 5,
+    "stage": "Group C • Match #5",
+    "home": "Haiti",
+    "homeFlag": "🇭🇹",
+    "away": "Scotland",
+    "awayFlag": "🏴󠁧󠁢󠁳󠁣󠁴󠁿",
+    "homeScore": 0,
+    "awayScore": 0,
+    "status": "upcoming",
+    "minute": 0,
+    "date": "Jun 14, 01:00 UTC",
+    "location": "Boston Stadium",
+    "events": [],
+    "stats": {
+      "possession": [
+        50,
+        50
+      ],
+      "shots": [
+        0,
+        0
+      ],
+      "fouls": [
+        0,
+        0
+      ],
+      "corners": [
+        0,
+        0
+      ]
+    },
+    "lineups": {
+      "home": [
+        "TBD Squad"
+      ],
+      "away": [
+        "TBD Squad"
+      ]
+    }
+  },
+  {
+    "id": 6,
+    "stage": "Group D • Match #6",
+    "home": "Australia",
+    "homeFlag": "🇦🇺",
+    "away": "Türkiye",
+    "awayFlag": "🇹🇷",
+    "homeScore": 0,
+    "awayScore": 0,
+    "status": "upcoming",
+    "minute": 0,
+    "date": "Jun 14, 04:00 UTC",
+    "location": "BC Place Vancouver",
+    "events": [],
+    "stats": {
+      "possession": [
+        50,
+        50
+      ],
+      "shots": [
+        0,
+        0
+      ],
+      "fouls": [
+        0,
+        0
+      ],
+      "corners": [
+        0,
+        0
+      ]
+    },
+    "lineups": {
+      "home": [
+        "TBD Squad"
+      ],
+      "away": [
+        "TBD Squad"
+      ]
+    }
+  },
+  {
+    "id": 10,
+    "stage": "Group E • Match #10",
+    "home": "Germany",
+    "homeFlag": "🇩🇪",
+    "away": "Curaçao",
+    "awayFlag": "🇨🇼",
+    "homeScore": 0,
+    "awayScore": 0,
+    "status": "upcoming",
+    "minute": 0,
+    "date": "Jun 14, 17:00 UTC",
+    "location": "Houston Stadium",
+    "events": [],
+    "stats": {
+      "possession": [
+        50,
+        50
+      ],
+      "shots": [
+        0,
+        0
+      ],
+      "fouls": [
+        0,
+        0
+      ],
+      "corners": [
+        0,
+        0
+      ]
+    },
+    "lineups": {
+      "home": [
+        "TBD Squad"
+      ],
+      "away": [
+        "TBD Squad"
+      ]
+    }
+  },
+  {
+    "id": 11,
+    "stage": "Group F • Match #11",
+    "home": "Netherlands",
+    "homeFlag": "🇳🇱",
+    "away": "Japan",
+    "awayFlag": "🇯🇵",
+    "homeScore": 0,
+    "awayScore": 0,
+    "status": "upcoming",
+    "minute": 0,
+    "date": "Jun 14, 20:00 UTC",
+    "location": "Dallas Stadium",
+    "events": [],
+    "stats": {
+      "possession": [
+        50,
+        50
+      ],
+      "shots": [
+        0,
+        0
+      ],
+      "fouls": [
+        0,
+        0
+      ],
+      "corners": [
+        0,
+        0
+      ]
+    },
+    "lineups": {
+      "home": [
+        "TBD Squad"
+      ],
+      "away": [
+        "TBD Squad"
+      ]
+    }
+  },
+  {
+    "id": 9,
+    "stage": "Group E • Match #9",
+    "home": "Côte d'Ivoire",
+    "homeFlag": "🇨🇮",
+    "away": "Ecuador",
+    "awayFlag": "🇪🇨",
+    "homeScore": 0,
+    "awayScore": 0,
+    "status": "upcoming",
+    "minute": 0,
+    "date": "Jun 14, 23:00 UTC",
+    "location": "Philadelphia Stadium",
+    "events": [],
+    "stats": {
+      "possession": [
+        50,
+        50
+      ],
+      "shots": [
+        0,
+        0
+      ],
+      "fouls": [
+        0,
+        0
+      ],
+      "corners": [
+        0,
+        0
+      ]
+    },
+    "lineups": {
+      "home": [
+        "TBD Squad"
+      ],
+      "away": [
+        "TBD Squad"
+      ]
+    }
+  },
+  {
+    "id": 12,
+    "stage": "Group F • Match #12",
+    "home": "Sweden",
+    "homeFlag": "🇸🇪",
+    "away": "Tunisia",
+    "awayFlag": "🇹🇳",
+    "homeScore": 0,
+    "awayScore": 0,
+    "status": "upcoming",
+    "minute": 0,
+    "date": "Jun 15, 02:00 UTC",
+    "location": "Monterrey Stadium",
+    "events": [],
+    "stats": {
+      "possession": [
+        50,
+        50
+      ],
+      "shots": [
+        0,
+        0
+      ],
+      "fouls": [
+        0,
+        0
+      ],
+      "corners": [
+        0,
+        0
+      ]
+    },
+    "lineups": {
+      "home": [
+        "TBD Squad"
+      ],
+      "away": [
+        "TBD Squad"
+      ]
+    }
+  },
+  {
+    "id": 14,
+    "stage": "Group H • Match #14",
+    "home": "Spain",
+    "homeFlag": "🇪🇸",
+    "away": "Cabo Verde",
+    "awayFlag": "🇨🇻",
+    "homeScore": 0,
+    "awayScore": 0,
+    "status": "upcoming",
+    "minute": 0,
+    "date": "Jun 15, 16:00 UTC",
+    "location": "Atlanta Stadium",
+    "events": [],
+    "stats": {
+      "possession": [
+        50,
+        50
+      ],
+      "shots": [
+        0,
+        0
+      ],
+      "fouls": [
+        0,
+        0
+      ],
+      "corners": [
+        0,
+        0
+      ]
+    },
+    "lineups": {
+      "home": [
+        "TBD Squad"
+      ],
+      "away": [
+        "TBD Squad"
+      ]
+    }
+  },
+  {
+    "id": 16,
+    "stage": "Group G • Match #16",
+    "home": "Belgium",
+    "homeFlag": "🇧🇪",
+    "away": "Egypt",
+    "awayFlag": "🇪🇬",
+    "homeScore": 0,
+    "awayScore": 0,
+    "status": "upcoming",
+    "minute": 0,
+    "date": "Jun 15, 19:00 UTC",
+    "location": "Seattle Stadium",
+    "events": [],
+    "stats": {
+      "possession": [
+        50,
+        50
+      ],
+      "shots": [
+        0,
+        0
+      ],
+      "fouls": [
+        0,
+        0
+      ],
+      "corners": [
+        0,
+        0
+      ]
+    },
+    "lineups": {
+      "home": [
+        "TBD Squad"
+      ],
+      "away": [
+        "TBD Squad"
+      ]
+    }
+  },
+  {
+    "id": 13,
+    "stage": "Group H • Match #13",
+    "home": "Saudi Arabia",
+    "homeFlag": "🇸🇦",
+    "away": "Uruguay",
+    "awayFlag": "🇺🇾",
+    "homeScore": 0,
+    "awayScore": 0,
+    "status": "upcoming",
+    "minute": 0,
+    "date": "Jun 15, 22:00 UTC",
+    "location": "Miami Stadium",
+    "events": [],
+    "stats": {
+      "possession": [
+        50,
+        50
+      ],
+      "shots": [
+        0,
+        0
+      ],
+      "fouls": [
+        0,
+        0
+      ],
+      "corners": [
+        0,
+        0
+      ]
+    },
+    "lineups": {
+      "home": [
+        "TBD Squad"
+      ],
+      "away": [
+        "TBD Squad"
+      ]
+    }
+  },
+  {
+    "id": 15,
+    "stage": "Group G • Match #15",
+    "home": "IR Iran",
+    "homeFlag": "🇮🇷",
+    "away": "New Zealand",
+    "awayFlag": "🇳🇿",
+    "homeScore": 0,
+    "awayScore": 0,
+    "status": "upcoming",
+    "minute": 0,
+    "date": "Jun 16, 01:00 UTC",
+    "location": "Los Angeles Stadium",
+    "events": [],
+    "stats": {
+      "possession": [
+        50,
+        50
+      ],
+      "shots": [
+        0,
+        0
+      ],
+      "fouls": [
+        0,
+        0
+      ],
+      "corners": [
+        0,
+        0
+      ]
+    },
+    "lineups": {
+      "home": [
+        "TBD Squad"
+      ],
+      "away": [
+        "TBD Squad"
+      ]
+    }
+  }
+]

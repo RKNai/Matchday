@@ -1,0 +1,36 @@
+{
+  "name": "MatchDay - FIFA World Cup 2026",
+  "short_name": "MatchDay",
+  "description": "Follow the FIFA World Cup 2026 with live matches, real-time updates, team subscriptions, and breaking news.",
+  "start_url": "./index.html",
+  "display": "standalone",
+  "background_color": "#080b11",
+  "theme_color": "#080b11",
+  "orientation": "any",
+  "icons": [
+    {
+      "src": "./assets/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "any maskable"
+    },
+    {
+      "src": "./assets/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any maskable"
+    }
+  ],
+  "shortcuts": [
+    {
+      "name": "Live Matches",
+      "url": "./index.html?tab=live",
+      "description": "View active live World Cup games"
+    },
+    {
+      "name": "World Cup News",
+      "url": "./index.html?tab=news",
+      "description": "Read breaking team news and injury reports"
+    }
+  ]
+}

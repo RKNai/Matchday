@@ -1,0 +1,292 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
+  <meta name="theme-color" content="#080b11">
+  <meta name="description" content="Follow the FIFA World Cup 2026 with live matches, real-time scores, team subscriptions, and breaking news.">
+  <title>MatchDay - FIFA World Cup 2026 PWA</title>
+  
+  <!-- Web App Manifest -->
+  <link rel="manifest" href="manifest.json">
+  
+  <!-- Apple Touch Icon -->
+  <link rel="apple-touch-icon" href="assets/icon-192.png">
+  
+  <!-- Premium Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Outfit:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  
+  <!-- Core Stylesheet -->
+  <link rel="stylesheet" href="style.css?v=18">
+  
+  <!-- Script Setup -->
+  <script src="app.js?v=18" defer></script>
+</head>
+<body>
+  <!-- Header Bar -->
+  <header class="app-header">
+    <div class="header-logo">
+      <img src="assets/logo.png" alt="MatchDay Logo" class="logo-img">
+      <h1 class="logo-title">Match<span>Day</span></h1>
+    </div>
+    
+    <div class="header-actions">
+      <!-- Sync Pulse -->
+      <div class="sync-status" id="syncStatus">
+        <span class="pulse-dot"></span>
+        <span class="status-text">Live Ticker</span>
+      </div>
+      
+      <!-- PWA Install Button (Initially Hidden) -->
+      <button class="btn-install" id="installBtn" style="display: none;">
+        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"/><polyline points="7 10 12 15 17 10"/><line x1="12" y1="15" x2="12" y2="3"/></svg>
+        <span>Install App</span>
+      </button>
+      
+      <!-- Notification Center Toggle -->
+      <button class="btn-icon" id="notificationCenterBtn" title="Notification Settings">
+        <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M18 8A6 6 0 0 0 6 8c0 7-3 9-3 9h18s-3-2-3-9"/><path d="M13.73 21a2 2 0 0 1-3.46 0"/></svg>
+        <span class="badge" id="subCountBadge" style="display: none;">0</span>
+      </button>
+    </div>
+  </header>
+
+  <!-- Main Split-Screen Container -->
+  <main class="app-container" id="appContainer">
+    
+    <!-- Top Panel: Matches / Results (var(--matches-height)) -->
+    <section class="panel panel-matches" id="matchesPanel">
+      <div class="panel-header">
+        <h2 class="panel-title">Match Center</h2>
+        
+        <!-- Filter Tabs -->
+        <div class="filter-tabs">
+          <button class="tab-btn active" data-tab="all">All</button>
+          <button class="tab-btn" data-tab="live">
+            <span class="tab-live-dot"></span>Live
+          </button>
+          <button class="tab-btn" data-tab="results">Results</button>
+          <button class="tab-btn" data-tab="upcoming">Upcoming</button>
+          <button class="tab-btn" data-tab="favorites" id="favTabBtn">
+            <svg xmlns="http://www.w3.org/2000/svg" width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M19 21l-7-5-7 5V5a2 2 0 0 1 2-2h10a2 2 0 0 1 2 2z"/></svg>
+            Subscribed
+          </button>
+        </div>
+      </div>
+      
+      <!-- Matches Scroll Container -->
+      <div class="matches-list-container" id="matchesList">
+        <!-- Matches will be dynamically populated by app.js. 
+             Below are structured placeholders for immediate premium render. -->
+        <div class="match-card live-match" data-match-id="1">
+          <div class="match-meta">
+            <span class="match-stage">Group A</span>
+            <span class="match-status pulse-text">LIVE • 64'</span>
+          </div>
+          <div class="match-teams-row">
+            <div class="team-info">
+              <span class="team-flag">🇺🇸</span>
+              <span class="team-name">USA</span>
+            </div>
+            <div class="match-score">
+              <span class="score-val">2</span>
+              <span class="score-divider">-</span>
+              <span class="score-val">1</span>
+            </div>
+            <div class="team-info team-away">
+              <span class="team-name">England</span>
+              <span class="team-flag">🏴󠁧󠁢󠁥󠁮󠁧󠁿</span>
+            </div>
+          </div>
+          <div class="match-highlights">
+            <span class="scorer">Pulisic 42' ⚽</span>
+            <span class="scorer">Kane 56' ⚽</span>
+            <span class="scorer">Balogun 61' ⚽</span>
+          </div>
+          <button class="btn-subscribe active" data-team="USA" title="Unsubscribe from USA updates">
+            <svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 24 24" fill="currentColor" stroke="currentColor" stroke-width="2"><path d="M18 8A6 6 0 0 0 6 8c0 7-3 9-3 9h18s-3-2-3-9"/><path d="M13.73 21a2 2 0 0 1-3.46 0"/></svg>
+            <span>Subscribed</span>
+          </button>
+        </div>
+        
+        <div class="match-card upcoming-match" data-match-id="2">
+          <div class="match-meta">
+            <span class="match-stage">Group B</span>
+            <span class="match-status">Today, 21:00</span>
+          </div>
+          <div class="match-teams-row">
+            <div class="team-info">
+              <span class="team-flag">🇲🇽</span>
+              <span class="team-name">Mexico</span>
+            </div>
+            <div class="match-score score-upcoming">
+              <span class="time-label">VS</span>
+            </div>
+            <div class="team-info team-away">
+              <span class="team-name">Germany</span>
+              <span class="team-flag">🇩🇪</span>
+            </div>
+          </div>
+          <button class="btn-subscribe" data-team="Mexico" title="Subscribe to Mexico live alerts">
+            <svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M18 8A6 6 0 0 0 6 8c0 7-3 9-3 9h18s-3-2-3-9"/><path d="M13.73 21a2 2 0 0 1-3.46 0"/></svg>
+            <span>Alerts</span>
+          </button>
+        </div>
+      </div>
+    </section>
+
+    <!-- Draggable Divider Handle (Resizes stacked panels in mobile view) -->
+    <div class="divider-handle" id="dividerHandle" title="Drag to resize panels">
+      <div class="divider-knob"></div>
+    </div>
+
+    <!-- Bottom Panel: News Feed (var(--news-height)) -->
+    <section class="panel panel-news" id="newsPanel">
+      <div class="panel-header">
+        <div class="title-with-search">
+          <h2 class="panel-title">World Cup Feed</h2>
+          <div class="news-search-container">
+            <svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="search-icon"><circle cx="11" cy="11" r="8"/><line x1="21" y1="21" x2="16.65" y2="16.65"/></svg>
+            <input type="text" id="newsSearch" placeholder="Search team news, injuries...">
+          </div>
+        </div>
+        
+        <!-- News Category Chips -->
+        <div class="news-categories">
+          <button class="chip active" data-category="all">All News</button>
+          <button class="chip" data-category="injury">Injuries 🩺</button>
+          <button class="chip" data-category="lineup">Squads 📋</button>
+          <button class="chip" data-category="tactics">Tactics ⚽</button>
+          <button class="chip" data-category="transfer">Transfers 🔄</button>
+          <button class="chip" data-category="press">Press Talk 🎙️</button>
+          <button class="chip" data-category="rules">Rules & VAR 📺</button>
+        </div>
+      </div>
+      
+      <!-- News Grid Container -->
+      <div class="news-grid-container" id="newsGrid">
+        <!-- News items dynamically populated. Placedholders for immediate premium view. -->
+        <article class="news-card" data-category="injury">
+          <div class="news-img-container">
+            <img src="https://images.unsplash.com/photo-1508098682722-e99c43a406b2?w=500&auto=format&fit=crop" alt="Mbappé doubtful" class="news-thumbnail" onerror="this.style.display='none'; this.nextElementSibling.style.display='flex';">
+            <div class="news-img-fallback" style="background: linear-gradient(135deg, #ef4444, #7f1d1d); display: none; width: 100%; height: 100%; align-items: center; justify-content: center;">
+              <div class="news-icon-overlay">🩺</div>
+            </div>
+          </div>
+          <div class="news-content">
+            <div class="news-meta">
+              <span class="news-tag injury-tag">Injury Report</span>
+              <span class="news-source">L'Équipe</span>
+              <span class="news-time">• 10m ago</span>
+            </div>
+            <h3 class="news-headline">Mbappé doubtful for opening match against Canada</h3>
+            <p class="news-snippet">France's talisman suffered a mild calf strain during training. The medical team is working round the clock...</p>
+          </div>
+        </article>
+
+        <article class="news-card" data-category="lineup">
+          <div class="news-img-container">
+            <img src="https://images.unsplash.com/photo-1543351611-58f69d7c1781?w=500&auto=format&fit=crop" alt="Canada lineup" class="news-thumbnail" onerror="this.style.display='none'; this.nextElementSibling.style.display='flex';">
+            <div class="news-img-fallback" style="background: linear-gradient(135deg, #3b82f6, #1e3a8a); display: none; width: 100%; height: 100%; align-items: center; justify-content: center;">
+              <div class="news-icon-overlay">📋</div>
+            </div>
+          </div>
+          <div class="news-content">
+            <div class="news-meta">
+              <span class="news-tag lineup-tag">Lineup News</span>
+              <span class="news-source">CBC Sports</span>
+              <span class="news-time">• 1h ago</span>
+            </div>
+            <h3 class="news-headline">Canada names starting XI to face France</h3>
+            <p class="news-snippet">Coach Jesse Marsch confirms a bold 4-3-3 formation featuring Alphonso Davies in a highly advanced wing role...</p>
+          </div>
+        </article>
+      </div>
+    </section>
+  </main>
+
+  <!-- Google Ads Banner (Premium Mockup Placeholder) -->
+  <footer class="ads-banner">
+    <div class="ads-container">
+      <div class="ads-badge">Sponsored</div>
+      <div class="ads-content" id="adContent">
+        <span class="ad-title">🏆 Predict & Win World Cup Glory!</span>
+        <span class="ad-desc">Join MatchDay Fantasy League. Play free, win real cash and official jerseys.</span>
+      </div>
+      <div class="ads-actions">
+        <button class="btn-ad-cta" id="adCta">Play Now</button>
+        <button class="btn-ad-close" id="adClose" title="Hide Ad">×</button>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Notification Center Panel (Translucent Sidebar Overlay) -->
+  <div class="notification-sidebar" id="notificationSidebar">
+    <div class="sidebar-header">
+      <h3>Subscription Settings</h3>
+      <button class="btn-close" id="sidebarCloseBtn">&times;</button>
+    </div>
+    <div class="sidebar-content">
+      <p class="settings-desc">Subscribe to your favorite teams to receive real-time push alerts for goals, half-times, and final results.</p>
+      
+      <div class="push-permission-card" id="pushPermissionCard">
+        <div class="perm-icon">🔔</div>
+        <div class="perm-info">
+          <h4>Enable Native Alerts</h4>
+          <p>Get instant updates in the background on your device.</p>
+        </div>
+        <button class="btn-primary-sm" id="grantPushBtn">Enable</button>
+      </div>
+
+      <div class="teams-list-header">Active Subscriptions</div>
+      <div class="subscribed-teams-list" id="subscribedTeamsList">
+        <p class="empty-state">No subscribed teams yet. Click the alerts button next to matches or subscribe below!</p>
+      </div>
+      
+      <div class="teams-list-header">All Teams</div>
+      <div class="all-teams-grid" id="allTeamsGrid">
+        <!-- Populated dynamically by JS -->
+      </div>
+    </div>
+  </div>
+  <div class="sidebar-backdrop" id="sidebarBackdrop"></div>
+
+  <!-- Detailed Match Modal -->
+  <div class="modal" id="matchModal">
+    <div class="modal-content glassmorphism">
+      <button class="modal-close" id="modalClose">&times;</button>
+      <div class="modal-header-section" id="modalHeader">
+        <!-- Dynamic content -->
+      </div>
+      <div class="modal-tabs">
+        <button class="modal-tab-btn active" data-modal-tab="timeline">Timeline</button>
+        <button class="modal-tab-btn" data-modal-tab="stats">Stats</button>
+        <button class="modal-tab-btn" data-modal-tab="lineups">Lineups</button>
+      </div>
+      <div class="modal-tab-content" id="modalTabContent">
+        <!-- Dynamic content based on active tab -->
+      </div>
+    </div>
+  </div>
+  <div class="modal-backdrop" id="modalBackdrop"></div>
+
+  <!-- Detailed News Modal -->
+  <div class="modal" id="newsModal">
+    <div class="modal-content glassmorphism">
+      <button class="modal-close" id="newsModalClose">&times;</button>
+      <div class="modal-header-section" id="newsModalHeader" style="background: linear-gradient(180deg, rgba(16, 185, 129, 0.05) 0%, transparent 100%); align-items: stretch; padding: 20px 20px 10px 20px;">
+        <!-- Dynamic header content -->
+      </div>
+      <div style="padding: 20px; overflow-y: auto; display: flex; flex-direction: column; gap: 14px; flex: 1;" id="newsModalBody">
+        <!-- Dynamic content: headline, snippet, link -->
+      </div>
+    </div>
+  </div>
+  <div class="modal-backdrop" id="newsModalBackdrop"></div>
+
+  <!-- Dynamic Notification Toast Container -->
+  <div class="toast-container" id="toastContainer"></div>
+</body>
+</html>
