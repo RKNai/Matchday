@@ -13,7 +13,7 @@ import os
 import sys
 import json
 import urllib.request
-from datetime import datetime
+from datetime import datetime, timezone, timedelta
 
 # --- Constants & Paths ---
 BASE_DIR = os.path.dirname(os.path.abspath(__file__))
@@ -131,10 +131,11 @@ def parse_fixtures():
       time_label = "Upcoming"
       if date_str:
         try:
-          # Parse date
-          dt = datetime.strptime(date_str, "%Y-%m-%d %H:%M:%SZ")
-          time_label = dt.strftime("%b %d, %H:%M UTC")
+          # Parse date as aware UTC datetime
+          dt_utc = datetime.strptime(date_str, "%Y-%m-%d %H:%M:%SZ").replace(tzinfo=timezone.utc)
+          time_label = dt_utc.strftime("%b %d, %H:%M UTC")
         except Exception:
+          dt_utc = None
           time_label = date_str
       
       # Default state: upcoming
@@ -142,6 +143,21 @@ def parse_fixtures():
       minute = 0
       events = []
       
+      # Check kickoff timing if we have dt_utc
+      is_live = False
+      is_finished = False
+      elapsed_minutes = 0
+      
+      if dt_utc:
+        now_utc = datetime.now(timezone.utc)
+        if dt_utc <= now_utc <= (dt_utc + timedelta(minutes=105)):
+          is_live = True
+          elapsed_minutes = int((now_utc - dt_utc).total_seconds() / 60)
+          if elapsed_minutes > 90:
+            elapsed_minutes = 90
+        elif now_utc > (dt_utc + timedelta(minutes=105)):
+          is_finished = True
+          
       if home_score is not None and away_score is not None:
         status = 'finished'
         home_score = int(home_score)
@@ -154,38 +170,66 @@ def parse_fixtures():
           # Home scorers
           for i in range(home_score):
             scorer = home_players[min((idx + i) % len(home_players) + 7, len(home_players)-1)]
-            minute = (idx * 17 + i * 29 + 13) % 88 + 1
-            events.append({ "minute": minute, "team": home_team, "type": "goal", "desc": f"{scorer} ⚽ (Goal!)" })
+            minute_val = (idx * 17 + i * 29 + 13) % 88 + 1
+            events.append({ "minute": minute_val, "team": home_team, "type": "goal", "desc": f"{scorer} ⚽ (Goal!)" })
           # Away scorers
           for i in range(away_score):
             scorer = away_players[min((idx + i * 19) % len(away_players) + 7, len(away_players)-1)]
-            minute = (idx * 23 + i * 31 + 8) % 88 + 1
-            events.append({ "minute": minute, "team": away_team, "type": "goal", "desc": f"{scorer} ⚽ (Goal!)" })
+            minute_val = (idx * 23 + i * 31 + 8) % 88 + 1
+            events.append({ "minute": minute_val, "team": away_team, "type": "goal", "desc": f"{scorer} ⚽ (Goal!)" })
+            
+          events.sort(key=lambda x: x["minute"])
+      elif is_live:
+        # Match is currently playing in reality!
+        status = 'live'
+        minute = elapsed_minutes
+        
+        # Procedurally simulate score updating based on elapsed minutes
+        home_score = int((match_num * 7 + elapsed_minutes * 13) % 3)
+        away_score = int((match_num * 11 + elapsed_minutes * 17) % 3)
+        
+        # Generate dynamic events matching the live minute
+        home_players = TEAM_SQUADS.get(norm_team(home_team), ["Player"])
+        away_players = TEAM_SQUADS.get(norm_team(away_team), ["Player"])
+        # Home scorers
+        for i in range(home_score):
+          scorer = home_players[min((idx + i) % len(home_players) + 7, len(home_players)-1)]
+          event_minute = min(int((idx * 17 + i * 29 + 13) % elapsed_minutes + 1), elapsed_minutes)
+          events.append({ "minute": event_minute, "team": home_team, "type": "goal", "desc": f"{scorer} ⚽ (Goal!)" })
+        # Away scorers
+        for i in range(away_score):
+          scorer = away_players[min((idx + i * 19) % len(away_players) + 7, len(away_players)-1)]
+          event_minute = min(int((idx * 23 + i * 31 + 8) % elapsed_minutes + 1), elapsed_minutes)
+          events.append({ "minute": event_minute, "team": away_team, "type": "goal", "desc": f"{scorer} ⚽ (Goal!)" })
+          
+        events.sort(key=lambda x: x["minute"])
+      elif is_finished:
+        # Match occurred in the past but feed doesn't have scores
+        status = 'finished'
+        home_score = int((match_num * 7) % 4)
+        away_score = int((match_num * 11) % 3)
+        
+        # Generate finished match scorers
+        if home_score > 0 or away_score > 0:
+          home_players = TEAM_SQUADS.get(norm_team(home_team), ["Player"])
+          away_players = TEAM_SQUADS.get(norm_team(away_team), ["Player"])
+          # Home scorers
+          for i in range(home_score):
+            scorer = home_players[min((idx + i) % len(home_players) + 7, len(home_players)-1)]
+            minute_val = (idx * 17 + i * 29 + 13) % 88 + 1
+            events.append({ "minute": minute_val, "team": home_team, "type": "goal", "desc": f"{scorer} ⚽ (Goal!)" })
+          # Away scorers
+          for i in range(away_score):
+            scorer = away_players[min((idx + i * 19) % len(away_players) + 7, len(away_players)-1)]
+            minute_val = (idx * 23 + i * 31 + 8) % 88 + 1
+            events.append({ "minute": minute_val, "team": away_team, "type": "goal", "desc": f"{scorer} ⚽ (Goal!)" })
+            
+          events.sort(key=lambda x: x["minute"])
       else:
-        # If score is None but we are simulating active live matches,
-        # let's set the opening match (Match Number 1: Mexico vs South Africa)
-        # and Match Number 3 (Canada vs Bosnia and Herzegovina) as active LIVE matches!
-        if match_num == 1:
-          status = 'live'
-          minute = 32
-          home_score = 1
-          away_score = 0
-          events = [
-            { "minute": 24, "team": "Mexico", "type": "goal", "desc": "Santiago Giménez ⚽ (Spectacular volley, Assist: Edson Álvarez)" }
-          ]
-        elif match_num == 3:
-          status = 'live'
-          minute = 76
-          home_score = 2
-          away_score = 1
-          events = [
-            { "minute": 18, "team": "Canada", "type": "goal", "desc": "Jonathan David ⚽ (Assist: Alphonso Davies)" },
-            { "minute": 44, "team": "Bosnia and Herzegovina", "type": "goal", "desc": "Edin Džeko ⚽ (Header, Assist: Amar Dedić)" },
-            { "minute": 58, "team": "Canada", "type": "goal", "desc": "Tajon Buchanan ⚽ (Assist: Stephen Eustáquio)" }
-          ]
-        else:
-          home_score = 0
-          away_score = 0
+        # Upcoming match
+        status = 'upcoming'
+        home_score = 0
+        away_score = 0
           
       # Detailed stats prediction/structure
       stats = {
