@@ -427,9 +427,9 @@ const translations = {
     latest_stories: 'Últimes notícies del Mundial',
     empty_news: 'No hi ha notícies que coincideixin amb la cerca.',
     ad_sponsored: 'Patrocinat',
-    ad_title: '🏆 ¡Prediu i Guanya la Glòria del Mundial!',
+    ad_title: '🏆 Prediu i Guanya la Glòria del Mundial!',
     ad_desc: 'Uneix-te a la Lliga Fantasy de MatchDay. Juga gratis, guanya diners reals i samarretes oficials.',
-    ad_cta: 'Jugar Ara',
+    ad_cta: 'Juga Ara',
     sidebar_title: 'Ajusts de Subscripció',
     sidebar_desc: 'Subscriu-te als teus equips preferits per rebre alertes push en temps real de gols, mitges parts i resultats finals.',
     card_native_title: 'Activar Alertes Natives',
@@ -437,12 +437,12 @@ const translations = {
     card_native_btn: 'Activar',
     sidebar_subs_header: 'Subscripcions Actives',
     sidebar_all_header: 'Tots els Equips',
-    sidebar_empty_state: 'Encara no sigues cap equip. ¡Fes clic al botó d\'alerta al costat dels partits o subscriu-te a sota!',
+    sidebar_empty_state: 'Encara no segueixes cap equip. Fes clic al botó d\'alerta al costat dels partits o subscriu-te a sota!',
     modal_timeline: 'Línia de temps',
     modal_stats: 'Estadístiques',
     modal_lineups: 'Alineacions',
     modal_empty_timeline_upcoming: 'Aquest partit encara no ha començat. El minut a minut s\'actualitzarà en viu després del xiulet inicial.',
-    modal_empty_timeline_live: '¡Ha començat el partit! Encara no s\'han produït esdeveniments importants.',
+    modal_empty_timeline_live: 'Ha començat el partit! Encara no s\'han produït esdeveniments importants.',
     modal_squad_title: 'Plantilla',
     modal_status_live: 'EN VIU',
     modal_status_fulltime: 'RESULTAT FINAL',
@@ -496,10 +496,14 @@ function applyTranslations() {
   const langFlags = {
     en: '🇬🇧',
     es: '🇪🇸',
-    ca: '🏴󠁡󠁲󠁣󠁡󠁴󠁿'
+    ca: `<svg class="flag-icon" viewBox="0 0 15 9" width="18" height="12" style="border-radius: 2px; vertical-align: middle; display: inline-block; box-shadow: 0 1px 3px rgba(0,0,0,0.3); border: 1px solid rgba(255,255,255,0.1);"><rect width="15" height="9" fill="#ffcc00"/><rect y="1" width="15" height="1" fill="#e30013"/><rect y="3" width="15" height="1" fill="#e30013"/><rect y="5" width="15" height="1" fill="#e30013"/><rect y="7" width="15" height="1" fill="#e30013"/></svg>`
   };
   if (DOM.langFlag) {
-    DOM.langFlag.textContent = langFlags[lang] || '🇬🇧';
+    if (lang === 'ca') {
+      DOM.langFlag.innerHTML = langFlags.ca;
+    } else {
+      DOM.langFlag.innerHTML = langFlags[lang] || '🇬🇧';
+    }
   }
   
   document.querySelectorAll('[data-i18n]').forEach((el) => {

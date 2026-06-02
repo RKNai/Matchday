@@ -25,6 +25,12 @@ BASE_DIR = os.path.dirname(os.path.abspath(__file__))
 DATA_DIR = os.path.join(BASE_DIR, 'data')
 NEWS_JSON_PATH = os.path.join(DATA_DIR, 'news.json')
 
+def make_keyword_regex(keywords):
+  chars = r"a-zA-Z0-9áéíóúüñçàèòíïòúü·"
+  pattern = "|".join(re.escape(kw) for kw in keywords)
+  return re.compile(rf"(?<![{chars}])({pattern})(?![{chars}])", re.IGNORECASE)
+
+
 # Feeds organized by language code
 FEEDS = {
   "en": {
@@ -80,6 +86,37 @@ def parse_news():
   all_articles = []
   seen_titles = set()
   
+  # Injury keywords
+  injury_kws = ['injury', 'hurt', 'calf', 'strain', 'tear', 'doubtful', 'out for', 'medical', 'fitness', 'knee', 'hamstring', 'ankle', 'scan', 'broken', 'fracture',
+                'lesión', 'lesion', 'herido', 'duda', 'baja', 'médico', 'medico', 'físico', 'fisico', 'rodilla', 'tobillo', 'fractura', 'rotura', 'esguince',
+                'lesió', 'lesio', 'ferit', 'dubte', 'baixa', 'mèdic', 'medic', 'físic', 'fisic', 'genoll', 'turmell', 'trencament', 'esquinç']
+  
+  # Lineup keywords
+  lineup_kws = ['lineup', 'squad', 'xi', 'confirmed', 'starting', 'squads', 'roster', 'selection', 'bench', 'cap', 'call-up', 'call up',
+                'alineación', 'alineacion', 'once', 'convocatoria', 'convocados', 'plantilla', 'titular', 'suplente', 'banquillo',
+                'alineació', 'alineacio', 'onze', 'convocatòria', 'convocatoria', 'convocats', 'suplent', 'banqueta']
+  
+  # Transfer keywords
+  transfer_kws = ['transfer', 'sign', 'loan', 'deal', 'contract', 'sell', 'buy', 'bid', 'rumour', 'gossip', 'market', 'fee', 'release clause',
+                  'fichaje', 'ficha', 'traspaso', 'cesión', 'cesion', 'contrato', 'vende', 'compra', 'rumor', 'mercado', 'cláusula', 'clausula',
+                  'fitxatge', 'traspàs', 'traspas', 'cessió', 'cessio', 'contracte', 'ven', 'mercat', 'clàusula', 'clausula']
+  
+  # Press keywords
+  press_kws = ['say', 'confirm', 'admit', 'declare', 'interview', 'press', 'conference', 'quote', 'warn', 'claim', 'state', 'manager', 'coach', 'boss',
+               'dice', 'declara', 'entrevista', 'prensa', 'conferencia', 'rueda', 'entrenador', 'míster', 'mister', 'afirma', 'asegura',
+               'diu', 'premsa', 'conferència', 'conferencia', 'roda', 'tècnic', 'tecnic', 'assegura']
+  
+  # Rules / VAR keywords
+  rules_kws = ['var', 'referee', 'rule', 'decision', 'offside', 'penalty', 'red card', 'card', 'ban', 'suspend', 'appeal', 'fa', 'fifa', 'ifab',
+               'árbitro', 'arbitro', 'regla', 'decisión', 'decision', 'fuera de juego', 'penalti', 'tarjeta', 'roja', 'sanción', 'sancion',
+               'àrbitre', 'arbitre', 'regisió', 'decisió', 'decisio', 'fora de joc', 'penals', 'targeta', 'vermella', 'sanció', 'sancio']
+
+  injury_rx = make_keyword_regex(injury_kws)
+  lineup_rx = make_keyword_regex(lineup_kws)
+  transfer_rx = make_keyword_regex(transfer_kws)
+  press_rx = make_keyword_regex(press_kws)
+  rules_rx = make_keyword_regex(rules_kws)
+  
   # Fetch and parse all feeds for all languages
   for lang, feeds in FEEDS.items():
     for source_name, url in feeds.items():
@@ -105,6 +142,10 @@ def parse_news():
           link_el = item.find('link')
           link = link_el.text if link_el is not None and link_el.text is not None else ""
           
+          # Filter out non-sports articles from ARA Esports feed (which mixes in general/political news)
+          if source_name == "ARA Esports" and "/esports/" not in link:
+            continue
+            
           pub_date_el = item.find('pubDate')
           pub_date = pub_date_el.text if pub_date_el is not None and pub_date_el.text is not None else ""
           
@@ -165,48 +206,23 @@ def parse_news():
           color = 'linear-gradient(135deg, #f59e0b, #78350f)'
           overlay = '⚽'
           
-          # Injury keywords
-          injury_kws = ['injury', 'hurt', 'calf', 'strain', 'tear', 'doubtful', 'out for', 'medical', 'fitness', 'knee', 'hamstring', 'ankle', 'scan', 'broken', 'fracture',
-                        'lesión', 'lesion', 'herido', 'duda', 'baja', 'médico', 'medico', 'físico', 'fisico', 'rodilla', 'tobillo', 'fractura', 'rotura', 'esguince',
-                        'lesió', 'lesio', 'ferit', 'dubte', 'baixa', 'mèdic', 'medic', 'físic', 'fisic', 'genoll', 'turmell', 'trencament', 'esquinç']
-          
-          # Lineup keywords
-          lineup_kws = ['lineup', 'squad', 'xi', 'confirmed', 'starting', 'squads', 'roster', 'selection', 'bench', 'cap', 'call-up', 'call up',
-                        'alineación', 'alineacion', 'once', 'convocatoria', 'convocados', 'plantilla', 'titular', 'suplente', 'banquillo',
-                        'alineació', 'alineacio', 'onze', 'convocatòria', 'convocatoria', 'convocats', 'suplent', 'banqueta']
-          
-          # Transfer keywords
-          transfer_kws = ['transfer', 'sign', 'loan', 'deal', 'contract', 'sell', 'buy', 'bid', 'rumour', 'gossip', 'market', 'fee', 'release clause',
-                          'fichaje', 'ficha', 'traspaso', 'cesión', 'cesion', 'contrato', 'vende', 'compra', 'rumor', 'mercado', 'cláusula', 'clausula',
-                          'fitxatge', 'traspàs', 'traspas', 'cessió', 'cessio', 'contracte', 'ven', 'mercat', 'clàusula', 'clausula']
-          
-          # Press keywords
-          press_kws = ['say', 'confirm', 'admit', 'declare', 'interview', 'press', 'conference', 'quote', 'warn', 'claim', 'state', 'manager', 'coach', 'boss',
-                       'dice', 'declara', 'entrevista', 'prensa', 'conferencia', 'rueda', 'entrenador', 'míster', 'mister', 'afirma', 'asegura',
-                       'diu', 'premsa', 'conferència', 'conferencia', 'roda', 'tècnic', 'tecnic', 'assegura']
-          
-          # Rules / VAR keywords
-          rules_kws = ['var', 'referee', 'rule', 'decision', 'offside', 'penalty', 'red card', 'card', 'ban', 'suspend', 'appeal', 'fa', 'fifa', 'ifab',
-                       'árbitro', 'arbitro', 'regla', 'decisión', 'decision', 'fuera de juego', 'penalti', 'tarjeta', 'roja', 'sanción', 'sancion',
-                       'àrbitre', 'arbitre', 'regisió', 'decisió', 'decisio', 'fora de joc', 'penals', 'targeta', 'vermella', 'sanció', 'sancio']
-          
-          if any(kw in title_lower for kw in injury_kws):
+          if injury_rx.search(title_lower):
             category = 'injury'
             color = 'linear-gradient(135deg, #ef4444, #7f1d1d)'
             overlay = '🩺'
-          elif any(kw in title_lower for kw in lineup_kws):
+          elif lineup_rx.search(title_lower):
             category = 'lineup'
             color = 'linear-gradient(135deg, #3b82f6, #1e3a8a)'
             overlay = '📋'
-          elif any(kw in title_lower for kw in transfer_kws):
+          elif transfer_rx.search(title_lower):
             category = 'transfer'
             color = 'linear-gradient(135deg, #a855f7, #581c87)'
             overlay = '🔄'
-          elif any(kw in title_lower for kw in press_kws):
+          elif press_rx.search(title_lower):
             category = 'press'
             color = 'linear-gradient(135deg, #0d9488, #115e59)'
             overlay = '🎙️'
-          elif any(kw in title_lower for kw in rules_kws):
+          elif rules_rx.search(title_lower):
             category = 'rules'
             color = 'linear-gradient(135deg, #64748b, #334155)'
             overlay = '📺'
