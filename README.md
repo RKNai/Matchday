@@ -1,0 +1,131 @@
+# MatchDay 🏆 — FIFA World Cup 2026 Live PWA
+
+MatchDay is a premium, zero-dependency, progressive web app (PWA) designed to track the FIFA World Cup 2026. Built with standard HTML5, modern responsive vanilla CSS Grid/Flexbox, and a custom JavaScript state engine, it achieves instant load times, seamless vertical/horizontal resizing, offline functionality, and real-time live tickers.
+
+---
+
+## 🌟 Key Features
+
+### 1. Draggable Split-Screen Layout
+* **Mobile Stacked Resize**: Drag the partition divider vertically to adjust the height ratio of the matches panel and the news feed.
+* **Desktop Grid Columns**: Automatically shifts to a side-by-side layout, swapping the divider to horizontal resizing coordinates.
+* **Layout Presets**: Double-click or double-tap the resizer knob to cycle snaps through layout presets (even split, maximize matches, or maximize news).
+
+### 2. Live World Cup Simulation Engine
+* **Real-time Live Ticker**: Simulates live tournament progression with matching broadcast tickers.
+* **Dynamic Matches Ticker**: Periodically triggers goals, yellow cards, and final whistles, flashing team scores in gold during matches.
+* **Broadcast Light Dot**: Active live matches display a soft red pulsing animation (`@keyframes match-pulse-red`) showing live telemetry status.
+
+### 3. Integrated Football Scraping Engine
+* **Fixture Tracker (`scrape_matches.py`)**: A lightweight script running in python standard library to pull real tournament schedules, match numbers, stage headers, and flags.
+* **Football News (`scrape_news.py`)**: A news scraper pointing to Sky Sports Football category RSS. It uses regular expressions to clean up HTML-tagged metadata and unescapes entities to output clean, structured summaries.
+* **6-Way Data Categorization**: News items are parsed, sorted chronological-first, and categorized:
+  1. **Injuries** (`injury`): 🩺 (Red tag)
+  2. **Squads & Lineups** (`lineup`): 📋 (Blue tag)
+  3. **Tactics & Previews** (`tactics`): ⚽ (Orange tag)
+  4. **Transfers & Rumours** (`transfer`): 🔄 (Purple tag)
+  5. **Press Talk & Quotes** (`press`): 🎙️ (Teal tag)
+  6. **Rules & VAR** (`rules`): 📺 (Slate tag)
+
+### 4. Push Alerts & Subscriptions Drawer
+* **Local Storage Integration**: Subscribe to favorite teams to receive real-time notifications for kickoff, goals, and full-time scores (features backward compatibility for previous app versions).
+* **Sidebar Hub Drawer**: A glassmorphic drawer containing native alerts toggle and a searchable index of all active teams.
+* **Multi-Layer Push Alerts**:
+  * **In-App Toast**: neon bell banner alerts sliding in with screen vibrators.
+  * **Native Web Push**: Triggers system-level background notifications through Service Worker sync listeners if granted.
+
+### 5. Detailed Translucent Overlay Modals
+* **Match Detail Card**: Dynamic scale animation overlay containing tab sheets for match events timeline, colored statistics charts, and starting squad sheets.
+* **News Details Card**: Popups displaying high-res article covers, publisher branding, relative time elapsed, news tag, full snippets, and a "Read Full Story ↗" redirect button.
+
+---
+
+## 📁 File Structure
+
+```bash
+├── index.html          # Semantic HTML structure, layouts, drawer, and modal frameworks
+├── style.css           # Glassmorphic tokens, CSS grid, custom scrollbars, animations
+├── app.js              # Resizer listeners, simulated game engine, alerts state, and modal loaders
+├── sw.js               # Service Worker precaching app shell & handling background push events
+├── manifest.json       # PWA properties, maskable icons, and mobile shortcut entrypoints
+├── scrape_matches.py   # Tournament live fixture schedule python scraper
+├── scrape_news.py      # Real-time Sky Sports RSS news parser & tag classifier
+├── assets/
+│   ├── logo.png        # Clean black and white minimalist app logo
+│   ├── icon-192.png    # Maskable PWA icon (192x192)
+│   └── icon-512.png    # Maskable PWA icon (512x512)
+└── data/
+    ├── matches.json    # Active fixtures scraper cache
+    └── news.json       # Categorized news scraper cache
+```
+
+---
+
+## 🚀 Getting Started Locally
+
+### 1. Clone the repository
+```bash
+git clone https://github.com/RKNai/Matchday.git
+cd Matchday
+```
+
+### 2. Populate Scraper Cache Feeds
+Run the built-in scrapers to pull active live fixtures and breaking football stories:
+```bash
+# Scrapes schedule fixtures
+python3 scrape_matches.py
+
+# Scrapes current football news and categorizes them
+python3 scrape_news.py
+```
+
+### 3. Spin Up Local Server
+Start a lightweight web server to serve static assets and test PWA functions:
+```bash
+python3 -m http.server 8080
+```
+Open your browser and navigate to `http://localhost:8080` to experience the app!
+
+---
+
+## ☁️ Automating the Scrapers (Serverless Hosting)
+
+To run this app on your own domain with completely automated data updates, you can use a free host (like **GitHub Pages**, **Vercel**, or **Cloudflare Pages**) and automate the Python scrapers using **GitHub Actions**.
+
+Create a workflow file in your repo `.github/workflows/scraper.yml`:
+
+```yaml
+name: Matchday Ticker Scraper
+
+on:
+  schedule:
+    - cron: '*/10 * * * *' # Runs every 10 minutes to sync live data
+  workflow_dispatch:      # Allows manual trigger
+
+jobs:
+  update-feed:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout Code
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.10'
+
+      - name: Scrape Matches
+        run: python scrape_matches.py
+
+      - name: Scrape News
+        run: python scrape_news.py
+
+      - name: Push Data Update
+        run: |
+          git config --global user.name "Matchday Bot"
+          git config --global user.email "bot@matchday.com"
+          git add data/
+          git diff-index --quiet HEAD || git commit -m "Sync scores and news feeds [skip ci]"
+          git push
+```
+Your hosting provider will detect the commit update and serve the new `matches.json` and `news.json` files automatically to your users.
