@@ -94,18 +94,21 @@ Open your browser and navigate to `http://localhost:8080` to experience the app!
 
 ---
 
-## ☁️ Automating the Scrapers (Serverless Hosting)
+## ☁️ Automating the Scrapers
 
-To run this app on your own domain with completely automated data updates, you can use a free host (like **GitHub Pages**, **Vercel**, or **Cloudflare Pages**) and automate the Python scrapers using **GitHub Actions**.
+To keep the tournament data and news feed updated automatically, you have two primary deployment patterns:
 
-Create a workflow file in your repo `.github/workflows/scraper.yml`:
+### Option 1: Serverless Actions Scheduler (Every 10+ Minutes)
+For serverless hosting (e.g. GitHub Pages, Vercel, Cloudflare Pages), you can automate the updates using a GitHub Actions runner that commits the updated JSON files back to the repository.
+
+Create a workflow file in your repo at `.github/workflows/scraper.yml`:
 
 ```yaml
 name: Matchday Ticker Scraper
 
 on:
   schedule:
-    - cron: '*/10 * * * *' # Runs every 10 minutes to sync live data
+    - cron: '*/10 * * * *' # Runs every 10 minutes
   workflow_dispatch:      # Allows manual trigger
 
 jobs:
@@ -134,4 +137,39 @@ jobs:
           git diff-index --quiet HEAD || git commit -m "Sync scores and news feeds [skip ci]"
           git push
 ```
-Your hosting provider will detect the commit update and serve the new `matches.json` and `news.json` files automatically to your users.
+
+### Option 2: Cloud VM Loop Daemon (Real-Time 10-Second Updates)
+For dedicated cloud servers (e.g. AWS EC2, DigitalOcean, Google Compute Engine) where real-time, low-latency match results are desired, run the scraper as a daemon process.
+
+We have included a wrapper script and Systemd service template for this purpose:
+1. **Daemon Runner Script (`run_daemon.sh`)**: Executes `scrape_matches.py --loop` in a durable loop. In case of network interruptions or sudden crashes, it will pause for 5 seconds and automatically restart.
+2. **Systemd Configuration (`matchday-scraper.service`)**: Daemonizes the scraper runner to start automatically on system boot and restart on failure.
+
+#### Deployment Steps on the VM:
+1. Pull the latest code on your VM:
+   ```bash
+   git pull origin main
+   ```
+2. Mark the wrapper script as executable:
+   ```bash
+   chmod +x run_daemon.sh
+   ```
+3. Copy the systemd service template:
+   ```bash
+   sudo cp matchday-scraper.service /etc/systemd/system/matchday-scraper.service
+   ```
+4. Edit `/etc/systemd/system/matchday-scraper.service` to verify `User` (default: `ubuntu`) and `WorkingDirectory` (default: `/home/ubuntu/Matchday`) match your VM user and clone path:
+   ```bash
+   sudo nano /etc/systemd/system/matchday-scraper.service
+   ```
+5. Enable and start the service:
+   ```bash
+   sudo systemctl daemon-reload
+   sudo systemctl enable matchday-scraper.service
+   sudo systemctl start matchday-scraper.service
+   ```
+6. Verify the status and view live telemetry:
+   ```bash
+   sudo systemctl status matchday-scraper.service
+   journalctl -u matchday-scraper.service -f
+   ```
