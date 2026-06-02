@@ -87,35 +87,21 @@
     "category": "transfer",
     "title": "Juventus interested in signing either Martinez or Vicario",
     "snippet": "Juventus are interested in signing either Emi Martinez from Aston Villa or Tottenham's Guglielmo Vicario, according to Sky in Italy.",
-    "time": "Just now",
+    "time": "7m ago",
     "timestamp": 1780393440,
     "color": "linear-gradient(135deg, #a855f7, #581c87)",
     "overlay": "🔄",
     "link": "https://www.skysports.com/football/news/11095/13550038/juventus-transfer-news-aston-villas-emi-martinez-and-tottenhams-guglielmo-vicario-emerge-as-goalkeeper-targets-for-italian-giants",
-    "image": "https://e1.365dm.com/26/03/1920x1080/skysports-emiliano-martinez_7197815.jpg?20260319213436",
+    "image": "https://e2.365dm.com/26/06/1920x1080/skysports-aston-villa-tottenham_7263541.jpg?20260602103440",
     "source": "Sky Sports",
     "lang": "en",
     "id": 206
   },
   {
-    "category": "press",
-    "title": "Liverpool in advanced talks with Iraola",
-    "snippet": "Liverpool are in advanced talks with Andoni Iraola as they look to appoint a new head coach following the sacking of Arne Slot.",
-    "time": "6m ago",
-    "timestamp": 1780392713,
-    "color": "linear-gradient(135deg, #0d9488, #115e59)",
-    "overlay": "🎙️",
-    "link": "https://www.bbc.com/sport/football/articles/c4gv1ydm4yro?at_medium=RSS&at_campaign=rss",
-    "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/cf3d/live/a47d3130-5e62-11f1-9e22-3514086b3d4d.jpg",
-    "source": "BBC Sport",
-    "lang": "en",
-    "id": 207
-  },
-  {
     "category": "tactics",
     "title": "Everton revive interest in Boro midfielder Hackney",
     "snippet": "Everton have revived their long-term interest in Middlesbrough's Hayden Hackney.",
-    "time": "8m ago",
+    "time": "21m ago",
     "timestamp": 1780392600,
     "color": "linear-gradient(135deg, #f59e0b, #78350f)",
     "overlay": "⚽",
@@ -123,13 +109,13 @@
     "image": "https://e2.365dm.com/26/06/1920x1080/skysports-hayden-hackney-middlesbrough_7263485.jpg?20260602093435",
     "source": "Sky Sports",
     "lang": "en",
-    "id": 208
+    "id": 207
   },
   {
     "category": "injury",
     "title": "Eckert given Saints' owner's backing as head coach apologises for Spygate scandal",
     "snippet": "Tonda Eckert has taken full responsibility \"for everything that happened\" in the  Spygate scandal, apologising to players, staff and supporters - but he will remain as Southampton head coach after recieving back from chairman Dragon Solak.",
-    "time": "10m ago",
+    "time": "23m ago",
     "timestamp": 1780392480,
     "color": "linear-gradient(135deg, #ef4444, #7f1d1d)",
     "overlay": "🩺",
@@ -137,13 +123,13 @@
     "image": "https://e1.365dm.com/26/05/1920x1080/skysports-tonda-eckert-southampton_7254557.jpg?20260521084108",
     "source": "Sky Sports",
     "lang": "en",
-    "id": 209
+    "id": 208
   },
   {
     "category": "tactics",
     "title": "EFL latest: Eckert and Southampton chairman speak out on Spygate",
     "snippet": "",
-    "time": "17m ago",
+    "time": "30m ago",
     "timestamp": 1780392060,
     "color": "linear-gradient(135deg, #f59e0b, #78350f)",
     "overlay": "⚽",
@@ -151,27 +137,13 @@
     "image": "https://e0.365dm.com/26/05/1920x1080/skysports-eckert-southampton_7241771.jpg?20260507202456",
     "source": "Sky Sports",
     "lang": "en",
-    "id": 210
-  },
-  {
-    "category": "press",
-    "title": "Southampton owner will not sack Eckert over Spygate",
-    "snippet": "Southampton owner Dragan Solak tells BBC Sport he will not sack Tonda Eckert, despite the \"mistake\" the head coach made when authorising a spying campaign against rival Championship clubs.",
-    "time": "24m ago",
-    "timestamp": 1780391618,
-    "color": "linear-gradient(135deg, #0d9488, #115e59)",
-    "overlay": "🎙️",
-    "link": "https://www.bbc.com/sport/football/articles/cq6pn58pmn4o?at_medium=RSS&at_campaign=rss",
-    "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/a105/live/5b7826b0-5e0e-11f1-aa91-39dc088af21e.jpg",
-    "source": "BBC Sport",
-    "lang": "en",
-    "id": 211
+    "id": 209
   },
   {
     "category": "transfer",
     "title": "Brighton latest: Seagulls make contact over signing of two wingers",
     "snippet": "",
-    "time": "25m ago",
+    "time": "38m ago",
     "timestamp": 1780391580,
     "color": "linear-gradient(135deg, #a855f7, #581c87)",
     "overlay": "🔄",
@@ -179,33 +151,61 @@
     "image": "https://e2.365dm.com/25/10/1920x1080/skysports-brighton-news-club_7039246.jpg?20251002155936",
     "source": "Sky Sports",
     "lang": "en",
+    "id": 210
+  },
+  {
+    "category": "tactics",
+    "title": "England set for first World Cup training session after arriving in Florida",
+    "snippet": "",
+    "time": "1h ago",
+    "timestamp": 1780388700,
+    "color": "linear-gradient(135deg, #f59e0b, #78350f)",
+    "overlay": "⚽",
+    "link": "https://www.skysports.com/football/live-blog/11095/13427059/england-football-news-live-updates-schedule-and-analysis-of-thomas-tuchels-three-lions",
+    "image": "https://e2.365dm.com/26/05/1920x1080/skysports-world-cup-england_7255431.jpg?20260522080147",
+    "source": "Sky Sports",
+    "lang": "en",
+    "id": 211
+  },
+  {
+    "category": "press",
+    "title": "Man City latest: I’ll only think about my future after World Cup, says Rodri",
+    "snippet": "",
+    "time": "2h ago",
+    "timestamp": 1780384980,
+    "color": "linear-gradient(135deg, #0d9488, #115e59)",
+    "overlay": "🎙️",
+    "link": "https://www.skysports.com/football/live-blog/11095/13025499/man-city-transfer-news-rumours-and-gossip-live-updates-and-latest-on-deals-signings-loans-and-contracts",
+    "image": "https://e1.365dm.com/26/02/1920x1080/skysports-rodri-man-city_7153320.jpg?20260309153747",
+    "source": "Sky Sports",
+    "lang": "en",
     "id": 212
   },
   {
-    "category": "injury",
-    "title": "Gilmour admits struggle as World Cup dream taken away",
-    "snippet": "Billy Gilmour admits \"it's been a tough one to get my head around\" after the Napoli midfielder was forced to drop out of Scotland's World Cup squad through injury.",
-    "time": "43m ago",
-    "timestamp": 1780390480,
-    "color": "linear-gradient(135deg, #ef4444, #7f1d1d)",
-    "overlay": "🩺",
-    "link": "https://www.bbc.com/sport/football/articles/cgqpwj0n49qo?at_medium=RSS&at_campaign=rss",
-    "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/688d/live/6ad632d0-5e60-11f1-ab70-0bc47e9bde03.jpg",
-    "source": "BBC Sport",
+    "category": "transfer",
+    "title": "Papers: Cucurella wanted by Barcelona & Real Madrid",
+    "snippet": "The top stories and transfer rumours from Tuesday's newspapers...",
+    "time": "13h ago",
+    "timestamp": 1780344000,
+    "color": "linear-gradient(135deg, #a855f7, #581c87)",
+    "overlay": "🔄",
+    "link": "https://www.skysports.com/football/news/11095/13549945/marc-cucurella-wants-a-return-to-spain-with-real-madrid-and-barcelona-interested-paper-talk",
+    "image": "https://e1.365dm.com/25/03/1920x1080/skysports-paper-talk-brand-refresh_6852897.jpg?20250311094415",
+    "source": "Sky Sports",
     "lang": "en",
     "id": 213
   },
   {
-    "category": "press",
-    "title": "Former chairman Milne leaves Aberdeen board",
-    "snippet": "Former Aberdeen chairman and current non-executive director Stewart Milne is leaving the Scottish Premiership club's board of directors after 32 years saying it is time to introduce \"fresh blood\".",
-    "time": "1h ago",
-    "timestamp": 1780388863,
-    "color": "linear-gradient(135deg, #0d9488, #115e59)",
-    "overlay": "🎙️",
-    "link": "https://www.bbc.com/sport/football/articles/c759p92l4wwo?at_medium=RSS&at_campaign=rss",
-    "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/c60a/live/86590860-5e5c-11f1-a8d1-c3a6936cb189.jpg",
-    "source": "BBC Sport",
+    "category": "transfer",
+    "title": "Transfer Centre LIVE! Latest on Diomande, Ederson, Cucurella and more",
+    "snippet": "",
+    "time": "17h ago",
+    "timestamp": 1780330140,
+    "color": "linear-gradient(135deg, #a855f7, #581c87)",
+    "overlay": "🔄",
+    "link": "https://www.skysports.com/football/live-blog/11095/12476234/transfer-centre-live-football-transfer-news-updates-and-rumours",
+    "image": "https://e2.365dm.com/26/06/1920x1080/skysports-transfer-centre-tc_7263111.jpg?20260601165546",
+    "source": "Sky Sports",
     "lang": "en",
     "id": 214
   },
@@ -241,7 +241,7 @@
     "category": "press",
     "title": "Osasuna maneja la opción Pepelu",
     "snippet": "El equipo navarro, en plana búsqueda de entrenador, tantea al pivote del Valencia",
-    "time": "1h ago",
+    "time": "2h ago",
     "timestamp": 1780386658,
     "color": "linear-gradient(135deg, #0d9488, #115e59)",
     "overlay": "🎙️",
@@ -255,7 +255,7 @@
     "category": "tactics",
     "title": "Semenyo e Iñaki Williams, estrellas en la lista de Ghana",
     "snippet": "Thomas Partey (Villarreal), Abdul Mumin (Rayo) y Kwasi Sibo (Real Oviedo) también viajan al Mundial con Queiroz al frente del equipo",
-    "time": "1h ago",
+    "time": "2h ago",
     "timestamp": 1780386579,
     "color": "linear-gradient(135deg, #f59e0b, #78350f)",
     "overlay": "⚽",
@@ -269,7 +269,7 @@
     "category": "tactics",
     "title": "Uriarte, como su referente Marc Márquez: \"Tengo mucho que aprender de él\"",
     "snippet": "Se estrenó en Mugello, como el 93 en 2010 y con Alzamora al lado",
-    "time": "1h ago",
+    "time": "2h ago",
     "timestamp": 1780386541,
     "color": "linear-gradient(135deg, #f59e0b, #78350f)",
     "overlay": "⚽",
@@ -283,7 +283,7 @@
     "category": "transfer",
     "title": "El gran deseo de Beckham<br>",
     "snippet": "Sigue en directo todas las novedades del mercado",
-    "time": "1h ago",
+    "time": "2h ago",
     "timestamp": 1780386416,
     "color": "linear-gradient(135deg, #a855f7, #581c87)",
     "overlay": "🔄",
@@ -297,7 +297,7 @@
     "category": "tactics",
     "title": "Jesús Casas: \"Para Irak, el fútbol fue esperanza en un país marcado por la guerra\"",
     "snippet": "El madrileño fue el seleccionador del rival de España este jueves entre 2023 y 2025",
-    "time": "1h ago",
+    "time": "2h ago",
     "timestamp": 1780386159,
     "color": "linear-gradient(135deg, #f59e0b, #78350f)",
     "overlay": "⚽",
@@ -420,6 +420,20 @@
     "id": 229
   },
   {
+    "category": "rules",
+    "title": "Enrique Riquelme acusa Florentino Pérez de «finançar el Barça»",
+    "snippet": "El candidat a la presidència del Reial Madrid ha criticat Florentino per voler \"privatitzar el club\" i ha acusat el Barça de rebre \"favors arbitrals\"",
+    "time": "4m ago",
+    "timestamp": 1780393615,
+    "color": "linear-gradient(135deg, #64748b, #334155)",
+    "overlay": "📺",
+    "link": "https://naciodigital.cat/esports/enrique-riquelme-acusa-florentino-perez-de-financar-el-barca.html",
+    "image": "https://d5r1tkwwv7d5g.cloudfront.net/articulos/articulos-721077.jpg",
+    "source": "Nació Digital",
+    "lang": "ca",
+    "id": 230
+  },
+  {
     "category": "lineup",
     "title": "73 míssils i 656 drons: Putin compleix l’amenaça i llança un atac massiu contra Ucraïna",
     "snippet": "Feia dies que Volodímir Zelenski alertava d’un bombardeig a gran escala imminent contra Ucraïna i finalment ha arribat. Almenys disset persones han mort i més d’un centenar han resultat ferides en un atac nocturn contra algunes de les principals ciutats del país, especialment la capital, Kíiv, i Dnipró, a l'est. Rússia ha llançat 73 míssils, en un dels atacs més intensos de l'últim any en una sola nit, a més de 656 drons. Vladímir Putin havia promès que respondria amb contundència i de manera sistemàtica a la matança de 21 joves en un col·legi universitari de Luhansk, al Donbàs ocupat, fa dues setmanes.",
@@ -431,7 +445,7 @@
     "image": "https://static1.ara.cat/clip/58bd28b2-cb23-4533-a31a-b4637065008e_16-9-aspect-ratio_default_0.jpg",
     "source": "ARA Esports",
     "lang": "ca",
-    "id": 230
+    "id": 231
   },
   {
     "category": "lineup",
@@ -445,7 +459,7 @@
     "image": "https://static1.ara.cat/clip/720f2f81-847d-4336-b796-1203b5dfb9f6_16-9-aspect-ratio_default_0.jpg",
     "source": "ARA Esports",
     "lang": "ca",
-    "id": 231
+    "id": 232
   },
   {
     "category": "transfer",
@@ -459,7 +473,7 @@
     "image": "https://static1.ara.cat/clip/a23939a4-75ac-47bf-89f2-7cc581da4ef3_16-9-aspect-ratio_default_0.jpg",
     "source": "ARA Esports",
     "lang": "ca",
-    "id": 232
+    "id": 233
   },
   {
     "category": "lineup",
@@ -473,7 +487,7 @@
     "image": "https://static1.ara.cat/clip/89d8895d-164e-445a-a21a-5ee310c209d4_16-9-aspect-ratio_default_0.jpg",
     "source": "ARA Esports",
     "lang": "ca",
-    "id": 233
+    "id": 234
   },
   {
     "category": "rules",
@@ -487,7 +501,7 @@
     "image": "https://static1.ara.cat/clip/f52cb8d0-49a3-4245-9728-1553cea7fb7c_16-9-aspect-ratio_default_0.jpg",
     "source": "ARA Esports",
     "lang": "ca",
-    "id": 234
+    "id": 235
   },
   {
     "category": "lineup",
@@ -501,7 +515,7 @@
     "image": "https://static1.ara.cat/clip/1ca5893e-227c-4451-89b1-260098f06802_source-aspect-ratio_default_0.jpg",
     "source": "ARA Esports",
     "lang": "ca",
-    "id": 235
+    "id": 236
   },
   {
     "category": "rules",
@@ -515,13 +529,13 @@
     "image": "https://static1.ara.cat/clip/3ec4a18d-113d-43d6-bcff-ce9cb01b8ed0_16-9-aspect-ratio_default_0.jpg",
     "source": "ARA Esports",
     "lang": "ca",
-    "id": 236
+    "id": 237
   },
   {
     "category": "tactics",
     "title": "Barcelona ret un homenatge a Samaranch reobrint el debat sobre si hauria de tenir un carrer",
     "snippet": "16 anys després de la seva mort, Barcelona retrà aquest dimarts un homenatge a Juan Antonio Samaranch, el barceloní que més poder va arribar a tenir en l'esport mundial. Una figura que va canviar l'olimpisme de dalt a baix i va ser clau a l'hora de portar els Jocs Olímpics del 1992 a una ciutat amb la qual sempre va mantenir una relació estranya. Estimat per molts i criticat per altres especialment per la seva militància franquista, Samaranch va convertir-se el 1980 en el president del Comitè Olímpic Internacional, iniciant la tasca de modernització del moviment olímpic a la qual va dedicar tota la vida.",
-    "time": "14h ago",
+    "time": "15h ago",
     "timestamp": 1780339858,
     "color": "linear-gradient(135deg, #f59e0b, #78350f)",
     "overlay": "⚽",
@@ -529,7 +543,7 @@
     "image": "https://static1.ara.cat/clip/964d39cd-e7d3-48db-a367-ccd74bfeb67f_16-9-aspect-ratio_default_0.jpg",
     "source": "ARA Esports",
     "lang": "ca",
-    "id": 237
+    "id": 238
   },
   {
     "category": "lineup",
@@ -543,7 +557,7 @@
     "image": "https://static1.ara.cat/clip/b055a3b9-8571-40ce-a99e-d7a8bc2a3740_16-9-aspect-ratio_default_0.jpg",
     "source": "ARA Esports",
     "lang": "ca",
-    "id": 238
+    "id": 239
   },
   {
     "category": "lineup",
@@ -557,7 +571,7 @@
     "image": "https://images.unsplash.com/photo-1518063319789-7217e6706b04?w=500&auto=format&fit=crop",
     "source": "ARA Esports",
     "lang": "ca",
-    "id": 239
+    "id": 240
   },
   {
     "category": "injury",
@@ -571,7 +585,7 @@
     "image": "https://static1.ara.cat/clip/3899cd1f-d8dc-4683-970a-906de7b27270_16-9-aspect-ratio_default_0.jpg",
     "source": "ARA Esports",
     "lang": "ca",
-    "id": 240
+    "id": 241
   },
   {
     "category": "transfer",
@@ -585,7 +599,7 @@
     "image": "https://static1.ara.cat/clip/c42bdc72-5422-4398-b35c-a1fc38dfecb8_16-9-aspect-ratio_default_0_x201y339.png",
     "source": "ARA Esports",
     "lang": "ca",
-    "id": 241
+    "id": 242
   },
   {
     "category": "transfer",
@@ -599,7 +613,7 @@
     "image": "https://static1.ara.cat/clip/dea09a5d-34ab-410f-841f-78b399502463_16-9-aspect-ratio_default_0_x801y317.jpg",
     "source": "ARA Esports",
     "lang": "ca",
-    "id": 242
+    "id": 243
   },
   {
     "category": "rules",
@@ -611,20 +625,6 @@
     "overlay": "📺",
     "link": "https://www.ara.cat/media/l-audiencia-reobre-causa-d-hazte-oir-mongolia-pessebre-tifa-fent-nen-jesus_1_5754824.html",
     "image": "https://static1.ara.cat/clip/60fbe2c1-be93-4696-a6b1-4153a29473d1_16-9-aspect-ratio_default_1058433.jpg",
-    "source": "ARA Esports",
-    "lang": "ca",
-    "id": 243
-  },
-  {
-    "category": "injury",
-    "title": "\"N'estem tips\": el fantasma del boicot arriba al tenis mundial",
-    "snippet": "Els organitzadors de Roland Garros es posen les mans al cap. Primer van descobrir que Carlos Alcaraz no hi aniria per lesió. Així que van preparar-se per posar la corona a Jannik Sinner, que venia de guanyar tots els tornejos sobre terra que havia disputat. Però l’italià es va trobar malament en el seu partit de tercera ronda contra l’argentí Juan Manuel Cerúndolo i va caure sorprenentment en cinc sets. “No he dormit bé i m’he quedat fos, sense energia”, va explicar després. Als organitzadors els quedava Novak Djokovic, que amb 39 anys passava a aspirar a un últim gran triomf. Però també va caure, en el seu cas contra el brasiler João Fonseca. En espera del que pugui fer el jove madrileny Rafa Jódar, el torneig s'ha quedat orfe d’estrelles en el quadre masculí.",
-    "time": "21h ago",
-    "timestamp": 1780315237,
-    "color": "linear-gradient(135deg, #ef4444, #7f1d1d)",
-    "overlay": "🩺",
-    "link": "https://www.ara.cat/esports/tenis/n-tips-fantasma-boicot-tenis-mundial_1_5753063.html",
-    "image": "https://static1.ara.cat/clip/d75be327-44b2-4768-8b8b-7bd092366e07_source-aspect-ratio_default_0.jpg",
     "source": "ARA Esports",
     "lang": "ca",
     "id": 244

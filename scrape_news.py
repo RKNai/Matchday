@@ -18,6 +18,7 @@ import re
 import html
 import gzip
 from email.utils import parsedate_to_datetime
+import http.client
 
 # --- Constants & Paths ---
 BASE_DIR = os.path.dirname(os.path.abspath(__file__))
@@ -36,7 +37,9 @@ FEEDS = {
     "Marca": "https://e00-marca.uecdn.es/rss/portada.xml"
   },
   "ca": {
-    "ARA Esports": "https://www.ara.cat/rss/esports/"
+    "ARA Esports": "https://www.ara.cat/rss/esports/",
+    "Nació Digital": "https://www.naciodigital.cat/rss/seccio/esports",
+    "VilaWeb Esports": "https://www.vilaweb.cat/esports/feed/"
   }
 }
 
@@ -46,20 +49,29 @@ def setup_directories():
 
 def fetch_feed(name, url):
   print(f"[News Scraper] Fetching {name} feed from {url}...")
-  req = urllib.request.Request(
-    url, 
-    headers={
-      'User-Agent': 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36',
-      'Accept-Encoding': 'gzip, deflate',
-      'Connection': 'close'
-    }
-  )
+  headers = {
+    'User-Agent': 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36',
+    'Connection': 'close'
+  }
+  if name not in ["Nació Digital", "BBC Sport"]:
+    headers['Accept-Encoding'] = 'gzip, deflate'
+    
+  req = urllib.request.Request(url, headers=headers)
   try:
     with urllib.request.urlopen(req, timeout=10) as response:
       data = response.read()
       if response.info().get('Content-Encoding') == 'gzip':
         data = gzip.decompress(data)
       return data
+  except http.client.IncompleteRead as ir:
+    print(f"[News Scraper] Handled IncompleteRead for {name}, retrieved {len(ir.partial)} bytes.")
+    data = ir.partial
+    try:
+      if data.startswith(b'\x1f\x8b'):
+        data = gzip.decompress(data)
+    except Exception:
+      pass
+    return data
   except Exception as e:
     print(f"[News Scraper] Failed to fetch {name} feed: {e}")
     return None
