@@ -114,6 +114,7 @@ const state = {
     }
   ],
   news: [
+    // English
     {
       id: 1,
       category: 'injury',
@@ -123,7 +124,8 @@ const state = {
       color: 'linear-gradient(135deg, #ef4444, #7f1d1d)',
       overlay: '🩺',
       image: "https://images.unsplash.com/photo-1508098682722-e99c43a406b2?w=500&auto=format&fit=crop",
-      source: "L'Équipe"
+      source: "L'Équipe",
+      lang: "en"
     },
     {
       id: 2,
@@ -134,7 +136,8 @@ const state = {
       color: 'linear-gradient(135deg, #3b82f6, #1e3a8a)',
       overlay: '📋',
       image: "https://images.unsplash.com/photo-1543351611-58f69d7c1781?w=500&auto=format&fit=crop",
-      source: "CBC Sports"
+      source: "CBC Sports",
+      lang: "en"
     },
     {
       id: 3,
@@ -145,7 +148,8 @@ const state = {
       color: 'linear-gradient(135deg, #f59e0b, #78350f)',
       overlay: '⚽',
       image: "https://images.unsplash.com/photo-1579952363873-27f3bade9f55?w=500&auto=format&fit=crop",
-      source: "ESPN FC"
+      source: "ESPN FC",
+      lang: "en"
     },
     {
       id: 4,
@@ -156,7 +160,106 @@ const state = {
       color: 'linear-gradient(135deg, #ef4444, #7f1d1d)',
       overlay: '🩺',
       image: "https://images.unsplash.com/photo-1518063319789-7217e6706b04?w=500&auto=format&fit=crop",
-      source: "Sky Sports"
+      source: "Sky Sports",
+      lang: "en"
+    },
+    // Spanish
+    {
+      id: 5,
+      category: 'injury',
+      title: "Mbappé, seria duda para el partido de debut contra Canadá",
+      snippet: "La estrella de la selección francesa sufrió una contractura en el gemelo durante la sesión de entrenamiento. Deschamps se muestra cauto sobre su participación.",
+      time: '10m ago',
+      color: 'linear-gradient(135deg, #ef4444, #7f1d1d)',
+      overlay: '🩺',
+      image: "https://images.unsplash.com/photo-1508098682722-e99c43a406b2?w=500&auto=format&fit=crop",
+      source: "L'Équipe",
+      lang: "es"
+    },
+    {
+      id: 6,
+      category: 'lineup',
+      title: "Canadá confirma su once inicial para enfrentarse a Francia",
+      snippet: "El seleccionador Jesse Marsch apuesta por un ofensivo esquema 4-3-3 con Alphonso Davies actuando de extremo para buscar la velocidad al contragolpe.",
+      time: '1h ago',
+      color: 'linear-gradient(135deg, #3b82f6, #1e3a8a)',
+      overlay: '📋',
+      image: "https://images.unsplash.com/photo-1543351611-58f69d7c1781?w=500&auto=format&fit=crop",
+      source: "CBC Sports",
+      lang: "es"
+    },
+    {
+      id: 7,
+      category: 'tactics',
+      title: "Análisis táctico: Cómo planea Japón frenar a Messi",
+      snippet: "El equipo de Moriyasu está ensayando un bloque medio de presión alta para restringir los espacios entre líneas y ahogar al creador de juego de Argentina.",
+      time: '3h ago',
+      color: 'linear-gradient(135deg, #f59e0b, #78350f)',
+      overlay: '⚽',
+      image: "https://images.unsplash.com/photo-1579952363873-27f3bade9f55?w=500&auto=format&fit=crop",
+      source: "ESPN FC",
+      lang: "es"
+    },
+    {
+      id: 8,
+      category: 'injury',
+      title: "El centrocampista alemán Kroos, totalmente recuperado",
+      snippet: "Excelentes noticias para Nagelsmann, ya que Toni Kroos completó la sesión de entrenamiento. El cerebro del equipo será titular contra México en Vancouver.",
+      time: '5h ago',
+      color: 'linear-gradient(135deg, #ef4444, #7f1d1d)',
+      overlay: '🩺',
+      image: "https://images.unsplash.com/photo-1518063319789-7217e6706b04?w=500&auto=format&fit=crop",
+      source: "Sky Sports",
+      lang: "es"
+    },
+    // Catalan
+    {
+      id: 9,
+      category: 'injury',
+      title: "Mbappé, seriosos dubtes de cara al debut contra el Canadà",
+      snippet: "L'estrella francesa ha patit una contractura al bessó en l'entrenament d'aquest matí. Deschamps no voldrà arriscar la seva presència al primer partit.",
+      time: '10m ago',
+      color: 'linear-gradient(135deg, #ef4444, #7f1d1d)',
+      overlay: '🩺',
+      image: "https://images.unsplash.com/photo-1508098682722-e99c43a406b2?w=500&auto=format&fit=crop",
+      source: "L'Équipe",
+      lang: "ca"
+    },
+    {
+      id: 10,
+      category: 'lineup',
+      title: "El Canadà fa oficial l'onze inicial per jugar contra França",
+      snippet: "El seleccionador Jesse Marsch confirma un dibuix molt atrevit (4-3-3) amb Alphonso Davies en posicions d'extrem per mirar de sorprendre els francesos.",
+      time: '1h ago',
+      color: 'linear-gradient(135deg, #3b82f6, #1e3a8a)',
+      overlay: '📋',
+      image: "https://images.unsplash.com/photo-1543351611-58f69d7c1781?w=500&auto=format&fit=crop",
+      source: "CBC Sports",
+      lang: "ca"
+    },
+    {
+      id: 11,
+      category: 'tactics',
+      title: "Anàlisi tàctica: Com planeja el Japó frenar Messi",
+      snippet: "El conjunt de Moriyasu està assajant un bloc mitjà de pressió alta per restringir els espais entre línies i ofegar el creador de joc de l'Argentina.",
+      time: '3h ago',
+      color: 'linear-gradient(135deg, #f59e0b, #78350f)',
+      overlay: '⚽',
+      image: "https://images.unsplash.com/photo-1579952363873-27f3bade9f55?w=500&auto=format&fit=crop",
+      source: "ESPN FC",
+      lang: "ca"
+    },
+    {
+      id: 12,
+      category: 'injury',
+      title: "El migcampista alemany Kroos, recuperat per complet",
+      snippet: "Bones notícies per a Nagelsmann, ja que Toni Kroos s'ha entrenat amb normalitat. El cervell de la selecció serà titular contra Mèxic a Vancouver.",
+      time: '5h ago',
+      color: 'linear-gradient(135deg, #ef4444, #7f1d1d)',
+      overlay: '🩺',
+      image: "https://images.unsplash.com/photo-1518063319789-7217e6706b04?w=500&auto=format&fit=crop",
+      source: "Sky Sports",
+      lang: "ca"
     }
   ]
 };
@@ -390,6 +493,15 @@ function applyTranslations() {
     DOM.langSelect.value = lang;
   }
   
+  const langFlags = {
+    en: '🇬🇧',
+    es: '🇪🇸',
+    ca: '🏴󠁡󠁲󠁣󠁡󠁴󠁿'
+  };
+  if (DOM.langFlag) {
+    DOM.langFlag.textContent = langFlags[lang] || '🇬🇧';
+  }
+  
   document.querySelectorAll('[data-i18n]').forEach((el) => {
     const key = el.getAttribute('data-i18n');
     if (translations[lang] && translations[lang][key]) {
@@ -458,6 +570,7 @@ const DOM = {
   notificationCenterBtn: document.getElementById('notificationCenterBtn'),
   subCountBadge: document.getElementById('subCountBadge'),
   langSelect: document.getElementById('langSelect'),
+  langFlag: document.getElementById('langFlag'),
   
   // Notification Sidebar
   notificationSidebar: document.getElementById('notificationSidebar'),
@@ -1133,13 +1246,12 @@ function renderNewsGrid() {
   DOM.newsGrid.innerHTML = '';
   const query = DOM.newsSearch.value.toLowerCase().trim();
 
-  let filtered = [];
+  // Filter by selected language
+  let filtered = state.news.filter(n => (n.lang || 'en') === state.lang);
   
   // Category filter
   if (state.activeNewsCategory !== 'all') {
-    filtered = state.news.filter(n => n.category === state.activeNewsCategory);
-  } else {
-    filtered = [...state.news];
+    filtered = filtered.filter(n => n.category === state.activeNewsCategory);
   }
 
   // Search filter
