@@ -1,0 +1,35 @@
+name: Matchday Ticker Scraper
+
+on:
+  schedule:
+    - cron: '*/10 * * * *' # Runs every 10 minutes to sync live data
+  workflow_dispatch:      # Allows manual trigger
+
+permissions:
+  contents: write         # Allows the bot to commit and push changes back to the repo
+
+jobs:
+  update-feed:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout Code
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.10'
+
+      - name: Scrape Matches
+        run: python scrape_matches.py
+
+      - name: Scrape News
+        run: python scrape_news.py
+
+      - name: Push Data Update
+        run: |
+          git config --global user.name "Matchday Bot"
+          git config --global user.email "bot@matchday.com"
+          git add data/
+          git diff-index --quiet HEAD || git commit -m "Sync scores and news feeds [skip ci]"
+          git push
