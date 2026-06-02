@@ -1,0 +1,16 @@
+[Unit]
+Description=MatchDay PWA Live Scores Scraper Service
+After=network.target
+
+[Service]
+Type=simple
+# Replace 'ubuntu' with the actual user running the app on your cloud VM
+User=ubuntu
+# Replace with the absolute path to your cloned repository on the cloud VM
+WorkingDirectory=/home/ubuntu/Matchday
+ExecStart=/bin/bash /home/ubuntu/Matchday/run_daemon.sh
+Restart=always
+RestartSec=5
+
+[Install]
+WantedBy=multi-user.target
