@@ -19,10 +19,10 @@
   <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Outfit:wght@400;500;600;700;800&display=swap" rel="stylesheet">
   
   <!-- Core Stylesheet -->
-  <link rel="stylesheet" href="style.css?v=25">
+  <link rel="stylesheet" href="style.css?v=26">
   
   <!-- Script Setup -->
-  <script src="app.js?v=25" defer></script>
+  <script src="app.js?v=26" defer></script>
 </head>
 <body>
   <!-- Header Bar -->
@@ -217,30 +217,6 @@
     </section>
   </main>
 
-  <!-- Monetizable Ads Banner (Google AdSense + Rotating Affiliate Sponsor Fallbacks) -->
-  <footer class="ads-banner">
-    <div class="ads-container">
-      <div class="ads-badge" id="adBadge" data-i18n="ad_sponsored">Sponsored</div>
-      <div class="ads-content-wrapper" id="adsContentWrapper" style="flex: 1; min-width: 0;">
-        <!-- Self-Hosted/Affiliate Ad (Default Fallback) -->
-        <div class="ads-content" id="adContent">
-          <span class="ad-title" id="adTitle">🏆 Predict & Win World Cup Glory!</span>
-          <span class="ad-desc" id="adDesc">Join MatchDay Fantasy League. Play free, win real cash and official jerseys.</span>
-        </div>
-        <!-- Google AdSense Container -->
-        <div class="adsense-container" id="adsenseContainer" style="display: none; width: 100%; height: 50px; overflow: hidden; display: flex; align-items: center; justify-content: center;">
-          <ins class="adsbygoogle"
-               style="display:inline-block;width:100%;height:50px"
-               id="adsenseIns"></ins>
-        </div>
-      </div>
-      <div class="ads-actions">
-        <button class="btn-ad-cta" id="adCta">Play Now</button>
-        <button class="btn-ad-close" id="adClose" title="Hide Ad">×</button>
-      </div>
-    </div>
-  </footer>
-
   <!-- Notification Center Panel (Translucent Sidebar Overlay) -->
   <div class="notification-sidebar" id="notificationSidebar">
     <div class="sidebar-header">
@@ -293,27 +269,6 @@
             <input type="checkbox" id="toggleNewsBtn" checked>
             <span class="slider-round"></span>
           </label>
-        </div>
-      </div>
-
-      <!-- Monetization Settings -->
-      <div class="teams-list-header">Monetization Settings</div>
-      <div class="ad-settings-card">
-        <p>Enter your Google AdSense credentials to load real advertising and earn domain revenue.</p>
-        
-        <div class="ad-input-group">
-          <label for="adPublisherId">AdSense Client ID</label>
-          <input type="text" id="adPublisherId" placeholder="e.g. ca-pub-xxxxxxxxxxxxxxxx" class="ad-settings-input">
-        </div>
-        
-        <div class="ad-input-group">
-          <label for="adSlotId">Ad Slot ID</label>
-          <input type="text" id="adSlotId" placeholder="e.g. 1234567890" class="ad-settings-input">
-        </div>
-        
-        <div class="ad-settings-actions">
-          <button class="btn-primary-sm" id="saveAdSettingsBtn" style="flex: 1;">Save & Apply</button>
-          <button class="btn-primary-sm" id="clearAdSettingsBtn" style="background: rgba(255,255,255,0.06); border: 1px solid rgba(255,255,255,0.12); color: var(--text-primary);">Reset</button>
         </div>
       </div>
 

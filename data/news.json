@@ -1,14 +1,14 @@
 [
   {
-    "category": "tactics",
-    "title": "England set for first training session as Kane targets World Cup glory",
+    "category": "lineup",
+    "title": "England set for first training session as Rashford squad number revealed",
     "snippet": "",
-    "time": "Just now",
+    "time": "1m ago",
     "timestamp": 1780406100,
-    "color": "linear-gradient(135deg, #f59e0b, #78350f)",
-    "overlay": "⚽",
+    "color": "linear-gradient(135deg, #3b82f6, #1e3a8a)",
+    "overlay": "📋",
     "link": "https://www.skysports.com/football/live-blog/11095/13427059/england-football-news-live-updates-schedule-and-analysis-of-thomas-tuchels-three-lions",
-    "image": "https://e1.365dm.com/25/12/1920x1080/skysports-england-world-cup-26_7102088.jpg?20251205173549",
+    "image": "https://e2.365dm.com/26/05/1920x1080/skysports-world-cup-england_7255431.jpg?20260522080147",
     "source": "Sky Sports",
     "lang": "en",
     "id": 200
@@ -17,7 +17,7 @@
     "category": "transfer",
     "title": "Kane sets sights on Ballon d’Or in bid to help England to World Cup glory",
     "snippet": "Harry Kane hopes he can make himself the leading contender for the Ballon d’Or by helping fire England to World Cup glory.",
-    "time": "Just now",
+    "time": "6m ago",
     "timestamp": 1780405800,
     "color": "linear-gradient(135deg, #a855f7, #581c87)",
     "overlay": "🔄",
@@ -28,10 +28,52 @@
     "id": 201
   },
   {
+    "category": "press",
+    "title": "Does Southampton Spygate boss Eckert deserve a second chance?",
+    "snippet": "BBC Sport explores the future of Southampton manager Tonda Eckert after he admitted his role in the Spygate scandal.",
+    "time": "11m ago",
+    "timestamp": 1780405456,
+    "color": "linear-gradient(135deg, #0d9488, #115e59)",
+    "overlay": "🎙️",
+    "link": "https://www.bbc.com/sport/football/articles/c8jvzvdpw3go?at_medium=RSS&at_campaign=rss",
+    "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/5b5b/live/bf8792b0-5e6f-11f1-9bb7-93b44936b5cf.jpg",
+    "source": "BBC Sport",
+    "lang": "en",
+    "id": 202
+  },
+  {
+    "category": "tactics",
+    "title": "The Braintree defender going to World Cup with New Zealand",
+    "snippet": "Braintree Town defender Tommy Smith is looking forward to the \"crowning glory of his career\" at the World Cup with New Zealand.",
+    "time": "26m ago",
+    "timestamp": 1780404577,
+    "color": "linear-gradient(135deg, #f59e0b, #78350f)",
+    "overlay": "⚽",
+    "link": "https://www.bbc.com/sport/football/articles/cj3p4glxm8jo?at_medium=RSS&at_campaign=rss",
+    "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/03ca/live/ff4e6a70-5e80-11f1-82d1-3f140356d043.jpg",
+    "source": "BBC Sport",
+    "lang": "en",
+    "id": 203
+  },
+  {
     "category": "lineup",
-    "title": "World Cup: Every squad as they are announced",
-    "snippet": "Every squad for the 2026 World Cup in the US, Canada and Mexico as they are announced.",
-    "time": "1m ago",
+    "title": "Khusanov named in Uzbekistan's World Cup squad",
+    "snippet": "Manchester City defender Abdukodir Khusanov makes Uzbekistan's squad for the World Cup, led by former World Cup winner Fabio Cannavaro.",
+    "time": "28m ago",
+    "timestamp": 1780404465,
+    "color": "linear-gradient(135deg, #3b82f6, #1e3a8a)",
+    "overlay": "📋",
+    "link": "https://www.bbc.com/sport/football/articles/c5yenm7xllyo?at_medium=RSS&at_campaign=rss",
+    "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/12c4/live/375d2ee0-5e7e-11f1-82d1-3f140356d043.jpg",
+    "source": "BBC Sport",
+    "lang": "en",
+    "id": 204
+  },
+  {
+    "category": "lineup",
+    "title": "World Cup: All 48 squads confirmed",
+    "snippet": "All 48 confirmed squads for the 2026 World Cup in the US, Canada and Mexico.",
+    "time": "32m ago",
     "timestamp": 1780404201,
     "color": "linear-gradient(135deg, #3b82f6, #1e3a8a)",
     "overlay": "📋",
@@ -39,13 +81,13 @@
     "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/7774/live/90206170-53a0-11f1-89a3-d1f559421220.jpg",
     "source": "BBC Sport",
     "lang": "en",
-    "id": 202
+    "id": 205
   },
   {
     "category": "rules",
     "title": "Japan benefit from new World Cup substitution rule",
     "snippet": "Japan become one of the first beneficiaries of the new time-limited substitution rule as they score while opponents Iceland have just 10 players on the pitch.",
-    "time": "8m ago",
+    "time": "39m ago",
     "timestamp": 1780403802,
     "color": "linear-gradient(135deg, #64748b, #334155)",
     "overlay": "📺",
@@ -53,13 +95,13 @@
     "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/a0c3/live/c2997ee0-5e75-11f1-9bb7-93b44936b5cf.jpg",
     "source": "BBC Sport",
     "lang": "en",
-    "id": 203
+    "id": 206
   },
   {
     "category": "tactics",
     "title": "Sir Kenny Dalglish undergoing treatment for cancer",
     "snippet": "Scotland, Liverpool and Celtic great Sir Kenny Dalglish confirms he is undergoing treatment for cancer.",
-    "time": "16m ago",
+    "time": "47m ago",
     "timestamp": 1780403322,
     "color": "linear-gradient(135deg, #f59e0b, #78350f)",
     "overlay": "⚽",
@@ -67,13 +109,13 @@
     "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/0332/live/50c33ef0-5e7a-11f1-929d-ad528af5a4c7.jpg",
     "source": "BBC Sport",
     "lang": "en",
-    "id": 204
+    "id": 207
   },
   {
     "category": "tactics",
     "title": "Liverpool legend Dalglish reveals cancer diagnosis",
     "snippet": "Liverpool legend Sir Kenny Dalglish has revealed he is undergoing treatment following a cancer diagnosis.",
-    "time": "29m ago",
+    "time": "1h ago",
     "timestamp": 1780402560,
     "color": "linear-gradient(135deg, #f59e0b, #78350f)",
     "overlay": "⚽",
@@ -81,13 +123,13 @@
     "image": "https://e2.365dm.com/26/06/1920x1080/skysports-kenny-dalglish-liverpool_7263687.jpg?20260602130426",
     "source": "Sky Sports",
     "lang": "en",
-    "id": 205
+    "id": 208
   },
   {
     "category": "injury",
     "title": "Alaba passed fit but Baumgartner out of World Cup",
     "snippet": "Austria captain David Alaba is given the all-clear to travel for the World Cup after picking up a muscle injury on Monday but midfielder Christoph Baumgartner is ruled out of the tournament.",
-    "time": "32m ago",
+    "time": "1h ago",
     "timestamp": 1780402364,
     "color": "linear-gradient(135deg, #ef4444, #7f1d1d)",
     "overlay": "🩺",
@@ -95,13 +137,13 @@
     "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/2548/live/a84349d0-5e76-11f1-9bb7-93b44936b5cf.jpg",
     "source": "BBC Sport",
     "lang": "en",
-    "id": 206
+    "id": 209
   },
   {
     "category": "press",
     "title": "Fulham boss Silva close to Benfica agreement",
     "snippet": "Fulham head coach Marco Silva is close to reaching an agreement to take charge at Benfica.",
-    "time": "32m ago",
+    "time": "1h ago",
     "timestamp": 1780402340,
     "color": "linear-gradient(135deg, #0d9488, #115e59)",
     "overlay": "🎙️",
@@ -109,13 +151,13 @@
     "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/c0d1/live/7c306210-5e7b-11f1-ab70-cdbb605c4a31.jpg",
     "source": "BBC Sport",
     "lang": "en",
-    "id": 207
+    "id": 210
   },
   {
     "category": "lineup",
     "title": "Al-Tamari in squad for Jordan's World Cup debut",
     "snippet": "Rennes forward Mousa Al-Tamari features in Jordan's final 26-man squad for their World Cup debut this summer.",
-    "time": "47m ago",
+    "time": "1h ago",
     "timestamp": 1780401487,
     "color": "linear-gradient(135deg, #3b82f6, #1e3a8a)",
     "overlay": "📋",
@@ -123,13 +165,13 @@
     "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/b0cc/live/19ac6150-5e78-11f1-929d-ad528af5a4c7.jpg",
     "source": "BBC Sport",
     "lang": "en",
-    "id": 208
+    "id": 211
   },
   {
     "category": "lineup",
     "title": "World Cup squads confirmed! Every player at the tournament revealed...",
     "snippet": "The squads are in for the 2026 World Cup as the countdown continues for this summer's tournament.",
-    "time": "50m ago",
+    "time": "1h ago",
     "timestamp": 1780401300,
     "color": "linear-gradient(135deg, #3b82f6, #1e3a8a)",
     "overlay": "📋",
@@ -137,7 +179,7 @@
     "image": "https://e0.365dm.com/25/02/1920x1080/skysports-neymar-santos_6831275.jpg?20250217081054",
     "source": "Sky Sports",
     "lang": "en",
-    "id": 209
+    "id": 212
   },
   {
     "category": "tactics",
@@ -151,7 +193,7 @@
     "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/7fa1/live/99eb2da0-5e74-11f1-8b8c-6d33e1d5abb6.jpg",
     "source": "BBC Sport",
     "lang": "en",
-    "id": 210
+    "id": 213
   },
   {
     "category": "transfer",
@@ -165,55 +207,27 @@
     "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/3b51/live/29aa4d00-5e74-11f1-9bb7-93b44936b5cf.jpg",
     "source": "BBC Sport",
     "lang": "en",
-    "id": 211
-  },
-  {
-    "category": "rules",
-    "title": "Download your World Cup 2026 wallchart",
-    "snippet": "Get your essential piece of kit now by downloading the Fifa World Cup 2026 wallchart.",
-    "time": "1h ago",
-    "timestamp": 1780398399,
-    "color": "linear-gradient(135deg, #64748b, #334155)",
-    "overlay": "📺",
-    "link": "https://www.bbc.com/sport/football/articles/c4g51wd9px6o?at_medium=RSS&at_campaign=rss",
-    "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/3e2d/live/34955c50-5e7e-11f1-8b8c-6d33e1d5abb6.jpg",
-    "source": "BBC Sport",
-    "lang": "en",
-    "id": 212
-  },
-  {
-    "category": "injury",
-    "title": "Galbraith 'all good' with injury after Swansea concern",
-    "snippet": "Swansea City midfielder Ethan Galbraith say his calf injury is \"all good\" after being included for Northern Ireland friendlies with Guinea and France.",
-    "time": "1h ago",
-    "timestamp": 1780398153,
-    "color": "linear-gradient(135deg, #ef4444, #7f1d1d)",
-    "overlay": "🩺",
-    "link": "https://www.bbc.com/sport/football/articles/cqlpn1rqlz4o?at_medium=RSS&at_campaign=rss",
-    "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/329a/live/00f0f280-5e63-11f1-9e22-3514086b3d4d.jpg",
-    "source": "BBC Sport",
-    "lang": "en",
-    "id": 213
-  },
-  {
-    "category": "tactics",
-    "title": "Chelsea reject approaches for Acheampong",
-    "snippet": "Chelsea reject multiple approaches for promising young defender Josh Acheampong who the club consider one of their 'untouchables'.",
-    "time": "1h ago",
-    "timestamp": 1780397505,
-    "color": "linear-gradient(135deg, #f59e0b, #78350f)",
-    "overlay": "⚽",
-    "link": "https://www.bbc.com/sport/football/articles/c4g81m84m0ko?at_medium=RSS&at_campaign=rss",
-    "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/2c6d/live/9949f090-5df0-11f1-9565-ef0970da1cfe.jpg",
-    "source": "BBC Sport",
-    "lang": "en",
     "id": 214
   },
   {
     "category": "tactics",
-    "title": "Rajadón del presidente del Huesca contra sus jugadores: \"Vimos más risas que llantos\"",
+    "title": "Madonna celebra el Orgullo con un vídeo viral que obliga a censurar un descuido con el escote de su vestido",
+    "snippet": "La cantante es un icono para el colectivo LGTBI+",
+    "time": "24m ago",
+    "timestamp": 1780404711,
+    "color": "linear-gradient(135deg, #f59e0b, #78350f)",
+    "overlay": "⚽",
+    "link": "https://www.marca.com/tiramillas/musica/2026/06/02/madonna-celebra-orgullo-video-viral-obliga-censurar-descuido-escote-vestido.html",
+    "image": "https://e01-xlk-ue-marca.uecdn.es/files/admin_graphic_thumbnail/uploads/2026/06/02/6a1ed1b80ce43.jpeg",
+    "source": "Marca",
+    "lang": "es",
+    "id": 215
+  },
+  {
+    "category": "tactics",
+    "title": "Rajadón del presidente contra sus jugadores: \"Vimos más risas que llantos\"",
     "snippet": "El presidente y el consejero delegado del club hacen balance de la temporada y piden perdón por el descenso",
-    "time": "12m ago",
+    "time": "43m ago",
     "timestamp": 1780403544,
     "color": "linear-gradient(135deg, #f59e0b, #78350f)",
     "overlay": "⚽",
@@ -221,13 +235,13 @@
     "image": "https://e01-xlk-ue-marca.uecdn.es/files/admin_graphic_thumbnail/uploads/2026/06/02/6a1ec971d907c.jpeg",
     "source": "Marca",
     "lang": "es",
-    "id": 215
+    "id": 216
   },
   {
     "category": "tactics",
     "title": "A España le sale un duro competidor en el termómetro del Mundial",
     "snippet": "Versus otorga las mismas posibilidades de llevarse el título a Francia",
-    "time": "36m ago",
+    "time": "1h ago",
     "timestamp": 1780402104,
     "color": "linear-gradient(135deg, #f59e0b, #78350f)",
     "overlay": "⚽",
@@ -235,13 +249,13 @@
     "image": "https://e01-xlk-ue-marca.uecdn.es/files/admin_graphic_thumbnail/uploads/2026/06/02/6a1eb31d3c1ce.jpeg",
     "source": "Marca",
     "lang": "es",
-    "id": 216
+    "id": 217
   },
   {
     "category": "tactics",
     "title": "Sir Kenny Dalglish anuncia que padece cáncer tras revelarlo por error<br>",
     "snippet": "El legendario exjugador del Liverpool FC confirma que ya se encuentra bajo tratamiento y pide respeto para la privacidad de su familia",
-    "time": "59m ago",
+    "time": "1h ago",
     "timestamp": 1780400755,
     "color": "linear-gradient(135deg, #f59e0b, #78350f)",
     "overlay": "⚽",
@@ -249,7 +263,7 @@
     "image": "https://e01-xlk-ue-marca.uecdn.es/files/admin_graphic_thumbnail/uploads/2026/06/02/6a1ec1e2496ce.jpeg",
     "source": "Marca",
     "lang": "es",
-    "id": 217
+    "id": 218
   },
   {
     "category": "tactics",
@@ -263,13 +277,13 @@
     "image": "https://e01-xlk-ue-marca.uecdn.es/files/admin_graphic_thumbnail/uploads/2026/06/02/6a1eb4c165ee1.jpeg",
     "source": "Marca",
     "lang": "es",
-    "id": 218
+    "id": 219
   },
   {
     "category": "transfer",
     "title": "Llorente, del reconocimiento... a la renovación",
     "snippet": "Elegido mejor lateral derecho de la Champions, su objetivo es ampliar el contrato con el Atlético más allá de 2027. Será uno de los nuevos capitanes",
-    "time": "1h ago",
+    "time": "2h ago",
     "timestamp": 1780398515,
     "color": "linear-gradient(135deg, #a855f7, #581c87)",
     "overlay": "🔄",
@@ -277,13 +291,13 @@
     "image": "https://e01-xlk-ue-marca.uecdn.es/files/admin_graphic_thumbnail/uploads/2026/06/01/6a1d99dd96172.jpeg",
     "source": "Marca",
     "lang": "es",
-    "id": 219
+    "id": 220
   },
   {
     "category": "tactics",
     "title": "El equipo que parece de Primera división y que pelea en el fútbol modesto",
     "snippet": "El club, ahora comandado por los nuevos inversores Íñigo Asensio y Luis Alonso, ha sufrido una metamorfosis total en el último año que apunta a llevar al club al fútbol profesional · Cayó ante el UD Ourense en la final del playoff a Primera RFEF",
-    "time": "1h ago",
+    "time": "2h ago",
     "timestamp": 1780397457,
     "color": "linear-gradient(135deg, #f59e0b, #78350f)",
     "overlay": "⚽",
@@ -291,13 +305,13 @@
     "image": "https://e01-xlk-ue-marca.uecdn.es/files/admin_graphic_thumbnail/uploads/2026/06/01/6a1dca3236656.jpeg",
     "source": "Marca",
     "lang": "es",
-    "id": 220
+    "id": 221
   },
   {
     "category": "press",
     "title": "Ramis y el Burgos separan sus caminos",
     "snippet": "El entrenador catalán decide no renovar tras estar a punto de clasificarlo para los 'playoffs' de ascenso",
-    "time": "1h ago",
+    "time": "2h ago",
     "timestamp": 1780397290,
     "color": "linear-gradient(135deg, #0d9488, #115e59)",
     "overlay": "🎙️",
@@ -305,13 +319,13 @@
     "image": "https://e01-xlk-ue-marca.uecdn.es/files/admin_graphic_thumbnail/uploads/2026/06/02/6a1eb3f8e1558.jpeg",
     "source": "Marca",
     "lang": "es",
-    "id": 221
+    "id": 222
   },
   {
     "category": "lineup",
     "title": "Pape Gueye y Pathe Ciss en la lista de Senegal que capitanea Sadio Mané",
     "snippet": "Los jugadores del Villarreal y Rayo Vallecano entran en la convocatoria definitiva de Pape Thiaw&nbsp;",
-    "time": "1h ago",
+    "time": "2h ago",
     "timestamp": 1780397248,
     "color": "linear-gradient(135deg, #3b82f6, #1e3a8a)",
     "overlay": "📋",
@@ -319,13 +333,13 @@
     "image": "https://e01-xlk-ue-marca.uecdn.es/files/admin_graphic_thumbnail/uploads/2026/01/18/696d5582bd7fa.jpeg",
     "source": "Marca",
     "lang": "es",
-    "id": 222
+    "id": 223
   },
   {
     "category": "tactics",
     "title": "Balde, obligado a reaccionar",
     "snippet": "Terminó el curso pasado sin minutos y con toque de atención de Flick, pero no quiere irse",
-    "time": "1h ago",
+    "time": "2h ago",
     "timestamp": 1780397222,
     "color": "linear-gradient(135deg, #f59e0b, #78350f)",
     "overlay": "⚽",
@@ -333,13 +347,13 @@
     "image": "https://e01-xlk-ue-marca.uecdn.es/files/admin_graphic_thumbnail/uploads/2026/06/02/6a1ea21e1d513.jpeg",
     "source": "Marca",
     "lang": "es",
-    "id": 223
+    "id": 224
   },
   {
     "category": "tactics",
     "title": "Güler ejerce como líder en Turquía",
     "snippet": "Sigue la última hora de toda la información del Mundial 2026",
-    "time": "2h ago",
+    "time": "3h ago",
     "timestamp": 1780395154,
     "color": "linear-gradient(135deg, #f59e0b, #78350f)",
     "overlay": "⚽",
@@ -347,13 +361,13 @@
     "image": "https://e01-xlk-ue-marca.uecdn.es/files/admin_graphic_thumbnail/uploads/2026/06/02/17803950189673.jpeg",
     "source": "Marca",
     "lang": "es",
-    "id": 224
+    "id": 225
   },
   {
     "category": "press",
     "title": "Casillas: \"De Raúl poco se puede decir, un madridista 100%\"<br>",
     "snippet": "El exportero madridista dice que no le han \"tentado\" de ninguna candidatura a la presidencia",
-    "time": "2h ago",
+    "time": "3h ago",
     "timestamp": 1780394632,
     "color": "linear-gradient(135deg, #0d9488, #115e59)",
     "overlay": "🎙️",
@@ -361,13 +375,13 @@
     "image": "https://e01-xlk-ue-marca.uecdn.es/files/admin_graphic_thumbnail/uploads/2026/06/02/6a1ea32edbd0f.jpeg",
     "source": "Marca",
     "lang": "es",
-    "id": 225
+    "id": 226
   },
   {
     "category": "tactics",
     "title": "Mazazo para Austria<br>",
     "snippet": "La estrella de Austria se lesionó en el calentamiento del amistoso ante Túnez",
-    "time": "2h ago",
+    "time": "3h ago",
     "timestamp": 1780394160,
     "color": "linear-gradient(135deg, #f59e0b, #78350f)",
     "overlay": "⚽",
@@ -375,13 +389,13 @@
     "image": "https://e01-xlk-ue-marca.uecdn.es/files/admin_graphic_thumbnail/uploads/2026/06/02/6a1ea886ab97a.jpeg",
     "source": "Marca",
     "lang": "es",
-    "id": 226
+    "id": 227
   },
   {
     "category": "tactics",
     "title": "El Barça pone los dientes largos con Lamine: va a volar en el Mundial",
     "snippet": "",
-    "time": "3h ago",
+    "time": "4h ago",
     "timestamp": 1780391135,
     "color": "linear-gradient(135deg, #f59e0b, #78350f)",
     "overlay": "⚽",
@@ -389,32 +403,18 @@
     "image": "https://www.dailymotion.com/crawler/video/xacrvzu",
     "source": "Marca",
     "lang": "es",
-    "id": 227
+    "id": 228
   },
   {
     "category": "tactics",
     "title": "Garnacho presume de nuevo tatuaje: es arte",
     "snippet": "",
-    "time": "3h ago",
+    "time": "4h ago",
     "timestamp": 1780390187,
     "color": "linear-gradient(135deg, #f59e0b, #78350f)",
     "overlay": "⚽",
     "link": "https://www.marca.com/futbol/premier-league/2026/06/02/impresionante-garnacho-presume-gigantesco-tatuaje-joker-toda-espalda-video.html",
     "image": "https://www.dailymotion.com/crawler/video/xacru9e",
-    "source": "Marca",
-    "lang": "es",
-    "id": 228
-  },
-  {
-    "category": "tactics",
-    "title": "Se filtra el vídeo de una estrella del fútbol conduciendo su Lamborghini drogado antes de estrellarse",
-    "snippet": "",
-    "time": "4h ago",
-    "timestamp": 1780388381,
-    "color": "linear-gradient(135deg, #f59e0b, #78350f)",
-    "overlay": "⚽",
-    "link": "https://www.marca.com/futbol/premier-league/2026/06/02/raheem-sterling-video-conduciendo-drogado-estrellar-lamborghini-deten-video.html",
-    "image": "https://www.dailymotion.com/crawler/video/k5A0cdzsklDaDHGn66w",
     "source": "Marca",
     "lang": "es",
     "id": 229
@@ -423,7 +423,7 @@
     "category": "lineup",
     "title": "El jugador menys conegut del Mundial fa ombra a Messi i Cristiano",
     "snippet": "Fa una setmana Tim Payne era un jugador anònim, pràcticament desconegut per al públic general. Amb poc més de 4.700 seguidors a Instagram, el central de la selecció de Nova Zelanda, la número 85 del rànquing FIFA, era el futbolista menys mediàtic dels 1.248 convocats per al Mundial d’aquest estiu. Però d'un dia per l'altre es va fer internacionalment famós i va incrementar el seu nombre de followers a un ritme vertiginós, i es va convertir en el fenomen viral dels dies previs a la cita mundialista. Ni Leo Messi ni Cristiano Ronaldo: l'home del moment és Tim Payne.",
-    "time": "44m ago",
+    "time": "1h ago",
     "timestamp": 1780401642,
     "color": "linear-gradient(135deg, #3b82f6, #1e3a8a)",
     "overlay": "📋",
@@ -434,24 +434,10 @@
     "id": 230
   },
   {
-    "category": "tactics",
-    "title": "Enrique Riquelme acusa Florentino Pérez de «finançar el Barça»",
-    "snippet": "El candidat a la presidència del Reial Madrid ha criticat Florentino per voler \"privatitzar el club\" i ha acusat el Barça de rebre \"favors arbitrals\"",
-    "time": "2h ago",
-    "timestamp": 1780393615,
-    "color": "linear-gradient(135deg, #f59e0b, #78350f)",
-    "overlay": "⚽",
-    "link": "https://naciodigital.cat/esports/enrique-riquelme-acusa-florentino-perez-de-financar-el-barca.html",
-    "image": "https://d5r1tkwwv7d5g.cloudfront.net/articulos/articulos-721077.jpg",
-    "source": "Nació Digital",
-    "lang": "ca",
-    "id": 231
-  },
-  {
     "category": "lineup",
     "title": "El destí ideal de Xavi Hernández",
     "snippet": "Ha plogut des d'aquell 27 de gener del 2024 en què, després de caure golejat (3-5) contra el Vila-real a Montjuïc, Xavi Hernández va tocar fons i va anunciar en la compareixença de premsa postpartit que \"al final de la temporada s'acomiadaria de la banqueta\". Encara quedaven girs per viure, com la nit del sushi a casa Joan Laporta, una roda de premsa entre llàgrimes del president per ratificar-lo en el càrrec i encara un altre cop de teatre final per fer-lo fora al final del curs. L'exfutbolista i exentrenador blaugrana va acabar partint peres amb Laporta i amb el seu principal assessor, Alejandro Echevarría, que si bé el 2021 va ser el principal valedor del seu retorn, el tècnic també el considera un dels artífexs del seu acomiadament. Bàsicament, es va sentir traït.",
-    "time": "7h ago",
+    "time": "8h ago",
     "timestamp": 1780376452,
     "color": "linear-gradient(135deg, #3b82f6, #1e3a8a)",
     "overlay": "📋",
@@ -459,13 +445,13 @@
     "image": "https://static1.ara.cat/clip/1ca5893e-227c-4451-89b1-260098f06802_source-aspect-ratio_default_0.jpg",
     "source": "ARA Esports",
     "lang": "ca",
-    "id": 232
+    "id": 231
   },
   {
     "category": "rules",
     "title": "El nacionalisme espanyol s'indigna amb la nova samarreta de l'Athletic Club",
     "snippet": "Pocs cops una samarreta de futbol ha generat tant de soroll fins i tot abans de sortir a la venda. Ara fa dues setmanes, l'Athletic Club va presentar la que serà la seva samarreta la temporada vinent. Com altres clubs, va fer-ho just al final del present curs, estrenant-la en el partit de Lliga de la darrera jornada al camp del Reial Madrid. La samarreta, però, no agrada a tothom, ja que el club basc ha fet una petita modificació. Els darrers anys jugava amb una petita bandera del País Basc, la ikurriña, a la part posterior del coll. Però de cara a la temporada vinent han apostat per un mapa amb la silueta d'Euskal Herria amb una ikurriña dins. La reacció de partits com Vox o UPN ha creat un bon enrenou, especialment a Navarra.",
-    "time": "20h ago",
+    "time": "21h ago",
     "timestamp": 1780329650,
     "color": "linear-gradient(135deg, #64748b, #334155)",
     "overlay": "📺",
@@ -473,35 +459,7 @@
     "image": "https://static1.ara.cat/clip/dea09a5d-34ab-410f-841f-78b399502463_16-9-aspect-ratio_default_0_x801y317.jpg",
     "source": "ARA Esports",
     "lang": "ca",
-    "id": 233
-  },
-  {
-    "category": "press",
-    "title": "Florentino assegura que Ayuso i Almeida faran «una normativa especial» perquè els concerts tornin al Bernabéu",
-    "snippet": "El president del Reial Madrid afirma que els espectacles musicals tornaran \"molt aviat\" tot i treure valor a l'impacte que tenen en l'economia del club",
-    "time": "1d ago",
-    "timestamp": 1780311515,
-    "color": "linear-gradient(135deg, #0d9488, #115e59)",
-    "overlay": "🎙️",
-    "link": "https://naciodigital.cat/esports/florentino-assegura-que-ayuso-i-almeida-faran-una-normativa-especial-perque-els-concerts-tornin-al-bernabeu.html",
-    "image": "https://d5r1tkwwv7d5g.cloudfront.net/articulos/articulos-720488.jpg",
-    "source": "Nació Digital",
-    "lang": "ca",
-    "id": 234
-  },
-  {
-    "category": "tactics",
-    "title": "Florentino Pérez va acusar Iberdrola i Villarejo d'intentar assassinar-lo «amb un virus o un accident»",
-    "snippet": "El president del Reial Madrid també va atribuir a Iberdrola una campanya per vincular ACS amb els terratrèmols de la plataforma Castor",
-    "time": "1d ago",
-    "timestamp": 1780303922,
-    "color": "linear-gradient(135deg, #f59e0b, #78350f)",
-    "overlay": "⚽",
-    "link": "https://naciodigital.cat/esports/florentino-perez-va-acusar-iberdrola-i-villarejo-dintentar-assassinar-lo-amb-un-virus-o-un-accident.html",
-    "image": "https://d5r1tkwwv7d5g.cloudfront.net/articulos/articulos-709172.jpg",
-    "source": "Nació Digital",
-    "lang": "ca",
-    "id": 235
+    "id": 232
   },
   {
     "category": "tactics",
@@ -515,7 +473,7 @@
     "image": "https://static1.ara.cat/clip/22a95bc3-d3c8-40b5-ad12-1dd2e090fc64_16-9-aspect-ratio_default_0.jpg",
     "source": "ARA Esports",
     "lang": "ca",
-    "id": 236
+    "id": 233
   },
   {
     "category": "lineup",
@@ -529,7 +487,7 @@
     "image": "https://static1.ara.cat/clip/c331c54e-f843-4b58-b196-40fcfea65f44_source-aspect-ratio_default_0_x396y338.jpg",
     "source": "ARA Esports",
     "lang": "ca",
-    "id": 237
+    "id": 234
   },
   {
     "category": "rules",
@@ -543,21 +501,7 @@
     "image": "https://static1.ara.cat/clip/82ef1e9d-ebaf-49ad-8ec9-63adb3ac18a9_source-aspect-ratio_default_0.jpg",
     "source": "ARA Esports",
     "lang": "ca",
-    "id": 238
-  },
-  {
-    "category": "tactics",
-    "title": "Disturbis a França després de la final de la Champions: un mort, més de 400 detinguts i set policies ferits",
-    "snippet": "La policia francesa va mobilitzar 22.000 dotacions davant els resultats dels aldarulls de l'any passat, quan el PSG va guanyar la primera Champions, en què van morir dues persones",
-    "time": "2d ago",
-    "timestamp": 1780213229,
-    "color": "linear-gradient(135deg, #f59e0b, #78350f)",
-    "overlay": "⚽",
-    "link": "https://naciodigital.cat/esports/aldarulls-a-franca-despres-de-la-champions-mes-de-400-detinguts-i-set-policies-ferits.html",
-    "image": "https://d5r1tkwwv7d5g.cloudfront.net/articulos/articulos-720148.jpg",
-    "source": "Nació Digital",
-    "lang": "ca",
-    "id": 239
+    "id": 235
   },
   {
     "category": "lineup",
@@ -571,49 +515,7 @@
     "image": "https://static1.ara.cat/clip/2951a28e-a5c2-4693-b7b1-b4fada21f202_16-9-aspect-ratio_default_0.jpg",
     "source": "ARA Esports",
     "lang": "ca",
-    "id": 240
-  },
-  {
-    "category": "transfer",
-    "title": "«Visca el Barça i visca Catalunya»: Gordon, el nou fitxatge del Barça que parla català i és un apassionat de la lectura",
-    "snippet": "L'anglès s'ha donat a conèixer amb un vídeo que el club ha penjat a xarxes i ha sorprès tothom parlant en català i bromejant amb fundar un club de lectura al vestidor",
-    "time": "2d ago",
-    "timestamp": 1780172634,
-    "color": "linear-gradient(135deg, #a855f7, #581c87)",
-    "overlay": "🔄",
-    "link": "https://naciodigital.cat/esports/visca-el-barca-i-visca-catalunya-gordon-el-nou-fitxatge-del-barca-que-parla-catala-i-es-un-apassionat-de-la-lectura.html",
-    "image": "https://d5r1tkwwv7d5g.cloudfront.net/articulos/articulos-720009.jpg",
-    "source": "Nació Digital",
-    "lang": "ca",
-    "id": 241
-  },
-  {
-    "category": "rules",
-    "title": "El PSG de Luis Enrique guanya la segona Champions consecutiva davant l'Arsenal als penals",
-    "snippet": "Els parisencs fan història convertint-se en el segon equip a guanyar dues Champions consecutives, després del Reial Madrid",
-    "time": "2d ago",
-    "timestamp": 1780167968,
-    "color": "linear-gradient(135deg, #64748b, #334155)",
-    "overlay": "📺",
-    "link": "https://naciodigital.cat/esports/el-psg-de-luis-enrique-guanya-la-segona-champions-consecutiva-davant-larsenal-als-penals.html",
-    "image": "https://d5r1tkwwv7d5g.cloudfront.net/articulos/articulos-719979.jpg",
-    "source": "Nació Digital",
-    "lang": "ca",
-    "id": 242
-  },
-  {
-    "category": "tactics",
-    "title": "L’Estadi del Poble, l’antecessor comunista de l’actual Puskás Arena",
-    "snippet": "El Puskás Arena de Budapest, que acull la final de la Champions, és hereu d'un recinte esportiu construït després de la Segona Guerra Mundial i que va ser un dels orgulls de l’Hongria comunista",
-    "time": "3d ago",
-    "timestamp": 1780138782,
-    "color": "linear-gradient(135deg, #f59e0b, #78350f)",
-    "overlay": "⚽",
-    "link": "https://naciodigital.cat/esports/lestadi-del-poble-lantecessor-comunista-de-lactual-puskas-arena.html",
-    "image": "https://d5r1tkwwv7d5g.cloudfront.net/articulos/articulos-719250.jpg",
-    "source": "Nació Digital",
-    "lang": "ca",
-    "id": 243
+    "id": 236
   },
   {
     "category": "lineup",
@@ -625,6 +527,104 @@
     "overlay": "📋",
     "link": "https://www.ara.cat/esports/barca/fitxatge-l-ombra-imprescindible-hansi-flick_1_5746121.html",
     "image": "https://static1.ara.cat/clip/ee95f685-ec21-4ee6-9ac3-8a400561355c_16-9-aspect-ratio_default_0.png",
+    "source": "ARA Esports",
+    "lang": "ca",
+    "id": 237
+  },
+  {
+    "category": "rules",
+    "title": "Luis Enrique instal·la una dinastia al futbol europeu",
+    "snippet": "Quan The Killers començava a petar-ho, l'Arsenal va guanyar la que va ser l'última Premier League en 22 anys (2004) i va jugar la seva primera final de Champions (2006). Mr. Brightside, primer gran hit de la coneguda banda de Las Vegas, va marcar tota una generació a principis de segle. Era, igual que altres peces de The Strokes, Franz Ferdinand o Arcade Fire, un clàssic a les llistes de reproducció de DJ Amable a la Sala Razzmatazz i provocava repunts de dopamina al Karma, discoteca que va tancar fa uns mesos després de mig segle omplint la nit de milers de barcelonins. Després va venir Human, que es va convertir en una de les tonades del Barça de Pep Guardiola, i altres himnes d'estrofa, pont, tornada, coda i puny alçat. Quins temps, aquells.",
+    "time": "3d ago",
+    "timestamp": 1780092357,
+    "color": "linear-gradient(135deg, #64748b, #334155)",
+    "overlay": "📺",
+    "link": "https://www.ara.cat/esports/futbol/lliga-de-campions/guia-final-champions-psg-arsenal-horari-veure-l-alineacions_1_5752616.html",
+    "image": "https://static1.ara.cat/clip/11a9b787-6ebf-4c4d-a6d2-700f6f1035c1_16-9-aspect-ratio_default_0.jpg",
+    "source": "ARA Esports",
+    "lang": "ca",
+    "id": 238
+  },
+  {
+    "category": "press",
+    "title": "L’equip de barri d’Esplugues que va inspirar el PSG",
+    "snippet": "En un partit de cadets contra el Barça de Messi, Cesc i Piqué, Fran Rubio va adonar-se que no arribaria mai a ser jugador professional i que si volia dedicar-se al futbol hauria de ser fora del camp. És per això que va formar-se com a entrenador, i amb 15 anys va començar a exercir a la base del Can Vidalet, un modest club de barri d’Esplugues de Llobregat. “A la universitat vaig conèixer Carles Romagosa i David Hernández, que conjuntament amb Joan Vilà –un dels grans defensors de l’ADN Barça i descobridor de Xavi Hernández–, van fundar el mètode Ekkono”, diu Fran Rubio, que va convèncer Pedro Rubio, president de l’entitat i el seu pare, per començar a utilitzar aquesta revolucionària metodologia d’entrenament al Can Vidalet.",
+    "time": "3d ago",
+    "timestamp": 1780069445,
+    "color": "linear-gradient(135deg, #0d9488, #115e59)",
+    "overlay": "🎙️",
+    "link": "https://www.ara.cat/esports/futbol/l-equip-barri-d-esplugues-inspirar-psg_130_5752220.html",
+    "image": "https://static1.ara.cat/clip/40509258-0342-4435-ade2-76da795f75a4_source-aspect-ratio_default_0.jpg",
+    "source": "ARA Esports",
+    "lang": "ca",
+    "id": 239
+  },
+  {
+    "category": "transfer",
+    "title": "El devot de la Setmana Santa que vol fer gran l’Espanyol",
+    "snippet": "A Ramon Rodríguez Verdejo (San Fernando, 1968) tothom el coneix com a Monchi i l’identifica per ser l’arquitecte del millor Sevilla de la història i un dels millors directors esportius del món. L’avalen més d’una desena de títols, entre els quals set Europa Leagues, i molts milions en plusvàlues. Amb aquest currículum no és estrany que el seu fitxatge per l’Espanyol hagi desfermat l’eufòria entre molts periquitos. Seduït per Alan Pace, amb qui fa més de dos mesos que va començar a trobar-se, mirarà de reproduir la seva fórmula d’èxit com a director general esportiu de l’entitat, que dimarts el va presentar en societat.",
+    "time": "4d ago",
+    "timestamp": 1780030828,
+    "color": "linear-gradient(135deg, #a855f7, #581c87)",
+    "overlay": "🔄",
+    "link": "https://www.ara.cat/esports/rcd-espanyol/devot-setmana-santa-vol-gran-l-espanyol_130_5750061.html",
+    "image": "https://static1.ara.cat/clip/37e21540-e731-4674-beb6-a126f39a63de_source-aspect-ratio_default_0.jpg",
+    "source": "ARA Esports",
+    "lang": "ca",
+    "id": 240
+  },
+  {
+    "category": "lineup",
+    "title": "Final d'etapa al Girona: Míchel Sánchez no continua després del descens a Segona",
+    "snippet": "Míchel Sánchez ja no és l'entrenador del Girona, després que el club gironí i el tècnic de Vallecas hagin separat els seus camins amb el descens a Segona Divisió. Míchel acaba de forma trista una etapa preciosa a la banqueta. Aquest és el primer moviment oficial de l'entitat, que ha decidit que el director esportiu, Quique Cárcel, continuï liderant el projecte des dels despatxos. Qui substituirà el madrileny ara com ara és una incògnita. Els seus ajudants, Salva Fúnez, David Porcel i Juan Carlos Balaguer, també abandonen Montilivi.",
+    "time": "4d ago",
+    "timestamp": 1779980414,
+    "color": "linear-gradient(135deg, #3b82f6, #1e3a8a)",
+    "overlay": "📋",
+    "link": "https://www.ara.cat/esports/girona-fc/final-d-etapa-girona-michel-sanchez-no-continua-despres-descens-segona_1_5751233.html",
+    "image": "https://static1.ara.cat/clip/fb9a45b9-d3d7-47ec-82d9-eab6ccdec66a_16-9-aspect-ratio_default_0.jpg",
+    "source": "ARA Esports",
+    "lang": "ca",
+    "id": 241
+  },
+  {
+    "category": "tactics",
+    "title": "El Barça tanca un cercle amb les sortides de Mapi León i Ona Batlle",
+    "snippet": "Era un secret de domini públic, però ja s'ha fet oficial. Mapi León i Ona Batlle no continuaran al Barça la pròxima temporada. El club blaugrana –que dimarts va anunciar la sortida d'Alexia Putellas– tanca un exitós cercle per donar pas a una gran fornada de joves que volen \"menjar-se el món\", tal com va descriure la capitana blaugrana en el seu acte de comiat. La central aragonesa –que tot apunta que anirà al London City de Michele Kang (propietària de l'Olympique de Lió)– marxa després de nou temporades, 27 títols i 313 partits amb el Barça, i la lateral vilassarenca tornaria a Anglaterra a l'Arsenal.",
+    "time": "5d ago",
+    "timestamp": 1779962458,
+    "color": "linear-gradient(135deg, #f59e0b, #78350f)",
+    "overlay": "⚽",
+    "link": "https://www.ara.cat/esports/barca-femeni/barca-femeni-sortides-2026_1_5748786.html",
+    "image": "https://static1.ara.cat/clip/4b33f4b8-d44e-47ee-bf33-6d43291e23cc_16-9-aspect-ratio_default_0.jpg",
+    "source": "ARA Esports",
+    "lang": "ca",
+    "id": 242
+  },
+  {
+    "category": "transfer",
+    "title": "Gairebé 3.000 dòlars per un partit del Mundial? La FIFA, investigada pels preus de les entrades",
+    "snippet": "La FIFA haurà d'aclarir les seves pràctiques de venda d'entrades per al Mundial de futbol d'enguany davant d'acusacions d'inflar-ne els preus de manera artificial i d'enganyar els fans a l'hora de la compra. Les fiscalies estatals de Nova York i Nova Jersey han obert una investigació per als vuit partits del Mundial que es jugaran a l'estadi MetLife, inclosa la final del torneig. Actualment, al portal Seatpick.com, les entrades per veure algun dels partits a l'estadi de Nova Jersey s'estan venent per un preu mitjà de 2.790 dòlars.",
+    "time": "5d ago",
+    "timestamp": 1779950391,
+    "color": "linear-gradient(135deg, #a855f7, #581c87)",
+    "overlay": "🔄",
+    "link": "https://www.ara.cat/esports/futbol/gairebe-3-000-dolars-partit-mundial-fifa-investigada-pels-preus-entrades_1_5750600.html",
+    "image": "https://static1.ara.cat/clip/797ed480-ad68-4bd5-bfd3-baa348e98c87_16-9-aspect-ratio_default_0_x2142y978.jpg",
+    "source": "ARA Esports",
+    "lang": "ca",
+    "id": 243
+  },
+  {
+    "category": "transfer",
+    "title": "El Barça confirma el fitxatge d'Anthony Gordon",
+    "snippet": "Anthony Gordon és el primer fitxatge del Barça de cara al tercer curs amb Hansi Flick. El futbolista internacional anglès, de 25 anys, ha tancat un acord amb el club català. Aquesta setmana el director esportiu blaugrana, Deco, ha estat a Anglaterra negociant amb el Newcastle United. L'acord entre les tres parts ja és un fet i el futbolista signarà el seu contracte amb el Barça aquest divendres a les 13h al despatx del president interí Rafael Yuste. Després, serà presentat en una roda de premsa.",
+    "time": "5d ago",
+    "timestamp": 1779910229,
+    "color": "linear-gradient(135deg, #a855f7, #581c87)",
+    "overlay": "🔄",
+    "link": "https://www.ara.cat/esports/barca/l-angles-anthony-gordon-sera-fitxatge-barca-aquest-estiu_1_5750495.html",
+    "image": "https://static1.ara.cat/clip/8ee82880-63bd-402e-aee8-7258eb5040e8_source-aspect-ratio_default_0.jpg",
     "source": "ARA Esports",
     "lang": "ca",
     "id": 244
