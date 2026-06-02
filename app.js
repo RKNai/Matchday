@@ -17,6 +17,7 @@ const state = {
   activeNewsCategory: 'all',
   activeModalTab: 'timeline',
   activeModalMatchId: null,
+  lang: localStorage.getItem('matchday_lang') || 'en',
   matches: [
     {
       id: 1,
@@ -160,6 +161,289 @@ const state = {
   ]
 };
 
+// --- Translation Dictionary & Localization System ---
+const translations = {
+  en: {
+    live_ticker: 'Live Ticker',
+    tracking_subs: 'Tracking Subscriptions',
+    btn_install: 'Install App',
+    match_center: 'Match Center',
+    tab_all: 'All',
+    tab_live: 'Live',
+    tab_results: 'Results',
+    tab_upcoming: 'Upcoming',
+    tab_subscribed: 'Subscribed',
+    btn_subscribe: 'Alerts',
+    btn_subscribed: 'Subscribed',
+    final_result: 'FINAL RESULT',
+    upcoming_pred: 'Upcoming • Prediction open',
+    empty_matches: 'No matches matching your selection.',
+    feed_title: 'World Cup Feed',
+    latest_stories: 'Latest World Cup Stories',
+    empty_news: 'No news matches search parameters.',
+    ad_sponsored: 'Sponsored',
+    ad_title: '🏆 Predict & Win World Cup Glory!',
+    ad_desc: 'Join MatchDay Fantasy League. Play free, win real cash and official jerseys.',
+    ad_cta: 'Play Now',
+    sidebar_title: 'Subscription Settings',
+    sidebar_desc: 'Subscribe to your favorite teams to receive real-time push alerts for goals, half-times, and final results.',
+    card_native_title: 'Enable Native Alerts',
+    card_native_desc: 'Get instant updates in the background on your device.',
+    card_native_btn: 'Enable',
+    sidebar_subs_header: 'Active Subscriptions',
+    sidebar_all_header: 'All Teams',
+    sidebar_empty_state: 'No subscribed teams yet. Click the alerts button next to matches or subscribe below!',
+    modal_timeline: 'Timeline',
+    modal_stats: 'Stats',
+    modal_lineups: 'Lineups',
+    modal_empty_timeline_upcoming: "This match hasn't started yet. Timeline updates will populate live when kickoff begins.",
+    modal_empty_timeline_live: 'Kickoff! No major actions yet.',
+    modal_squad_title: 'Squad',
+    modal_status_live: 'LIVE',
+    modal_status_fulltime: 'FULL TIME RESULT',
+    modal_status_upcoming: 'UPCOMING GAME',
+    read_full_story: 'Read Full Story ↗',
+    read_full_story_desc: 'Click "Read Full Story" to read this breaking news article directly on the source website.',
+    source: 'Source',
+    possession: 'Possession %',
+    shots: 'Shots',
+    fouls: 'Fouls Committed',
+    corners: 'Corners',
+    category_injury: 'Injury Report',
+    category_lineup: 'Squads',
+    category_transfer: 'Transfers',
+    category_press: 'Press Talk',
+    category_rules: 'Rules & VAR',
+    category_tactics: 'Tactics',
+    category_all: 'All News',
+    category_injury_chip: 'Injuries',
+    category_lineup_chip: 'Squads',
+    category_transfer_chip: 'Transfers',
+    category_press_chip: 'Press Talk',
+    category_rules_chip: 'Rules & VAR',
+    category_tactics_chip: 'Tactics',
+    m_ago: 'm ago',
+    h_ago: 'h ago',
+    d_ago: 'd ago',
+    just_now: 'Just now',
+    recently: 'Recently',
+    today: 'Today',
+    group: 'Group',
+    match: 'Match',
+    jun: 'Jun',
+    jul: 'Jul',
+    group_stage: 'Group Stage'
+  },
+  es: {
+    live_ticker: 'Marcador en vivo',
+    tracking_subs: 'Siguiendo suscripciones',
+    btn_install: 'Instalar App',
+    match_center: 'Centro de Partidos',
+    tab_all: 'Todos',
+    tab_live: 'En Vivo',
+    tab_results: 'Resultados',
+    tab_upcoming: 'Próximos',
+    tab_subscribed: 'Suscritos',
+    btn_subscribe: 'Alertas',
+    btn_subscribed: 'Suscrito',
+    final_result: 'RESULTADO FINAL',
+    upcoming_pred: 'Próximamente • Pronósticos abiertos',
+    empty_matches: 'No hay partidos que coincidan con su selección.',
+    feed_title: 'Noticias del Mundial',
+    latest_stories: 'Últimas noticias del Mundial',
+    empty_news: 'No hay noticias que coincidan con la búsqueda.',
+    ad_sponsored: 'Patrocinado',
+    ad_title: '🏆 ¡Predice y Gana la Gloria del Mundial!',
+    ad_desc: 'Únete a la Liga Fantasy de MatchDay. Juega gratis, gana dinero real y camisetas oficiales.',
+    ad_cta: 'Jugar Ahora',
+    sidebar_title: 'Ajustes de Suscripción',
+    sidebar_desc: 'Suscríbete a tus equipos favoritos para recibir alertas push en tiempo real de goles, entretiempos y resultados finales.',
+    card_native_title: 'Activar Alertas Nativas',
+    card_native_desc: 'Recibe actualizaciones al instante en segundo plano en tu dispositivo.',
+    card_native_btn: 'Activar',
+    sidebar_subs_header: 'Suscripciones Activas',
+    sidebar_all_header: 'Todos los Equipos',
+    sidebar_empty_state: 'Aún no sigues a ningún equipo. ¡Haz clic en el botón de alerta junto a los partidos o suscríbete abajo!',
+    modal_timeline: 'Línea de tiempo',
+    modal_stats: 'Estadísticas',
+    modal_lineups: 'Alineaciones',
+    modal_empty_timeline_upcoming: 'Este partido aún no ha comenzado. El minuto a minuto se actualizará en vivo tras el pitazo inicial.',
+    modal_empty_timeline_live: '¡Comenzó el partido! Aún no se han producido eventos importantes.',
+    modal_squad_title: 'Plantel',
+    modal_status_live: 'EN VIVO',
+    modal_status_fulltime: 'RESULTADO FINAL',
+    modal_status_upcoming: 'PARTIDO PRÓXIMO',
+    read_full_story: 'Leer Noticia Completa ↗',
+    read_full_story_desc: 'Haz clic en "Leer Noticia Completa" para leer este artículo directamente en la web de origen.',
+    source: 'Fuente',
+    possession: 'Posesión %',
+    shots: 'Remates',
+    fouls: 'Faltas Cometidas',
+    corners: 'Tiros de esquina',
+    category_injury: 'Parte de Lesiones',
+    category_lineup: 'Planteles',
+    category_transfer: 'Fichajes',
+    category_press: 'Ruedas de prensa',
+    category_rules: 'Reglamento y VAR',
+    category_tactics: 'Tácticas',
+    category_all: 'Todas',
+    category_injury_chip: 'Lesiones',
+    category_lineup_chip: 'Planteles',
+    category_transfer_chip: 'Fichajes',
+    category_press_chip: 'Ruedas de prensa',
+    category_rules_chip: 'Reglamento y VAR',
+    category_tactics_chip: 'Tácticas',
+    m_ago: 'm atrás',
+    h_ago: 'h atrás',
+    d_ago: 'd atrás',
+    just_now: 'Ahora mismo',
+    recently: 'Recientemente',
+    today: 'Hoy',
+    group: 'Grupo',
+    match: 'Partido',
+    jun: 'Jun',
+    jul: 'Jul',
+    group_stage: 'Fase de Grupos'
+  },
+  ca: {
+    live_ticker: 'Marcador en viu',
+    tracking_subs: 'Seguint subscripcions',
+    btn_install: 'Instal·lar App',
+    match_center: 'Centre de Partits',
+    tab_all: 'Tots',
+    tab_live: 'En Viu',
+    tab_results: 'Resultats',
+    tab_upcoming: 'Pròxims',
+    tab_subscribed: 'Subscrits',
+    btn_subscribe: 'Alertes',
+    btn_subscribed: 'Subscrit',
+    final_result: 'RESULTAT FINAL',
+    upcoming_pred: 'Pròximament • Pronòstics oberts',
+    empty_matches: 'No hi ha partits que coincideixin amb la seva selecció.',
+    feed_title: 'Notícies del Mundial',
+    latest_stories: 'Últimes notícies del Mundial',
+    empty_news: 'No hi ha notícies que coincideixin amb la cerca.',
+    ad_sponsored: 'Patrocinat',
+    ad_title: '🏆 ¡Prediu i Guanya la Glòria del Mundial!',
+    ad_desc: 'Uneix-te a la Lliga Fantasy de MatchDay. Juga gratis, guanya diners reals i samarretes oficials.',
+    ad_cta: 'Jugar Ara',
+    sidebar_title: 'Ajusts de Subscripció',
+    sidebar_desc: 'Subscriu-te als teus equips preferits per rebre alertes push en temps real de gols, mitges parts i resultats finals.',
+    card_native_title: 'Activar Alertes Natives',
+    card_native_desc: 'Rep actualitzacions a l\'instant en segon pla al teu dispositiu.',
+    card_native_btn: 'Activar',
+    sidebar_subs_header: 'Subscripcions Actives',
+    sidebar_all_header: 'Tots els Equips',
+    sidebar_empty_state: 'Encara no sigues cap equip. ¡Fes clic al botó d\'alerta al costat dels partits o subscriu-te a sota!',
+    modal_timeline: 'Línia de temps',
+    modal_stats: 'Estadístiques',
+    modal_lineups: 'Alineacions',
+    modal_empty_timeline_upcoming: 'Aquest partit encara no ha començat. El minut a minut s\'actualitzarà en viu després del xiulet inicial.',
+    modal_empty_timeline_live: '¡Ha començat el partit! Encara no s\'han produït esdeveniments importants.',
+    modal_squad_title: 'Plantilla',
+    modal_status_live: 'EN VIU',
+    modal_status_fulltime: 'RESULTAT FINAL',
+    modal_status_upcoming: 'PARTIT PRÒXIM',
+    read_full_story: 'Llegir Notícia Completa ↗',
+    read_full_story_desc: 'Fes clic a "Llegir Notícia Completa" per llegir aquest article directament al web d\'origen.',
+    source: 'Font',
+    possession: 'Possessió %',
+    shots: 'Remats',
+    fouls: 'Faltes Comeses',
+    corners: 'Còrners',
+    category_injury: 'Part de Lesions',
+    category_lineup: 'Plantilles',
+    category_transfer: 'Fitxatges',
+    category_press: 'Rodes de premsa',
+    category_rules: 'Reglament i VAR',
+    category_tactics: 'Tàctiques',
+    category_all: 'Totes',
+    category_injury_chip: 'Lesions',
+    category_lineup_chip: 'Plantilles',
+    category_transfer_chip: 'Fitxatges',
+    category_press_chip: 'Rodes de premsa',
+    category_rules_chip: 'Reglament i VAR',
+    category_tactics_chip: 'Tàctiques',
+    m_ago: 'm enrere',
+    h_ago: 'h enrere',
+    d_ago: 'd enrere',
+    just_now: 'Ara mateix',
+    recently: 'Recentment',
+    today: 'Avui',
+    group: 'Grup',
+    match: 'Partit',
+    jun: 'Jun',
+    jul: 'Jul',
+    group_stage: 'Fase de Grups'
+  }
+};
+
+function t(key, fallback = '') {
+  const lang = state.lang;
+  return (translations[lang] && translations[lang][key]) || fallback || key;
+}
+
+function applyTranslations() {
+  const lang = state.lang;
+  
+  if (DOM.langSelect) {
+    DOM.langSelect.value = lang;
+  }
+  
+  document.querySelectorAll('[data-i18n]').forEach((el) => {
+    const key = el.getAttribute('data-i18n');
+    if (translations[lang] && translations[lang][key]) {
+      el.textContent = translations[lang][key];
+    }
+  });
+
+  if (DOM.newsSearch) {
+    DOM.newsSearch.placeholder = lang === 'en' ? 'Search team news, injuries...' : 
+                                 lang === 'es' ? 'Buscar noticias de equipos, lesiones...' : 
+                                               'Cercar notícies d\'equips, lesions...';
+  }
+
+  document.title = lang === 'en' ? 'MatchDay • World Cup 2026 Tracker' : 
+                   lang === 'es' ? 'MatchDay • Rastreador del Mundial 2026' : 
+                                  'MatchDay • Seguiment del Mundial 2026';
+                                  
+  // Set html element lang attribute for SEO
+  document.documentElement.lang = lang;
+                                  
+  // Trigger re-renders
+  renderMatchesList();
+  renderNewsGrid();
+  renderSubscriptionsUI();
+  updateSyncStatus();
+}
+
+function translateStage(stageStr) {
+  if (!stageStr) return '';
+  return stageStr
+    .replace('Group Stage', t('group_stage', 'Group Stage'))
+    .replace('Group', t('group', 'Group'))
+    .replace('Match', t('match', 'Match'));
+}
+
+function translateTime(timeStr) {
+  if (!timeStr) return '';
+  return timeStr
+    .replace('m ago', ' ' + t('m_ago', 'm ago'))
+    .replace('h ago', ' ' + t('h_ago', 'h ago'))
+    .replace('d ago', ' ' + t('d_ago', 'd ago'))
+    .replace('Just now', t('just_now', 'Just now'))
+    .replace('Recently', t('recently', 'Recently'))
+    .replace('Today', t('today', 'Today'))
+    .trim();
+}
+
+function translateDate(dateStr) {
+  if (!dateStr) return '';
+  return dateStr
+    .replace('Jun', t('jun', 'Jun'))
+    .replace('Jul', t('jul', 'Jul'));
+}
+
 // --- DOM References ---
 const DOM = {
   appContainer: document.getElementById('appContainer'),
@@ -173,6 +457,7 @@ const DOM = {
   syncStatus: document.getElementById('syncStatus'),
   notificationCenterBtn: document.getElementById('notificationCenterBtn'),
   subCountBadge: document.getElementById('subCountBadge'),
+  langSelect: document.getElementById('langSelect'),
   
   // Notification Sidebar
   notificationSidebar: document.getElementById('notificationSidebar'),
@@ -225,9 +510,24 @@ document.addEventListener('DOMContentLoaded', () => {
   // Simulated Match Engine
   startMatchSimulation();
   
-  // Initial renders
-  renderMatchesList();
-  renderNewsGrid();
+  // Language switcher setup
+  if (DOM.langSelect) {
+    DOM.langSelect.addEventListener('change', (e) => {
+      state.lang = e.target.value;
+      localStorage.setItem('matchday_lang', state.lang);
+      applyTranslations();
+      showToast(
+        state.lang === 'en' ? '🌐 Language Updated' :
+        state.lang === 'es' ? '🌐 Idioma Actualizado' : '🌐 Idioma Actualitzat',
+        state.lang === 'en' ? 'App text translated to English.' :
+        state.lang === 'es' ? 'Texto de la aplicación traducido al Español.' :
+                              'Text de l\'aplicació traduït al Català.'
+      );
+    });
+  }
+  
+  // Apply initial translations & trigger initial renders
+  applyTranslations();
   
   // Modals & Banner
   setupModalHandlers();
@@ -523,7 +823,7 @@ function renderSubscriptionsUI() {
   // Subscribed list
   DOM.subscribedTeamsList.innerHTML = '';
   if (count === 0) {
-    DOM.subscribedTeamsList.innerHTML = `<p class="empty-state">No active subscriptions. Tap "Alerts" next to matches.</p>`;
+    DOM.subscribedTeamsList.innerHTML = `<p class="empty-state">${t('sidebar_empty_state', 'No active subscriptions. Tap "Alerts" next to matches.')}</p>`;
   } else {
     state.subscribedTeams.forEach((team) => {
       // Find matching flag
@@ -571,10 +871,10 @@ function renderSubscriptionsUI() {
 function updateSyncStatus() {
   if (state.subscribedTeams.size > 0) {
     DOM.syncStatus.style.background = 'rgba(16, 185, 129, 0.15)';
-    DOM.syncStatus.querySelector('.status-text').textContent = 'Tracking Subscriptions';
+    DOM.syncStatus.querySelector('.status-text').textContent = t('tracking_subs', 'Tracking Subscriptions');
   } else {
     DOM.syncStatus.style.background = '';
-    DOM.syncStatus.querySelector('.status-text').textContent = 'Live Ticker';
+    DOM.syncStatus.querySelector('.status-text').textContent = t('live_ticker', 'Live Ticker');
   }
 }
 
@@ -733,7 +1033,7 @@ function renderMatchesList() {
     DOM.matchesList.innerHTML = `
       <div class="empty-state">
         <svg xmlns="http://www.w3.org/2000/svg" width="40" height="40" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"/><path d="M8 12h8"/></svg>
-        <p>No matches matching your selection.</p>
+        <p>${t('empty_matches', 'No matches matching your selection.')}</p>
       </div>
     `;
     return;
@@ -753,11 +1053,11 @@ function renderMatchesList() {
     // Status HTML formatter
     let statusHtml = '';
     if (isLive) {
-      statusHtml = `<span class="match-status pulse-text"><span class="match-live-dot"></span>LIVE • ${match.minute}'</span>`;
+      statusHtml = `<span class="match-status pulse-text"><span class="match-live-dot"></span>${t('modal_status_live', 'LIVE')} • ${match.minute}'</span>`;
     } else if (isFinished) {
-      statusHtml = `<span class="match-status">FINAL RESULT</span>`;
+      statusHtml = `<span class="match-status">${t('final_result', 'FINAL RESULT')}</span>`;
     } else {
-      const label = match.date ? `${match.date}` : 'Upcoming • Prediction open';
+      const label = match.date ? `${translateDate(match.date)}` : t('upcoming_pred', 'Upcoming • Prediction open');
       statusHtml = `<span class="match-status">${label}</span>`;
     }
 
@@ -774,7 +1074,7 @@ function renderMatchesList() {
 
     card.innerHTML = `
       <div class="match-meta">
-        <span class="match-stage">${match.stage}</span>
+        <span class="match-stage">${translateStage(match.stage)}</span>
         ${statusHtml}
       </div>
       <div class="match-teams-row">
@@ -797,7 +1097,7 @@ function renderMatchesList() {
       ${scorersHtml}
       <button class="btn-subscribe ${hasAnySub ? 'active' : ''}" data-team="${match.home}" title="Toggle Alerts">
         <svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 24 24" fill="${hasAnySub ? 'currentColor' : 'none'}" stroke="currentColor" stroke-width="2"><path d="M18 8A6 6 0 0 0 6 8c0 7-3 9-3 9h18s-3-2-3-9"/><path d="M13.73 21a2 2 0 0 1-3.46 0"/></svg>
-        <span>${hasAnySub ? 'Subscribed' : 'Alerts'}</span>
+        <span>${hasAnySub ? t('btn_subscribed', 'Subscribed') : t('btn_subscribe', 'Alerts')}</span>
       </button>
     `;
 
@@ -857,7 +1157,7 @@ function renderNewsGrid() {
     DOM.newsGrid.innerHTML = `
       <div class="empty-state">
         <svg xmlns="http://www.w3.org/2000/svg" width="40" height="40" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><circle cx="11" cy="11" r="8"/><line x1="21" y1="21" x2="16.65" y2="16.65"/></svg>
-        <p>No news matches search parameters.</p>
+        <p>${t('empty_news', 'No news matches search parameters.')}</p>
       </div>
     `;
     return;
@@ -866,20 +1166,20 @@ function renderNewsGrid() {
   // Prepend short header in the scroll list container itself
   const feedHeader = document.createElement('h3');
   feedHeader.className = 'feed-scroll-header';
-  feedHeader.textContent = 'Latest World Cup Stories';
+  feedHeader.textContent = t('latest_stories', 'Latest World Cup Stories');
   DOM.newsGrid.appendChild(feedHeader);
 
   filtered.forEach((item) => {
     const article = document.createElement('article');
     article.className = 'news-card';
     
-    let tagLabel = 'Tactics';
-    if (item.category === 'injury') tagLabel = 'Injury Report';
-    if (item.category === 'lineup') tagLabel = 'Squads';
-    if (item.category === 'transfer') tagLabel = 'Transfers';
-    if (item.category === 'press') tagLabel = 'Press Talk';
-    if (item.category === 'rules') tagLabel = 'Rules & VAR';
-    if (item.category === 'tactics') tagLabel = 'Tactics';
+    let tagLabel = t('category_tactics', 'Tactics');
+    if (item.category === 'injury') tagLabel = t('category_injury', 'Injury Report');
+    if (item.category === 'lineup') tagLabel = t('category_lineup', 'Squads');
+    if (item.category === 'transfer') tagLabel = t('category_transfer', 'Transfers');
+    if (item.category === 'press') tagLabel = t('category_press', 'Press Talk');
+    if (item.category === 'rules') tagLabel = t('category_rules', 'Rules & VAR');
+    if (item.category === 'tactics') tagLabel = t('category_tactics', 'Tactics');
 
     const hasImage = item.image && item.image !== '';
     const newsSource = item.source || 'World Cup Feed';
@@ -901,7 +1201,7 @@ function renderNewsGrid() {
         <div class="news-meta">
           <span class="news-tag ${item.category}-tag">${tagLabel}</span>
           <span class="news-source">${newsSource}</span>
-          <span class="news-time">• ${item.time}</span>
+          <span class="news-time">• ${translateTime(item.time)}</span>
         </div>
         <h3 class="news-headline">${item.title}</h3>
         <p class="news-snippet">${item.snippet}</p>
@@ -973,13 +1273,13 @@ function openNewsDetails(newsId) {
   DOM.newsModalHeader.innerHTML = `
     <div style="display: flex; justify-content: space-between; align-items: center; width: 100%; margin-bottom: 10px;">
       <span class="news-tag ${item.category}-tag" style="padding: 3px 8px; font-size: 10px; font-weight: 700; border-radius: 4px; text-transform: uppercase;">
-        ${item.category === 'injury' ? 'Injury Report' : 
-          item.category === 'lineup' ? 'Squads' : 
-          item.category === 'transfer' ? 'Transfers' : 
-          item.category === 'press' ? 'Press Talk' : 
-          item.category === 'rules' ? 'Rules & VAR' : 'Tactics'}
+        ${item.category === 'injury' ? t('category_injury', 'Injury Report') : 
+          item.category === 'lineup' ? t('category_lineup', 'Squads') : 
+          item.category === 'transfer' ? t('category_transfer', 'Transfers') : 
+          item.category === 'press' ? t('category_press', 'Press Talk') : 
+          item.category === 'rules' ? t('category_rules', 'Rules & VAR') : t('category_tactics', 'Tactics')}
       </span>
-      <span class="news-time" style="font-size: 11px; color: var(--text-muted);">${item.time}</span>
+      <span class="news-time" style="font-size: 11px; color: var(--text-muted);">${translateTime(item.time)}</span>
     </div>
     ${item.image ? `
       <div style="width: 100%; height: 160px; border-radius: 10px; overflow: hidden; margin-bottom: 6px; border: 1px solid var(--border-color);">
@@ -994,10 +1294,10 @@ function openNewsDetails(newsId) {
       ${item.title}
     </h3>
     <p style="font-size: 13px; color: var(--text-secondary); line-height: 1.5; margin-top: 8px;">
-      ${item.snippet || 'Click "Read Full Story" to read this breaking news article directly on the source website.'}
+      ${item.snippet || t('read_full_story_desc', 'Click "Read Full Story" to read this breaking news article directly on the source website.')}
     </p>
     <div style="display: flex; align-items: center; justify-content: space-between; margin-top: 14px; border-top: 1px solid var(--border-color); padding-top: 12px; gap: 10px;">
-      <span style="font-size: 11px; font-weight: 600; color: var(--primary);">Source: ${item.source}</span>
+      <span style="font-size: 11px; font-weight: 600; color: var(--primary);">${t('source', 'Source')}: ${item.source}</span>
       ${item.link ? `
         <a href="${item.link}" target="_blank" rel="noopener noreferrer" style="
           display: inline-flex;
@@ -1013,7 +1313,7 @@ function openNewsDetails(newsId) {
           box-shadow: 0 4px 10px rgba(16, 185, 129, 0.25);
           transition: all 0.2s;
         " onmouseover="this.style.transform='translateY(-1px)'; this.style.boxShadow='0 6px 14px rgba(16, 185, 129, 0.4)';" onmouseout="this.style.transform='none'; this.style.boxShadow='0 4px 10px rgba(16, 185, 129, 0.25)';">
-          Read Full Story ↗
+          ${t('read_full_story', 'Read Full Story ↗')}
         </a>
       ` : ''}
     </div>
@@ -1031,15 +1331,15 @@ function renderModalContent() {
   // Render header values
   let statusText = '';
   if (match.status === 'live') {
-    statusText = `LIVE • ${match.minute}'`;
+    statusText = `${t('modal_status_live', 'LIVE')} • ${match.minute}'`;
   } else if (match.status === 'finished') {
-    statusText = 'FULL TIME RESULT';
+    statusText = t('modal_status_fulltime', 'FULL TIME RESULT');
   } else {
-    statusText = 'UPCOMING GAME';
+    statusText = t('modal_status_upcoming', 'UPCOMING GAME');
   }
 
   DOM.modalHeader.innerHTML = `
-    <span class="modal-stage">${match.stage}</span>
+    <span class="modal-stage">${translateStage(match.stage)}</span>
     <div class="modal-teams-scores">
       <div class="modal-team">
         <span class="flag">${match.homeFlag}</span>
@@ -1064,7 +1364,7 @@ function renderModalContent() {
       DOM.modalTabContent.innerHTML = `
         <div class="empty-state">
           <span>📅</span>
-          <p>This match hasn't started yet. Timeline updates will populate live when kickoff begins.</p>
+          <p>${t('modal_empty_timeline_upcoming', "This match hasn't started yet. Timeline updates will populate live when kickoff begins.")}</p>
         </div>
       `;
     } else {
@@ -1072,7 +1372,7 @@ function renderModalContent() {
         DOM.modalTabContent.innerHTML = `
           <div class="empty-state">
             <span>⏱️</span>
-            <p>Kickoff! No major actions yet.</p>
+            <p>${t('modal_empty_timeline_live', 'Kickoff! No major actions yet.')}</p>
           </div>
         `;
       } else {
@@ -1092,10 +1392,10 @@ function renderModalContent() {
   } else if (state.activeModalTab === 'stats') {
     // 2. Stats Tab
     const statsList = [
-      { name: 'Possession %', values: match.stats.possession },
-      { name: 'Shots', values: match.stats.shots },
-      { name: 'Fouls Committed', values: match.stats.fouls },
-      { name: 'Corners', values: match.stats.corners }
+      { name: t('possession', 'Possession %'), values: match.stats.possession },
+      { name: t('shots', 'Shots'), values: match.stats.shots },
+      { name: t('fouls', 'Fouls Committed'), values: match.stats.fouls },
+      { name: t('corners', 'Corners'), values: match.stats.corners }
     ];
 
     statsList.forEach((stat) => {
@@ -1147,11 +1447,11 @@ function renderModalContent() {
 
     lineupSection.innerHTML = `
       <div>
-        <div class="lineup-title">${match.home} Squad</div>
+        <div class="lineup-title">${t('modal_squad_title', 'Squad')} - ${match.home}</div>
         ${homePlayersHtml}
       </div>
       <div>
-        <div class="lineup-title">${match.away} Squad</div>
+        <div class="lineup-title">${t('modal_squad_title', 'Squad')} - ${match.away}</div>
         ${awayPlayersHtml}
       </div>
     `;

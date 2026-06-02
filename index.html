@@ -19,10 +19,10 @@
   <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Outfit:wght@400;500;600;700;800&display=swap" rel="stylesheet">
   
   <!-- Core Stylesheet -->
-  <link rel="stylesheet" href="style.css?v=19">
+  <link rel="stylesheet" href="style.css?v=20">
   
   <!-- Script Setup -->
-  <script src="app.js?v=19" defer></script>
+  <script src="app.js?v=20" defer></script>
 </head>
 <body>
   <!-- Header Bar -->
@@ -36,13 +36,22 @@
       <!-- Sync Pulse -->
       <div class="sync-status" id="syncStatus">
         <span class="pulse-dot"></span>
-        <span class="status-text">Live Ticker</span>
+        <span class="status-text" data-i18n="live_ticker">Live Ticker</span>
+      </div>
+      
+      <!-- Language Selector -->
+      <div class="lang-selector">
+        <select id="langSelect" class="select-lang" aria-label="Select Language">
+          <option value="en">EN</option>
+          <option value="es">ES</option>
+          <option value="ca">CA</option>
+        </select>
       </div>
       
       <!-- PWA Install Button (Initially Hidden) -->
       <button class="btn-install" id="installBtn" style="display: none;">
         <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"/><polyline points="7 10 12 15 17 10"/><line x1="12" y1="15" x2="12" y2="3"/></svg>
-        <span>Install App</span>
+        <span data-i18n="btn_install">Install App</span>
       </button>
       
       <!-- Notification Center Toggle -->
@@ -59,19 +68,19 @@
     <!-- Top Panel: Matches / Results (var(--matches-height)) -->
     <section class="panel panel-matches" id="matchesPanel">
       <div class="panel-header">
-        <h2 class="panel-title">Match Center</h2>
+        <h2 class="panel-title" data-i18n="match_center">Match Center</h2>
         
         <!-- Filter Tabs -->
         <div class="filter-tabs">
-          <button class="tab-btn active" data-tab="all">All</button>
+          <button class="tab-btn active" data-tab="all" data-i18n="tab_all">All</button>
           <button class="tab-btn" data-tab="live">
-            <span class="tab-live-dot"></span>Live
+            <span class="tab-live-dot"></span><span data-i18n="tab_live">Live</span>
           </button>
-          <button class="tab-btn" data-tab="results">Results</button>
-          <button class="tab-btn" data-tab="upcoming">Upcoming</button>
+          <button class="tab-btn" data-tab="results" data-i18n="tab_results">Results</button>
+          <button class="tab-btn" data-tab="upcoming" data-i18n="tab_upcoming">Upcoming</button>
           <button class="tab-btn" data-tab="favorites" id="favTabBtn">
             <svg xmlns="http://www.w3.org/2000/svg" width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M19 21l-7-5-7 5V5a2 2 0 0 1 2-2h10a2 2 0 0 1 2 2z"/></svg>
-            Subscribed
+            <span data-i18n="tab_subscribed">Subscribed</span>
           </button>
         </div>
       </div>
@@ -146,7 +155,7 @@
     <section class="panel panel-news" id="newsPanel">
       <div class="panel-header">
         <div class="title-with-search">
-          <h2 class="panel-title">World Cup Feed</h2>
+          <h2 class="panel-title" data-i18n="feed_title">World Cup Feed</h2>
           <div class="news-search-container">
             <svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="search-icon"><circle cx="11" cy="11" r="8"/><line x1="21" y1="21" x2="16.65" y2="16.65"/></svg>
             <input type="text" id="newsSearch" placeholder="Search team news, injuries...">
@@ -155,13 +164,13 @@
         
         <!-- News Category Chips -->
         <div class="news-categories">
-          <button class="chip active" data-category="all">All News</button>
-          <button class="chip" data-category="injury">Injuries 🩺</button>
-          <button class="chip" data-category="lineup">Squads 📋</button>
-          <button class="chip" data-category="tactics">Tactics ⚽</button>
-          <button class="chip" data-category="transfer">Transfers 🔄</button>
-          <button class="chip" data-category="press">Press Talk 🎙️</button>
-          <button class="chip" data-category="rules">Rules & VAR 📺</button>
+          <button class="chip active" data-category="all" data-i18n="category_all">All News</button>
+          <button class="chip" data-category="injury"><span data-i18n="category_injury_chip">Injuries</span> 🩺</button>
+          <button class="chip" data-category="lineup"><span data-i18n="category_lineup_chip">Squads</span> 📋</button>
+          <button class="chip" data-category="tactics"><span data-i18n="category_tactics_chip">Tactics</span> ⚽</button>
+          <button class="chip" data-category="transfer"><span data-i18n="category_transfer_chip">Transfers</span> 🔄</button>
+          <button class="chip" data-category="press"><span data-i18n="category_press_chip">Press Talk</span> 🎙️</button>
+          <button class="chip" data-category="rules"><span data-i18n="category_rules_chip">Rules & VAR</span> 📺</button>
         </div>
       </div>
       
@@ -210,13 +219,13 @@
   <!-- Google Ads Banner (Premium Mockup Placeholder) -->
   <footer class="ads-banner">
     <div class="ads-container">
-      <div class="ads-badge">Sponsored</div>
+      <div class="ads-badge" data-i18n="ad_sponsored">Sponsored</div>
       <div class="ads-content" id="adContent">
-        <span class="ad-title">🏆 Predict & Win World Cup Glory!</span>
-        <span class="ad-desc">Join MatchDay Fantasy League. Play free, win real cash and official jerseys.</span>
+        <span class="ad-title" data-i18n="ad_title">🏆 Predict & Win World Cup Glory!</span>
+        <span class="ad-desc" data-i18n="ad_desc">Join MatchDay Fantasy League. Play free, win real cash and official jerseys.</span>
       </div>
       <div class="ads-actions">
-        <button class="btn-ad-cta" id="adCta">Play Now</button>
+        <button class="btn-ad-cta" id="adCta" data-i18n="ad_cta">Play Now</button>
         <button class="btn-ad-close" id="adClose" title="Hide Ad">×</button>
       </div>
     </div>
@@ -225,27 +234,27 @@
   <!-- Notification Center Panel (Translucent Sidebar Overlay) -->
   <div class="notification-sidebar" id="notificationSidebar">
     <div class="sidebar-header">
-      <h3>Subscription Settings</h3>
+      <h3 data-i18n="sidebar_title">Subscription Settings</h3>
       <button class="btn-close" id="sidebarCloseBtn">&times;</button>
     </div>
     <div class="sidebar-content">
-      <p class="settings-desc">Subscribe to your favorite teams to receive real-time push alerts for goals, half-times, and final results.</p>
+      <p class="settings-desc" data-i18n="sidebar_desc">Subscribe to your favorite teams to receive real-time push alerts for goals, half-times, and final results.</p>
       
       <div class="push-permission-card" id="pushPermissionCard">
         <div class="perm-icon">🔔</div>
         <div class="perm-info">
-          <h4>Enable Native Alerts</h4>
-          <p>Get instant updates in the background on your device.</p>
+          <h4 data-i18n="card_native_title">Enable Native Alerts</h4>
+          <p data-i18n="card_native_desc">Get instant updates in the background on your device.</p>
         </div>
-        <button class="btn-primary-sm" id="grantPushBtn">Enable</button>
+        <button class="btn-primary-sm" id="grantPushBtn" data-i18n="card_native_btn">Enable</button>
       </div>
 
-      <div class="teams-list-header">Active Subscriptions</div>
+      <div class="teams-list-header" data-i18n="sidebar_subs_header">Active Subscriptions</div>
       <div class="subscribed-teams-list" id="subscribedTeamsList">
-        <p class="empty-state">No subscribed teams yet. Click the alerts button next to matches or subscribe below!</p>
+        <p class="empty-state" data-i18n="sidebar_empty_state">No subscribed teams yet. Click the alerts button next to matches or subscribe below!</p>
       </div>
       
-      <div class="teams-list-header">All Teams</div>
+      <div class="teams-list-header" data-i18n="sidebar_all_header">All Teams</div>
       <div class="all-teams-grid" id="allTeamsGrid">
         <!-- Populated dynamically by JS -->
       </div>
@@ -261,9 +270,9 @@
         <!-- Dynamic content -->
       </div>
       <div class="modal-tabs">
-        <button class="modal-tab-btn active" data-modal-tab="timeline">Timeline</button>
-        <button class="modal-tab-btn" data-modal-tab="stats">Stats</button>
-        <button class="modal-tab-btn" data-modal-tab="lineups">Lineups</button>
+        <button class="modal-tab-btn active" data-modal-tab="timeline" data-i18n="modal_timeline">Timeline</button>
+        <button class="modal-tab-btn" data-modal-tab="stats" data-i18n="modal_stats">Stats</button>
+        <button class="modal-tab-btn" data-modal-tab="lineups" data-i18n="modal_lineups">Lineups</button>
       </div>
       <div class="modal-tab-content" id="modalTabContent">
         <!-- Dynamic content based on active tab -->

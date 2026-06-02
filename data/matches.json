@@ -6,36 +6,29 @@
     "homeFlag": "🇲🇽",
     "away": "South Africa",
     "awayFlag": "🇿🇦",
-    "homeScore": 1,
+    "homeScore": 0,
     "awayScore": 0,
-    "status": "live",
-    "minute": 32,
+    "status": "upcoming",
+    "minute": 0,
     "date": "Jun 11, 19:00 UTC",
     "location": "Mexico City Stadium",
-    "events": [
-      {
-        "minute": 24,
-        "team": "Mexico",
-        "type": "goal",
-        "desc": "Santiago Giménez ⚽ (Spectacular volley, Assist: Edson Álvarez)"
-      }
-    ],
+    "events": [],
     "stats": {
       "possession": [
-        55,
-        45
+        50,
+        50
       ],
       "shots": [
-        8,
-        4
+        0,
+        0
       ],
       "fouls": [
-        6,
-        7
+        0,
+        0
       ],
       "corners": [
-        3,
-        2
+        0,
+        0
       ]
     },
     "lineups": {
@@ -135,48 +128,29 @@
     "homeFlag": "🇨🇦",
     "away": "Bosnia and Herzegovina",
     "awayFlag": "🇧🇦",
-    "homeScore": 2,
-    "awayScore": 1,
-    "status": "live",
-    "minute": 76,
+    "homeScore": 0,
+    "awayScore": 0,
+    "status": "upcoming",
+    "minute": 0,
     "date": "Jun 12, 19:00 UTC",
     "location": "Toronto Stadium",
-    "events": [
-      {
-        "minute": 18,
-        "team": "Canada",
-        "type": "goal",
-        "desc": "Jonathan David ⚽ (Assist: Alphonso Davies)"
-      },
-      {
-        "minute": 44,
-        "team": "Bosnia and Herzegovina",
-        "type": "goal",
-        "desc": "Edin Džeko ⚽ (Header, Assist: Amar Dedić)"
-      },
-      {
-        "minute": 58,
-        "team": "Canada",
-        "type": "goal",
-        "desc": "Tajon Buchanan ⚽ (Assist: Stephen Eustáquio)"
-      }
-    ],
+    "events": [],
     "stats": {
       "possession": [
-        55,
-        45
+        50,
+        50
       ],
       "shots": [
-        8,
-        4
+        0,
+        0
       ],
       "fouls": [
-        6,
-        7
+        0,
+        0
       ],
       "corners": [
-        3,
-        2
+        0,
+        0
       ]
     },
     "lineups": {

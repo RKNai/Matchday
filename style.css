@@ -1810,3 +1810,37 @@ body {
   }
 }
 
+/* --- Language Selector Styles --- */
+.lang-selector {
+  margin-right: 8px;
+  display: flex;
+  align-items: center;
+}
+
+.select-lang {
+  background: rgba(255, 255, 255, 0.06);
+  border: 1px solid rgba(255, 255, 255, 0.12);
+  color: var(--text-primary);
+  padding: 6px 12px;
+  border-radius: 8px;
+  font-family: 'Outfit', sans-serif;
+  font-size: 12px;
+  font-weight: 600;
+  cursor: pointer;
+  outline: none;
+  transition: all 0.3s ease;
+  backdrop-filter: blur(8px);
+  -webkit-backdrop-filter: blur(8px);
+}
+
+.select-lang:hover, .select-lang:focus {
+  border-color: var(--secondary);
+  background: rgba(255, 255, 255, 0.1);
+  box-shadow: 0 0 10px rgba(245, 158, 11, 0.2);
+}
+
+.select-lang option {
+  background: #090b11;
+  color: var(--text-primary);
+}
+
