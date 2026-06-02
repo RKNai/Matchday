@@ -1,9 +1,23 @@
 [
   {
+    "category": "rules",
+    "title": "No more delayed flag? Fifa adds new offside tech for World Cup",
+    "snippet": "The delayed offside flag could almost become a thing of the past after Fifa unveiled new technology to be used at the 2026 World Cup.",
+    "time": "1h ago",
+    "timestamp": 1780425749,
+    "color": "linear-gradient(135deg, #64748b, #334155)",
+    "overlay": "📺",
+    "link": "https://www.bbc.com/sport/football/articles/c232d34kkyzo?at_medium=RSS&at_campaign=rss",
+    "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/6bdc/live/db7aed70-ebe5-11f0-9332-4db5e65f7000.jpg",
+    "source": "BBC Sport",
+    "lang": "en",
+    "id": 200
+  },
+  {
     "category": "lineup",
     "title": "Scotland's squad numbers for World Cup revealed",
     "snippet": "Scotland's squad numbers for the World Cup have been revealed.",
-    "time": "26m ago",
+    "time": "2h ago",
     "timestamp": 1780421400,
     "color": "linear-gradient(135deg, #3b82f6, #1e3a8a)",
     "overlay": "📋",
@@ -11,13 +25,41 @@
     "image": "https://e2.365dm.com/26/06/1920x1080/skysports-gunn-gordon-angus_7263895.jpg?20260602172040",
     "source": "Sky Sports",
     "lang": "en",
-    "id": 200
+    "id": 201
+  },
+  {
+    "category": "tactics",
+    "title": "Gordon to be oldest player at World Cup but Gunn handed No 1",
+    "snippet": "Scotland goalkeeper Craig Gordon will be the oldest player at the World Cup this summer, but the 43-year-old has not been handed the number one shirt.",
+    "time": "3h ago",
+    "timestamp": 1780419936,
+    "color": "linear-gradient(135deg, #f59e0b, #78350f)",
+    "overlay": "⚽",
+    "link": "https://www.bbc.com/sport/football/articles/cy02ex2pq2po?at_medium=RSS&at_campaign=rss",
+    "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/1cd1/live/60828510-5ea4-11f1-9c69-5be5e9be5821.jpg",
+    "source": "BBC Sport",
+    "lang": "en",
+    "id": 202
+  },
+  {
+    "category": "lineup",
+    "title": "Bellingham is No 10 in England World Cup squad",
+    "snippet": "England's squad numbers for the World Cup have been announced - but how much do the choices hint at Thomas Tuchel's thinking?",
+    "time": "4h ago",
+    "timestamp": 1780414028,
+    "color": "linear-gradient(135deg, #3b82f6, #1e3a8a)",
+    "overlay": "📋",
+    "link": "https://www.bbc.com/sport/football/articles/c5y8nn7gx83o?at_medium=RSS&at_campaign=rss",
+    "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/94b0/live/822217d0-5e90-11f1-af26-693a71517b6e.jpg",
+    "source": "BBC Sport",
+    "lang": "en",
+    "id": 203
   },
   {
     "category": "lineup",
     "title": "England reveal squad numbers for World Cup",
     "snippet": "England have announced their squad numbers for this summer's World Cup.",
-    "time": "2h ago",
+    "time": "5h ago",
     "timestamp": 1780412400,
     "color": "linear-gradient(135deg, #3b82f6, #1e3a8a)",
     "overlay": "📋",
@@ -25,13 +67,27 @@
     "image": "https://e2.365dm.com/26/06/1920x1080/skysports-england-dressing-room_7263838.jpg?20260602161502",
     "source": "Sky Sports",
     "lang": "en",
-    "id": 201
+    "id": 204
+  },
+  {
+    "category": "lineup",
+    "title": "Switzerland travel to US without Embolo over Esta issue",
+    "snippet": "Switzerland's World Cup squad travel to the United States without Breel Embolo as the forward's Esta authorisation is placed under review.",
+    "time": "7h ago",
+    "timestamp": 1780406090,
+    "color": "linear-gradient(135deg, #3b82f6, #1e3a8a)",
+    "overlay": "📋",
+    "link": "https://www.bbc.com/sport/football/articles/ckgpkw8zzx1o?at_medium=RSS&at_campaign=rss",
+    "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/5fad/live/53f683e0-5e82-11f1-82d1-3f140356d043.jpg",
+    "source": "BBC Sport",
+    "lang": "en",
+    "id": 205
   },
   {
     "category": "transfer",
     "title": "Kane sets sights on Ballon d’Or in bid to help England to World Cup glory",
     "snippet": "Harry Kane hopes he can make himself the leading contender for the Ballon d’Or by helping fire England to World Cup glory.",
-    "time": "4h ago",
+    "time": "7h ago",
     "timestamp": 1780405800,
     "color": "linear-gradient(135deg, #a855f7, #581c87)",
     "overlay": "🔄",
@@ -39,13 +95,97 @@
     "image": "https://e2.365dm.com/26/06/1920x1080/skysports-harry-kane-england_7263682.jpg?20260602130258",
     "source": "Sky Sports",
     "lang": "en",
-    "id": 202
+    "id": 206
+  },
+  {
+    "category": "tactics",
+    "title": "Football Daily",
+    "snippet": "28 years on from Scotland’s last World Cup, three fans reflect on being there in France.",
+    "time": "7h ago",
+    "timestamp": 1780405200,
+    "color": "linear-gradient(135deg, #f59e0b, #78350f)",
+    "overlay": "⚽",
+    "link": "https://www.bbc.co.uk/sounds/play/p0nnq248?at_medium=RSS&at_campaign=rss",
+    "image": "https://ichef.bbci.co.uk/images/ic/240x135/p0nnlqt1.jpg",
+    "source": "BBC Sport",
+    "lang": "en",
+    "id": 207
+  },
+  {
+    "category": "tactics",
+    "title": "The Braintree defender going to World Cup with New Zealand",
+    "snippet": "Braintree Town defender Tommy Smith is looking forward to the \"crowning glory of his career\" at the World Cup with New Zealand.",
+    "time": "7h ago",
+    "timestamp": 1780404577,
+    "color": "linear-gradient(135deg, #f59e0b, #78350f)",
+    "overlay": "⚽",
+    "link": "https://www.bbc.com/sport/football/articles/cj3p4glxm8jo?at_medium=RSS&at_campaign=rss",
+    "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/03ca/live/ff4e6a70-5e80-11f1-82d1-3f140356d043.jpg",
+    "source": "BBC Sport",
+    "lang": "en",
+    "id": 208
+  },
+  {
+    "category": "lineup",
+    "title": "Khusanov named in Uzbekistan's World Cup squad",
+    "snippet": "Manchester City defender Abdukodir Khusanov makes Uzbekistan's squad for the World Cup, led by former World Cup winner Fabio Cannavaro.",
+    "time": "7h ago",
+    "timestamp": 1780404465,
+    "color": "linear-gradient(135deg, #3b82f6, #1e3a8a)",
+    "overlay": "📋",
+    "link": "https://www.bbc.com/sport/football/articles/c5yenm7xllyo?at_medium=RSS&at_campaign=rss",
+    "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/12c4/live/375d2ee0-5e7e-11f1-82d1-3f140356d043.jpg",
+    "source": "BBC Sport",
+    "lang": "en",
+    "id": 209
+  },
+  {
+    "category": "lineup",
+    "title": "World Cup 2026: All 48 squads confirmed",
+    "snippet": "All 48 confirmed squads for the 2026 World Cup in the US, Canada and Mexico.",
+    "time": "7h ago",
+    "timestamp": 1780404201,
+    "color": "linear-gradient(135deg, #3b82f6, #1e3a8a)",
+    "overlay": "📋",
+    "link": "https://www.bbc.com/sport/football/articles/cvgz43lgn15o?at_medium=RSS&at_campaign=rss",
+    "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/7774/live/90206170-53a0-11f1-89a3-d1f559421220.jpg",
+    "source": "BBC Sport",
+    "lang": "en",
+    "id": 210
+  },
+  {
+    "category": "rules",
+    "title": "Japan benefit from new World Cup substitution rule",
+    "snippet": "Japan become one of the first beneficiaries of the new time-limited substitution rule as they score while opponents Iceland have just 10 players on the pitch.",
+    "time": "7h ago",
+    "timestamp": 1780403802,
+    "color": "linear-gradient(135deg, #64748b, #334155)",
+    "overlay": "📺",
+    "link": "https://www.bbc.com/sport/football/articles/c87qzner0n7o?at_medium=RSS&at_campaign=rss",
+    "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/a0c3/live/c2997ee0-5e75-11f1-9bb7-93b44936b5cf.jpg",
+    "source": "BBC Sport",
+    "lang": "en",
+    "id": 211
+  },
+  {
+    "category": "lineup",
+    "title": "Al-Tamari in squad for Jordan's World Cup debut",
+    "snippet": "Rennes forward Mousa Al-Tamari features in Jordan's final 26-man squad for their World Cup debut this summer.",
+    "time": "8h ago",
+    "timestamp": 1780401487,
+    "color": "linear-gradient(135deg, #3b82f6, #1e3a8a)",
+    "overlay": "📋",
+    "link": "https://www.bbc.com/sport/football/articles/c2023jvdjrko?at_medium=RSS&at_campaign=rss",
+    "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/b0cc/live/19ac6150-5e78-11f1-929d-ad528af5a4c7.jpg",
+    "source": "BBC Sport",
+    "lang": "en",
+    "id": 212
   },
   {
     "category": "lineup",
     "title": "World Cup squads confirmed! Every player at the tournament revealed...",
     "snippet": "The squads are in for the 2026 World Cup as the countdown continues for this summer's tournament.",
-    "time": "6h ago",
+    "time": "8h ago",
     "timestamp": 1780401300,
     "color": "linear-gradient(135deg, #3b82f6, #1e3a8a)",
     "overlay": "📋",
@@ -53,83 +193,27 @@
     "image": "https://e0.365dm.com/25/02/1920x1080/skysports-neymar-santos_6831275.jpg?20250217081054",
     "source": "Sky Sports",
     "lang": "en",
-    "id": 203
+    "id": 213
   },
   {
     "category": "tactics",
-    "title": "Germany 2026 World Cup home kit leaked – inspired by iconic 1990 shirt",
-    "snippet": "Germany’s 2026 World Cup home kit leaks, inspired by the iconic 1990 design worn when West Germany lifted the trophy.",
-    "time": "246d ago",
-    "timestamp": 1759135500,
+    "title": "Which clubs have the most players at the 2026 World Cup?",
+    "snippet": "BBC Sport's Ask Me Anything team looks at which clubs have the most players at the 2026 World Cup",
+    "time": "8h ago",
+    "timestamp": 1780400618,
     "color": "linear-gradient(135deg, #f59e0b, #78350f)",
     "overlay": "⚽",
-    "link": "https://www.90min.com/germany-2026-world-cup-home-kit-leaked-iconic-1990-shirt?utm_source=RSS",
-    "image": "https://images2.minutemediacdn.com/image/upload/c_crop,w_2027,h_1140,x_21,y_0/c_fill,w_2880,ar_16:9,f_auto,q_auto,g_auto/images/GettyImages/mmsport/90min_en_international_web/01k60az1qg12evrz5m49.jpg",
-    "source": "90min",
+    "link": "https://www.bbc.com/sport/football/articles/cgkpv6p7yx1o?at_medium=RSS&at_campaign=rss",
+    "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/844a/live/f3bfafd0-5e70-11f1-8b8c-6d33e1d5abb6.jpg",
+    "source": "BBC Sport",
     "lang": "en",
-    "id": 204
-  },
-  {
-    "category": "tactics",
-    "title": "Spain's 2026 World Cup home kit leaked",
-    "snippet": "Spain’s 2026 World Cup home kit has leaked online, featuring deep red, navy sleeves, and yellow pinstripes in a nod to tradition.",
-    "time": "251d ago",
-    "timestamp": 1758672000,
-    "color": "linear-gradient(135deg, #f59e0b, #78350f)",
-    "overlay": "⚽",
-    "link": "https://www.90min.com/spain-2026-world-cup-home-kit-leaked?utm_source=RSS",
-    "image": "https://images2.minutemediacdn.com/image/upload/c_crop,w_3924,h_2207,x_1409,y_334/c_fill,w_2880,ar_16:9,f_auto,q_auto,g_auto/images/GettyImages/mmsport/90min_en_international_web/01k5rfpdpfcn9665b8qp.jpg",
-    "source": "90min",
-    "lang": "en",
-    "id": 205
-  },
-  {
-    "category": "tactics",
-    "title": "England's 2026 World Cup home and away kits leaked",
-    "snippet": "England’s 2026 World Cup kits have leaked online, featuring a classic white home shirt with jacquard detailing and a bold red away design.",
-    "time": "252d ago",
-    "timestamp": 1758628800,
-    "color": "linear-gradient(135deg, #f59e0b, #78350f)",
-    "overlay": "⚽",
-    "link": "https://www.90min.com/england-2026-world-cup-home-and-away-kits-leaked?utm_source=RSS",
-    "image": "https://images2.minutemediacdn.com/image/upload/c_crop,w_4630,h_2604,x_0,y_123/c_fill,w_2880,ar_16:9,f_auto,q_auto,g_auto/images/GettyImages/mmsport/90min_en_international_web/01k5rdt426stdby0nq4r.jpg",
-    "source": "90min",
-    "lang": "en",
-    "id": 206
-  },
-  {
-    "category": "rules",
-    "title": "adidas 'Trionda' 2026 World Cup ball leaked",
-    "snippet": "adidas’ 'Trionda' 2026 FIFA World Cup ball has leaked in new images, showing a host nation-inspired design with four-panel tech and a nod to the Brazuca.",
-    "time": "264d ago",
-    "timestamp": 1757545200,
-    "color": "linear-gradient(135deg, #64748b, #334155)",
-    "overlay": "📺",
-    "link": "https://www.90min.com/adidas-trionda-2026-world-cup-ball-leaked?utm_source=RSS",
-    "image": "https://images2.minutemediacdn.com/image/upload/c_crop,w_1280,h_720,x_0,y_325/c_fill,w_2880,ar_16:9,f_auto,q_auto,g_auto/images/voltaxMediaLibrary/mmsport/90min_en_international_web/01k4mb1378ayc7vkmr2w.jpg",
-    "source": "90min",
-    "lang": "en",
-    "id": 207
-  },
-  {
-    "category": "rules",
-    "title": "World Cup qualifier suspended after sinkhole opens up on pitch",
-    "snippet": "Austria’s World Cup qualifier against Cyprus was halted after a sinkhole opened on the pitch. The game eventually resumed, with Marcel Sabitzer’s penalty sealing a 1-0 win.",
-    "time": "266d ago",
-    "timestamp": 1757410200,
-    "color": "linear-gradient(135deg, #64748b, #334155)",
-    "overlay": "📺",
-    "link": "https://www.90min.com/world-cup-qualifier-suspended-sinkhole-opens-up-on-pitch?utm_source=RSS",
-    "image": "https://images2.minutemediacdn.com/image/upload/c_crop,w_3235,h_1819,x_0,y_337/c_fill,w_2880,ar_16:9,f_auto,q_auto,g_auto/images/GettyImages/mmsport/90min_en_international_web/01k4mevb3b7eh5kxj2rd.jpg",
-    "source": "90min",
-    "lang": "en",
-    "id": 208
+    "id": 214
   },
   {
     "category": "tactics",
     "title": "Mazazo para Austria: \"Mi gran sueño se ha destrozado...\"",
     "snippet": "El austriaco se lesionó en el calentamiento ante Túnez",
-    "time": "3h ago",
+    "time": "5h ago",
     "timestamp": 1780411080,
     "color": "linear-gradient(135deg, #f59e0b, #78350f)",
     "overlay": "⚽",
@@ -137,13 +221,13 @@
     "image": "https://e01-xlk-ue-marca.uecdn.es/files/admin_graphic_thumbnail/uploads/2026/06/02/6a1eea7ac1d88.jpeg",
     "source": "Marca",
     "lang": "es",
-    "id": 209
+    "id": 215
   },
   {
     "category": "tactics",
     "title": "A España le sale un duro competidor en el termómetro del Mundial",
     "snippet": "Versus otorga las mismas posibilidades de llevarse el título a Francia",
-    "time": "5h ago",
+    "time": "8h ago",
     "timestamp": 1780402104,
     "color": "linear-gradient(135deg, #f59e0b, #78350f)",
     "overlay": "⚽",
@@ -151,13 +235,13 @@
     "image": "https://e01-xlk-ue-marca.uecdn.es/files/admin_graphic_thumbnail/uploads/2026/06/02/6a1eb31d3c1ce.jpeg",
     "source": "Marca",
     "lang": "es",
-    "id": 210
+    "id": 216
   },
   {
     "category": "tactics",
     "title": "Argentina y Francia, las favoritas para el Mundial: las casas de apuestas prevén ingresos de más de 50.000 millones de dólares",
     "snippet": "Expertos y casas de apuestas hablan sobre ingresos, los favoritos para el Mundial y algunas apuestas extrañas que hacen saltar las alarmas Leer",
-    "time": "6h ago",
+    "time": "8h ago",
     "timestamp": 1780400808,
     "color": "linear-gradient(135deg, #f59e0b, #78350f)",
     "overlay": "⚽",
@@ -165,13 +249,13 @@
     "image": "https://e00-elmundo.uecdn.es/assets/multimedia/imagenes/2026/06/02/17804003865506_150x0.jpg",
     "source": "El Mundo Deportes",
     "lang": "es",
-    "id": 211
+    "id": 217
   },
   {
     "category": "tactics",
     "title": "Histórico Nico Paz",
     "snippet": "Sigue la última hora de toda la información del Mundial 2026",
-    "time": "7h ago",
+    "time": "10h ago",
     "timestamp": 1780395154,
     "color": "linear-gradient(135deg, #f59e0b, #78350f)",
     "overlay": "⚽",
@@ -179,13 +263,13 @@
     "image": "https://e01-xlk-ue-marca.uecdn.es/files/admin_graphic_thumbnail/uploads/2026/06/02/17803950189673.jpeg",
     "source": "Marca",
     "lang": "es",
-    "id": 212
+    "id": 218
   },
   {
     "category": "tactics",
     "title": "El Barça pone los dientes largos con Lamine: va a volar en el Mundial",
     "snippet": "",
-    "time": "8h ago",
+    "time": "11h ago",
     "timestamp": 1780391135,
     "color": "linear-gradient(135deg, #f59e0b, #78350f)",
     "overlay": "⚽",
@@ -193,13 +277,13 @@
     "image": "https://www.dailymotion.com/crawler/video/xacrvzu",
     "source": "Marca",
     "lang": "es",
-    "id": 213
+    "id": 219
   },
   {
     "category": "tactics",
     "title": "Scaloni revisa sus 10 candidatos para ganar el Mundial: está España y olvidó uno",
     "snippet": "\"Heredé un poco de mi viejo no tenerle miedo a nada\"",
-    "time": "9h ago",
+    "time": "12h ago",
     "timestamp": 1780387130,
     "color": "linear-gradient(135deg, #f59e0b, #78350f)",
     "overlay": "⚽",
@@ -207,13 +291,13 @@
     "image": "https://e01-xlk-ue-marca.uecdn.es/files/admin_graphic_thumbnail/uploads/2026/06/02/6a1e8caedad4c.jpeg",
     "source": "Marca",
     "lang": "es",
-    "id": 214
+    "id": 220
   },
   {
     "category": "tactics",
     "title": "Marcos Llorente, el jugador 'antisistema'",
     "snippet": "SERIAL LOS 26 DEL MUNDIAL A TRAVÉS DE SU PRIMERA IMAGEN EN MARCA: CAPÍTULO 7",
-    "time": "13h ago",
+    "time": "15h ago",
     "timestamp": 1780374505,
     "color": "linear-gradient(135deg, #f59e0b, #78350f)",
     "overlay": "⚽",
@@ -221,13 +305,13 @@
     "image": "https://e01-xlk-ue-marca.uecdn.es/files/admin_graphic_thumbnail/uploads/2026/06/01/6a1d3cca7db2f.jpeg",
     "source": "Marca",
     "lang": "es",
-    "id": 215
+    "id": 221
   },
   {
     "category": "tactics",
     "title": "El FBI en un hotel de Suiza, 220.000 millones de dólares, 7.000 muertos: el sinuoso camino de Qatar para ser sede de un Mundial",
     "snippet": "La cita en el país del Golfo, cargada de polémicas, resultó exitosa, en cambio, en lo futbolístico y lo logístico, y dio proyección al país Leer",
-    "time": "20h ago",
+    "time": "23h ago",
     "timestamp": 1780347812,
     "color": "linear-gradient(135deg, #f59e0b, #78350f)",
     "overlay": "⚽",
@@ -235,13 +319,13 @@
     "image": "https://e00-elmundo.uecdn.es/assets/multimedia/imagenes/2026/05/30/17801548960104_150x0.jpg",
     "source": "El Mundo Deportes",
     "lang": "es",
-    "id": 216
+    "id": 222
   },
   {
     "category": "tactics",
     "title": "Mbappé está más que listo para el Mundial, ¡menudo peazo golazo en un entreno!",
     "snippet": "",
-    "time": "21h ago",
+    "time": "23h ago",
     "timestamp": 1780346187,
     "color": "linear-gradient(135deg, #f59e0b, #78350f)",
     "overlay": "⚽",
@@ -249,13 +333,13 @@
     "image": "https://www.dailymotion.com/crawler/video/xacmrwy",
     "source": "Marca",
     "lang": "es",
-    "id": 217
+    "id": 223
   },
   {
     "category": "press",
     "title": "Los dorsales del Mundial: el número que une a Lamine con Xavi<br>",
     "snippet": "España ya tiene dorsales y su estrella llevará el mismo con el que se estrenó en los Mundiales el entrenador que lo lanzó a la élite",
-    "time": "23h ago",
+    "time": "1d ago",
     "timestamp": 1780336976,
     "color": "linear-gradient(135deg, #0d9488, #115e59)",
     "overlay": "🎙️",
@@ -263,7 +347,7 @@
     "image": "https://e01-xlk-ue-marca.uecdn.es/files/admin_graphic_thumbnail/uploads/2026/06/01/6a1d93738dda7.jpeg",
     "source": "Marca",
     "lang": "es",
-    "id": 218
+    "id": 224
   },
   {
     "category": "tactics",
@@ -277,7 +361,7 @@
     "image": "https://e00-elmundo.uecdn.es/assets/multimedia/imagenes/2026/06/01/17803335164720_150x0.jpg",
     "source": "El Mundo Deportes",
     "lang": "es",
-    "id": 219
+    "id": 225
   },
   {
     "category": "tactics",
@@ -291,7 +375,7 @@
     "image": "https://www.dailymotion.com/crawler/video/xacjm8i",
     "source": "Marca",
     "lang": "es",
-    "id": 220
+    "id": 226
   },
   {
     "category": "tactics",
@@ -305,7 +389,7 @@
     "image": "https://www.dailymotion.com/crawler/video/k7rfbNXaY0MEZhGl2LE",
     "source": "Marca",
     "lang": "es",
-    "id": 221
+    "id": 227
   },
   {
     "category": "tactics",
@@ -319,7 +403,7 @@
     "image": "https://www.dailymotion.com/crawler/video/xacgo5q",
     "source": "Marca",
     "lang": "es",
-    "id": 222
+    "id": 228
   },
   {
     "category": "tactics",
@@ -333,13 +417,13 @@
     "image": "https://e00-elmundo.uecdn.es/assets/multimedia/imagenes/2026/05/31/17802419735935_150x0.jpg",
     "source": "El Mundo Deportes",
     "lang": "es",
-    "id": 223
+    "id": 229
   },
   {
     "category": "lineup",
     "title": "El jugador menys conegut del Mundial fa ombra a Messi i Cristiano",
     "snippet": "Fa una setmana Tim Payne era un jugador anònim, pràcticament desconegut per al públic general. Amb poc més de 4.700 seguidors a Instagram, el central de la selecció de Nova Zelanda, la número 85 del rànquing FIFA, era el futbolista menys mediàtic dels 1.248 convocats per al Mundial d’aquest estiu. Però d'un dia per l'altre es va fer internacionalment famós i va incrementar el seu nombre de followers a un ritme vertiginós, i es va convertir en el fenomen viral dels dies previs a la cita mundialista. Ni Leo Messi ni Cristiano Ronaldo: l'home del moment és Tim Payne.",
-    "time": "5h ago",
+    "time": "8h ago",
     "timestamp": 1780401642,
     "color": "linear-gradient(135deg, #3b82f6, #1e3a8a)",
     "overlay": "📋",
@@ -347,7 +431,21 @@
     "image": "https://static1.ara.cat/clip/ee737dde-d694-4f24-9993-cd65d353a8a1_16-9-aspect-ratio_default_1058448.jpg",
     "source": "ARA Esports",
     "lang": "ca",
-    "id": 224
+    "id": 230
+  },
+  {
+    "category": "tactics",
+    "title": "L’Estadi del Poble, l’antecessor comunista de l’actual Puskás Arena",
+    "snippet": "El Puskás Arena de Budapest, que acull la final de la Champions, és hereu d'un recinte esportiu construït després de la Segona Guerra Mundial i que va ser un dels orgulls de l’Hongria comunista",
+    "time": "3d ago",
+    "timestamp": 1780138782,
+    "color": "linear-gradient(135deg, #f59e0b, #78350f)",
+    "overlay": "⚽",
+    "link": "https://naciodigital.cat/esports/lestadi-del-poble-lantecessor-comunista-de-lactual-puskas-arena.html",
+    "image": "https://d5r1tkwwv7d5g.cloudfront.net/articulos/articulos-719250.jpg",
+    "source": "Nació Digital",
+    "lang": "ca",
+    "id": 231
   },
   {
     "category": "transfer",
@@ -361,7 +459,35 @@
     "image": "https://static1.ara.cat/clip/797ed480-ad68-4bd5-bfd3-baa348e98c87_16-9-aspect-ratio_default_0_x2142y978.jpg",
     "source": "ARA Esports",
     "lang": "ca",
-    "id": 225
+    "id": 232
+  },
+  {
+    "category": "tactics",
+    "title": "Els 13 catalans del Mundial 2026 (i les absències més il·lustres)",
+    "snippet": "Tot i la impossibilitat d'estar representada de manera oficial al campionat més important del món, la presència catalana és indiscutible i sobrepassa la selecció espanyola",
+    "time": "6d ago",
+    "timestamp": 1779873324,
+    "color": "linear-gradient(135deg, #f59e0b, #78350f)",
+    "overlay": "⚽",
+    "link": "https://naciodigital.cat/esports/els-13-catalans-del-mundial-2026-i-les-absencies-mes-illustres.html",
+    "image": "https://d5r1tkwwv7d5g.cloudfront.net/articulos/articulos-596058.jpg",
+    "source": "Nació Digital",
+    "lang": "ca",
+    "id": 233
+  },
+  {
+    "category": "press",
+    "title": "La reina diu adeu: Alexia Putellas marxa del Barça",
+    "snippet": "La capitana blaugrana s’acomiada del club després de 14 temporades i 30 títols guanyats com una de les grans llegendes del futbol mundial",
+    "time": "7d ago",
+    "timestamp": 1779816682,
+    "color": "linear-gradient(135deg, #0d9488, #115e59)",
+    "overlay": "🎙️",
+    "link": "https://naciodigital.cat/esports/la-reina-diu-adeu-alexia-putellas-marxa-del-barca.html",
+    "image": "https://d5r1tkwwv7d5g.cloudfront.net/articulos/articulos-704199.jpg",
+    "source": "Nació Digital",
+    "lang": "ca",
+    "id": 234
   },
   {
     "category": "tactics",
@@ -375,7 +501,7 @@
     "image": "https://static1.ara.cat/clip/0dde5564-ee7a-455f-9ac5-3ff104e3cace_16-9-aspect-ratio_default_0_x853y336.png",
     "source": "ARA Esports",
     "lang": "ca",
-    "id": 226
+    "id": 235
   },
   {
     "category": "lineup",
@@ -389,6 +515,34 @@
     "image": "https://static1.ara.cat/clip/8ae90eb1-5edb-44ee-ba08-be9927432fb2_16-9-aspect-ratio_default_0.jpg",
     "source": "ARA Esports",
     "lang": "ca",
-    "id": 227
+    "id": 236
+  },
+  {
+    "category": "lineup",
+    "title": "Els 6 millors vídeos de les seleccions per al Mundial",
+    "snippet": "Les seleccions de França, Anglaterra, el Senegal, la República Txeca, Noruega i Escòcia han anunciat els convocats amb vídeos virals",
+    "time": "10d ago",
+    "timestamp": 1779507001,
+    "color": "linear-gradient(135deg, #3b82f6, #1e3a8a)",
+    "overlay": "📋",
+    "link": "https://naciodigital.cat/esports/els-6-millors-videos-de-les-seleccions-per-al-mundial.html",
+    "image": "https://d5r1tkwwv7d5g.cloudfront.net/articulos/articulos-715798.jpg",
+    "source": "Nació Digital",
+    "lang": "ca",
+    "id": 237
+  },
+  {
+    "category": "rules",
+    "title": "El Giro de 1946, quan Itàlia i Iugoslàvia es barallaven per Trieste",
+    "snippet": "Amb el Giro d’Itàlia d’enguany en marxa, recordem l’edició d’ara fa 80 anys de la “corsa rosa” en la que italians i iugoslaus van lliurar un nou episodi en la seva batalla pel control de la ciutat de Trieste, un dels principals focus de tensió al Mediterrani a la fi de la Segona Guerra Mundial",
+    "time": "13d ago",
+    "timestamp": 1779250048,
+    "color": "linear-gradient(135deg, #64748b, #334155)",
+    "overlay": "📺",
+    "link": "https://naciodigital.cat/esports/el-giro-de-1946-quan-italia-i-iugoslavia-es-barallaven-per-trieste.html",
+    "image": "https://d5r1tkwwv7d5g.cloudfront.net/articulos/articulos-713744.jpg",
+    "source": "Nació Digital",
+    "lang": "ca",
+    "id": 238
   }
 ]
