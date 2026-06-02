@@ -40,17 +40,30 @@
     },
     "lineups": {
       "home": [
-        "Starting XI",
-        "Giménez",
-        "Álvarez",
-        "Lozano",
-        "Chávez",
-        "Vasquez",
+        "Ochoa",
         "Montes",
-        "Ochoa"
+        "Vásquez",
+        "Gallardo",
+        "Sánchez",
+        "Edson Álvarez",
+        "Chávez",
+        "Pineda",
+        "Lozano",
+        "Giménez",
+        "Antuna"
       ],
       "away": [
-        "TBD Squad"
+        "Williams",
+        "Mudau",
+        "Mvala",
+        "Kekana",
+        "Modiba",
+        "Mokoena",
+        "Sithole",
+        "Zwane",
+        "Morena",
+        "Tau",
+        "Makgopa"
       ]
     }
   },
@@ -88,10 +101,30 @@
     },
     "lineups": {
       "home": [
-        "TBD Squad"
+        "Jo",
+        "Kim Min-jae",
+        "Jung",
+        "Seol",
+        "Lee Ki-je",
+        "Hwang In-beom",
+        "Park",
+        "Lee Kang-in",
+        "Son Heung-min",
+        "Hwang Hee-chan",
+        "Cho"
       ],
       "away": [
-        "TBD Squad"
+        "Stanek",
+        "Holes",
+        "Hranac",
+        "Krejci",
+        "Coufal",
+        "Soucek",
+        "Provod",
+        "Doudera",
+        "Barak",
+        "Hlozek",
+        "Schick"
       ]
     }
   },
@@ -103,7 +136,7 @@
     "away": "Bosnia and Herzegovina",
     "awayFlag": "🇧🇦",
     "homeScore": 2,
-    "awayScore": 2,
+    "awayScore": 1,
     "status": "live",
     "minute": 76,
     "date": "Jun 12, 19:00 UTC",
@@ -111,27 +144,21 @@
     "events": [
       {
         "minute": 18,
-        "team": "USA",
+        "team": "Canada",
         "type": "goal",
-        "desc": "Christian Pulisic ⚽ (Direct Free Kick)"
+        "desc": "Jonathan David ⚽ (Assist: Alphonso Davies)"
       },
       {
         "minute": 44,
-        "team": "TBD",
+        "team": "Bosnia and Herzegovina",
         "type": "goal",
-        "desc": "Opponent Strike ⚽"
+        "desc": "Edin Džeko ⚽ (Header, Assist: Amar Dedić)"
       },
       {
         "minute": 58,
-        "team": "USA",
+        "team": "Canada",
         "type": "goal",
-        "desc": "Folarin Balogun ⚽ (Assist: Timothy Weah)"
-      },
-      {
-        "minute": 71,
-        "team": "TBD",
-        "type": "goal",
-        "desc": "Opponent Penalty ⚽"
+        "desc": "Tajon Buchanan ⚽ (Assist: Stephen Eustáquio)"
       }
     ],
     "stats": {
@@ -154,10 +181,30 @@
     },
     "lineups": {
       "home": [
-        "TBD Squad"
+        "Crepeau",
+        "Johnston",
+        "Miller",
+        "Bombito",
+        "Davies",
+        "Eustaquio",
+        "Kone",
+        "Buchanan",
+        "Jonathan David",
+        "Larin",
+        "Millar"
       ],
       "away": [
-        "TBD Squad"
+        "Džeko",
+        "Demirović",
+        "Kolašinac",
+        "Krunić",
+        "Pirić",
+        "Hadžikadunić",
+        "Ahmedhodžić",
+        "Gazibegović",
+        "Gigović",
+        "Hajradinović",
+        "Tabaković"
       ]
     }
   },
@@ -195,10 +242,30 @@
     },
     "lineups": {
       "home": [
-        "TBD Squad"
+        "Turner",
+        "Dest",
+        "Richards",
+        "Ream",
+        "Robinson",
+        "McKennie",
+        "Adams",
+        "Musah",
+        "Weah",
+        "Balogun",
+        "Pulisic"
       ],
       "away": [
-        "TBD Squad"
+        "Coronel",
+        "Balbuena",
+        "Alderete",
+        "Espinoza",
+        "Caceres",
+        "Cubas",
+        "Villasanti",
+        "Diego Gomez",
+        "Almiron",
+        "Enciso",
+        "Sanabria"
       ]
     }
   },
@@ -236,10 +303,30 @@
     },
     "lineups": {
       "home": [
-        "TBD Squad"
+        "Barsham",
+        "Miguel",
+        "Mukhtar",
+        "Mendes",
+        "Al-Rawi",
+        "Waad",
+        "Hatem",
+        "Fatehi",
+        "Afif",
+        "Al-Haydos",
+        "Ali"
       ],
       "away": [
-        "TBD Squad"
+        "Sommer",
+        "Schär",
+        "Akanji",
+        "Rodriguez",
+        "Widmer",
+        "Xhaka",
+        "Freuler",
+        "Aebischer",
+        "Ndoye",
+        "Vargas",
+        "Embolo"
       ]
     }
   },
@@ -277,10 +364,30 @@
     },
     "lineups": {
       "home": [
-        "TBD Squad"
+        "Alisson",
+        "Danilo",
+        "Marquinhos",
+        "Gabriel",
+        "Arana",
+        "Guimarães",
+        "Gomes",
+        "Paquetá",
+        "Raphinha",
+        "Rodrygo",
+        "Vinícius Jr."
       ],
       "away": [
-        "TBD Squad"
+        "Bounou",
+        "Hakimi",
+        "Aguerd",
+        "Saïss",
+        "Allah",
+        "Amrabat",
+        "Ounahi",
+        "Ziyech",
+        "Harit",
+        "Adli",
+        "En-Nesyri"
       ]
     }
   },
@@ -318,10 +425,30 @@
     },
     "lineups": {
       "home": [
-        "TBD Squad"
+        "Placide",
+        "Arcus",
+        "Ade",
+        "Christian",
+        "Guerrier",
+        "Alceus",
+        "Pierre",
+        "Nazon",
+        "Etienne",
+        "Pierrot",
+        "Picault"
       ],
       "away": [
-        "TBD Squad"
+        "Gunn",
+        "Porteous",
+        "Hendry",
+        "Tierney",
+        "Ralston",
+        "McTominay",
+        "McGregor",
+        "Gilmour",
+        "Robertson",
+        "McGinn",
+        "Adams"
       ]
     }
   },
@@ -359,10 +486,30 @@
     },
     "lineups": {
       "home": [
-        "TBD Squad"
+        "Ryan",
+        "Atkinson",
+        "Rowles",
+        "Souttar",
+        "Behich",
+        "Baccus",
+        "Irvine",
+        "Metcalfe",
+        "Goodwin",
+        "Boyle",
+        "Duke"
       ],
       "away": [
-        "TBD Squad"
+        "Günok",
+        "Çelik",
+        "Bardakcı",
+        "Akaydin",
+        "Kadıoğlu",
+        "Ayhan",
+        "Kökçü",
+        "Çalhanoğlu",
+        "Güler",
+        "Yıldız",
+        "Yılmaz"
       ]
     }
   },
@@ -400,10 +547,30 @@
     },
     "lineups": {
       "home": [
-        "TBD Squad"
+        "Ter Stegen",
+        "Kimmich",
+        "Rüdiger",
+        "Tah",
+        "Mittelstädt",
+        "Andrich",
+        "Kroos",
+        "Musiala",
+        "Gündogan",
+        "Wirtz",
+        "Havertz"
       ],
       "away": [
-        "TBD Squad"
+        "Room",
+        "Gaari",
+        "Martina",
+        "Floranus",
+        "J. Bacuna",
+        "Anita",
+        "L. Bacuna",
+        "Kuwas",
+        "Janga",
+        "Gorré",
+        "Locadia"
       ]
     }
   },
@@ -441,10 +608,30 @@
     },
     "lineups": {
       "home": [
-        "TBD Squad"
+        "Verbruggen",
+        "Dumfries",
+        "De Vrij",
+        "Van Dijk",
+        "Aké",
+        "Schouten",
+        "Reijnders",
+        "Simons",
+        "Frimpong",
+        "Gakpo",
+        "Depay"
       ],
       "away": [
-        "TBD Squad"
+        "Suzuki",
+        "Sugawara",
+        "Itakura",
+        "Machida",
+        "Ito",
+        "Endo",
+        "Morita",
+        "Doan",
+        "Kubo",
+        "Mitoma",
+        "Ueda"
       ]
     }
   },
@@ -482,10 +669,30 @@
     },
     "lineups": {
       "home": [
-        "TBD Squad"
+        "Fofana",
+        "Aurier",
+        "Ndicka",
+        "Boly",
+        "Konan",
+        "Kessié",
+        "Seri",
+        "Sangaré",
+        "Adinga",
+        "Haller",
+        "Pépé"
       ],
       "away": [
-        "TBD Squad"
+        "Domínguez",
+        "Preciado",
+        "Torres",
+        "Hincapié",
+        "Estupiñán",
+        "Gruezo",
+        "Caicedo",
+        "Páez",
+        "Mena",
+        "Sarmiento",
+        "Valencia"
       ]
     }
   },
@@ -523,10 +730,30 @@
     },
     "lineups": {
       "home": [
-        "TBD Squad"
+        "Olsen",
+        "Krafth",
+        "Hien",
+        "Lindelöf",
+        "Augustinsson",
+        "Cajuste",
+        "Salétros",
+        "Kulusevski",
+        "Isak",
+        "Elanga",
+        "Gyökeres"
       ],
       "away": [
-        "TBD Squad"
+        "Ben Said",
+        "Kechrida",
+        "Meriah",
+        "Talbi",
+        "Abdi",
+        "Skhiri",
+        "Laidouni",
+        "Rafia",
+        "Achouri",
+        "Ltaief",
+        "Jaziri"
       ]
     }
   },
@@ -564,10 +791,30 @@
     },
     "lineups": {
       "home": [
-        "TBD Squad"
+        "Raya",
+        "Carvajal",
+        "Le Normand",
+        "Laporte",
+        "Cucurella",
+        "Rodri",
+        "Ruiz",
+        "Pedri",
+        "Yamal",
+        "Williams",
+        "Morata"
       ],
       "away": [
-        "TBD Squad"
+        "Vozinha",
+        "Moreira",
+        "Costa",
+        "Pico",
+        "Tavares",
+        "Rocha",
+        "Pina",
+        "Monteiro",
+        "Mendes",
+        "Cabral",
+        "Bebé"
       ]
     }
   },
@@ -605,10 +852,30 @@
     },
     "lineups": {
       "home": [
-        "TBD Squad"
+        "Casteels",
+        "Castagne",
+        "Faes",
+        "Vertonghen",
+        "Theate",
+        "Onana",
+        "Mangala",
+        "De Bruyne",
+        "Doku",
+        "Trossard",
+        "Lukaku"
       ],
       "away": [
-        "TBD Squad"
+        "El Shenawy",
+        "Hany",
+        "Abdelmonem",
+        "Hegazi",
+        "Hamdi",
+        "Elneny",
+        "Fathi",
+        "Zizo",
+        "Salah",
+        "Trezeguet",
+        "Mostafa Mohamed"
       ]
     }
   },
@@ -646,10 +913,30 @@
     },
     "lineups": {
       "home": [
-        "TBD Squad"
+        "Al-Owais",
+        "Al-Bulaihi",
+        "Lajami",
+        "Tambakti",
+        "Abdulhamid",
+        "Al-Khaibari",
+        "Kanno",
+        "Al-Dawsari",
+        "Ghareeb",
+        "Al-Muwallad",
+        "Al-Shehri"
       ],
       "away": [
-        "TBD Squad"
+        "Rochet",
+        "Nández",
+        "Araújo",
+        "Giménez",
+        "Olivera",
+        "Ugarte",
+        "Valverde",
+        "De la Cruz",
+        "Pellistri",
+        "Araujo",
+        "Darwin Núñez"
       ]
     }
   },
@@ -687,10 +974,30 @@
     },
     "lineups": {
       "home": [
-        "TBD Squad"
+        "Beiranvand",
+        "Rezaeian",
+        "Kanaanizadegan",
+        "Khalilzadeh",
+        "Hajsafi",
+        "Ezatolahi",
+        "Ghoddos",
+        "Jahanbakhsh",
+        "Taremi",
+        "Azmoun",
+        "Mohebi"
       ],
       "away": [
-        "TBD Squad"
+        "Crocombe",
+        "Payne",
+        "Boxall",
+        "Pijnaker",
+        "Cacace",
+        "Garbett",
+        "Stamenic",
+        "Bell",
+        "Just",
+        "Wood",
+        "McCowatt"
       ]
     }
   }

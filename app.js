@@ -20,38 +20,36 @@ const state = {
   matches: [
     {
       id: 1,
-      stage: 'Group A',
-      home: 'USA',
-      homeFlag: '🇺🇸',
-      away: 'England',
-      awayFlag: '🏴󠁧󠁢󠁥󠁮󠁧󠁿',
-      homeScore: 2,
-      awayScore: 1,
+      stage: 'Group A • Match #1',
+      home: 'Mexico',
+      homeFlag: '🇲🇽',
+      away: 'South Africa',
+      awayFlag: '🇿🇦',
+      homeScore: 1,
+      awayScore: 0,
       status: 'live',
-      minute: 64,
+      minute: 32,
       events: [
-        { minute: 42, team: 'USA', type: 'goal', desc: 'Christian Pulisic (Assist: Weston McKennie)' },
-        { minute: 56, team: 'England', type: 'goal', desc: 'Harry Kane (Penalty)' },
-        { minute: 61, team: 'USA', type: 'goal', desc: 'Folarin Balogun (Assist: Timothy Weah)' }
+        { minute: 24, team: 'Mexico', type: 'goal', desc: 'Santiago Giménez ⚽ (Spectacular volley, Assist: Edson Álvarez)' }
       ],
       stats: {
-        possession: [52, 48],
-        shots: [11, 8],
-        fouls: [9, 11],
-        corners: [4, 6]
+        possession: [55, 45],
+        shots: [8, 4],
+        fouls: [6, 7],
+        corners: [3, 2]
       },
       lineups: {
-        home: ['Turner', 'Dest', 'Carter-Vickers', 'Ream', 'Robinson', 'McKennie', 'Adams', 'Musah', 'Weah', 'Balogun', 'Pulisic'],
-        away: ['Pickford', 'Walker', 'Stones', 'Maguire', 'Shaw', 'Rice', 'Bellingham', 'Saka', 'Foden', 'Rashford', 'Kane']
+        home: ["Ochoa", "Montes", "Vásquez", "Gallardo", "Sánchez", "Edson Álvarez", "Chávez", "Pineda", "Lozano", "Giménez", "Antuna"],
+        away: ["Williams", "Mudau", "Mvala", "Kekana", "Modiba", "Mokoena", "Sithole", "Zwane", "Morena", "Tau", "Makgopa"]
       }
     },
     {
       id: 2,
-      stage: 'Group B',
-      home: 'Mexico',
-      homeFlag: '🇲🇽',
-      away: 'Germany',
-      awayFlag: '🇩🇪',
+      stage: 'Group A • Match #2',
+      home: 'Korea Republic',
+      homeFlag: '🇰🇷',
+      away: 'Czechia',
+      awayFlag: '🇨🇿',
       homeScore: 0,
       awayScore: 0,
       status: 'upcoming',
@@ -59,58 +57,58 @@ const state = {
       events: [],
       stats: { possession: [50, 50], shots: [0, 0], fouls: [0, 0], corners: [0, 0] },
       lineups: {
-        home: ['Ochoa', 'Sanchez', 'Montes', 'Vasquez', 'Gallardo', 'Alvarez', 'Chavez', 'Pineda', 'Antuna', 'Gimenez', 'Lozano'],
-        away: ['Ter Stegen', 'Kimmich', 'Tah', 'Rüdiger', 'Mittelstädt', 'Andrich', 'Kroos', 'Musiala', 'Gündogan', 'Wirtz', 'Füllkrug']
+        home: ["Jo", "Kim Min-jae", "Jung", "Seol", "Lee Ki-je", "Hwang In-beom", "Park", "Lee Kang-in", "Son Heung-min", "Hwang Hee-chan", "Cho"],
+        away: ["Stanek", "Holes", "Hranac", "Krejci", "Coufal", "Soucek", "Provod", "Doudera", "Barak", "Hlozek", "Schick"]
       }
     },
     {
       id: 3,
-      stage: 'Group C',
+      stage: 'Group B • Match #3',
       home: 'Canada',
       homeFlag: '🇨🇦',
-      away: 'France',
-      awayFlag: '🇫🇷',
-      homeScore: 1,
-      awayScore: 2,
-      status: 'finished',
-      minute: 90,
+      away: 'Bosnia and Herzegovina',
+      awayFlag: '🇧🇦',
+      homeScore: 2,
+      awayScore: 1,
+      status: 'live',
+      minute: 76,
       events: [
-        { minute: 14, team: 'France', type: 'goal', desc: 'Antoine Griezmann (Assist: Ousmane Dembélé)' },
-        { minute: 38, team: 'Canada', type: 'goal', desc: 'Jonathan David (Assist: Tajon Buchanan)' },
-        { minute: 78, team: 'France', type: 'goal', desc: 'Kylian Mbappé (Assist: Eduardo Camavinga)' }
+        { minute: 18, team: 'Canada', type: 'goal', desc: 'Jonathan David ⚽ (Assist: Alphonso Davies)' },
+        { minute: 44, team: 'Bosnia and Herzegovina', type: 'goal', desc: 'Edin Džeko ⚽ (Header, Assist: Amar Dedić)' },
+        { minute: 58, team: 'Canada', type: 'goal', desc: 'Tajon Buchanan ⚽ (Assist: Stephen Eustáquio)' }
       ],
       stats: {
-        possession: [44, 56],
-        shots: [7, 14],
-        fouls: [12, 8],
-        corners: [3, 9]
+        possession: [55, 45],
+        shots: [8, 4],
+        fouls: [6, 7],
+        corners: [3, 2]
       },
       lineups: {
-        home: ['Crepeau', 'Johnston', 'Miller', 'Waterman', 'Davies', 'Eustaquio', 'Kone', 'Buchanan', 'David', 'Larin', 'Millar'],
-        away: ['Maignan', 'Koundé', 'Saliba', 'Upamecano', 'Hernández', 'Tchouaméni', 'Camavinga', 'Dembélé', 'Griezmann', 'Mbappé', 'Giroud']
+        home: ["Crepeau", "Johnston", "Miller", "Bombito", "Davies", "Eustaquio", "Kone", "Buchanan", "Jonathan David", "Larin", "Millar"],
+        away: ["Džeko", "Demirović", "Kolašinac", "Krunić", "Pirić", "Hadžikadunić", "Ahmedhodžić", "Gazibegović", "Gigović", "Hajradinović", "Tabaković"]
       }
     },
     {
       id: 4,
-      stage: 'Group D',
-      home: 'Argentina',
-      homeFlag: '🇦🇷',
-      away: 'Japan',
-      awayFlag: '🇯🇵',
+      stage: 'Group D • Match #4',
+      home: 'USA',
+      homeFlag: '🇺🇸',
+      away: 'Paraguay',
+      awayFlag: '🇵🇾',
       homeScore: 0,
       awayScore: 0,
-      status: 'live',
-      minute: 22,
+      status: 'upcoming',
+      minute: 0,
       events: [],
       stats: {
-        possession: [60, 40],
-        shots: [4, 1],
-        fouls: [3, 4],
-        corners: [2, 0]
+        possession: [50, 50],
+        shots: [0, 0],
+        fouls: [0, 0],
+        corners: [0, 0]
       },
       lineups: {
-        home: ['Martinez', 'Molina', 'Romero', 'Otamendi', 'Tagliafico', 'De Paul', 'Fernandez', 'Mac Allister', 'Messi', 'Alvarez', 'Gonzalez'],
-        away: ['Suzuki', 'Sugawara', 'Itakura', 'Machida', 'Ito', 'Endo', 'Morita', 'Doan', 'Kubo', 'Mitoma', 'Ueda']
+        home: ["Turner", "Dest", "Richards", "Ream", "Robinson", "McKennie", "Adams", "Musah", "Weah", "Balogun", "Pulisic"],
+        away: ["Coronel", "Balbuena", "Alderete", "Espinoza", "Caceres", "Cubas", "Villasanti", "Diego Gomez", "Almiron", "Enciso", "Sanabria"]
       }
     }
   ],
@@ -622,12 +620,11 @@ function startMatchSimulation() {
           match.awayScore += 1;
         }
 
-        // Animated highlights for scorers
-        const goalScorers = [
-          'Kylian Mbappé', 'Christian Pulisic', 'Harry Kane', 'Lionel Messi', 
-          'Lozano', 'Musiala', 'Mitoma', 'Timothy Weah', 'Alphonso Davies'
-        ];
-        const randomScorer = goalScorers[Math.floor(Math.random() * goalScorers.length)];
+        // Select random scorer from the playing team's lineup
+        const squad = isHomeScoring ? match.lineups.home : match.lineups.away;
+        const randomScorer = (squad && squad.length > 0)
+          ? squad[Math.floor(Math.random() * squad.length)]
+          : (isHomeScoring ? match.home : match.away) + " Player";
         const newGoal = {
           minute: match.minute,
           team: scoringTeam,

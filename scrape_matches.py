@@ -37,7 +37,45 @@ FLAG_MAP = {
   "Peru": "🇵🇪", "Chile": "🇨🇱", "Austria": "🇦🇹", "Ukraine": "🇺🇦",
   "Slovakia": "🇸🇰", "Slovenia": "🇸🇮", "Georgia": "🇬🇪", "Nigeria": "🇳🇬",
   "Algeria": "🇩🇿", "Iraq": "🇮🇶", "Honduras": "🇭🇳", "Jamaica": "🇯🇲",
-  "Panama": "🇵🇦", "El Salvador": "🇸🇻"
+  "Panama": "🇵🇦", "El Salvador": "🇸🇻", "Norway": "🇳🇴", "Uzbekistan": "🇺🇿", "Jordan": "🇯🇴", "Romania": "🇷🇴"
+}
+
+TEAM_SQUADS = {
+  "Mexico": ["Ochoa", "Montes", "Vásquez", "Gallardo", "Sánchez", "Edson Álvarez", "Chávez", "Pineda", "Lozano", "Giménez", "Antuna"],
+  "South Africa": ["Williams", "Mudau", "Mvala", "Kekana", "Modiba", "Mokoena", "Sithole", "Zwane", "Morena", "Tau", "Makgopa"],
+  "South Korea": ["Jo", "Kim Min-jae", "Jung", "Seol", "Lee Ki-je", "Hwang In-beom", "Park", "Lee Kang-in", "Son Heung-min", "Hwang Hee-chan", "Cho"],
+  "Czechia": ["Stanek", "Holes", "Hranac", "Krejci", "Coufal", "Soucek", "Provod", "Doudera", "Barak", "Hlozek", "Schick"],
+  "USA": ["Turner", "Dest", "Richards", "Ream", "Robinson", "McKennie", "Adams", "Musah", "Weah", "Balogun", "Pulisic"],
+  "Romania": ["Nita", "Ratiu", "Dragusin", "Burca", "Bancu", "M. Marin", "Man", "R. Marin", "Stanciu", "Mihaila", "Dragus"],
+  "Paraguay": ["Coronel", "Balbuena", "Alderete", "Espinoza", "Caceres", "Cubas", "Villasanti", "Diego Gomez", "Almiron", "Enciso", "Sanabria"],
+  "Australia": ["Ryan", "Atkinson", "Rowles", "Souttar", "Behich", "Baccus", "Irvine", "Metcalfe", "Goodwin", "Boyle", "Duke"],
+  "Canada": ["Crepeau", "Johnston", "Miller", "Bombito", "Davies", "Eustaquio", "Kone", "Buchanan", "Jonathan David", "Larin", "Millar"],
+  "Wales": ["Ward", "Roberts", "Mepham", "Davies", "Williams", "Ampadu", "J. James", "Wilson", "Brooks", "Johnson", "James"],
+  "Qatar": ["Barsham", "Miguel", "Mukhtar", "Mendes", "Al-Rawi", "Waad", "Hatem", "Fatehi", "Afif", "Al-Haydos", "Ali"],
+  "Switzerland": ["Sommer", "Schär", "Akanji", "Rodriguez", "Widmer", "Xhaka", "Freuler", "Aebischer", "Ndoye", "Vargas", "Embolo"],
+  "Brazil": ["Alisson", "Danilo", "Marquinhos", "Gabriel", "Arana", "Guimarães", "Gomes", "Paquetá", "Raphinha", "Rodrygo", "Vinícius Jr."],
+  "Morocco": ["Bounou", "Hakimi", "Aguerd", "Saïss", "Allah", "Amrabat", "Ounahi", "Ziyech", "Harit", "Adli", "En-Nesyri"],
+  "Haiti": ["Placide", "Arcus", "Ade", "Christian", "Guerrier", "Alceus", "Pierre", "Nazon", "Etienne", "Pierrot", "Picault"],
+  "Scotland": ["Gunn", "Porteous", "Hendry", "Tierney", "Ralston", "McTominay", "McGregor", "Gilmour", "Robertson", "McGinn", "Adams"],
+  "Germany": ["Ter Stegen", "Kimmich", "Rüdiger", "Tah", "Mittelstädt", "Andrich", "Kroos", "Musiala", "Gündogan", "Wirtz", "Havertz"],
+  "Curaçao": ["Room", "Gaari", "Martina", "Floranus", "J. Bacuna", "Anita", "L. Bacuna", "Kuwas", "Janga", "Gorré", "Locadia"],
+  "Ivory Coast": ["Fofana", "Aurier", "Ndicka", "Boly", "Konan", "Kessié", "Seri", "Sangaré", "Adinga", "Haller", "Pépé"],
+  "Ecuador": ["Domínguez", "Preciado", "Torres", "Hincapié", "Estupiñán", "Gruezo", "Caicedo", "Páez", "Mena", "Sarmiento", "Valencia"],
+  "Netherlands": ["Verbruggen", "Dumfries", "De Vrij", "Van Dijk", "Aké", "Schouten", "Reijnders", "Simons", "Frimpong", "Gakpo", "Depay"],
+  "Ukraine": ["Lunin", "Konoplya", "Zabarnyi", "Matviyenko", "Mykolenko", "Stepanenko", "Sudakov", "Zinchenko", "Tsyhankov", "Mudryk", "Dovbyk"],
+  "Japan": ["Suzuki", "Sugawara", "Itakura", "Machida", "Ito", "Endo", "Morita", "Doan", "Kubo", "Mitoma", "Ueda"],
+  "Tunisia": ["Ben Said", "Kechrida", "Meriah", "Talbi", "Abdi", "Skhiri", "Laidouni", "Rafia", "Achouri", "Ltaief", "Jaziri"],
+  "Belgium": ["Casteels", "Castagne", "Faes", "Vertonghen", "Theate", "Onana", "Mangala", "De Bruyne", "Doku", "Trossard", "Lukaku"],
+  "Egypt": ["El Shenawy", "Hany", "Abdelmonem", "Hegazi", "Hamdi", "Elneny", "Fathi", "Zizo", "Salah", "Trezeguet", "Mostafa Mohamed"],
+  "Iran": ["Beiranvand", "Rezaeian", "Kanaanizadegan", "Khalilzadeh", "Hajsafi", "Ezatolahi", "Ghoddos", "Jahanbakhsh", "Taremi", "Azmoun", "Mohebi"],
+  "New Zealand": ["Crocombe", "Payne", "Boxall", "Pijnaker", "Cacace", "Garbett", "Stamenic", "Bell", "Just", "Wood", "McCowatt"],
+  "Spain": ["Raya", "Carvajal", "Le Normand", "Laporte", "Cucurella", "Rodri", "Ruiz", "Pedri", "Yamal", "Williams", "Morata"],
+  "Cabo Verde": ["Vozinha", "Moreira", "Costa", "Pico", "Tavares", "Rocha", "Pina", "Monteiro", "Mendes", "Cabral", "Bebé"],
+  "Saudi Arabia": ["Al-Owais", "Al-Bulaihi", "Lajami", "Tambakti", "Abdulhamid", "Al-Khaibari", "Kanno", "Al-Dawsari", "Ghareeb", "Al-Muwallad", "Al-Shehri"],
+  "Uruguay": ["Rochet", "Nández", "Araújo", "Giménez", "Olivera", "Ugarte", "Valverde", "De la Cruz", "Pellistri", "Araujo", "Darwin Núñez"],
+  "Bosnia and Herzegovina": ["Džeko", "Demirović", "Kolašinac", "Krunić", "Pirić", "Hadžikadunić", "Ahmedhodžić", "Gazibegović", "Gigović", "Hajradinović", "Tabaković"],
+  "Türkiye": ["Günok", "Çelik", "Bardakcı", "Akaydin", "Kadıoğlu", "Ayhan", "Kökçü", "Çalhanoğlu", "Güler", "Yıldız", "Yılmaz"],
+  "Sweden": ["Olsen", "Krafth", "Hien", "Lindelöf", "Augustinsson", "Cajuste", "Salétros", "Kulusevski", "Isak", "Elanga", "Gyökeres"]
 }
 
 def setup_directories():
@@ -69,15 +107,19 @@ def parse_fixtures():
     
     formatted_matches = []
     
-    # We take up to 20 matches to display (focusing on opening matches and Group Stage Matchday 1)
+    def norm_team(name):
+      if name == "Korea Republic": return "South Korea"
+      if name == "Côte d'Ivoire": return "Ivory Coast"
+      if name == "IR Iran": return "Iran"
+      return name
+
+    # We take up to 16 matches to display (focusing on opening matches and Group Stage Matchday 1)
     for idx, match in enumerate(fixtures_list[:16]):
+      match_num = match.get("MatchNumber")
+      
       home_team = match.get("HomeTeam", "TBD")
       away_team = match.get("AwayTeam", "TBD")
       
-      # Exclude matches where both sides are TBD to keep it exciting
-      if home_team == "TBD" and away_team == "TBD":
-        continue
-        
       home_flag = FLAG_MAP.get(home_team, "⚽")
       away_flag = FLAG_MAP.get(away_team, "⚽")
       
@@ -104,11 +146,25 @@ def parse_fixtures():
         status = 'finished'
         home_score = int(home_score)
         away_score = int(away_score)
+        
+        # Generate realistic goal scorers based on the squads
+        if home_score > 0 or away_score > 0:
+          home_players = TEAM_SQUADS.get(norm_team(home_team), ["Player"])
+          away_players = TEAM_SQUADS.get(norm_team(away_team), ["Player"])
+          # Home scorers
+          for i in range(home_score):
+            scorer = home_players[min((idx + i) % len(home_players) + 7, len(home_players)-1)]
+            minute = (idx * 17 + i * 29 + 13) % 88 + 1
+            events.append({ "minute": minute, "team": home_team, "type": "goal", "desc": f"{scorer} ⚽ (Goal!)" })
+          # Away scorers
+          for i in range(away_score):
+            scorer = away_players[min((idx + i * 19) % len(away_players) + 7, len(away_players)-1)]
+            minute = (idx * 23 + i * 31 + 8) % 88 + 1
+            events.append({ "minute": minute, "team": away_team, "type": "goal", "desc": f"{scorer} ⚽ (Goal!)" })
       else:
         # If score is None but we are simulating active live matches,
         # let's set the opening match (Match Number 1: Mexico vs South Africa)
-        # and Match Number 3 (USA) as active LIVE matches so that the live simulation is fully interactive!
-        match_num = match.get("MatchNumber")
+        # and Match Number 3 (Canada vs Bosnia and Herzegovina) as active LIVE matches!
         if match_num == 1:
           status = 'live'
           minute = 32
@@ -118,16 +174,14 @@ def parse_fixtures():
             { "minute": 24, "team": "Mexico", "type": "goal", "desc": "Santiago Giménez ⚽ (Spectacular volley, Assist: Edson Álvarez)" }
           ]
         elif match_num == 3:
-          # USA Opening Match at SoFi Stadium
           status = 'live'
           minute = 76
           home_score = 2
-          away_score = 2
+          away_score = 1
           events = [
-            { "minute": 18, "team": "USA", "type": "goal", "desc": "Christian Pulisic ⚽ (Direct Free Kick)" },
-            { "minute": 44, "team": "TBD", "type": "goal", "desc": "Opponent Strike ⚽" },
-            { "minute": 58, "team": "USA", "type": "goal", "desc": "Folarin Balogun ⚽ (Assist: Timothy Weah)" },
-            { "minute": 71, "team": "TBD", "type": "goal", "desc": "Opponent Penalty ⚽" }
+            { "minute": 18, "team": "Canada", "type": "goal", "desc": "Jonathan David ⚽ (Assist: Alphonso Davies)" },
+            { "minute": 44, "team": "Bosnia and Herzegovina", "type": "goal", "desc": "Edin Džeko ⚽ (Header, Assist: Amar Dedić)" },
+            { "minute": 58, "team": "Canada", "type": "goal", "desc": "Tajon Buchanan ⚽ (Assist: Stephen Eustáquio)" }
           ]
         else:
           home_score = 0
@@ -141,10 +195,12 @@ def parse_fixtures():
         "corners": [3, 2] if status == 'live' else [0, 0]
       }
       
-      # Mock squad lineups
+      # Real squad lineups loaded dynamically
+      home_players = TEAM_SQUADS.get(norm_team(home_team), [f"{home_team} Player {i+1}" for i in range(11)])
+      away_players = TEAM_SQUADS.get(norm_team(away_team), [f"{away_team} Player {i+1}" for i in range(11)])
       lineups = {
-        "home": ["Starting XI", "Giménez", "Álvarez", "Lozano", "Chávez", "Vasquez", "Montes", "Ochoa"] if "Mexico" in home_team else ["TBD Squad"],
-        "away": ["Starting XI", "Pulisic", "Balogun", "McKennie", "Adams", "Dest", "Ream", "Turner"] if "USA" in away_team else ["TBD Squad"]
+        "home": home_players,
+        "away": away_players
       }
 
       formatted_matches.append({
