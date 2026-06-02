@@ -95,7 +95,29 @@ def is_football_news(title, desc, link):
   
   for term in football_terms:
     pattern = rf"(?<![{chars}]){re.escape(term)}(?![{chars}])"
-    if re.search(pattern, text_lower) or term in link_lower:
+    if re.search(pattern, text_lower + " " + link_lower):
+      return True
+      
+  return False
+
+def is_world_cup_news(title, desc, link):
+  # Must be football news first
+  if not is_football_news(title, desc, link):
+    return False
+    
+  text_lower = (title + " " + desc + " " + link).lower()
+  
+  # List of terms that signify it's a World Cup / FIFA story
+  wc_terms = [
+    'world cup', 'worldcup', 'fifa', 'mundial', 'copa del mundo', 
+    'copa del món', 'copa del mon', 'copa mundial', 'copadelmundo',
+    'copadelmon', 'copadelmón', 'mundialista', 'mundialistas'
+  ]
+  
+  chars = r"a-zA-Z0-9áéíóúüñçàèòíïòúü·"
+  for term in wc_terms:
+    pattern = rf"(?<![{chars}]){re.escape(term)}(?![{chars}])"
+    if re.search(pattern, text_lower):
       return True
       
   return False
@@ -269,8 +291,8 @@ def parse_news():
             desc = re.sub(r'<[^>]*>', '', desc)
             desc = html.unescape(desc).strip()
             
-          # Filter out news not related to football / FIFA World Cup
-          if not is_football_news(title, desc, link):
+          # Filter out news not related to World Cup / FIFA
+          if not is_world_cup_news(title, desc, link):
             continue
     
           title_lower = title.lower() + " " + desc.lower()
