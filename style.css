@@ -1093,6 +1093,59 @@ body {
   color: var(--text-muted);
 }
 
+/* Monetization/Ad Settings Card */
+.ad-settings-card {
+  background: rgba(255, 255, 255, 0.03);
+  border: 1px solid var(--border-color);
+  border-radius: 12px;
+  padding: 16px;
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+.ad-settings-card p {
+  font-size: 11px;
+  color: var(--text-muted);
+  line-height: 1.4;
+  margin: 0;
+}
+
+.ad-input-group {
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+}
+
+.ad-input-group label {
+  font-size: 11px;
+  font-weight: 600;
+  color: var(--text-secondary);
+}
+
+.ad-settings-input {
+  width: 100%;
+  background: rgba(0, 0, 0, 0.25);
+  border: 1px solid rgba(255, 255, 255, 0.12);
+  color: var(--text-primary);
+  padding: 8px 10px;
+  border-radius: 8px;
+  font-size: 12px;
+  font-family: monospace;
+  outline: none;
+  transition: border-color 0.3s ease;
+}
+
+.ad-settings-input:focus {
+  border-color: var(--secondary);
+}
+
+.ad-settings-actions {
+  display: flex;
+  gap: 8px;
+  margin-top: 4px;
+}
+
 .btn-primary-sm {
   background: var(--primary);
   border: none;

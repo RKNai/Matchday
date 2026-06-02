@@ -531,6 +531,7 @@ function applyTranslations() {
   renderNewsGrid();
   renderSubscriptionsUI();
   updateSyncStatus();
+  initAdSense();
 }
 
 function translateStage(stageStr) {
@@ -605,7 +606,11 @@ const DOM = {
   // Ads banner
   adClose: document.getElementById('adClose'),
   adsBanner: document.querySelector('.ads-banner'),
-  adCta: document.getElementById('adCta')
+  adCta: document.getElementById('adCta'),
+  adPublisherId: document.getElementById('adPublisherId'),
+  adSlotId: document.getElementById('adSlotId'),
+  saveAdSettingsBtn: document.getElementById('saveAdSettingsBtn'),
+  clearAdSettingsBtn: document.getElementById('clearAdSettingsBtn')
 };
 
 // --- Initialization ---
@@ -1576,18 +1581,215 @@ function renderModalContent() {
 }
 
 // --- Realistic Google Ads Controller ---
+const SPONSOR_ADS = [
+  {
+    title_en: "🎟️ FIFA World Cup 2026 Official Tickets",
+    desc_en: "Secure your seats for the historic 48-team tournament in USA, Canada & Mexico. Buy official tickets now!",
+    title_es: "🎟️ Entradas Oficiales Copa Mundial FIFA 2026",
+    desc_es: "Asegura tus asientos para el histórico torneo de 48 selecciones en EE.UU., Canadá y México. ¡Compra ya!",
+    title_ca: "🎟️ Entrades Oficials Copa del Món FIFA 2026",
+    desc_ca: "Assegura els teus seients per a l'històric torneig de 48 seleccions als EUA, Canadà i Mèxic. Compra ara!",
+    cta_en: "Buy Tickets",
+    cta_es: "Comprar Entradas",
+    cta_ca: "Comprar Entrades",
+    url: "https://www.fifa.com/en/tickets"
+  },
+  {
+    title_en: "⚽ Premium Footballs & Training Gear",
+    desc_en: "Get the official Adidas World Cup match ball, cleats, jerseys & training equipment up to 30% off.",
+    title_es: "⚽ Balones y Equipamiento de Fútbol Premium",
+    desc_es: "Consigue el balón oficial Adidas del Mundial, botas, camisetas y ropa de entrenamiento hasta con 30% de descuento.",
+    title_ca: "⚽ Pilotes i Equipament de Futbol Premium",
+    desc_ca: "Aconsegueix la pilota oficial del Mundial, botes, samarretes i roba d'entrenament amb fins al 30% de descompte.",
+    cta_en: "Shop Gear",
+    cta_es: "Ver Ofertas",
+    cta_ca: "Veure Ofertes",
+    url: "https://www.adidas.com/us/soccer"
+  },
+  {
+    title_en: "🏆 MatchDay Fantasy World Cup Challenge",
+    desc_en: "Join the largest global bracket. Predict scorelines, build your team, win cash prizes & authentic jerseys.",
+    title_es: "🏆 Desafío Fantasy MatchDay del Mundial",
+    desc_es: "Únete al mayor cuadro global. Predice marcadores, arma tu equipo y gana premios en efectivo y camisetas.",
+    title_ca: "🏆 Desafiament Fantasy MatchDay del Mundial",
+    desc_ca: "Uneix-te al major bracket global. Prediu marcadors, munta el teu equip i guanya premis en efectiu i samarretes.",
+    cta_en: "Play Free",
+    cta_es: "Jugar Gratis",
+    cta_ca: "Jugar de franc",
+    url: "#fantasy"
+  }
+];
+
+let currentAdIndex = 0;
+let adRotationInterval = null;
+
 function setupAdsBanner() {
+  // Restore AdSettings inputs from localStorage
+  if (DOM.adPublisherId) DOM.adPublisherId.value = localStorage.getItem('adPublisherId') || '';
+  if (DOM.adSlotId) DOM.adSlotId.value = localStorage.getItem('adSlotId') || '';
+
+  // Close ad event
   DOM.adClose.addEventListener('click', (e) => {
     e.stopPropagation();
     DOM.adsBanner.classList.add('hidden');
     // Shrink app containers padding to utilize bottom screen space
     document.documentElement.style.setProperty('--ads-height', '0px');
-    showToast('🏆 Ads Dismissed', 'Enjoy an ad-free experience for this session.');
+    showToast(
+      state.lang === 'en' ? '🏆 Ads Dismissed' : state.lang === 'es' ? '🏆 Anuncios Ocultados' : '🏆 Anuncis Ocultats',
+      state.lang === 'en' ? 'Enjoy an ad-free experience for this session.' : 
+      state.lang === 'es' ? 'Disfruta de una experiencia sin anuncios durante esta sesión.' :
+                            'Gaudeix d\'una experiència sense anuncis durant aquesta sessió.'
+    );
   });
 
-  DOM.adCta.addEventListener('click', () => {
-    showToast('🏆 Fantasy Hub', 'Opening World Cup predictions league hub. Prepare to draft!');
-  });
+  // Save Ad Settings
+  if (DOM.saveAdSettingsBtn) {
+    DOM.saveAdSettingsBtn.addEventListener('click', () => {
+      const pubId = DOM.adPublisherId.value.trim();
+      const slotId = DOM.adSlotId.value.trim();
+      
+      if (!pubId || !slotId) {
+        showToast(
+          state.lang === 'en' ? '⚠️ Missing Fields' : state.lang === 'es' ? '⚠️ Campos Incompletos' : '⚠️ Camps Incomplets',
+          state.lang === 'en' ? 'Please fill out both Client ID and Slot ID.' :
+          state.lang === 'es' ? 'Por favor complete el ID de cliente y el de slot.' :
+                                'Si us plau, ompli el Client ID i el Slot ID.'
+        );
+        return;
+      }
+      
+      localStorage.setItem('adPublisherId', pubId);
+      localStorage.setItem('adSlotId', slotId);
+      
+      showToast(
+        state.lang === 'en' ? '✅ Monetization Active' : state.lang === 'es' ? '✅ Monetización Activa' : '✅ Monetització Activa',
+        state.lang === 'en' ? 'Google AdSense settings updated and applied successfully.' :
+        state.lang === 'es' ? 'Ajustes de Google AdSense actualizados y aplicados.' :
+                              'Ajusts de Google AdSense actualitzats i aplicats.'
+      );
+      
+      initAdSense();
+    });
+  }
+
+  // Clear Ad Settings
+  if (DOM.clearAdSettingsBtn) {
+    DOM.clearAdSettingsBtn.addEventListener('click', () => {
+      DOM.adPublisherId.value = '';
+      DOM.adSlotId.value = '';
+      localStorage.removeItem('adPublisherId');
+      localStorage.removeItem('adSlotId');
+      
+      showToast(
+        state.lang === 'en' ? '🧹 Settings Reset' : state.lang === 'es' ? '🧹 Ajustes Restablecidos' : '🧹 Ajusts Restablits',
+        state.lang === 'en' ? 'Reverted to native sponsor affiliate ad rotation.' :
+        state.lang === 'es' ? 'Restablecido al sistema de rotación de anuncios patrocinados.' :
+                              'Restablert al sistema de rotació d\'anuncis patrocinats.'
+      );
+      
+      const existingScript = document.getElementById('adsenseScript');
+      if (existingScript) existingScript.remove();
+      
+      initAdSense();
+    });
+  }
+
+  // Initial Ad initialization
+  initAdSense();
+  startAdRotation();
+}
+
+function initAdSense() {
+  const pubId = localStorage.getItem('adPublisherId');
+  const slotId = localStorage.getItem('adSlotId');
+  
+  const adsenseContainer = document.getElementById('adsenseContainer');
+  const adContent = document.getElementById('adContent');
+  const adCta = document.getElementById('adCta');
+  
+  if (pubId && slotId) {
+    if (adsenseContainer) adsenseContainer.style.display = 'block';
+    if (adContent) adContent.style.display = 'none';
+    if (adCta) adCta.style.display = 'none';
+    
+    const ins = document.getElementById('adsenseIns');
+    if (ins) {
+      ins.setAttribute('data-ad-client', pubId);
+      ins.setAttribute('data-ad-slot', slotId);
+      ins.className = 'adsbygoogle';
+    }
+    
+    if (!document.getElementById('adsenseScript')) {
+      const script = document.createElement('script');
+      script.id = 'adsenseScript';
+      script.async = true;
+      script.src = `https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=${pubId}`;
+      script.crossOrigin = 'anonymous';
+      document.head.appendChild(script);
+    }
+    
+    try {
+      (window.adsbygoogle = window.adsbygoogle || []).push({});
+      console.log('[Ads Controller] Real Google AdSense initialized.');
+    } catch (err) {
+      console.warn('[Ads Controller] Google AdSense error or blocker active:', err);
+      fallbackToAffiliate();
+    }
+  } else {
+    fallbackToAffiliate();
+  }
+}
+
+function fallbackToAffiliate() {
+  const adsenseContainer = document.getElementById('adsenseContainer');
+  const adContent = document.getElementById('adContent');
+  const adCta = document.getElementById('adCta');
+  
+  if (adsenseContainer) adsenseContainer.style.display = 'none';
+  if (adContent) adContent.style.display = 'block';
+  if (adCta) adCta.style.display = 'inline-block';
+  
+  renderAffiliateAd();
+}
+
+function renderAffiliateAd() {
+  const lang = state.lang || 'en';
+  const ad = SPONSOR_ADS[currentAdIndex];
+  
+  const titleEl = document.getElementById('adTitle');
+  const descEl = document.getElementById('adDesc');
+  const ctaEl = document.getElementById('adCta');
+  
+  if (titleEl) titleEl.textContent = ad[`title_${lang}`] || ad.title_en;
+  if (descEl) descEl.textContent = ad[`desc_${lang}`] || ad.desc_en;
+  if (ctaEl) {
+    ctaEl.textContent = ad[`cta_${lang}`] || ad.cta_en;
+    ctaEl.onclick = (e) => {
+      e.stopPropagation();
+      if (ad.url === '#fantasy') {
+        showToast(
+          state.lang === 'en' ? '🏆 Fantasy Hub' : state.lang === 'es' ? '🏆 Hub de Fantasy' : '🏆 Hub de Fantasy',
+          state.lang === 'en' ? 'Opening World Cup predictions league hub. Prepare to draft!' :
+          state.lang === 'es' ? 'Abriendo liga de predicciones del Mundial. ¡Prepara tu alineación!' :
+                                'Obrint la lliga de prediccions del Mundial. Prepara la teva alineació!'
+        );
+      } else {
+        window.open(ad.url, '_blank', 'noopener,noreferrer');
+      }
+    };
+  }
+}
+
+function startAdRotation() {
+  if (adRotationInterval) clearInterval(adRotationInterval);
+  adRotationInterval = setInterval(() => {
+    const pubId = localStorage.getItem('adPublisherId');
+    const slotId = localStorage.getItem('adSlotId');
+    if (!pubId || !slotId) {
+      currentAdIndex = (currentAdIndex + 1) % SPONSOR_ADS.length;
+      renderAffiliateAd();
+    }
+  }, 20000);
 }
 
 // --- Scraper Integration ---
