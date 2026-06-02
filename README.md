@@ -38,6 +38,12 @@ MatchDay is a premium, zero-dependency, progressive web app (PWA) designed to tr
 * **Match Detail Card**: Dynamic scale animation overlay containing tab sheets for match events timeline, colored statistics charts, and starting squad sheets.
 * **News Details Card**: Popups displaying high-res article covers, publisher branding, relative time elapsed, news tag, full snippets, and a "Read Full Story ↗" redirect button.
 
+### 6. Personalization & Light Mode
+* **Light Theme Option**: Switch color styles on-the-fly to a clean slate-gray light mode featuring Slate-900 typography, custom translucent cards, and high contrast.
+* **Layout Toggle Filters**: Toggle the matches panel or news grid visibility on/off. Hiding a panel stretches the remaining active panel to full screen and hides partition resizer handles automatically.
+* **Smart Visibility Guards**: Prevents users from hiding both layout panels simultaneously, popping an in-app warning toast.
+* **Persistent Preferences**: Saves active language, theme choice, and visible layout modes inside `localStorage` to restore configurations on page loads.
+
 ---
 
 ## 📁 File Structure
