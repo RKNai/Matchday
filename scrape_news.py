@@ -30,6 +30,76 @@ def make_keyword_regex(keywords):
   pattern = "|".join(re.escape(kw) for kw in keywords)
   return re.compile(rf"(?<![{chars}])({pattern})(?![{chars}])", re.IGNORECASE)
 
+def is_football_news(title, desc, link):
+  link_lower = link.lower()
+  non_football_paths = [
+    '/tenis/', '/tennis/', '/baloncesto/', '/basquet/', '/basketball/', 
+    '/ciclismo/', '/cycling/', '/ciclisme/', '/motor/', '/f1/', '/formula1/', 
+    '/formula-1/', '/motogp/', '/golf/', '/handbol/', '/handball/', 
+    '/hoquei/', '/hockey/', '/jocs-olimpics/', '/olimpiadas/', '/olympics/',
+    '/atletismo/', '/atletisme/', '/athletics/', '/running/', '/natacion/',
+    '/natacio/', '/swimming/', '/boxeo/', '/boxing/', '/ufc/', '/mma/',
+    '/balonmano/', '/rugby/', '/nfl/', '/baseball/', '/beisbol/'
+  ]
+  if any(path in link_lower for path in non_football_paths):
+    return False
+
+  text_lower = (title + " " + desc).lower()
+  non_football_terms = [
+    r'tennis', r'tenis', r'bàsquet', r'basquet', r'baloncesto', 
+    r'basketball', r'motogp', r'moto gp', r'f1', r'formula 1', 
+    r'fórmula 1', r'golf', r'cycling', r'ciclismo', r'ciclisme', 
+    r'handbol', r'handball', r'hoquei', r'hockey', r'roland garros',
+    r'wimbledon', r'nba', r'euroleague', r'eurolliga', r'atletismo',
+    r'atletisme', r'athletics', r'running', r'maratón', r'maraton',
+    r'marató', r'10k', r'natación', r'natació', r'swimming', r'boxeo',
+    r'boxing', r'ufc', r'mma', r'balonmano', r'rugby', r'nfl',
+    r'baseball', r'beisbol'
+  ]
+  chars = r"a-zA-Z0-9áéíóúüñçàèòíïòúü·"
+  for term in non_football_terms:
+    pattern = rf"(?<![{chars}]){re.escape(term)}(?![{chars}])"
+    if re.search(pattern, text_lower):
+      return False
+
+  football_terms = [
+    # General & English
+    'football', 'soccer', 'world cup', 'fifa', 'champions league', 'premier league', 'la liga',
+    'serie a', 'bundesliga', 'ligue 1', 'mls', 'copa america', 'euro 20', 'uefa', 'match',
+    'goal', 'transfer', 'player', 'striker', 'midfielder', 'defender', 'goalkeeper',
+    'referee', 'var', 'penalty', 'pitch', 'roster', 'squad', 'lineup', 'kickoff', 'stadium',
+    'derby', 'fixture', 'scoreline', 'manager', 'coach', 'ballon d', 'footballer',
+    'team', 'win', 'club', 'clash', 'defeat', 'victory',
+    
+    # Spanish
+    'fútbol', 'futbol', 'mundial', 'copa del mundo', 'liga', 'goleador', 'fichaje', 'traspaso',
+    'delantero', 'centrocampista', 'defensa', 'portero', 'guardameta', 'árbitro', 'arbitro',
+    'penalti', 'plantilla', 'alineación', 'alineacion', 'suplente', 'banquillo', 'partido',
+    'gol', 'córner', 'corner', 'fuera de juego', 'seleccionador', 'entrenador', 'remate',
+    'chut', 'prórroga', 'prorroga',
+    
+    # Catalan
+    'copa del món', 'copa del mon', 'lliga', 'davanter', 'migcampista', 'porter', 'àrbitre',
+    'arbitre', 'plantilla', 'suplent', 'banqueta', 'partit', 'còrner', 'fora de joc',
+    'remat', 'xut', 'fitxatge', 'traspàs', 'traspas', 'pròrroga', 'prorroga',
+    
+    # Teams & Key names
+    'barça', 'barcelona', 'madrid', 'atletico', 'psg', 'bayern', 'juventus', 'milan', 'inter',
+    'liverpool', 'arsenal', 'chelsea', 'manchester', 'united', 'city', 'tottenham', 'spurs',
+    'dortmund', 'ajax', 'girona', 'espanyol', 'athletic club', 'europa de futbol', 'flick',
+    'xavi', 'mbappé', 'mbappe', 'messi', 'ronaldo', 'guardiola', 'tuchel', 'arteta', 'ten hag',
+    'ancelotti', 'bellingham', 'vinicius', 'haaland', 'yamal', 'pedri', 'gavi', 'lewandowski',
+    'kane', 'salah', 'squads', 'roster', 'convocatoria', 'convocatòria', 'bernabéu', 'bernabeu',
+    'camp nou', 'montilivi', 'san siro', 'old trafford', 'wembley'
+  ]
+  
+  for term in football_terms:
+    pattern = rf"(?<![{chars}]){re.escape(term)}(?![{chars}])"
+    if re.search(pattern, text_lower) or term in link_lower:
+      return True
+      
+  return False
+
 
 # Feeds organized by language code
 FEEDS = {
@@ -198,6 +268,10 @@ def parse_news():
           if desc:
             desc = re.sub(r'<[^>]*>', '', desc)
             desc = html.unescape(desc).strip()
+            
+          # Filter out news not related to football / FIFA World Cup
+          if not is_football_news(title, desc, link):
+            continue
     
           title_lower = title.lower() + " " + desc.lower()
           

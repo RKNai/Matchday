@@ -28,10 +28,52 @@
     "id": 201
   },
   {
+    "category": "lineup",
+    "title": "World Cup: Every squad as they are announced",
+    "snippet": "Every squad for the 2026 World Cup in the US, Canada and Mexico as they are announced.",
+    "time": "1m ago",
+    "timestamp": 1780404201,
+    "color": "linear-gradient(135deg, #3b82f6, #1e3a8a)",
+    "overlay": "📋",
+    "link": "https://www.bbc.com/sport/football/articles/cvgz43lgn15o?at_medium=RSS&at_campaign=rss",
+    "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/7774/live/90206170-53a0-11f1-89a3-d1f559421220.jpg",
+    "source": "BBC Sport",
+    "lang": "en",
+    "id": 202
+  },
+  {
+    "category": "rules",
+    "title": "Japan benefit from new World Cup substitution rule",
+    "snippet": "Japan become one of the first beneficiaries of the new time-limited substitution rule as they score while opponents Iceland have just 10 players on the pitch.",
+    "time": "8m ago",
+    "timestamp": 1780403802,
+    "color": "linear-gradient(135deg, #64748b, #334155)",
+    "overlay": "📺",
+    "link": "https://www.bbc.com/sport/football/articles/c87qzner0n7o?at_medium=RSS&at_campaign=rss",
+    "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/a0c3/live/c2997ee0-5e75-11f1-9bb7-93b44936b5cf.jpg",
+    "source": "BBC Sport",
+    "lang": "en",
+    "id": 203
+  },
+  {
+    "category": "tactics",
+    "title": "Sir Kenny Dalglish undergoing treatment for cancer",
+    "snippet": "Scotland, Liverpool and Celtic great Sir Kenny Dalglish confirms he is undergoing treatment for cancer.",
+    "time": "16m ago",
+    "timestamp": 1780403322,
+    "color": "linear-gradient(135deg, #f59e0b, #78350f)",
+    "overlay": "⚽",
+    "link": "https://www.bbc.com/sport/football/articles/clyp4e14m1do?at_medium=RSS&at_campaign=rss",
+    "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/0332/live/50c33ef0-5e7a-11f1-929d-ad528af5a4c7.jpg",
+    "source": "BBC Sport",
+    "lang": "en",
+    "id": 204
+  },
+  {
     "category": "tactics",
     "title": "Liverpool legend Dalglish reveals cancer diagnosis",
     "snippet": "Liverpool legend Sir Kenny Dalglish has revealed he is undergoing treatment following a cancer diagnosis.",
-    "time": "12m ago",
+    "time": "29m ago",
     "timestamp": 1780402560,
     "color": "linear-gradient(135deg, #f59e0b, #78350f)",
     "overlay": "⚽",
@@ -39,13 +81,13 @@
     "image": "https://e2.365dm.com/26/06/1920x1080/skysports-kenny-dalglish-liverpool_7263687.jpg?20260602130426",
     "source": "Sky Sports",
     "lang": "en",
-    "id": 202
+    "id": 205
   },
   {
     "category": "injury",
     "title": "Alaba passed fit but Baumgartner out of World Cup",
     "snippet": "Austria captain David Alaba is given the all-clear to travel for the World Cup after picking up a muscle injury on Monday but midfielder Christoph Baumgartner is ruled out of the tournament.",
-    "time": "15m ago",
+    "time": "32m ago",
     "timestamp": 1780402364,
     "color": "linear-gradient(135deg, #ef4444, #7f1d1d)",
     "overlay": "🩺",
@@ -53,13 +95,13 @@
     "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/2548/live/a84349d0-5e76-11f1-9bb7-93b44936b5cf.jpg",
     "source": "BBC Sport",
     "lang": "en",
-    "id": 203
+    "id": 206
   },
   {
     "category": "press",
     "title": "Fulham boss Silva close to Benfica agreement",
     "snippet": "Fulham head coach Marco Silva is close to reaching an agreement to take charge at Benfica.",
-    "time": "16m ago",
+    "time": "32m ago",
     "timestamp": 1780402340,
     "color": "linear-gradient(135deg, #0d9488, #115e59)",
     "overlay": "🎙️",
@@ -67,13 +109,13 @@
     "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/c0d1/live/7c306210-5e7b-11f1-ab70-cdbb605c4a31.jpg",
     "source": "BBC Sport",
     "lang": "en",
-    "id": 204
+    "id": 207
   },
   {
     "category": "lineup",
     "title": "Al-Tamari in squad for Jordan's World Cup debut",
     "snippet": "Rennes forward Mousa Al-Tamari features in Jordan's final 26-man squad for their World Cup debut this summer.",
-    "time": "30m ago",
+    "time": "47m ago",
     "timestamp": 1780401487,
     "color": "linear-gradient(135deg, #3b82f6, #1e3a8a)",
     "overlay": "📋",
@@ -81,13 +123,13 @@
     "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/b0cc/live/19ac6150-5e78-11f1-929d-ad528af5a4c7.jpg",
     "source": "BBC Sport",
     "lang": "en",
-    "id": 205
+    "id": 208
   },
   {
     "category": "lineup",
     "title": "World Cup squads confirmed! Every player at the tournament revealed...",
     "snippet": "The squads are in for the 2026 World Cup as the countdown continues for this summer's tournament.",
-    "time": "33m ago",
+    "time": "50m ago",
     "timestamp": 1780401300,
     "color": "linear-gradient(135deg, #3b82f6, #1e3a8a)",
     "overlay": "📋",
@@ -95,21 +137,7 @@
     "image": "https://e0.365dm.com/25/02/1920x1080/skysports-neymar-santos_6831275.jpg?20250217081054",
     "source": "Sky Sports",
     "lang": "en",
-    "id": 206
-  },
-  {
-    "category": "tactics",
-    "title": "Sir Kenny Dalglish undergoing treatment for cancer",
-    "snippet": "Scotland, Liverpool and Celtic great Sir Kenny Dalglish confirms he is undergoing treatment for cancer.",
-    "time": "51m ago",
-    "timestamp": 1780400208,
-    "color": "linear-gradient(135deg, #f59e0b, #78350f)",
-    "overlay": "⚽",
-    "link": "https://www.bbc.com/sport/football/articles/clyp4e14m1do?at_medium=RSS&at_campaign=rss",
-    "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/0332/live/50c33ef0-5e7a-11f1-929d-ad528af5a4c7.jpg",
-    "source": "BBC Sport",
-    "lang": "en",
-    "id": 207
+    "id": 209
   },
   {
     "category": "tactics",
@@ -123,7 +151,7 @@
     "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/7fa1/live/99eb2da0-5e74-11f1-8b8c-6d33e1d5abb6.jpg",
     "source": "BBC Sport",
     "lang": "en",
-    "id": 208
+    "id": 210
   },
   {
     "category": "transfer",
@@ -137,7 +165,7 @@
     "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/3b51/live/29aa4d00-5e74-11f1-9bb7-93b44936b5cf.jpg",
     "source": "BBC Sport",
     "lang": "en",
-    "id": 209
+    "id": 211
   },
   {
     "category": "rules",
@@ -151,7 +179,7 @@
     "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/3e2d/live/34955c50-5e7e-11f1-8b8c-6d33e1d5abb6.jpg",
     "source": "BBC Sport",
     "lang": "en",
-    "id": 210
+    "id": 212
   },
   {
     "category": "injury",
@@ -165,7 +193,7 @@
     "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/329a/live/00f0f280-5e63-11f1-9e22-3514086b3d4d.jpg",
     "source": "BBC Sport",
     "lang": "en",
-    "id": 211
+    "id": 213
   },
   {
     "category": "tactics",
@@ -179,63 +207,91 @@
     "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/2c6d/live/9949f090-5df0-11f1-9565-ef0970da1cfe.jpg",
     "source": "BBC Sport",
     "lang": "en",
-    "id": 212
-  },
-  {
-    "category": "injury",
-    "title": "World Cup latest: Gilmour reveals pain of WC dream ruined by injury",
-    "snippet": "",
-    "time": "1h ago",
-    "timestamp": 1780397460,
-    "color": "linear-gradient(135deg, #ef4444, #7f1d1d)",
-    "overlay": "🩺",
-    "link": "https://www.skysports.com/football/live-blog/11095/13509050/world-cup-2026-news-and-live-updates-usa-canada-and-mexico-build-up-plus-latest-on-trump-tickets-and-fans",
-    "image": "https://e1.365dm.com/26/06/1920x1080/skysports-billy-gilmour-scotland_7263587.jpg?20260602113642",
-    "source": "Sky Sports",
-    "lang": "en",
-    "id": 213
-  },
-  {
-    "category": "press",
-    "title": "England arrive in Florida for pre-World Cup camp",
-    "snippet": "England players and head coach Thomas Tuchel arrive at their pre-World Cup camp in West Palm Beach, Florida to start their tournament preparations.",
-    "time": "2h ago",
-    "timestamp": 1780395985,
-    "color": "linear-gradient(135deg, #0d9488, #115e59)",
-    "overlay": "🎙️",
-    "link": "https://www.bbc.com/sport/football/articles/cx2181zx13po?at_medium=RSS&at_campaign=rss",
-    "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/1d33/live/43588dd0-5e69-11f1-89a3-d1f559421220.jpg",
-    "source": "BBC Sport",
-    "lang": "en",
     "id": 214
   },
   {
     "category": "tactics",
-    "title": "Los 40 son los nuevos 20",
-    "snippet": "Serena Williams, que se retiró en septiembre de 2022, anunció su regreso a las pistas en el próximo torneo de Queen´s a los 44 años. No es la única deportistas que ha retomado la competición con más de 40 años tras haber anunciado su adiós. La longevidad en el deporte es un hecho, gracias a la evolución en la alimentación, preparación física, materiales... y muchos deciden volver años después de su adiós.",
-    "time": "1h ago",
-    "timestamp": 1780397747,
+    "title": "Rajadón del presidente del Huesca contra sus jugadores: \"Vimos más risas que llantos\"",
+    "snippet": "El presidente y el consejero delegado del club hacen balance de la temporada y piden perdón por el descenso",
+    "time": "12m ago",
+    "timestamp": 1780403544,
     "color": "linear-gradient(135deg, #f59e0b, #78350f)",
     "overlay": "⚽",
-    "link": "https://www.marca.com/otros-deportes/album/2026/06/02/40-son-nuevos-20.html",
-    "image": "https://e01-xlk-ue-marca.uecdn.es/files/admin_graphic_thumbnail/uploads/2026/06/02/6a1eae2947c98.jpeg",
+    "link": "https://www.marca.com/futbol/huesca/2026/06/02/lasaosa-mur-cargan-jugadores-huesca-hemos-presenciado-risas-llantos.html",
+    "image": "https://e01-xlk-ue-marca.uecdn.es/files/admin_graphic_thumbnail/uploads/2026/06/02/6a1ec971d907c.jpeg",
     "source": "Marca",
     "lang": "es",
     "id": 215
   },
   {
     "category": "tactics",
-    "title": "27 candidaturas optan al Premio Princesa de Asturias de los Deportes",
-    "snippet": "Este miércoles se conocerá al sucesor de Serena Williams, galardonada en 2025<span class=\"\" contenteditable=\"false\" tabindex=\"-1\" style=\"user-select: none; pointer-events: auto;\"></span>",
-    "time": "1h ago",
-    "timestamp": 1780397526,
+    "title": "A España le sale un duro competidor en el termómetro del Mundial",
+    "snippet": "Versus otorga las mismas posibilidades de llevarse el título a Francia",
+    "time": "36m ago",
+    "timestamp": 1780402104,
     "color": "linear-gradient(135deg, #f59e0b, #78350f)",
     "overlay": "⚽",
-    "link": "https://www.marca.com/otros-deportes/2026/06/02/27-candidaturas-optan-premio-princesa-asturias-deportes.html",
-    "image": "https://e01-xlk-ue-marca.uecdn.es/files/admin_graphic_thumbnail/uploads/2026/06/02/6a1eb5b2b628c.jpeg",
+    "link": "https://www.marca.com/apuestas-deportivas/predicciones/2026/06/02/espana-le-sale-duro-competidor-termometro-mundial.html",
+    "image": "https://e01-xlk-ue-marca.uecdn.es/files/admin_graphic_thumbnail/uploads/2026/06/02/6a1eb31d3c1ce.jpeg",
     "source": "Marca",
     "lang": "es",
     "id": 216
+  },
+  {
+    "category": "tactics",
+    "title": "Sir Kenny Dalglish anuncia que padece cáncer tras revelarlo por error<br>",
+    "snippet": "El legendario exjugador del Liverpool FC confirma que ya se encuentra bajo tratamiento y pide respeto para la privacidad de su familia",
+    "time": "59m ago",
+    "timestamp": 1780400755,
+    "color": "linear-gradient(135deg, #f59e0b, #78350f)",
+    "overlay": "⚽",
+    "link": "https://www.marca.com/futbol/premier-league/2026/06/02/sir-kenny-dalglish-anuncia-padece-cancer-revelarlo-error-redes-sociales.html",
+    "image": "https://e01-xlk-ue-marca.uecdn.es/files/admin_graphic_thumbnail/uploads/2026/06/02/6a1ec1e2496ce.jpeg",
+    "source": "Marca",
+    "lang": "es",
+    "id": 217
+  },
+  {
+    "category": "tactics",
+    "title": "\"Creo que merezco ganar el Balón de Oro\"",
+    "snippet": "El delantero inglés analiza su gran temporada en el Bayern, donde ha marcado 61 goles",
+    "time": "1h ago",
+    "timestamp": 1780400208,
+    "color": "linear-gradient(135deg, #f59e0b, #78350f)",
+    "overlay": "⚽",
+    "link": "https://www.marca.com/futbol/2026/06/02/harry-kane-contar-mundial-creo-merezco-ganar-balon-oro.html",
+    "image": "https://e01-xlk-ue-marca.uecdn.es/files/admin_graphic_thumbnail/uploads/2026/06/02/6a1eb4c165ee1.jpeg",
+    "source": "Marca",
+    "lang": "es",
+    "id": 218
+  },
+  {
+    "category": "transfer",
+    "title": "Llorente, del reconocimiento... a la renovación",
+    "snippet": "Elegido mejor lateral derecho de la Champions, su objetivo es ampliar el contrato con el Atlético más allá de 2027. Será uno de los nuevos capitanes",
+    "time": "1h ago",
+    "timestamp": 1780398515,
+    "color": "linear-gradient(135deg, #a855f7, #581c87)",
+    "overlay": "🔄",
+    "link": "https://www.marca.com/futbol/atletico/2026/06/02/llorente-reconocimiento-renovacion.html",
+    "image": "https://e01-xlk-ue-marca.uecdn.es/files/admin_graphic_thumbnail/uploads/2026/06/01/6a1d99dd96172.jpeg",
+    "source": "Marca",
+    "lang": "es",
+    "id": 219
+  },
+  {
+    "category": "tactics",
+    "title": "El equipo que parece de Primera división y que pelea en el fútbol modesto",
+    "snippet": "El club, ahora comandado por los nuevos inversores Íñigo Asensio y Luis Alonso, ha sufrido una metamorfosis total en el último año que apunta a llevar al club al fútbol profesional · Cayó ante el UD Ourense en la final del playoff a Primera RFEF",
+    "time": "1h ago",
+    "timestamp": 1780397457,
+    "color": "linear-gradient(135deg, #f59e0b, #78350f)",
+    "overlay": "⚽",
+    "link": "https://www.marca.com/futbol/segunda-rfef/2026/06/02/ub-conquense-equipo-primera-division-pelea-futbol-modesto.html",
+    "image": "https://e01-xlk-ue-marca.uecdn.es/files/admin_graphic_thumbnail/uploads/2026/06/01/6a1dca3236656.jpeg",
+    "source": "Marca",
+    "lang": "es",
+    "id": 220
   },
   {
     "category": "press",
@@ -249,7 +305,7 @@
     "image": "https://e01-xlk-ue-marca.uecdn.es/files/admin_graphic_thumbnail/uploads/2026/06/02/6a1eb3f8e1558.jpeg",
     "source": "Marca",
     "lang": "es",
-    "id": 217
+    "id": 221
   },
   {
     "category": "lineup",
@@ -263,7 +319,7 @@
     "image": "https://e01-xlk-ue-marca.uecdn.es/files/admin_graphic_thumbnail/uploads/2026/01/18/696d5582bd7fa.jpeg",
     "source": "Marca",
     "lang": "es",
-    "id": 218
+    "id": 222
   },
   {
     "category": "tactics",
@@ -277,49 +333,7 @@
     "image": "https://e01-xlk-ue-marca.uecdn.es/files/admin_graphic_thumbnail/uploads/2026/06/02/6a1ea21e1d513.jpeg",
     "source": "Marca",
     "lang": "es",
-    "id": 219
-  },
-  {
-    "category": "tactics",
-    "title": "La española Awa Fam ya impone su talento y 1,94 m. en la WNBA: roza el doble-doble y récord de minutos",
-    "snippet": "",
-    "time": "2h ago",
-    "timestamp": 1780395831,
-    "color": "linear-gradient(135deg, #f59e0b, #78350f)",
-    "overlay": "⚽",
-    "link": "https://www.marca.com/baloncesto/nba/2026/06/02/espanola-awa-fam-impone-talento-1-94-m-wnba-roza-doble-doble-record-minutos-video.html",
-    "image": "https://www.dailymotion.com/crawler/video/k5bTlqiEgsqI0mGn9d6",
-    "source": "Marca",
-    "lang": "es",
-    "id": 220
-  },
-  {
-    "category": "tactics",
-    "title": "Sainz: \"Me gustaría seguir pilotando por lo menos desde los 31 hasta los 40 años seguro\"",
-    "snippet": "El de Williams pretende emular a otros ilustres incombustibles como su propio padre o el mismo Fernando Alonso",
-    "time": "2h ago",
-    "timestamp": 1780395668,
-    "color": "linear-gradient(135deg, #f59e0b, #78350f)",
-    "overlay": "⚽",
-    "link": "https://www.marca.com/motor/formula1/gp-monaco/2026/06/02/carlos-sainz-me-gustaria-seguir-pilotando-31-40-anos-seguro.html",
-    "image": "https://e01-xlk-ue-marca.uecdn.es/files/admin_graphic_thumbnail/uploads/2026/06/02/6a1ea357c10b7.jpeg",
-    "source": "Marca",
-    "lang": "es",
-    "id": 221
-  },
-  {
-    "category": "tactics",
-    "title": "Jon Rahm hace un guiño a McIlroy y no se sale del “zapatero a tus zapatos”",
-    "snippet": "El 'León de Barrika' está en España para disputar el LIV Golf Andalucía. Habla del futuro del circuito y del legado que ya está dejando",
-    "time": "2h ago",
-    "timestamp": 1780395272,
-    "color": "linear-gradient(135deg, #f59e0b, #78350f)",
-    "overlay": "⚽",
-    "link": "https://www.marca.com/golf/liv-golf/2026/06/02/jon-rahm-guino-mcilroy-sale-zapatero-tus-zapatos.html",
-    "image": "https://e01-xlk-ue-marca.uecdn.es/files/admin_graphic_thumbnail/uploads/2026/06/02/6a1ea9ae72703.jpeg",
-    "source": "Marca",
-    "lang": "es",
-    "id": 222
+    "id": 223
   },
   {
     "category": "tactics",
@@ -333,53 +347,11 @@
     "image": "https://e01-xlk-ue-marca.uecdn.es/files/admin_graphic_thumbnail/uploads/2026/06/02/17803950189673.jpeg",
     "source": "Marca",
     "lang": "es",
-    "id": 223
-  },
-  {
-    "category": "transfer",
-    "title": "El mercado de parejas del pádel: reencuentros, dudas... y algunas que se tambalean",
-    "snippet": "El Italy Major de Premier Padel presentará novedades, regresos tras lesiones y parejas que, entre tambaleos, se juegan sus últimas fichas.",
-    "time": "2h ago",
-    "timestamp": 1780394787,
-    "color": "linear-gradient(135deg, #a855f7, #581c87)",
-    "overlay": "🔄",
-    "link": "https://www.marca.com/padel/2026/06/02/mercado-parejas-padel-reencuentros-dudas-tambalean.html",
-    "image": "https://www.dailymotion.com/crawler/video/xacs2im",
-    "source": "Marca",
-    "lang": "es",
     "id": 224
   },
   {
-    "category": "tactics",
-    "title": "Mirra Andreeva regresa a semifinales como mayor de edad con un 6-0",
-    "snippet": "La rusa, de 19 años, supera a la rumana Cirstea en dos sets y con rosco inicial",
-    "time": "2h ago",
-    "timestamp": 1780394743,
-    "color": "linear-gradient(135deg, #f59e0b, #78350f)",
-    "overlay": "⚽",
-    "link": "https://www.marca.com/tenis/roland-garros/2026/06/02/mirra-andreeva-regresa-semifinales-mayor-edad.html",
-    "image": "https://e01-xlk-ue-marca.uecdn.es/files/admin_graphic_thumbnail/uploads/2026/06/02/6a1ea876e508c.jpeg",
-    "source": "Marca",
-    "lang": "es",
-    "id": 225
-  },
-  {
     "category": "press",
-    "title": "Tonda Eckert pide perdón por el escándalo de espionaje del Southampton",
-    "snippet": "El entrenador asumió la total responsabilidad del caso 'Spygate', que costó la expulsión del equipo de los play-offs de ascenso, aunque la directiva le respalda",
-    "time": "2h ago",
-    "timestamp": 1780394674,
-    "color": "linear-gradient(135deg, #0d9488, #115e59)",
-    "overlay": "🎙️",
-    "link": "https://www.marca.com/futbol/premier-league/2026/06/02/tonda-eckert-pide-perdon-escandalo-espionaje-southampton.html",
-    "image": "https://e01-xlk-ue-marca.uecdn.es/files/admin_graphic_thumbnail/uploads/2026/06/02/6a1ea79fe72b3.jpeg",
-    "source": "Marca",
-    "lang": "es",
-    "id": 226
-  },
-  {
-    "category": "press",
-    "title": "Casillas: \"Que Raúl sea el director deportivo... Estamos hablando de un tipo que es Raúl\"<br>",
+    "title": "Casillas: \"De Raúl poco se puede decir, un madridista 100%\"<br>",
     "snippet": "El exportero madridista dice que no le han \"tentado\" de ninguna candidatura a la presidencia",
     "time": "2h ago",
     "timestamp": 1780394632,
@@ -389,7 +361,7 @@
     "image": "https://e01-xlk-ue-marca.uecdn.es/files/admin_graphic_thumbnail/uploads/2026/06/02/6a1ea32edbd0f.jpeg",
     "source": "Marca",
     "lang": "es",
-    "id": 227
+    "id": 225
   },
   {
     "category": "tactics",
@@ -403,18 +375,46 @@
     "image": "https://e01-xlk-ue-marca.uecdn.es/files/admin_graphic_thumbnail/uploads/2026/06/02/6a1ea886ab97a.jpeg",
     "source": "Marca",
     "lang": "es",
+    "id": 226
+  },
+  {
+    "category": "tactics",
+    "title": "El Barça pone los dientes largos con Lamine: va a volar en el Mundial",
+    "snippet": "",
+    "time": "3h ago",
+    "timestamp": 1780391135,
+    "color": "linear-gradient(135deg, #f59e0b, #78350f)",
+    "overlay": "⚽",
+    "link": "https://www.marca.com/futbol/barcelona/2026/06/02/barca-pone-dientes-largos-lamine-tope-mundial-video.html",
+    "image": "https://www.dailymotion.com/crawler/video/xacrvzu",
+    "source": "Marca",
+    "lang": "es",
+    "id": 227
+  },
+  {
+    "category": "tactics",
+    "title": "Garnacho presume de nuevo tatuaje: es arte",
+    "snippet": "",
+    "time": "3h ago",
+    "timestamp": 1780390187,
+    "color": "linear-gradient(135deg, #f59e0b, #78350f)",
+    "overlay": "⚽",
+    "link": "https://www.marca.com/futbol/premier-league/2026/06/02/impresionante-garnacho-presume-gigantesco-tatuaje-joker-toda-espalda-video.html",
+    "image": "https://www.dailymotion.com/crawler/video/xacru9e",
+    "source": "Marca",
+    "lang": "es",
     "id": 228
   },
   {
-    "category": "transfer",
-    "title": "Sissoko puede debutar en un Real Madrid que necesita encenderse tras la peor racha de su historia",
-    "snippet": "El nuevo fichaje tiene opciones de estrenarse con los blancos, que suman cinco derrotas seguidas en ACB antes de arrancar los playoffs este martes ante La Laguna Tenerife",
-    "time": "2h ago",
-    "timestamp": 1780393573,
-    "color": "linear-gradient(135deg, #a855f7, #581c87)",
-    "overlay": "🔄",
-    "link": "https://www.marca.com/baloncesto/acb/playoffs/2026/06/02/sissoko-debutar-real-madrid-necesita-encenderse-peor-racha-historia.html",
-    "image": "https://e01-xlk-ue-marca.uecdn.es/files/admin_graphic_thumbnail/uploads/2026/06/02/6a1ea141b324a.jpeg",
+    "category": "tactics",
+    "title": "Se filtra el vídeo de una estrella del fútbol conduciendo su Lamborghini drogado antes de estrellarse",
+    "snippet": "",
+    "time": "4h ago",
+    "timestamp": 1780388381,
+    "color": "linear-gradient(135deg, #f59e0b, #78350f)",
+    "overlay": "⚽",
+    "link": "https://www.marca.com/futbol/premier-league/2026/06/02/raheem-sterling-video-conduciendo-drogado-estrellar-lamborghini-deten-video.html",
+    "image": "https://www.dailymotion.com/crawler/video/k5A0cdzsklDaDHGn66w",
     "source": "Marca",
     "lang": "es",
     "id": 229
@@ -423,12 +423,12 @@
     "category": "lineup",
     "title": "El jugador menys conegut del Mundial fa ombra a Messi i Cristiano",
     "snippet": "Fa una setmana Tim Payne era un jugador anònim, pràcticament desconegut per al públic general. Amb poc més de 4.700 seguidors a Instagram, el central de la selecció de Nova Zelanda, la número 85 del rànquing FIFA, era el futbolista menys mediàtic dels 1.248 convocats per al Mundial d’aquest estiu. Però d'un dia per l'altre es va fer internacionalment famós i va incrementar el seu nombre de followers a un ritme vertiginós, i es va convertir en el fenomen viral dels dies previs a la cita mundialista. Ni Leo Messi ni Cristiano Ronaldo: l'home del moment és Tim Payne.",
-    "time": "27m ago",
+    "time": "44m ago",
     "timestamp": 1780401642,
     "color": "linear-gradient(135deg, #3b82f6, #1e3a8a)",
     "overlay": "📋",
     "link": "https://www.ara.cat/esports/futbol/jugador-menys-conegut-mundial-ombra-messi-cristiano_130_5755620.html",
-    "image": "https://static1.ara.cat/clip/ee737dde-d694-4f24-9993-cd65d353a8a1_16-9-aspect-ratio_default_0.jpg",
+    "image": "https://static1.ara.cat/clip/ee737dde-d694-4f24-9993-cd65d353a8a1_16-9-aspect-ratio_default_1058448.jpg",
     "source": "ARA Esports",
     "lang": "ca",
     "id": 230
@@ -462,20 +462,6 @@
     "id": 232
   },
   {
-    "category": "tactics",
-    "title": "Barcelona ret un homenatge a Samaranch reobrint el debat sobre si hauria de tenir un carrer",
-    "snippet": "16 anys després de la seva mort, Barcelona retrà aquest dimarts un homenatge a Juan Antonio Samaranch, el barceloní que més poder va arribar a tenir en l'esport mundial. Una figura que va canviar l'olimpisme de dalt a baix i va ser clau a l'hora de portar els Jocs Olímpics del 1992 a una ciutat amb la qual sempre va mantenir una relació estranya. Estimat per molts i criticat per altres especialment per la seva militància franquista, Samaranch va convertir-se el 1980 en el president del Comitè Olímpic Internacional, iniciant la tasca de modernització del moviment olímpic a la qual va dedicar tota la vida.",
-    "time": "17h ago",
-    "timestamp": 1780339858,
-    "color": "linear-gradient(135deg, #f59e0b, #78350f)",
-    "overlay": "⚽",
-    "link": "https://www.ara.cat/esports/jocs-olimpics/barcelona-ret-homenatge-samaranch-reobrint-debat-hauria-carrer_1_5755250.html",
-    "image": "https://static1.ara.cat/clip/964d39cd-e7d3-48db-a367-ccd74bfeb67f_16-9-aspect-ratio_default_0.jpg",
-    "source": "ARA Esports",
-    "lang": "ca",
-    "id": 233
-  },
-  {
     "category": "rules",
     "title": "El nacionalisme espanyol s'indigna amb la nova samarreta de l'Athletic Club",
     "snippet": "Pocs cops una samarreta de futbol ha generat tant de soroll fins i tot abans de sortir a la venda. Ara fa dues setmanes, l'Athletic Club va presentar la que serà la seva samarreta la temporada vinent. Com altres clubs, va fer-ho just al final del present curs, estrenant-la en el partit de Lliga de la darrera jornada al camp del Reial Madrid. La samarreta, però, no agrada a tothom, ja que el club basc ha fet una petita modificació. Els darrers anys jugava amb una petita bandera del País Basc, la ikurriña, a la part posterior del coll. Però de cara a la temporada vinent han apostat per un mapa amb la silueta d'Euskal Herria amb una ikurriña dins. La reacció de partits com Vox o UPN ha creat un bon enrenou, especialment a Navarra.",
@@ -487,21 +473,7 @@
     "image": "https://static1.ara.cat/clip/dea09a5d-34ab-410f-841f-78b399502463_16-9-aspect-ratio_default_0_x801y317.jpg",
     "source": "ARA Esports",
     "lang": "ca",
-    "id": 234
-  },
-  {
-    "category": "injury",
-    "title": "\"N'estem tips\": el fantasma del boicot arriba al tenis mundial",
-    "snippet": "Els organitzadors de Roland Garros es posen les mans al cap. Primer van descobrir que Carlos Alcaraz no hi aniria per lesió. Així que van preparar-se per posar la corona a Jannik Sinner, que venia de guanyar tots els tornejos sobre terra que havia disputat. Però l’italià es va trobar malament en el seu partit de tercera ronda contra l’argentí Juan Manuel Cerúndolo i va caure sorprenentment en cinc sets. “No he dormit bé i m’he quedat fos, sense energia”, va explicar després. Als organitzadors els quedava Novak Djokovic, que amb 39 anys passava a aspirar a un últim gran triomf. Però també va caure, en el seu cas contra el brasiler João Fonseca. En espera del que pugui fer el jove madrileny Rafa Jódar, el torneig s'ha quedat orfe d’estrelles en el quadre masculí.",
-    "time": "1d ago",
-    "timestamp": 1780315237,
-    "color": "linear-gradient(135deg, #ef4444, #7f1d1d)",
-    "overlay": "🩺",
-    "link": "https://www.ara.cat/esports/tenis/n-tips-fantasma-boicot-tenis-mundial_1_5753063.html",
-    "image": "https://static1.ara.cat/clip/d75be327-44b2-4768-8b8b-7bd092366e07_source-aspect-ratio_default_0.jpg",
-    "source": "ARA Esports",
-    "lang": "ca",
-    "id": 235
+    "id": 233
   },
   {
     "category": "press",
@@ -515,7 +487,7 @@
     "image": "https://d5r1tkwwv7d5g.cloudfront.net/articulos/articulos-720488.jpg",
     "source": "Nació Digital",
     "lang": "ca",
-    "id": 236
+    "id": 234
   },
   {
     "category": "tactics",
@@ -529,7 +501,7 @@
     "image": "https://d5r1tkwwv7d5g.cloudfront.net/articulos/articulos-709172.jpg",
     "source": "Nació Digital",
     "lang": "ca",
-    "id": 237
+    "id": 235
   },
   {
     "category": "tactics",
@@ -543,21 +515,7 @@
     "image": "https://static1.ara.cat/clip/22a95bc3-d3c8-40b5-ad12-1dd2e090fc64_16-9-aspect-ratio_default_0.jpg",
     "source": "ARA Esports",
     "lang": "ca",
-    "id": 238
-  },
-  {
-    "category": "tactics",
-    "title": "El Palau esclata contra l'apatia del Barça",
-    "snippet": "El València Basket va posar en evidència les mancances d'un Barça que haurà de disputar els quarts de final amb el factor pista en contra (77-102). L'equip català va patir una derrota molt dolorosa, sagnant en alguns moments, tant per la forma com per les conseqüències. El Palau Blaugrana va utilitzar els xiulets i algun mocador per criticar l'apatia d'alguns jugadors.",
-    "time": "1d ago",
-    "timestamp": 1780252566,
-    "color": "linear-gradient(135deg, #f59e0b, #78350f)",
-    "overlay": "⚽",
-    "link": "https://www.ara.cat/esports/basquet/acb/cronica-barca-valencia-basket_1_5753930.html",
-    "image": "https://static1.ara.cat/clip/03a6b5a9-c8d1-4fc0-81db-04cff45a635a_16-9-aspect-ratio_default_0.jpg",
-    "source": "ARA Esports",
-    "lang": "ca",
-    "id": 239
+    "id": 236
   },
   {
     "category": "lineup",
@@ -571,7 +529,7 @@
     "image": "https://static1.ara.cat/clip/c331c54e-f843-4b58-b196-40fcfea65f44_source-aspect-ratio_default_0_x396y338.jpg",
     "source": "ARA Esports",
     "lang": "ca",
-    "id": 240
+    "id": 237
   },
   {
     "category": "rules",
@@ -585,7 +543,7 @@
     "image": "https://static1.ara.cat/clip/82ef1e9d-ebaf-49ad-8ec9-63adb3ac18a9_source-aspect-ratio_default_0.jpg",
     "source": "ARA Esports",
     "lang": "ca",
-    "id": 241
+    "id": 238
   },
   {
     "category": "tactics",
@@ -599,7 +557,7 @@
     "image": "https://d5r1tkwwv7d5g.cloudfront.net/articulos/articulos-720148.jpg",
     "source": "Nació Digital",
     "lang": "ca",
-    "id": 242
+    "id": 239
   },
   {
     "category": "lineup",
@@ -613,7 +571,7 @@
     "image": "https://static1.ara.cat/clip/2951a28e-a5c2-4693-b7b1-b4fada21f202_16-9-aspect-ratio_default_0.jpg",
     "source": "ARA Esports",
     "lang": "ca",
-    "id": 243
+    "id": 240
   },
   {
     "category": "transfer",
@@ -626,6 +584,48 @@
     "link": "https://naciodigital.cat/esports/visca-el-barca-i-visca-catalunya-gordon-el-nou-fitxatge-del-barca-que-parla-catala-i-es-un-apassionat-de-la-lectura.html",
     "image": "https://d5r1tkwwv7d5g.cloudfront.net/articulos/articulos-720009.jpg",
     "source": "Nació Digital",
+    "lang": "ca",
+    "id": 241
+  },
+  {
+    "category": "rules",
+    "title": "El PSG de Luis Enrique guanya la segona Champions consecutiva davant l'Arsenal als penals",
+    "snippet": "Els parisencs fan història convertint-se en el segon equip a guanyar dues Champions consecutives, després del Reial Madrid",
+    "time": "2d ago",
+    "timestamp": 1780167968,
+    "color": "linear-gradient(135deg, #64748b, #334155)",
+    "overlay": "📺",
+    "link": "https://naciodigital.cat/esports/el-psg-de-luis-enrique-guanya-la-segona-champions-consecutiva-davant-larsenal-als-penals.html",
+    "image": "https://d5r1tkwwv7d5g.cloudfront.net/articulos/articulos-719979.jpg",
+    "source": "Nació Digital",
+    "lang": "ca",
+    "id": 242
+  },
+  {
+    "category": "tactics",
+    "title": "L’Estadi del Poble, l’antecessor comunista de l’actual Puskás Arena",
+    "snippet": "El Puskás Arena de Budapest, que acull la final de la Champions, és hereu d'un recinte esportiu construït després de la Segona Guerra Mundial i que va ser un dels orgulls de l’Hongria comunista",
+    "time": "3d ago",
+    "timestamp": 1780138782,
+    "color": "linear-gradient(135deg, #f59e0b, #78350f)",
+    "overlay": "⚽",
+    "link": "https://naciodigital.cat/esports/lestadi-del-poble-lantecessor-comunista-de-lactual-puskas-arena.html",
+    "image": "https://d5r1tkwwv7d5g.cloudfront.net/articulos/articulos-719250.jpg",
+    "source": "Nació Digital",
+    "lang": "ca",
+    "id": 243
+  },
+  {
+    "category": "lineup",
+    "title": "Un fitxatge a l’ombra imprescindible per a Hansi Flick",
+    "snippet": "El Barça ha guanyat la Lliga sobradament gràcies a un gen competitiu desenvolupat amb relació a la passada temporada. Els blaugranes han assolit l'objectiu amb tres jornades de coll contra un Reial Madrid fet miques. Amb tot, Hansi Flick, recentment renovat fins al 2028, no ha quedat content amb el rendiment de l'equip en determinats trams del curs a causa de les lesions musculars. Homes clau de la plantilla com Lamine Yamal, Pedri o Raphinha n'han patit pels volts dels partits decisius, i això –segons sensacions del tècnic alemany– ha privat el conjunt culer, per exemple, d'arribar més lluny a la Copa i la Lliga de Campions, dos objectius perduts a mans del mateix rival, l'Atlètic de Madrid.",
+    "time": "3d ago",
+    "timestamp": 1780120841,
+    "color": "linear-gradient(135deg, #3b82f6, #1e3a8a)",
+    "overlay": "📋",
+    "link": "https://www.ara.cat/esports/barca/fitxatge-l-ombra-imprescindible-hansi-flick_1_5746121.html",
+    "image": "https://static1.ara.cat/clip/ee95f685-ec21-4ee6-9ac3-8a400561355c_16-9-aspect-ratio_default_0.png",
+    "source": "ARA Esports",
     "lang": "ca",
     "id": 244
   }
