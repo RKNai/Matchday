@@ -1907,3 +1907,252 @@ body {
   color: var(--text-primary);
 }
 
+/* --- Customization & Light Theme Overrides --- */
+body.light-theme {
+  --bg-deep: #f1f5f9;                 /* Light grayish blue background */
+  --bg-surface: rgba(255, 255, 255, 0.85); /* Translucent pure white surface */
+  --bg-card: rgba(255, 255, 255, 0.65);    /* Pure white cards */
+  --bg-card-hover: rgba(255, 255, 255, 0.9); /* Hover card background */
+  --border-color: rgba(15, 23, 42, 0.08);   /* Dark borders for light backgrounds */
+  --border-glow: rgba(16, 185, 129, 0.08);
+  
+  /* Brand Accents */
+  --primary: #059669;                 /* Deeper emerald green for text contrast */
+  --primary-glow: rgba(5, 150, 105, 0.2);
+  --secondary: #d97706;               /* Deeper trophy gold */
+  --secondary-glow: rgba(217, 119, 6, 0.2);
+  --accent: #2563eb;                  /* Deeper blue */
+  
+  /* Text Colors */
+  --text-primary: #0f172a;            /* Slate-900 */
+  --text-secondary: #475569;          /* Slate-600 */
+  --text-muted: #64748b;              /* Slate-500 */
+}
+
+/* Light Theme Component Specific Refinements */
+body.light-theme .app-header {
+  background: rgba(255, 255, 255, 0.8);
+  border-bottom-color: rgba(15, 23, 42, 0.08);
+}
+
+body.light-theme .select-lang {
+  background: rgba(0, 0, 0, 0.04) !important;
+  border-color: rgba(0, 0, 0, 0.1) !important;
+  color: var(--text-primary) !important;
+}
+
+body.light-theme .select-lang option {
+  background: #ffffff;
+  color: var(--text-primary);
+}
+
+body.light-theme .sync-status {
+  background: rgba(0, 0, 0, 0.03) !important;
+  border-color: rgba(0, 0, 0, 0.08) !important;
+  color: var(--text-primary) !important;
+}
+
+body.light-theme .divider-handle {
+  background: rgba(226, 232, 240, 0.9) !important;
+  border-color: rgba(15, 23, 42, 0.08) !important;
+}
+
+body.light-theme .panel-header {
+  border-bottom-color: rgba(15, 23, 42, 0.08);
+}
+
+body.light-theme .modal-content,
+body.light-theme .notification-sidebar {
+  background: rgba(255, 255, 255, 0.95) !important;
+  border-color: rgba(15, 23, 42, 0.08) !important;
+  box-shadow: 0 15px 45px rgba(15, 23, 42, 0.15) !important;
+}
+
+body.light-theme .modal-close {
+  background: rgba(0, 0, 0, 0.05);
+  color: var(--text-secondary);
+}
+
+body.light-theme .modal-close:hover {
+  background: rgba(0, 0, 0, 0.1);
+  color: var(--text-primary);
+}
+
+body.light-theme .ad-settings-input,
+body.light-theme .news-search-input {
+  background: rgba(0, 0, 0, 0.03) !important;
+  border-color: rgba(0, 0, 0, 0.08) !important;
+  color: var(--text-primary) !important;
+}
+
+body.light-theme .ad-settings-input::placeholder,
+body.light-theme .news-search-input::placeholder {
+  color: var(--text-muted) !important;
+}
+
+body.light-theme .team-chip-subscribe {
+  background: rgba(0, 0, 0, 0.02) !important;
+}
+
+body.light-theme .team-chip-subscribe:hover {
+  background: rgba(0, 0, 0, 0.05) !important;
+}
+
+body.light-theme .team-chip-subscribe.active {
+  background: rgba(16, 185, 129, 0.1) !important;
+  color: var(--primary) !important;
+}
+
+body.light-theme .ads-banner {
+  background: rgba(255, 255, 255, 0.95) !important;
+  border-top-color: rgba(15, 23, 42, 0.08) !important;
+  box-shadow: 0 -4px 15px rgba(0,0,0,0.05) !important;
+}
+
+body.light-theme .ads-badge {
+  background: rgba(0, 0, 0, 0.03) !important;
+  border-color: rgba(0, 0, 0, 0.08) !important;
+  color: var(--text-muted) !important;
+}
+
+body.light-theme .modal-tab-btn:not(.active) {
+  color: var(--text-muted);
+}
+
+body.light-theme .timeline-event::before {
+  background: rgba(15, 23, 42, 0.08);
+}
+
+body.light-theme .stat-bar-container {
+  background: rgba(15, 23, 42, 0.06);
+}
+
+body.light-theme .sidebar-backdrop,
+body.light-theme .modal-backdrop {
+  background: rgba(15, 23, 42, 0.3) !important;
+}
+
+/* Hide Layout Options CSS rules */
+body.hide-matches .panel-matches,
+body.hide-matches #dividerHandle {
+  display: none !important;
+}
+body.hide-matches .app-container {
+  grid-template-columns: 1fr !important;
+  grid-template-rows: 1fr !important;
+}
+
+body.hide-news .panel-news,
+body.hide-news #dividerHandle {
+  display: none !important;
+}
+body.hide-news .app-container {
+  grid-template-columns: 1fr !important;
+  grid-template-rows: 1fr !important;
+}
+
+/* Preferences Card */
+.preferences-card {
+  background: rgba(255, 255, 255, 0.03);
+  border: 1px solid var(--border-color);
+  border-radius: 12px;
+  padding: 16px;
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+.pref-row {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 16px;
+}
+
+.pref-info {
+  display: flex;
+  flex-direction: column;
+  gap: 2px;
+  flex: 1;
+}
+
+.pref-title {
+  font-size: 13px;
+  font-weight: 600;
+  color: var(--text-primary);
+}
+
+.pref-desc {
+  font-size: 11px;
+  color: var(--text-muted);
+  line-height: 1.3;
+}
+
+/* Light Theme Card Overrides */
+body.light-theme .push-permission-card,
+body.light-theme .ad-settings-card,
+body.light-theme .preferences-card {
+  background: rgba(0, 0, 0, 0.02) !important;
+  border-color: rgba(0, 0, 0, 0.08) !important;
+}
+
+/* Switch toggle styling in Preferences card */
+.switch-toggle {
+  position: relative;
+  display: inline-block;
+  width: 44px;
+  height: 24px;
+}
+
+.switch-toggle input {
+  opacity: 0;
+  width: 0;
+  height: 0;
+}
+
+.slider-round {
+  position: absolute;
+  cursor: pointer;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: rgba(255, 255, 255, 0.08);
+  border: 1px solid rgba(255, 255, 255, 0.12);
+  transition: .3s;
+  border-radius: 24px;
+}
+
+body.light-theme .slider-round {
+  background-color: rgba(0, 0, 0, 0.04);
+  border-color: rgba(0, 0, 0, 0.08);
+}
+
+.slider-round:before {
+  position: absolute;
+  content: "";
+  height: 16px;
+  width: 16px;
+  left: 3px;
+  bottom: 3px;
+  background-color: var(--text-secondary);
+  transition: .3s;
+  border-radius: 50%;
+  box-shadow: 0 1px 3px rgba(0,0,0,0.4);
+}
+
+body.light-theme .slider-round:before {
+  background-color: #64748b;
+}
+
+.switch-toggle input:checked + .slider-round {
+  background-color: rgba(16, 185, 129, 0.2);
+  border-color: var(--primary);
+}
+
+.switch-toggle input:checked + .slider-round:before {
+  transform: translateX(20px);
+  background-color: var(--primary);
+  box-shadow: 0 0 8px var(--primary-glow);
+}
+

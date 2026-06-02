@@ -335,7 +335,14 @@ const translations = {
     match: 'Match',
     jun: 'Jun',
     jul: 'Jul',
-    group_stage: 'Group Stage'
+    group_stage: 'Group Stage',
+    preferences_header: 'App Preferences',
+    pref_light_mode: 'Light Mode',
+    pref_light_mode_desc: 'Switch to a clean, light color scheme.',
+    pref_show_matches: 'Show Match Center',
+    pref_show_matches_desc: 'Display real-time results and timeline.',
+    pref_show_news: 'Show News Feed',
+    pref_show_news_desc: 'Display football news and reports.'
   },
   es: {
     live_ticker: 'Marcador en vivo',
@@ -406,7 +413,14 @@ const translations = {
     match: 'Partido',
     jun: 'Jun',
     jul: 'Jul',
-    group_stage: 'Fase de Grupos'
+    group_stage: 'Fase de Grupos',
+    preferences_header: 'Preferencias de la App',
+    pref_light_mode: 'Modo Claro',
+    pref_light_mode_desc: 'Cambiar a un diseño claro y limpio.',
+    pref_show_matches: 'Ver Centro de Partidos',
+    pref_show_matches_desc: 'Mostrar resultados en vivo y minuto a minuto.',
+    pref_show_news: 'Ver Feed de Noticias',
+    pref_show_news_desc: 'Mostrar noticias y reportes de fútbol.'
   },
   ca: {
     live_ticker: 'Marcador en viu',
@@ -477,7 +491,14 @@ const translations = {
     match: 'Partit',
     jun: 'Jun',
     jul: 'Jul',
-    group_stage: 'Fase de Grups'
+    group_stage: 'Fase de Grups',
+    preferences_header: 'Preferències de l\'App',
+    pref_light_mode: 'Modo Clar',
+    pref_light_mode_desc: 'Canviar a un disseny clar i net.',
+    pref_show_matches: 'Veure Centre de Partits',
+    pref_show_matches_desc: 'Mostrar resultats en viu i minut a minut.',
+    pref_show_news: 'Veure Feed de Notícies',
+    pref_show_news_desc: 'Mostrar notícies i reportatges de futbol.'
   }
 };
 
@@ -610,7 +631,10 @@ const DOM = {
   adPublisherId: document.getElementById('adPublisherId'),
   adSlotId: document.getElementById('adSlotId'),
   saveAdSettingsBtn: document.getElementById('saveAdSettingsBtn'),
-  clearAdSettingsBtn: document.getElementById('clearAdSettingsBtn')
+  clearAdSettingsBtn: document.getElementById('clearAdSettingsBtn'),
+  toggleThemeBtn: document.getElementById('toggleThemeBtn'),
+  toggleMatchesBtn: document.getElementById('toggleMatchesBtn'),
+  toggleNewsBtn: document.getElementById('toggleNewsBtn')
 };
 
 // --- Initialization ---
@@ -625,6 +649,7 @@ document.addEventListener('DOMContentLoaded', () => {
   // Subscriptions & Sidebar setup
   renderSubscriptionsUI();
   setupSidebarHandlers();
+  setupCustomizationPreferences();
   
   // Filter systems setup
   setupFilterHandlers();
@@ -923,6 +948,90 @@ function setupSidebarHandlers() {
   DOM.sidebarCloseBtn.addEventListener('click', toggleSidebar);
   DOM.sidebarBackdrop.addEventListener('click', toggleSidebar);
   DOM.grantPushBtn.addEventListener('click', requestPushPermission);
+}
+
+function setupCustomizationPreferences() {
+  const savedTheme = localStorage.getItem('matchday_theme') || 'dark';
+  if (savedTheme === 'light') {
+    document.body.classList.add('light-theme');
+    if (DOM.toggleThemeBtn) DOM.toggleThemeBtn.checked = true;
+  }
+
+  const showMatches = localStorage.getItem('matchday_show_matches') !== 'false';
+  const showNews = localStorage.getItem('matchday_show_news') !== 'false';
+
+  if (!showMatches) {
+    document.body.classList.add('hide-matches');
+    if (DOM.toggleMatchesBtn) DOM.toggleMatchesBtn.checked = false;
+  }
+  if (!showNews) {
+    document.body.classList.add('hide-news');
+    if (DOM.toggleNewsBtn) DOM.toggleNewsBtn.checked = false;
+  }
+
+  if (DOM.toggleThemeBtn) {
+    DOM.toggleThemeBtn.addEventListener('change', (e) => {
+      if (e.target.checked) {
+        document.body.classList.add('light-theme');
+        localStorage.setItem('matchday_theme', 'light');
+        showToast(
+          state.lang === 'en' ? '☀️ Light Mode Active' : state.lang === 'es' ? '☀️ Modo Claro Activo' : '☀️ Modo Clar Actiu',
+          state.lang === 'en' ? 'App switched to light styling.' : state.lang === 'es' ? 'Aplicación cambiada al estilo claro.' : 'Aplicació canviada a l\'estil clar.'
+        );
+      } else {
+        document.body.classList.remove('light-theme');
+        localStorage.setItem('matchday_theme', 'dark');
+        showToast(
+          state.lang === 'en' ? '🌙 Dark Mode Active' : state.lang === 'es' ? '🌙 Modo Oscuro Activo' : '🌙 Modo Fosc Actiu',
+          state.lang === 'en' ? 'App switched to dark styling.' : state.lang === 'es' ? 'Aplicación cambiada al estilo oscuro.' : 'Aplicació canviada a l\'estil fosc.'
+        );
+      }
+    });
+  }
+
+  if (DOM.toggleMatchesBtn) {
+    DOM.toggleMatchesBtn.addEventListener('change', (e) => {
+      if (!e.target.checked && !DOM.toggleNewsBtn.checked) {
+        e.target.checked = true;
+        showToast(
+          state.lang === 'en' ? '⚠️ Visibility Warning' : state.lang === 'es' ? '⚠️ Advertencia de Visibilidad' : '⚠️ Advertència de Visibilitat',
+          state.lang === 'en' ? 'You must keep at least one panel active.' : state.lang === 'es' ? 'Debes mantener al menos un panel activo.' : 'Has de mantenir almenys un panell actiu.'
+        );
+        return;
+      }
+
+      if (e.target.checked) {
+        document.body.classList.remove('hide-matches');
+        localStorage.setItem('matchday_show_matches', 'true');
+      } else {
+        document.body.classList.add('hide-matches');
+        localStorage.setItem('matchday_show_matches', 'false');
+      }
+      window.dispatchEvent(new Event('resize'));
+    });
+  }
+
+  if (DOM.toggleNewsBtn) {
+    DOM.toggleNewsBtn.addEventListener('change', (e) => {
+      if (!e.target.checked && !DOM.toggleMatchesBtn.checked) {
+        e.target.checked = true;
+        showToast(
+          state.lang === 'en' ? '⚠️ Visibility Warning' : state.lang === 'es' ? '⚠️ Advertencia de Visibilidad' : '⚠️ Advertència de Visibilitat',
+          state.lang === 'en' ? 'You must keep at least one panel active.' : state.lang === 'es' ? 'Debes mantener al menos un panel activo.' : 'Has de mantenir almenys un panell actiu.'
+        );
+        return;
+      }
+
+      if (e.target.checked) {
+        document.body.classList.remove('hide-news');
+        localStorage.setItem('matchday_show_news', 'true');
+      } else {
+        document.body.classList.add('hide-news');
+        localStorage.setItem('matchday_show_news', 'false');
+      }
+      window.dispatchEvent(new Event('resize'));
+    });
+  }
 }
 
 function renderSubscriptionsUI() {
