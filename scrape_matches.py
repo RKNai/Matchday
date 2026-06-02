@@ -14,6 +14,7 @@ import sys
 import json
 import urllib.request
 from datetime import datetime, timezone, timedelta
+import time
 
 # --- Constants & Paths ---
 BASE_DIR = os.path.dirname(os.path.abspath(__file__))
@@ -276,11 +277,23 @@ def parse_fixtures():
 
 def main():
   setup_directories()
-  if parse_fixtures():
-    print("[Match Scraper] Match fixtures cache refreshed.")
-    sys.exit(0)
+  if '--loop' in sys.argv or '-l' in sys.argv:
+    print("[Match Scraper] Running in daemon loop mode (every 10 seconds). Press Ctrl+C to exit.")
+    while True:
+      try:
+        parse_fixtures()
+      except KeyboardInterrupt:
+        print("\n[Match Scraper] Daemon loop stopped.")
+        sys.exit(0)
+      except Exception as e:
+        print(f"[Match Scraper] Loop error: {e}")
+      time.sleep(10)
   else:
-    sys.exit(1)
+    if parse_fixtures():
+      print("[Match Scraper] Match fixtures cache refreshed.")
+      sys.exit(0)
+    else:
+      sys.exit(1)
 
 if __name__ == '__main__':
   main()
