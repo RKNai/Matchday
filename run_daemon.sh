@@ -8,8 +8,9 @@ cd "$(dirname "$0")"
 echo "[MatchDay Daemon] Starting live scores scraper loop (10s intervals)..."
 
 while true; do
-  # Run the python script in loop mode
-  python3 scrape_matches.py --loop
+  # Run the python script in loop mode with unbuffered output (-u)
+  # so logs appear immediately in systemd/journalctl.
+  python3 -u scrape_matches.py --loop
   
   # If the python script exits (e.g. due to syntax error or unhandled exceptions),
   # wait 5 seconds and restart the daemon loop.
