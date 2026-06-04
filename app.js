@@ -339,7 +339,11 @@ const translations = {
     pref_show_matches: 'Show Match Center',
     pref_show_matches_desc: 'Display real-time results and timeline.',
     pref_show_news: 'Show News Feed',
-    pref_show_news_desc: 'Display football news and reports.'
+    pref_show_news_desc: 'Display football news and reports.',
+    win_probability: 'Win Probability',
+    home_win: 'Home Win',
+    draw: 'Draw',
+    away_win: 'Away Win'
   },
   es: {
     live_ticker: 'Marcador en vivo',
@@ -413,7 +417,11 @@ const translations = {
     pref_show_matches: 'Ver Centro de Partidos',
     pref_show_matches_desc: 'Mostrar resultados en vivo y minuto a minuto.',
     pref_show_news: 'Ver Feed de Noticias',
-    pref_show_news_desc: 'Mostrar noticias y reportes de fútbol.'
+    pref_show_news_desc: 'Mostrar noticias y reportes de fútbol.',
+    win_probability: 'Probabilidad de Victoria',
+    home_win: 'Victoria Local',
+    draw: 'Empate',
+    away_win: 'Victoria Visitante'
   },
   ca: {
     live_ticker: 'Marcador en viu',
@@ -487,7 +495,11 @@ const translations = {
     pref_show_matches: 'Veure Centre de Partits',
     pref_show_matches_desc: 'Mostrar resultats en viu i minut a minut.',
     pref_show_news: 'Veure Feed de Notícies',
-    pref_show_news_desc: 'Mostrar notícies i reportatges de futbol.'
+    pref_show_news_desc: 'Mostrar notícies i reportatges de futbol.',
+    win_probability: 'Probabilitat de Victòria',
+    home_win: 'Victòria Local',
+    draw: 'Empat',
+    away_win: 'Victòria Visitant'
   }
 };
 
@@ -1483,7 +1495,7 @@ function openNewsDetails(newsId) {
 
   // Render modal header content
   DOM.newsModalHeader.innerHTML = `
-    <div style="display: flex; justify-content: space-between; align-items: center; width: 100%; margin-bottom: 10px;">
+    <div style="display: flex; justify-content: space-between; align-items: center; width: 100%; padding-right: 24px;">
       <span class="news-tag ${item.category}-tag" style="padding: 3px 8px; font-size: 10px; font-weight: 700; border-radius: 4px; text-transform: uppercase;">
         ${item.category === 'injury' ? t('category_injury', 'Injury Report') : 
           item.category === 'lineup' ? t('category_lineup', 'Squads') : 
@@ -1493,22 +1505,22 @@ function openNewsDetails(newsId) {
       </span>
       <span class="news-time" style="font-size: 11px; color: var(--text-muted);">${translateTime(item.time)}</span>
     </div>
-    ${item.image ? `
-      <div style="width: 100%; height: 160px; border-radius: 10px; overflow: hidden; margin-bottom: 6px; border: 1px solid var(--border-color);">
-        <img src="${item.image}" alt="${item.title}" style="width: 100%; height: 100%; object-fit: cover;">
-      </div>
-    ` : ''}
   `;
 
   // Render modal body content
   DOM.newsModalBody.innerHTML = `
+    ${item.image ? `
+      <div style="width: 100%; height: 160px; border-radius: 10px; overflow: hidden; margin-bottom: 12px; border: 1px solid var(--border-color); flex-shrink: 0;">
+        <img src="${item.image}" alt="${item.title}" style="width: 100%; height: 100%; object-fit: cover;">
+      </div>
+    ` : ''}
     <h3 style="font-family: var(--font-display); font-size: 16px; font-weight: 700; color: var(--text-primary); line-height: 1.35;">
       ${item.title}
     </h3>
     <p style="font-size: 13px; color: var(--text-secondary); line-height: 1.5; margin-top: 8px;">
       ${item.snippet || t('read_full_story_desc', 'Click "Read Full Story" to read this breaking news article directly on the source website.')}
     </p>
-    <div style="display: flex; align-items: center; justify-content: space-between; margin-top: 14px; border-top: 1px solid var(--border-color); padding-top: 12px; gap: 10px;">
+    <div style="display: flex; align-items: center; justify-content: space-between; margin-top: 14px; border-top: 1px solid var(--border-color); padding-top: 12px; gap: 10px; flex-shrink: 0;">
       <span style="font-size: 11px; font-weight: 600; color: var(--primary);">${t('source', 'Source')}: ${item.source}</span>
       ${item.link ? `
         <a href="${item.link}" target="_blank" rel="noopener noreferrer" style="
@@ -1582,6 +1594,95 @@ const TEAM_COLORS = {
   "Senegal": { primary: "#00853f", text: "#ffffff", border: "#fdd116" }
 };
 
+// --- Live Win Probability Calculations ---
+function getBaseProbability(match) {
+  let hash = 0;
+  const str = match.home + match.away + (match.id || '');
+  for (let i = 0; i < str.length; i++) {
+    hash = str.charCodeAt(i) + ((hash << 5) - hash);
+  }
+  hash = Math.abs(hash);
+
+  const homeMod = (hash % 15) - 7.5; // -7.5 to +7.5
+  const awayMod = ((hash >> 4) % 15) - 7.5;
+
+  let home = 38 + homeMod;
+  let away = 34 + awayMod;
+  let draw = 100 - home - away;
+
+  home = Math.round(home);
+  away = Math.round(away);
+  draw = 100 - home - away;
+
+  return { home, draw, away };
+}
+
+function calculateWinProbability(match) {
+  if (match.status === 'finished') {
+    if (match.homeScore > match.awayScore) {
+      return { home: 100, draw: 0, away: 0 };
+    } else if (match.homeScore < match.awayScore) {
+      return { home: 0, draw: 0, away: 100 };
+    } else {
+      return { home: 0, draw: 100, away: 0 };
+    }
+  }
+
+  if (match.status === 'live') {
+    const base = getBaseProbability(match);
+    const scoreDiff = match.homeScore - match.awayScore;
+    const minute = match.minute || 0;
+
+    let home = base.home;
+    let draw = base.draw;
+    let away = base.away;
+
+    if (scoreDiff > 0) {
+      const factor = scoreDiff * 25;
+      home += factor;
+      away -= factor * 0.8;
+      draw -= factor * 0.2;
+    } else if (scoreDiff < 0) {
+      const factor = Math.abs(scoreDiff) * 25;
+      away += factor;
+      home -= factor * 0.8;
+      draw -= factor * 0.2;
+    }
+
+    const timeProgress = minute / 90;
+    if (scoreDiff === 0) {
+      draw = draw + (90 - draw) * timeProgress;
+      const remaining = 100 - draw;
+      const ratio = home + away > 0 ? home / (home + away) : 0.5;
+      home = remaining * ratio;
+      away = remaining * (1 - ratio);
+    } else {
+      if (scoreDiff > 0) {
+        home = home + (100 - home) * timeProgress;
+        draw = draw * (1 - timeProgress);
+        away = 100 - home - draw;
+      } else {
+        away = away + (100 - away) * timeProgress;
+        draw = draw * (1 - timeProgress);
+        home = 100 - away - draw;
+      }
+    }
+
+    home = Math.max(1, Math.min(98, home));
+    away = Math.max(1, Math.min(98, away));
+    draw = Math.max(1, Math.min(98, draw));
+
+    const sum = home + draw + away;
+    home = Math.round((home / sum) * 100);
+    away = Math.round((away / sum) * 100);
+    draw = 100 - home - away;
+
+    return { home, draw, away };
+  }
+
+  return getBaseProbability(match);
+}
+
 function renderModalContent() {
   const match = state.matches.find(m => m.id === state.activeModalMatchId);
   if (!match) return;
@@ -1649,6 +1750,37 @@ function renderModalContent() {
     }
   } else if (state.activeModalTab === 'stats') {
     // 2. Stats Tab
+    
+    // Add dynamic Win Probability Gauge
+    const prob = calculateWinProbability(match);
+    const probRow = document.createElement('div');
+    probRow.className = 'probability-gauge-container';
+    probRow.innerHTML = `
+      <div class="probability-gauge-title">${t('win_probability', 'Win Probability')}</div>
+      <div class="probability-bar">
+        <div class="prob-bar-home" style="width: ${prob.home}%" title="${match.home}: ${prob.home}%"></div>
+        <div class="prob-bar-draw" style="width: ${prob.draw}%" title="${t('draw', 'Draw')}: ${prob.draw}%"></div>
+        <div class="prob-bar-away" style="width: ${prob.away}%" title="${match.away}: ${prob.away}%"></div>
+      </div>
+      <div class="probability-labels">
+        <div class="prob-label home-label">
+          <span class="prob-team-flag">${match.homeFlag}</span>
+          <span class="prob-team-name">${match.home}</span>
+          <span class="prob-pct">${prob.home}%</span>
+        </div>
+        <div class="prob-label draw-label">
+          <span class="prob-team-name">${t('draw', 'Draw')}</span>
+          <span class="prob-pct">${prob.draw}%</span>
+        </div>
+        <div class="prob-label away-label">
+          <span class="prob-pct">${prob.away}%</span>
+          <span class="prob-team-name">${match.away}</span>
+          <span class="prob-team-flag">${match.awayFlag}</span>
+        </div>
+      </div>
+    `;
+    DOM.modalTabContent.appendChild(probRow);
+
     const statsList = [
       { name: t('possession', 'Possession %'), values: match.stats.possession },
       { name: t('shots', 'Shots'), values: match.stats.shots },

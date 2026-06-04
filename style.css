@@ -1350,6 +1350,92 @@ body {
   border-radius: 0 3px 3px 0;
 }
 
+/* Win Probability Gauge */
+.probability-gauge-container {
+  margin-bottom: 24px;
+  background: rgba(255, 255, 255, 0.02);
+  border: 1px solid var(--border-color);
+  border-radius: 12px;
+  padding: 14px;
+}
+
+.probability-gauge-title {
+  font-family: var(--font-display);
+  font-size: 13px;
+  font-weight: 700;
+  color: var(--text-primary);
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+  margin-bottom: 12px;
+  text-align: center;
+}
+
+.probability-bar {
+  height: 8px;
+  background: rgba(255, 255, 255, 0.05);
+  border-radius: 4px;
+  overflow: hidden;
+  display: flex;
+  margin-bottom: 10px;
+}
+
+.prob-bar-home {
+  height: 100%;
+  background: var(--primary); /* Emerald Green */
+  transition: width 0.5s var(--ease-smooth);
+}
+
+.prob-bar-draw {
+  height: 100%;
+  background: rgba(255, 255, 255, 0.15); /* Translucent Gray */
+  transition: width 0.5s var(--ease-smooth);
+}
+
+.prob-bar-away {
+  height: 100%;
+  background: var(--accent); /* Host Nations Blue */
+  transition: width 0.5s var(--ease-smooth);
+}
+
+.probability-labels {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 11px;
+  font-weight: 600;
+  color: var(--text-secondary);
+}
+
+.prob-label {
+  display: flex;
+  align-items: center;
+  gap: 4px;
+}
+
+.prob-label.home-label {
+  color: var(--primary);
+}
+
+.prob-label.draw-label {
+  color: var(--text-secondary);
+}
+
+.prob-label.away-label {
+  color: var(--accent);
+  justify-content: flex-end;
+}
+
+.prob-team-name {
+  max-width: 80px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+.prob-pct {
+  font-weight: 700;
+}
+
 /* Lineups View (Visual Pitch + Segmented Selector) */
 .lineup-selectors {
   display: flex;
@@ -2079,6 +2165,14 @@ body.light-theme .timeline-event::before {
 
 body.light-theme .stat-bar-container {
   background: rgba(15, 23, 42, 0.06);
+}
+
+body.light-theme .probability-gauge-container {
+  background: rgba(15, 23, 42, 0.02);
+}
+
+body.light-theme .prob-bar-draw {
+  background: rgba(15, 23, 42, 0.15);
 }
 
 body.light-theme .sidebar-backdrop,
