@@ -44,6 +44,10 @@ MatchDay is a premium, zero-dependency, progressive web app (PWA) designed to tr
 * **Smart Visibility Guards**: Prevents users from hiding both layout panels simultaneously, popping an in-app warning toast.
 * **Persistent Preferences**: Saves active language, theme choice, and visible layout modes inside `localStorage` to restore configurations on page loads.
 
+### 7. Fluid Micro-Animations & Staggered Transitions
+* **Staggered Entrance Transitions**: Cards (Matches and News) scale-in and fade-in dynamically using individual CSS transform properties (`scale` and `translate`) and `--card-index` delay offsets.
+* **Transform Isolation**: Keeps entry animations separate from hover state translations (`transform: translateY(-2px)`), avoiding layout locks.
+
 ---
 
 ## 📁 File Structure
