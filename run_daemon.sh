@@ -11,24 +11,37 @@ echo "[MatchDay Daemon] Starting live scores scraper loop (10s intervals)..."
 git config --global user.name "Matchday VM Bot"
 git config --global user.email "bot@matchday.com"
 
+# Keep track of loop iteration count
+counter=0
+
 while true; do
-  # Run the python script once to check and update live scores
+  # Run the matches scraper every 10 seconds
   python3 -u scrape_matches.py
   
-  # Check if matches.json has changed
-  if [ -n "$(git status --porcelain data/matches.json)" ]; then
-    echo "[MatchDay Daemon] Scoreboard changed! Committing and pushing to GitHub..."
-    git add data/matches.json
-    git commit -m "Sync live scores [skip ci]"
+  # Run the news scraper every 60 iterations (approx. 10 minutes)
+  # or on the very first iteration to ensure the initial cache is populated
+  if [ $counter -eq 0 ] || [ $((counter % 60)) -eq 0 ]; then
+    echo "[MatchDay Daemon] Running news scraper (10-minute interval)..."
+    python3 -u scrape_news.py
+  fi
+  
+  # Check if any files inside the data/ folder have changed
+  if [ -n "$(git status --porcelain data/)" ]; then
+    echo "[MatchDay Daemon] New data detected! Committing and pushing to GitHub..."
+    git add data/
+    git commit -m "Sync scores and news feeds [skip ci]"
     
     # Push the changes to GitHub
     if git push origin main; then
       echo "[MatchDay Daemon] Successfully pushed updates to GitHub Pages."
     else
-      echo "[MatchDay Daemon] Error: Git push failed. Verify your VM's GitHub authentication credentials."
+      echo "[MatchDay Daemon] Error: Git push failed. Verify your VM's GitHub credentials."
     fi
+  else
+    echo "[MatchDay Daemon] No new data found. Skipping git push."
   fi
   
-  # Sleep for 10 seconds before the next iteration
+  # Increment loop counter and sleep for 10 seconds before next check
+  counter=$((counter + 1))
   sleep 10
 done
