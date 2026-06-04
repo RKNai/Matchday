@@ -355,7 +355,24 @@ const translations = {
     round_sf: 'Semi-finals',
     round_final: 'Final',
     round_champion: 'Champion',
-    predicted_champion: 'PREDICTED CHAMPION'
+    predicted_champion: 'PREDICTED CHAMPION',
+    stat_overall: 'Overall',
+    stat_age: 'Age',
+    stat_height: 'Height',
+    stat_club: 'Club',
+    stat_caps: 'Caps',
+    stat_goals: 'Goals',
+    pos_forward: 'Forward',
+    pos_midfielder: 'Midfielder',
+    pos_defender: 'Defender',
+    pos_goalkeeper: 'Goalkeeper',
+    wc_stats: 'World Cup 2026 Stats',
+    wc_goals: 'Goals',
+    wc_assists: 'Assists',
+    wc_cards: 'Cards',
+    wc_rating: 'Avg Rating',
+    player_profile: 'Player Profile',
+    btn_close: 'Close'
   },
   es: {
     live_ticker: 'Marcador en vivo',
@@ -444,7 +461,24 @@ const translations = {
     round_sf: 'Semifinales',
     round_final: 'Final',
     round_champion: 'Campeón',
-    predicted_champion: 'CAMPEÓN PRONOSTICADO'
+    predicted_champion: 'CAMPEÓN PRONOSTICADO',
+    stat_overall: 'General',
+    stat_age: 'Edad',
+    stat_height: 'Altura',
+    stat_club: 'Club',
+    stat_caps: 'Partidos',
+    stat_goals: 'Goles',
+    pos_forward: 'Delantero',
+    pos_midfielder: 'Centrocampista',
+    pos_defender: 'Defensa',
+    pos_goalkeeper: 'Portero',
+    wc_stats: 'Estadísticas del Mundial 2026',
+    wc_goals: 'Goles',
+    wc_assists: 'Asistencias',
+    wc_cards: 'Tarjetas',
+    wc_rating: 'Calificación Media',
+    player_profile: 'Perfil del Jugador',
+    btn_close: 'Cerrar'
   },
   ca: {
     live_ticker: 'Marcador en viu',
@@ -533,7 +567,24 @@ const translations = {
     round_sf: 'Semifinals',
     round_final: 'Final',
     round_champion: 'Campió',
-    predicted_champion: 'CAMPIÓ PRONOSTICAT'
+    predicted_champion: 'CAMPIÓ PRONOSTICAT',
+    stat_overall: 'General',
+    stat_age: 'Edat',
+    stat_height: 'Alçada',
+    stat_club: 'Club',
+    stat_caps: 'Partits',
+    stat_goals: 'Gols',
+    pos_forward: 'Davanter',
+    pos_midfielder: 'Migcampista',
+    pos_defender: 'Defensa',
+    pos_goalkeeper: 'Porter',
+    wc_stats: 'Estadístiques del Mundial 2026',
+    wc_goals: 'Gols',
+    wc_assists: 'Assistències',
+    wc_cards: 'Targetes',
+    wc_rating: 'Qualificació Mitjana',
+    player_profile: 'Perfil del Jugador',
+    btn_close: 'Tancar'
   }
 };
 
@@ -2169,6 +2220,225 @@ function calculateWinProbability(match) {
   return getBaseProbability(match);
 }
 
+// --- Player Profile Cards Logic ---
+function generatePlayerProfile(playerName, teamName, posCode) {
+  let hash = 0;
+  for (let i = 0; i < playerName.length; i++) {
+    hash = playerName.charCodeAt(i) + ((hash << 5) - hash);
+  }
+  const absHash = Math.abs(hash);
+
+  // Position label
+  let position = 'Midfielder';
+  if (posCode === 'GK') position = t('pos_goalkeeper', 'Goalkeeper');
+  else if (posCode === 'DF' || posCode === 'CB' || posCode === 'LB' || posCode === 'RB') position = t('pos_defender', 'Defender');
+  else if (posCode === 'MF' || posCode === 'CM' || posCode === 'LM' || posCode === 'RM') position = t('pos_midfielder', 'Midfielder');
+  else if (posCode === 'FW' || posCode === 'ST' || posCode === 'LW' || posCode === 'RW') position = t('pos_forward', 'Forward');
+  else {
+    const positions = [t('pos_forward', 'Forward'), t('pos_midfielder', 'Midfielder'), t('pos_defender', 'Defender'), t('pos_goalkeeper', 'Goalkeeper')];
+    position = positions[absHash % positions.length];
+  }
+
+  // Stats ranges based on position to make it realistic
+  let basePace = 55, baseSho = 45, basePas = 50, baseDri = 50, baseDef = 35, basePhy = 55;
+  if (posCode === 'FW' || position === t('pos_forward', 'Forward')) {
+    basePace = 75; baseSho = 70; basePas = 60; baseDri = 70; baseDef = 25; basePhy = 60;
+  } else if (posCode === 'MF' || position === t('pos_midfielder', 'Midfielder')) {
+    basePace = 65; baseSho = 60; basePas = 75; baseDri = 70; baseDef = 50; basePhy = 60;
+  } else if (posCode === 'DF' || position === t('pos_defender', 'Defender')) {
+    basePace = 60; baseSho = 40; basePas = 55; baseDri = 55; baseDef = 75; basePhy = 75;
+  } else if (posCode === 'GK' || position === t('pos_goalkeeper', 'Goalkeeper')) {
+    basePace = 50; baseSho = 20; basePas = 55; baseDri = 50; baseDef = 80; basePhy = 65;
+  }
+
+  const pace = basePace + (absHash % 21);
+  const shooting = baseSho + ((absHash >> 1) % 21);
+  const passing = basePas + ((absHash >> 2) % 21);
+  const dribbling = baseDri + ((absHash >> 3) % 21);
+  const defending = baseDef + ((absHash >> 4) % 16);
+  const physical = basePhy + ((absHash >> 5) % 21);
+
+  const overall = Math.round((pace + shooting + passing + dribbling + defending + physical) / 6) + 2;
+
+  const age = 20 + (absHash % 16); // 20-35
+  const height = 168 + (absHash % 28); // 168-195 cm
+  const clubList = ["Real Madrid", "Barcelona", "Manchester City", "Arsenal", "Bayern Munich", "PSG", "Liverpool", "Juventus", "Inter Milan", "Chelsea", "Manchester United", "Atletico Madrid", "AC Milan", "Dortmund", "Porto", "Ajax"];
+  const club = clubList[absHash % clubList.length];
+
+  const caps = 5 + (absHash % 115); // 5-120
+  const goals = Math.max(0, Math.floor(caps * (0.05 + (absHash % 30) / 100)));
+
+  // Tournament stats
+  const tourneyGoals = (position === t('pos_forward', 'Forward')) ? (absHash % 3) : (absHash % 8 === 0 ? 1 : 0);
+  const tourneyAssists = (position === t('pos_midfielder', 'Midfielder')) ? (absHash % 3) : (absHash % 7 === 0 ? 1 : 0);
+  const tourneyRating = (6.2 + (absHash % 23) / 10).toFixed(1);
+
+  return {
+    name: playerName,
+    team: teamName,
+    flag: getTeamFlag(teamName),
+    position,
+    posCode: posCode || (position === t('pos_goalkeeper', 'Goalkeeper') ? 'GK' : position === t('pos_defender', 'Defender') ? 'DF' : position === t('pos_midfielder', 'Midfielder') ? 'MF' : 'FW'),
+    overall,
+    age,
+    height: `${height} cm`,
+    club,
+    caps,
+    goals,
+    stats: {
+      PAC: pace,
+      SHO: shooting,
+      PAS: passing,
+      DRI: dribbling,
+      DEF: defending,
+      PHY: physical
+    },
+    tournament: {
+      goals: tourneyGoals,
+      assists: tourneyAssists,
+      yellowCards: absHash % 6 === 0 ? 1 : 0,
+      redCards: absHash % 19 === 0 ? 1 : 0,
+      rating: tourneyRating
+    }
+  };
+}
+
+function showPlayerProfile(playerName, teamName, posCode) {
+  const existing = document.getElementById('playerProfileOverlay');
+  if (existing) existing.remove();
+
+  const profile = generatePlayerProfile(playerName, teamName, posCode);
+  
+  let tierClass = 'tier-bronze';
+  if (profile.overall >= 85) tierClass = 'tier-gold';
+  else if (profile.overall >= 75) tierClass = 'tier-silver';
+
+  const colors = TEAM_COLORS[teamName] || { primary: 'var(--primary)', text: '#ffffff', border: '#ffffff' };
+  const initials = playerName.split(' ').map(n => n[0]).join('').substring(0, 2).toUpperCase();
+
+  const overlay = document.createElement('div');
+  overlay.className = 'player-profile-overlay';
+  overlay.id = 'playerProfileOverlay';
+
+  const content = document.createElement('div');
+  content.className = 'player-profile-card glassmorphism';
+  
+  overlay.addEventListener('click', (e) => {
+    if (e.target === overlay) overlay.remove();
+  });
+
+  content.innerHTML = `
+    <button class="player-profile-close" id="profileCloseBtn">&times;</button>
+    
+    <div class="profile-main-layout">
+      <!-- Left side: FUT-style card -->
+      <div class="fut-card-wrapper">
+        <div class="fut-player-card ${tierClass}" style="--team-color: ${colors.primary}">
+          <div class="fut-card-glow"></div>
+          <div class="fut-card-inner">
+            <div class="fut-top-row">
+              <div class="fut-overall">${profile.overall}</div>
+              <div class="fut-position">${profile.posCode}</div>
+              <div class="fut-flag">${profile.flag}</div>
+            </div>
+            <div class="fut-avatar">${initials}</div>
+            <div class="fut-name">${profile.name.split(' ').pop()}</div>
+            <div class="fut-divider"></div>
+            <div class="fut-stats-grid">
+              <div>${profile.stats.PAC} PAC</div>
+              <div>${profile.stats.DRI} DRI</div>
+              <div>${profile.stats.SHO} SHO</div>
+              <div>${profile.stats.DEF} DEF</div>
+              <div>${profile.stats.PAS} PAS</div>
+              <div>${profile.stats.PHY} PHY</div>
+            </div>
+          </div>
+        </div>
+      </div>
+      
+      <!-- Right side: Bio & scout data -->
+      <div class="profile-details-wrapper">
+        <h4 class="profile-player-name">${profile.name}</h4>
+        <div class="profile-player-subtitle">${profile.flag} ${profile.team} • ${profile.position}</div>
+        
+        <div class="profile-bio-grid">
+          <div class="bio-item">
+            <span class="bio-label">${t('stat_age', 'Age')}</span>
+            <span class="bio-value">${profile.age}</span>
+          </div>
+          <div class="bio-item">
+            <span class="bio-label">${t('stat_height', 'Height')}</span>
+            <span class="bio-value">${profile.height}</span>
+          </div>
+          <div class="bio-item">
+            <span class="bio-label">${t('stat_club', 'Club')}</span>
+            <span class="bio-value">${profile.club}</span>
+          </div>
+          <div class="bio-item">
+            <span class="bio-label">${t('stat_caps', 'Caps')}</span>
+            <span class="bio-value">${profile.caps}</span>
+          </div>
+          <div class="bio-item">
+            <span class="bio-label">${t('stat_goals', 'Goals')}</span>
+            <span class="bio-value">${profile.goals}</span>
+          </div>
+        </div>
+        
+        <div class="profile-section-title">${t('wc_stats', 'World Cup 2026 Stats')}</div>
+        <div class="profile-wc-grid">
+          <div class="wc-stat-box">
+            <div class="wc-stat-num">${profile.tournament.goals}</div>
+            <div class="wc-stat-label">${t('wc_goals', 'Goals')}</div>
+          </div>
+          <div class="wc-stat-box">
+            <div class="wc-stat-num">${profile.tournament.assists}</div>
+            <div class="wc-stat-label">${t('wc_assists', 'Assists')}</div>
+          </div>
+          <div class="wc-stat-box">
+            <div class="wc-stat-num">${profile.tournament.yellowCards}Y / ${profile.tournament.redCards}R</div>
+            <div class="wc-stat-label">${t('wc_cards', 'Cards')}</div>
+          </div>
+          <div class="wc-stat-box">
+            <div class="wc-stat-num" style="color: var(--secondary)">${profile.tournament.rating}</div>
+            <div class="wc-stat-label">${t('wc_rating', 'Avg Rating')}</div>
+          </div>
+        </div>
+
+        <div class="profile-section-title">${t('modal_stats', 'Stats')}</div>
+        <div class="scout-bars">
+          ${Object.entries(profile.stats).map(([label, value]) => `
+            <div class="scout-bar-row">
+              <span class="scout-bar-label">${label}</span>
+              <div class="scout-bar-bg">
+                <div class="scout-bar-fill" data-value="${value}" style="width: 0%; --bar-color: ${colors.primary}"></div>
+              </div>
+              <span class="scout-bar-val">${value}</span>
+            </div>
+          `).join('')}
+        </div>
+      </div>
+    </div>
+  `;
+
+  overlay.appendChild(content);
+  
+  const modalContent = document.querySelector('#matchModal .modal-content');
+  if (modalContent) {
+    modalContent.appendChild(overlay);
+    
+    const closeBtn = content.querySelector('#profileCloseBtn');
+    if (closeBtn) {
+      closeBtn.addEventListener('click', () => overlay.remove());
+    }
+
+    setTimeout(() => {
+      content.querySelectorAll('.scout-bar-fill').forEach(fill => {
+        fill.style.width = fill.getAttribute('data-value') + '%';
+      });
+    }, 50);
+  }
+}
+
 function renderModalContent() {
   const match = state.matches.find(m => m.id === state.activeModalMatchId);
   if (!match) return;
@@ -2349,7 +2619,7 @@ function renderModalContent() {
       const displayName = player.split(' ').pop(); // Take last name for pitch display
       
       pitchMarkingsHtml += `
-        <div class="player-node" style="left: ${coord.left}%; top: ${coord.top}%" title="${player} (${coord.pos})">
+        <div class="player-node" style="left: ${coord.left}%; top: ${coord.top}%" title="${player} (${coord.pos})" data-player-name="${player}" data-position="${coord.pos}">
           <div class="player-jersey" style="background-color: ${jerseyBg}; color: ${jerseyColor}; border-color: ${jerseyBorder};">
             ${coord.pos}
           </div>
@@ -2367,7 +2637,7 @@ function renderModalContent() {
       const positionLabel = idx < 11 ? coord.pos : 'SUB';
       
       playersListHtml += `
-        <div class="player-row">
+        <div class="player-row" data-player-name="${player}" data-position="${positionLabel}">
           <span class="player-number" style="width: 24px;">#${idx + 1}</span>
           <span class="player-name" style="flex: 1;">${player}</span>
           <span class="player-position" style="font-size: 10px; font-weight: 700; color: var(--text-muted); text-transform: uppercase;">${positionLabel}</span>
@@ -2386,6 +2656,17 @@ function renderModalContent() {
 
     lineupSection.innerHTML = selectorHtml + pitchMarkingsHtml + squadListHtml;
     DOM.modalTabContent.appendChild(lineupSection);
+
+    // Attach click listeners for player profile cards
+    lineupSection.querySelectorAll('.player-node, .player-row').forEach(el => {
+      el.addEventListener('click', (e) => {
+        const name = e.currentTarget.getAttribute('data-player-name');
+        const pos = e.currentTarget.getAttribute('data-position');
+        if (name && name !== 'To be announced' && !name.includes('announced') && name !== 'TBD') {
+          showPlayerProfile(name, teamName, pos);
+        }
+      });
+    });
 
     // Attach click listeners for selector buttons to reload content
     lineupSection.querySelectorAll('.lineup-select-btn').forEach(btn => {

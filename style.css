@@ -2866,4 +2866,480 @@ body.light-theme .bracket-round:not([data-round="r16"]) .bracket-match-card::bef
   background: rgba(0, 0, 0, 0.08);
 }
 
+/* --- Player Profile Cards Overlay --- */
+.modal-content {
+  position: relative; /* Ensure absolute overlays sit correctly within the modal */
+}
+
+.player-profile-overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(2, 2, 4, 0.7);
+  backdrop-filter: blur(12px);
+  -webkit-backdrop-filter: blur(12px);
+  z-index: 200;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 24px;
+  animation: fadeIn 0.25s var(--ease-smooth);
+}
+
+@keyframes fadeIn {
+  from { opacity: 0; }
+  to { opacity: 1; }
+}
+
+.player-profile-card {
+  background: rgba(18, 18, 22, 0.75);
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  border-radius: 16px;
+  width: 100%;
+  max-width: 580px;
+  padding: 24px;
+  box-shadow: 0 20px 50px rgba(0, 0, 0, 0.6);
+  position: relative;
+  animation: scaleIn 0.3s var(--ease-spring);
+  overflow-y: auto;
+  max-height: 100%;
+}
+
+.player-profile-close {
+  position: absolute;
+  top: 16px;
+  right: 16px;
+  background: rgba(255, 255, 255, 0.05);
+  border: none;
+  color: var(--text-secondary);
+  font-size: 20px;
+  width: 32px;
+  height: 32px;
+  border-radius: 50%;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: all 0.2s ease;
+  z-index: 10;
+}
+
+.player-profile-close:hover {
+  background: rgba(255, 255, 255, 0.1);
+  color: var(--text-primary);
+}
+
+.profile-main-layout {
+  display: flex;
+  gap: 24px;
+  align-items: flex-start;
+}
+
+@media (max-width: 560px) {
+  .profile-main-layout {
+    flex-direction: column;
+    align-items: center;
+  }
+}
+
+/* FUT Player Card Styling */
+.fut-card-wrapper {
+  flex-shrink: 0;
+  display: flex;
+  justify-content: center;
+}
+
+.fut-player-card {
+  width: 170px;
+  height: 250px;
+  background: linear-gradient(135deg, rgba(20, 20, 25, 0.9) 0%, rgba(10, 10, 12, 0.95) 100%);
+  border: 2px solid var(--border-color);
+  border-radius: 12px;
+  position: relative;
+  overflow: hidden;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.5);
+  display: flex;
+  flex-direction: column;
+  transition: all 0.3s ease;
+}
+
+/* Tier Glows */
+.fut-player-card.tier-gold {
+  border-color: var(--secondary);
+  box-shadow: 0 0 20px rgba(245, 158, 11, 0.25), 0 10px 30px rgba(0,0,0,0.5);
+}
+.fut-player-card.tier-gold .fut-card-glow {
+  background: radial-gradient(circle at 50% 30%, rgba(245, 158, 11, 0.25) 0%, transparent 60%);
+}
+.fut-player-card.tier-gold .fut-overall,
+.fut-player-card.tier-gold .fut-position {
+  color: var(--secondary);
+}
+
+.fut-player-card.tier-silver {
+  border-color: #94a3b8;
+  box-shadow: 0 0 20px rgba(148, 163, 184, 0.15), 0 10px 30px rgba(0,0,0,0.5);
+}
+.fut-player-card.tier-silver .fut-card-glow {
+  background: radial-gradient(circle at 50% 30%, rgba(148, 163, 184, 0.15) 0%, transparent 60%);
+}
+.fut-player-card.tier-silver .fut-overall,
+.fut-player-card.tier-silver .fut-position {
+  color: #e2e8f0;
+}
+
+.fut-player-card.tier-bronze {
+  border-color: #a16207;
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.4);
+}
+.fut-player-card.tier-bronze .fut-card-glow {
+  background: radial-gradient(circle at 50% 30%, rgba(161, 98, 7, 0.1) 0%, transparent 60%);
+}
+.fut-player-card.tier-bronze .fut-overall,
+.fut-player-card.tier-bronze .fut-position {
+  color: #b45309;
+}
+
+.fut-card-glow {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  pointer-events: none;
+  z-index: 1;
+}
+
+.fut-card-inner {
+  position: relative;
+  z-index: 2;
+  padding: 16px;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.fut-top-row {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  position: absolute;
+  left: 12px;
+  top: 12px;
+  gap: 2px;
+}
+
+.fut-overall {
+  font-family: var(--font-display);
+  font-size: 1.6rem;
+  font-weight: 800;
+  line-height: 1;
+}
+
+.fut-position {
+  font-size: 0.65rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+}
+
+.fut-flag {
+  font-size: 0.95rem;
+  margin-top: 2px;
+}
+
+.fut-avatar {
+  font-family: var(--font-display);
+  font-size: 2.2rem;
+  font-weight: 800;
+  color: rgba(255, 255, 255, 0.1);
+  background: radial-gradient(circle, rgba(255,255,255,0.06) 0%, transparent 70%);
+  width: 75px;
+  height: 75px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: 1px dashed rgba(255, 255, 255, 0.08);
+  margin-top: 10px;
+  text-shadow: 0 0 10px rgba(255, 255, 255, 0.05);
+}
+
+.fut-name {
+  font-family: var(--font-display);
+  font-size: 0.95rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  margin-top: 12px;
+  color: var(--text-primary);
+  letter-spacing: 0.5px;
+}
+
+.fut-divider {
+  width: 60px;
+  height: 1px;
+  background: linear-gradient(90deg, transparent, rgba(255, 255, 255, 0.15), transparent);
+  margin: 8px 0;
+}
+
+.fut-stats-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 4px 16px;
+  font-family: var(--font-display);
+  font-size: 0.65rem;
+  font-weight: 600;
+  color: var(--text-secondary);
+  text-align: center;
+}
+
+/* Details and Scout Data Layout */
+.profile-details-wrapper {
+  flex-grow: 1;
+  width: 100%;
+}
+
+.profile-player-name {
+  font-family: var(--font-display);
+  font-size: 1.35rem;
+  font-weight: 800;
+  color: var(--text-primary);
+  margin-bottom: 2px;
+}
+
+.profile-player-subtitle {
+  font-size: 0.8rem;
+  color: var(--text-muted);
+  font-weight: 500;
+  margin-bottom: 16px;
+}
+
+.profile-bio-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(80px, 1fr));
+  gap: 12px;
+  background: rgba(255, 255, 255, 0.02);
+  border: 1px solid var(--border-color);
+  border-radius: 8px;
+  padding: 12px;
+  margin-bottom: 16px;
+}
+
+.bio-item {
+  display: flex;
+  flex-direction: column;
+}
+
+.bio-label {
+  font-size: 0.65rem;
+  color: var(--text-muted);
+  text-transform: uppercase;
+  font-weight: 700;
+  letter-spacing: 0.5px;
+}
+
+.bio-value {
+  font-family: var(--font-display);
+  font-size: 0.85rem;
+  color: var(--text-primary);
+  font-weight: 600;
+  margin-top: 2px;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.profile-section-title {
+  font-family: var(--font-display);
+  font-size: 0.75rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  color: var(--secondary);
+  letter-spacing: 1px;
+  margin: 16px 0 10px 0;
+  border-bottom: 1px dashed rgba(255,255,255,0.06);
+  padding-bottom: 4px;
+}
+
+.profile-wc-grid {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 10px;
+}
+
+.wc-stat-box {
+  background: rgba(255, 255, 255, 0.03);
+  border: 1px solid var(--border-color);
+  border-radius: 8px;
+  padding: 10px;
+  text-align: center;
+}
+
+.wc-stat-num {
+  font-family: var(--font-display);
+  font-size: 1.1rem;
+  font-weight: 800;
+  color: var(--text-primary);
+}
+
+.wc-stat-label {
+  font-size: 0.6rem;
+  color: var(--text-muted);
+  text-transform: uppercase;
+  font-weight: 600;
+  margin-top: 2px;
+}
+
+/* Scout Progress Bars */
+.scout-bars {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.scout-bar-row {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  font-size: 0.75rem;
+}
+
+.scout-bar-label {
+  width: 32px;
+  font-family: var(--font-display);
+  font-weight: 700;
+  color: var(--text-secondary);
+}
+
+.scout-bar-bg {
+  flex-grow: 1;
+  height: 6px;
+  background: rgba(255, 255, 255, 0.05);
+  border-radius: 3px;
+  overflow: hidden;
+}
+
+.scout-bar-fill {
+  height: 100%;
+  background: var(--bar-color, var(--primary));
+  border-radius: 3px;
+  width: 0;
+  box-shadow: 0 0 8px var(--bar-color, var(--primary));
+  transition: width 0.8s cubic-bezier(0.25, 1, 0.5, 1);
+}
+
+.scout-bar-val {
+  width: 20px;
+  text-align: right;
+  font-family: var(--font-display);
+  font-weight: 600;
+  color: var(--text-primary);
+}
+
+/* Interactable states on lineups */
+.player-node {
+  cursor: pointer;
+  transition: all 0.25s var(--ease-spring);
+}
+
+.player-node:hover {
+  transform: scale(1.15) translateY(-2px);
+  z-index: 50;
+  filter: drop-shadow(0 4px 12px rgba(255,255,255,0.15));
+}
+
+.player-row {
+  cursor: pointer;
+  transition: all 0.25s var(--ease-smooth);
+}
+
+.player-row:hover {
+  background: rgba(255, 255, 255, 0.06);
+  transform: translateX(4px);
+  border-radius: 6px;
+}
+
+/* Light Theme Overrides */
+body.light-theme .player-profile-overlay {
+  background: rgba(241, 245, 249, 0.6);
+}
+
+body.light-theme .player-profile-card {
+  background: rgba(255, 255, 255, 0.85);
+  border-color: rgba(0, 0, 0, 0.08);
+  box-shadow: 0 20px 40px rgba(0, 0, 0, 0.15);
+}
+
+body.light-theme .player-profile-close {
+  background: rgba(0, 0, 0, 0.05);
+  color: #64748b;
+}
+
+body.light-theme .player-profile-close:hover {
+  background: rgba(0, 0, 0, 0.1);
+  color: #1e293b;
+}
+
+body.light-theme .fut-player-card {
+  background: linear-gradient(135deg, rgba(255, 255, 255, 0.9) 0%, rgba(248, 250, 252, 0.95) 100%);
+}
+
+body.light-theme .fut-player-card.tier-gold {
+  box-shadow: 0 0 15px rgba(245, 158, 11, 0.15), 0 5px 15px rgba(0,0,0,0.05);
+}
+
+body.light-theme .fut-player-card.tier-silver {
+  box-shadow: 0 0 15px rgba(100, 116, 139, 0.1), 0 5px 15px rgba(0,0,0,0.05);
+}
+
+body.light-theme .fut-avatar {
+  color: rgba(0, 0, 0, 0.04);
+  border-color: rgba(0, 0, 0, 0.05);
+}
+
+body.light-theme .fut-name {
+  color: #1e293b;
+}
+
+body.light-theme .profile-player-name {
+  color: #1e293b;
+}
+
+body.light-theme .profile-player-subtitle {
+  color: #64748b;
+}
+
+body.light-theme .profile-bio-grid {
+  background: rgba(0, 0, 0, 0.02);
+  border-color: rgba(0, 0, 0, 0.05);
+}
+
+body.light-theme .bio-value {
+  color: #1e293b;
+}
+
+body.light-theme .wc-stat-box {
+  background: rgba(0, 0, 0, 0.02);
+  border-color: rgba(0, 0, 0, 0.05);
+}
+
+body.light-theme .wc-stat-num {
+  color: #1e293b;
+}
+
+body.light-theme .scout-bar-bg {
+  background: rgba(0, 0, 0, 0.06);
+}
+
+body.light-theme .scout-bar-val {
+  color: #1e293b;
+}
+
+body.light-theme .player-row:hover {
+  background: rgba(0, 0, 0, 0.03);
+}
+
 
