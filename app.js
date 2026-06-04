@@ -1249,7 +1249,7 @@ function renderMatchesList() {
     return;
   }
 
-  filteredMatches.forEach((match) => {
+  filteredMatches.forEach((match, index) => {
     const isLive = match.status === 'live';
     const isFinished = match.status === 'finished';
     const isHomeSubbed = state.subscribedTeams.has(match.home);
@@ -1259,6 +1259,7 @@ function renderMatchesList() {
     const card = document.createElement('div');
     card.className = `match-card ${isLive ? 'live-match' : ''}`;
     card.setAttribute('data-match-id', match.id);
+    card.style.setProperty('--card-index', index);
     
     // Status HTML formatter
     let statusHtml = '';
@@ -1378,9 +1379,10 @@ function renderNewsGrid() {
   feedHeader.textContent = t('latest_stories', 'Latest World Cup Stories');
   DOM.newsGrid.appendChild(feedHeader);
 
-  filtered.forEach((item) => {
+  filtered.forEach((item, index) => {
     const article = document.createElement('article');
     article.className = 'news-card';
+    article.style.setProperty('--card-index', index);
     
     let tagLabel = t('category_tactics', 'Tactics');
     if (item.category === 'injury') tagLabel = t('category_injury', 'Injury Report');
