@@ -137,7 +137,10 @@ FEEDS = {
   "ca": {
     "ARA Esports": "https://www.ara.cat/rss/esports/",
     "Nació Digital": "https://www.naciodigital.cat/rss/seccio/esports",
-    "VilaWeb Esports": "https://www.vilaweb.cat/esports/feed/"
+    "VilaWeb Esports": "https://www.vilaweb.cat/esports/feed/",
+    "El Punt Avui": "https://www.elpuntavui.cat/esports.feed?type=rss",
+    "Món Esport": "https://monesport.cat/feed/",
+    "Fosbury": "https://fosbury.cat/feed/"
   }
 }
 

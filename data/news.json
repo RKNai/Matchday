@@ -3,7 +3,7 @@
     "category": "rules",
     "title": "Fifa bans fans from taking water bottles into World Cup stadiums",
     "snippet": "Fans will not be allowed to take reusable water bottles into World Cup stadiums due to safety concerns, Fifa says in a late policy change.",
-    "time": "3m ago",
+    "time": "6m ago",
     "timestamp": 1780563347,
     "color": "linear-gradient(135deg, #64748b, #334155)",
     "overlay": "📺",
@@ -17,7 +17,7 @@
     "category": "tactics",
     "title": "England in the heat, Brazil, Messi and Ronaldo - World Cup latest",
     "snippet": "Sky Sports brings you the latest from the World Cup with just one week to go!",
-    "time": "45m ago",
+    "time": "48m ago",
     "timestamp": 1780560840,
     "color": "linear-gradient(135deg, #f59e0b, #78350f)",
     "overlay": "⚽",
@@ -31,7 +31,7 @@
     "category": "tactics",
     "title": "Why are American investors taking over English football?",
     "snippet": "The World Cup is taking over the United States this summer. But the not-so-secret American takeover of football has been building its foundations for some time now.",
-    "time": "59m ago",
+    "time": "1h ago",
     "timestamp": 1780560000,
     "color": "linear-gradient(135deg, #f59e0b, #78350f)",
     "overlay": "⚽",
@@ -45,7 +45,7 @@
     "category": "tactics",
     "title": "Podcast: What is it actually like to play at a World Cup?",
     "snippet": "We ask what the experience of playing at a World Cup is as Scotland are set to return.",
-    "time": "1h ago",
+    "time": "2h ago",
     "timestamp": 1780556400,
     "color": "linear-gradient(135deg, #f59e0b, #78350f)",
     "overlay": "⚽",
@@ -129,7 +129,7 @@
     "category": "lineup",
     "title": "Most experience? Youngest? Best leagues? World Cup squads in numbers",
     "snippet": "BBC Sport look at all of the World Cup 2026 squads and answer some of the key questions.",
-    "time": "14h ago",
+    "time": "15h ago",
     "timestamp": 1780509657,
     "color": "linear-gradient(135deg, #3b82f6, #1e3a8a)",
     "overlay": "📋",
@@ -171,7 +171,7 @@
     "category": "tactics",
     "title": "Big games keep coming as Hughes eyes World Cup",
     "snippet": "Laura Hughes hopes to make a mark with Wales in Women's World Cup qualifying after a memorable season at club level.",
-    "time": "22h ago",
+    "time": "23h ago",
     "timestamp": 1780480818,
     "color": "linear-gradient(135deg, #f59e0b, #78350f)",
     "overlay": "⚽",
@@ -185,7 +185,7 @@
     "category": "tactics",
     "title": "Diana Ross & 'GOAT' Ronaldo - Richards watches World Cup moments",
     "snippet": "Former England defender and current pundit Micah Richards looks at some of the most memorable World Cup moments.",
-    "time": "23h ago",
+    "time": "1d ago",
     "timestamp": 1780477206,
     "color": "linear-gradient(135deg, #f59e0b, #78350f)",
     "overlay": "⚽",
@@ -423,7 +423,7 @@
     "category": "transfer",
     "title": "El 'carpe diem' del Barça (i de Joan Laporta)",
     "snippet": "El Barça ha necessitat sis anys per tornar a afrontar un mercat d'estiu sense restriccions. Ni el del 2022 és equiparable, ja que aleshores el club, malgrat reforçar-se a cop de talonari amb Kounde, Raphinha i Lewandowski, va suar de valent perquè les palanques s'adaptessin a la normativa de la Lliga. Aquesta vegada l'aixeta raja i un cop confirmat el fitxatge d'Anthony Gordon, l'entitat que presideix encara de manera interina Rafael Yuste mou els fils per fitxar un davanter centre de talla mundial i, si és possible, reforçar la defensa amb un central de garanties.",
-    "time": "3h ago",
+    "time": "4h ago",
     "timestamp": 1780549254,
     "color": "linear-gradient(135deg, #a855f7, #581c87)",
     "overlay": "🔄",
@@ -432,6 +432,62 @@
     "source": "ARA Esports",
     "lang": "ca",
     "id": 230
+  },
+  {
+    "category": "press",
+    "title": "Kounde es pronuncia sobre el seu futur al Barça",
+    "snippet": "Jules Kounde és un dels jugadors del Futbol Club Barcelona que representarà la selecció francesa al Mundial que comença d’aquí a pocs dies als Estats Units, Mèxic i el Canadà. El defensa ha comparegut davant els mitjans de comunicació en la roda de premsa prèvia a l’amistós que França jugarà contra la Costa d’Ivori i, … Continued",
+    "time": "17h ago",
+    "timestamp": 1780501286,
+    "color": "linear-gradient(135deg, #0d9488, #115e59)",
+    "overlay": "🎙️",
+    "link": "https://monesport.cat/barca/jugadors/kounde-futur-continuitat-declaracions-484426/",
+    "image": "https://images.unsplash.com/photo-1518063319789-7217e6706b04?w=500&auto=format&fit=crop",
+    "source": "Món Esport",
+    "lang": "ca",
+    "id": 231
+  },
+  {
+    "category": "rules",
+    "title": "Revelen com Lamine Yamal va escollir el Barça per davant de l’Espanyol",
+    "snippet": "En el context del Mundial de futbol, que començarà la setmana vinent, el diari Marca ha preparat uns sèrie de reportatges sobre els orígens de diversos jugadors de la selecció espanyola. Un dels més destacats, l’estrella de La Roja, és el davanter del Futbol Club Barcelona Lamine Yamal. Respecte als seus inicis com a futbolista, … Continued",
+    "time": "18h ago",
+    "timestamp": 1780498752,
+    "color": "linear-gradient(135deg, #64748b, #334155)",
+    "overlay": "📺",
+    "link": "https://monesport.cat/barca/jugadors/lamine-yamal-escollir-fitxatge-espanyol-484418/",
+    "image": "https://images.unsplash.com/photo-1508098682722-e99c43a406b2?w=500&auto=format&fit=crop",
+    "source": "Món Esport",
+    "lang": "ca",
+    "id": 232
+  },
+  {
+    "category": "lineup",
+    "title": "Ansu Fati deixa tothom impactat amb la seva darrera publicació",
+    "snippet": "Ansu Fati ha tornat al centre de l’actualitat esportiva per diversos motius. Primer, per les queixes del seu pare en saber que el jugador no havia entrat a la convocatòria del Mundial amb la selecció espanyola. Després, pel fet que el Mònaco exercirà la clàusula de rescissió d’onze milions d’euros que té i el fitxarà … Continued",
+    "time": "18h ago",
+    "timestamp": 1780495786,
+    "color": "linear-gradient(135deg, #3b82f6, #1e3a8a)",
+    "overlay": "📋",
+    "link": "https://monesport.cat/barca/jugadors/ansu-fati-musica-primera-canco-484404/",
+    "image": "https://images.unsplash.com/photo-1579952363873-27f3bade9f55?w=500&auto=format&fit=crop",
+    "source": "Món Esport",
+    "lang": "ca",
+    "id": 233
+  },
+  {
+    "category": "press",
+    "title": "Ni Lamine Yamal, ni Pedri: De la Fuente elogia un altre jugador del Barça",
+    "snippet": "Luis de la Fuente, entrenador de la selecció espanyola de futbol, ha comparegut aquest dimecres davant dels mitjans de comunicació en el context del Mundial que es disputarà aquest estiu, a partir de la setmana vinent. Un dels aspectes pels quals li han preguntat els periodistes ha estat la inclusió de jugadors de suport a … Continued",
+    "time": "19h ago",
+    "timestamp": 1780494966,
+    "color": "linear-gradient(135deg, #0d9488, #115e59)",
+    "overlay": "🎙️",
+    "link": "https://monesport.cat/barca/jugadors/marc-bernal-elogis-luis-de-la-fuente-seleccio-espanyola-mundial-484397/",
+    "image": "https://images.unsplash.com/photo-1518063319789-7217e6706b04?w=500&auto=format&fit=crop",
+    "source": "Món Esport",
+    "lang": "ca",
+    "id": 234
   },
   {
     "category": "tactics",
@@ -445,7 +501,7 @@
     "image": "https://static1.ara.cat/clip/88c8347b-0417-4e84-8b5c-2a11a8ea90aa_16-9-aspect-ratio_default_0_x2351y869.jpg",
     "source": "ARA Esports",
     "lang": "ca",
-    "id": 231
+    "id": 235
   },
   {
     "category": "lineup",
@@ -459,7 +515,7 @@
     "image": "https://static1.ara.cat/clip/ee737dde-d694-4f24-9993-cd65d353a8a1_16-9-aspect-ratio_default_1058448.jpg",
     "source": "ARA Esports",
     "lang": "ca",
-    "id": 232
+    "id": 236
   },
   {
     "category": "tactics",
@@ -473,7 +529,7 @@
     "image": "https://d5r1tkwwv7d5g.cloudfront.net/articulos/articulos-719250.jpg",
     "source": "Nació Digital",
     "lang": "ca",
-    "id": 233
+    "id": 237
   },
   {
     "category": "transfer",
@@ -487,7 +543,7 @@
     "image": "https://static1.ara.cat/clip/797ed480-ad68-4bd5-bfd3-baa348e98c87_16-9-aspect-ratio_default_0_x2142y978.jpg",
     "source": "ARA Esports",
     "lang": "ca",
-    "id": 234
+    "id": 238
   },
   {
     "category": "tactics",
@@ -501,7 +557,7 @@
     "image": "https://d5r1tkwwv7d5g.cloudfront.net/articulos/articulos-596058.jpg",
     "source": "Nació Digital",
     "lang": "ca",
-    "id": 235
+    "id": 239
   },
   {
     "category": "press",
@@ -515,7 +571,7 @@
     "image": "https://d5r1tkwwv7d5g.cloudfront.net/articulos/articulos-704199.jpg",
     "source": "Nació Digital",
     "lang": "ca",
-    "id": 236
+    "id": 240
   },
   {
     "category": "tactics",
@@ -529,7 +585,7 @@
     "image": "https://static1.ara.cat/clip/0dde5564-ee7a-455f-9ac5-3ff104e3cace_16-9-aspect-ratio_default_0_x853y336.png",
     "source": "ARA Esports",
     "lang": "ca",
-    "id": 237
+    "id": 241
   },
   {
     "category": "lineup",
@@ -543,7 +599,7 @@
     "image": "https://static1.ara.cat/clip/8ae90eb1-5edb-44ee-ba08-be9927432fb2_16-9-aspect-ratio_default_0.jpg",
     "source": "ARA Esports",
     "lang": "ca",
-    "id": 238
+    "id": 242
   },
   {
     "category": "lineup",
@@ -557,6 +613,6 @@
     "image": "https://d5r1tkwwv7d5g.cloudfront.net/articulos/articulos-715798.jpg",
     "source": "Nació Digital",
     "lang": "ca",
-    "id": 239
+    "id": 243
   }
 ]
