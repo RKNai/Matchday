@@ -2209,3 +2209,97 @@ body.light-theme .slider-round:before {
   box-shadow: 0 0 8px var(--primary-glow);
 }
 
+/* --- Dynamic Organic Mesh Background Gradients --- */
+.mesh-glow-container {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  z-index: -2; /* Placed behind all content but in front of base background */
+  pointer-events: none;
+  overflow: hidden;
+}
+
+.mesh-glow {
+  position: absolute;
+  border-radius: 50%;
+  filter: blur(140px);
+  opacity: 0.14; /* Subtly glowing */
+  transition: opacity 0.5s var(--ease-smooth);
+}
+
+.glow-emerald {
+  background: var(--primary);
+  width: 45vw;
+  height: 45vw;
+  top: -12vw;
+  left: -12vw;
+  animation: float-emerald 28s infinite alternate ease-in-out;
+}
+
+.glow-gold {
+  background: var(--secondary);
+  width: 48vw;
+  height: 48vw;
+  bottom: -15vw;
+  right: -12vw;
+  animation: float-gold 32s infinite alternate ease-in-out;
+}
+
+.glow-blue {
+  background: var(--accent);
+  width: 38vw;
+  height: 38vw;
+  top: 45vh;
+  left: 55vw;
+  transform: translate(-50%, -50%);
+  animation: float-blue 30s infinite alternate ease-in-out;
+}
+
+/* Animations for drifting glows */
+@keyframes float-emerald {
+  0% {
+    translate: 0 0;
+  }
+  50% {
+    translate: 12vw 15vh;
+    scale: 1.12;
+  }
+  100% {
+    translate: -6vw 6vh;
+  }
+}
+
+@keyframes float-gold {
+  0% {
+    translate: 0 0;
+  }
+  50% {
+    translate: -16vw -12vh;
+    scale: 0.88;
+  }
+  100% {
+    translate: 6vw -6vh;
+  }
+}
+
+@keyframes float-blue {
+  0% {
+    translate: 0 0;
+  }
+  50% {
+    translate: -12vw 12vh;
+    scale: 1.16;
+  }
+  100% {
+    translate: 12vw -12vh;
+  }
+}
+
+/* Light Theme overrides to soften watercolor flow */
+body.light-theme .mesh-glow {
+  opacity: 0.06;
+}
+
+
