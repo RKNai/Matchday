@@ -48,6 +48,11 @@ MatchDay is a premium, zero-dependency, progressive web app (PWA) designed to tr
 * **Staggered Entrance Transitions**: Cards (Matches and News) scale-in and fade-in dynamically using individual CSS transform properties (`scale` and `translate`) and `--card-index` delay offsets.
 * **Transform Isolation**: Keeps entry animations separate from hover state translations (`transform: translateY(-2px)`), avoiding layout locks.
 
+### 8. Dynamic Organic Mesh Gradients
+* **Drifting Glow Spheres**: Three large, animated blur spots (Emerald, Gold, and Blue) slowly drift and scale in the background to create a premium organic look.
+* **Watercolor Light Mode**: Automatically reduces the glow opacity to `0.06` in Light Mode to preserve readability on light backdrops.
+* **Layout Isolation**: Positioned behind the glassmorphic panels at `z-index: -2` with `pointer-events: none` to prevent user interaction blockage.
+
 ---
 
 ## 📁 File Structure
