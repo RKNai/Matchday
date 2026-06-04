@@ -1303,6 +1303,7 @@ function calculateStandings() {
 }
 
 function renderGroupStandings() {
+  DOM.matchesList.innerHTML = '';
   const standingsData = calculateStandings();
   const availableGroups = Object.keys(standingsData).sort();
   
