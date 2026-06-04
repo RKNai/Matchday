@@ -35,7 +35,7 @@ MatchDay is a premium, zero-dependency, progressive web app (PWA) designed to tr
   * **Native Web Push**: Triggers system-level background notifications through Service Worker sync listeners if granted.
 
 ### 5. Detailed Translucent Overlay Modals
-* **Match Detail Card**: Dynamic scale animation overlay containing tab sheets for match events timeline, colored statistics charts, and starting squad sheets.
+* **Match Detail Card**: Dynamic scale animation overlay containing tab sheets for match events timeline, colored statistics charts, and an **Interactive Visual Soccer Pitch** mapping starting lineups dynamically onto 4-3-3 positions with country colors and Home/Away selection buttons.
 * **News Details Card**: Popups displaying high-res article covers, publisher branding, relative time elapsed, news tag, full snippets, and a "Read Full Story ↗" redirect button.
 
 ### 6. Personalization & Light Mode
@@ -49,20 +49,22 @@ MatchDay is a premium, zero-dependency, progressive web app (PWA) designed to tr
 ## 📁 File Structure
 
 ```bash
-├── index.html          # Semantic HTML structure, layouts, drawer, and modal frameworks
-├── style.css           # Glassmorphic tokens, CSS grid, custom scrollbars, animations
-├── app.js              # Resizer listeners, simulated game engine, alerts state, and modal loaders
-├── sw.js               # Service Worker precaching app shell & handling background push events
-├── manifest.json       # PWA properties, maskable icons, and mobile shortcut entrypoints
-├── scrape_matches.py   # Tournament live fixture schedule python scraper
-├── scrape_news.py      # Real-time Sky Sports RSS news parser & tag classifier
+├── index.html              # Semantic HTML structure, layouts, drawer, and modal frameworks
+├── style.css               # Glassmorphic tokens, CSS grid, custom scrollbars, animations
+├── app.js                  # Resizer listeners, simulated game engine, alerts state, and modal loaders
+├── sw.js                   # Service Worker precaching app shell & handling background push events
+├── manifest.json           # PWA properties, maskable icons, and mobile shortcut entrypoints
+├── scrape_matches.py       # Tournament live fixture schedule python scraper
+├── scrape_news.py          # Real-time multi-feed RSS news parser & World Cup tag classifier
+├── run_daemon.sh           # Cloud VM wrapper loop runner & git auto-push script
+├── matchday-scraper.service # Systemd service unit template for background cloud VM execution
 ├── assets/
-│   ├── logo.png        # Clean black and white minimalist app logo
-│   ├── icon-192.png    # Maskable PWA icon (192x192)
-│   └── icon-512.png    # Maskable PWA icon (512x512)
+│   ├── logo.png            # Clean black and white minimalist app logo
+│   ├── icon-192.png        # Maskable PWA icon (192x192)
+│   └── icon-512.png        # Maskable PWA icon (512x512)
 └── data/
-    ├── matches.json    # Active fixtures scraper cache
-    └── news.json       # Categorized news scraper cache
+    ├── matches.json        # Active fixtures scraper cache
+    └── news.json           # Categorized news scraper cache
 ```
 
 ---
