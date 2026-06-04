@@ -1,9 +1,23 @@
 [
   {
     "category": "tactics",
+    "title": "World Cup latest: France beaten by Ivory Coast, Spain held by Iraq",
+    "snippet": "",
+    "time": "4h ago",
+    "timestamp": 1780596000,
+    "color": "linear-gradient(135deg, #f59e0b, #78350f)",
+    "overlay": "⚽",
+    "link": "https://www.skysports.com/football/live-blog/11095/13509050/world-cup-2026-news-and-live-updates-usa-canada-and-mexico-build-up-plus-latest-on-trump-tickets-and-fans",
+    "image": "https://e1.365dm.com/26/06/1920x1080/skysports-cherki-france_7265743.jpg?20260604223336",
+    "source": "Sky Sports",
+    "lang": "en",
+    "id": 200
+  },
+  {
+    "category": "tactics",
     "title": "Scotland reporter notebook: Can Clarke's side land on cloud nine at World Cup?",
     "snippet": "\"Scotland's on fire, your defence is terrified\".",
-    "time": "2h ago",
+    "time": "4h ago",
     "timestamp": 1780596000,
     "color": "linear-gradient(135deg, #f59e0b, #78350f)",
     "overlay": "⚽",
@@ -11,13 +25,13 @@
     "image": "https://e1.365dm.com/26/05/1920x1080/skysports-steve-clarke-scotland_7261687.jpg?20260530152647",
     "source": "Sky Sports",
     "lang": "en",
-    "id": 200
+    "id": 201
   },
   {
     "category": "press",
     "title": "Wilkinson spends night in airport but says Wales will be ready",
     "snippet": "Head coach Rhian Wilkinson says Wales cannot let travel chaos affect their performance in Friday's Women's World Cup qualifier in Montenegro.",
-    "time": "4h ago",
+    "time": "5h ago",
     "timestamp": 1780589790,
     "color": "linear-gradient(135deg, #0d9488, #115e59)",
     "overlay": "🎙️",
@@ -25,13 +39,13 @@
     "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/5e1c/live/46b1e480-6036-11f1-9792-c579e9d62a5f.jpg",
     "source": "BBC Sport",
     "lang": "en",
-    "id": 201
+    "id": 202
   },
   {
     "category": "tactics",
     "title": "What is happening with World Cup ticket prices?",
     "snippet": "With falling prices, fluctuating availability and a lack of clarity, could the biggest World Cup ever see swathes of empty seats?",
-    "time": "4h ago",
+    "time": "5h ago",
     "timestamp": 1780589536,
     "color": "linear-gradient(135deg, #f59e0b, #78350f)",
     "overlay": "⚽",
@@ -39,13 +53,13 @@
     "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/bdf1/live/4f6e76b0-6022-11f1-95e8-2f6b295436fc.jpg",
     "source": "BBC Sport",
     "lang": "en",
-    "id": 202
+    "id": 203
   },
   {
     "category": "tactics",
     "title": "Who are the World Cup's record holders?",
     "snippet": "BBC Sport's Ask Me Anything team looks at the record holders in World Cup history ahead of the 2026 tournament",
-    "time": "6h ago",
+    "time": "7h ago",
     "timestamp": 1780583050,
     "color": "linear-gradient(135deg, #f59e0b, #78350f)",
     "overlay": "⚽",
@@ -53,13 +67,13 @@
     "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/56c7/live/e361e660-6020-11f1-8b8c-6d33e1d5abb6.jpg",
     "source": "BBC Sport",
     "lang": "en",
-    "id": 203
+    "id": 204
   },
   {
     "category": "tactics",
     "title": "Shearer on Beckham, pressure and Argentina heartbreak",
     "snippet": "Alan Shearer reflects on his and England's performances at the 1998 World Cup.",
-    "time": "6h ago",
+    "time": "8h ago",
     "timestamp": 1780581967,
     "color": "linear-gradient(135deg, #f59e0b, #78350f)",
     "overlay": "⚽",
@@ -67,13 +81,13 @@
     "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/e62c/live/b32b0ad0-5f9e-11f1-b682-cf91850925ea.jpg",
     "source": "BBC Sport",
     "lang": "en",
-    "id": 204
+    "id": 205
   },
   {
     "category": "tactics",
     "title": "England eye statement win over rivals Spain to seal World Cup 2027 spot",
     "snippet": "You'd think both sets of players were getting sick of each other but it appears the battle between England and Spain remains as strong as ever.",
-    "time": "6h ago",
+    "time": "8h ago",
     "timestamp": 1780581780,
     "color": "linear-gradient(135deg, #f59e0b, #78350f)",
     "overlay": "⚽",
@@ -81,13 +95,13 @@
     "image": "https://e2.365dm.com/26/04/1920x1080/skysports-alessia-russo-mapi-leon_7220274.jpg?20260414210243",
     "source": "Sky Sports",
     "lang": "en",
-    "id": 205
+    "id": 206
   },
   {
     "category": "transfer",
     "title": "James fit as England reignite Spain rivalry with World Cup spot at stake",
     "snippet": "Lauren James is fit to play in England's World Cup qualifier as the Lionesses reignite their rivalry with Spain in a bid to reach the tournament in 2027.",
-    "time": "6h ago",
+    "time": "8h ago",
     "timestamp": 1780581000,
     "color": "linear-gradient(135deg, #a855f7, #581c87)",
     "overlay": "🔄",
@@ -95,13 +109,13 @@
     "image": "https://e0.365dm.com/26/06/1920x1080/skysports-sarina-wiegman-lionesses_7265270.jpg?20260604134651",
     "source": "Sky Sports",
     "lang": "en",
-    "id": 206
+    "id": 207
   },
   {
     "category": "tactics",
     "title": "Unsold Scotland World Cup tickets put on resale sites",
     "snippet": "Dozens of tickets for the Scotland vs Haiti match on 12 June are listed on the third-party sites.",
-    "time": "9h ago",
+    "time": "10h ago",
     "timestamp": 1780572214,
     "color": "linear-gradient(135deg, #f59e0b, #78350f)",
     "overlay": "⚽",
@@ -109,13 +123,13 @@
     "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/063a/live/5fc8d5e0-6000-11f1-932e-d972ba5bcb91.jpg",
     "source": "BBC Sport",
     "lang": "en",
-    "id": 207
+    "id": 208
   },
   {
     "category": "press",
     "title": "Heat experts warn 'reckless' Fifa of bottle ban health risk",
     "snippet": "Fans will not be allowed to take reusable water bottles into World Cup stadiums due to safety concerns, Fifa says in a late policy change.",
-    "time": "10h ago",
+    "time": "11h ago",
     "timestamp": 1780568463,
     "color": "linear-gradient(135deg, #0d9488, #115e59)",
     "overlay": "🎙️",
@@ -123,27 +137,13 @@
     "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/600a/live/a099a030-5fe8-11f1-9e8e-893122412ba5.jpg",
     "source": "BBC Sport",
     "lang": "en",
-    "id": 208
+    "id": 209
   },
   {
     "category": "tactics",
     "title": "Heroes and villains - the stories behind Scotland's World Cup bogeymen",
     "snippet": "Since their first attempt in 1954 there's always been some kind of misfortune lurking in the shadows for Scotland at World Cups, writes Tom English.",
-    "time": "14h ago",
-    "timestamp": 1780554339,
-    "color": "linear-gradient(135deg, #f59e0b, #78350f)",
-    "overlay": "⚽",
-    "link": "https://www.bbc.com/sport/football/articles/c2k2ewk2x2vo?at_medium=RSS&at_campaign=rss",
-    "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/6e07/live/7e038970-5f41-11f1-8b8c-6d33e1d5abb6.png",
-    "source": "BBC Sport",
-    "lang": "en",
-    "id": 209
-  },
-  {
-    "category": "tactics",
-    "title": "Remembering Scotland's World Cup bogeymen of finals gone by",
-    "snippet": "Since their first attempt in 1954 there's always been some kind of misfortune lurking in the shadows for Scotland at World Cups, writes Tom English.",
-    "time": "14h ago",
+    "time": "15h ago",
     "timestamp": 1780554339,
     "color": "linear-gradient(135deg, #f59e0b, #78350f)",
     "overlay": "⚽",
@@ -154,15 +154,15 @@
     "id": 210
   },
   {
-    "category": "press",
-    "title": "Video vault and Leeds litter picking - inside the mind of Bielsa",
-    "snippet": "It is possible that nobody alive today has watched more football than Marcelo Bielsa, the former Leeds United boss who will lead Uruguay at the World Cup.",
-    "time": "14h ago",
-    "timestamp": 1780552026,
-    "color": "linear-gradient(135deg, #0d9488, #115e59)",
-    "overlay": "🎙️",
-    "link": "https://www.bbc.com/sport/football/articles/c5ye2m00y5ro?at_medium=RSS&at_campaign=rss",
-    "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/ae83/live/b4aeb7d0-58ff-11f1-a656-5bf9ca1d9342.jpg",
+    "category": "tactics",
+    "title": "Remembering Scotland's World Cup bogeymen of finals gone by",
+    "snippet": "Since their first attempt in 1954 there's always been some kind of misfortune lurking in the shadows for Scotland at World Cups, writes Tom English.",
+    "time": "15h ago",
+    "timestamp": 1780554339,
+    "color": "linear-gradient(135deg, #f59e0b, #78350f)",
+    "overlay": "⚽",
+    "link": "https://www.bbc.com/sport/football/articles/c2k2ewk2x2vo?at_medium=RSS&at_campaign=rss",
+    "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/6e07/live/7e038970-5f41-11f1-8b8c-6d33e1d5abb6.png",
     "source": "BBC Sport",
     "lang": "en",
     "id": 211
@@ -171,7 +171,7 @@
     "category": "tactics",
     "title": "Robodogs and helicopters: One Mexican city's approach to World Cup security",
     "snippet": "In the shadow of cartel violence, BBC’s Will Grant got a first-hand look at security plans in Monterrey.",
-    "time": "14h ago",
+    "time": "16h ago",
     "timestamp": 1780551754,
     "color": "linear-gradient(135deg, #f59e0b, #78350f)",
     "overlay": "⚽",
@@ -185,7 +185,7 @@
     "category": "lineup",
     "title": "A higher ceiling than Messi? What next for Lamine Yamal?",
     "snippet": "Lamine Yamal is a key figure in Spain's World Cup squad, but why is the 18-year-old quick to dismiss Messi comparisons?",
-    "time": "15h ago",
+    "time": "16h ago",
     "timestamp": 1780550859,
     "color": "linear-gradient(135deg, #3b82f6, #1e3a8a)",
     "overlay": "📋",
@@ -210,6 +210,20 @@
     "id": 214
   },
   {
+    "category": "lineup",
+    "title": "Una España plagada de ausencias sabe a poco: empate con Irak antes de viajar a Estados Unidos",
+    "snippet": "Ferran Torres abrió el marcador en el minuto 16, pero Roski igualó antes del descanso. De la Fuente dejó fuera a la columna vertebral de su once e hizo debutar a jugadores como Pubill, Jon Martín, Javi Guerra o Leo Román Leer",
+    "time": "50m ago",
+    "timestamp": 1780608026,
+    "color": "linear-gradient(135deg, #3b82f6, #1e3a8a)",
+    "overlay": "📋",
+    "link": "https://www.elmundo.es/deportes/futbol/mundial-de-futbol/2026/06/04/6a21eaace4d4d887488b458f.html",
+    "image": "https://e00-elmundo.uecdn.es/assets/multimedia/imagenes/2026/06/04/17806075861907_990x0.jpg",
+    "source": "El Mundo Deportes",
+    "lang": "es",
+    "id": 215
+  },
+  {
     "category": "injury",
     "title": "De Arrascaeta se lesiona en Uruguay, rival de España, y peligra su presencia en el Mundial",
     "snippet": "El centrocampista ya había sufrido una fractura en la clavícula derecha el 29 de abril durante un partido por la Copa Libertadores Leer",
@@ -221,13 +235,13 @@
     "image": "https://e00-elmundo.uecdn.es/assets/multimedia/imagenes/2026/06/03/17804430559791_990x0.jpg",
     "source": "El Mundo Deportes",
     "lang": "es",
-    "id": 215
+    "id": 216
   },
   {
     "category": "tactics",
     "title": "El baile de entrenadores en los banquillos de la Liga: seis equipos en busca de un técnico",
     "snippet": "A ocho días del inicio del Mundial, media docena de equipos de primera aún no tienen técnico: Real Madrid, Rayo Vallecano, Elche, Osasuna y los recién descendidos Girona y Oviedo Leer",
-    "time": "1d ago",
+    "time": "2d ago",
     "timestamp": 1780436966,
     "color": "linear-gradient(135deg, #f59e0b, #78350f)",
     "overlay": "⚽",
@@ -235,7 +249,7 @@
     "image": "https://e00-elmundo.uecdn.es/assets/multimedia/imagenes/2026/06/02/17804158765816_990x0.jpg",
     "source": "El Mundo Deportes",
     "lang": "es",
-    "id": 216
+    "id": 217
   },
   {
     "category": "tactics",
@@ -249,7 +263,7 @@
     "image": "https://e00-elmundo.uecdn.es/assets/multimedia/imagenes/2026/06/02/17804228460877_990x0.jpg",
     "source": "El Mundo Deportes",
     "lang": "es",
-    "id": 217
+    "id": 218
   },
   {
     "category": "tactics",
@@ -263,13 +277,13 @@
     "image": "https://e00-elmundo.uecdn.es/assets/multimedia/imagenes/2026/06/02/17804003865506_990x0.jpg",
     "source": "El Mundo Deportes",
     "lang": "es",
-    "id": 218
+    "id": 219
   },
   {
     "category": "tactics",
     "title": "El FBI en un hotel de Suiza, 220.000 millones de dólares, 7.000 muertos: el sinuoso camino de Qatar para ser sede de un Mundial",
     "snippet": "La cita en el país del Golfo, cargada de polémicas, resultó exitosa, en cambio, en lo futbolístico y lo logístico, y dio proyección al país Leer",
-    "time": "2d ago",
+    "time": "3d ago",
     "timestamp": 1780347812,
     "color": "linear-gradient(135deg, #f59e0b, #78350f)",
     "overlay": "⚽",
@@ -277,7 +291,7 @@
     "image": "https://e00-elmundo.uecdn.es/assets/multimedia/imagenes/2026/05/30/17801548960104_990x0.jpg",
     "source": "El Mundo Deportes",
     "lang": "es",
-    "id": 219
+    "id": 220
   },
   {
     "category": "tactics",
@@ -291,13 +305,13 @@
     "image": "https://e00-elmundo.uecdn.es/assets/multimedia/imagenes/2026/06/01/17803335164720_990x0.jpg",
     "source": "El Mundo Deportes",
     "lang": "es",
-    "id": 220
+    "id": 221
   },
   {
     "category": "tactics",
     "title": "Un viaje largo, los lesionados y la obsesión de De la Fuente: España se pone en marcha hacia el Mundial",
     "snippet": "La selección ya entrena en Las Rozas antes de iniciar un periplo que le llevará a Coruña y México antes del debut, el día 15 contra Cabo Verde Leer",
-    "time": "3d ago",
+    "time": "4d ago",
     "timestamp": 1780259763,
     "color": "linear-gradient(135deg, #f59e0b, #78350f)",
     "overlay": "⚽",
@@ -305,13 +319,13 @@
     "image": "https://e00-elmundo.uecdn.es/assets/multimedia/imagenes/2026/05/31/17802419735935_990x0.jpg",
     "source": "El Mundo Deportes",
     "lang": "es",
-    "id": 221
+    "id": 222
   },
   {
     "category": "tactics",
     "title": "Calendari, horaris, televisió: informació pràctica sobre el Mundial de futbol",
     "snippet": "La cita esportiva més important i esperada de l'any ja arriba. El pròxim dijous 11 de juny comença el Mundial dels Estats Units, Canadà i Mèxic 2026, el primer que disputaran 48 seleccions (i no 32 com fins ara). Tres països i setze ciutats acolliran els 104 partits que acabaran el diumenge 19 de juliol (21.00 hores) en la gran final que es jugarà a l'estadi MetLife situat a Nova Jersey (a prop de Nova York). Una cita que representarà un canvi generacional al món del futbol, ja que serà la darrera Copa del Món de Leo Messi o Cristiano Ronaldo, entre altres, i l'emergència de noves estrelles mundials com Lamine Yamal, que disputarà el seu primer Mundial.",
-    "time": "5h ago",
+    "time": "7h ago",
     "timestamp": 1780585756,
     "color": "linear-gradient(135deg, #f59e0b, #78350f)",
     "overlay": "⚽",
@@ -319,13 +333,13 @@
     "image": "https://static1.ara.cat/clip/8ae90eb1-5edb-44ee-ba08-be9927432fb2_16-9-aspect-ratio_default_0.jpg",
     "source": "ARA Esports",
     "lang": "ca",
-    "id": 222
+    "id": 223
   },
   {
     "category": "transfer",
     "title": "El 'carpe diem' del Barça (i de Joan Laporta)",
     "snippet": "El Barça ha necessitat sis anys per tornar a afrontar un mercat d'estiu sense restriccions. Ni el del 2022 és equiparable, ja que aleshores el club, malgrat reforçar-se a cop de talonari amb Kounde, Raphinha i Lewandowski, va suar de valent perquè les palanques s'adaptessin a la normativa de la Lliga. Aquesta vegada l'aixeta raja i un cop confirmat el fitxatge d'Anthony Gordon, l'entitat que presideix encara de manera interina Rafael Yuste mou els fils per fitxar un davanter centre de talla mundial i, si és possible, reforçar la defensa amb un central de garanties.",
-    "time": "15h ago",
+    "time": "17h ago",
     "timestamp": 1780549254,
     "color": "linear-gradient(135deg, #a855f7, #581c87)",
     "overlay": "🔄",
@@ -333,7 +347,7 @@
     "image": "https://static1.ara.cat/clip/7fa2a8a8-765b-4bfb-80f6-cfb51e6b8131_16-9-aspect-ratio_default_0.jpg",
     "source": "ARA Esports",
     "lang": "ca",
-    "id": 223
+    "id": 224
   },
   {
     "category": "tactics",
@@ -347,7 +361,7 @@
     "image": "https://static1.ara.cat/clip/88c8347b-0417-4e84-8b5c-2a11a8ea90aa_16-9-aspect-ratio_default_0_x2351y869.jpg",
     "source": "ARA Esports",
     "lang": "ca",
-    "id": 224
+    "id": 225
   },
   {
     "category": "lineup",
@@ -361,7 +375,7 @@
     "image": "https://static1.ara.cat/clip/ee737dde-d694-4f24-9993-cd65d353a8a1_16-9-aspect-ratio_default_1058448.jpg",
     "source": "ARA Esports",
     "lang": "ca",
-    "id": 225
+    "id": 226
   },
   {
     "category": "tactics",
@@ -375,7 +389,7 @@
     "image": "https://d5r1tkwwv7d5g.cloudfront.net/articulos/articulos-719250.jpg",
     "source": "Nació Digital",
     "lang": "ca",
-    "id": 226
+    "id": 227
   },
   {
     "category": "transfer",
@@ -389,7 +403,7 @@
     "image": "https://static1.ara.cat/clip/797ed480-ad68-4bd5-bfd3-baa348e98c87_16-9-aspect-ratio_default_0_x2142y978.jpg",
     "source": "ARA Esports",
     "lang": "ca",
-    "id": 227
+    "id": 228
   },
   {
     "category": "tactics",
@@ -403,7 +417,7 @@
     "image": "https://d5r1tkwwv7d5g.cloudfront.net/articulos/articulos-596058.jpg",
     "source": "Nació Digital",
     "lang": "ca",
-    "id": 228
+    "id": 229
   },
   {
     "category": "press",
@@ -417,7 +431,7 @@
     "image": "https://d5r1tkwwv7d5g.cloudfront.net/articulos/articulos-704199.jpg",
     "source": "Nació Digital",
     "lang": "ca",
-    "id": 229
+    "id": 230
   },
   {
     "category": "lineup",
@@ -431,6 +445,6 @@
     "image": "https://d5r1tkwwv7d5g.cloudfront.net/articulos/articulos-715798.jpg",
     "source": "Nació Digital",
     "lang": "ca",
-    "id": 230
+    "id": 231
   }
 ]
