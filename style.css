@@ -2392,9 +2392,56 @@ body.hide-news .app-container {
   line-height: 1.3;
 }
 
+/* Partner Card */
+.partner-card {
+  background: rgba(255, 255, 255, 0.03);
+  border: 1px solid var(--border-color);
+  border-radius: 12px;
+  padding: 16px;
+  display: flex;
+  align-items: center;
+  gap: 14px;
+}
+
+.partner-icon {
+  font-size: 24px;
+  background: rgba(245, 158, 11, 0.1);
+  padding: 8px;
+  border-radius: 10px;
+}
+
+.partner-info {
+  flex: 1;
+}
+
+.partner-title {
+  font-size: 13px;
+  font-weight: 600;
+  color: var(--text-primary);
+  margin-bottom: 2px;
+}
+
+.partner-title a {
+  color: var(--secondary);
+  text-decoration: none;
+  transition: color 0.2s ease;
+}
+
+.partner-title a:hover {
+  color: var(--primary);
+  text-decoration: underline;
+}
+
+.partner-desc {
+  font-size: 11px;
+  color: var(--text-muted);
+  line-height: 1.3;
+}
+
 /* Light Theme Card Overrides */
 body.light-theme .push-permission-card,
-body.light-theme .preferences-card {
+body.light-theme .preferences-card,
+body.light-theme .partner-card {
   background: rgba(0, 0, 0, 0.02) !important;
   border-color: rgba(0, 0, 0, 0.08) !important;
 }
