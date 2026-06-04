@@ -158,8 +158,8 @@ def parse_fixtures():
       if name == "IR Iran": return "Iran"
       return name
 
-    # We take up to 16 matches to display (focusing on opening matches and Group Stage Matchday 1)
-    for idx, match in enumerate(fixtures_list[:16]):
+    # We parse all matches from the official tournament fixtures list
+    for idx, match in enumerate(fixtures_list):
       match_num = match.get("MatchNumber")
       
       home_team = match.get("HomeTeam", "TBD")
@@ -292,10 +292,25 @@ def parse_fixtures():
         "away": away_players
       }
 
+      group = match.get('Group')
+      if group:
+        stage_label = f"{group} • Match #{match.get('MatchNumber')}"
+      else:
+        round_map = {
+          4: "Round of 32",
+          5: "Round of 16",
+          6: "Quarter-finals",
+          7: "Semi-finals",
+          8: "Finals"
+        }
+        r_num = match.get("RoundNumber")
+        round_lbl = round_map.get(r_num, "Knockout Stage")
+        stage_label = f"{round_lbl} • Match #{match.get('MatchNumber')}"
+
       predictions = calculate_predictions(home_team, away_team)
       formatted_matches.append({
         "id": match.get("MatchNumber", idx + 300),
-        "stage": f"{match.get('Group', 'Group Stage')} • Match #{match.get('MatchNumber')}",
+        "stage": stage_label,
         "home": home_team,
         "homeFlag": home_flag,
         "away": away_team,

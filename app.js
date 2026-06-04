@@ -346,7 +346,16 @@ const translations = {
     win_probability: 'Win Probability',
     home_win: 'Home Win',
     draw: 'Draw',
-    away_win: 'Away Win'
+    away_win: 'Away Win',
+    tab_bracket: 'Bracket',
+    bracket_title: 'Playoff Predictor',
+    btn_reset_bracket: 'Reset Predictions',
+    round_r16: 'Round of 16',
+    round_qf: 'Quarter-finals',
+    round_sf: 'Semi-finals',
+    round_final: 'Final',
+    round_champion: 'Champion',
+    predicted_champion: 'PREDICTED CHAMPION'
   },
   es: {
     live_ticker: 'Marcador en vivo',
@@ -426,7 +435,16 @@ const translations = {
     win_probability: 'Probabilidad de Victoria',
     home_win: 'Victoria Local',
     draw: 'Empate',
-    away_win: 'Victoria Visitante'
+    away_win: 'Victoria Visitante',
+    tab_bracket: 'Cuadro',
+    bracket_title: 'Pronosticador de Playoffs',
+    btn_reset_bracket: 'Restablecer Cuadro',
+    round_r16: 'Octavos de Final',
+    round_qf: 'Cuartos de Final',
+    round_sf: 'Semifinales',
+    round_final: 'Final',
+    round_champion: 'Campeón',
+    predicted_champion: 'CAMPEÓN PRONOSTICADO'
   },
   ca: {
     live_ticker: 'Marcador en viu',
@@ -506,7 +524,16 @@ const translations = {
     win_probability: 'Probabilitat de Victòria',
     home_win: 'Victòria Local',
     draw: 'Empat',
-    away_win: 'Victòria Visitant'
+    away_win: 'Victòria Visitant',
+    tab_bracket: 'Quadre',
+    bracket_title: 'Pronosticador de Playoffs',
+    btn_reset_bracket: 'Restablir Quadre',
+    round_r16: 'Vuitens de Final',
+    round_qf: 'Quarts de Final',
+    round_sf: 'Semifinals',
+    round_final: 'Final',
+    round_champion: 'Campió',
+    predicted_champion: 'CAMPIÓ PRONOSTICAT'
   }
 };
 
@@ -1393,11 +1420,287 @@ function renderGroupStandings() {
   DOM.matchesList.appendChild(tableContainer);
 }
 
+// --- Playoff Bracket Prediction Visualizer ---
+const defaultSeeds = [
+  { id: 89, home: "Spain", homeFlag: "🇪🇸", away: "Croatia", awayFlag: "🇭🇷" },
+  { id: 90, home: "Germany", homeFlag: "🇩🇪", away: "Denmark", awayFlag: "🇩🇰" },
+  { id: 91, home: "Argentina", homeFlag: "🇦🇷", away: "Australia", awayFlag: "🇦🇺" },
+  { id: 92, home: "Netherlands", homeFlag: "🇳🇱", away: "United States", awayFlag: "🇺🇸" },
+  { id: 93, home: "England", homeFlag: "🏴󠁧󠁢󠁥󠁮󠁧󠁿", away: "Senegal", awayFlag: "🇸🇳" },
+  { id: 94, home: "France", homeFlag: "🇫🇷", away: "Poland", awayFlag: "🇵🇱" },
+  { id: 95, home: "Portugal", homeFlag: "🇵🇹", away: "Switzerland", awayFlag: "🇨🇭" },
+  { id: 96, home: "Brazil", homeFlag: "🇧🇷", away: "Uruguay", awayFlag: "🇺🇾" }
+];
+
+const nodeMatches = [
+  { id: 89, type: 'r16', name: 'Round of 16' }, // 0
+  { id: 90, type: 'r16', name: 'Round of 16' }, // 1
+  { id: 91, type: 'r16', name: 'Round of 16' }, // 2
+  { id: 92, type: 'r16', name: 'Round of 16' }, // 3
+  { id: 93, type: 'r16', name: 'Round of 16' }, // 4
+  { id: 94, type: 'r16', name: 'Round of 16' }, // 5
+  { id: 95, type: 'r16', name: 'Round of 16' }, // 6
+  { id: 96, type: 'r16', name: 'Round of 16' }, // 7
+  { id: 97, type: 'qf', name: 'Quarter-finals', sourceHome: 0, sourceAway: 1 }, // 8
+  { id: 98, type: 'qf', name: 'Quarter-finals', sourceHome: 2, sourceAway: 3 }, // 9
+  { id: 99, type: 'qf', name: 'Quarter-finals', sourceHome: 4, sourceAway: 5 }, // 10
+  { id: 100, type: 'qf', name: 'Quarter-finals', sourceHome: 6, sourceAway: 7 }, // 11
+  { id: 101, type: 'sf', name: 'Semi-finals', sourceHome: 8, sourceAway: 9 }, // 12
+  { id: 102, type: 'sf', name: 'Semi-finals', sourceHome: 10, sourceAway: 11 }, // 13
+  { id: 104, type: 'final', name: 'Final', sourceHome: 12, sourceAway: 13 } // 14
+];
+
+function getTeamFlag(teamName) {
+  if (!teamName || teamName === 'TBD' || teamName === 'To be announced') return '⚽';
+  const m = state.matches.find(match => match.home === teamName || match.away === teamName);
+  if (m) return m.home === teamName ? m.homeFlag : m.awayFlag;
+  const seed = defaultSeeds.find(s => s.home === teamName || s.away === teamName);
+  if (seed) return seed.home === teamName ? seed.homeFlag : seed.awayFlag;
+  return '⚽';
+}
+
+function renderPlayoffBracket() {
+  DOM.matchesList.innerHTML = '';
+  
+  const preds = JSON.parse(localStorage.getItem('matchday_bracket_preds') || '{}');
+  const nodes = [];
+  let predsChanged = false;
+
+  for (let i = 0; i < 15; i++) {
+    const meta = nodeMatches[i];
+    const realMatch = state.matches.find(m => m.id === meta.id);
+    const isFinished = realMatch && realMatch.status === 'finished';
+    
+    let actualWinner = null;
+    if (isFinished) {
+      if (realMatch.homeScore > realMatch.awayScore) actualWinner = realMatch.home;
+      else if (realMatch.awayScore > realMatch.homeScore) actualWinner = realMatch.away;
+      else actualWinner = realMatch.home;
+    }
+
+    let home = "TBD";
+    let homeFlag = "⚽";
+    let away = "TBD";
+    let awayFlag = "⚽";
+
+    if (meta.type === 'r16') {
+      const seed = defaultSeeds[i];
+      const hasRealHome = realMatch && realMatch.home && realMatch.home !== "To be announced" && realMatch.home !== "TBD";
+      const hasRealAway = realMatch && realMatch.away && realMatch.away !== "To be announced" && realMatch.away !== "TBD";
+      
+      home = hasRealHome ? realMatch.home : seed.home;
+      homeFlag = hasRealHome ? realMatch.homeFlag : seed.homeFlag;
+      
+      away = hasRealAway ? realMatch.away : seed.away;
+      awayFlag = hasRealAway ? realMatch.awayFlag : seed.awayFlag;
+    } else {
+      const sHomeNode = nodes[meta.sourceHome];
+      if (sHomeNode && sHomeNode.winner && sHomeNode.winner !== "TBD") {
+        home = sHomeNode.winner;
+        homeFlag = getTeamFlag(home);
+      } else {
+        const hasRealHome = realMatch && realMatch.home && realMatch.home !== "To be announced" && realMatch.home !== "TBD";
+        if (hasRealHome) {
+          home = realMatch.home;
+          homeFlag = realMatch.homeFlag;
+        }
+      }
+
+      const sAwayNode = nodes[meta.sourceAway];
+      if (sAwayNode && sAwayNode.winner && sAwayNode.winner !== "TBD") {
+        away = sAwayNode.winner;
+        awayFlag = getTeamFlag(away);
+      } else {
+        const hasRealAway = realMatch && realMatch.away && realMatch.away !== "To be announced" && realMatch.away !== "TBD";
+        if (hasRealAway) {
+          away = realMatch.away;
+          awayFlag = realMatch.awayFlag;
+        }
+      }
+    }
+
+    let predictedWinner = preds[i] || null;
+    if (predictedWinner && predictedWinner !== home && predictedWinner !== away) {
+      predictedWinner = null;
+      delete preds[i];
+      predsChanged = true;
+    }
+
+    let winner = null;
+    if (isFinished) {
+      winner = actualWinner;
+    } else if (predictedWinner) {
+      winner = predictedWinner;
+    }
+
+    nodes.push({
+      index: i,
+      id: meta.id,
+      type: meta.type,
+      name: meta.name,
+      home,
+      homeFlag,
+      away,
+      awayFlag,
+      predictedWinner,
+      actualWinner,
+      winner,
+      isFinished,
+      realMatch
+    });
+  }
+
+  if (predsChanged) {
+    localStorage.setItem('matchday_bracket_preds', JSON.stringify(preds));
+  }
+
+  const finalNode = nodes[14];
+  let champion = null;
+  let championFlag = "⚽";
+  if (finalNode && finalNode.winner && finalNode.winner !== "TBD") {
+    champion = finalNode.winner;
+    championFlag = getTeamFlag(champion);
+  }
+
+  const bracketContainer = document.createElement('div');
+  bracketContainer.className = 'bracket-container';
+
+  const headerDiv = document.createElement('div');
+  headerDiv.className = 'bracket-header';
+  headerDiv.innerHTML = `
+    <h3 class="bracket-title">${t('bracket_title', 'Playoff Predictor')}</h3>
+    <button class="btn-reset-bracket" id="resetBracketBtn">
+      <svg xmlns="http://www.w3.org/2000/svg" width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" style="margin-right: 4px; vertical-align: middle;"><path d="M21.5 2v6h-6M21.34 15.57a10 10 0 1 1-.57-8.38l5.67-5.67"/></svg>
+      <span>${t('btn_reset_bracket', 'Reset Predictions')}</span>
+    </button>
+  `;
+  bracketContainer.appendChild(headerDiv);
+
+  const scrollWrapper = document.createElement('div');
+  scrollWrapper.className = 'bracket-scroll-wrapper';
+
+  const canvas = document.createElement('div');
+  canvas.className = 'bracket-canvas';
+
+  const rounds = [
+    { type: 'r16', name: t('round_r16', 'Round of 16'), indices: [0, 1, 2, 3, 4, 5, 6, 7] },
+    { type: 'qf', name: t('round_qf', 'Quarter-finals'), indices: [8, 9, 10, 11] },
+    { type: 'sf', name: t('round_sf', 'Semi-finals'), indices: [12, 13] },
+    { type: 'final', name: t('round_final', 'Final'), indices: [14] }
+  ];
+
+  rounds.forEach(round => {
+    const roundDiv = document.createElement('div');
+    roundDiv.className = 'bracket-round';
+    roundDiv.setAttribute('data-round', round.type);
+
+    const titleDiv = document.createElement('div');
+    titleDiv.className = 'bracket-round-title';
+    titleDiv.textContent = round.name;
+    roundDiv.appendChild(titleDiv);
+
+    const matchesDiv = document.createElement('div');
+    matchesDiv.className = 'bracket-round-matches';
+
+    round.indices.forEach((nodeIdx) => {
+      const node = nodes[nodeIdx];
+      const card = document.createElement('div');
+      card.className = 'bracket-match-card';
+      card.setAttribute('data-node-index', nodeIdx);
+
+      const meta = document.createElement('div');
+      meta.className = 'bracket-match-meta';
+      meta.textContent = `${t('match', 'Match')} #${node.id}`;
+      card.appendChild(meta);
+
+      const makeTeamRow = (teamType, name, flag) => {
+        const row = document.createElement('div');
+        row.className = 'bracket-team-row';
+        row.setAttribute('data-team', name);
+
+        const isTbd = !name || name === 'TBD' || name === 'To be announced';
+        if (isTbd) row.classList.add('disabled');
+
+        const isSelected = node.winner === name && !isTbd;
+        const isCorrect = node.isFinished && node.actualWinner === name && node.predictedWinner === name;
+        const isIncorrect = node.isFinished && node.predictedWinner === name && node.actualWinner !== name;
+
+        if (isSelected) row.classList.add('selected');
+        if (isCorrect) row.classList.add('correct');
+        if (isIncorrect) row.classList.add('incorrect');
+
+        row.innerHTML = `
+          <span class="bracket-flag">${flag || '⚽'}</span>
+          <span class="bracket-team-name">${name}</span>
+          ${node.isFinished && node.actualWinner === name ? '<span class="winner-badge">✓</span>' : ''}
+        `;
+
+        if (!isTbd && !node.isFinished) {
+          row.addEventListener('click', (e) => {
+            e.stopPropagation();
+            preds[nodeIdx] = name;
+            localStorage.setItem('matchday_bracket_preds', JSON.stringify(preds));
+            renderPlayoffBracket();
+          });
+        }
+        return row;
+      };
+
+      card.appendChild(makeTeamRow('home', node.home, node.homeFlag));
+      card.appendChild(makeTeamRow('away', node.away, node.awayFlag));
+      matchesDiv.appendChild(card);
+    });
+
+    roundDiv.appendChild(matchesDiv);
+    canvas.appendChild(roundDiv);
+  });
+
+  const champRound = document.createElement('div');
+  champRound.className = 'bracket-round';
+  champRound.setAttribute('data-round', 'champion');
+
+  const champTitle = document.createElement('div');
+  champTitle.className = 'bracket-round-title';
+  champTitle.textContent = t('round_champion', 'Champion');
+  champRound.appendChild(champTitle);
+
+  const champContainer = document.createElement('div');
+  champContainer.className = 'bracket-round-champion-container';
+
+  const champCard = document.createElement('div');
+  champCard.className = `bracket-champion-card ${champion ? 'has-champion' : ''}`;
+  champCard.innerHTML = `
+    <div class="champion-label">${t('predicted_champion', 'PREDICTED CHAMPION')}</div>
+    <div class="champion-trophy">🏆</div>
+    <div class="champion-team-name">${champion || 'TBD'}</div>
+    <div class="champion-flag">${championFlag}</div>
+  `;
+  champContainer.appendChild(champCard);
+  champRound.appendChild(champContainer);
+  canvas.appendChild(champRound);
+
+  scrollWrapper.appendChild(canvas);
+  bracketContainer.appendChild(scrollWrapper);
+  DOM.matchesList.appendChild(bracketContainer);
+
+  const resetBtn = bracketContainer.querySelector('#resetBracketBtn');
+  if (resetBtn) {
+    resetBtn.addEventListener('click', () => {
+      localStorage.removeItem('matchday_bracket_preds');
+      renderPlayoffBracket();
+    });
+  }
+}
+
 function renderMatchesList() {
   DOM.matchesList.innerHTML = '';
   
   if (state.activeTab === 'standings') {
     renderGroupStandings();
+    return;
+  }
+  if (state.activeTab === 'bracket') {
+    renderPlayoffBracket();
     return;
   }
   

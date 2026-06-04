@@ -2552,4 +2552,318 @@ body.light-theme .mesh-glow {
   opacity: 0.06;
 }
 
+/* --- Interactive Playoff Bracket Visualizer --- */
+.bracket-container {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  padding: 10px;
+}
+
+.bracket-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 12px;
+  padding: 0 4px;
+}
+
+.bracket-title {
+  font-family: var(--font-display);
+  font-size: 1.1rem;
+  font-weight: 700;
+  color: var(--text-primary);
+}
+
+.btn-reset-bracket {
+  background: rgba(239, 68, 68, 0.1);
+  border: 1px solid rgba(239, 68, 68, 0.3);
+  color: var(--danger);
+  font-family: var(--font-display);
+  font-size: 11px;
+  font-weight: 600;
+  padding: 6px 12px;
+  border-radius: 20px;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  transition: all 0.2s var(--ease-smooth);
+}
+
+.btn-reset-bracket:hover {
+  background: rgba(239, 68, 68, 0.2);
+  border-color: var(--danger);
+}
+
+.bracket-scroll-wrapper {
+  overflow-x: auto;
+  overflow-y: hidden;
+  flex-grow: 1;
+  padding: 10px 0 20px 0;
+  display: flex;
+  align-items: stretch;
+  scrollbar-width: thin;
+  scrollbar-color: rgba(255,255,255,0.1) transparent;
+}
+
+.bracket-scroll-wrapper::-webkit-scrollbar {
+  height: 6px;
+}
+
+.bracket-scroll-wrapper::-webkit-scrollbar-thumb {
+  background: rgba(255,255,255,0.1);
+  border-radius: 4px;
+}
+
+.bracket-canvas {
+  display: flex;
+  gap: 40px;
+  min-width: max-content;
+  align-items: stretch;
+  height: 100%;
+}
+
+.bracket-round {
+  display: flex;
+  flex-direction: column;
+  width: 210px;
+  height: 100%;
+}
+
+.bracket-round-title {
+  font-family: var(--font-display);
+  font-size: 0.75rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  color: var(--secondary);
+  text-align: center;
+  margin-bottom: 12px;
+  letter-spacing: 1.5px;
+  background: rgba(255, 255, 255, 0.02);
+  padding: 6px;
+  border-radius: 6px;
+  border: 1px solid var(--border-color);
+}
+
+.bracket-round-matches {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  flex-grow: 1;
+  gap: 15px;
+  padding: 10px 0;
+}
+
+.bracket-match-card {
+  background: var(--bg-card);
+  border: 1px solid var(--border-color);
+  border-radius: 10px;
+  padding: 10px;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.4);
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+  position: relative;
+  transition: all 0.3s var(--ease-spring);
+  backdrop-filter: blur(10px);
+  -webkit-backdrop-filter: blur(10px);
+}
+
+.bracket-match-card:hover {
+  transform: translateY(-2px);
+  border-color: rgba(255, 255, 255, 0.15);
+  box-shadow: 0 6px 24px rgba(0, 0, 0, 0.5);
+}
+
+.bracket-match-meta {
+  font-size: 0.65rem;
+  color: var(--text-muted);
+  font-family: var(--font-body);
+  font-weight: 600;
+  margin-bottom: 2px;
+  letter-spacing: 0.5px;
+}
+
+.bracket-team-row {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  padding: 8px 10px;
+  border-radius: 6px;
+  cursor: pointer;
+  user-select: none;
+  font-size: 0.85rem;
+  font-family: var(--font-body);
+  font-weight: 500;
+  transition: all 0.2s ease;
+  border: 1px solid transparent;
+  color: var(--text-primary);
+}
+
+.bracket-team-row.disabled {
+  cursor: not-allowed;
+  opacity: 0.4;
+  color: var(--text-muted);
+}
+
+.bracket-team-row:hover:not(.disabled) {
+  background: rgba(255, 255, 255, 0.05);
+}
+
+.bracket-team-row.selected {
+  background: rgba(245, 158, 11, 0.1);
+  border-color: var(--secondary);
+  font-weight: 600;
+}
+
+.bracket-team-row.correct {
+  background: rgba(16, 185, 129, 0.12) !important;
+  border-color: var(--primary) !important;
+  color: var(--primary) !important;
+  font-weight: 600;
+}
+
+.bracket-team-row.incorrect {
+  background: rgba(239, 68, 68, 0.12) !important;
+  border-color: var(--danger) !important;
+  color: var(--danger) !important;
+  text-decoration: line-through;
+}
+
+.bracket-flag {
+  font-size: 1.1rem;
+}
+
+.bracket-team-name {
+  flex-grow: 1;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.winner-badge {
+  color: var(--primary);
+  font-weight: 700;
+  font-size: 0.85rem;
+}
+
+.bracket-round-champion-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-grow: 1;
+  height: 100%;
+}
+
+.bracket-champion-card {
+  background: radial-gradient(circle at top left, rgba(245, 158, 11, 0.15), rgba(10, 10, 12, 0.6));
+  border: 1px solid var(--secondary);
+  border-radius: 14px;
+  padding: 24px;
+  width: 100%;
+  text-align: center;
+  box-shadow: 0 8px 32px rgba(245, 158, 11, 0.1);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 12px;
+  backdrop-filter: blur(10px);
+  -webkit-backdrop-filter: blur(10px);
+  animation: scaleIn 0.5s var(--ease-spring);
+}
+
+.champion-label {
+  font-family: var(--font-display);
+  font-size: 0.7rem;
+  color: var(--secondary);
+  font-weight: 700;
+  letter-spacing: 2px;
+}
+
+.champion-trophy {
+  font-size: 3rem;
+  filter: drop-shadow(0 0 10px rgba(245, 158, 11, 0.4));
+  animation: trophy-bounce 2s infinite ease-in-out;
+}
+
+.champion-team-name {
+  font-family: var(--font-display);
+  font-size: 1.15rem;
+  font-weight: 800;
+  color: var(--text-primary);
+  letter-spacing: 0.5px;
+}
+
+.champion-flag {
+  font-size: 1.8rem;
+}
+
+/* Bracket connection lines */
+.bracket-round:not([data-round="champion"]) .bracket-match-card::after {
+  content: '';
+  position: absolute;
+  right: -20px;
+  top: 50%;
+  width: 20px;
+  height: 1px;
+  background: rgba(255, 255, 255, 0.1);
+  pointer-events: none;
+}
+
+.bracket-round:not([data-round="r16"]) .bracket-match-card::before {
+  content: '';
+  position: absolute;
+  left: -20px;
+  top: 50%;
+  width: 20px;
+  height: 1px;
+  background: rgba(255, 255, 255, 0.1);
+  pointer-events: none;
+}
+
+/* Light Theme Overrides */
+body.light-theme .bracket-title {
+  color: #1e293b;
+}
+
+body.light-theme .bracket-round-title {
+  background: rgba(0, 0, 0, 0.02);
+  border-color: rgba(0, 0, 0, 0.05);
+}
+
+body.light-theme .bracket-match-card {
+  background: rgba(255, 255, 255, 0.8);
+  border-color: rgba(0, 0, 0, 0.08);
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.05);
+}
+
+body.light-theme .bracket-match-card:hover {
+  border-color: rgba(0, 0, 0, 0.15);
+  box-shadow: 0 6px 20px rgba(0, 0, 0, 0.08);
+}
+
+body.light-theme .bracket-team-row {
+  color: #334155;
+}
+
+body.light-theme .bracket-team-row:hover:not(.disabled) {
+  background: rgba(0, 0, 0, 0.03);
+}
+
+body.light-theme .bracket-champion-card {
+  background: radial-gradient(circle at top left, rgba(245, 158, 11, 0.1), rgba(255, 255, 255, 0.9));
+  border-color: var(--secondary);
+  box-shadow: 0 8px 24px rgba(245, 158, 11, 0.05);
+}
+
+body.light-theme .champion-team-name {
+  color: #1e293b;
+}
+
+body.light-theme .bracket-round:not([data-round="champion"]) .bracket-match-card::after,
+body.light-theme .bracket-round:not([data-round="r16"]) .bracket-match-card::before {
+  background: rgba(0, 0, 0, 0.08);
+}
+
 

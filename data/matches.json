@@ -1054,5 +1054,5813 @@
       "draw": 10,
       "away": 6
     }
+  },
+  {
+    "id": 17,
+    "stage": "Group I • Match #17",
+    "home": "France",
+    "homeFlag": "🇫🇷",
+    "away": "Senegal",
+    "awayFlag": "🇸🇳",
+    "homeScore": 0,
+    "awayScore": 0,
+    "status": "upcoming",
+    "minute": 0,
+    "date": "Jun 16, 19:00 UTC",
+    "location": "New York/New Jersey Stadium",
+    "events": [],
+    "stats": {
+      "possession": [
+        50,
+        50
+      ],
+      "shots": [
+        0,
+        0
+      ],
+      "fouls": [
+        0,
+        0
+      ],
+      "corners": [
+        0,
+        0
+      ]
+    },
+    "lineups": {
+      "home": [
+        "France Player 1",
+        "France Player 2",
+        "France Player 3",
+        "France Player 4",
+        "France Player 5",
+        "France Player 6",
+        "France Player 7",
+        "France Player 8",
+        "France Player 9",
+        "France Player 10",
+        "France Player 11"
+      ],
+      "away": [
+        "Senegal Player 1",
+        "Senegal Player 2",
+        "Senegal Player 3",
+        "Senegal Player 4",
+        "Senegal Player 5",
+        "Senegal Player 6",
+        "Senegal Player 7",
+        "Senegal Player 8",
+        "Senegal Player 9",
+        "Senegal Player 10",
+        "Senegal Player 11"
+      ]
+    },
+    "predictions": {
+      "home": 66,
+      "draw": 15,
+      "away": 19
+    }
+  },
+  {
+    "id": 18,
+    "stage": "Group I • Match #18",
+    "home": "Iraq",
+    "homeFlag": "🇮🇶",
+    "away": "Norway",
+    "awayFlag": "🇳🇴",
+    "homeScore": 0,
+    "awayScore": 0,
+    "status": "upcoming",
+    "minute": 0,
+    "date": "Jun 16, 22:00 UTC",
+    "location": "Boston Stadium",
+    "events": [],
+    "stats": {
+      "possession": [
+        50,
+        50
+      ],
+      "shots": [
+        0,
+        0
+      ],
+      "fouls": [
+        0,
+        0
+      ],
+      "corners": [
+        0,
+        0
+      ]
+    },
+    "lineups": {
+      "home": [
+        "Iraq Player 1",
+        "Iraq Player 2",
+        "Iraq Player 3",
+        "Iraq Player 4",
+        "Iraq Player 5",
+        "Iraq Player 6",
+        "Iraq Player 7",
+        "Iraq Player 8",
+        "Iraq Player 9",
+        "Iraq Player 10",
+        "Iraq Player 11"
+      ],
+      "away": [
+        "Norway Player 1",
+        "Norway Player 2",
+        "Norway Player 3",
+        "Norway Player 4",
+        "Norway Player 5",
+        "Norway Player 6",
+        "Norway Player 7",
+        "Norway Player 8",
+        "Norway Player 9",
+        "Norway Player 10",
+        "Norway Player 11"
+      ]
+    },
+    "predictions": {
+      "home": 34,
+      "draw": 24,
+      "away": 42
+    }
+  },
+  {
+    "id": 19,
+    "stage": "Group J • Match #19",
+    "home": "Argentina",
+    "homeFlag": "🇦🇷",
+    "away": "Algeria",
+    "awayFlag": "🇩🇿",
+    "homeScore": 0,
+    "awayScore": 0,
+    "status": "upcoming",
+    "minute": 0,
+    "date": "Jun 17, 01:00 UTC",
+    "location": "Kansas City Stadium",
+    "events": [],
+    "stats": {
+      "possession": [
+        50,
+        50
+      ],
+      "shots": [
+        0,
+        0
+      ],
+      "fouls": [
+        0,
+        0
+      ],
+      "corners": [
+        0,
+        0
+      ]
+    },
+    "lineups": {
+      "home": [
+        "Argentina Player 1",
+        "Argentina Player 2",
+        "Argentina Player 3",
+        "Argentina Player 4",
+        "Argentina Player 5",
+        "Argentina Player 6",
+        "Argentina Player 7",
+        "Argentina Player 8",
+        "Argentina Player 9",
+        "Argentina Player 10",
+        "Argentina Player 11"
+      ],
+      "away": [
+        "Algeria Player 1",
+        "Algeria Player 2",
+        "Algeria Player 3",
+        "Algeria Player 4",
+        "Algeria Player 5",
+        "Algeria Player 6",
+        "Algeria Player 7",
+        "Algeria Player 8",
+        "Algeria Player 9",
+        "Algeria Player 10",
+        "Algeria Player 11"
+      ]
+    },
+    "predictions": {
+      "home": 81,
+      "draw": 10,
+      "away": 9
+    }
+  },
+  {
+    "id": 20,
+    "stage": "Group J • Match #20",
+    "home": "Austria",
+    "homeFlag": "🇦🇹",
+    "away": "Jordan",
+    "awayFlag": "🇯🇴",
+    "homeScore": 0,
+    "awayScore": 0,
+    "status": "upcoming",
+    "minute": 0,
+    "date": "Jun 17, 04:00 UTC",
+    "location": "San Francisco Bay Area Stadium",
+    "events": [],
+    "stats": {
+      "possession": [
+        50,
+        50
+      ],
+      "shots": [
+        0,
+        0
+      ],
+      "fouls": [
+        0,
+        0
+      ],
+      "corners": [
+        0,
+        0
+      ]
+    },
+    "lineups": {
+      "home": [
+        "Austria Player 1",
+        "Austria Player 2",
+        "Austria Player 3",
+        "Austria Player 4",
+        "Austria Player 5",
+        "Austria Player 6",
+        "Austria Player 7",
+        "Austria Player 8",
+        "Austria Player 9",
+        "Austria Player 10",
+        "Austria Player 11"
+      ],
+      "away": [
+        "Jordan Player 1",
+        "Jordan Player 2",
+        "Jordan Player 3",
+        "Jordan Player 4",
+        "Jordan Player 5",
+        "Jordan Player 6",
+        "Jordan Player 7",
+        "Jordan Player 8",
+        "Jordan Player 9",
+        "Jordan Player 10",
+        "Jordan Player 11"
+      ]
+    },
+    "predictions": {
+      "home": 61,
+      "draw": 17,
+      "away": 22
+    }
+  },
+  {
+    "id": 23,
+    "stage": "Group K • Match #23",
+    "home": "Portugal",
+    "homeFlag": "🇵🇹",
+    "away": "Congo DR",
+    "awayFlag": "⚽",
+    "homeScore": 0,
+    "awayScore": 0,
+    "status": "upcoming",
+    "minute": 0,
+    "date": "Jun 17, 17:00 UTC",
+    "location": "Houston Stadium",
+    "events": [],
+    "stats": {
+      "possession": [
+        50,
+        50
+      ],
+      "shots": [
+        0,
+        0
+      ],
+      "fouls": [
+        0,
+        0
+      ],
+      "corners": [
+        0,
+        0
+      ]
+    },
+    "lineups": {
+      "home": [
+        "Portugal Player 1",
+        "Portugal Player 2",
+        "Portugal Player 3",
+        "Portugal Player 4",
+        "Portugal Player 5",
+        "Portugal Player 6",
+        "Portugal Player 7",
+        "Portugal Player 8",
+        "Portugal Player 9",
+        "Portugal Player 10",
+        "Portugal Player 11"
+      ],
+      "away": [
+        "Congo DR Player 1",
+        "Congo DR Player 2",
+        "Congo DR Player 3",
+        "Congo DR Player 4",
+        "Congo DR Player 5",
+        "Congo DR Player 6",
+        "Congo DR Player 7",
+        "Congo DR Player 8",
+        "Congo DR Player 9",
+        "Congo DR Player 10",
+        "Congo DR Player 11"
+      ]
+    },
+    "predictions": {
+      "home": 76,
+      "draw": 11,
+      "away": 13
+    }
+  },
+  {
+    "id": 22,
+    "stage": "Group L • Match #22",
+    "home": "England",
+    "homeFlag": "🏴󠁧󠁢󠁥󠁮󠁧󠁿",
+    "away": "Croatia",
+    "awayFlag": "🇭🇷",
+    "homeScore": 0,
+    "awayScore": 0,
+    "status": "upcoming",
+    "minute": 0,
+    "date": "Jun 17, 20:00 UTC",
+    "location": "Dallas Stadium",
+    "events": [],
+    "stats": {
+      "possession": [
+        50,
+        50
+      ],
+      "shots": [
+        0,
+        0
+      ],
+      "fouls": [
+        0,
+        0
+      ],
+      "corners": [
+        0,
+        0
+      ]
+    },
+    "lineups": {
+      "home": [
+        "England Player 1",
+        "England Player 2",
+        "England Player 3",
+        "England Player 4",
+        "England Player 5",
+        "England Player 6",
+        "England Player 7",
+        "England Player 8",
+        "England Player 9",
+        "England Player 10",
+        "England Player 11"
+      ],
+      "away": [
+        "Croatia Player 1",
+        "Croatia Player 2",
+        "Croatia Player 3",
+        "Croatia Player 4",
+        "Croatia Player 5",
+        "Croatia Player 6",
+        "Croatia Player 7",
+        "Croatia Player 8",
+        "Croatia Player 9",
+        "Croatia Player 10",
+        "Croatia Player 11"
+      ]
+    },
+    "predictions": {
+      "home": 47,
+      "draw": 22,
+      "away": 31
+    }
+  },
+  {
+    "id": 21,
+    "stage": "Group L • Match #21",
+    "home": "Ghana",
+    "homeFlag": "🇬🇭",
+    "away": "Panama",
+    "awayFlag": "🇵🇦",
+    "homeScore": 0,
+    "awayScore": 0,
+    "status": "upcoming",
+    "minute": 0,
+    "date": "Jun 17, 23:00 UTC",
+    "location": "Toronto Stadium",
+    "events": [],
+    "stats": {
+      "possession": [
+        50,
+        50
+      ],
+      "shots": [
+        0,
+        0
+      ],
+      "fouls": [
+        0,
+        0
+      ],
+      "corners": [
+        0,
+        0
+      ]
+    },
+    "lineups": {
+      "home": [
+        "Ghana Player 1",
+        "Ghana Player 2",
+        "Ghana Player 3",
+        "Ghana Player 4",
+        "Ghana Player 5",
+        "Ghana Player 6",
+        "Ghana Player 7",
+        "Ghana Player 8",
+        "Ghana Player 9",
+        "Ghana Player 10",
+        "Ghana Player 11"
+      ],
+      "away": [
+        "Panama Player 1",
+        "Panama Player 2",
+        "Panama Player 3",
+        "Panama Player 4",
+        "Panama Player 5",
+        "Panama Player 6",
+        "Panama Player 7",
+        "Panama Player 8",
+        "Panama Player 9",
+        "Panama Player 10",
+        "Panama Player 11"
+      ]
+    },
+    "predictions": {
+      "home": 32,
+      "draw": 23,
+      "away": 45
+    }
+  },
+  {
+    "id": 24,
+    "stage": "Group K • Match #24",
+    "home": "Uzbekistan",
+    "homeFlag": "🇺🇿",
+    "away": "Colombia",
+    "awayFlag": "🇨🇴",
+    "homeScore": 0,
+    "awayScore": 0,
+    "status": "upcoming",
+    "minute": 0,
+    "date": "Jun 18, 02:00 UTC",
+    "location": "Mexico City Stadium",
+    "events": [],
+    "stats": {
+      "possession": [
+        50,
+        50
+      ],
+      "shots": [
+        0,
+        0
+      ],
+      "fouls": [
+        0,
+        0
+      ],
+      "corners": [
+        0,
+        0
+      ]
+    },
+    "lineups": {
+      "home": [
+        "Uzbekistan Player 1",
+        "Uzbekistan Player 2",
+        "Uzbekistan Player 3",
+        "Uzbekistan Player 4",
+        "Uzbekistan Player 5",
+        "Uzbekistan Player 6",
+        "Uzbekistan Player 7",
+        "Uzbekistan Player 8",
+        "Uzbekistan Player 9",
+        "Uzbekistan Player 10",
+        "Uzbekistan Player 11"
+      ],
+      "away": [
+        "Colombia Player 1",
+        "Colombia Player 2",
+        "Colombia Player 3",
+        "Colombia Player 4",
+        "Colombia Player 5",
+        "Colombia Player 6",
+        "Colombia Player 7",
+        "Colombia Player 8",
+        "Colombia Player 9",
+        "Colombia Player 10",
+        "Colombia Player 11"
+      ]
+    },
+    "predictions": {
+      "home": 14,
+      "draw": 12,
+      "away": 74
+    }
+  },
+  {
+    "id": 25,
+    "stage": "Group A • Match #25",
+    "home": "Czechia",
+    "homeFlag": "🇨🇿",
+    "away": "South Africa",
+    "awayFlag": "🇿🇦",
+    "homeScore": 0,
+    "awayScore": 0,
+    "status": "upcoming",
+    "minute": 0,
+    "date": "Jun 18, 16:00 UTC",
+    "location": "Atlanta Stadium",
+    "events": [],
+    "stats": {
+      "possession": [
+        50,
+        50
+      ],
+      "shots": [
+        0,
+        0
+      ],
+      "fouls": [
+        0,
+        0
+      ],
+      "corners": [
+        0,
+        0
+      ]
+    },
+    "lineups": {
+      "home": [
+        "Stanek",
+        "Holes",
+        "Hranac",
+        "Krejci",
+        "Coufal",
+        "Soucek",
+        "Provod",
+        "Doudera",
+        "Barak",
+        "Hlozek",
+        "Schick"
+      ],
+      "away": [
+        "Williams",
+        "Mudau",
+        "Mvala",
+        "Kekana",
+        "Modiba",
+        "Mokoena",
+        "Sithole",
+        "Zwane",
+        "Morena",
+        "Tau",
+        "Makgopa"
+      ]
+    },
+    "predictions": {
+      "home": 49,
+      "draw": 22,
+      "away": 29
+    }
+  },
+  {
+    "id": 26,
+    "stage": "Group B • Match #26",
+    "home": "Switzerland",
+    "homeFlag": "🇨🇭",
+    "away": "Bosnia and Herzegovina",
+    "awayFlag": "🇧🇦",
+    "homeScore": 0,
+    "awayScore": 0,
+    "status": "upcoming",
+    "minute": 0,
+    "date": "Jun 18, 19:00 UTC",
+    "location": "Los Angeles Stadium",
+    "events": [],
+    "stats": {
+      "possession": [
+        50,
+        50
+      ],
+      "shots": [
+        0,
+        0
+      ],
+      "fouls": [
+        0,
+        0
+      ],
+      "corners": [
+        0,
+        0
+      ]
+    },
+    "lineups": {
+      "home": [
+        "Sommer",
+        "Schär",
+        "Akanji",
+        "Rodriguez",
+        "Widmer",
+        "Xhaka",
+        "Freuler",
+        "Aebischer",
+        "Ndoye",
+        "Vargas",
+        "Embolo"
+      ],
+      "away": [
+        "Džeko",
+        "Demirović",
+        "Kolašinac",
+        "Krunić",
+        "Pirić",
+        "Hadžikadunić",
+        "Ahmedhodžić",
+        "Gazibegović",
+        "Gigović",
+        "Hajradinović",
+        "Tabaković"
+      ]
+    },
+    "predictions": {
+      "home": 74,
+      "draw": 12,
+      "away": 14
+    }
+  },
+  {
+    "id": 27,
+    "stage": "Group B • Match #27",
+    "home": "Canada",
+    "homeFlag": "🇨🇦",
+    "away": "Qatar",
+    "awayFlag": "🇶🇦",
+    "homeScore": 0,
+    "awayScore": 0,
+    "status": "upcoming",
+    "minute": 0,
+    "date": "Jun 18, 22:00 UTC",
+    "location": "BC Place Vancouver",
+    "events": [],
+    "stats": {
+      "possession": [
+        50,
+        50
+      ],
+      "shots": [
+        0,
+        0
+      ],
+      "fouls": [
+        0,
+        0
+      ],
+      "corners": [
+        0,
+        0
+      ]
+    },
+    "lineups": {
+      "home": [
+        "Crepeau",
+        "Johnston",
+        "Miller",
+        "Bombito",
+        "Davies",
+        "Eustaquio",
+        "Kone",
+        "Buchanan",
+        "Jonathan David",
+        "Larin",
+        "Millar"
+      ],
+      "away": [
+        "Barsham",
+        "Miguel",
+        "Mukhtar",
+        "Mendes",
+        "Al-Rawi",
+        "Waad",
+        "Hatem",
+        "Fatehi",
+        "Afif",
+        "Al-Haydos",
+        "Ali"
+      ]
+    },
+    "predictions": {
+      "home": 47,
+      "draw": 22,
+      "away": 31
+    }
+  },
+  {
+    "id": 28,
+    "stage": "Group A • Match #28",
+    "home": "Mexico",
+    "homeFlag": "🇲🇽",
+    "away": "Korea Republic",
+    "awayFlag": "🇰🇷",
+    "homeScore": 0,
+    "awayScore": 0,
+    "status": "upcoming",
+    "minute": 0,
+    "date": "Jun 19, 01:00 UTC",
+    "location": "Guadalajara Stadium",
+    "events": [],
+    "stats": {
+      "possession": [
+        50,
+        50
+      ],
+      "shots": [
+        0,
+        0
+      ],
+      "fouls": [
+        0,
+        0
+      ],
+      "corners": [
+        0,
+        0
+      ]
+    },
+    "lineups": {
+      "home": [
+        "Ochoa",
+        "Montes",
+        "Vásquez",
+        "Gallardo",
+        "Sánchez",
+        "Edson Álvarez",
+        "Chávez",
+        "Pineda",
+        "Lozano",
+        "Giménez",
+        "Antuna"
+      ],
+      "away": [
+        "Jo",
+        "Kim Min-jae",
+        "Jung",
+        "Seol",
+        "Lee Ki-je",
+        "Hwang In-beom",
+        "Park",
+        "Lee Kang-in",
+        "Son Heung-min",
+        "Hwang Hee-chan",
+        "Cho"
+      ]
+    },
+    "predictions": {
+      "home": 46,
+      "draw": 23,
+      "away": 31
+    }
+  },
+  {
+    "id": 32,
+    "stage": "Group D • Match #32",
+    "home": "USA",
+    "homeFlag": "🇺🇸",
+    "away": "Australia",
+    "awayFlag": "🇦🇺",
+    "homeScore": 0,
+    "awayScore": 0,
+    "status": "upcoming",
+    "minute": 0,
+    "date": "Jun 19, 19:00 UTC",
+    "location": "Seattle Stadium",
+    "events": [],
+    "stats": {
+      "possession": [
+        50,
+        50
+      ],
+      "shots": [
+        0,
+        0
+      ],
+      "fouls": [
+        0,
+        0
+      ],
+      "corners": [
+        0,
+        0
+      ]
+    },
+    "lineups": {
+      "home": [
+        "Turner",
+        "Dest",
+        "Richards",
+        "Ream",
+        "Robinson",
+        "McKennie",
+        "Adams",
+        "Musah",
+        "Weah",
+        "Balogun",
+        "Pulisic"
+      ],
+      "away": [
+        "Ryan",
+        "Atkinson",
+        "Rowles",
+        "Souttar",
+        "Behich",
+        "Baccus",
+        "Irvine",
+        "Metcalfe",
+        "Goodwin",
+        "Boyle",
+        "Duke"
+      ]
+    },
+    "predictions": {
+      "home": 48,
+      "draw": 22,
+      "away": 30
+    }
+  },
+  {
+    "id": 30,
+    "stage": "Group C • Match #30",
+    "home": "Scotland",
+    "homeFlag": "🏴󠁧󠁢󠁳󠁣󠁴󠁿",
+    "away": "Morocco",
+    "awayFlag": "🇲🇦",
+    "homeScore": 0,
+    "awayScore": 0,
+    "status": "upcoming",
+    "minute": 0,
+    "date": "Jun 19, 22:00 UTC",
+    "location": "Boston Stadium",
+    "events": [],
+    "stats": {
+      "possession": [
+        50,
+        50
+      ],
+      "shots": [
+        0,
+        0
+      ],
+      "fouls": [
+        0,
+        0
+      ],
+      "corners": [
+        0,
+        0
+      ]
+    },
+    "lineups": {
+      "home": [
+        "Gunn",
+        "Porteous",
+        "Hendry",
+        "Tierney",
+        "Ralston",
+        "McTominay",
+        "McGregor",
+        "Gilmour",
+        "Robertson",
+        "McGinn",
+        "Adams"
+      ],
+      "away": [
+        "Bounou",
+        "Hakimi",
+        "Aguerd",
+        "Saïss",
+        "Allah",
+        "Amrabat",
+        "Ounahi",
+        "Ziyech",
+        "Harit",
+        "Adli",
+        "En-Nesyri"
+      ]
+    },
+    "predictions": {
+      "home": 22,
+      "draw": 17,
+      "away": 61
+    }
+  },
+  {
+    "id": 29,
+    "stage": "Group C • Match #29",
+    "home": "Brazil",
+    "homeFlag": "🇧🇷",
+    "away": "Haiti",
+    "awayFlag": "🇭🇹",
+    "homeScore": 0,
+    "awayScore": 0,
+    "status": "upcoming",
+    "minute": 0,
+    "date": "Jun 20, 01:00 UTC",
+    "location": "Philadelphia Stadium",
+    "events": [],
+    "stats": {
+      "possession": [
+        50,
+        50
+      ],
+      "shots": [
+        0,
+        0
+      ],
+      "fouls": [
+        0,
+        0
+      ],
+      "corners": [
+        0,
+        0
+      ]
+    },
+    "lineups": {
+      "home": [
+        "Alisson",
+        "Danilo",
+        "Marquinhos",
+        "Gabriel",
+        "Arana",
+        "Guimarães",
+        "Gomes",
+        "Paquetá",
+        "Raphinha",
+        "Rodrygo",
+        "Vinícius Jr."
+      ],
+      "away": [
+        "Placide",
+        "Arcus",
+        "Ade",
+        "Christian",
+        "Guerrier",
+        "Alceus",
+        "Pierre",
+        "Nazon",
+        "Etienne",
+        "Pierrot",
+        "Picault"
+      ]
+    },
+    "predictions": {
+      "home": 85,
+      "draw": 10,
+      "away": 5
+    }
+  },
+  {
+    "id": 31,
+    "stage": "Group D • Match #31",
+    "home": "Türkiye",
+    "homeFlag": "🇹🇷",
+    "away": "Paraguay",
+    "awayFlag": "🇵🇾",
+    "homeScore": 0,
+    "awayScore": 0,
+    "status": "upcoming",
+    "minute": 0,
+    "date": "Jun 20, 04:00 UTC",
+    "location": "San Francisco Bay Area Stadium",
+    "events": [],
+    "stats": {
+      "possession": [
+        50,
+        50
+      ],
+      "shots": [
+        0,
+        0
+      ],
+      "fouls": [
+        0,
+        0
+      ],
+      "corners": [
+        0,
+        0
+      ]
+    },
+    "lineups": {
+      "home": [
+        "Günok",
+        "Çelik",
+        "Bardakcı",
+        "Akaydin",
+        "Kadıoğlu",
+        "Ayhan",
+        "Kökçü",
+        "Çalhanoğlu",
+        "Güler",
+        "Yıldız",
+        "Yılmaz"
+      ],
+      "away": [
+        "Coronel",
+        "Balbuena",
+        "Alderete",
+        "Espinoza",
+        "Caceres",
+        "Cubas",
+        "Villasanti",
+        "Diego Gomez",
+        "Almiron",
+        "Enciso",
+        "Sanabria"
+      ]
+    },
+    "predictions": {
+      "home": 43,
+      "draw": 24,
+      "away": 33
+    }
+  },
+  {
+    "id": 35,
+    "stage": "Group F • Match #35",
+    "home": "Netherlands",
+    "homeFlag": "🇳🇱",
+    "away": "Sweden",
+    "awayFlag": "🇸🇪",
+    "homeScore": 0,
+    "awayScore": 0,
+    "status": "upcoming",
+    "minute": 0,
+    "date": "Jun 20, 17:00 UTC",
+    "location": "Houston Stadium",
+    "events": [],
+    "stats": {
+      "possession": [
+        50,
+        50
+      ],
+      "shots": [
+        0,
+        0
+      ],
+      "fouls": [
+        0,
+        0
+      ],
+      "corners": [
+        0,
+        0
+      ]
+    },
+    "lineups": {
+      "home": [
+        "Verbruggen",
+        "Dumfries",
+        "De Vrij",
+        "Van Dijk",
+        "Aké",
+        "Schouten",
+        "Reijnders",
+        "Simons",
+        "Frimpong",
+        "Gakpo",
+        "Depay"
+      ],
+      "away": [
+        "Olsen",
+        "Krafth",
+        "Hien",
+        "Lindelöf",
+        "Augustinsson",
+        "Cajuste",
+        "Salétros",
+        "Kulusevski",
+        "Isak",
+        "Elanga",
+        "Gyökeres"
+      ]
+    },
+    "predictions": {
+      "home": 66,
+      "draw": 15,
+      "away": 19
+    }
+  },
+  {
+    "id": 33,
+    "stage": "Group E • Match #33",
+    "home": "Germany",
+    "homeFlag": "🇩🇪",
+    "away": "Côte d'Ivoire",
+    "awayFlag": "🇨🇮",
+    "homeScore": 0,
+    "awayScore": 0,
+    "status": "upcoming",
+    "minute": 0,
+    "date": "Jun 20, 20:00 UTC",
+    "location": "Toronto Stadium",
+    "events": [],
+    "stats": {
+      "possession": [
+        50,
+        50
+      ],
+      "shots": [
+        0,
+        0
+      ],
+      "fouls": [
+        0,
+        0
+      ],
+      "corners": [
+        0,
+        0
+      ]
+    },
+    "lineups": {
+      "home": [
+        "Ter Stegen",
+        "Kimmich",
+        "Rüdiger",
+        "Tah",
+        "Mittelstädt",
+        "Andrich",
+        "Kroos",
+        "Musiala",
+        "Gündogan",
+        "Wirtz",
+        "Havertz"
+      ],
+      "away": [
+        "Fofana",
+        "Aurier",
+        "Ndicka",
+        "Boly",
+        "Konan",
+        "Kessié",
+        "Seri",
+        "Sangaré",
+        "Adinga",
+        "Haller",
+        "Pépé"
+      ]
+    },
+    "predictions": {
+      "home": 56,
+      "draw": 19,
+      "away": 25
+    }
+  },
+  {
+    "id": 34,
+    "stage": "Group E • Match #34",
+    "home": "Ecuador",
+    "homeFlag": "🇪🇨",
+    "away": "Curaçao",
+    "awayFlag": "🇨🇼",
+    "homeScore": 0,
+    "awayScore": 0,
+    "status": "upcoming",
+    "minute": 0,
+    "date": "Jun 21, 00:00 UTC",
+    "location": "Kansas City Stadium",
+    "events": [],
+    "stats": {
+      "possession": [
+        50,
+        50
+      ],
+      "shots": [
+        0,
+        0
+      ],
+      "fouls": [
+        0,
+        0
+      ],
+      "corners": [
+        0,
+        0
+      ]
+    },
+    "lineups": {
+      "home": [
+        "Domínguez",
+        "Preciado",
+        "Torres",
+        "Hincapié",
+        "Estupiñán",
+        "Gruezo",
+        "Caicedo",
+        "Páez",
+        "Mena",
+        "Sarmiento",
+        "Valencia"
+      ],
+      "away": [
+        "Room",
+        "Gaari",
+        "Martina",
+        "Floranus",
+        "J. Bacuna",
+        "Anita",
+        "L. Bacuna",
+        "Kuwas",
+        "Janga",
+        "Gorré",
+        "Locadia"
+      ]
+    },
+    "predictions": {
+      "home": 71,
+      "draw": 13,
+      "away": 16
+    }
+  },
+  {
+    "id": 36,
+    "stage": "Group F • Match #36",
+    "home": "Tunisia",
+    "homeFlag": "🇹🇳",
+    "away": "Japan",
+    "awayFlag": "🇯🇵",
+    "homeScore": 0,
+    "awayScore": 0,
+    "status": "upcoming",
+    "minute": 0,
+    "date": "Jun 21, 04:00 UTC",
+    "location": "Monterrey Stadium",
+    "events": [],
+    "stats": {
+      "possession": [
+        50,
+        50
+      ],
+      "shots": [
+        0,
+        0
+      ],
+      "fouls": [
+        0,
+        0
+      ],
+      "corners": [
+        0,
+        0
+      ]
+    },
+    "lineups": {
+      "home": [
+        "Ben Said",
+        "Kechrida",
+        "Meriah",
+        "Talbi",
+        "Abdi",
+        "Skhiri",
+        "Laidouni",
+        "Rafia",
+        "Achouri",
+        "Ltaief",
+        "Jaziri"
+      ],
+      "away": [
+        "Suzuki",
+        "Sugawara",
+        "Itakura",
+        "Machida",
+        "Ito",
+        "Endo",
+        "Morita",
+        "Doan",
+        "Kubo",
+        "Mitoma",
+        "Ueda"
+      ]
+    },
+    "predictions": {
+      "home": 25,
+      "draw": 19,
+      "away": 56
+    }
+  },
+  {
+    "id": 38,
+    "stage": "Group H • Match #38",
+    "home": "Spain",
+    "homeFlag": "🇪🇸",
+    "away": "Saudi Arabia",
+    "awayFlag": "🇸🇦",
+    "homeScore": 0,
+    "awayScore": 0,
+    "status": "upcoming",
+    "minute": 0,
+    "date": "Jun 21, 16:00 UTC",
+    "location": "Atlanta Stadium",
+    "events": [],
+    "stats": {
+      "possession": [
+        50,
+        50
+      ],
+      "shots": [
+        0,
+        0
+      ],
+      "fouls": [
+        0,
+        0
+      ],
+      "corners": [
+        0,
+        0
+      ]
+    },
+    "lineups": {
+      "home": [
+        "Raya",
+        "Carvajal",
+        "Le Normand",
+        "Laporte",
+        "Cucurella",
+        "Rodri",
+        "Ruiz",
+        "Pedri",
+        "Yamal",
+        "Williams",
+        "Morata"
+      ],
+      "away": [
+        "Al-Owais",
+        "Al-Bulaihi",
+        "Lajami",
+        "Tambakti",
+        "Abdulhamid",
+        "Al-Khaibari",
+        "Kanno",
+        "Al-Dawsari",
+        "Ghareeb",
+        "Al-Muwallad",
+        "Al-Shehri"
+      ]
+    },
+    "predictions": {
+      "home": 78,
+      "draw": 10,
+      "away": 12
+    }
+  },
+  {
+    "id": 39,
+    "stage": "Group G • Match #39",
+    "home": "Belgium",
+    "homeFlag": "🇧🇪",
+    "away": "IR Iran",
+    "awayFlag": "🇮🇷",
+    "homeScore": 0,
+    "awayScore": 0,
+    "status": "upcoming",
+    "minute": 0,
+    "date": "Jun 21, 19:00 UTC",
+    "location": "Los Angeles Stadium",
+    "events": [],
+    "stats": {
+      "possession": [
+        50,
+        50
+      ],
+      "shots": [
+        0,
+        0
+      ],
+      "fouls": [
+        0,
+        0
+      ],
+      "corners": [
+        0,
+        0
+      ]
+    },
+    "lineups": {
+      "home": [
+        "Casteels",
+        "Castagne",
+        "Faes",
+        "Vertonghen",
+        "Theate",
+        "Onana",
+        "Mangala",
+        "De Bruyne",
+        "Doku",
+        "Trossard",
+        "Lukaku"
+      ],
+      "away": [
+        "Beiranvand",
+        "Rezaeian",
+        "Kanaanizadegan",
+        "Khalilzadeh",
+        "Hajsafi",
+        "Ezatolahi",
+        "Ghoddos",
+        "Jahanbakhsh",
+        "Taremi",
+        "Azmoun",
+        "Mohebi"
+      ]
+    },
+    "predictions": {
+      "home": 61,
+      "draw": 17,
+      "away": 22
+    }
+  },
+  {
+    "id": 37,
+    "stage": "Group H • Match #37",
+    "home": "Uruguay",
+    "homeFlag": "🇺🇾",
+    "away": "Cabo Verde",
+    "awayFlag": "🇨🇻",
+    "homeScore": 0,
+    "awayScore": 0,
+    "status": "upcoming",
+    "minute": 0,
+    "date": "Jun 21, 22:00 UTC",
+    "location": "Miami Stadium",
+    "events": [],
+    "stats": {
+      "possession": [
+        50,
+        50
+      ],
+      "shots": [
+        0,
+        0
+      ],
+      "fouls": [
+        0,
+        0
+      ],
+      "corners": [
+        0,
+        0
+      ]
+    },
+    "lineups": {
+      "home": [
+        "Rochet",
+        "Nández",
+        "Araújo",
+        "Giménez",
+        "Olivera",
+        "Ugarte",
+        "Valverde",
+        "De la Cruz",
+        "Pellistri",
+        "Araujo",
+        "Darwin Núñez"
+      ],
+      "away": [
+        "Vozinha",
+        "Moreira",
+        "Costa",
+        "Pico",
+        "Tavares",
+        "Rocha",
+        "Pina",
+        "Monteiro",
+        "Mendes",
+        "Cabral",
+        "Bebé"
+      ]
+    },
+    "predictions": {
+      "home": 73,
+      "draw": 12,
+      "away": 15
+    }
+  },
+  {
+    "id": 40,
+    "stage": "Group G • Match #40",
+    "home": "New Zealand",
+    "homeFlag": "🇳🇿",
+    "away": "Egypt",
+    "awayFlag": "🇪🇬",
+    "homeScore": 0,
+    "awayScore": 0,
+    "status": "upcoming",
+    "minute": 0,
+    "date": "Jun 22, 01:00 UTC",
+    "location": "BC Place Vancouver",
+    "events": [],
+    "stats": {
+      "possession": [
+        50,
+        50
+      ],
+      "shots": [
+        0,
+        0
+      ],
+      "fouls": [
+        0,
+        0
+      ],
+      "corners": [
+        0,
+        0
+      ]
+    },
+    "lineups": {
+      "home": [
+        "Crocombe",
+        "Payne",
+        "Boxall",
+        "Pijnaker",
+        "Cacace",
+        "Garbett",
+        "Stamenic",
+        "Bell",
+        "Just",
+        "Wood",
+        "McCowatt"
+      ],
+      "away": [
+        "El Shenawy",
+        "Hany",
+        "Abdelmonem",
+        "Hegazi",
+        "Hamdi",
+        "Elneny",
+        "Fathi",
+        "Zizo",
+        "Salah",
+        "Trezeguet",
+        "Mostafa Mohamed"
+      ]
+    },
+    "predictions": {
+      "home": 11,
+      "draw": 10,
+      "away": 79
+    }
+  },
+  {
+    "id": 43,
+    "stage": "Group J • Match #43",
+    "home": "Argentina",
+    "homeFlag": "🇦🇷",
+    "away": "Austria",
+    "awayFlag": "🇦🇹",
+    "homeScore": 0,
+    "awayScore": 0,
+    "status": "upcoming",
+    "minute": 0,
+    "date": "Jun 22, 17:00 UTC",
+    "location": "Dallas Stadium",
+    "events": [],
+    "stats": {
+      "possession": [
+        50,
+        50
+      ],
+      "shots": [
+        0,
+        0
+      ],
+      "fouls": [
+        0,
+        0
+      ],
+      "corners": [
+        0,
+        0
+      ]
+    },
+    "lineups": {
+      "home": [
+        "Argentina Player 1",
+        "Argentina Player 2",
+        "Argentina Player 3",
+        "Argentina Player 4",
+        "Argentina Player 5",
+        "Argentina Player 6",
+        "Argentina Player 7",
+        "Argentina Player 8",
+        "Argentina Player 9",
+        "Argentina Player 10",
+        "Argentina Player 11"
+      ],
+      "away": [
+        "Austria Player 1",
+        "Austria Player 2",
+        "Austria Player 3",
+        "Austria Player 4",
+        "Austria Player 5",
+        "Austria Player 6",
+        "Austria Player 7",
+        "Austria Player 8",
+        "Austria Player 9",
+        "Austria Player 10",
+        "Austria Player 11"
+      ]
+    },
+    "predictions": {
+      "home": 76,
+      "draw": 11,
+      "away": 13
+    }
+  },
+  {
+    "id": 42,
+    "stage": "Group I • Match #42",
+    "home": "France",
+    "homeFlag": "🇫🇷",
+    "away": "Iraq",
+    "awayFlag": "🇮🇶",
+    "homeScore": 0,
+    "awayScore": 0,
+    "status": "upcoming",
+    "minute": 0,
+    "date": "Jun 22, 21:00 UTC",
+    "location": "Philadelphia Stadium",
+    "events": [],
+    "stats": {
+      "possession": [
+        50,
+        50
+      ],
+      "shots": [
+        0,
+        0
+      ],
+      "fouls": [
+        0,
+        0
+      ],
+      "corners": [
+        0,
+        0
+      ]
+    },
+    "lineups": {
+      "home": [
+        "France Player 1",
+        "France Player 2",
+        "France Player 3",
+        "France Player 4",
+        "France Player 5",
+        "France Player 6",
+        "France Player 7",
+        "France Player 8",
+        "France Player 9",
+        "France Player 10",
+        "France Player 11"
+      ],
+      "away": [
+        "Iraq Player 1",
+        "Iraq Player 2",
+        "Iraq Player 3",
+        "Iraq Player 4",
+        "Iraq Player 5",
+        "Iraq Player 6",
+        "Iraq Player 7",
+        "Iraq Player 8",
+        "Iraq Player 9",
+        "Iraq Player 10",
+        "Iraq Player 11"
+      ]
+    },
+    "predictions": {
+      "home": 82,
+      "draw": 10,
+      "away": 8
+    }
+  },
+  {
+    "id": 41,
+    "stage": "Group I • Match #41",
+    "home": "Norway",
+    "homeFlag": "🇳🇴",
+    "away": "Senegal",
+    "awayFlag": "🇸🇳",
+    "homeScore": 0,
+    "awayScore": 0,
+    "status": "upcoming",
+    "minute": 0,
+    "date": "Jun 23, 00:00 UTC",
+    "location": "New York/New Jersey Stadium",
+    "events": [],
+    "stats": {
+      "possession": [
+        50,
+        50
+      ],
+      "shots": [
+        0,
+        0
+      ],
+      "fouls": [
+        0,
+        0
+      ],
+      "corners": [
+        0,
+        0
+      ]
+    },
+    "lineups": {
+      "home": [
+        "Norway Player 1",
+        "Norway Player 2",
+        "Norway Player 3",
+        "Norway Player 4",
+        "Norway Player 5",
+        "Norway Player 6",
+        "Norway Player 7",
+        "Norway Player 8",
+        "Norway Player 9",
+        "Norway Player 10",
+        "Norway Player 11"
+      ],
+      "away": [
+        "Senegal Player 1",
+        "Senegal Player 2",
+        "Senegal Player 3",
+        "Senegal Player 4",
+        "Senegal Player 5",
+        "Senegal Player 6",
+        "Senegal Player 7",
+        "Senegal Player 8",
+        "Senegal Player 9",
+        "Senegal Player 10",
+        "Senegal Player 11"
+      ]
+    },
+    "predictions": {
+      "home": 24,
+      "draw": 18,
+      "away": 58
+    }
+  },
+  {
+    "id": 44,
+    "stage": "Group J • Match #44",
+    "home": "Jordan",
+    "homeFlag": "🇯🇴",
+    "away": "Algeria",
+    "awayFlag": "🇩🇿",
+    "homeScore": 0,
+    "awayScore": 0,
+    "status": "upcoming",
+    "minute": 0,
+    "date": "Jun 23, 03:00 UTC",
+    "location": "San Francisco Bay Area Stadium",
+    "events": [],
+    "stats": {
+      "possession": [
+        50,
+        50
+      ],
+      "shots": [
+        0,
+        0
+      ],
+      "fouls": [
+        0,
+        0
+      ],
+      "corners": [
+        0,
+        0
+      ]
+    },
+    "lineups": {
+      "home": [
+        "Jordan Player 1",
+        "Jordan Player 2",
+        "Jordan Player 3",
+        "Jordan Player 4",
+        "Jordan Player 5",
+        "Jordan Player 6",
+        "Jordan Player 7",
+        "Jordan Player 8",
+        "Jordan Player 9",
+        "Jordan Player 10",
+        "Jordan Player 11"
+      ],
+      "away": [
+        "Algeria Player 1",
+        "Algeria Player 2",
+        "Algeria Player 3",
+        "Algeria Player 4",
+        "Algeria Player 5",
+        "Algeria Player 6",
+        "Algeria Player 7",
+        "Algeria Player 8",
+        "Algeria Player 9",
+        "Algeria Player 10",
+        "Algeria Player 11"
+      ]
+    },
+    "predictions": {
+      "home": 28,
+      "draw": 21,
+      "away": 51
+    }
+  },
+  {
+    "id": 47,
+    "stage": "Group K • Match #47",
+    "home": "Portugal",
+    "homeFlag": "🇵🇹",
+    "away": "Uzbekistan",
+    "awayFlag": "🇺🇿",
+    "homeScore": 0,
+    "awayScore": 0,
+    "status": "upcoming",
+    "minute": 0,
+    "date": "Jun 23, 17:00 UTC",
+    "location": "Houston Stadium",
+    "events": [],
+    "stats": {
+      "possession": [
+        50,
+        50
+      ],
+      "shots": [
+        0,
+        0
+      ],
+      "fouls": [
+        0,
+        0
+      ],
+      "corners": [
+        0,
+        0
+      ]
+    },
+    "lineups": {
+      "home": [
+        "Portugal Player 1",
+        "Portugal Player 2",
+        "Portugal Player 3",
+        "Portugal Player 4",
+        "Portugal Player 5",
+        "Portugal Player 6",
+        "Portugal Player 7",
+        "Portugal Player 8",
+        "Portugal Player 9",
+        "Portugal Player 10",
+        "Portugal Player 11"
+      ],
+      "away": [
+        "Uzbekistan Player 1",
+        "Uzbekistan Player 2",
+        "Uzbekistan Player 3",
+        "Uzbekistan Player 4",
+        "Uzbekistan Player 5",
+        "Uzbekistan Player 6",
+        "Uzbekistan Player 7",
+        "Uzbekistan Player 8",
+        "Uzbekistan Player 9",
+        "Uzbekistan Player 10",
+        "Uzbekistan Player 11"
+      ]
+    },
+    "predictions": {
+      "home": 80,
+      "draw": 10,
+      "away": 10
+    }
+  },
+  {
+    "id": 45,
+    "stage": "Group L • Match #45",
+    "home": "England",
+    "homeFlag": "🏴󠁧󠁢󠁥󠁮󠁧󠁿",
+    "away": "Ghana",
+    "awayFlag": "🇬🇭",
+    "homeScore": 0,
+    "awayScore": 0,
+    "status": "upcoming",
+    "minute": 0,
+    "date": "Jun 23, 20:00 UTC",
+    "location": "Boston Stadium",
+    "events": [],
+    "stats": {
+      "possession": [
+        50,
+        50
+      ],
+      "shots": [
+        0,
+        0
+      ],
+      "fouls": [
+        0,
+        0
+      ],
+      "corners": [
+        0,
+        0
+      ]
+    },
+    "lineups": {
+      "home": [
+        "England Player 1",
+        "England Player 2",
+        "England Player 3",
+        "England Player 4",
+        "England Player 5",
+        "England Player 6",
+        "England Player 7",
+        "England Player 8",
+        "England Player 9",
+        "England Player 10",
+        "England Player 11"
+      ],
+      "away": [
+        "Ghana Player 1",
+        "Ghana Player 2",
+        "Ghana Player 3",
+        "Ghana Player 4",
+        "Ghana Player 5",
+        "Ghana Player 6",
+        "Ghana Player 7",
+        "Ghana Player 8",
+        "Ghana Player 9",
+        "Ghana Player 10",
+        "Ghana Player 11"
+      ]
+    },
+    "predictions": {
+      "home": 82,
+      "draw": 10,
+      "away": 8
+    }
+  },
+  {
+    "id": 46,
+    "stage": "Group L • Match #46",
+    "home": "Panama",
+    "homeFlag": "🇵🇦",
+    "away": "Croatia",
+    "awayFlag": "🇭🇷",
+    "homeScore": 0,
+    "awayScore": 0,
+    "status": "upcoming",
+    "minute": 0,
+    "date": "Jun 23, 23:00 UTC",
+    "location": "Toronto Stadium",
+    "events": [],
+    "stats": {
+      "possession": [
+        50,
+        50
+      ],
+      "shots": [
+        0,
+        0
+      ],
+      "fouls": [
+        0,
+        0
+      ],
+      "corners": [
+        0,
+        0
+      ]
+    },
+    "lineups": {
+      "home": [
+        "Panama Player 1",
+        "Panama Player 2",
+        "Panama Player 3",
+        "Panama Player 4",
+        "Panama Player 5",
+        "Panama Player 6",
+        "Panama Player 7",
+        "Panama Player 8",
+        "Panama Player 9",
+        "Panama Player 10",
+        "Panama Player 11"
+      ],
+      "away": [
+        "Croatia Player 1",
+        "Croatia Player 2",
+        "Croatia Player 3",
+        "Croatia Player 4",
+        "Croatia Player 5",
+        "Croatia Player 6",
+        "Croatia Player 7",
+        "Croatia Player 8",
+        "Croatia Player 9",
+        "Croatia Player 10",
+        "Croatia Player 11"
+      ]
+    },
+    "predictions": {
+      "home": 15,
+      "draw": 12,
+      "away": 73
+    }
+  },
+  {
+    "id": 48,
+    "stage": "Group K • Match #48",
+    "home": "Colombia",
+    "homeFlag": "🇨🇴",
+    "away": "Congo DR",
+    "awayFlag": "⚽",
+    "homeScore": 0,
+    "awayScore": 0,
+    "status": "upcoming",
+    "minute": 0,
+    "date": "Jun 24, 02:00 UTC",
+    "location": "Guadalajara Stadium",
+    "events": [],
+    "stats": {
+      "possession": [
+        50,
+        50
+      ],
+      "shots": [
+        0,
+        0
+      ],
+      "fouls": [
+        0,
+        0
+      ],
+      "corners": [
+        0,
+        0
+      ]
+    },
+    "lineups": {
+      "home": [
+        "Colombia Player 1",
+        "Colombia Player 2",
+        "Colombia Player 3",
+        "Colombia Player 4",
+        "Colombia Player 5",
+        "Colombia Player 6",
+        "Colombia Player 7",
+        "Colombia Player 8",
+        "Colombia Player 9",
+        "Colombia Player 10",
+        "Colombia Player 11"
+      ],
+      "away": [
+        "Congo DR Player 1",
+        "Congo DR Player 2",
+        "Congo DR Player 3",
+        "Congo DR Player 4",
+        "Congo DR Player 5",
+        "Congo DR Player 6",
+        "Congo DR Player 7",
+        "Congo DR Player 8",
+        "Congo DR Player 9",
+        "Congo DR Player 10",
+        "Congo DR Player 11"
+      ]
+    },
+    "predictions": {
+      "home": 67,
+      "draw": 15,
+      "away": 18
+    }
+  },
+  {
+    "id": 51,
+    "stage": "Group B • Match #51",
+    "home": "Switzerland",
+    "homeFlag": "🇨🇭",
+    "away": "Canada",
+    "awayFlag": "🇨🇦",
+    "homeScore": 0,
+    "awayScore": 0,
+    "status": "upcoming",
+    "minute": 0,
+    "date": "Jun 24, 19:00 UTC",
+    "location": "BC Place Vancouver",
+    "events": [],
+    "stats": {
+      "possession": [
+        50,
+        50
+      ],
+      "shots": [
+        0,
+        0
+      ],
+      "fouls": [
+        0,
+        0
+      ],
+      "corners": [
+        0,
+        0
+      ]
+    },
+    "lineups": {
+      "home": [
+        "Sommer",
+        "Schär",
+        "Akanji",
+        "Rodriguez",
+        "Widmer",
+        "Xhaka",
+        "Freuler",
+        "Aebischer",
+        "Ndoye",
+        "Vargas",
+        "Embolo"
+      ],
+      "away": [
+        "Crepeau",
+        "Johnston",
+        "Miller",
+        "Bombito",
+        "Davies",
+        "Eustaquio",
+        "Kone",
+        "Buchanan",
+        "Jonathan David",
+        "Larin",
+        "Millar"
+      ]
+    },
+    "predictions": {
+      "home": 56,
+      "draw": 19,
+      "away": 25
+    }
+  },
+  {
+    "id": 52,
+    "stage": "Group B • Match #52",
+    "home": "Bosnia and Herzegovina",
+    "homeFlag": "🇧🇦",
+    "away": "Qatar",
+    "awayFlag": "🇶🇦",
+    "homeScore": 0,
+    "awayScore": 0,
+    "status": "upcoming",
+    "minute": 0,
+    "date": "Jun 24, 19:00 UTC",
+    "location": "Seattle Stadium",
+    "events": [],
+    "stats": {
+      "possession": [
+        50,
+        50
+      ],
+      "shots": [
+        0,
+        0
+      ],
+      "fouls": [
+        0,
+        0
+      ],
+      "corners": [
+        0,
+        0
+      ]
+    },
+    "lineups": {
+      "home": [
+        "Džeko",
+        "Demirović",
+        "Kolašinac",
+        "Krunić",
+        "Pirić",
+        "Hadžikadunić",
+        "Ahmedhodžić",
+        "Gazibegović",
+        "Gigović",
+        "Hajradinović",
+        "Tabaković"
+      ],
+      "away": [
+        "Barsham",
+        "Miguel",
+        "Mukhtar",
+        "Mendes",
+        "Al-Rawi",
+        "Waad",
+        "Hatem",
+        "Fatehi",
+        "Afif",
+        "Al-Haydos",
+        "Ali"
+      ]
+    },
+    "predictions": {
+      "home": 31,
+      "draw": 22,
+      "away": 47
+    }
+  },
+  {
+    "id": 49,
+    "stage": "Group C • Match #49",
+    "home": "Scotland",
+    "homeFlag": "🏴󠁧󠁢󠁳󠁣󠁴󠁿",
+    "away": "Brazil",
+    "awayFlag": "🇧🇷",
+    "homeScore": 0,
+    "awayScore": 0,
+    "status": "upcoming",
+    "minute": 0,
+    "date": "Jun 24, 22:00 UTC",
+    "location": "Miami Stadium",
+    "events": [],
+    "stats": {
+      "possession": [
+        50,
+        50
+      ],
+      "shots": [
+        0,
+        0
+      ],
+      "fouls": [
+        0,
+        0
+      ],
+      "corners": [
+        0,
+        0
+      ]
+    },
+    "lineups": {
+      "home": [
+        "Gunn",
+        "Porteous",
+        "Hendry",
+        "Tierney",
+        "Ralston",
+        "McTominay",
+        "McGregor",
+        "Gilmour",
+        "Robertson",
+        "McGinn",
+        "Adams"
+      ],
+      "away": [
+        "Alisson",
+        "Danilo",
+        "Marquinhos",
+        "Gabriel",
+        "Arana",
+        "Guimarães",
+        "Gomes",
+        "Paquetá",
+        "Raphinha",
+        "Rodrygo",
+        "Vinícius Jr."
+      ]
+    },
+    "predictions": {
+      "home": 13,
+      "draw": 11,
+      "away": 76
+    }
+  },
+  {
+    "id": 50,
+    "stage": "Group C • Match #50",
+    "home": "Morocco",
+    "homeFlag": "🇲🇦",
+    "away": "Haiti",
+    "awayFlag": "🇭🇹",
+    "homeScore": 0,
+    "awayScore": 0,
+    "status": "upcoming",
+    "minute": 0,
+    "date": "Jun 24, 22:00 UTC",
+    "location": "Atlanta Stadium",
+    "events": [],
+    "stats": {
+      "possession": [
+        50,
+        50
+      ],
+      "shots": [
+        0,
+        0
+      ],
+      "fouls": [
+        0,
+        0
+      ],
+      "corners": [
+        0,
+        0
+      ]
+    },
+    "lineups": {
+      "home": [
+        "Bounou",
+        "Hakimi",
+        "Aguerd",
+        "Saïss",
+        "Allah",
+        "Amrabat",
+        "Ounahi",
+        "Ziyech",
+        "Harit",
+        "Adli",
+        "En-Nesyri"
+      ],
+      "away": [
+        "Placide",
+        "Arcus",
+        "Ade",
+        "Christian",
+        "Guerrier",
+        "Alceus",
+        "Pierre",
+        "Nazon",
+        "Etienne",
+        "Pierrot",
+        "Picault"
+      ]
+    },
+    "predictions": {
+      "home": 80,
+      "draw": 10,
+      "away": 10
+    }
+  },
+  {
+    "id": 53,
+    "stage": "Group A • Match #53",
+    "home": "Czechia",
+    "homeFlag": "🇨🇿",
+    "away": "Mexico",
+    "awayFlag": "🇲🇽",
+    "homeScore": 0,
+    "awayScore": 0,
+    "status": "upcoming",
+    "minute": 0,
+    "date": "Jun 25, 01:00 UTC",
+    "location": "Mexico City Stadium",
+    "events": [],
+    "stats": {
+      "possession": [
+        50,
+        50
+      ],
+      "shots": [
+        0,
+        0
+      ],
+      "fouls": [
+        0,
+        0
+      ],
+      "corners": [
+        0,
+        0
+      ]
+    },
+    "lineups": {
+      "home": [
+        "Stanek",
+        "Holes",
+        "Hranac",
+        "Krejci",
+        "Coufal",
+        "Soucek",
+        "Provod",
+        "Doudera",
+        "Barak",
+        "Hlozek",
+        "Schick"
+      ],
+      "away": [
+        "Ochoa",
+        "Montes",
+        "Vásquez",
+        "Gallardo",
+        "Sánchez",
+        "Edson Álvarez",
+        "Chávez",
+        "Pineda",
+        "Lozano",
+        "Giménez",
+        "Antuna"
+      ]
+    },
+    "predictions": {
+      "home": 26,
+      "draw": 20,
+      "away": 54
+    }
+  },
+  {
+    "id": 54,
+    "stage": "Group A • Match #54",
+    "home": "South Africa",
+    "homeFlag": "🇿🇦",
+    "away": "Korea Republic",
+    "awayFlag": "🇰🇷",
+    "homeScore": 0,
+    "awayScore": 0,
+    "status": "upcoming",
+    "minute": 0,
+    "date": "Jun 25, 01:00 UTC",
+    "location": "Monterrey Stadium",
+    "events": [],
+    "stats": {
+      "possession": [
+        50,
+        50
+      ],
+      "shots": [
+        0,
+        0
+      ],
+      "fouls": [
+        0,
+        0
+      ],
+      "corners": [
+        0,
+        0
+      ]
+    },
+    "lineups": {
+      "home": [
+        "Williams",
+        "Mudau",
+        "Mvala",
+        "Kekana",
+        "Modiba",
+        "Mokoena",
+        "Sithole",
+        "Zwane",
+        "Morena",
+        "Tau",
+        "Makgopa"
+      ],
+      "away": [
+        "Jo",
+        "Kim Min-jae",
+        "Jung",
+        "Seol",
+        "Lee Ki-je",
+        "Hwang In-beom",
+        "Park",
+        "Lee Kang-in",
+        "Son Heung-min",
+        "Hwang Hee-chan",
+        "Cho"
+      ]
+    },
+    "predictions": {
+      "home": 24,
+      "draw": 18,
+      "away": 58
+    }
+  },
+  {
+    "id": 55,
+    "stage": "Group E • Match #55",
+    "home": "Curaçao",
+    "homeFlag": "🇨🇼",
+    "away": "Côte d'Ivoire",
+    "awayFlag": "🇨🇮",
+    "homeScore": 0,
+    "awayScore": 0,
+    "status": "upcoming",
+    "minute": 0,
+    "date": "Jun 25, 20:00 UTC",
+    "location": "Philadelphia Stadium",
+    "events": [],
+    "stats": {
+      "possession": [
+        50,
+        50
+      ],
+      "shots": [
+        0,
+        0
+      ],
+      "fouls": [
+        0,
+        0
+      ],
+      "corners": [
+        0,
+        0
+      ]
+    },
+    "lineups": {
+      "home": [
+        "Room",
+        "Gaari",
+        "Martina",
+        "Floranus",
+        "J. Bacuna",
+        "Anita",
+        "L. Bacuna",
+        "Kuwas",
+        "Janga",
+        "Gorré",
+        "Locadia"
+      ],
+      "away": [
+        "Fofana",
+        "Aurier",
+        "Ndicka",
+        "Boly",
+        "Konan",
+        "Kessié",
+        "Seri",
+        "Sangaré",
+        "Adinga",
+        "Haller",
+        "Pépé"
+      ]
+    },
+    "predictions": {
+      "home": 17,
+      "draw": 14,
+      "away": 69
+    }
+  },
+  {
+    "id": 56,
+    "stage": "Group E • Match #56",
+    "home": "Ecuador",
+    "homeFlag": "🇪🇨",
+    "away": "Germany",
+    "awayFlag": "🇩🇪",
+    "homeScore": 0,
+    "awayScore": 0,
+    "status": "upcoming",
+    "minute": 0,
+    "date": "Jun 25, 20:00 UTC",
+    "location": "New York/New Jersey Stadium",
+    "events": [],
+    "stats": {
+      "possession": [
+        50,
+        50
+      ],
+      "shots": [
+        0,
+        0
+      ],
+      "fouls": [
+        0,
+        0
+      ],
+      "corners": [
+        0,
+        0
+      ]
+    },
+    "lineups": {
+      "home": [
+        "Domínguez",
+        "Preciado",
+        "Torres",
+        "Hincapié",
+        "Estupiñán",
+        "Gruezo",
+        "Caicedo",
+        "Páez",
+        "Mena",
+        "Sarmiento",
+        "Valencia"
+      ],
+      "away": [
+        "Ter Stegen",
+        "Kimmich",
+        "Rüdiger",
+        "Tah",
+        "Mittelstädt",
+        "Andrich",
+        "Kroos",
+        "Musiala",
+        "Gündogan",
+        "Wirtz",
+        "Havertz"
+      ]
+    },
+    "predictions": {
+      "home": 26,
+      "draw": 20,
+      "away": 54
+    }
+  },
+  {
+    "id": 57,
+    "stage": "Group F • Match #57",
+    "home": "Japan",
+    "homeFlag": "🇯🇵",
+    "away": "Sweden",
+    "awayFlag": "🇸🇪",
+    "homeScore": 0,
+    "awayScore": 0,
+    "status": "upcoming",
+    "minute": 0,
+    "date": "Jun 25, 23:00 UTC",
+    "location": "Dallas Stadium",
+    "events": [],
+    "stats": {
+      "possession": [
+        50,
+        50
+      ],
+      "shots": [
+        0,
+        0
+      ],
+      "fouls": [
+        0,
+        0
+      ],
+      "corners": [
+        0,
+        0
+      ]
+    },
+    "lineups": {
+      "home": [
+        "Suzuki",
+        "Sugawara",
+        "Itakura",
+        "Machida",
+        "Ito",
+        "Endo",
+        "Morita",
+        "Doan",
+        "Kubo",
+        "Mitoma",
+        "Ueda"
+      ],
+      "away": [
+        "Olsen",
+        "Krafth",
+        "Hien",
+        "Lindelöf",
+        "Augustinsson",
+        "Cajuste",
+        "Salétros",
+        "Kulusevski",
+        "Isak",
+        "Elanga",
+        "Gyökeres"
+      ]
+    },
+    "predictions": {
+      "home": 50,
+      "draw": 21,
+      "away": 29
+    }
+  },
+  {
+    "id": 58,
+    "stage": "Group F • Match #58",
+    "home": "Tunisia",
+    "homeFlag": "🇹🇳",
+    "away": "Netherlands",
+    "awayFlag": "🇳🇱",
+    "homeScore": 0,
+    "awayScore": 0,
+    "status": "upcoming",
+    "minute": 0,
+    "date": "Jun 25, 23:00 UTC",
+    "location": "Kansas City Stadium",
+    "events": [],
+    "stats": {
+      "possession": [
+        50,
+        50
+      ],
+      "shots": [
+        0,
+        0
+      ],
+      "fouls": [
+        0,
+        0
+      ],
+      "corners": [
+        0,
+        0
+      ]
+    },
+    "lineups": {
+      "home": [
+        "Ben Said",
+        "Kechrida",
+        "Meriah",
+        "Talbi",
+        "Abdi",
+        "Skhiri",
+        "Laidouni",
+        "Rafia",
+        "Achouri",
+        "Ltaief",
+        "Jaziri"
+      ],
+      "away": [
+        "Verbruggen",
+        "Dumfries",
+        "De Vrij",
+        "Van Dijk",
+        "Aké",
+        "Schouten",
+        "Reijnders",
+        "Simons",
+        "Frimpong",
+        "Gakpo",
+        "Depay"
+      ]
+    },
+    "predictions": {
+      "home": 16,
+      "draw": 13,
+      "away": 71
+    }
+  },
+  {
+    "id": 59,
+    "stage": "Group D • Match #59",
+    "home": "Türkiye",
+    "homeFlag": "🇹🇷",
+    "away": "USA",
+    "awayFlag": "🇺🇸",
+    "homeScore": 0,
+    "awayScore": 0,
+    "status": "upcoming",
+    "minute": 0,
+    "date": "Jun 26, 02:00 UTC",
+    "location": "Los Angeles Stadium",
+    "events": [],
+    "stats": {
+      "possession": [
+        50,
+        50
+      ],
+      "shots": [
+        0,
+        0
+      ],
+      "fouls": [
+        0,
+        0
+      ],
+      "corners": [
+        0,
+        0
+      ]
+    },
+    "lineups": {
+      "home": [
+        "Günok",
+        "Çelik",
+        "Bardakcı",
+        "Akaydin",
+        "Kadıoğlu",
+        "Ayhan",
+        "Kökçü",
+        "Çalhanoğlu",
+        "Güler",
+        "Yıldız",
+        "Yılmaz"
+      ],
+      "away": [
+        "Turner",
+        "Dest",
+        "Richards",
+        "Ream",
+        "Robinson",
+        "McKennie",
+        "Adams",
+        "Musah",
+        "Weah",
+        "Balogun",
+        "Pulisic"
+      ]
+    },
+    "predictions": {
+      "home": 25,
+      "draw": 19,
+      "away": 56
+    }
+  },
+  {
+    "id": 60,
+    "stage": "Group D • Match #60",
+    "home": "Paraguay",
+    "homeFlag": "🇵🇾",
+    "away": "Australia",
+    "awayFlag": "🇦🇺",
+    "homeScore": 0,
+    "awayScore": 0,
+    "status": "upcoming",
+    "minute": 0,
+    "date": "Jun 26, 02:00 UTC",
+    "location": "San Francisco Bay Area Stadium",
+    "events": [],
+    "stats": {
+      "possession": [
+        50,
+        50
+      ],
+      "shots": [
+        0,
+        0
+      ],
+      "fouls": [
+        0,
+        0
+      ],
+      "corners": [
+        0,
+        0
+      ]
+    },
+    "lineups": {
+      "home": [
+        "Coronel",
+        "Balbuena",
+        "Alderete",
+        "Espinoza",
+        "Caceres",
+        "Cubas",
+        "Villasanti",
+        "Diego Gomez",
+        "Almiron",
+        "Enciso",
+        "Sanabria"
+      ],
+      "away": [
+        "Ryan",
+        "Atkinson",
+        "Rowles",
+        "Souttar",
+        "Behich",
+        "Baccus",
+        "Irvine",
+        "Metcalfe",
+        "Goodwin",
+        "Boyle",
+        "Duke"
+      ]
+    },
+    "predictions": {
+      "home": 28,
+      "draw": 20,
+      "away": 52
+    }
+  },
+  {
+    "id": 61,
+    "stage": "Group I • Match #61",
+    "home": "Norway",
+    "homeFlag": "🇳🇴",
+    "away": "France",
+    "awayFlag": "🇫🇷",
+    "homeScore": 0,
+    "awayScore": 0,
+    "status": "upcoming",
+    "minute": 0,
+    "date": "Jun 26, 19:00 UTC",
+    "location": "Boston Stadium",
+    "events": [],
+    "stats": {
+      "possession": [
+        50,
+        50
+      ],
+      "shots": [
+        0,
+        0
+      ],
+      "fouls": [
+        0,
+        0
+      ],
+      "corners": [
+        0,
+        0
+      ]
+    },
+    "lineups": {
+      "home": [
+        "Norway Player 1",
+        "Norway Player 2",
+        "Norway Player 3",
+        "Norway Player 4",
+        "Norway Player 5",
+        "Norway Player 6",
+        "Norway Player 7",
+        "Norway Player 8",
+        "Norway Player 9",
+        "Norway Player 10",
+        "Norway Player 11"
+      ],
+      "away": [
+        "France Player 1",
+        "France Player 2",
+        "France Player 3",
+        "France Player 4",
+        "France Player 5",
+        "France Player 6",
+        "France Player 7",
+        "France Player 8",
+        "France Player 9",
+        "France Player 10",
+        "France Player 11"
+      ]
+    },
+    "predictions": {
+      "home": 10,
+      "draw": 10,
+      "away": 80
+    }
+  },
+  {
+    "id": 62,
+    "stage": "Group I • Match #62",
+    "home": "Senegal",
+    "homeFlag": "🇸🇳",
+    "away": "Iraq",
+    "awayFlag": "🇮🇶",
+    "homeScore": 0,
+    "awayScore": 0,
+    "status": "upcoming",
+    "minute": 0,
+    "date": "Jun 26, 19:00 UTC",
+    "location": "Toronto Stadium",
+    "events": [],
+    "stats": {
+      "possession": [
+        50,
+        50
+      ],
+      "shots": [
+        0,
+        0
+      ],
+      "fouls": [
+        0,
+        0
+      ],
+      "corners": [
+        0,
+        0
+      ]
+    },
+    "lineups": {
+      "home": [
+        "Senegal Player 1",
+        "Senegal Player 2",
+        "Senegal Player 3",
+        "Senegal Player 4",
+        "Senegal Player 5",
+        "Senegal Player 6",
+        "Senegal Player 7",
+        "Senegal Player 8",
+        "Senegal Player 9",
+        "Senegal Player 10",
+        "Senegal Player 11"
+      ],
+      "away": [
+        "Iraq Player 1",
+        "Iraq Player 2",
+        "Iraq Player 3",
+        "Iraq Player 4",
+        "Iraq Player 5",
+        "Iraq Player 6",
+        "Iraq Player 7",
+        "Iraq Player 8",
+        "Iraq Player 9",
+        "Iraq Player 10",
+        "Iraq Player 11"
+      ]
+    },
+    "predictions": {
+      "home": 62,
+      "draw": 17,
+      "away": 21
+    }
+  },
+  {
+    "id": 65,
+    "stage": "Group H • Match #65",
+    "home": "Cabo Verde",
+    "homeFlag": "🇨🇻",
+    "away": "Saudi Arabia",
+    "awayFlag": "🇸🇦",
+    "homeScore": 0,
+    "awayScore": 0,
+    "status": "upcoming",
+    "minute": 0,
+    "date": "Jun 27, 00:00 UTC",
+    "location": "Houston Stadium",
+    "events": [],
+    "stats": {
+      "possession": [
+        50,
+        50
+      ],
+      "shots": [
+        0,
+        0
+      ],
+      "fouls": [
+        0,
+        0
+      ],
+      "corners": [
+        0,
+        0
+      ]
+    },
+    "lineups": {
+      "home": [
+        "Vozinha",
+        "Moreira",
+        "Costa",
+        "Pico",
+        "Tavares",
+        "Rocha",
+        "Pina",
+        "Monteiro",
+        "Mendes",
+        "Cabral",
+        "Bebé"
+      ],
+      "away": [
+        "Al-Owais",
+        "Al-Bulaihi",
+        "Lajami",
+        "Tambakti",
+        "Abdulhamid",
+        "Al-Khaibari",
+        "Kanno",
+        "Al-Dawsari",
+        "Ghareeb",
+        "Al-Muwallad",
+        "Al-Shehri"
+      ]
+    },
+    "predictions": {
+      "home": 31,
+      "draw": 23,
+      "away": 46
+    }
+  },
+  {
+    "id": 66,
+    "stage": "Group H • Match #66",
+    "home": "Uruguay",
+    "homeFlag": "🇺🇾",
+    "away": "Spain",
+    "awayFlag": "🇪🇸",
+    "homeScore": 0,
+    "awayScore": 0,
+    "status": "upcoming",
+    "minute": 0,
+    "date": "Jun 27, 00:00 UTC",
+    "location": "Guadalajara Stadium",
+    "events": [],
+    "stats": {
+      "possession": [
+        50,
+        50
+      ],
+      "shots": [
+        0,
+        0
+      ],
+      "fouls": [
+        0,
+        0
+      ],
+      "corners": [
+        0,
+        0
+      ]
+    },
+    "lineups": {
+      "home": [
+        "Rochet",
+        "Nández",
+        "Araújo",
+        "Giménez",
+        "Olivera",
+        "Ugarte",
+        "Valverde",
+        "De la Cruz",
+        "Pellistri",
+        "Araujo",
+        "Darwin Núñez"
+      ],
+      "away": [
+        "Raya",
+        "Carvajal",
+        "Le Normand",
+        "Laporte",
+        "Cucurella",
+        "Rodri",
+        "Ruiz",
+        "Pedri",
+        "Yamal",
+        "Williams",
+        "Morata"
+      ]
+    },
+    "predictions": {
+      "home": 27,
+      "draw": 20,
+      "away": 53
+    }
+  },
+  {
+    "id": 63,
+    "stage": "Group G • Match #63",
+    "home": "Egypt",
+    "homeFlag": "🇪🇬",
+    "away": "IR Iran",
+    "awayFlag": "🇮🇷",
+    "homeScore": 0,
+    "awayScore": 0,
+    "status": "upcoming",
+    "minute": 0,
+    "date": "Jun 27, 03:00 UTC",
+    "location": "Seattle Stadium",
+    "events": [],
+    "stats": {
+      "possession": [
+        50,
+        50
+      ],
+      "shots": [
+        0,
+        0
+      ],
+      "fouls": [
+        0,
+        0
+      ],
+      "corners": [
+        0,
+        0
+      ]
+    },
+    "lineups": {
+      "home": [
+        "El Shenawy",
+        "Hany",
+        "Abdelmonem",
+        "Hegazi",
+        "Hamdi",
+        "Elneny",
+        "Fathi",
+        "Zizo",
+        "Salah",
+        "Trezeguet",
+        "Mostafa Mohamed"
+      ],
+      "away": [
+        "Beiranvand",
+        "Rezaeian",
+        "Kanaanizadegan",
+        "Khalilzadeh",
+        "Hajsafi",
+        "Ezatolahi",
+        "Ghoddos",
+        "Jahanbakhsh",
+        "Taremi",
+        "Azmoun",
+        "Mohebi"
+      ]
+    },
+    "predictions": {
+      "home": 28,
+      "draw": 20,
+      "away": 52
+    }
+  },
+  {
+    "id": 64,
+    "stage": "Group G • Match #64",
+    "home": "New Zealand",
+    "homeFlag": "🇳🇿",
+    "away": "Belgium",
+    "awayFlag": "🇧🇪",
+    "homeScore": 0,
+    "awayScore": 0,
+    "status": "upcoming",
+    "minute": 0,
+    "date": "Jun 27, 03:00 UTC",
+    "location": "BC Place Vancouver",
+    "events": [],
+    "stats": {
+      "possession": [
+        50,
+        50
+      ],
+      "shots": [
+        0,
+        0
+      ],
+      "fouls": [
+        0,
+        0
+      ],
+      "corners": [
+        0,
+        0
+      ]
+    },
+    "lineups": {
+      "home": [
+        "Crocombe",
+        "Payne",
+        "Boxall",
+        "Pijnaker",
+        "Cacace",
+        "Garbett",
+        "Stamenic",
+        "Bell",
+        "Just",
+        "Wood",
+        "McCowatt"
+      ],
+      "away": [
+        "Casteels",
+        "Castagne",
+        "Faes",
+        "Vertonghen",
+        "Theate",
+        "Onana",
+        "Mangala",
+        "De Bruyne",
+        "Doku",
+        "Trossard",
+        "Lukaku"
+      ]
+    },
+    "predictions": {
+      "home": 2,
+      "draw": 10,
+      "away": 88
+    }
+  },
+  {
+    "id": 67,
+    "stage": "Group L • Match #67",
+    "home": "Panama",
+    "homeFlag": "🇵🇦",
+    "away": "England",
+    "awayFlag": "🏴󠁧󠁢󠁥󠁮󠁧󠁿",
+    "homeScore": 0,
+    "awayScore": 0,
+    "status": "upcoming",
+    "minute": 0,
+    "date": "Jun 27, 21:00 UTC",
+    "location": "New York/New Jersey Stadium",
+    "events": [],
+    "stats": {
+      "possession": [
+        50,
+        50
+      ],
+      "shots": [
+        0,
+        0
+      ],
+      "fouls": [
+        0,
+        0
+      ],
+      "corners": [
+        0,
+        0
+      ]
+    },
+    "lineups": {
+      "home": [
+        "Panama Player 1",
+        "Panama Player 2",
+        "Panama Player 3",
+        "Panama Player 4",
+        "Panama Player 5",
+        "Panama Player 6",
+        "Panama Player 7",
+        "Panama Player 8",
+        "Panama Player 9",
+        "Panama Player 10",
+        "Panama Player 11"
+      ],
+      "away": [
+        "England Player 1",
+        "England Player 2",
+        "England Player 3",
+        "England Player 4",
+        "England Player 5",
+        "England Player 6",
+        "England Player 7",
+        "England Player 8",
+        "England Player 9",
+        "England Player 10",
+        "England Player 11"
+      ]
+    },
+    "predictions": {
+      "home": 11,
+      "draw": 10,
+      "away": 79
+    }
+  },
+  {
+    "id": 68,
+    "stage": "Group L • Match #68",
+    "home": "Croatia",
+    "homeFlag": "🇭🇷",
+    "away": "Ghana",
+    "awayFlag": "🇬🇭",
+    "homeScore": 0,
+    "awayScore": 0,
+    "status": "upcoming",
+    "minute": 0,
+    "date": "Jun 27, 21:00 UTC",
+    "location": "Philadelphia Stadium",
+    "events": [],
+    "stats": {
+      "possession": [
+        50,
+        50
+      ],
+      "shots": [
+        0,
+        0
+      ],
+      "fouls": [
+        0,
+        0
+      ],
+      "corners": [
+        0,
+        0
+      ]
+    },
+    "lineups": {
+      "home": [
+        "Croatia Player 1",
+        "Croatia Player 2",
+        "Croatia Player 3",
+        "Croatia Player 4",
+        "Croatia Player 5",
+        "Croatia Player 6",
+        "Croatia Player 7",
+        "Croatia Player 8",
+        "Croatia Player 9",
+        "Croatia Player 10",
+        "Croatia Player 11"
+      ],
+      "away": [
+        "Ghana Player 1",
+        "Ghana Player 2",
+        "Ghana Player 3",
+        "Ghana Player 4",
+        "Ghana Player 5",
+        "Ghana Player 6",
+        "Ghana Player 7",
+        "Ghana Player 8",
+        "Ghana Player 9",
+        "Ghana Player 10",
+        "Ghana Player 11"
+      ]
+    },
+    "predictions": {
+      "home": 78,
+      "draw": 10,
+      "away": 12
+    }
+  },
+  {
+    "id": 71,
+    "stage": "Group K • Match #71",
+    "home": "Colombia",
+    "homeFlag": "🇨🇴",
+    "away": "Portugal",
+    "awayFlag": "🇵🇹",
+    "homeScore": 0,
+    "awayScore": 0,
+    "status": "upcoming",
+    "minute": 0,
+    "date": "Jun 27, 23:30 UTC",
+    "location": "Miami Stadium",
+    "events": [],
+    "stats": {
+      "possession": [
+        50,
+        50
+      ],
+      "shots": [
+        0,
+        0
+      ],
+      "fouls": [
+        0,
+        0
+      ],
+      "corners": [
+        0,
+        0
+      ]
+    },
+    "lineups": {
+      "home": [
+        "Colombia Player 1",
+        "Colombia Player 2",
+        "Colombia Player 3",
+        "Colombia Player 4",
+        "Colombia Player 5",
+        "Colombia Player 6",
+        "Colombia Player 7",
+        "Colombia Player 8",
+        "Colombia Player 9",
+        "Colombia Player 10",
+        "Colombia Player 11"
+      ],
+      "away": [
+        "Portugal Player 1",
+        "Portugal Player 2",
+        "Portugal Player 3",
+        "Portugal Player 4",
+        "Portugal Player 5",
+        "Portugal Player 6",
+        "Portugal Player 7",
+        "Portugal Player 8",
+        "Portugal Player 9",
+        "Portugal Player 10",
+        "Portugal Player 11"
+      ]
+    },
+    "predictions": {
+      "home": 31,
+      "draw": 22,
+      "away": 47
+    }
+  },
+  {
+    "id": 72,
+    "stage": "Group K • Match #72",
+    "home": "Congo DR",
+    "homeFlag": "⚽",
+    "away": "Uzbekistan",
+    "awayFlag": "🇺🇿",
+    "homeScore": 0,
+    "awayScore": 0,
+    "status": "upcoming",
+    "minute": 0,
+    "date": "Jun 27, 23:30 UTC",
+    "location": "Atlanta Stadium",
+    "events": [],
+    "stats": {
+      "possession": [
+        50,
+        50
+      ],
+      "shots": [
+        0,
+        0
+      ],
+      "fouls": [
+        0,
+        0
+      ],
+      "corners": [
+        0,
+        0
+      ]
+    },
+    "lineups": {
+      "home": [
+        "Congo DR Player 1",
+        "Congo DR Player 2",
+        "Congo DR Player 3",
+        "Congo DR Player 4",
+        "Congo DR Player 5",
+        "Congo DR Player 6",
+        "Congo DR Player 7",
+        "Congo DR Player 8",
+        "Congo DR Player 9",
+        "Congo DR Player 10",
+        "Congo DR Player 11"
+      ],
+      "away": [
+        "Uzbekistan Player 1",
+        "Uzbekistan Player 2",
+        "Uzbekistan Player 3",
+        "Uzbekistan Player 4",
+        "Uzbekistan Player 5",
+        "Uzbekistan Player 6",
+        "Uzbekistan Player 7",
+        "Uzbekistan Player 8",
+        "Uzbekistan Player 9",
+        "Uzbekistan Player 10",
+        "Uzbekistan Player 11"
+      ]
+    },
+    "predictions": {
+      "home": 46,
+      "draw": 23,
+      "away": 31
+    }
+  },
+  {
+    "id": 69,
+    "stage": "Group J • Match #69",
+    "home": "Algeria",
+    "homeFlag": "🇩🇿",
+    "away": "Austria",
+    "awayFlag": "🇦🇹",
+    "homeScore": 0,
+    "awayScore": 0,
+    "status": "upcoming",
+    "minute": 0,
+    "date": "Jun 28, 02:00 UTC",
+    "location": "Kansas City Stadium",
+    "events": [],
+    "stats": {
+      "possession": [
+        50,
+        50
+      ],
+      "shots": [
+        0,
+        0
+      ],
+      "fouls": [
+        0,
+        0
+      ],
+      "corners": [
+        0,
+        0
+      ]
+    },
+    "lineups": {
+      "home": [
+        "Algeria Player 1",
+        "Algeria Player 2",
+        "Algeria Player 3",
+        "Algeria Player 4",
+        "Algeria Player 5",
+        "Algeria Player 6",
+        "Algeria Player 7",
+        "Algeria Player 8",
+        "Algeria Player 9",
+        "Algeria Player 10",
+        "Algeria Player 11"
+      ],
+      "away": [
+        "Austria Player 1",
+        "Austria Player 2",
+        "Austria Player 3",
+        "Austria Player 4",
+        "Austria Player 5",
+        "Austria Player 6",
+        "Austria Player 7",
+        "Austria Player 8",
+        "Austria Player 9",
+        "Austria Player 10",
+        "Austria Player 11"
+      ]
+    },
+    "predictions": {
+      "home": 31,
+      "draw": 22,
+      "away": 47
+    }
+  },
+  {
+    "id": 70,
+    "stage": "Group J • Match #70",
+    "home": "Jordan",
+    "homeFlag": "🇯🇴",
+    "away": "Argentina",
+    "awayFlag": "🇦🇷",
+    "homeScore": 0,
+    "awayScore": 0,
+    "status": "upcoming",
+    "minute": 0,
+    "date": "Jun 28, 02:00 UTC",
+    "location": "Dallas Stadium",
+    "events": [],
+    "stats": {
+      "possession": [
+        50,
+        50
+      ],
+      "shots": [
+        0,
+        0
+      ],
+      "fouls": [
+        0,
+        0
+      ],
+      "corners": [
+        0,
+        0
+      ]
+    },
+    "lineups": {
+      "home": [
+        "Jordan Player 1",
+        "Jordan Player 2",
+        "Jordan Player 3",
+        "Jordan Player 4",
+        "Jordan Player 5",
+        "Jordan Player 6",
+        "Jordan Player 7",
+        "Jordan Player 8",
+        "Jordan Player 9",
+        "Jordan Player 10",
+        "Jordan Player 11"
+      ],
+      "away": [
+        "Argentina Player 1",
+        "Argentina Player 2",
+        "Argentina Player 3",
+        "Argentina Player 4",
+        "Argentina Player 5",
+        "Argentina Player 6",
+        "Argentina Player 7",
+        "Argentina Player 8",
+        "Argentina Player 9",
+        "Argentina Player 10",
+        "Argentina Player 11"
+      ]
+    },
+    "predictions": {
+      "home": 5,
+      "draw": 10,
+      "away": 85
+    }
+  },
+  {
+    "id": 73,
+    "stage": "Round of 32 • Match #73",
+    "home": "2A",
+    "homeFlag": "⚽",
+    "away": "2B",
+    "awayFlag": "⚽",
+    "homeScore": 0,
+    "awayScore": 0,
+    "status": "upcoming",
+    "minute": 0,
+    "date": "Jun 28, 19:00 UTC",
+    "location": "Los Angeles Stadium",
+    "events": [],
+    "stats": {
+      "possession": [
+        50,
+        50
+      ],
+      "shots": [
+        0,
+        0
+      ],
+      "fouls": [
+        0,
+        0
+      ],
+      "corners": [
+        0,
+        0
+      ]
+    },
+    "lineups": {
+      "home": [
+        "2A Player 1",
+        "2A Player 2",
+        "2A Player 3",
+        "2A Player 4",
+        "2A Player 5",
+        "2A Player 6",
+        "2A Player 7",
+        "2A Player 8",
+        "2A Player 9",
+        "2A Player 10",
+        "2A Player 11"
+      ],
+      "away": [
+        "2B Player 1",
+        "2B Player 2",
+        "2B Player 3",
+        "2B Player 4",
+        "2B Player 5",
+        "2B Player 6",
+        "2B Player 7",
+        "2B Player 8",
+        "2B Player 9",
+        "2B Player 10",
+        "2B Player 11"
+      ]
+    },
+    "predictions": {
+      "home": 37,
+      "draw": 26,
+      "away": 37
+    }
+  },
+  {
+    "id": 76,
+    "stage": "Round of 32 • Match #76",
+    "home": "1C",
+    "homeFlag": "⚽",
+    "away": "2F",
+    "awayFlag": "⚽",
+    "homeScore": 0,
+    "awayScore": 0,
+    "status": "upcoming",
+    "minute": 0,
+    "date": "Jun 29, 17:00 UTC",
+    "location": "Houston Stadium",
+    "events": [],
+    "stats": {
+      "possession": [
+        50,
+        50
+      ],
+      "shots": [
+        0,
+        0
+      ],
+      "fouls": [
+        0,
+        0
+      ],
+      "corners": [
+        0,
+        0
+      ]
+    },
+    "lineups": {
+      "home": [
+        "1C Player 1",
+        "1C Player 2",
+        "1C Player 3",
+        "1C Player 4",
+        "1C Player 5",
+        "1C Player 6",
+        "1C Player 7",
+        "1C Player 8",
+        "1C Player 9",
+        "1C Player 10",
+        "1C Player 11"
+      ],
+      "away": [
+        "2F Player 1",
+        "2F Player 2",
+        "2F Player 3",
+        "2F Player 4",
+        "2F Player 5",
+        "2F Player 6",
+        "2F Player 7",
+        "2F Player 8",
+        "2F Player 9",
+        "2F Player 10",
+        "2F Player 11"
+      ]
+    },
+    "predictions": {
+      "home": 37,
+      "draw": 26,
+      "away": 37
+    }
+  },
+  {
+    "id": 74,
+    "stage": "Round of 32 • Match #74",
+    "home": "1E",
+    "homeFlag": "⚽",
+    "away": "3ABCDF",
+    "awayFlag": "⚽",
+    "homeScore": 0,
+    "awayScore": 0,
+    "status": "upcoming",
+    "minute": 0,
+    "date": "Jun 29, 20:30 UTC",
+    "location": "Boston Stadium",
+    "events": [],
+    "stats": {
+      "possession": [
+        50,
+        50
+      ],
+      "shots": [
+        0,
+        0
+      ],
+      "fouls": [
+        0,
+        0
+      ],
+      "corners": [
+        0,
+        0
+      ]
+    },
+    "lineups": {
+      "home": [
+        "1E Player 1",
+        "1E Player 2",
+        "1E Player 3",
+        "1E Player 4",
+        "1E Player 5",
+        "1E Player 6",
+        "1E Player 7",
+        "1E Player 8",
+        "1E Player 9",
+        "1E Player 10",
+        "1E Player 11"
+      ],
+      "away": [
+        "3ABCDF Player 1",
+        "3ABCDF Player 2",
+        "3ABCDF Player 3",
+        "3ABCDF Player 4",
+        "3ABCDF Player 5",
+        "3ABCDF Player 6",
+        "3ABCDF Player 7",
+        "3ABCDF Player 8",
+        "3ABCDF Player 9",
+        "3ABCDF Player 10",
+        "3ABCDF Player 11"
+      ]
+    },
+    "predictions": {
+      "home": 37,
+      "draw": 26,
+      "away": 37
+    }
+  },
+  {
+    "id": 75,
+    "stage": "Round of 32 • Match #75",
+    "home": "1F",
+    "homeFlag": "⚽",
+    "away": "2C",
+    "awayFlag": "⚽",
+    "homeScore": 0,
+    "awayScore": 0,
+    "status": "upcoming",
+    "minute": 0,
+    "date": "Jun 30, 01:00 UTC",
+    "location": "Monterrey Stadium",
+    "events": [],
+    "stats": {
+      "possession": [
+        50,
+        50
+      ],
+      "shots": [
+        0,
+        0
+      ],
+      "fouls": [
+        0,
+        0
+      ],
+      "corners": [
+        0,
+        0
+      ]
+    },
+    "lineups": {
+      "home": [
+        "1F Player 1",
+        "1F Player 2",
+        "1F Player 3",
+        "1F Player 4",
+        "1F Player 5",
+        "1F Player 6",
+        "1F Player 7",
+        "1F Player 8",
+        "1F Player 9",
+        "1F Player 10",
+        "1F Player 11"
+      ],
+      "away": [
+        "2C Player 1",
+        "2C Player 2",
+        "2C Player 3",
+        "2C Player 4",
+        "2C Player 5",
+        "2C Player 6",
+        "2C Player 7",
+        "2C Player 8",
+        "2C Player 9",
+        "2C Player 10",
+        "2C Player 11"
+      ]
+    },
+    "predictions": {
+      "home": 37,
+      "draw": 26,
+      "away": 37
+    }
+  },
+  {
+    "id": 78,
+    "stage": "Round of 32 • Match #78",
+    "home": "2E",
+    "homeFlag": "⚽",
+    "away": "2I",
+    "awayFlag": "⚽",
+    "homeScore": 0,
+    "awayScore": 0,
+    "status": "upcoming",
+    "minute": 0,
+    "date": "Jun 30, 17:00 UTC",
+    "location": "Dallas Stadium",
+    "events": [],
+    "stats": {
+      "possession": [
+        50,
+        50
+      ],
+      "shots": [
+        0,
+        0
+      ],
+      "fouls": [
+        0,
+        0
+      ],
+      "corners": [
+        0,
+        0
+      ]
+    },
+    "lineups": {
+      "home": [
+        "2E Player 1",
+        "2E Player 2",
+        "2E Player 3",
+        "2E Player 4",
+        "2E Player 5",
+        "2E Player 6",
+        "2E Player 7",
+        "2E Player 8",
+        "2E Player 9",
+        "2E Player 10",
+        "2E Player 11"
+      ],
+      "away": [
+        "2I Player 1",
+        "2I Player 2",
+        "2I Player 3",
+        "2I Player 4",
+        "2I Player 5",
+        "2I Player 6",
+        "2I Player 7",
+        "2I Player 8",
+        "2I Player 9",
+        "2I Player 10",
+        "2I Player 11"
+      ]
+    },
+    "predictions": {
+      "home": 37,
+      "draw": 26,
+      "away": 37
+    }
+  },
+  {
+    "id": 77,
+    "stage": "Round of 32 • Match #77",
+    "home": "1I",
+    "homeFlag": "⚽",
+    "away": "3CDFGH",
+    "awayFlag": "⚽",
+    "homeScore": 0,
+    "awayScore": 0,
+    "status": "upcoming",
+    "minute": 0,
+    "date": "Jun 30, 21:00 UTC",
+    "location": "New York/New Jersey Stadium",
+    "events": [],
+    "stats": {
+      "possession": [
+        50,
+        50
+      ],
+      "shots": [
+        0,
+        0
+      ],
+      "fouls": [
+        0,
+        0
+      ],
+      "corners": [
+        0,
+        0
+      ]
+    },
+    "lineups": {
+      "home": [
+        "1I Player 1",
+        "1I Player 2",
+        "1I Player 3",
+        "1I Player 4",
+        "1I Player 5",
+        "1I Player 6",
+        "1I Player 7",
+        "1I Player 8",
+        "1I Player 9",
+        "1I Player 10",
+        "1I Player 11"
+      ],
+      "away": [
+        "3CDFGH Player 1",
+        "3CDFGH Player 2",
+        "3CDFGH Player 3",
+        "3CDFGH Player 4",
+        "3CDFGH Player 5",
+        "3CDFGH Player 6",
+        "3CDFGH Player 7",
+        "3CDFGH Player 8",
+        "3CDFGH Player 9",
+        "3CDFGH Player 10",
+        "3CDFGH Player 11"
+      ]
+    },
+    "predictions": {
+      "home": 37,
+      "draw": 26,
+      "away": 37
+    }
+  },
+  {
+    "id": 79,
+    "stage": "Round of 32 • Match #79",
+    "home": "1A",
+    "homeFlag": "⚽",
+    "away": "3CEFHI",
+    "awayFlag": "⚽",
+    "homeScore": 0,
+    "awayScore": 0,
+    "status": "upcoming",
+    "minute": 0,
+    "date": "Jul 01, 01:00 UTC",
+    "location": "Mexico City Stadium",
+    "events": [],
+    "stats": {
+      "possession": [
+        50,
+        50
+      ],
+      "shots": [
+        0,
+        0
+      ],
+      "fouls": [
+        0,
+        0
+      ],
+      "corners": [
+        0,
+        0
+      ]
+    },
+    "lineups": {
+      "home": [
+        "1A Player 1",
+        "1A Player 2",
+        "1A Player 3",
+        "1A Player 4",
+        "1A Player 5",
+        "1A Player 6",
+        "1A Player 7",
+        "1A Player 8",
+        "1A Player 9",
+        "1A Player 10",
+        "1A Player 11"
+      ],
+      "away": [
+        "3CEFHI Player 1",
+        "3CEFHI Player 2",
+        "3CEFHI Player 3",
+        "3CEFHI Player 4",
+        "3CEFHI Player 5",
+        "3CEFHI Player 6",
+        "3CEFHI Player 7",
+        "3CEFHI Player 8",
+        "3CEFHI Player 9",
+        "3CEFHI Player 10",
+        "3CEFHI Player 11"
+      ]
+    },
+    "predictions": {
+      "home": 37,
+      "draw": 26,
+      "away": 37
+    }
+  },
+  {
+    "id": 80,
+    "stage": "Round of 32 • Match #80",
+    "home": "1L",
+    "homeFlag": "⚽",
+    "away": "3EHIJK",
+    "awayFlag": "⚽",
+    "homeScore": 0,
+    "awayScore": 0,
+    "status": "upcoming",
+    "minute": 0,
+    "date": "Jul 01, 16:00 UTC",
+    "location": "Atlanta Stadium",
+    "events": [],
+    "stats": {
+      "possession": [
+        50,
+        50
+      ],
+      "shots": [
+        0,
+        0
+      ],
+      "fouls": [
+        0,
+        0
+      ],
+      "corners": [
+        0,
+        0
+      ]
+    },
+    "lineups": {
+      "home": [
+        "1L Player 1",
+        "1L Player 2",
+        "1L Player 3",
+        "1L Player 4",
+        "1L Player 5",
+        "1L Player 6",
+        "1L Player 7",
+        "1L Player 8",
+        "1L Player 9",
+        "1L Player 10",
+        "1L Player 11"
+      ],
+      "away": [
+        "3EHIJK Player 1",
+        "3EHIJK Player 2",
+        "3EHIJK Player 3",
+        "3EHIJK Player 4",
+        "3EHIJK Player 5",
+        "3EHIJK Player 6",
+        "3EHIJK Player 7",
+        "3EHIJK Player 8",
+        "3EHIJK Player 9",
+        "3EHIJK Player 10",
+        "3EHIJK Player 11"
+      ]
+    },
+    "predictions": {
+      "home": 37,
+      "draw": 26,
+      "away": 37
+    }
+  },
+  {
+    "id": 82,
+    "stage": "Round of 32 • Match #82",
+    "home": "1G",
+    "homeFlag": "⚽",
+    "away": "3AEHIJ",
+    "awayFlag": "⚽",
+    "homeScore": 0,
+    "awayScore": 0,
+    "status": "upcoming",
+    "minute": 0,
+    "date": "Jul 01, 20:00 UTC",
+    "location": "Seattle Stadium",
+    "events": [],
+    "stats": {
+      "possession": [
+        50,
+        50
+      ],
+      "shots": [
+        0,
+        0
+      ],
+      "fouls": [
+        0,
+        0
+      ],
+      "corners": [
+        0,
+        0
+      ]
+    },
+    "lineups": {
+      "home": [
+        "1G Player 1",
+        "1G Player 2",
+        "1G Player 3",
+        "1G Player 4",
+        "1G Player 5",
+        "1G Player 6",
+        "1G Player 7",
+        "1G Player 8",
+        "1G Player 9",
+        "1G Player 10",
+        "1G Player 11"
+      ],
+      "away": [
+        "3AEHIJ Player 1",
+        "3AEHIJ Player 2",
+        "3AEHIJ Player 3",
+        "3AEHIJ Player 4",
+        "3AEHIJ Player 5",
+        "3AEHIJ Player 6",
+        "3AEHIJ Player 7",
+        "3AEHIJ Player 8",
+        "3AEHIJ Player 9",
+        "3AEHIJ Player 10",
+        "3AEHIJ Player 11"
+      ]
+    },
+    "predictions": {
+      "home": 37,
+      "draw": 26,
+      "away": 37
+    }
+  },
+  {
+    "id": 81,
+    "stage": "Round of 32 • Match #81",
+    "home": "1D",
+    "homeFlag": "⚽",
+    "away": "3BEFIJ",
+    "awayFlag": "⚽",
+    "homeScore": 0,
+    "awayScore": 0,
+    "status": "upcoming",
+    "minute": 0,
+    "date": "Jul 02, 00:00 UTC",
+    "location": "San Francisco Bay Area Stadium",
+    "events": [],
+    "stats": {
+      "possession": [
+        50,
+        50
+      ],
+      "shots": [
+        0,
+        0
+      ],
+      "fouls": [
+        0,
+        0
+      ],
+      "corners": [
+        0,
+        0
+      ]
+    },
+    "lineups": {
+      "home": [
+        "1D Player 1",
+        "1D Player 2",
+        "1D Player 3",
+        "1D Player 4",
+        "1D Player 5",
+        "1D Player 6",
+        "1D Player 7",
+        "1D Player 8",
+        "1D Player 9",
+        "1D Player 10",
+        "1D Player 11"
+      ],
+      "away": [
+        "3BEFIJ Player 1",
+        "3BEFIJ Player 2",
+        "3BEFIJ Player 3",
+        "3BEFIJ Player 4",
+        "3BEFIJ Player 5",
+        "3BEFIJ Player 6",
+        "3BEFIJ Player 7",
+        "3BEFIJ Player 8",
+        "3BEFIJ Player 9",
+        "3BEFIJ Player 10",
+        "3BEFIJ Player 11"
+      ]
+    },
+    "predictions": {
+      "home": 37,
+      "draw": 26,
+      "away": 37
+    }
+  },
+  {
+    "id": 84,
+    "stage": "Round of 32 • Match #84",
+    "home": "1H",
+    "homeFlag": "⚽",
+    "away": "2J",
+    "awayFlag": "⚽",
+    "homeScore": 0,
+    "awayScore": 0,
+    "status": "upcoming",
+    "minute": 0,
+    "date": "Jul 02, 19:00 UTC",
+    "location": "Los Angeles Stadium",
+    "events": [],
+    "stats": {
+      "possession": [
+        50,
+        50
+      ],
+      "shots": [
+        0,
+        0
+      ],
+      "fouls": [
+        0,
+        0
+      ],
+      "corners": [
+        0,
+        0
+      ]
+    },
+    "lineups": {
+      "home": [
+        "1H Player 1",
+        "1H Player 2",
+        "1H Player 3",
+        "1H Player 4",
+        "1H Player 5",
+        "1H Player 6",
+        "1H Player 7",
+        "1H Player 8",
+        "1H Player 9",
+        "1H Player 10",
+        "1H Player 11"
+      ],
+      "away": [
+        "2J Player 1",
+        "2J Player 2",
+        "2J Player 3",
+        "2J Player 4",
+        "2J Player 5",
+        "2J Player 6",
+        "2J Player 7",
+        "2J Player 8",
+        "2J Player 9",
+        "2J Player 10",
+        "2J Player 11"
+      ]
+    },
+    "predictions": {
+      "home": 37,
+      "draw": 26,
+      "away": 37
+    }
+  },
+  {
+    "id": 83,
+    "stage": "Round of 32 • Match #83",
+    "home": "2K",
+    "homeFlag": "⚽",
+    "away": "2L",
+    "awayFlag": "⚽",
+    "homeScore": 0,
+    "awayScore": 0,
+    "status": "upcoming",
+    "minute": 0,
+    "date": "Jul 02, 23:00 UTC",
+    "location": "Toronto Stadium",
+    "events": [],
+    "stats": {
+      "possession": [
+        50,
+        50
+      ],
+      "shots": [
+        0,
+        0
+      ],
+      "fouls": [
+        0,
+        0
+      ],
+      "corners": [
+        0,
+        0
+      ]
+    },
+    "lineups": {
+      "home": [
+        "2K Player 1",
+        "2K Player 2",
+        "2K Player 3",
+        "2K Player 4",
+        "2K Player 5",
+        "2K Player 6",
+        "2K Player 7",
+        "2K Player 8",
+        "2K Player 9",
+        "2K Player 10",
+        "2K Player 11"
+      ],
+      "away": [
+        "2L Player 1",
+        "2L Player 2",
+        "2L Player 3",
+        "2L Player 4",
+        "2L Player 5",
+        "2L Player 6",
+        "2L Player 7",
+        "2L Player 8",
+        "2L Player 9",
+        "2L Player 10",
+        "2L Player 11"
+      ]
+    },
+    "predictions": {
+      "home": 37,
+      "draw": 26,
+      "away": 37
+    }
+  },
+  {
+    "id": 85,
+    "stage": "Round of 32 • Match #85",
+    "home": "1B",
+    "homeFlag": "⚽",
+    "away": "3EFGIJ",
+    "awayFlag": "⚽",
+    "homeScore": 0,
+    "awayScore": 0,
+    "status": "upcoming",
+    "minute": 0,
+    "date": "Jul 03, 03:00 UTC",
+    "location": "BC Place Vancouver",
+    "events": [],
+    "stats": {
+      "possession": [
+        50,
+        50
+      ],
+      "shots": [
+        0,
+        0
+      ],
+      "fouls": [
+        0,
+        0
+      ],
+      "corners": [
+        0,
+        0
+      ]
+    },
+    "lineups": {
+      "home": [
+        "1B Player 1",
+        "1B Player 2",
+        "1B Player 3",
+        "1B Player 4",
+        "1B Player 5",
+        "1B Player 6",
+        "1B Player 7",
+        "1B Player 8",
+        "1B Player 9",
+        "1B Player 10",
+        "1B Player 11"
+      ],
+      "away": [
+        "3EFGIJ Player 1",
+        "3EFGIJ Player 2",
+        "3EFGIJ Player 3",
+        "3EFGIJ Player 4",
+        "3EFGIJ Player 5",
+        "3EFGIJ Player 6",
+        "3EFGIJ Player 7",
+        "3EFGIJ Player 8",
+        "3EFGIJ Player 9",
+        "3EFGIJ Player 10",
+        "3EFGIJ Player 11"
+      ]
+    },
+    "predictions": {
+      "home": 37,
+      "draw": 26,
+      "away": 37
+    }
+  },
+  {
+    "id": 88,
+    "stage": "Round of 32 • Match #88",
+    "home": "2D",
+    "homeFlag": "⚽",
+    "away": "2G",
+    "awayFlag": "⚽",
+    "homeScore": 0,
+    "awayScore": 0,
+    "status": "upcoming",
+    "minute": 0,
+    "date": "Jul 03, 18:00 UTC",
+    "location": "Dallas Stadium",
+    "events": [],
+    "stats": {
+      "possession": [
+        50,
+        50
+      ],
+      "shots": [
+        0,
+        0
+      ],
+      "fouls": [
+        0,
+        0
+      ],
+      "corners": [
+        0,
+        0
+      ]
+    },
+    "lineups": {
+      "home": [
+        "2D Player 1",
+        "2D Player 2",
+        "2D Player 3",
+        "2D Player 4",
+        "2D Player 5",
+        "2D Player 6",
+        "2D Player 7",
+        "2D Player 8",
+        "2D Player 9",
+        "2D Player 10",
+        "2D Player 11"
+      ],
+      "away": [
+        "2G Player 1",
+        "2G Player 2",
+        "2G Player 3",
+        "2G Player 4",
+        "2G Player 5",
+        "2G Player 6",
+        "2G Player 7",
+        "2G Player 8",
+        "2G Player 9",
+        "2G Player 10",
+        "2G Player 11"
+      ]
+    },
+    "predictions": {
+      "home": 37,
+      "draw": 26,
+      "away": 37
+    }
+  },
+  {
+    "id": 86,
+    "stage": "Round of 32 • Match #86",
+    "home": "1J",
+    "homeFlag": "⚽",
+    "away": "2H",
+    "awayFlag": "⚽",
+    "homeScore": 0,
+    "awayScore": 0,
+    "status": "upcoming",
+    "minute": 0,
+    "date": "Jul 03, 22:00 UTC",
+    "location": "Miami Stadium",
+    "events": [],
+    "stats": {
+      "possession": [
+        50,
+        50
+      ],
+      "shots": [
+        0,
+        0
+      ],
+      "fouls": [
+        0,
+        0
+      ],
+      "corners": [
+        0,
+        0
+      ]
+    },
+    "lineups": {
+      "home": [
+        "1J Player 1",
+        "1J Player 2",
+        "1J Player 3",
+        "1J Player 4",
+        "1J Player 5",
+        "1J Player 6",
+        "1J Player 7",
+        "1J Player 8",
+        "1J Player 9",
+        "1J Player 10",
+        "1J Player 11"
+      ],
+      "away": [
+        "2H Player 1",
+        "2H Player 2",
+        "2H Player 3",
+        "2H Player 4",
+        "2H Player 5",
+        "2H Player 6",
+        "2H Player 7",
+        "2H Player 8",
+        "2H Player 9",
+        "2H Player 10",
+        "2H Player 11"
+      ]
+    },
+    "predictions": {
+      "home": 37,
+      "draw": 26,
+      "away": 37
+    }
+  },
+  {
+    "id": 87,
+    "stage": "Round of 32 • Match #87",
+    "home": "1K",
+    "homeFlag": "⚽",
+    "away": "3DEIJL",
+    "awayFlag": "⚽",
+    "homeScore": 0,
+    "awayScore": 0,
+    "status": "upcoming",
+    "minute": 0,
+    "date": "Jul 04, 01:30 UTC",
+    "location": "Kansas City Stadium",
+    "events": [],
+    "stats": {
+      "possession": [
+        50,
+        50
+      ],
+      "shots": [
+        0,
+        0
+      ],
+      "fouls": [
+        0,
+        0
+      ],
+      "corners": [
+        0,
+        0
+      ]
+    },
+    "lineups": {
+      "home": [
+        "1K Player 1",
+        "1K Player 2",
+        "1K Player 3",
+        "1K Player 4",
+        "1K Player 5",
+        "1K Player 6",
+        "1K Player 7",
+        "1K Player 8",
+        "1K Player 9",
+        "1K Player 10",
+        "1K Player 11"
+      ],
+      "away": [
+        "3DEIJL Player 1",
+        "3DEIJL Player 2",
+        "3DEIJL Player 3",
+        "3DEIJL Player 4",
+        "3DEIJL Player 5",
+        "3DEIJL Player 6",
+        "3DEIJL Player 7",
+        "3DEIJL Player 8",
+        "3DEIJL Player 9",
+        "3DEIJL Player 10",
+        "3DEIJL Player 11"
+      ]
+    },
+    "predictions": {
+      "home": 37,
+      "draw": 26,
+      "away": 37
+    }
+  },
+  {
+    "id": 90,
+    "stage": "Round of 16 • Match #90",
+    "home": "To be announced",
+    "homeFlag": "⚽",
+    "away": "To be announced",
+    "awayFlag": "⚽",
+    "homeScore": 0,
+    "awayScore": 0,
+    "status": "upcoming",
+    "minute": 0,
+    "date": "Jul 04, 17:00 UTC",
+    "location": "Houston Stadium",
+    "events": [],
+    "stats": {
+      "possession": [
+        50,
+        50
+      ],
+      "shots": [
+        0,
+        0
+      ],
+      "fouls": [
+        0,
+        0
+      ],
+      "corners": [
+        0,
+        0
+      ]
+    },
+    "lineups": {
+      "home": [
+        "To be announced Player 1",
+        "To be announced Player 2",
+        "To be announced Player 3",
+        "To be announced Player 4",
+        "To be announced Player 5",
+        "To be announced Player 6",
+        "To be announced Player 7",
+        "To be announced Player 8",
+        "To be announced Player 9",
+        "To be announced Player 10",
+        "To be announced Player 11"
+      ],
+      "away": [
+        "To be announced Player 1",
+        "To be announced Player 2",
+        "To be announced Player 3",
+        "To be announced Player 4",
+        "To be announced Player 5",
+        "To be announced Player 6",
+        "To be announced Player 7",
+        "To be announced Player 8",
+        "To be announced Player 9",
+        "To be announced Player 10",
+        "To be announced Player 11"
+      ]
+    },
+    "predictions": {
+      "home": 37,
+      "draw": 26,
+      "away": 37
+    }
+  },
+  {
+    "id": 89,
+    "stage": "Round of 16 • Match #89",
+    "home": "To be announced",
+    "homeFlag": "⚽",
+    "away": "To be announced",
+    "awayFlag": "⚽",
+    "homeScore": 0,
+    "awayScore": 0,
+    "status": "upcoming",
+    "minute": 0,
+    "date": "Jul 04, 21:00 UTC",
+    "location": "Philadelphia Stadium",
+    "events": [],
+    "stats": {
+      "possession": [
+        50,
+        50
+      ],
+      "shots": [
+        0,
+        0
+      ],
+      "fouls": [
+        0,
+        0
+      ],
+      "corners": [
+        0,
+        0
+      ]
+    },
+    "lineups": {
+      "home": [
+        "To be announced Player 1",
+        "To be announced Player 2",
+        "To be announced Player 3",
+        "To be announced Player 4",
+        "To be announced Player 5",
+        "To be announced Player 6",
+        "To be announced Player 7",
+        "To be announced Player 8",
+        "To be announced Player 9",
+        "To be announced Player 10",
+        "To be announced Player 11"
+      ],
+      "away": [
+        "To be announced Player 1",
+        "To be announced Player 2",
+        "To be announced Player 3",
+        "To be announced Player 4",
+        "To be announced Player 5",
+        "To be announced Player 6",
+        "To be announced Player 7",
+        "To be announced Player 8",
+        "To be announced Player 9",
+        "To be announced Player 10",
+        "To be announced Player 11"
+      ]
+    },
+    "predictions": {
+      "home": 37,
+      "draw": 26,
+      "away": 37
+    }
+  },
+  {
+    "id": 91,
+    "stage": "Round of 16 • Match #91",
+    "home": "To be announced",
+    "homeFlag": "⚽",
+    "away": "To be announced",
+    "awayFlag": "⚽",
+    "homeScore": 0,
+    "awayScore": 0,
+    "status": "upcoming",
+    "minute": 0,
+    "date": "Jul 05, 20:00 UTC",
+    "location": "New York/New Jersey Stadium",
+    "events": [],
+    "stats": {
+      "possession": [
+        50,
+        50
+      ],
+      "shots": [
+        0,
+        0
+      ],
+      "fouls": [
+        0,
+        0
+      ],
+      "corners": [
+        0,
+        0
+      ]
+    },
+    "lineups": {
+      "home": [
+        "To be announced Player 1",
+        "To be announced Player 2",
+        "To be announced Player 3",
+        "To be announced Player 4",
+        "To be announced Player 5",
+        "To be announced Player 6",
+        "To be announced Player 7",
+        "To be announced Player 8",
+        "To be announced Player 9",
+        "To be announced Player 10",
+        "To be announced Player 11"
+      ],
+      "away": [
+        "To be announced Player 1",
+        "To be announced Player 2",
+        "To be announced Player 3",
+        "To be announced Player 4",
+        "To be announced Player 5",
+        "To be announced Player 6",
+        "To be announced Player 7",
+        "To be announced Player 8",
+        "To be announced Player 9",
+        "To be announced Player 10",
+        "To be announced Player 11"
+      ]
+    },
+    "predictions": {
+      "home": 37,
+      "draw": 26,
+      "away": 37
+    }
+  },
+  {
+    "id": 92,
+    "stage": "Round of 16 • Match #92",
+    "home": "To be announced",
+    "homeFlag": "⚽",
+    "away": "To be announced",
+    "awayFlag": "⚽",
+    "homeScore": 0,
+    "awayScore": 0,
+    "status": "upcoming",
+    "minute": 0,
+    "date": "Jul 06, 00:00 UTC",
+    "location": "Mexico City Stadium",
+    "events": [],
+    "stats": {
+      "possession": [
+        50,
+        50
+      ],
+      "shots": [
+        0,
+        0
+      ],
+      "fouls": [
+        0,
+        0
+      ],
+      "corners": [
+        0,
+        0
+      ]
+    },
+    "lineups": {
+      "home": [
+        "To be announced Player 1",
+        "To be announced Player 2",
+        "To be announced Player 3",
+        "To be announced Player 4",
+        "To be announced Player 5",
+        "To be announced Player 6",
+        "To be announced Player 7",
+        "To be announced Player 8",
+        "To be announced Player 9",
+        "To be announced Player 10",
+        "To be announced Player 11"
+      ],
+      "away": [
+        "To be announced Player 1",
+        "To be announced Player 2",
+        "To be announced Player 3",
+        "To be announced Player 4",
+        "To be announced Player 5",
+        "To be announced Player 6",
+        "To be announced Player 7",
+        "To be announced Player 8",
+        "To be announced Player 9",
+        "To be announced Player 10",
+        "To be announced Player 11"
+      ]
+    },
+    "predictions": {
+      "home": 37,
+      "draw": 26,
+      "away": 37
+    }
+  },
+  {
+    "id": 93,
+    "stage": "Round of 16 • Match #93",
+    "home": "To be announced",
+    "homeFlag": "⚽",
+    "away": "To be announced",
+    "awayFlag": "⚽",
+    "homeScore": 0,
+    "awayScore": 0,
+    "status": "upcoming",
+    "minute": 0,
+    "date": "Jul 06, 19:00 UTC",
+    "location": "Dallas Stadium",
+    "events": [],
+    "stats": {
+      "possession": [
+        50,
+        50
+      ],
+      "shots": [
+        0,
+        0
+      ],
+      "fouls": [
+        0,
+        0
+      ],
+      "corners": [
+        0,
+        0
+      ]
+    },
+    "lineups": {
+      "home": [
+        "To be announced Player 1",
+        "To be announced Player 2",
+        "To be announced Player 3",
+        "To be announced Player 4",
+        "To be announced Player 5",
+        "To be announced Player 6",
+        "To be announced Player 7",
+        "To be announced Player 8",
+        "To be announced Player 9",
+        "To be announced Player 10",
+        "To be announced Player 11"
+      ],
+      "away": [
+        "To be announced Player 1",
+        "To be announced Player 2",
+        "To be announced Player 3",
+        "To be announced Player 4",
+        "To be announced Player 5",
+        "To be announced Player 6",
+        "To be announced Player 7",
+        "To be announced Player 8",
+        "To be announced Player 9",
+        "To be announced Player 10",
+        "To be announced Player 11"
+      ]
+    },
+    "predictions": {
+      "home": 37,
+      "draw": 26,
+      "away": 37
+    }
+  },
+  {
+    "id": 94,
+    "stage": "Round of 16 • Match #94",
+    "home": "To be announced",
+    "homeFlag": "⚽",
+    "away": "To be announced",
+    "awayFlag": "⚽",
+    "homeScore": 0,
+    "awayScore": 0,
+    "status": "upcoming",
+    "minute": 0,
+    "date": "Jul 07, 00:00 UTC",
+    "location": "Seattle Stadium",
+    "events": [],
+    "stats": {
+      "possession": [
+        50,
+        50
+      ],
+      "shots": [
+        0,
+        0
+      ],
+      "fouls": [
+        0,
+        0
+      ],
+      "corners": [
+        0,
+        0
+      ]
+    },
+    "lineups": {
+      "home": [
+        "To be announced Player 1",
+        "To be announced Player 2",
+        "To be announced Player 3",
+        "To be announced Player 4",
+        "To be announced Player 5",
+        "To be announced Player 6",
+        "To be announced Player 7",
+        "To be announced Player 8",
+        "To be announced Player 9",
+        "To be announced Player 10",
+        "To be announced Player 11"
+      ],
+      "away": [
+        "To be announced Player 1",
+        "To be announced Player 2",
+        "To be announced Player 3",
+        "To be announced Player 4",
+        "To be announced Player 5",
+        "To be announced Player 6",
+        "To be announced Player 7",
+        "To be announced Player 8",
+        "To be announced Player 9",
+        "To be announced Player 10",
+        "To be announced Player 11"
+      ]
+    },
+    "predictions": {
+      "home": 37,
+      "draw": 26,
+      "away": 37
+    }
+  },
+  {
+    "id": 95,
+    "stage": "Round of 16 • Match #95",
+    "home": "To be announced",
+    "homeFlag": "⚽",
+    "away": "To be announced",
+    "awayFlag": "⚽",
+    "homeScore": 0,
+    "awayScore": 0,
+    "status": "upcoming",
+    "minute": 0,
+    "date": "Jul 07, 16:00 UTC",
+    "location": "Atlanta Stadium",
+    "events": [],
+    "stats": {
+      "possession": [
+        50,
+        50
+      ],
+      "shots": [
+        0,
+        0
+      ],
+      "fouls": [
+        0,
+        0
+      ],
+      "corners": [
+        0,
+        0
+      ]
+    },
+    "lineups": {
+      "home": [
+        "To be announced Player 1",
+        "To be announced Player 2",
+        "To be announced Player 3",
+        "To be announced Player 4",
+        "To be announced Player 5",
+        "To be announced Player 6",
+        "To be announced Player 7",
+        "To be announced Player 8",
+        "To be announced Player 9",
+        "To be announced Player 10",
+        "To be announced Player 11"
+      ],
+      "away": [
+        "To be announced Player 1",
+        "To be announced Player 2",
+        "To be announced Player 3",
+        "To be announced Player 4",
+        "To be announced Player 5",
+        "To be announced Player 6",
+        "To be announced Player 7",
+        "To be announced Player 8",
+        "To be announced Player 9",
+        "To be announced Player 10",
+        "To be announced Player 11"
+      ]
+    },
+    "predictions": {
+      "home": 37,
+      "draw": 26,
+      "away": 37
+    }
+  },
+  {
+    "id": 96,
+    "stage": "Round of 16 • Match #96",
+    "home": "To be announced",
+    "homeFlag": "⚽",
+    "away": "To be announced",
+    "awayFlag": "⚽",
+    "homeScore": 0,
+    "awayScore": 0,
+    "status": "upcoming",
+    "minute": 0,
+    "date": "Jul 07, 20:00 UTC",
+    "location": "BC Place Vancouver",
+    "events": [],
+    "stats": {
+      "possession": [
+        50,
+        50
+      ],
+      "shots": [
+        0,
+        0
+      ],
+      "fouls": [
+        0,
+        0
+      ],
+      "corners": [
+        0,
+        0
+      ]
+    },
+    "lineups": {
+      "home": [
+        "To be announced Player 1",
+        "To be announced Player 2",
+        "To be announced Player 3",
+        "To be announced Player 4",
+        "To be announced Player 5",
+        "To be announced Player 6",
+        "To be announced Player 7",
+        "To be announced Player 8",
+        "To be announced Player 9",
+        "To be announced Player 10",
+        "To be announced Player 11"
+      ],
+      "away": [
+        "To be announced Player 1",
+        "To be announced Player 2",
+        "To be announced Player 3",
+        "To be announced Player 4",
+        "To be announced Player 5",
+        "To be announced Player 6",
+        "To be announced Player 7",
+        "To be announced Player 8",
+        "To be announced Player 9",
+        "To be announced Player 10",
+        "To be announced Player 11"
+      ]
+    },
+    "predictions": {
+      "home": 37,
+      "draw": 26,
+      "away": 37
+    }
+  },
+  {
+    "id": 97,
+    "stage": "Quarter-finals • Match #97",
+    "home": "To be announced",
+    "homeFlag": "⚽",
+    "away": "To be announced",
+    "awayFlag": "⚽",
+    "homeScore": 0,
+    "awayScore": 0,
+    "status": "upcoming",
+    "minute": 0,
+    "date": "Jul 09, 20:00 UTC",
+    "location": "Boston Stadium",
+    "events": [],
+    "stats": {
+      "possession": [
+        50,
+        50
+      ],
+      "shots": [
+        0,
+        0
+      ],
+      "fouls": [
+        0,
+        0
+      ],
+      "corners": [
+        0,
+        0
+      ]
+    },
+    "lineups": {
+      "home": [
+        "To be announced Player 1",
+        "To be announced Player 2",
+        "To be announced Player 3",
+        "To be announced Player 4",
+        "To be announced Player 5",
+        "To be announced Player 6",
+        "To be announced Player 7",
+        "To be announced Player 8",
+        "To be announced Player 9",
+        "To be announced Player 10",
+        "To be announced Player 11"
+      ],
+      "away": [
+        "To be announced Player 1",
+        "To be announced Player 2",
+        "To be announced Player 3",
+        "To be announced Player 4",
+        "To be announced Player 5",
+        "To be announced Player 6",
+        "To be announced Player 7",
+        "To be announced Player 8",
+        "To be announced Player 9",
+        "To be announced Player 10",
+        "To be announced Player 11"
+      ]
+    },
+    "predictions": {
+      "home": 37,
+      "draw": 26,
+      "away": 37
+    }
+  },
+  {
+    "id": 98,
+    "stage": "Quarter-finals • Match #98",
+    "home": "To be announced",
+    "homeFlag": "⚽",
+    "away": "To be announced",
+    "awayFlag": "⚽",
+    "homeScore": 0,
+    "awayScore": 0,
+    "status": "upcoming",
+    "minute": 0,
+    "date": "Jul 10, 19:00 UTC",
+    "location": "Los Angeles Stadium",
+    "events": [],
+    "stats": {
+      "possession": [
+        50,
+        50
+      ],
+      "shots": [
+        0,
+        0
+      ],
+      "fouls": [
+        0,
+        0
+      ],
+      "corners": [
+        0,
+        0
+      ]
+    },
+    "lineups": {
+      "home": [
+        "To be announced Player 1",
+        "To be announced Player 2",
+        "To be announced Player 3",
+        "To be announced Player 4",
+        "To be announced Player 5",
+        "To be announced Player 6",
+        "To be announced Player 7",
+        "To be announced Player 8",
+        "To be announced Player 9",
+        "To be announced Player 10",
+        "To be announced Player 11"
+      ],
+      "away": [
+        "To be announced Player 1",
+        "To be announced Player 2",
+        "To be announced Player 3",
+        "To be announced Player 4",
+        "To be announced Player 5",
+        "To be announced Player 6",
+        "To be announced Player 7",
+        "To be announced Player 8",
+        "To be announced Player 9",
+        "To be announced Player 10",
+        "To be announced Player 11"
+      ]
+    },
+    "predictions": {
+      "home": 37,
+      "draw": 26,
+      "away": 37
+    }
+  },
+  {
+    "id": 99,
+    "stage": "Quarter-finals • Match #99",
+    "home": "To be announced",
+    "homeFlag": "⚽",
+    "away": "To be announced",
+    "awayFlag": "⚽",
+    "homeScore": 0,
+    "awayScore": 0,
+    "status": "upcoming",
+    "minute": 0,
+    "date": "Jul 11, 21:00 UTC",
+    "location": "Miami Stadium",
+    "events": [],
+    "stats": {
+      "possession": [
+        50,
+        50
+      ],
+      "shots": [
+        0,
+        0
+      ],
+      "fouls": [
+        0,
+        0
+      ],
+      "corners": [
+        0,
+        0
+      ]
+    },
+    "lineups": {
+      "home": [
+        "To be announced Player 1",
+        "To be announced Player 2",
+        "To be announced Player 3",
+        "To be announced Player 4",
+        "To be announced Player 5",
+        "To be announced Player 6",
+        "To be announced Player 7",
+        "To be announced Player 8",
+        "To be announced Player 9",
+        "To be announced Player 10",
+        "To be announced Player 11"
+      ],
+      "away": [
+        "To be announced Player 1",
+        "To be announced Player 2",
+        "To be announced Player 3",
+        "To be announced Player 4",
+        "To be announced Player 5",
+        "To be announced Player 6",
+        "To be announced Player 7",
+        "To be announced Player 8",
+        "To be announced Player 9",
+        "To be announced Player 10",
+        "To be announced Player 11"
+      ]
+    },
+    "predictions": {
+      "home": 37,
+      "draw": 26,
+      "away": 37
+    }
+  },
+  {
+    "id": 100,
+    "stage": "Quarter-finals • Match #100",
+    "home": "To be announced",
+    "homeFlag": "⚽",
+    "away": "To be announced",
+    "awayFlag": "⚽",
+    "homeScore": 0,
+    "awayScore": 0,
+    "status": "upcoming",
+    "minute": 0,
+    "date": "Jul 12, 01:00 UTC",
+    "location": "Kansas City Stadium",
+    "events": [],
+    "stats": {
+      "possession": [
+        50,
+        50
+      ],
+      "shots": [
+        0,
+        0
+      ],
+      "fouls": [
+        0,
+        0
+      ],
+      "corners": [
+        0,
+        0
+      ]
+    },
+    "lineups": {
+      "home": [
+        "To be announced Player 1",
+        "To be announced Player 2",
+        "To be announced Player 3",
+        "To be announced Player 4",
+        "To be announced Player 5",
+        "To be announced Player 6",
+        "To be announced Player 7",
+        "To be announced Player 8",
+        "To be announced Player 9",
+        "To be announced Player 10",
+        "To be announced Player 11"
+      ],
+      "away": [
+        "To be announced Player 1",
+        "To be announced Player 2",
+        "To be announced Player 3",
+        "To be announced Player 4",
+        "To be announced Player 5",
+        "To be announced Player 6",
+        "To be announced Player 7",
+        "To be announced Player 8",
+        "To be announced Player 9",
+        "To be announced Player 10",
+        "To be announced Player 11"
+      ]
+    },
+    "predictions": {
+      "home": 37,
+      "draw": 26,
+      "away": 37
+    }
+  },
+  {
+    "id": 101,
+    "stage": "Semi-finals • Match #101",
+    "home": "To be announced",
+    "homeFlag": "⚽",
+    "away": "To be announced",
+    "awayFlag": "⚽",
+    "homeScore": 0,
+    "awayScore": 0,
+    "status": "upcoming",
+    "minute": 0,
+    "date": "Jul 14, 19:00 UTC",
+    "location": "Dallas Stadium",
+    "events": [],
+    "stats": {
+      "possession": [
+        50,
+        50
+      ],
+      "shots": [
+        0,
+        0
+      ],
+      "fouls": [
+        0,
+        0
+      ],
+      "corners": [
+        0,
+        0
+      ]
+    },
+    "lineups": {
+      "home": [
+        "To be announced Player 1",
+        "To be announced Player 2",
+        "To be announced Player 3",
+        "To be announced Player 4",
+        "To be announced Player 5",
+        "To be announced Player 6",
+        "To be announced Player 7",
+        "To be announced Player 8",
+        "To be announced Player 9",
+        "To be announced Player 10",
+        "To be announced Player 11"
+      ],
+      "away": [
+        "To be announced Player 1",
+        "To be announced Player 2",
+        "To be announced Player 3",
+        "To be announced Player 4",
+        "To be announced Player 5",
+        "To be announced Player 6",
+        "To be announced Player 7",
+        "To be announced Player 8",
+        "To be announced Player 9",
+        "To be announced Player 10",
+        "To be announced Player 11"
+      ]
+    },
+    "predictions": {
+      "home": 37,
+      "draw": 26,
+      "away": 37
+    }
+  },
+  {
+    "id": 102,
+    "stage": "Semi-finals • Match #102",
+    "home": "To be announced",
+    "homeFlag": "⚽",
+    "away": "To be announced",
+    "awayFlag": "⚽",
+    "homeScore": 0,
+    "awayScore": 0,
+    "status": "upcoming",
+    "minute": 0,
+    "date": "Jul 15, 19:00 UTC",
+    "location": "Atlanta Stadium",
+    "events": [],
+    "stats": {
+      "possession": [
+        50,
+        50
+      ],
+      "shots": [
+        0,
+        0
+      ],
+      "fouls": [
+        0,
+        0
+      ],
+      "corners": [
+        0,
+        0
+      ]
+    },
+    "lineups": {
+      "home": [
+        "To be announced Player 1",
+        "To be announced Player 2",
+        "To be announced Player 3",
+        "To be announced Player 4",
+        "To be announced Player 5",
+        "To be announced Player 6",
+        "To be announced Player 7",
+        "To be announced Player 8",
+        "To be announced Player 9",
+        "To be announced Player 10",
+        "To be announced Player 11"
+      ],
+      "away": [
+        "To be announced Player 1",
+        "To be announced Player 2",
+        "To be announced Player 3",
+        "To be announced Player 4",
+        "To be announced Player 5",
+        "To be announced Player 6",
+        "To be announced Player 7",
+        "To be announced Player 8",
+        "To be announced Player 9",
+        "To be announced Player 10",
+        "To be announced Player 11"
+      ]
+    },
+    "predictions": {
+      "home": 37,
+      "draw": 26,
+      "away": 37
+    }
+  },
+  {
+    "id": 103,
+    "stage": "Finals • Match #103",
+    "home": "To be announced",
+    "homeFlag": "⚽",
+    "away": "To be announced",
+    "awayFlag": "⚽",
+    "homeScore": 0,
+    "awayScore": 0,
+    "status": "upcoming",
+    "minute": 0,
+    "date": "Jul 18, 21:00 UTC",
+    "location": "Miami Stadium",
+    "events": [],
+    "stats": {
+      "possession": [
+        50,
+        50
+      ],
+      "shots": [
+        0,
+        0
+      ],
+      "fouls": [
+        0,
+        0
+      ],
+      "corners": [
+        0,
+        0
+      ]
+    },
+    "lineups": {
+      "home": [
+        "To be announced Player 1",
+        "To be announced Player 2",
+        "To be announced Player 3",
+        "To be announced Player 4",
+        "To be announced Player 5",
+        "To be announced Player 6",
+        "To be announced Player 7",
+        "To be announced Player 8",
+        "To be announced Player 9",
+        "To be announced Player 10",
+        "To be announced Player 11"
+      ],
+      "away": [
+        "To be announced Player 1",
+        "To be announced Player 2",
+        "To be announced Player 3",
+        "To be announced Player 4",
+        "To be announced Player 5",
+        "To be announced Player 6",
+        "To be announced Player 7",
+        "To be announced Player 8",
+        "To be announced Player 9",
+        "To be announced Player 10",
+        "To be announced Player 11"
+      ]
+    },
+    "predictions": {
+      "home": 37,
+      "draw": 26,
+      "away": 37
+    }
+  },
+  {
+    "id": 104,
+    "stage": "Finals • Match #104",
+    "home": "To be announced",
+    "homeFlag": "⚽",
+    "away": "To be announced",
+    "awayFlag": "⚽",
+    "homeScore": 0,
+    "awayScore": 0,
+    "status": "upcoming",
+    "minute": 0,
+    "date": "Jul 19, 19:00 UTC",
+    "location": "New York/New Jersey Stadium",
+    "events": [],
+    "stats": {
+      "possession": [
+        50,
+        50
+      ],
+      "shots": [
+        0,
+        0
+      ],
+      "fouls": [
+        0,
+        0
+      ],
+      "corners": [
+        0,
+        0
+      ]
+    },
+    "lineups": {
+      "home": [
+        "To be announced Player 1",
+        "To be announced Player 2",
+        "To be announced Player 3",
+        "To be announced Player 4",
+        "To be announced Player 5",
+        "To be announced Player 6",
+        "To be announced Player 7",
+        "To be announced Player 8",
+        "To be announced Player 9",
+        "To be announced Player 10",
+        "To be announced Player 11"
+      ],
+      "away": [
+        "To be announced Player 1",
+        "To be announced Player 2",
+        "To be announced Player 3",
+        "To be announced Player 4",
+        "To be announced Player 5",
+        "To be announced Player 6",
+        "To be announced Player 7",
+        "To be announced Player 8",
+        "To be announced Player 9",
+        "To be announced Player 10",
+        "To be announced Player 11"
+      ]
+    },
+    "predictions": {
+      "home": 37,
+      "draw": 26,
+      "away": 37
+    }
   }
 ]
