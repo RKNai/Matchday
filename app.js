@@ -1596,6 +1596,14 @@ const TEAM_COLORS = {
 
 // --- Live Win Probability Calculations ---
 function getBaseProbability(match) {
+  if (match.predictions) {
+    return {
+      home: match.predictions.home,
+      draw: match.predictions.draw,
+      away: match.predictions.away
+    };
+  }
+
   let hash = 0;
   const str = match.home + match.away + (match.id || '');
   for (let i = 0; i < str.length; i++) {

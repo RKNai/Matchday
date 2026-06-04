@@ -79,6 +79,50 @@ TEAM_SQUADS = {
   "Sweden": ["Olsen", "Krafth", "Hien", "Lindelöf", "Augustinsson", "Cajuste", "Salétros", "Kulusevski", "Isak", "Elanga", "Gyökeres"]
 }
 
+FIFA_RATINGS = {
+  "Argentina": 1860, "France": 1840, "England": 1795, "Belgium": 1790, "Brazil": 1785,
+  "Spain": 1775, "Portugal": 1750, "Netherlands": 1745, "Italy": 1725, "Croatia": 1720,
+  "Colombia": 1675, "Morocco": 1660, "Uruguay": 1660, "USA": 1640, "United States": 1640,
+  "Germany": 1640, "Mexico": 1630, "Japan": 1625, "Senegal": 1620, "Iran": 1610, "IR Iran": 1610,
+  "Denmark": 1600, "South Korea": 1565, "Korea Republic": 1565, "Australia": 1560, "Ukraine": 1560,
+  "Austria": 1555, "Sweden": 1530, "Wales": 1520, "Ecuador": 1515, "Poland": 1510,
+  "Serbia": 1505, "Czechia": 1500, "Peru": 1500, "Chile": 1495, "Turkey": 1495, "Türkiye": 1495,
+  "Switzerland": 1615, "Romania": 1460, "Slovakia": 1460, "Canada": 1475, "Cameroon": 1460,
+  "Norway": 1470, "Egypt": 1500, "Ivory Coast": 1500, "Côte d'Ivoire": 1500, "Nigeria": 1495,
+  "Tunisia": 1490, "Algeria": 1485, "Georgia": 1450, "Slovenia": 1430, "Saudi Arabia": 1445,
+  "Iraq": 1435, "Uzbekistan": 1385, "Ghana": 1390, "Qatar": 1400, "South Africa": 1410,
+  "Jordan": 1380, "Jamaica": 1395, "Bosnia and Herzegovina": 1330, "Honduras": 1315,
+  "El Salvador": 1300, "Haiti": 1300, "Curaçao": 1260, "New Zealand": 1160, "Cabo Verde": 1380,
+  "Scotland": 1480, "Panama": 1445
+}
+
+def calculate_predictions(home, away):
+  home_rating = FIFA_RATINGS.get(home, 1450)
+  away_rating = FIFA_RATINGS.get(away, 1450)
+  
+  diff = home_rating - away_rating
+  # Baseline draw probability is 26%, reduces slightly with diff
+  draw_prob = max(10, 26 - abs(diff) / 20)
+  
+  # Elo expected outcome for home
+  expected_home = 1.0 / (1.0 + 10.0 ** (-diff / 400.0))
+  
+  # Allocate remaining probability
+  remaining = 100.0 - draw_prob
+  home_win = remaining * expected_home
+  away_win = remaining * (1.0 - expected_home)
+  
+  # Round and ensure they sum to exactly 100%
+  home_win = round(home_win)
+  draw_prob = round(draw_prob)
+  away_win = 100 - home_win - draw_prob
+  
+  return {
+    "home": int(home_win),
+    "draw": int(draw_prob),
+    "away": int(away_win)
+  }
+
 def setup_directories():
   if not os.path.exists(DATA_DIR):
     os.makedirs(DATA_DIR)
@@ -248,6 +292,7 @@ def parse_fixtures():
         "away": away_players
       }
 
+      predictions = calculate_predictions(home_team, away_team)
       formatted_matches.append({
         "id": match.get("MatchNumber", idx + 300),
         "stage": f"{match.get('Group', 'Group Stage')} • Match #{match.get('MatchNumber')}",
@@ -263,7 +308,8 @@ def parse_fixtures():
         "location": match.get("Location", "World Cup Pitch"),
         "events": events,
         "stats": stats,
-        "lineups": lineups
+        "lineups": lineups,
+        "predictions": predictions
       })
 
     # Save to matches.json

@@ -58,6 +58,11 @@
         "Tau",
         "Makgopa"
       ]
+    },
+    "predictions": {
+      "home": 66,
+      "draw": 15,
+      "away": 19
     }
   },
   {
@@ -119,6 +124,11 @@
         "Hlozek",
         "Schick"
       ]
+    },
+    "predictions": {
+      "home": 46,
+      "draw": 23,
+      "away": 31
     }
   },
   {
@@ -180,6 +190,11 @@
         "Hajradinović",
         "Tabaković"
       ]
+    },
+    "predictions": {
+      "home": 57,
+      "draw": 19,
+      "away": 24
     }
   },
   {
@@ -241,6 +256,11 @@
         "Enciso",
         "Sanabria"
       ]
+    },
+    "predictions": {
+      "home": 63,
+      "draw": 16,
+      "away": 21
     }
   },
   {
@@ -302,6 +322,11 @@
         "Vargas",
         "Embolo"
       ]
+    },
+    "predictions": {
+      "home": 19,
+      "draw": 15,
+      "away": 66
     }
   },
   {
@@ -363,6 +388,11 @@
         "Adli",
         "En-Nesyri"
       ]
+    },
+    "predictions": {
+      "home": 54,
+      "draw": 20,
+      "away": 26
     }
   },
   {
@@ -424,6 +454,11 @@
         "McGinn",
         "Adams"
       ]
+    },
+    "predictions": {
+      "home": 22,
+      "draw": 17,
+      "away": 61
     }
   },
   {
@@ -485,6 +520,11 @@
         "Yıldız",
         "Yılmaz"
       ]
+    },
+    "predictions": {
+      "home": 46,
+      "draw": 23,
+      "away": 31
     }
   },
   {
@@ -546,6 +586,11 @@
         "Gorré",
         "Locadia"
       ]
+    },
+    "predictions": {
+      "home": 81,
+      "draw": 10,
+      "away": 9
     }
   },
   {
@@ -607,6 +652,11 @@
         "Mitoma",
         "Ueda"
       ]
+    },
+    "predictions": {
+      "home": 53,
+      "draw": 20,
+      "away": 27
     }
   },
   {
@@ -668,6 +718,11 @@
         "Sarmiento",
         "Valencia"
       ]
+    },
+    "predictions": {
+      "home": 36,
+      "draw": 25,
+      "away": 39
     }
   },
   {
@@ -729,6 +784,11 @@
         "Ltaief",
         "Jaziri"
       ]
+    },
+    "predictions": {
+      "home": 42,
+      "draw": 24,
+      "away": 34
     }
   },
   {
@@ -790,6 +850,11 @@
         "Cabral",
         "Bebé"
       ]
+    },
+    "predictions": {
+      "home": 82,
+      "draw": 10,
+      "away": 8
     }
   },
   {
@@ -851,6 +916,11 @@
         "Trezeguet",
         "Mostafa Mohamed"
       ]
+    },
+    "predictions": {
+      "home": 74,
+      "draw": 12,
+      "away": 14
     }
   },
   {
@@ -912,6 +982,11 @@
         "Araujo",
         "Darwin Núñez"
       ]
+    },
+    "predictions": {
+      "home": 19,
+      "draw": 15,
+      "away": 66
     }
   },
   {
@@ -973,6 +1048,11 @@
         "Wood",
         "McCowatt"
       ]
+    },
+    "predictions": {
+      "home": 84,
+      "draw": 10,
+      "away": 6
     }
   }
 ]
