@@ -1,5 +1,19 @@
 [
   {
+    "category": "tactics",
+    "title": "Unsold Scotland World Cup tickets put on resale sites",
+    "snippet": "Dozens of tickets for the Scotland vs Haiti match on 12 June are listed on the third-party sites.",
+    "time": "8m ago",
+    "timestamp": 1780572214,
+    "color": "linear-gradient(135deg, #f59e0b, #78350f)",
+    "overlay": "⚽",
+    "link": "https://www.bbc.com/news/articles/c5y71n7292xo?at_medium=RSS&at_campaign=rss",
+    "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/063a/live/5fc8d5e0-6000-11f1-932e-d972ba5bcb91.jpg",
+    "source": "BBC Sport",
+    "lang": "en",
+    "id": 200
+  },
+  {
     "category": "press",
     "title": "Heat experts warn 'reckless' Fifa of bottle ban health risk",
     "snippet": "Fans will not be allowed to take reusable water bottles into World Cup stadiums due to safety concerns, Fifa says in a late policy change.",
@@ -11,7 +25,7 @@
     "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/600a/live/a099a030-5fe8-11f1-9e8e-893122412ba5.jpg",
     "source": "BBC Sport",
     "lang": "en",
-    "id": 200
+    "id": 201
   },
   {
     "category": "tactics",
@@ -25,7 +39,7 @@
     "image": "https://e1.365dm.com/26/06/1920x1080/skysports-world-cup-england_7265021.jpg?20260604082357",
     "source": "Sky Sports",
     "lang": "en",
-    "id": 201
+    "id": 202
   },
   {
     "category": "tactics",
@@ -39,7 +53,7 @@
     "image": "https://e0.365dm.com/26/04/1920x1080/skysports-united-states-ownership_7232329.jpg?20260427165209",
     "source": "Sky Sports",
     "lang": "en",
-    "id": 202
+    "id": 203
   },
   {
     "category": "tactics",
@@ -53,27 +67,13 @@
     "image": "https://ichef.bbci.co.uk/images/ic/240x135/p0npzl34.jpg",
     "source": "BBC Sport",
     "lang": "en",
-    "id": 203
+    "id": 204
   },
   {
     "category": "tactics",
     "title": "Heroes and villains - the stories behind Scotland's World Cup bogeymen",
     "snippet": "Since their first attempt in 1954 there's always been some kind of misfortune lurking in the shadows for Scotland at World Cups, writes Tom English.",
-    "time": "4h ago",
-    "timestamp": 1780554339,
-    "color": "linear-gradient(135deg, #f59e0b, #78350f)",
-    "overlay": "⚽",
-    "link": "https://www.bbc.com/sport/football/articles/c2k2ewk2x2vo?at_medium=RSS&at_campaign=rss",
-    "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/6e07/live/7e038970-5f41-11f1-8b8c-6d33e1d5abb6.png",
-    "source": "BBC Sport",
-    "lang": "en",
-    "id": 204
-  },
-  {
-    "category": "tactics",
-    "title": "Remembering Scotland's World Cup bogeymen of finals gone by",
-    "snippet": "Since their first attempt in 1954 there's always been some kind of misfortune lurking in the shadows for Scotland at World Cups, writes Tom English.",
-    "time": "4h ago",
+    "time": "5h ago",
     "timestamp": 1780554339,
     "color": "linear-gradient(135deg, #f59e0b, #78350f)",
     "overlay": "⚽",
@@ -82,6 +82,20 @@
     "source": "BBC Sport",
     "lang": "en",
     "id": 205
+  },
+  {
+    "category": "tactics",
+    "title": "Remembering Scotland's World Cup bogeymen of finals gone by",
+    "snippet": "Since their first attempt in 1954 there's always been some kind of misfortune lurking in the shadows for Scotland at World Cups, writes Tom English.",
+    "time": "5h ago",
+    "timestamp": 1780554339,
+    "color": "linear-gradient(135deg, #f59e0b, #78350f)",
+    "overlay": "⚽",
+    "link": "https://www.bbc.com/sport/football/articles/c2k2ewk2x2vo?at_medium=RSS&at_campaign=rss",
+    "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/6e07/live/7e038970-5f41-11f1-8b8c-6d33e1d5abb6.png",
+    "source": "BBC Sport",
+    "lang": "en",
+    "id": 206
   },
   {
     "category": "press",
@@ -95,13 +109,13 @@
     "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/ae83/live/b4aeb7d0-58ff-11f1-a656-5bf9ca1d9342.jpg",
     "source": "BBC Sport",
     "lang": "en",
-    "id": 206
+    "id": 207
   },
   {
     "category": "lineup",
     "title": "A higher ceiling than Messi? What next for Lamine Yamal?",
     "snippet": "Lamine Yamal is a key figure in Spain's World Cup squad, but why is the 18-year-old quick to dismiss Messi comparisons?",
-    "time": "5h ago",
+    "time": "6h ago",
     "timestamp": 1780550859,
     "color": "linear-gradient(135deg, #3b82f6, #1e3a8a)",
     "overlay": "📋",
@@ -109,27 +123,13 @@
     "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/bdb2/live/b6786430-5b84-11f1-bcbb-431c39a62187.jpg",
     "source": "BBC Sport",
     "lang": "en",
-    "id": 207
+    "id": 208
   },
   {
     "category": "press",
     "title": "Wales boss Wilkinson sleeps in airport amid travel chaos",
     "snippet": "Wales head coach Rhian Wilkinson had to sleep overnight in an Italian airport as weather hit plans for Friday's World Cup qualifier in Montenegro.",
-    "time": "7h ago",
-    "timestamp": 1780543809,
-    "color": "linear-gradient(135deg, #0d9488, #115e59)",
-    "overlay": "🎙️",
-    "link": "https://www.bbc.com/sport/football/articles/cj3pk2erknno?at_medium=RSS&at_campaign=rss",
-    "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/171f/live/834c4570-5f8c-11f1-98ee-774b1106af5f.jpg",
-    "source": "BBC Sport",
-    "lang": "en",
-    "id": 208
-  },
-  {
-    "category": "press",
-    "title": "Wilkinson sleeps in airport amid Wales travel chaos",
-    "snippet": "Wales head coach Rhian Wilkinson had to sleep overnight in an Italian airport as weather hit plans for Friday's World Cup qualifier in Montenegro.",
-    "time": "7h ago",
+    "time": "8h ago",
     "timestamp": 1780543809,
     "color": "linear-gradient(135deg, #0d9488, #115e59)",
     "overlay": "🎙️",
@@ -138,6 +138,20 @@
     "source": "BBC Sport",
     "lang": "en",
     "id": 209
+  },
+  {
+    "category": "press",
+    "title": "Wilkinson sleeps in airport amid Wales travel chaos",
+    "snippet": "Wales head coach Rhian Wilkinson had to sleep overnight in an Italian airport as weather hit plans for Friday's World Cup qualifier in Montenegro.",
+    "time": "8h ago",
+    "timestamp": 1780543809,
+    "color": "linear-gradient(135deg, #0d9488, #115e59)",
+    "overlay": "🎙️",
+    "link": "https://www.bbc.com/sport/football/articles/cj3pk2erknno?at_medium=RSS&at_campaign=rss",
+    "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/171f/live/834c4570-5f8c-11f1-98ee-774b1106af5f.jpg",
+    "source": "BBC Sport",
+    "lang": "en",
+    "id": 210
   },
   {
     "category": "tactics",
@@ -151,7 +165,7 @@
     "image": "https://e1.365dm.com/26/06/1920x1080/skysports-harry-kane-england_7264895.jpg?20260603222426",
     "source": "Sky Sports",
     "lang": "en",
-    "id": 210
+    "id": 211
   },
   {
     "category": "lineup",
@@ -165,7 +179,7 @@
     "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/1be4/live/e6317170-5f6d-11f1-bb1e-872b6e9ba8be.jpg",
     "source": "BBC Sport",
     "lang": "en",
-    "id": 211
+    "id": 212
   },
   {
     "category": "tactics",
@@ -179,7 +193,7 @@
     "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/437c/live/e4ddfef0-5f37-11f1-89a3-d1f559421220.jpg",
     "source": "BBC Sport",
     "lang": "en",
-    "id": 212
+    "id": 213
   },
   {
     "category": "tactics",
@@ -191,20 +205,6 @@
     "overlay": "⚽",
     "link": "https://www.bbc.com/sport/football/articles/cvgzdm200v5o?at_medium=RSS&at_campaign=rss",
     "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/f7e3/live/30d19830-5e6b-11f1-bc81-5b802fae4864.jpg",
-    "source": "BBC Sport",
-    "lang": "en",
-    "id": 213
-  },
-  {
-    "category": "tactics",
-    "title": "Diana Ross & 'GOAT' Ronaldo - Richards watches World Cup moments",
-    "snippet": "Former England defender and current pundit Micah Richards looks at some of the most memorable World Cup moments.",
-    "time": "1d ago",
-    "timestamp": 1780477206,
-    "color": "linear-gradient(135deg, #f59e0b, #78350f)",
-    "overlay": "⚽",
-    "link": "https://www.bbc.com/sport/football/videos/c1w2xy0r2r3o?at_medium=RSS&at_campaign=rss",
-    "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/9567/live/d9a51a90-5f29-11f1-89a3-d1f559421220.jpg",
     "source": "BBC Sport",
     "lang": "en",
     "id": 214
@@ -344,7 +344,7 @@
     "color": "linear-gradient(135deg, #0d9488, #115e59)",
     "overlay": "🎙️",
     "link": "https://monesport.cat/barca/jugadors/kounde-futur-continuitat-declaracions-484426/",
-    "image": "https://images.unsplash.com/photo-1518063319789-7217e6706b04?w=800&auto=format&fit=crop",
+    "image": "https://images.unsplash.com/photo-1508098682722-e99c43a406b2?w=800&auto=format&fit=crop",
     "source": "Món Esport",
     "lang": "ca",
     "id": 224
@@ -358,7 +358,7 @@
     "color": "linear-gradient(135deg, #64748b, #334155)",
     "overlay": "📺",
     "link": "https://monesport.cat/barca/jugadors/lamine-yamal-escollir-fitxatge-espanyol-484418/",
-    "image": "https://images.unsplash.com/photo-1508098682722-e99c43a406b2?w=800&auto=format&fit=crop",
+    "image": "https://images.unsplash.com/photo-1543351611-58f69d7c1781?w=800&auto=format&fit=crop",
     "source": "Món Esport",
     "lang": "ca",
     "id": 225
