@@ -1,9 +1,23 @@
 [
   {
+    "category": "rules",
+    "title": "Fifa bans fans from taking water bottles into World Cup stadiums",
+    "snippet": "Fans will not be allowed to take reusable water bottles into World Cup stadiums due to safety concerns, Fifa says in a late policy change.",
+    "time": "3m ago",
+    "timestamp": 1780563347,
+    "color": "linear-gradient(135deg, #64748b, #334155)",
+    "overlay": "📺",
+    "link": "https://www.bbc.com/sport/football/articles/c302gelj8evo?at_medium=RSS&at_campaign=rss",
+    "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/600a/live/a099a030-5fe8-11f1-9e8e-893122412ba5.jpg",
+    "source": "BBC Sport",
+    "lang": "en",
+    "id": 200
+  },
+  {
     "category": "tactics",
     "title": "England in the heat, Brazil, Messi and Ronaldo - World Cup latest",
     "snippet": "Sky Sports brings you the latest from the World Cup with just one week to go!",
-    "time": "22m ago",
+    "time": "45m ago",
     "timestamp": 1780560840,
     "color": "linear-gradient(135deg, #f59e0b, #78350f)",
     "overlay": "⚽",
@@ -11,13 +25,13 @@
     "image": "https://e1.365dm.com/26/06/1920x1080/skysports-world-cup-england_7265021.jpg?20260604082357",
     "source": "Sky Sports",
     "lang": "en",
-    "id": 200
+    "id": 201
   },
   {
     "category": "tactics",
     "title": "Why are American investors taking over English football?",
     "snippet": "The World Cup is taking over the United States this summer. But the not-so-secret American takeover of football has been building its foundations for some time now.",
-    "time": "36m ago",
+    "time": "59m ago",
     "timestamp": 1780560000,
     "color": "linear-gradient(135deg, #f59e0b, #78350f)",
     "overlay": "⚽",
@@ -25,7 +39,77 @@
     "image": "https://e0.365dm.com/26/04/1920x1080/skysports-united-states-ownership_7232329.jpg?20260427165209",
     "source": "Sky Sports",
     "lang": "en",
-    "id": 201
+    "id": 202
+  },
+  {
+    "category": "tactics",
+    "title": "Podcast: What is it actually like to play at a World Cup?",
+    "snippet": "We ask what the experience of playing at a World Cup is as Scotland are set to return.",
+    "time": "1h ago",
+    "timestamp": 1780556400,
+    "color": "linear-gradient(135deg, #f59e0b, #78350f)",
+    "overlay": "⚽",
+    "link": "https://www.bbc.co.uk/sounds/play/p0npzl2f?at_medium=RSS&at_campaign=rss",
+    "image": "https://ichef.bbci.co.uk/images/ic/240x135/p0npzl34.jpg",
+    "source": "BBC Sport",
+    "lang": "en",
+    "id": 203
+  },
+  {
+    "category": "tactics",
+    "title": "Remembering Scotland's World Cup bogeymen of finals gone by",
+    "snippet": "Since their first attempt in 1954 there's always been some kind of misfortune lurking in the shadows for Scotland at World Cups, writes Tom English.",
+    "time": "2h ago",
+    "timestamp": 1780554339,
+    "color": "linear-gradient(135deg, #f59e0b, #78350f)",
+    "overlay": "⚽",
+    "link": "https://www.bbc.com/sport/football/articles/c2k2ewk2x2vo?at_medium=RSS&at_campaign=rss",
+    "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/6e07/live/7e038970-5f41-11f1-8b8c-6d33e1d5abb6.png",
+    "source": "BBC Sport",
+    "lang": "en",
+    "id": 204
+  },
+  {
+    "category": "press",
+    "title": "Video vault and Leeds litter picking - inside the mind of Bielsa",
+    "snippet": "It is possible that nobody alive today has watched more football than Marcelo Bielsa, the former Leeds United boss who will lead Uruguay at the World Cup.",
+    "time": "3h ago",
+    "timestamp": 1780552026,
+    "color": "linear-gradient(135deg, #0d9488, #115e59)",
+    "overlay": "🎙️",
+    "link": "https://www.bbc.com/sport/football/articles/c5ye2m00y5ro?at_medium=RSS&at_campaign=rss",
+    "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/ae83/live/b4aeb7d0-58ff-11f1-a656-5bf9ca1d9342.jpg",
+    "source": "BBC Sport",
+    "lang": "en",
+    "id": 205
+  },
+  {
+    "category": "lineup",
+    "title": "Inspired by Modric and a shift inside: The evolution of Lamine Yamal",
+    "snippet": "Lamine Yamal is a key figure in Spain's World Cup squad, but why is the 18-year-old quick to dismiss Messi comparisons?",
+    "time": "3h ago",
+    "timestamp": 1780550859,
+    "color": "linear-gradient(135deg, #3b82f6, #1e3a8a)",
+    "overlay": "📋",
+    "link": "https://www.bbc.com/sport/football/articles/cy82mpzg3n4o?at_medium=RSS&at_campaign=rss",
+    "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/bdb2/live/b6786430-5b84-11f1-bcbb-431c39a62187.jpg",
+    "source": "BBC Sport",
+    "lang": "en",
+    "id": 206
+  },
+  {
+    "category": "press",
+    "title": "Wales diverted as weather hits Montenegro qualifier",
+    "snippet": "Wales head coach Rhian Wilkinson left trying to sleep overnight in Italian airport as weather hit plans for Friday's World Cup qualifier in Montenegro.",
+    "time": "5h ago",
+    "timestamp": 1780543809,
+    "color": "linear-gradient(135deg, #0d9488, #115e59)",
+    "overlay": "🎙️",
+    "link": "https://www.bbc.com/sport/football/articles/cj3pk2erknno?at_medium=RSS&at_campaign=rss",
+    "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/171f/live/834c4570-5f8c-11f1-98ee-774b1106af5f.jpg",
+    "source": "BBC Sport",
+    "lang": "en",
+    "id": 207
   },
   {
     "category": "tactics",
@@ -39,91 +123,91 @@
     "image": "https://e1.365dm.com/26/06/1920x1080/skysports-harry-kane-england_7264895.jpg?20260603222426",
     "source": "Sky Sports",
     "lang": "en",
-    "id": 202
-  },
-  {
-    "category": "tactics",
-    "title": "World Cup latest: It's nearly here...ONE week to go!",
-    "snippet": "",
-    "time": "1d ago",
-    "timestamp": 1780472400,
-    "color": "linear-gradient(135deg, #f59e0b, #78350f)",
-    "overlay": "⚽",
-    "link": "https://www.skysports.com/football/live-blog/11095/13509050/world-cup-2026-news-and-live-updates-usa-canada-and-mexico-build-up-plus-latest-on-trump-tickets-and-fans",
-    "image": "https://e2.365dm.com/25/11/1920x1080/skysports-world-cup-trophy_7084567.jpg?20251117221849",
-    "source": "Sky Sports",
-    "lang": "en",
-    "id": 203
-  },
-  {
-    "category": "tactics",
-    "title": "Germany 2026 World Cup home kit leaked – inspired by iconic 1990 shirt",
-    "snippet": "Germany’s 2026 World Cup home kit leaks, inspired by the iconic 1990 design worn when West Germany lifted the trophy.",
-    "time": "247d ago",
-    "timestamp": 1759135500,
-    "color": "linear-gradient(135deg, #f59e0b, #78350f)",
-    "overlay": "⚽",
-    "link": "https://www.90min.com/germany-2026-world-cup-home-kit-leaked-iconic-1990-shirt?utm_source=RSS",
-    "image": "https://images2.minutemediacdn.com/image/upload/c_crop,w_2027,h_1140,x_21,y_0/c_fill,w_2880,ar_16:9,f_auto,q_auto,g_auto/images/GettyImages/mmsport/90min_en_international_web/01k60az1qg12evrz5m49.jpg",
-    "source": "90min",
-    "lang": "en",
-    "id": 204
-  },
-  {
-    "category": "tactics",
-    "title": "Spain's 2026 World Cup home kit leaked",
-    "snippet": "Spain’s 2026 World Cup home kit has leaked online, featuring deep red, navy sleeves, and yellow pinstripes in a nod to tradition.",
-    "time": "253d ago",
-    "timestamp": 1758672000,
-    "color": "linear-gradient(135deg, #f59e0b, #78350f)",
-    "overlay": "⚽",
-    "link": "https://www.90min.com/spain-2026-world-cup-home-kit-leaked?utm_source=RSS",
-    "image": "https://images2.minutemediacdn.com/image/upload/c_crop,w_3924,h_2207,x_1409,y_334/c_fill,w_2880,ar_16:9,f_auto,q_auto,g_auto/images/GettyImages/mmsport/90min_en_international_web/01k5rfpdpfcn9665b8qp.jpg",
-    "source": "90min",
-    "lang": "en",
-    "id": 205
-  },
-  {
-    "category": "tactics",
-    "title": "England's 2026 World Cup home and away kits leaked",
-    "snippet": "England’s 2026 World Cup kits have leaked online, featuring a classic white home shirt with jacquard detailing and a bold red away design.",
-    "time": "253d ago",
-    "timestamp": 1758628800,
-    "color": "linear-gradient(135deg, #f59e0b, #78350f)",
-    "overlay": "⚽",
-    "link": "https://www.90min.com/england-2026-world-cup-home-and-away-kits-leaked?utm_source=RSS",
-    "image": "https://images2.minutemediacdn.com/image/upload/c_crop,w_4630,h_2604,x_0,y_123/c_fill,w_2880,ar_16:9,f_auto,q_auto,g_auto/images/GettyImages/mmsport/90min_en_international_web/01k5rdt426stdby0nq4r.jpg",
-    "source": "90min",
-    "lang": "en",
-    "id": 206
-  },
-  {
-    "category": "rules",
-    "title": "adidas 'Trionda' 2026 World Cup ball leaked",
-    "snippet": "adidas’ 'Trionda' 2026 FIFA World Cup ball has leaked in new images, showing a host nation-inspired design with four-panel tech and a nod to the Brazuca.",
-    "time": "266d ago",
-    "timestamp": 1757545200,
-    "color": "linear-gradient(135deg, #64748b, #334155)",
-    "overlay": "📺",
-    "link": "https://www.90min.com/adidas-trionda-2026-world-cup-ball-leaked?utm_source=RSS",
-    "image": "https://images2.minutemediacdn.com/image/upload/c_crop,w_1280,h_720,x_0,y_325/c_fill,w_2880,ar_16:9,f_auto,q_auto,g_auto/images/voltaxMediaLibrary/mmsport/90min_en_international_web/01k4mb1378ayc7vkmr2w.jpg",
-    "source": "90min",
-    "lang": "en",
-    "id": 207
-  },
-  {
-    "category": "rules",
-    "title": "World Cup qualifier suspended after sinkhole opens up on pitch",
-    "snippet": "Austria’s World Cup qualifier against Cyprus was halted after a sinkhole opened on the pitch. The game eventually resumed, with Marcel Sabitzer’s penalty sealing a 1-0 win.",
-    "time": "267d ago",
-    "timestamp": 1757410200,
-    "color": "linear-gradient(135deg, #64748b, #334155)",
-    "overlay": "📺",
-    "link": "https://www.90min.com/world-cup-qualifier-suspended-sinkhole-opens-up-on-pitch?utm_source=RSS",
-    "image": "https://images2.minutemediacdn.com/image/upload/c_crop,w_3235,h_1819,x_0,y_337/c_fill,w_2880,ar_16:9,f_auto,q_auto,g_auto/images/GettyImages/mmsport/90min_en_international_web/01k4mevb3b7eh5kxj2rd.jpg",
-    "source": "90min",
-    "lang": "en",
     "id": 208
+  },
+  {
+    "category": "lineup",
+    "title": "Most experience? Youngest? Best leagues? World Cup squads in numbers",
+    "snippet": "BBC Sport look at all of the World Cup 2026 squads and answer some of the key questions.",
+    "time": "14h ago",
+    "timestamp": 1780509657,
+    "color": "linear-gradient(135deg, #3b82f6, #1e3a8a)",
+    "overlay": "📋",
+    "link": "https://www.bbc.com/sport/football/articles/c89348x0x14o?at_medium=RSS&at_campaign=rss",
+    "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/1be4/live/e6317170-5f6d-11f1-bb1e-872b6e9ba8be.jpg",
+    "source": "BBC Sport",
+    "lang": "en",
+    "id": 209
+  },
+  {
+    "category": "tactics",
+    "title": "Seven African players to watch at World Cup 2026",
+    "snippet": "With a record 10 African sides in action at the 2026 World Cup, BBC Sport Africa picks out some of the players to watch from the continent.",
+    "time": "20h ago",
+    "timestamp": 1780490318,
+    "color": "linear-gradient(135deg, #f59e0b, #78350f)",
+    "overlay": "⚽",
+    "link": "https://www.bbc.com/sport/football/articles/c1w29qgdn7xo?at_medium=RSS&at_campaign=rss",
+    "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/f8e4/live/2ac34460-552f-11f1-89a3-d1f559421220.png",
+    "source": "BBC Sport",
+    "lang": "en",
+    "id": 210
+  },
+  {
+    "category": "tactics",
+    "title": "Scott poised to make England debut in World Cup friendlies",
+    "snippet": "Bournemouth midfielder Alex Scott is poised to make his England debut in the forthcoming World Cup warm-up games in the United States.",
+    "time": "22h ago",
+    "timestamp": 1780482547,
+    "color": "linear-gradient(135deg, #f59e0b, #78350f)",
+    "overlay": "⚽",
+    "link": "https://www.bbc.com/sport/football/articles/cy72rnnelpzo?at_medium=RSS&at_campaign=rss",
+    "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/437c/live/e4ddfef0-5f37-11f1-89a3-d1f559421220.jpg",
+    "source": "BBC Sport",
+    "lang": "en",
+    "id": 211
+  },
+  {
+    "category": "tactics",
+    "title": "Big games keep coming as Hughes eyes World Cup",
+    "snippet": "Laura Hughes hopes to make a mark with Wales in Women's World Cup qualifying after a memorable season at club level.",
+    "time": "22h ago",
+    "timestamp": 1780480818,
+    "color": "linear-gradient(135deg, #f59e0b, #78350f)",
+    "overlay": "⚽",
+    "link": "https://www.bbc.com/sport/football/articles/cvgzdm200v5o?at_medium=RSS&at_campaign=rss",
+    "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/f7e3/live/30d19830-5e6b-11f1-bc81-5b802fae4864.jpg",
+    "source": "BBC Sport",
+    "lang": "en",
+    "id": 212
+  },
+  {
+    "category": "tactics",
+    "title": "Diana Ross & 'GOAT' Ronaldo - Richards watches World Cup moments",
+    "snippet": "Former England defender and current pundit Micah Richards looks at some of the most memorable World Cup moments.",
+    "time": "23h ago",
+    "timestamp": 1780477206,
+    "color": "linear-gradient(135deg, #f59e0b, #78350f)",
+    "overlay": "⚽",
+    "link": "https://www.bbc.com/sport/football/videos/c1w2xy0r2r3o?at_medium=RSS&at_campaign=rss",
+    "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/9567/live/d9a51a90-5f29-11f1-89a3-d1f559421220.jpg",
+    "source": "BBC Sport",
+    "lang": "en",
+    "id": 213
+  },
+  {
+    "category": "lineup",
+    "title": "What are the deadlines for World Cup squads?",
+    "snippet": "BBC Sport's Ask Me Anything team explains the deadlines by which teams must name their final squads for the 2026 World Cup",
+    "time": "1d ago",
+    "timestamp": 1780474338,
+    "color": "linear-gradient(135deg, #3b82f6, #1e3a8a)",
+    "overlay": "📋",
+    "link": "https://www.bbc.com/sport/football/articles/ckgp482v49xo?at_medium=RSS&at_campaign=rss",
+    "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/f98e/live/4b1f0680-5f21-11f1-89a3-d1f559421220.jpg",
+    "source": "BBC Sport",
+    "lang": "en",
+    "id": 214
   },
   {
     "category": "tactics",
@@ -137,13 +221,13 @@
     "image": "https://e00-elmundo.uecdn.es/assets/multimedia/imagenes/2026/06/03/17805060539723_150x0.jpg",
     "source": "El Mundo Deportes",
     "lang": "es",
-    "id": 209
+    "id": 215
   },
   {
     "category": "tactics",
     "title": "Países Bajos se estrella contra Luca Zidane y Hadj Moussa frotó la lámpara en su casa",
     "snippet": "El guardameta del Granada se agigantó en De Kuip y el extremo del Feyenoord anotó el gol de la victoria para Argelia (0-1) en la recta final",
-    "time": "11h ago",
+    "time": "12h ago",
     "timestamp": 1780519682,
     "color": "linear-gradient(135deg, #f59e0b, #78350f)",
     "overlay": "⚽",
@@ -151,7 +235,7 @@
     "image": "https://e01-xlk-ue-marca.uecdn.es/files/admin_graphic_thumbnail/uploads/2026/06/03/6a209276bd686.jpeg",
     "source": "Marca",
     "lang": "es",
-    "id": 210
+    "id": 216
   },
   {
     "category": "tactics",
@@ -165,7 +249,7 @@
     "image": "https://e01-xlk-ue-marca.uecdn.es/files/admin_graphic_thumbnail/uploads/2026/06/03/6a207d0f9250e.jpeg",
     "source": "Marca",
     "lang": "es",
-    "id": 211
+    "id": 217
   },
   {
     "category": "tactics",
@@ -179,7 +263,7 @@
     "image": "https://e01-xlk-ue-marca.uecdn.es/files/admin_graphic_thumbnail/uploads/2026/06/02/6a1e8c43daf8e.jpeg",
     "source": "Marca",
     "lang": "es",
-    "id": 212
+    "id": 218
   },
   {
     "category": "rules",
@@ -193,13 +277,13 @@
     "image": "https://e01-xlk-ue-marca.uecdn.es/files/admin_graphic_thumbnail/uploads/2026/06/03/6a20580a34c9b.jpeg",
     "source": "Marca",
     "lang": "es",
-    "id": 213
+    "id": 219
   },
   {
     "category": "tactics",
     "title": "El matemático que acertó los últimos tres campeones del mundo, apunta ahora a Holanda",
     "snippet": "Lo predice con un sistema matemático que él mismo ha creado",
-    "time": "15h ago",
+    "time": "16h ago",
     "timestamp": 1780505652,
     "color": "linear-gradient(135deg, #f59e0b, #78350f)",
     "overlay": "⚽",
@@ -207,7 +291,7 @@
     "image": "https://e01-xlk-ue-marca.uecdn.es/files/admin_graphic_thumbnail/uploads/2026/06/03/6a2051e570931.jpeg",
     "source": "Marca",
     "lang": "es",
-    "id": 214
+    "id": 220
   },
   {
     "category": "tactics",
@@ -221,7 +305,7 @@
     "image": "https://e01-xlk-ue-marca.uecdn.es/files/admin_graphic_thumbnail/uploads/2026/06/03/6a1fe33c23f94.jpeg",
     "source": "Marca",
     "lang": "es",
-    "id": 215
+    "id": 221
   },
   {
     "category": "tactics",
@@ -235,7 +319,7 @@
     "image": "https://www.dailymotion.com/crawler/video/xaczegs",
     "source": "Marca",
     "lang": "es",
-    "id": 216
+    "id": 222
   },
   {
     "category": "tactics",
@@ -249,13 +333,13 @@
     "image": "https://e01-xlk-ue-marca.uecdn.es/files/admin_graphic_thumbnail/uploads/2026/06/03/bLpP61g85mxWgGW7N.jpeg",
     "source": "Marca",
     "lang": "es",
-    "id": 217
+    "id": 223
   },
   {
     "category": "tactics",
     "title": "Mbappé y Vinicius se topan con el inconfundible ego de Zlatan en el nuevo anuncio de Nike para el Mundial",
     "snippet": "",
-    "time": "19h ago",
+    "time": "20h ago",
     "timestamp": 1780490379,
     "color": "linear-gradient(135deg, #f59e0b, #78350f)",
     "overlay": "⚽",
@@ -263,13 +347,13 @@
     "image": "https://www.dailymotion.com/crawler/video/xacxdkw",
     "source": "Marca",
     "lang": "es",
-    "id": 218
+    "id": 224
   },
   {
     "category": "rules",
     "title": "Las razones por las que FIFA se frota las manos en este Mundial<br>",
     "snippet": "¿Por qué las marcas van a pagar más de 2.000 millones en patrocinio?",
-    "time": "22h ago",
+    "time": "23h ago",
     "timestamp": 1780479579,
     "color": "linear-gradient(135deg, #64748b, #334155)",
     "overlay": "📺",
@@ -277,7 +361,7 @@
     "image": "https://e01-xlk-ue-marca.uecdn.es/files/admin_graphic_thumbnail/uploads/2026/06/03/6a1ff5aaa07a3.jpeg",
     "source": "Marca",
     "lang": "es",
-    "id": 219
+    "id": 225
   },
   {
     "category": "tactics",
@@ -291,7 +375,7 @@
     "image": "https://www.dailymotion.com/crawler/video/xacvvng",
     "source": "Marca",
     "lang": "es",
-    "id": 220
+    "id": 226
   },
   {
     "category": "tactics",
@@ -305,7 +389,7 @@
     "image": "https://www.dailymotion.com/crawler/video/xacvuno",
     "source": "Marca",
     "lang": "es",
-    "id": 221
+    "id": 227
   },
   {
     "category": "lineup",
@@ -319,7 +403,7 @@
     "image": "https://e01-xlk-ue-marca.uecdn.es/files/admin_graphic_thumbnail/uploads/2026/06/02/6a1f50b70f36e.jpeg",
     "source": "Marca",
     "lang": "es",
-    "id": 222
+    "id": 228
   },
   {
     "category": "injury",
@@ -333,7 +417,7 @@
     "image": "https://e00-elmundo.uecdn.es/assets/multimedia/imagenes/2026/06/03/17804430559791_150x0.jpg",
     "source": "El Mundo Deportes",
     "lang": "es",
-    "id": 223
+    "id": 229
   },
   {
     "category": "transfer",
@@ -347,7 +431,7 @@
     "image": "https://static1.ara.cat/clip/7fa2a8a8-765b-4bfb-80f6-cfb51e6b8131_16-9-aspect-ratio_default_0.jpg",
     "source": "ARA Esports",
     "lang": "ca",
-    "id": 224
+    "id": 230
   },
   {
     "category": "tactics",
@@ -361,7 +445,7 @@
     "image": "https://static1.ara.cat/clip/88c8347b-0417-4e84-8b5c-2a11a8ea90aa_16-9-aspect-ratio_default_0_x2351y869.jpg",
     "source": "ARA Esports",
     "lang": "ca",
-    "id": 225
+    "id": 231
   },
   {
     "category": "lineup",
@@ -375,7 +459,7 @@
     "image": "https://static1.ara.cat/clip/ee737dde-d694-4f24-9993-cd65d353a8a1_16-9-aspect-ratio_default_1058448.jpg",
     "source": "ARA Esports",
     "lang": "ca",
-    "id": 226
+    "id": 232
   },
   {
     "category": "tactics",
@@ -389,7 +473,7 @@
     "image": "https://d5r1tkwwv7d5g.cloudfront.net/articulos/articulos-719250.jpg",
     "source": "Nació Digital",
     "lang": "ca",
-    "id": 227
+    "id": 233
   },
   {
     "category": "transfer",
@@ -403,7 +487,7 @@
     "image": "https://static1.ara.cat/clip/797ed480-ad68-4bd5-bfd3-baa348e98c87_16-9-aspect-ratio_default_0_x2142y978.jpg",
     "source": "ARA Esports",
     "lang": "ca",
-    "id": 228
+    "id": 234
   },
   {
     "category": "tactics",
@@ -417,7 +501,7 @@
     "image": "https://d5r1tkwwv7d5g.cloudfront.net/articulos/articulos-596058.jpg",
     "source": "Nació Digital",
     "lang": "ca",
-    "id": 229
+    "id": 235
   },
   {
     "category": "press",
@@ -431,7 +515,7 @@
     "image": "https://d5r1tkwwv7d5g.cloudfront.net/articulos/articulos-704199.jpg",
     "source": "Nació Digital",
     "lang": "ca",
-    "id": 230
+    "id": 236
   },
   {
     "category": "tactics",
@@ -445,7 +529,7 @@
     "image": "https://static1.ara.cat/clip/0dde5564-ee7a-455f-9ac5-3ff104e3cace_16-9-aspect-ratio_default_0_x853y336.png",
     "source": "ARA Esports",
     "lang": "ca",
-    "id": 231
+    "id": 237
   },
   {
     "category": "lineup",
@@ -459,7 +543,7 @@
     "image": "https://static1.ara.cat/clip/8ae90eb1-5edb-44ee-ba08-be9927432fb2_16-9-aspect-ratio_default_0.jpg",
     "source": "ARA Esports",
     "lang": "ca",
-    "id": 232
+    "id": 238
   },
   {
     "category": "lineup",
@@ -473,6 +557,6 @@
     "image": "https://d5r1tkwwv7d5g.cloudfront.net/articulos/articulos-715798.jpg",
     "source": "Nació Digital",
     "lang": "ca",
-    "id": 233
+    "id": 239
   }
 ]
