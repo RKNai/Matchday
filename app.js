@@ -14,6 +14,7 @@ const state = {
   subscribedTeams: new Set(JSON.parse(localStorage.getItem('matchday_subs')) || JSON.parse(localStorage.getItem('mundiapp_subs')) || []),
   isNativePushEnabled: Notification.permission === 'granted',
   activeTab: 'all',
+  activeGroupStandings: 'Group A',
   activeNewsCategory: 'all',
   activeModalTab: 'timeline',
   activeModalMatchId: null,
@@ -277,6 +278,8 @@ const translations = {
     tab_results: 'Results',
     tab_upcoming: 'Upcoming',
     tab_subscribed: 'Subscribed',
+    tab_standings: 'Standings',
+    standings_team: 'Team',
     btn_subscribe: 'Alerts',
     btn_subscribed: 'Subscribed',
     final_result: 'FINAL RESULT',
@@ -355,6 +358,8 @@ const translations = {
     tab_results: 'Resultados',
     tab_upcoming: 'Próximos',
     tab_subscribed: 'Suscritos',
+    tab_standings: 'Clasificación',
+    standings_team: 'Equipo',
     btn_subscribe: 'Alertas',
     btn_subscribed: 'Suscrito',
     final_result: 'RESULTADO FINAL',
@@ -433,6 +438,8 @@ const translations = {
     tab_results: 'Resultats',
     tab_upcoming: 'Pròxims',
     tab_subscribed: 'Subscrits',
+    tab_standings: 'Classificació',
+    standings_team: 'Equip',
     btn_subscribe: 'Alertes',
     btn_subscribed: 'Subscrit',
     final_result: 'RESULTAT FINAL',
@@ -1223,8 +1230,175 @@ function setupFilterHandlers() {
   });
 }
 
+// --- Group Standings Calculations & Renderer ---
+function calculateStandings() {
+  const standings = {};
+
+  state.matches.forEach((match) => {
+    const matchStage = match.stage || '';
+    const matchGroupMatch = matchStage.match(/Group\s([A-L])/i);
+    if (!matchGroupMatch) return; // Skip non-group stages
+    
+    const groupName = `Group ${matchGroupMatch[1]}`;
+    
+    if (!standings[groupName]) {
+      standings[groupName] = {};
+    }
+    
+    const group = standings[groupName];
+    
+    if (!group[match.home]) {
+      group[match.home] = { name: match.home, flag: match.homeFlag, gp: 0, w: 0, d: 0, l: 0, gf: 0, ga: 0, gd: 0, pts: 0 };
+    }
+    if (!group[match.away]) {
+      group[match.away] = { name: match.away, flag: match.awayFlag, gp: 0, w: 0, d: 0, l: 0, gf: 0, ga: 0, gd: 0, pts: 0 };
+    }
+    
+    if (match.status === 'live' || match.status === 'finished') {
+      const homeScore = match.homeScore || 0;
+      const awayScore = match.awayScore || 0;
+      
+      const home = group[match.home];
+      const away = group[match.away];
+      
+      home.gp += 1;
+      away.gp += 1;
+      home.gf += homeScore;
+      home.ga += awayScore;
+      away.gf += awayScore;
+      away.ga += homeScore;
+      home.gd = home.gf - home.ga;
+      away.gd = away.gf - away.ga;
+      
+      if (homeScore > awayScore) {
+        home.w += 1;
+        home.pts += 3;
+        away.l += 1;
+      } else if (homeScore < awayScore) {
+        away.w += 1;
+        away.pts += 3;
+        home.l += 1;
+      } else {
+        home.d += 1;
+        home.pts += 1;
+        away.d += 1;
+        away.pts += 1;
+      }
+    }
+  });
+  
+  const sortedStandings = {};
+  for (const groupName in standings) {
+    const teamsArray = Object.values(standings[groupName]);
+    teamsArray.sort((a, b) => {
+      if (b.pts !== a.pts) return b.pts - a.pts;
+      if (b.gd !== a.gd) return b.gd - a.gd;
+      if (b.gf !== a.gf) return b.gf - a.gf;
+      return a.name.localeCompare(b.name);
+    });
+    sortedStandings[groupName] = teamsArray;
+  }
+  
+  return sortedStandings;
+}
+
+function renderGroupStandings() {
+  const standingsData = calculateStandings();
+  const availableGroups = Object.keys(standingsData).sort();
+  
+  if (availableGroups.length === 0) {
+    DOM.matchesList.innerHTML = `
+      <div class="empty-state">
+        <svg xmlns="http://www.w3.org/2000/svg" width="40" height="40" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"/><path d="M8 12h8"/></svg>
+        <p>${t('empty_matches', 'No matches matching your selection.')}</p>
+      </div>
+    `;
+    return;
+  }
+  
+  if (!state.activeGroupStandings || !availableGroups.includes(state.activeGroupStandings)) {
+    state.activeGroupStandings = availableGroups[0];
+  }
+  
+  // 1. Render Group Selector Chips
+  const selectorContainer = document.createElement('div');
+  selectorContainer.className = 'group-selector-scroll';
+  availableGroups.forEach((groupName) => {
+    const chip = document.createElement('button');
+    chip.className = `group-chip ${state.activeGroupStandings === groupName ? 'active' : ''}`;
+    chip.dataset.group = groupName;
+    chip.textContent = translateStage(groupName);
+    chip.addEventListener('click', (e) => {
+      document.querySelectorAll('.group-chip').forEach(c => c.classList.remove('active'));
+      e.currentTarget.classList.add('active');
+      state.activeGroupStandings = e.currentTarget.dataset.group;
+      renderGroupStandings(); // Re-render chips + table
+    });
+    selectorContainer.appendChild(chip);
+  });
+  DOM.matchesList.appendChild(selectorContainer);
+  
+  // 2. Render Standings Table
+  const tableContainer = document.createElement('div');
+  tableContainer.className = 'standings-table-container';
+  
+  const activeTeams = standingsData[state.activeGroupStandings] || [];
+  
+  let tableHtml = `
+    <table class="standings-table">
+      <thead>
+        <tr>
+          <th class="col-pos">#</th>
+          <th class="col-team">${t('standings_team', 'Team')}</th>
+          <th class="col-stat" title="Played">GP</th>
+          <th class="col-stat" title="Won">W</th>
+          <th class="col-stat" title="Drawn">D</th>
+          <th class="col-stat" title="Lost">L</th>
+          <th class="col-stat" title="Goal Difference">GD</th>
+          <th class="col-pts" title="Points">PTS</th>
+        </tr>
+      </thead>
+      <tbody>
+  `;
+  
+  activeTeams.forEach((team, index) => {
+    const isDirect = index < 2; // Top 2 qualify directly
+    const isPlayoff = index === 2; // 3rd place wildcard
+    const rowClass = isDirect ? 'qualify-direct' : isPlayoff ? 'qualify-playoff' : '';
+    
+    tableHtml += `
+      <tr class="standings-row ${rowClass}">
+        <td class="col-pos">${index + 1}</td>
+        <td class="col-team">
+          <span class="team-flag">${team.flag}</span>
+          <span class="team-name">${team.name}</span>
+        </td>
+        <td class="col-stat">${team.gp}</td>
+        <td class="col-stat">${team.w}</td>
+        <td class="col-stat">${team.d}</td>
+        <td class="col-stat">${team.l}</td>
+        <td class="col-stat">${team.gd > 0 ? '+' + team.gd : team.gd}</td>
+        <td class="col-pts">${team.pts}</td>
+      </tr>
+    `;
+  });
+  
+  tableHtml += `
+      </tbody>
+    </table>
+  `;
+  
+  tableContainer.innerHTML = tableHtml;
+  DOM.matchesList.appendChild(tableContainer);
+}
+
 function renderMatchesList() {
   DOM.matchesList.innerHTML = '';
+  
+  if (state.activeTab === 'standings') {
+    renderGroupStandings();
+    return;
+  }
   
   let filteredMatches = [];
   if (state.activeTab === 'live') {

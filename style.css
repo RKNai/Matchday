@@ -317,6 +317,139 @@ body {
   100% { transform: scale(1.2); opacity: 1; }
 }
 
+/* --- Group Standings Styles --- */
+.group-selector-scroll {
+  display: flex;
+  gap: 8px;
+  overflow-x: auto;
+  padding: 10px 16px;
+  border-bottom: 1px solid var(--border-color);
+  background: rgba(0, 0, 0, 0.15);
+  scrollbar-width: none;
+  flex-shrink: 0;
+}
+
+.group-selector-scroll::-webkit-scrollbar {
+  display: none;
+}
+
+.group-chip {
+  background: rgba(255, 255, 255, 0.03);
+  border: 1px solid var(--border-color);
+  color: var(--text-secondary);
+  padding: 5px 12px;
+  border-radius: 20px;
+  font-size: 11px;
+  font-weight: 600;
+  cursor: pointer;
+  white-space: nowrap;
+  transition: all 0.2s var(--ease-smooth);
+}
+
+.group-chip:hover {
+  background: rgba(255, 255, 255, 0.08);
+  color: var(--text-primary);
+}
+
+.group-chip.active {
+  background: var(--primary);
+  color: #000;
+  border-color: var(--primary);
+  box-shadow: 0 4px 10px rgba(16, 185, 129, 0.25);
+  font-weight: 700;
+}
+
+.standings-table-container {
+  padding: 16px;
+  overflow-x: auto;
+  flex: 1;
+}
+
+.standings-table {
+  width: 100%;
+  border-collapse: collapse;
+  font-size: 12px;
+  color: var(--text-secondary);
+}
+
+.standings-table th {
+  font-family: var(--font-display);
+  font-size: 10px;
+  font-weight: 700;
+  text-transform: uppercase;
+  color: var(--text-muted);
+  padding: 8px 6px;
+  text-align: center;
+  border-bottom: 1px solid var(--border-color);
+}
+
+.standings-table th.col-team {
+  text-align: left;
+}
+
+.standings-table td {
+  padding: 10px 6px;
+  text-align: center;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.02);
+  vertical-align: middle;
+}
+
+.standings-table tr:last-child td {
+  border-bottom: none;
+}
+
+.standings-table td.col-team {
+  text-align: left;
+  font-weight: 600;
+  color: var(--text-primary);
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.standings-table td.col-pts {
+  font-weight: 700;
+  color: var(--text-primary);
+}
+
+.standings-row {
+  transition: background 0.2s;
+}
+
+.standings-row:hover {
+  background: rgba(255, 255, 255, 0.02);
+}
+
+.standings-row.qualify-direct td.col-pos {
+  color: var(--primary);
+  font-weight: 700;
+}
+
+.standings-row.qualify-direct td.col-team::before {
+  content: '';
+  display: inline-block;
+  width: 3px;
+  height: 12px;
+  background: var(--primary);
+  border-radius: 2px;
+  margin-right: -4px;
+}
+
+.standings-row.qualify-playoff td.col-pos {
+  color: var(--secondary);
+  font-weight: 700;
+}
+
+.standings-row.qualify-playoff td.col-team::before {
+  content: '';
+  display: inline-block;
+  width: 3px;
+  height: 12px;
+  background: var(--secondary);
+  border-radius: 2px;
+  margin-right: -4px;
+}
+
 /* --- Matches List Scroll Area --- */
 .matches-list-container {
   flex: 1;
@@ -2173,6 +2306,29 @@ body.light-theme .probability-gauge-container {
 
 body.light-theme .prob-bar-draw {
   background: rgba(15, 23, 42, 0.15);
+}
+
+body.light-theme .group-selector-scroll {
+  background: rgba(15, 23, 42, 0.03);
+}
+
+body.light-theme .group-chip {
+  background: rgba(15, 23, 42, 0.04);
+  color: var(--text-secondary);
+}
+
+body.light-theme .group-chip.active {
+  background: var(--primary);
+  color: #fff;
+  border-color: var(--primary);
+}
+
+body.light-theme .standings-row:hover {
+  background: rgba(15, 23, 42, 0.02);
+}
+
+body.light-theme .standings-table td {
+  border-bottom: 1px solid rgba(15, 23, 42, 0.04);
 }
 
 body.light-theme .sidebar-backdrop,
