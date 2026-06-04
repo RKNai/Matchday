@@ -42,15 +42,15 @@ FLAG_MAP = {
 }
 
 TEAM_SQUADS = {
-  "Mexico": ["Ochoa", "Montes", "Vásquez", "Gallardo", "Sánchez", "Edson Álvarez", "Chávez", "Pineda", "Lozano", "Giménez", "Antuna"],
+  "Mexico": ["Ochoa", "Montes", "Vásquez", "Gallardo", "Sánchez", "Edson Álvarez", "Chávez", "Pineda", "Lozano", "Santiago Giménez", "Antuna"],
   "South Africa": ["Williams", "Mudau", "Mvala", "Kekana", "Modiba", "Mokoena", "Sithole", "Zwane", "Morena", "Tau", "Makgopa"],
   "South Korea": ["Jo", "Kim Min-jae", "Jung", "Seol", "Lee Ki-je", "Hwang In-beom", "Park", "Lee Kang-in", "Son Heung-min", "Hwang Hee-chan", "Cho"],
   "Czechia": ["Stanek", "Holes", "Hranac", "Krejci", "Coufal", "Soucek", "Provod", "Doudera", "Barak", "Hlozek", "Schick"],
-  "USA": ["Turner", "Dest", "Richards", "Ream", "Robinson", "McKennie", "Adams", "Musah", "Weah", "Balogun", "Pulisic"],
+  "USA": ["Turner", "Dest", "Richards", "Ream", "Robinson", "McKennie", "Adams", "Musah", "Weah", "Balogun", "Christian Pulisic"],
   "Romania": ["Nita", "Ratiu", "Dragusin", "Burca", "Bancu", "M. Marin", "Man", "R. Marin", "Stanciu", "Mihaila", "Dragus"],
   "Paraguay": ["Coronel", "Balbuena", "Alderete", "Espinoza", "Caceres", "Cubas", "Villasanti", "Diego Gomez", "Almiron", "Enciso", "Sanabria"],
   "Australia": ["Ryan", "Atkinson", "Rowles", "Souttar", "Behich", "Baccus", "Irvine", "Metcalfe", "Goodwin", "Boyle", "Duke"],
-  "Canada": ["Crepeau", "Johnston", "Miller", "Bombito", "Davies", "Eustaquio", "Kone", "Buchanan", "Jonathan David", "Larin", "Millar"],
+  "Canada": ["Crepeau", "Johnston", "Miller", "Bombito", "Alphonso Davies", "Eustaquio", "Kone", "Buchanan", "Jonathan David", "Larin", "Millar"],
   "Wales": ["Ward", "Roberts", "Mepham", "Davies", "Williams", "Ampadu", "J. James", "Wilson", "Brooks", "Johnson", "James"],
   "Qatar": ["Barsham", "Miguel", "Mukhtar", "Mendes", "Al-Rawi", "Waad", "Hatem", "Fatehi", "Afif", "Al-Haydos", "Ali"],
   "Switzerland": ["Sommer", "Schär", "Akanji", "Rodriguez", "Widmer", "Xhaka", "Freuler", "Aebischer", "Ndoye", "Vargas", "Embolo"],
@@ -58,7 +58,7 @@ TEAM_SQUADS = {
   "Morocco": ["Bounou", "Hakimi", "Aguerd", "Saïss", "Allah", "Amrabat", "Ounahi", "Ziyech", "Harit", "Adli", "En-Nesyri"],
   "Haiti": ["Placide", "Arcus", "Ade", "Christian", "Guerrier", "Alceus", "Pierre", "Nazon", "Etienne", "Pierrot", "Picault"],
   "Scotland": ["Gunn", "Porteous", "Hendry", "Tierney", "Ralston", "McTominay", "McGregor", "Gilmour", "Robertson", "McGinn", "Adams"],
-  "Germany": ["Ter Stegen", "Kimmich", "Rüdiger", "Tah", "Mittelstädt", "Andrich", "Kroos", "Musiala", "Gündogan", "Wirtz", "Havertz"],
+  "Germany": ["Ter Stegen", "Kimmich", "Rüdiger", "Tah", "Mittelstädt", "Andrich", "Kroos", "Jamal Musiala", "Gündogan", "Florian Wirtz", "Havertz"],
   "Curaçao": ["Room", "Gaari", "Martina", "Floranus", "J. Bacuna", "Anita", "L. Bacuna", "Kuwas", "Janga", "Gorré", "Locadia"],
   "Ivory Coast": ["Fofana", "Aurier", "Ndicka", "Boly", "Konan", "Kessié", "Seri", "Sangaré", "Adinga", "Haller", "Pépé"],
   "Ecuador": ["Domínguez", "Preciado", "Torres", "Hincapié", "Estupiñán", "Gruezo", "Caicedo", "Páez", "Mena", "Sarmiento", "Valencia"],
@@ -66,17 +66,24 @@ TEAM_SQUADS = {
   "Ukraine": ["Lunin", "Konoplya", "Zabarnyi", "Matviyenko", "Mykolenko", "Stepanenko", "Sudakov", "Zinchenko", "Tsyhankov", "Mudryk", "Dovbyk"],
   "Japan": ["Suzuki", "Sugawara", "Itakura", "Machida", "Ito", "Endo", "Morita", "Doan", "Kubo", "Mitoma", "Ueda"],
   "Tunisia": ["Ben Said", "Kechrida", "Meriah", "Talbi", "Abdi", "Skhiri", "Laidouni", "Rafia", "Achouri", "Ltaief", "Jaziri"],
-  "Belgium": ["Casteels", "Castagne", "Faes", "Vertonghen", "Theate", "Onana", "Mangala", "De Bruyne", "Doku", "Trossard", "Lukaku"],
-  "Egypt": ["El Shenawy", "Hany", "Abdelmonem", "Hegazi", "Hamdi", "Elneny", "Fathi", "Zizo", "Salah", "Trezeguet", "Mostafa Mohamed"],
+  "Belgium": ["Casteels", "Castagne", "Faes", "Vertonghen", "Theate", "Onana", "Mangala", "Kevin De Bruyne", "Doku", "Trossard", "Lukaku"],
+  "Egypt": ["El Shenawy", "Hany", "Abdelmonem", "Hegazi", "Hamdi", "Elneny", "Fathi", "Zizo", "Mohamed Salah", "Trezeguet", "Mostafa Mohamed"],
   "Iran": ["Beiranvand", "Rezaeian", "Kanaanizadegan", "Khalilzadeh", "Hajsafi", "Ezatolahi", "Ghoddos", "Jahanbakhsh", "Taremi", "Azmoun", "Mohebi"],
   "New Zealand": ["Crocombe", "Payne", "Boxall", "Pijnaker", "Cacace", "Garbett", "Stamenic", "Bell", "Just", "Wood", "McCowatt"],
   "Spain": ["Raya", "Carvajal", "Le Normand", "Laporte", "Cucurella", "Rodri", "Ruiz", "Pedri", "Yamal", "Williams", "Morata"],
   "Cabo Verde": ["Vozinha", "Moreira", "Costa", "Pico", "Tavares", "Rocha", "Pina", "Monteiro", "Mendes", "Cabral", "Bebé"],
   "Saudi Arabia": ["Al-Owais", "Al-Bulaihi", "Lajami", "Tambakti", "Abdulhamid", "Al-Khaibari", "Kanno", "Al-Dawsari", "Ghareeb", "Al-Muwallad", "Al-Shehri"],
-  "Uruguay": ["Rochet", "Nández", "Araújo", "Giménez", "Olivera", "Ugarte", "Valverde", "De la Cruz", "Pellistri", "Araujo", "Darwin Núñez"],
-  "Bosnia and Herzegovina": ["Džeko", "Demirović", "Kolašinac", "Krunić", "Pirić", "Hadžikadunić", "Ahmedhodžić", "Gazibegović", "Gigović", "Hajradinović", "Tabaković"],
+  "Uruguay": ["Rochet", "Nández", "Araújo", "J. M. Giménez", "Olivera", "Ugarte", "Valverde", "De la Cruz", "Pellistri", "Araujo", "Darwin Núñez"],
+  "Bosnia and Herzegovina": ["Džeko", "Demirović", "Kolašinac", "Krunić", "Pirić", "Hadžikadunić", "Ahmedhodžić", "Gazibegović", "Hadžiahmetović", "Stevanović", "Cimirot"],
   "Türkiye": ["Günok", "Çelik", "Bardakcı", "Akaydin", "Kadıoğlu", "Ayhan", "Kökçü", "Çalhanoğlu", "Güler", "Yıldız", "Yılmaz"],
-  "Sweden": ["Olsen", "Krafth", "Hien", "Lindelöf", "Augustinsson", "Cajuste", "Salétros", "Kulusevski", "Isak", "Elanga", "Gyökeres"]
+  "Sweden": ["Olsen", "Krafth", "Hien", "Lindelöf", "Augustinsson", "Cajuste", "Salétros", "Kulusevski", "Isak", "Elanga", "Gyökeres"],
+  "Argentina": ["Emiliano Martínez", "Molina", "Romero", "Otamendi", "Tagliafico", "De Paul", "Enzo Fernández", "Mac Allister", "Lionel Messi", "Julián Álvarez", "Lautaro Martínez"],
+  "France": ["Maignan", "Koundé", "Upamecano", "Saliba", "T. Hernández", "Tchouaméni", "Rabiot", "Antoine Griezmann", "Dembélé", "Marcus Thuram", "Kylian Mbappé"],
+  "Portugal": ["Diogo Costa", "Dalot", "Rúben Dias", "António Silva", "Cancelo", "Palhinha", "Vitinha", "Bruno Fernandes", "Bernardo Silva", "Rafael Leão", "Cristiano Ronaldo"],
+  "England": ["Pickford", "Walker", "Stones", "Guehi", "Trippier", "Rice", "Alexander-Arnold", "Jude Bellingham", "Bukayo Saka", "Phil Foden", "Harry Kane"],
+  "Croatia": ["Livaković", "Stanišić", "Šutalo", "Gvardiol", "Sosa", "Brozović", "Kovačić", "Luka Modrić", "Pašalić", "Kramarić", "Perišić"],
+  "Poland": ["Szczęsny", "Bednarek", "Dawidowicz", "Kiwior", "Frankowski", "Zieliński", "Slisz", "Piotrowski", "Zalewski", "Swiderski", "Robert Lewandowski"],
+  "Norway": ["Nyland", "Ryerson", "Østigård", "Ajer", "Wolfe", "Berge", "Ødegaard", "Patrick Berg", "Bobb", "Erling Haaland", "Sørloth"]
 }
 
 FIFA_RATINGS = {

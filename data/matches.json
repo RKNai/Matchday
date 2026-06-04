@@ -42,7 +42,7 @@
         "Chávez",
         "Pineda",
         "Lozano",
-        "Giménez",
+        "Santiago Giménez",
         "Antuna"
       ],
       "away": [
@@ -169,7 +169,7 @@
         "Johnston",
         "Miller",
         "Bombito",
-        "Davies",
+        "Alphonso Davies",
         "Eustaquio",
         "Kone",
         "Buchanan",
@@ -186,9 +186,9 @@
         "Hadžikadunić",
         "Ahmedhodžić",
         "Gazibegović",
-        "Gigović",
-        "Hajradinović",
-        "Tabaković"
+        "Hadžiahmetović",
+        "Stevanović",
+        "Cimirot"
       ]
     },
     "predictions": {
@@ -241,7 +241,7 @@
         "Musah",
         "Weah",
         "Balogun",
-        "Pulisic"
+        "Christian Pulisic"
       ],
       "away": [
         "Coronel",
@@ -568,9 +568,9 @@
         "Mittelstädt",
         "Andrich",
         "Kroos",
-        "Musiala",
+        "Jamal Musiala",
         "Gündogan",
-        "Wirtz",
+        "Florian Wirtz",
         "Havertz"
       ],
       "away": [
@@ -898,7 +898,7 @@
         "Theate",
         "Onana",
         "Mangala",
-        "De Bruyne",
+        "Kevin De Bruyne",
         "Doku",
         "Trossard",
         "Lukaku"
@@ -912,7 +912,7 @@
         "Elneny",
         "Fathi",
         "Zizo",
-        "Salah",
+        "Mohamed Salah",
         "Trezeguet",
         "Mostafa Mohamed"
       ]
@@ -973,7 +973,7 @@
         "Rochet",
         "Nández",
         "Araújo",
-        "Giménez",
+        "J. M. Giménez",
         "Olivera",
         "Ugarte",
         "Valverde",
@@ -1089,17 +1089,17 @@
     },
     "lineups": {
       "home": [
-        "France Player 1",
-        "France Player 2",
-        "France Player 3",
-        "France Player 4",
-        "France Player 5",
-        "France Player 6",
-        "France Player 7",
-        "France Player 8",
-        "France Player 9",
-        "France Player 10",
-        "France Player 11"
+        "Maignan",
+        "Koundé",
+        "Upamecano",
+        "Saliba",
+        "T. Hernández",
+        "Tchouaméni",
+        "Rabiot",
+        "Antoine Griezmann",
+        "Dembélé",
+        "Marcus Thuram",
+        "Kylian Mbappé"
       ],
       "away": [
         "Senegal Player 1",
@@ -1168,17 +1168,17 @@
         "Iraq Player 11"
       ],
       "away": [
-        "Norway Player 1",
-        "Norway Player 2",
-        "Norway Player 3",
-        "Norway Player 4",
-        "Norway Player 5",
-        "Norway Player 6",
-        "Norway Player 7",
-        "Norway Player 8",
-        "Norway Player 9",
-        "Norway Player 10",
-        "Norway Player 11"
+        "Nyland",
+        "Ryerson",
+        "Østigård",
+        "Ajer",
+        "Wolfe",
+        "Berge",
+        "Ødegaard",
+        "Patrick Berg",
+        "Bobb",
+        "Erling Haaland",
+        "Sørloth"
       ]
     },
     "predictions": {
@@ -1221,17 +1221,17 @@
     },
     "lineups": {
       "home": [
-        "Argentina Player 1",
-        "Argentina Player 2",
-        "Argentina Player 3",
-        "Argentina Player 4",
-        "Argentina Player 5",
-        "Argentina Player 6",
-        "Argentina Player 7",
-        "Argentina Player 8",
-        "Argentina Player 9",
-        "Argentina Player 10",
-        "Argentina Player 11"
+        "Emiliano Martínez",
+        "Molina",
+        "Romero",
+        "Otamendi",
+        "Tagliafico",
+        "De Paul",
+        "Enzo Fernández",
+        "Mac Allister",
+        "Lionel Messi",
+        "Julián Álvarez",
+        "Lautaro Martínez"
       ],
       "away": [
         "Algeria Player 1",
@@ -1353,17 +1353,17 @@
     },
     "lineups": {
       "home": [
-        "Portugal Player 1",
-        "Portugal Player 2",
-        "Portugal Player 3",
-        "Portugal Player 4",
-        "Portugal Player 5",
-        "Portugal Player 6",
-        "Portugal Player 7",
-        "Portugal Player 8",
-        "Portugal Player 9",
-        "Portugal Player 10",
-        "Portugal Player 11"
+        "Diogo Costa",
+        "Dalot",
+        "Rúben Dias",
+        "António Silva",
+        "Cancelo",
+        "Palhinha",
+        "Vitinha",
+        "Bruno Fernandes",
+        "Bernardo Silva",
+        "Rafael Leão",
+        "Cristiano Ronaldo"
       ],
       "away": [
         "Congo DR Player 1",
@@ -1419,30 +1419,30 @@
     },
     "lineups": {
       "home": [
-        "England Player 1",
-        "England Player 2",
-        "England Player 3",
-        "England Player 4",
-        "England Player 5",
-        "England Player 6",
-        "England Player 7",
-        "England Player 8",
-        "England Player 9",
-        "England Player 10",
-        "England Player 11"
+        "Pickford",
+        "Walker",
+        "Stones",
+        "Guehi",
+        "Trippier",
+        "Rice",
+        "Alexander-Arnold",
+        "Jude Bellingham",
+        "Bukayo Saka",
+        "Phil Foden",
+        "Harry Kane"
       ],
       "away": [
-        "Croatia Player 1",
-        "Croatia Player 2",
-        "Croatia Player 3",
-        "Croatia Player 4",
-        "Croatia Player 5",
-        "Croatia Player 6",
-        "Croatia Player 7",
-        "Croatia Player 8",
-        "Croatia Player 9",
-        "Croatia Player 10",
-        "Croatia Player 11"
+        "Livaković",
+        "Stanišić",
+        "Šutalo",
+        "Gvardiol",
+        "Sosa",
+        "Brozović",
+        "Kovačić",
+        "Luka Modrić",
+        "Pašalić",
+        "Kramarić",
+        "Perišić"
       ]
     },
     "predictions": {
@@ -1704,9 +1704,9 @@
         "Hadžikadunić",
         "Ahmedhodžić",
         "Gazibegović",
-        "Gigović",
-        "Hajradinović",
-        "Tabaković"
+        "Hadžiahmetović",
+        "Stevanović",
+        "Cimirot"
       ]
     },
     "predictions": {
@@ -1753,7 +1753,7 @@
         "Johnston",
         "Miller",
         "Bombito",
-        "Davies",
+        "Alphonso Davies",
         "Eustaquio",
         "Kone",
         "Buchanan",
@@ -1824,7 +1824,7 @@
         "Chávez",
         "Pineda",
         "Lozano",
-        "Giménez",
+        "Santiago Giménez",
         "Antuna"
       ],
       "away": [
@@ -1891,7 +1891,7 @@
         "Musah",
         "Weah",
         "Balogun",
-        "Pulisic"
+        "Christian Pulisic"
       ],
       "away": [
         "Ryan",
@@ -2218,9 +2218,9 @@
         "Mittelstädt",
         "Andrich",
         "Kroos",
-        "Musiala",
+        "Jamal Musiala",
         "Gündogan",
-        "Wirtz",
+        "Florian Wirtz",
         "Havertz"
       ],
       "away": [
@@ -2482,7 +2482,7 @@
         "Theate",
         "Onana",
         "Mangala",
-        "De Bruyne",
+        "Kevin De Bruyne",
         "Doku",
         "Trossard",
         "Lukaku"
@@ -2544,7 +2544,7 @@
         "Rochet",
         "Nández",
         "Araújo",
-        "Giménez",
+        "J. M. Giménez",
         "Olivera",
         "Ugarte",
         "Valverde",
@@ -2628,7 +2628,7 @@
         "Elneny",
         "Fathi",
         "Zizo",
-        "Salah",
+        "Mohamed Salah",
         "Trezeguet",
         "Mostafa Mohamed"
       ]
@@ -2673,17 +2673,17 @@
     },
     "lineups": {
       "home": [
-        "Argentina Player 1",
-        "Argentina Player 2",
-        "Argentina Player 3",
-        "Argentina Player 4",
-        "Argentina Player 5",
-        "Argentina Player 6",
-        "Argentina Player 7",
-        "Argentina Player 8",
-        "Argentina Player 9",
-        "Argentina Player 10",
-        "Argentina Player 11"
+        "Emiliano Martínez",
+        "Molina",
+        "Romero",
+        "Otamendi",
+        "Tagliafico",
+        "De Paul",
+        "Enzo Fernández",
+        "Mac Allister",
+        "Lionel Messi",
+        "Julián Álvarez",
+        "Lautaro Martínez"
       ],
       "away": [
         "Austria Player 1",
@@ -2739,17 +2739,17 @@
     },
     "lineups": {
       "home": [
-        "France Player 1",
-        "France Player 2",
-        "France Player 3",
-        "France Player 4",
-        "France Player 5",
-        "France Player 6",
-        "France Player 7",
-        "France Player 8",
-        "France Player 9",
-        "France Player 10",
-        "France Player 11"
+        "Maignan",
+        "Koundé",
+        "Upamecano",
+        "Saliba",
+        "T. Hernández",
+        "Tchouaméni",
+        "Rabiot",
+        "Antoine Griezmann",
+        "Dembélé",
+        "Marcus Thuram",
+        "Kylian Mbappé"
       ],
       "away": [
         "Iraq Player 1",
@@ -2805,17 +2805,17 @@
     },
     "lineups": {
       "home": [
-        "Norway Player 1",
-        "Norway Player 2",
-        "Norway Player 3",
-        "Norway Player 4",
-        "Norway Player 5",
-        "Norway Player 6",
-        "Norway Player 7",
-        "Norway Player 8",
-        "Norway Player 9",
-        "Norway Player 10",
-        "Norway Player 11"
+        "Nyland",
+        "Ryerson",
+        "Østigård",
+        "Ajer",
+        "Wolfe",
+        "Berge",
+        "Ødegaard",
+        "Patrick Berg",
+        "Bobb",
+        "Erling Haaland",
+        "Sørloth"
       ],
       "away": [
         "Senegal Player 1",
@@ -2937,17 +2937,17 @@
     },
     "lineups": {
       "home": [
-        "Portugal Player 1",
-        "Portugal Player 2",
-        "Portugal Player 3",
-        "Portugal Player 4",
-        "Portugal Player 5",
-        "Portugal Player 6",
-        "Portugal Player 7",
-        "Portugal Player 8",
-        "Portugal Player 9",
-        "Portugal Player 10",
-        "Portugal Player 11"
+        "Diogo Costa",
+        "Dalot",
+        "Rúben Dias",
+        "António Silva",
+        "Cancelo",
+        "Palhinha",
+        "Vitinha",
+        "Bruno Fernandes",
+        "Bernardo Silva",
+        "Rafael Leão",
+        "Cristiano Ronaldo"
       ],
       "away": [
         "Uzbekistan Player 1",
@@ -3003,17 +3003,17 @@
     },
     "lineups": {
       "home": [
-        "England Player 1",
-        "England Player 2",
-        "England Player 3",
-        "England Player 4",
-        "England Player 5",
-        "England Player 6",
-        "England Player 7",
-        "England Player 8",
-        "England Player 9",
-        "England Player 10",
-        "England Player 11"
+        "Pickford",
+        "Walker",
+        "Stones",
+        "Guehi",
+        "Trippier",
+        "Rice",
+        "Alexander-Arnold",
+        "Jude Bellingham",
+        "Bukayo Saka",
+        "Phil Foden",
+        "Harry Kane"
       ],
       "away": [
         "Ghana Player 1",
@@ -3082,17 +3082,17 @@
         "Panama Player 11"
       ],
       "away": [
-        "Croatia Player 1",
-        "Croatia Player 2",
-        "Croatia Player 3",
-        "Croatia Player 4",
-        "Croatia Player 5",
-        "Croatia Player 6",
-        "Croatia Player 7",
-        "Croatia Player 8",
-        "Croatia Player 9",
-        "Croatia Player 10",
-        "Croatia Player 11"
+        "Livaković",
+        "Stanišić",
+        "Šutalo",
+        "Gvardiol",
+        "Sosa",
+        "Brozović",
+        "Kovačić",
+        "Luka Modrić",
+        "Pašalić",
+        "Kramarić",
+        "Perišić"
       ]
     },
     "predictions": {
@@ -3218,7 +3218,7 @@
         "Johnston",
         "Miller",
         "Bombito",
-        "Davies",
+        "Alphonso Davies",
         "Eustaquio",
         "Kone",
         "Buchanan",
@@ -3275,9 +3275,9 @@
         "Hadžikadunić",
         "Ahmedhodžić",
         "Gazibegović",
-        "Gigović",
-        "Hajradinović",
-        "Tabaković"
+        "Hadžiahmetović",
+        "Stevanović",
+        "Cimirot"
       ],
       "away": [
         "Barsham",
@@ -3487,7 +3487,7 @@
         "Chávez",
         "Pineda",
         "Lozano",
-        "Giménez",
+        "Santiago Giménez",
         "Antuna"
       ]
     },
@@ -3683,9 +3683,9 @@
         "Mittelstädt",
         "Andrich",
         "Kroos",
-        "Musiala",
+        "Jamal Musiala",
         "Gündogan",
-        "Wirtz",
+        "Florian Wirtz",
         "Havertz"
       ]
     },
@@ -3884,7 +3884,7 @@
         "Musah",
         "Weah",
         "Balogun",
-        "Pulisic"
+        "Christian Pulisic"
       ]
     },
     "predictions": {
@@ -3993,30 +3993,30 @@
     },
     "lineups": {
       "home": [
-        "Norway Player 1",
-        "Norway Player 2",
-        "Norway Player 3",
-        "Norway Player 4",
-        "Norway Player 5",
-        "Norway Player 6",
-        "Norway Player 7",
-        "Norway Player 8",
-        "Norway Player 9",
-        "Norway Player 10",
-        "Norway Player 11"
+        "Nyland",
+        "Ryerson",
+        "Østigård",
+        "Ajer",
+        "Wolfe",
+        "Berge",
+        "Ødegaard",
+        "Patrick Berg",
+        "Bobb",
+        "Erling Haaland",
+        "Sørloth"
       ],
       "away": [
-        "France Player 1",
-        "France Player 2",
-        "France Player 3",
-        "France Player 4",
-        "France Player 5",
-        "France Player 6",
-        "France Player 7",
-        "France Player 8",
-        "France Player 9",
-        "France Player 10",
-        "France Player 11"
+        "Maignan",
+        "Koundé",
+        "Upamecano",
+        "Saliba",
+        "T. Hernández",
+        "Tchouaméni",
+        "Rabiot",
+        "Antoine Griezmann",
+        "Dembélé",
+        "Marcus Thuram",
+        "Kylian Mbappé"
       ]
     },
     "predictions": {
@@ -4194,7 +4194,7 @@
         "Rochet",
         "Nández",
         "Araújo",
-        "Giménez",
+        "J. M. Giménez",
         "Olivera",
         "Ugarte",
         "Valverde",
@@ -4265,7 +4265,7 @@
         "Elneny",
         "Fathi",
         "Zizo",
-        "Salah",
+        "Mohamed Salah",
         "Trezeguet",
         "Mostafa Mohamed"
       ],
@@ -4343,7 +4343,7 @@
         "Theate",
         "Onana",
         "Mangala",
-        "De Bruyne",
+        "Kevin De Bruyne",
         "Doku",
         "Trossard",
         "Lukaku"
@@ -4402,17 +4402,17 @@
         "Panama Player 11"
       ],
       "away": [
-        "England Player 1",
-        "England Player 2",
-        "England Player 3",
-        "England Player 4",
-        "England Player 5",
-        "England Player 6",
-        "England Player 7",
-        "England Player 8",
-        "England Player 9",
-        "England Player 10",
-        "England Player 11"
+        "Pickford",
+        "Walker",
+        "Stones",
+        "Guehi",
+        "Trippier",
+        "Rice",
+        "Alexander-Arnold",
+        "Jude Bellingham",
+        "Bukayo Saka",
+        "Phil Foden",
+        "Harry Kane"
       ]
     },
     "predictions": {
@@ -4455,17 +4455,17 @@
     },
     "lineups": {
       "home": [
-        "Croatia Player 1",
-        "Croatia Player 2",
-        "Croatia Player 3",
-        "Croatia Player 4",
-        "Croatia Player 5",
-        "Croatia Player 6",
-        "Croatia Player 7",
-        "Croatia Player 8",
-        "Croatia Player 9",
-        "Croatia Player 10",
-        "Croatia Player 11"
+        "Livaković",
+        "Stanišić",
+        "Šutalo",
+        "Gvardiol",
+        "Sosa",
+        "Brozović",
+        "Kovačić",
+        "Luka Modrić",
+        "Pašalić",
+        "Kramarić",
+        "Perišić"
       ],
       "away": [
         "Ghana Player 1",
@@ -4534,17 +4534,17 @@
         "Colombia Player 11"
       ],
       "away": [
-        "Portugal Player 1",
-        "Portugal Player 2",
-        "Portugal Player 3",
-        "Portugal Player 4",
-        "Portugal Player 5",
-        "Portugal Player 6",
-        "Portugal Player 7",
-        "Portugal Player 8",
-        "Portugal Player 9",
-        "Portugal Player 10",
-        "Portugal Player 11"
+        "Diogo Costa",
+        "Dalot",
+        "Rúben Dias",
+        "António Silva",
+        "Cancelo",
+        "Palhinha",
+        "Vitinha",
+        "Bruno Fernandes",
+        "Bernardo Silva",
+        "Rafael Leão",
+        "Cristiano Ronaldo"
       ]
     },
     "predictions": {
@@ -4732,17 +4732,17 @@
         "Jordan Player 11"
       ],
       "away": [
-        "Argentina Player 1",
-        "Argentina Player 2",
-        "Argentina Player 3",
-        "Argentina Player 4",
-        "Argentina Player 5",
-        "Argentina Player 6",
-        "Argentina Player 7",
-        "Argentina Player 8",
-        "Argentina Player 9",
-        "Argentina Player 10",
-        "Argentina Player 11"
+        "Emiliano Martínez",
+        "Molina",
+        "Romero",
+        "Otamendi",
+        "Tagliafico",
+        "De Paul",
+        "Enzo Fernández",
+        "Mac Allister",
+        "Lionel Messi",
+        "Julián Álvarez",
+        "Lautaro Martínez"
       ]
     },
     "predictions": {

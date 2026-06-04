@@ -280,13 +280,22 @@ def parse_news():
             if img_match:
               image_url = img_match.group(1)
           
+          # Clean and intercept low-res / video images
+          if image_url:
+            if "elmundo" in image_url:
+              image_url = re.sub(r'_[0-9]+x[0-9]+\.', '_990x0.', image_url)
+            elif "marca" in image_url:
+              image_url = image_url.replace("admin_graphic_thumbnail", "horizontal_image_desktop")
+            elif "dailymotion.com" in image_url:
+              image_url = "" # Invalidate video thumbnail to trigger Unsplash fallback
+          
           # 5. Fallback default Unsplash soccer backgrounds if no image found in XML
           if not image_url:
             unsplash_options = [
-              "https://images.unsplash.com/photo-1508098682722-e99c43a406b2?w=500&auto=format&fit=crop",
-              "https://images.unsplash.com/photo-1543351611-58f69d7c1781?w=500&auto=format&fit=crop",
-              "https://images.unsplash.com/photo-1579952363873-27f3bade9f55?w=500&auto=format&fit=crop",
-              "https://images.unsplash.com/photo-1518063319789-7217e6706b04?w=500&auto=format&fit=crop"
+              "https://images.unsplash.com/photo-1508098682722-e99c43a406b2?w=800&auto=format&fit=crop",
+              "https://images.unsplash.com/photo-1543351611-58f69d7c1781?w=800&auto=format&fit=crop",
+              "https://images.unsplash.com/photo-1579952363873-27f3bade9f55?w=800&auto=format&fit=crop",
+              "https://images.unsplash.com/photo-1518063319789-7217e6706b04?w=800&auto=format&fit=crop"
             ]
             image_url = unsplash_options[idx % len(unsplash_options)]
     
@@ -379,7 +388,7 @@ def parse_news():
         "timestamp": int(datetime.now(timezone.utc).timestamp()) - 600,
         "color": "linear-gradient(135deg, #ef4444, #7f1d1d)",
         "overlay": "🩺",
-        "image": "https://images.unsplash.com/photo-1508098682722-e99c43a406b2?w=500&auto=format&fit=crop",
+        "image": "https://images.unsplash.com/photo-1508098682722-e99c43a406b2?w=800&auto=format&fit=crop",
         "source": "L'Équipe",
         "lang": "en"
       },
@@ -392,7 +401,7 @@ def parse_news():
         "timestamp": int(datetime.now(timezone.utc).timestamp()) - 3600,
         "color": "linear-gradient(135deg, #3b82f6, #1e3a8a)",
         "overlay": "📋",
-        "image": "https://images.unsplash.com/photo-1543351611-58f69d7c1781?w=500&auto=format&fit=crop",
+        "image": "https://images.unsplash.com/photo-1543351611-58f69d7c1781?w=800&auto=format&fit=crop",
         "source": "CBC Sports",
         "lang": "en"
       },
@@ -406,7 +415,7 @@ def parse_news():
         "timestamp": int(datetime.now(timezone.utc).timestamp()) - 600,
         "color": "linear-gradient(135deg, #ef4444, #7f1d1d)",
         "overlay": "🩺",
-        "image": "https://images.unsplash.com/photo-1508098682722-e99c43a406b2?w=500&auto=format&fit=crop",
+        "image": "https://images.unsplash.com/photo-1508098682722-e99c43a406b2?w=800&auto=format&fit=crop",
         "source": "L'Équipe",
         "lang": "es"
       },
@@ -419,7 +428,7 @@ def parse_news():
         "timestamp": int(datetime.now(timezone.utc).timestamp()) - 3600,
         "color": "linear-gradient(135deg, #3b82f6, #1e3a8a)",
         "overlay": "📋",
-        "image": "https://images.unsplash.com/photo-1543351611-58f69d7c1781?w=500&auto=format&fit=crop",
+        "image": "https://images.unsplash.com/photo-1543351611-58f69d7c1781?w=800&auto=format&fit=crop",
         "source": "CBC Sports",
         "lang": "es"
       },
@@ -433,7 +442,7 @@ def parse_news():
         "timestamp": int(datetime.now(timezone.utc).timestamp()) - 600,
         "color": "linear-gradient(135deg, #ef4444, #7f1d1d)",
         "overlay": "🩺",
-        "image": "https://images.unsplash.com/photo-1508098682722-e99c43a406b2?w=500&auto=format&fit=crop",
+        "image": "https://images.unsplash.com/photo-1508098682722-e99c43a406b2?w=800&auto=format&fit=crop",
         "source": "L'Équipe",
         "lang": "ca"
       },
@@ -446,7 +455,7 @@ def parse_news():
         "timestamp": int(datetime.now(timezone.utc).timestamp()) - 3600,
         "color": "linear-gradient(135deg, #3b82f6, #1e3a8a)",
         "overlay": "📋",
-        "image": "https://images.unsplash.com/photo-1543351611-58f69d7c1781?w=500&auto=format&fit=crop",
+        "image": "https://images.unsplash.com/photo-1543351611-58f69d7c1781?w=800&auto=format&fit=crop",
         "source": "CBC Sports",
         "lang": "ca"
       }

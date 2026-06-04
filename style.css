@@ -1275,7 +1275,7 @@ body {
   left: 50%;
   transform: translate(-50%, -40%) scale(0.95);
   width: 90%;
-  max-width: 500px;
+  max-width: 680px;
   max-height: 80vh;
   z-index: 210;
   display: none;
@@ -1717,7 +1717,7 @@ body.light-theme .lineup-select-btn.active {
   align-items: center;
   gap: 4px;
   z-index: 10;
-  transition: all 0.3s var(--ease-spring);
+  transition: transform 0.2s var(--ease-smooth), filter 0.2s var(--ease-smooth);
 }
 
 .player-jersey {
@@ -2872,15 +2872,15 @@ body.light-theme .bracket-round:not([data-round="r16"]) .bracket-match-card::bef
 }
 
 .player-profile-overlay {
-  position: absolute;
+  position: fixed;
   top: 0;
   left: 0;
-  width: 100%;
-  height: 100%;
-  background: rgba(2, 2, 4, 0.7);
+  width: 100vw;
+  height: 100vh;
+  background: rgba(2, 2, 4, 0.75);
   backdrop-filter: blur(12px);
   -webkit-backdrop-filter: blur(12px);
-  z-index: 200;
+  z-index: 250;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -2898,7 +2898,7 @@ body.light-theme .bracket-round:not([data-round="r16"]) .bracket-match-card::bef
   border: 1px solid rgba(255, 255, 255, 0.1);
   border-radius: 16px;
   width: 100%;
-  max-width: 580px;
+  max-width: 720px;
   padding: 24px;
   box-shadow: 0 20px 50px rgba(0, 0, 0, 0.6);
   position: relative;
@@ -3066,6 +3066,14 @@ body.light-theme .bracket-round:not([data-round="r16"]) .bracket-match-card::bef
   border: 1px dashed rgba(255, 255, 255, 0.08);
   margin-top: 10px;
   text-shadow: 0 0 10px rgba(255, 255, 255, 0.05);
+}
+
+.fut-avatar img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border-radius: 50%;
+  display: block;
 }
 
 .fut-name {
@@ -3242,11 +3250,11 @@ body.light-theme .bracket-round:not([data-round="r16"]) .bracket-match-card::bef
 /* Interactable states on lineups */
 .player-node {
   cursor: pointer;
-  transition: all 0.25s var(--ease-spring);
+  transition: transform 0.2s var(--ease-smooth), filter 0.2s var(--ease-smooth);
 }
 
 .player-node:hover {
-  transform: scale(1.15) translateY(-2px);
+  transform: translate(-50%, -50%) scale(1.05);
   z-index: 50;
   filter: drop-shadow(0 4px 12px rgba(255,255,255,0.15));
 }

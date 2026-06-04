@@ -1974,6 +1974,8 @@ function setupModalHandlers() {
     DOM.matchModal.classList.remove('active');
     DOM.modalBackdrop.classList.remove('active');
     state.activeModalMatchId = null;
+    const profileOverlay = document.getElementById('playerProfileOverlay');
+    if (profileOverlay) profileOverlay.remove();
   };
 
   DOM.modalClose.addEventListener('click', closeModal);
@@ -2221,6 +2223,43 @@ function calculateWinProbability(match) {
 }
 
 // --- Player Profile Cards Logic ---
+const REAL_PLAYER_STATS = {
+  "Lionel Messi": { overall: 90, club: "Inter Miami", caps: 180, goals: 106, stats: { PAC: 80, SHO: 87, PAS: 90, DRI: 94, DEF: 33, PHY: 64 }, age: 38, height: "170 cm", position: "Forward", posCode: "ST" },
+  "Cristiano Ronaldo": { overall: 86, club: "Al Nassr", caps: 205, goals: 128, stats: { PAC: 77, SHO: 88, PAS: 75, DRI: 80, DEF: 34, PHY: 74 }, age: 41, height: "187 cm", position: "Forward", posCode: "ST" },
+  "Kylian Mbappé": { overall: 91, club: "Real Madrid", caps: 77, goals: 46, stats: { PAC: 97, SHO: 90, PAS: 80, DRI: 92, DEF: 36, PHY: 78 }, age: 27, height: "178 cm", position: "Forward", posCode: "LW" },
+  "Jude Bellingham": { overall: 90, club: "Real Madrid", caps: 29, goals: 3, stats: { PAC: 80, SHO: 82, PAS: 83, DRI: 88, DEF: 78, PHY: 82 }, age: 22, height: "186 cm", position: "Midfielder", posCode: "CM" },
+  "Vinícius Jr.": { overall: 90, club: "Real Madrid", caps: 28, goals: 3, stats: { PAC: 95, SHO: 84, PAS: 81, DRI: 91, DEF: 29, PHY: 68 }, age: 25, height: "176 cm", position: "Forward", posCode: "LW" },
+  "Erling Haaland": { overall: 91, club: "Manchester City", caps: 31, goals: 27, stats: { PAC: 89, SHO: 93, PAS: 66, DRI: 80, DEF: 45, PHY: 88 }, age: 25, height: "194 cm", position: "Forward", posCode: "ST" },
+  "Kevin De Bruyne": { overall: 91, club: "Manchester City", caps: 101, goals: 28, stats: { PAC: 72, SHO: 88, PAS: 94, DRI: 87, DEF: 65, PHY: 78 }, age: 34, height: "181 cm", position: "Midfielder", posCode: "CM" },
+  "Harry Kane": { overall: 90, club: "Bayern Munich", caps: 89, goals: 62, stats: { PAC: 69, SHO: 93, PAS: 84, DRI: 83, DEF: 49, PHY: 83 }, age: 32, height: "188 cm", position: "Forward", posCode: "ST" },
+  "Robert Lewandowski": { overall: 88, club: "Barcelona", caps: 148, goals: 82, stats: { PAC: 75, SHO: 88, PAS: 72, DRI: 83, DEF: 44, PHY: 79 }, age: 37, height: "185 cm", position: "Forward", posCode: "ST" },
+  "Mohamed Salah": { overall: 89, club: "Liverpool", caps: 96, goals: 54, stats: { PAC: 89, SHO: 87, PAS: 82, DRI: 88, DEF: 45, PHY: 75 }, age: 33, height: "175 cm", position: "Forward", posCode: "RW" },
+  "Neymar Jr.": { overall: 89, club: "Al Hilal", caps: 128, goals: 79, stats: { PAC: 86, SHO: 83, PAS: 85, DRI: 93, DEF: 37, PHY: 61 }, age: 34, height: "175 cm", position: "Forward", posCode: "LW" },
+  "Son Heung-min": { overall: 87, club: "Tottenham Hotspur", caps: 123, goals: 44, stats: { PAC: 87, SHO: 88, PAS: 80, DRI: 84, DEF: 42, PHY: 70 }, age: 33, height: "183 cm", position: "Forward", posCode: "LW" },
+  "Jamal Musiala": { overall: 87, club: "Bayern Munich", caps: 27, goals: 2, stats: { PAC: 84, SHO: 82, PAS: 84, DRI: 90, DEF: 63, PHY: 64 }, age: 23, height: "184 cm", position: "Midfielder", posCode: "CAM" },
+  "Florian Wirtz": { overall: 87, club: "Bayer Leverkusen", caps: 18, goals: 1, stats: { PAC: 81, SHO: 81, PAS: 87, DRI: 89, DEF: 61, PHY: 62 }, age: 23, height: "176 cm", position: "Midfielder", posCode: "CAM" },
+  "Antoine Griezmann": { overall: 87, club: "Atletico Madrid", caps: 127, goals: 44, stats: { PAC: 76, SHO: 84, PAS: 87, DRI: 86, DEF: 58, PHY: 72 }, age: 35, height: "176 cm", position: "Forward", posCode: "ST" },
+  "Luka Modrić": { overall: 86, club: "Real Madrid", caps: 174, goals: 24, stats: { PAC: 72, SHO: 76, PAS: 89, DRI: 86, DEF: 72, PHY: 66 }, age: 40, height: "172 cm", position: "Midfielder", posCode: "CM" },
+  "Santiago Giménez": { overall: 80, club: "Feyenoord", caps: 25, goals: 4, stats: { PAC: 81, SHO: 81, PAS: 65, DRI: 78, DEF: 32, PHY: 74 }, age: 25, height: "182 cm", position: "Forward", posCode: "ST" },
+  "Edson Álvarez": { overall: 81, club: "West Ham United", caps: 74, goals: 5, stats: { PAC: 68, SHO: 57, PAS: 71, DRI: 73, DEF: 82, PHY: 84 }, age: 28, height: "187 cm", position: "Midfielder", posCode: "CDM" },
+  "Christian Pulisic": { overall: 83, club: "AC Milan", caps: 66, goals: 29, stats: { PAC: 87, SHO: 79, PAS: 76, DRI: 85, DEF: 37, PHY: 62 }, age: 27, height: "178 cm", position: "Forward", posCode: "LW" },
+  "Alisson": { overall: 89, club: "Liverpool", caps: 63, goals: 0, stats: { PAC: 89, SHO: 86, PAS: 85, DRI: 89, DEF: 47, PHY: 90 }, age: 33, height: "193 cm", position: "Goalkeeper", posCode: "GK" },
+  "Lunin": { overall: 81, club: "Real Madrid", caps: 11, goals: 0, stats: { PAC: 81, SHO: 79, PAS: 83, DRI: 80, DEF: 44, PHY: 82 }, age: 27, height: "191 cm", position: "Goalkeeper", posCode: "GK" },
+  "Rodri": { overall: 91, club: "Manchester City", caps: 50, goals: 4, stats: { PAC: 58, SHO: 73, PAS: 86, DRI: 80, DEF: 89, PHY: 84 }, age: 30, height: "190 cm", position: "Midfielder", posCode: "CDM" },
+  "Pedri": { overall: 86, club: "Barcelona", caps: 24, goals: 2, stats: { PAC: 78, SHO: 72, PAS: 87, DRI: 87, DEF: 68, PHY: 64 }, age: 23, height: "174 cm", position: "Midfielder", posCode: "CM" },
+  "Lamine Yamal": { overall: 84, club: "Barcelona", caps: 14, goals: 3, stats: { PAC: 89, SHO: 79, PAS: 81, DRI: 88, DEF: 36, PHY: 60 }, age: 18, height: "178 cm", position: "Forward", posCode: "RW" },
+  "Emiliano Martínez": { overall: 87, club: "Aston Villa", caps: 38, goals: 0, stats: { PAC: 85, SHO: 83, PAS: 80, DRI: 87, DEF: 45, PHY: 85 }, age: 33, height: "195 cm", position: "Goalkeeper", posCode: "GK" },
+  "Lautaro Martínez": { overall: 87, club: "Inter Milan", caps: 56, goals: 22, stats: { PAC: 80, SHO: 88, PAS: 72, DRI: 84, DEF: 48, PHY: 83 }, age: 28, height: "174 cm", position: "Forward", posCode: "ST" },
+  "Julián Álvarez": { overall: 83, club: "Atletico Madrid", caps: 31, goals: 7, stats: { PAC: 81, SHO: 82, PAS: 78, DRI: 83, DEF: 45, PHY: 76 }, age: 26, height: "170 cm", position: "Forward", posCode: "ST" },
+  "Bukayo Saka": { overall: 87, club: "Arsenal", caps: 33, goals: 11, stats: { PAC: 86, SHO: 81, PAS: 82, DRI: 87, DEF: 45, PHY: 68 }, age: 24, height: "178 cm", position: "Forward", posCode: "RW" },
+  "Phil Foden": { overall: 89, club: "Manchester City", caps: 34, goals: 4, stats: { PAC: 86, SHO: 85, PAS: 86, DRI: 89, DEF: 57, PHY: 66 }, age: 26, height: "171 cm", position: "Midfielder", posCode: "CAM" },
+  "Declan Rice": { overall: 87, club: "Arsenal", caps: 51, goals: 3, stats: { PAC: 76, SHO: 69, PAS: 78, DRI: 80, DEF: 85, PHY: 83 }, age: 27, height: "185 cm", position: "Midfielder", posCode: "CDM" },
+  "Virgil van Dijk": { overall: 89, club: "Liverpool", caps: 66, goals: 7, stats: { PAC: 78, SHO: 60, PAS: 71, DRI: 72, DEF: 89, PHY: 86 }, age: 34, height: "193 cm", position: "Defender", posCode: "CB" },
+  "Bruno Fernandes": { overall: 87, club: "Manchester United", caps: 64, goals: 20, stats: { PAC: 72, SHO: 84, PAS: 88, DRI: 83, DEF: 69, PHY: 77 }, age: 31, height: "179 cm", position: "Midfielder", posCode: "CAM" },
+  "Bernardo Silva": { overall: 88, club: "Manchester City", caps: 88, goals: 11, stats: { PAC: 69, SHO: 77, PAS: 86, DRI: 92, DEF: 69, PHY: 64 }, age: 31, height: "173 cm", position: "Midfielder", posCode: "CM" },
+  "Alphonso Davies": { overall: 84, club: "Bayern Munich", caps: 47, goals: 15, stats: { PAC: 95, SHO: 68, PAS: 77, DRI: 84, DEF: 74, PHY: 77 }, age: 25, height: "183 cm", position: "Defender", posCode: "LB" }
+};
+
 function generatePlayerProfile(playerName, teamName, posCode) {
   let hash = 0;
   for (let i = 0; i < playerName.length; i++) {
@@ -2237,6 +2276,38 @@ function generatePlayerProfile(playerName, teamName, posCode) {
   else {
     const positions = [t('pos_forward', 'Forward'), t('pos_midfielder', 'Midfielder'), t('pos_defender', 'Defender'), t('pos_goalkeeper', 'Goalkeeper')];
     position = positions[absHash % positions.length];
+  }
+
+  // Check real database first
+  const realData = REAL_PLAYER_STATS[playerName];
+
+  // Tournament stats
+  const tourneyGoals = (position === t('pos_forward', 'Forward')) ? (absHash % 3) : (absHash % 8 === 0 ? 1 : 0);
+  const tourneyAssists = (position === t('pos_midfielder', 'Midfielder')) ? (absHash % 3) : (absHash % 7 === 0 ? 1 : 0);
+  const tourneyRating = (6.2 + (absHash % 23) / 10).toFixed(1);
+
+  if (realData) {
+    return {
+      name: playerName,
+      team: teamName,
+      flag: getTeamFlag(teamName),
+      position: realData.position,
+      posCode: realData.posCode,
+      overall: realData.overall,
+      age: realData.age,
+      height: realData.height,
+      club: realData.club,
+      caps: realData.caps,
+      goals: realData.goals,
+      stats: realData.stats,
+      tournament: {
+        goals: tourneyGoals,
+        assists: tourneyAssists,
+        yellowCards: absHash % 6 === 0 ? 1 : 0,
+        redCards: absHash % 19 === 0 ? 1 : 0,
+        rating: tourneyRating
+      }
+    };
   }
 
   // Stats ranges based on position to make it realistic
@@ -2267,11 +2338,6 @@ function generatePlayerProfile(playerName, teamName, posCode) {
 
   const caps = 5 + (absHash % 115); // 5-120
   const goals = Math.max(0, Math.floor(caps * (0.05 + (absHash % 30) / 100)));
-
-  // Tournament stats
-  const tourneyGoals = (position === t('pos_forward', 'Forward')) ? (absHash % 3) : (absHash % 8 === 0 ? 1 : 0);
-  const tourneyAssists = (position === t('pos_midfielder', 'Midfielder')) ? (absHash % 3) : (absHash % 7 === 0 ? 1 : 0);
-  const tourneyRating = (6.2 + (absHash % 23) / 10).toFixed(1);
 
   return {
     name: playerName,
@@ -2422,21 +2488,59 @@ function showPlayerProfile(playerName, teamName, posCode) {
 
   overlay.appendChild(content);
   
-  const modalContent = document.querySelector('#matchModal .modal-content');
-  if (modalContent) {
-    modalContent.appendChild(overlay);
-    
-    const closeBtn = content.querySelector('#profileCloseBtn');
-    if (closeBtn) {
-      closeBtn.addEventListener('click', () => overlay.remove());
-    }
-
-    setTimeout(() => {
-      content.querySelectorAll('.scout-bar-fill').forEach(fill => {
-        fill.style.width = fill.getAttribute('data-value') + '%';
-      });
-    }, 50);
+  document.body.appendChild(overlay);
+  
+  const closeBtn = content.querySelector('#profileCloseBtn');
+  if (closeBtn) {
+    closeBtn.addEventListener('click', () => overlay.remove());
   }
+
+  setTimeout(() => {
+    content.querySelectorAll('.scout-bar-fill').forEach(fill => {
+      fill.style.width = fill.getAttribute('data-value') + '%';
+    });
+  }, 50);
+
+  // Fetch player image from TheSportsDB dynamically
+  const fetchPlayerPhoto = async () => {
+    const avatarEl = content.querySelector('.fut-avatar');
+    const setSilhouette = () => {
+      if (avatarEl) {
+        avatarEl.innerHTML = `<img src="https://cdn.sofifa.net/players/notfound_0_120.png" alt="${playerName}" style="opacity: 0.7; filter: brightness(0.85); width: 85%; height: 85%; object-fit: contain;">`;
+        avatarEl.style.border = 'none';
+        avatarEl.style.background = 'none';
+      }
+    };
+
+    try {
+      const url = `https://www.thesportsdb.com/api/v1/json/3/searchplayers.php?p=${encodeURIComponent(playerName)}`;
+      const res = await fetch(url);
+      if (res.ok) {
+        const data = await res.json();
+        if (data && data.player && data.player.length > 0) {
+          const pData = data.player.find(p => p.strTeam === teamName || p.strNationality === teamName) || data.player[0];
+          const imgUrl = pData.strCutout || pData.strThumb;
+          if (imgUrl) {
+            if (avatarEl) {
+              avatarEl.innerHTML = `<img src="${imgUrl}" alt="${playerName}" style="opacity: 0; transition: opacity 0.3s ease; width: 100%; height: 100%; object-fit: cover; border-radius: 50%;">`;
+              const img = avatarEl.querySelector('img');
+              img.onload = () => {
+                img.style.opacity = '1';
+                avatarEl.style.border = 'none';
+                avatarEl.style.background = 'none';
+              };
+              return; // successfully loaded real photo
+            }
+          }
+        }
+      }
+    } catch (e) {
+      console.warn("Failed to fetch player photo from TheSportsDB:", e);
+    }
+    // If we reach here, either fetch failed or player/image not found
+    setSilhouette();
+  };
+  fetchPlayerPhoto();
 }
 
 function renderModalContent() {

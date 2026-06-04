@@ -3,7 +3,7 @@
     "category": "tactics",
     "title": "England in the heat, Brazil, Messi and Ronaldo - World Cup latest",
     "snippet": "Sky Sports brings you the latest from the World Cup with just one week to go!",
-    "time": "49m ago",
+    "time": "2h ago",
     "timestamp": 1780560840,
     "color": "linear-gradient(135deg, #f59e0b, #78350f)",
     "overlay": "⚽",
@@ -17,7 +17,7 @@
     "category": "tactics",
     "title": "Why are American investors taking over English football?",
     "snippet": "The World Cup is taking over the United States this summer. But the not-so-secret American takeover of football has been building its foundations for some time now.",
-    "time": "1h ago",
+    "time": "2h ago",
     "timestamp": 1780560000,
     "color": "linear-gradient(135deg, #f59e0b, #78350f)",
     "overlay": "⚽",
@@ -31,7 +31,7 @@
     "category": "tactics",
     "title": "Why we could see less of Kane for England at the 2026 World Cup...",
     "snippet": "England have three strikers at this World Cup, and Harry Kane's replacements have never had such an important role.",
-    "time": "10h ago",
+    "time": "12h ago",
     "timestamp": 1780524600,
     "color": "linear-gradient(135deg, #f59e0b, #78350f)",
     "overlay": "⚽",
@@ -115,7 +115,7 @@
     "category": "rules",
     "title": "World Cup qualifier suspended after sinkhole opens up on pitch",
     "snippet": "Austria’s World Cup qualifier against Cyprus was halted after a sinkhole opened on the pitch. The game eventually resumed, with Marcel Sabitzer’s penalty sealing a 1-0 win.",
-    "time": "267d ago",
+    "time": "268d ago",
     "timestamp": 1757410200,
     "color": "linear-gradient(135deg, #64748b, #334155)",
     "overlay": "📺",
@@ -129,197 +129,15 @@
     "category": "tactics",
     "title": "España, a todo gas ante Irak con el riesgo mínimo: \"No es un bolo de verano\"",
     "snippet": "La selección afronta en Riazor, con el césped perjudicado, su último amistoso antes de viajar a Estados Unidos. No estarán ni Lamine, Nico y Víctor Muñoz, como tampoco Raya, Zubimendi y Fabián Leer",
-    "time": "11h ago",
+    "time": "12h ago",
     "timestamp": 1780522369,
     "color": "linear-gradient(135deg, #f59e0b, #78350f)",
     "overlay": "⚽",
     "link": "https://www.elmundo.es/deportes/futbol/mundial-de-futbol/2026/06/03/6a206311e9cf4a051c8b45b2.html",
-    "image": "https://e00-elmundo.uecdn.es/assets/multimedia/imagenes/2026/06/03/17805060539723_150x0.jpg",
+    "image": "https://e00-elmundo.uecdn.es/assets/multimedia/imagenes/2026/06/03/17805060539723_990x0.jpg",
     "source": "El Mundo Deportes",
     "lang": "es",
     "id": 209
-  },
-  {
-    "category": "tactics",
-    "title": "Países Bajos se estrella contra Luca Zidane y Hadj Moussa frotó la lámpara en su casa",
-    "snippet": "El guardameta del Granada se agigantó en De Kuip y el extremo del Feyenoord anotó el gol de la victoria para Argelia (0-1) en la recta final",
-    "time": "12h ago",
-    "timestamp": 1780519682,
-    "color": "linear-gradient(135deg, #f59e0b, #78350f)",
-    "overlay": "⚽",
-    "link": "https://www.marca.com/futbol/mundial/2026/06/03/paises-bajos-estrella-luca-zidane-hadj-moussa-froto-lampara-casa.html",
-    "image": "https://e01-xlk-ue-marca.uecdn.es/files/admin_graphic_thumbnail/uploads/2026/06/03/6a209276bd686.jpeg",
-    "source": "Marca",
-    "lang": "es",
-    "id": 210
-  },
-  {
-    "category": "tactics",
-    "title": "Decidirá después del Mundial<br>",
-    "snippet": "El Barcelona gana tiempo con el portugués",
-    "time": "13h ago",
-    "timestamp": 1780514917,
-    "color": "linear-gradient(135deg, #f59e0b, #78350f)",
-    "overlay": "⚽",
-    "link": "https://www.marca.com/futbol/barcelona/2026/06/03/bernardo-silva-decidira-mundial.html",
-    "image": "https://e01-xlk-ue-marca.uecdn.es/files/admin_graphic_thumbnail/uploads/2026/06/03/6a207d0f9250e.jpeg",
-    "source": "Marca",
-    "lang": "es",
-    "id": 211
-  },
-  {
-    "category": "tactics",
-    "title": "España está de moda: la camiseta blanca, un impacto como no se recuerda",
-    "snippet": "El atractivo y valr de la selección se dispara y une su camino con marcas referente en el mundo como Loewe y Google",
-    "time": "14h ago",
-    "timestamp": 1780510570,
-    "color": "linear-gradient(135deg, #f59e0b, #78350f)",
-    "overlay": "⚽",
-    "link": "https://www.marca.com/futbol/seleccion/2026/06/03/espana-moda-da-salto-mundial.html",
-    "image": "https://e01-xlk-ue-marca.uecdn.es/files/admin_graphic_thumbnail/uploads/2026/06/02/6a1e8c43daf8e.jpeg",
-    "source": "Marca",
-    "lang": "es",
-    "id": 212
-  },
-  {
-    "category": "rules",
-    "title": "Casillas: \"Ganar el Mundial fue cumplir el sueño de mucha gente\"",
-    "snippet": "El campeón del mundo en 2010 habló sobre su etapa con la Roja en la presentación de LEGO Editions",
-    "time": "15h ago",
-    "timestamp": 1780506785,
-    "color": "linear-gradient(135deg, #64748b, #334155)",
-    "overlay": "📺",
-    "link": "https://www.marca.com/futbol/mundial/2026/06/03/casillas-ganar-mundial-cumplir-sueno-gente.html",
-    "image": "https://e01-xlk-ue-marca.uecdn.es/files/admin_graphic_thumbnail/uploads/2026/06/03/6a20580a34c9b.jpeg",
-    "source": "Marca",
-    "lang": "es",
-    "id": 213
-  },
-  {
-    "category": "tactics",
-    "title": "El matemático que acertó los últimos tres campeones del mundo, apunta ahora a Holanda",
-    "snippet": "Lo predice con un sistema matemático que él mismo ha creado",
-    "time": "16h ago",
-    "timestamp": 1780505652,
-    "color": "linear-gradient(135deg, #f59e0b, #78350f)",
-    "overlay": "⚽",
-    "link": "https://www.marca.com/futbol/mundial/2026/06/03/joachim-klement-matematico-acerto-ultimos-tres-campeones-mundo-apunta-holanda.html",
-    "image": "https://e01-xlk-ue-marca.uecdn.es/files/admin_graphic_thumbnail/uploads/2026/06/03/6a2051e570931.jpeg",
-    "source": "Marca",
-    "lang": "es",
-    "id": 214
-  },
-  {
-    "category": "tactics",
-    "title": "El Madrid manda 10 al Mundial... ¡y no entra en el top 10!",
-    "snippet": "El conjunto inglés será el club con más representantes en la Copa del Mundo",
-    "time": "16h ago",
-    "timestamp": 1780504316,
-    "color": "linear-gradient(135deg, #f59e0b, #78350f)",
-    "overlay": "⚽",
-    "link": "https://www.marca.com/futbol/mundial/2026/06/03/city-conquista-mundial-madrid-fuera-top-10.html",
-    "image": "https://e01-xlk-ue-marca.uecdn.es/files/admin_graphic_thumbnail/uploads/2026/06/03/6a1fe33c23f94.jpeg",
-    "source": "Marca",
-    "lang": "es",
-    "id": 215
-  },
-  {
-    "category": "tactics",
-    "title": "DAZN levanta el telón de su Mundial con Reina, Rafinha y los 104 partidos: \"Será el mejor de la historia\"",
-    "snippet": "La plataforma presentó en Madrid su equipo de talentos, anunció récord de clientes en España y detalló su despliegue para cubrir todo el torneo<span class=\"\" contenteditable=\"false\" tabindex=\"-1\" style=\"user-select: none; pointer-events: auto;\"></span>",
-    "time": "17h ago",
-    "timestamp": 1780500259,
-    "color": "linear-gradient(135deg, #f59e0b, #78350f)",
-    "overlay": "⚽",
-    "link": "https://www.marca.com/futbol/mundial/2026/06/03/dazn-levanta-telon-mundial-reina-rafinha-104-partidos-sera-mejor-historia.html",
-    "image": "https://www.dailymotion.com/crawler/video/xaczegs",
-    "source": "Marca",
-    "lang": "es",
-    "id": 216
-  },
-  {
-    "category": "tactics",
-    "title": "Así decidió Lamine Yamal delante de su madre que se iba al Barça: \"El Espanyol le había hecho una prueba\"",
-    "snippet": "MARCA estrena su nueva serie documental 'FORJADOS'",
-    "time": "18h ago",
-    "timestamp": 1780495580,
-    "color": "linear-gradient(135deg, #f59e0b, #78350f)",
-    "overlay": "⚽",
-    "link": "https://www.marca.com/futbol/mundial/2026/06/03/asi-decidio-lamine-yamal-delante-madre-iba-barca-espanyol-le-habia-hecho-prueba.html",
-    "image": "https://e01-xlk-ue-marca.uecdn.es/files/admin_graphic_thumbnail/uploads/2026/06/03/bLpP61g85mxWgGW7N.jpeg",
-    "source": "Marca",
-    "lang": "es",
-    "id": 217
-  },
-  {
-    "category": "tactics",
-    "title": "Mbappé y Vinicius se topan con el inconfundible ego de Zlatan en el nuevo anuncio de Nike para el Mundial",
-    "snippet": "",
-    "time": "20h ago",
-    "timestamp": 1780490379,
-    "color": "linear-gradient(135deg, #f59e0b, #78350f)",
-    "overlay": "⚽",
-    "link": "https://www.marca.com/futbol/mundial/2026/06/03/mbappe-valverde-topan-inconfundible-ego-zlatan-nuevo-anuncio-nike-mundial-video.html",
-    "image": "https://www.dailymotion.com/crawler/video/xacxdkw",
-    "source": "Marca",
-    "lang": "es",
-    "id": 218
-  },
-  {
-    "category": "rules",
-    "title": "Las razones por las que FIFA se frota las manos en este Mundial<br>",
-    "snippet": "¿Por qué las marcas van a pagar más de 2.000 millones en patrocinio?",
-    "time": "23h ago",
-    "timestamp": 1780479579,
-    "color": "linear-gradient(135deg, #64748b, #334155)",
-    "overlay": "📺",
-    "link": "https://www.marca.com/sport-business/2playbook/2026/06/03/plan-comercial-infantino.html",
-    "image": "https://e01-xlk-ue-marca.uecdn.es/files/admin_graphic_thumbnail/uploads/2026/06/03/6a1ff5aaa07a3.jpeg",
-    "source": "Marca",
-    "lang": "es",
-    "id": 219
-  },
-  {
-    "category": "tactics",
-    "title": "Primer entrenamiento de Brasil en Estados Unidos y primera charla de Ancelotti",
-    "snippet": "",
-    "time": "1d ago",
-    "timestamp": 1780466703,
-    "color": "linear-gradient(135deg, #f59e0b, #78350f)",
-    "overlay": "⚽",
-    "link": "https://www.marca.com/futbol/mundial/2026/06/03/primer-entrenamiento-brasil-estados-unidos-primera-charla-ancelott-video.html",
-    "image": "https://www.dailymotion.com/crawler/video/xacvvng",
-    "source": "Marca",
-    "lang": "es",
-    "id": 220
-  },
-  {
-    "category": "tactics",
-    "title": "Miles de pájaros colonizan Nueva York por la selección de Brasil: \"¡La ciudad ahora es nuestra!\"",
-    "snippet": "",
-    "time": "1d ago",
-    "timestamp": 1780465788,
-    "color": "linear-gradient(135deg, #f59e0b, #78350f)",
-    "overlay": "⚽",
-    "link": "https://www.marca.com/futbol/mundial/2026/06/03/miles-pajaros-colonizan-nueva-york-seleccion-brasil-ciudad-nuestra-video.html",
-    "image": "https://www.dailymotion.com/crawler/video/xacvuno",
-    "source": "Marca",
-    "lang": "es",
-    "id": 221
-  },
-  {
-    "category": "lineup",
-    "title": "Nacieron en España pero no jugarán el Mundial con la Roja<br>",
-    "snippet": "Según publicó en X Jaime F. Macias (@Jaimefmacias), un total de 289 jugadores disputarán el Mundial representando a una selección diferente a su país de nacimiento. De ellos, 11 son españoles. En la selección española hay un futbolista que no nació en España: Aymeric Laporte. Repasa todos los jugadores que van a disputar el Mundial sin representar a su país de nacimiento, empezando por los once españoles.<br>",
-    "time": "1d ago",
-    "timestamp": 1780459684,
-    "color": "linear-gradient(135deg, #3b82f6, #1e3a8a)",
-    "overlay": "📋",
-    "link": "https://www.marca.com/futbol/mundial/album/2026/06/03/289-futbolistas-mundial-representaran-pais-nacimiento-hay-11-espanoles.html",
-    "image": "https://e01-xlk-ue-marca.uecdn.es/files/admin_graphic_thumbnail/uploads/2026/06/02/6a1f50b70f36e.jpeg",
-    "source": "Marca",
-    "lang": "es",
-    "id": 222
   },
   {
     "category": "injury",
@@ -330,16 +148,100 @@
     "color": "linear-gradient(135deg, #ef4444, #7f1d1d)",
     "overlay": "🩺",
     "link": "https://www.elmundo.es/deportes/2026/06/03/6a1f6872e4d4d87a258b458c.html",
-    "image": "https://e00-elmundo.uecdn.es/assets/multimedia/imagenes/2026/06/03/17804430559791_150x0.jpg",
+    "image": "https://e00-elmundo.uecdn.es/assets/multimedia/imagenes/2026/06/03/17804430559791_990x0.jpg",
     "source": "El Mundo Deportes",
     "lang": "es",
-    "id": 223
+    "id": 210
+  },
+  {
+    "category": "tactics",
+    "title": "El baile de entrenadores en los banquillos de la Liga: seis equipos en busca de un técnico",
+    "snippet": "A ocho días del inicio del Mundial, media docena de equipos de primera aún no tienen técnico: Real Madrid, Rayo Vallecano, Elche, Osasuna y los recién descendidos Girona y Oviedo Leer",
+    "time": "1d ago",
+    "timestamp": 1780436966,
+    "color": "linear-gradient(135deg, #f59e0b, #78350f)",
+    "overlay": "⚽",
+    "link": "https://www.elmundo.es/deportes/futbol/primera-division/2026/06/02/6a1f0198fdddffb6298b458c.html",
+    "image": "https://e00-elmundo.uecdn.es/assets/multimedia/imagenes/2026/06/02/17804158765816_990x0.jpg",
+    "source": "El Mundo Deportes",
+    "lang": "es",
+    "id": 211
+  },
+  {
+    "category": "tactics",
+    "title": "Irán pasa por España el sábado antes de viajar a México para el Mundial",
+    "snippet": "El presidente de la Federación Iraní ha confirmado que el equipo volará a España antes de partir rumbo a Tijuana Leer",
+    "time": "1d ago",
+    "timestamp": 1780423458,
+    "color": "linear-gradient(135deg, #f59e0b, #78350f)",
+    "overlay": "⚽",
+    "link": "https://www.elmundo.es/deportes/futbol/mundial-de-futbol/2026/06/02/6a1f1b1ae4d4d811118b45cf.html",
+    "image": "https://e00-elmundo.uecdn.es/assets/multimedia/imagenes/2026/06/02/17804228460877_990x0.jpg",
+    "source": "El Mundo Deportes",
+    "lang": "es",
+    "id": 212
+  },
+  {
+    "category": "tactics",
+    "title": "Argentina y Francia, las favoritas para el Mundial: las casas de apuestas prevén ingresos de más de 50.000 millones de dólares",
+    "snippet": "Expertos y casas de apuestas hablan sobre ingresos, los favoritos para el Mundial y algunas apuestas extrañas que hacen saltar las alarmas Leer",
+    "time": "1d ago",
+    "timestamp": 1780400808,
+    "color": "linear-gradient(135deg, #f59e0b, #78350f)",
+    "overlay": "⚽",
+    "link": "https://www.elmundo.es/deportes/futbol/mundial-de-futbol/2026/06/02/6a1ec1afe9cf4a007c8b45b5.html",
+    "image": "https://e00-elmundo.uecdn.es/assets/multimedia/imagenes/2026/06/02/17804003865506_990x0.jpg",
+    "source": "El Mundo Deportes",
+    "lang": "es",
+    "id": 213
+  },
+  {
+    "category": "tactics",
+    "title": "El FBI en un hotel de Suiza, 220.000 millones de dólares, 7.000 muertos: el sinuoso camino de Qatar para ser sede de un Mundial",
+    "snippet": "La cita en el país del Golfo, cargada de polémicas, resultó exitosa, en cambio, en lo futbolístico y lo logístico, y dio proyección al país Leer",
+    "time": "2d ago",
+    "timestamp": 1780347812,
+    "color": "linear-gradient(135deg, #f59e0b, #78350f)",
+    "overlay": "⚽",
+    "link": "https://www.elmundo.es/deportes/futbol/2026/06/01/6a1b0183fc6c8344258b4581.html",
+    "image": "https://e00-elmundo.uecdn.es/assets/multimedia/imagenes/2026/05/30/17801548960104_990x0.jpg",
+    "source": "El Mundo Deportes",
+    "lang": "es",
+    "id": 214
+  },
+  {
+    "category": "tactics",
+    "title": "A contra reloj en Riazor para reparar los daños en el césped y las gradas antes del amistoso de la selección",
+    "snippet": "Tras la invasión del campo por parte de los aficionados coruñeses, el estado del estadio del RC Deportivo deja en el aire si se podrá disputar el España - Irak Leer",
+    "time": "2d ago",
+    "timestamp": 1780334876,
+    "color": "linear-gradient(135deg, #f59e0b, #78350f)",
+    "overlay": "⚽",
+    "link": "https://www.elmundo.es/deportes/futbol/mundial-de-futbol/2026/06/01/6a1dbdc021efa0ca338b4599.html",
+    "image": "https://e00-elmundo.uecdn.es/assets/multimedia/imagenes/2026/06/01/17803335164720_990x0.jpg",
+    "source": "El Mundo Deportes",
+    "lang": "es",
+    "id": 215
+  },
+  {
+    "category": "tactics",
+    "title": "Un viaje largo, los lesionados y la obsesión de De la Fuente: España se pone en marcha hacia el Mundial",
+    "snippet": "La selección ya entrena en Las Rozas antes de iniciar un periplo que le llevará a Coruña y México antes del debut, el día 15 contra Cabo Verde Leer",
+    "time": "3d ago",
+    "timestamp": 1780259763,
+    "color": "linear-gradient(135deg, #f59e0b, #78350f)",
+    "overlay": "⚽",
+    "link": "https://www.elmundo.es/deportes/futbol/mundial-de-futbol/2026/05/31/6a1b056fe4d4d8782b8b4589.html",
+    "image": "https://e00-elmundo.uecdn.es/assets/multimedia/imagenes/2026/05/31/17802419735935_990x0.jpg",
+    "source": "El Mundo Deportes",
+    "lang": "es",
+    "id": 216
   },
   {
     "category": "transfer",
     "title": "El 'carpe diem' del Barça (i de Joan Laporta)",
     "snippet": "El Barça ha necessitat sis anys per tornar a afrontar un mercat d'estiu sense restriccions. Ni el del 2022 és equiparable, ja que aleshores el club, malgrat reforçar-se a cop de talonari amb Kounde, Raphinha i Lewandowski, va suar de valent perquè les palanques s'adaptessin a la normativa de la Lliga. Aquesta vegada l'aixeta raja i un cop confirmat el fitxatge d'Anthony Gordon, l'entitat que presideix encara de manera interina Rafael Yuste mou els fils per fitxar un davanter centre de talla mundial i, si és possible, reforçar la defensa amb un central de garanties.",
-    "time": "4h ago",
+    "time": "5h ago",
     "timestamp": 1780549254,
     "color": "linear-gradient(135deg, #a855f7, #581c87)",
     "overlay": "🔄",
@@ -347,69 +249,55 @@
     "image": "https://static1.ara.cat/clip/7fa2a8a8-765b-4bfb-80f6-cfb51e6b8131_16-9-aspect-ratio_default_0.jpg",
     "source": "ARA Esports",
     "lang": "ca",
-    "id": 224
+    "id": 217
   },
   {
     "category": "press",
     "title": "Kounde es pronuncia sobre el seu futur al Barça",
     "snippet": "Jules Kounde és un dels jugadors del Futbol Club Barcelona que representarà la selecció francesa al Mundial que comença d’aquí a pocs dies als Estats Units, Mèxic i el Canadà. El defensa ha comparegut davant els mitjans de comunicació en la roda de premsa prèvia a l’amistós que França jugarà contra la Costa d’Ivori i, … Continued",
-    "time": "17h ago",
+    "time": "18h ago",
     "timestamp": 1780501286,
     "color": "linear-gradient(135deg, #0d9488, #115e59)",
     "overlay": "🎙️",
     "link": "https://monesport.cat/barca/jugadors/kounde-futur-continuitat-declaracions-484426/",
-    "image": "https://images.unsplash.com/photo-1518063319789-7217e6706b04?w=500&auto=format&fit=crop",
+    "image": "https://images.unsplash.com/photo-1579952363873-27f3bade9f55?w=800&auto=format&fit=crop",
     "source": "Món Esport",
     "lang": "ca",
-    "id": 225
+    "id": 218
   },
   {
     "category": "rules",
     "title": "Revelen com Lamine Yamal va escollir el Barça per davant de l’Espanyol",
     "snippet": "En el context del Mundial de futbol, que començarà la setmana vinent, el diari Marca ha preparat uns sèrie de reportatges sobre els orígens de diversos jugadors de la selecció espanyola. Un dels més destacats, l’estrella de La Roja, és el davanter del Futbol Club Barcelona Lamine Yamal. Respecte als seus inicis com a futbolista, … Continued",
-    "time": "18h ago",
+    "time": "19h ago",
     "timestamp": 1780498752,
     "color": "linear-gradient(135deg, #64748b, #334155)",
     "overlay": "📺",
     "link": "https://monesport.cat/barca/jugadors/lamine-yamal-escollir-fitxatge-espanyol-484418/",
-    "image": "https://images.unsplash.com/photo-1508098682722-e99c43a406b2?w=500&auto=format&fit=crop",
+    "image": "https://images.unsplash.com/photo-1518063319789-7217e6706b04?w=800&auto=format&fit=crop",
     "source": "Món Esport",
     "lang": "ca",
-    "id": 226
+    "id": 219
   },
   {
     "category": "lineup",
     "title": "Ansu Fati deixa tothom impactat amb la seva darrera publicació",
     "snippet": "Ansu Fati ha tornat al centre de l’actualitat esportiva per diversos motius. Primer, per les queixes del seu pare en saber que el jugador no havia entrat a la convocatòria del Mundial amb la selecció espanyola. Després, pel fet que el Mònaco exercirà la clàusula de rescissió d’onze milions d’euros que té i el fitxarà … Continued",
-    "time": "18h ago",
+    "time": "20h ago",
     "timestamp": 1780495786,
     "color": "linear-gradient(135deg, #3b82f6, #1e3a8a)",
     "overlay": "📋",
     "link": "https://monesport.cat/barca/jugadors/ansu-fati-musica-primera-canco-484404/",
-    "image": "https://images.unsplash.com/photo-1579952363873-27f3bade9f55?w=500&auto=format&fit=crop",
+    "image": "https://images.unsplash.com/photo-1543351611-58f69d7c1781?w=800&auto=format&fit=crop",
     "source": "Món Esport",
     "lang": "ca",
-    "id": 227
-  },
-  {
-    "category": "press",
-    "title": "Ni Lamine Yamal, ni Pedri: De la Fuente elogia un altre jugador del Barça",
-    "snippet": "Luis de la Fuente, entrenador de la selecció espanyola de futbol, ha comparegut aquest dimecres davant dels mitjans de comunicació en el context del Mundial que es disputarà aquest estiu, a partir de la setmana vinent. Un dels aspectes pels quals li han preguntat els periodistes ha estat la inclusió de jugadors de suport a … Continued",
-    "time": "19h ago",
-    "timestamp": 1780494966,
-    "color": "linear-gradient(135deg, #0d9488, #115e59)",
-    "overlay": "🎙️",
-    "link": "https://monesport.cat/barca/jugadors/marc-bernal-elogis-luis-de-la-fuente-seleccio-espanyola-mundial-484397/",
-    "image": "https://images.unsplash.com/photo-1518063319789-7217e6706b04?w=500&auto=format&fit=crop",
-    "source": "Món Esport",
-    "lang": "ca",
-    "id": 228
+    "id": 220
   },
   {
     "category": "tactics",
     "title": "Leo Messi, guardonat amb el premi Princesa d'Astúries dels esports 2026",
     "snippet": "Leo Messi ha estat guardonat amb el premi Princesa d'Astúries dels esports 2026. El futbolista argentí, que actualment juga a l'Inter de Miami, recollirà el premi el 23 d'octubre al Teatre Campoamor d'Oviedo. El jurat –presidit per la nedadora Teresa Perales– ha remarcat la seva \"excepcional trajectòria esportiva\" i la seva solidaritat per \"promoure l'accés a l'educació i la cura de la salut dels nens més desfavorits\". L'exestrella blaugrana ha guanyat 47 títols, entre els quals destaquen quatre Champions League, deu lligues espanyoles i el Mundial aconseguit amb l'Argentina el 2022.",
-    "time": "22h ago",
+    "time": "1d ago",
     "timestamp": 1780481922,
     "color": "linear-gradient(135deg, #f59e0b, #78350f)",
     "overlay": "⚽",
@@ -417,7 +305,7 @@
     "image": "https://static1.ara.cat/clip/88c8347b-0417-4e84-8b5c-2a11a8ea90aa_16-9-aspect-ratio_default_0_x2351y869.jpg",
     "source": "ARA Esports",
     "lang": "ca",
-    "id": 229
+    "id": 221
   },
   {
     "category": "lineup",
@@ -431,7 +319,7 @@
     "image": "https://static1.ara.cat/clip/ee737dde-d694-4f24-9993-cd65d353a8a1_16-9-aspect-ratio_default_1058448.jpg",
     "source": "ARA Esports",
     "lang": "ca",
-    "id": 230
+    "id": 222
   },
   {
     "category": "tactics",
@@ -445,7 +333,7 @@
     "image": "https://d5r1tkwwv7d5g.cloudfront.net/articulos/articulos-719250.jpg",
     "source": "Nació Digital",
     "lang": "ca",
-    "id": 231
+    "id": 223
   },
   {
     "category": "transfer",
@@ -459,13 +347,13 @@
     "image": "https://static1.ara.cat/clip/797ed480-ad68-4bd5-bfd3-baa348e98c87_16-9-aspect-ratio_default_0_x2142y978.jpg",
     "source": "ARA Esports",
     "lang": "ca",
-    "id": 232
+    "id": 224
   },
   {
     "category": "tactics",
     "title": "Els 13 catalans del Mundial 2026 (i les absències més il·lustres)",
     "snippet": "Tot i la impossibilitat d'estar representada de manera oficial al campionat més important del món, la presència catalana és indiscutible i sobrepassa la selecció espanyola",
-    "time": "7d ago",
+    "time": "8d ago",
     "timestamp": 1779873324,
     "color": "linear-gradient(135deg, #f59e0b, #78350f)",
     "overlay": "⚽",
@@ -473,7 +361,7 @@
     "image": "https://d5r1tkwwv7d5g.cloudfront.net/articulos/articulos-596058.jpg",
     "source": "Nació Digital",
     "lang": "ca",
-    "id": 233
+    "id": 225
   },
   {
     "category": "press",
@@ -487,7 +375,7 @@
     "image": "https://d5r1tkwwv7d5g.cloudfront.net/articulos/articulos-704199.jpg",
     "source": "Nació Digital",
     "lang": "ca",
-    "id": 234
+    "id": 226
   },
   {
     "category": "tactics",
@@ -501,7 +389,7 @@
     "image": "https://static1.ara.cat/clip/0dde5564-ee7a-455f-9ac5-3ff104e3cace_16-9-aspect-ratio_default_0_x853y336.png",
     "source": "ARA Esports",
     "lang": "ca",
-    "id": 235
+    "id": 227
   },
   {
     "category": "lineup",
@@ -515,7 +403,7 @@
     "image": "https://static1.ara.cat/clip/8ae90eb1-5edb-44ee-ba08-be9927432fb2_16-9-aspect-ratio_default_0.jpg",
     "source": "ARA Esports",
     "lang": "ca",
-    "id": 236
+    "id": 228
   },
   {
     "category": "lineup",
@@ -529,6 +417,6 @@
     "image": "https://d5r1tkwwv7d5g.cloudfront.net/articulos/articulos-715798.jpg",
     "source": "Nació Digital",
     "lang": "ca",
-    "id": 237
+    "id": 229
   }
 ]
