@@ -17,6 +17,7 @@ const state = {
   activeNewsCategory: 'all',
   activeModalTab: 'timeline',
   activeModalMatchId: null,
+  activeLineupTeam: 'home',
   lang: localStorage.getItem('matchday_lang') || 'en',
   matches: [
     {
@@ -1458,6 +1459,7 @@ function setupModalHandlers() {
 function openMatchDetails(matchId) {
   state.activeModalMatchId = matchId;
   state.activeModalTab = 'timeline'; // Reset to timeline tab
+  state.activeLineupTeam = 'home'; // Reset to home team lineup
   
   // Set tab active state
   document.querySelectorAll('.modal-tab-btn').forEach(btn => {
@@ -1531,6 +1533,52 @@ function openNewsDetails(newsId) {
   DOM.newsModal.classList.add('active');
   DOM.newsModalBackdrop.classList.add('active');
 }
+
+// --- Visual Soccer Pitch Coordinates & Team Colors Configuration ---
+const FORMATION_COORDINATES = [
+  { left: 50, top: 85, pos: "GK" },  // Goalkeeper
+  { left: 15, top: 65, pos: "LB" },  // Left Back
+  { left: 38, top: 67, pos: "CB" },  // Center Back 1
+  { left: 62, top: 67, pos: "CB" },  // Center Back 2
+  { left: 85, top: 65, pos: "RB" },  // Right Back
+  { left: 25, top: 45, pos: "LM" },  // Left Midfielder
+  { left: 50, top: 48, pos: "CM" },  // Center Midfielder
+  { left: 75, top: 45, pos: "RM" },  // Right Midfielder
+  { left: 20, top: 22, pos: "LW" },  // Left Winger
+  { left: 50, top: 18, pos: "ST" },  // Striker
+  { left: 80, top: 22, pos: "RW" }   // Right Winger
+];
+
+const TEAM_COLORS = {
+  "USA": { primary: "#0a3161", text: "#ffffff", border: "#ffffff" },
+  "England": { primary: "#ffffff", text: "#000000", border: "#cf081b" },
+  "Mexico": { primary: "#006847", text: "#ffffff", border: "#ffffff" },
+  "Germany": { primary: "#ffffff", text: "#000000", border: "#000000" },
+  "Canada": { primary: "#ff0000", text: "#ffffff", border: "#ffffff" },
+  "Bosnia and Herzegovina": { primary: "#002F6C", text: "#FFCD00", border: "#FFCD00" },
+  "Korea Republic": { primary: "#e4002b", text: "#ffffff", border: "#ffffff" },
+  "South Korea": { primary: "#e4002b", text: "#ffffff", border: "#ffffff" },
+  "Czechia": { primary: "#11457e", text: "#ffffff", border: "#d7141a" },
+  "Brazil": { primary: "#fedf00", text: "#002776", border: "#009c3b" },
+  "Argentina": { primary: "#75aadb", text: "#ffffff", border: "#ffffff" },
+  "Spain": { primary: "#c60b1e", text: "#fec60b", border: "#fec60b" },
+  "France": { primary: "#002395", text: "#ffffff", border: "#e1000f" },
+  "Italy": { primary: "#0064aa", text: "#ffffff", border: "#ffffff" },
+  "Netherlands": { primary: "#ff4f00", text: "#ffffff", border: "#ffffff" },
+  "Portugal": { primary: "#ff0000", text: "#ffffff", border: "#118011" },
+  "Sweden": { primary: "#006aa7", text: "#fecc00", border: "#fecc00" },
+  "Japan": { primary: "#001871", text: "#ffffff", border: "#ffffff" },
+  "South Africa": { primary: "#007a4d", text: "#ffffff", border: "#ffb81c" },
+  "Morocco": { primary: "#c1272d", text: "#ffffff", border: "#006233" },
+  "Belgium": { primary: "#e30613", text: "#ffffff", border: "#ffd900" },
+  "Croatia": { primary: "#ff0000", text: "#ffffff", border: "#ffffff" },
+  "Saudi Arabia": { primary: "#006c35", text: "#ffffff", border: "#ffffff" },
+  "Uruguay": { primary: "#5cb6e4", text: "#ffffff", border: "#ffffff" },
+  "Colombia": { primary: "#fcd116", text: "#003893", border: "#c8102e" },
+  "Ecuador": { primary: "#ffdd00", text: "#001489", border: "#da291c" },
+  "Australia": { primary: "#002b49", text: "#ffcd00", border: "#00843d" },
+  "Senegal": { primary: "#00853f", text: "#ffffff", border: "#fdd116" }
+};
 
 function renderModalContent() {
   const match = state.matches.find(m => m.id === state.activeModalMatchId);
@@ -1629,41 +1677,103 @@ function renderModalContent() {
       DOM.modalTabContent.appendChild(row);
     });
   } else if (state.activeModalTab === 'lineups') {
-    // 3. Lineups Tab
+    // 3. Lineups Tab (Visual Soccer Pitch + Squad list)
     const lineupSection = document.createElement('div');
-    lineupSection.className = 'lineups-lists';
-    
-    let homePlayersHtml = '';
-    match.lineups.home.forEach((player, idx) => {
-      homePlayersHtml += `
-        <div class="player-row">
-          <span class="player-number">${idx + 1}</span>
-          <span class="player-name">${player}</span>
-        </div>
-      `;
-    });
+    lineupSection.className = 'lineups-container';
 
-    let awayPlayersHtml = '';
-    match.lineups.away.forEach((player, idx) => {
-      awayPlayersHtml += `
-        <div class="player-row">
-          <span class="player-number">${idx + 1}</span>
-          <span class="player-name">${player}</span>
-        </div>
-      `;
-    });
+    // Verify active lineup team is either 'home' or 'away'
+    const teamType = state.activeLineupTeam === 'away' ? 'away' : 'home';
+    const opponentType = teamType === 'home' ? 'away' : 'home';
+    const teamName = match[teamType];
+    const opponentName = match[opponentType];
+    const teamFlag = match[teamType === 'home' ? 'homeFlag' : 'awayFlag'];
+    const squad = match.lineups[teamType];
 
-    lineupSection.innerHTML = `
-      <div>
-        <div class="lineup-title">${t('modal_squad_title', 'Squad')} - ${match.home}</div>
-        ${homePlayersHtml}
-      </div>
-      <div>
-        <div class="lineup-title">${t('modal_squad_title', 'Squad')} - ${match.away}</div>
-        ${awayPlayersHtml}
+    // Build the team selector segmented buttons
+    const selectorHtml = `
+      <div class="lineup-selectors">
+        <button class="lineup-select-btn ${teamType === 'home' ? 'active' : ''}" data-team-type="home">
+          ${match.homeFlag} ${match.home}
+        </button>
+        <button class="lineup-select-btn ${teamType === 'away' ? 'active' : ''}" data-team-type="away">
+          ${match.awayFlag} ${match.away}
+        </button>
       </div>
     `;
+
+    // Build the pitch container and its markings
+    let pitchMarkingsHtml = `
+      <div class="soccer-pitch">
+        <div class="pitch-marking pitch-outline"></div>
+        <div class="pitch-marking pitch-center-line"></div>
+        <div class="pitch-marking pitch-center-circle"></div>
+        <div class="pitch-marking pitch-center-spot"></div>
+        <div class="pitch-marking pitch-penalty-top"></div>
+        <div class="pitch-marking pitch-penalty-bottom"></div>
+        <div class="pitch-marking pitch-goal-top"></div>
+        <div class="pitch-marking pitch-goal-bottom"></div>
+    `;
+
+    // Map each of the 11 starting players onto the pitch
+    const colors = TEAM_COLORS[teamName] || { primary: 'var(--primary)', text: '#ffffff', border: '#ffffff' };
+    const defaultPrimary = teamType === 'home' ? 'var(--primary)' : 'var(--secondary)';
+    const defaultBorder = '#ffffff';
+    const defaultText = teamType === 'home' ? '#ffffff' : '#000000';
+
+    const jerseyBg = TEAM_COLORS[teamName] ? colors.primary : defaultPrimary;
+    const jerseyColor = TEAM_COLORS[teamName] ? colors.text : defaultText;
+    const jerseyBorder = TEAM_COLORS[teamName] ? colors.border : defaultBorder;
+
+    squad.slice(0, 11).forEach((player, idx) => {
+      const coord = FORMATION_COORDINATES[idx] || { left: 50, top: 50, pos: "SUB" };
+      const displayName = player.split(' ').pop(); // Take last name for pitch display
+      
+      pitchMarkingsHtml += `
+        <div class="player-node" style="left: ${coord.left}%; top: ${coord.top}%" title="${player} (${coord.pos})">
+          <div class="player-jersey" style="background-color: ${jerseyBg}; color: ${jerseyColor}; border-color: ${jerseyBorder};">
+            ${coord.pos}
+          </div>
+          <span class="player-node-name">${displayName}</span>
+        </div>
+      `;
+    });
+
+    pitchMarkingsHtml += `</div>`; // Close soccer-pitch
+
+    // Build numerical squad list to display underneath the pitch
+    let playersListHtml = '';
+    squad.forEach((player, idx) => {
+      const coord = FORMATION_COORDINATES[idx] || { pos: "SUB" };
+      const positionLabel = idx < 11 ? coord.pos : 'SUB';
+      
+      playersListHtml += `
+        <div class="player-row">
+          <span class="player-number" style="width: 24px;">#${idx + 1}</span>
+          <span class="player-name" style="flex: 1;">${player}</span>
+          <span class="player-position" style="font-size: 10px; font-weight: 700; color: var(--text-muted); text-transform: uppercase;">${positionLabel}</span>
+        </div>
+      `;
+    });
+
+    const squadListHtml = `
+      <div class="lineups-lists">
+        <div class="lineup-title">${t('modal_squad_title', 'Squad')} - ${teamFlag} ${teamName}</div>
+        <div class="lineup-players-grid">
+          ${playersListHtml}
+        </div>
+      </div>
+    `;
+
+    lineupSection.innerHTML = selectorHtml + pitchMarkingsHtml + squadListHtml;
     DOM.modalTabContent.appendChild(lineupSection);
+
+    // Attach click listeners for selector buttons to reload content
+    lineupSection.querySelectorAll('.lineup-select-btn').forEach(btn => {
+      btn.addEventListener('click', (e) => {
+        state.activeLineupTeam = e.currentTarget.getAttribute('data-team-type');
+        renderModalContent();
+      });
+    });
   }
 }
 
