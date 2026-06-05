@@ -984,7 +984,14 @@ async function triggerSystemNotification(title, body) {
 }
 
 // --- Team Alert Subscription Managers ---
+function isRealTeam(name) {
+  if (!name) return false;
+  const clean = name.trim();
+  return !/^[0-9]/.test(clean) && clean !== 'TBD' && !clean.toLowerCase().includes('announced');
+}
+
 function toggleSubscription(teamName) {
+  if (!isRealTeam(teamName)) return;
   if (state.subscribedTeams.has(teamName)) {
     state.subscribedTeams.delete(teamName);
     showToast('🔔 Alerts Removed', `Unsubscribed from ${teamName} updates.`);
@@ -1117,6 +1124,18 @@ function setupCustomizationPreferences() {
 }
 
 function renderSubscriptionsUI() {
+  // Clean up any non-real teams from state.subscribedTeams (e.g. from historical data)
+  let cleaned = false;
+  for (const team of state.subscribedTeams) {
+    if (!isRealTeam(team)) {
+      state.subscribedTeams.delete(team);
+      cleaned = true;
+    }
+  }
+  if (cleaned) {
+    localStorage.setItem('matchday_subs', JSON.stringify(Array.from(state.subscribedTeams)));
+  }
+
   // Update badge in header
   const count = state.subscribedTeams.size;
   if (count > 0) {
@@ -1163,12 +1182,14 @@ function renderSubscriptionsUI() {
   // All Teams Selection Grid (Extract unique teams from matches database)
   const allTeams = new Map();
   state.matches.forEach((m) => {
-    allTeams.set(m.home, m.homeFlag);
-    allTeams.set(m.away, m.awayFlag);
+    if (m.home && isRealTeam(m.home)) allTeams.set(m.home, m.homeFlag);
+    if (m.away && isRealTeam(m.away)) allTeams.set(m.away, m.awayFlag);
   });
 
+  const sortedTeams = Array.from(allTeams.entries()).sort((a, b) => a[0].localeCompare(b[0]));
+
   DOM.allTeamsGrid.innerHTML = '';
-  allTeams.forEach((flag, name) => {
+  sortedTeams.forEach(([name, flag]) => {
     const isSubbed = state.subscribedTeams.has(name);
     const chip = document.createElement('div');
     chip.className = `team-chip-subscribe ${isSubbed ? 'active' : ''}`;
@@ -1830,6 +1851,8 @@ function renderMatchesList() {
       scorersHtml += `</div>`;
     }
 
+    const showAlertBtn = isRealTeam(match.home) && isRealTeam(match.away);
+
     card.innerHTML = `
       <div class="match-meta">
         <span class="match-stage">${translateStage(match.stage)}</span>
@@ -1853,18 +1876,22 @@ function renderMatchesList() {
         </div>
       </div>
       ${scorersHtml}
+      ${showAlertBtn ? `
       <button class="btn-subscribe ${hasAnySub ? 'active' : ''}" data-team="${match.home}" title="Toggle Alerts">
         <svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 24 24" fill="${hasAnySub ? 'currentColor' : 'none'}" stroke="currentColor" stroke-width="2"><path d="M18 8A6 6 0 0 0 6 8c0 7-3 9-3 9h18s-3-2-3-9"/><path d="M13.73 21a2 2 0 0 1-3.46 0"/></svg>
         <span>${hasAnySub ? t('btn_subscribed', 'Subscribed') : t('btn_subscribe', 'Alerts')}</span>
       </button>
+      ` : ''}
     `;
 
     // Stop propagation on button to allow card click
-    card.querySelector('.btn-subscribe').addEventListener('click', (e) => {
-      e.stopPropagation();
-      // Default to subscribing/unsubscribing home team as representative
-      toggleSubscription(match.home);
-    });
+    if (showAlertBtn) {
+      card.querySelector('.btn-subscribe').addEventListener('click', (e) => {
+        e.stopPropagation();
+        // Default to subscribing/unsubscribing home team as representative
+        toggleSubscription(match.home);
+      });
+    }
 
     card.addEventListener('click', () => openMatchDetails(match.id));
 
