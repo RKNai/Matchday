@@ -1,9 +1,37 @@
 [
   {
     "category": "tactics",
+    "title": "Highlights: Wales held to draw in Montenegro",
+    "snippet": "Watch highlights as Montenegro and Wales draw in Podgorica in Women's World Cup qualifying.",
+    "time": "9m ago",
+    "timestamp": 1780683264,
+    "color": "linear-gradient(135deg, #f59e0b, #78350f)",
+    "overlay": "⚽",
+    "link": "https://www.bbc.com/sport/football/videos/cd9p9pvqenjo?at_medium=RSS&at_campaign=rss",
+    "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/78fb/live/174633c0-610a-11f1-b682-cf91850925ea.jpg",
+    "source": "BBC Sport",
+    "lang": "en",
+    "id": 200
+  },
+  {
+    "category": "rules",
+    "title": "Why is Fifa giving clubs $355m during the World Cup?",
+    "snippet": "BBC Sport's Ask Me Anything team explains why clubs are being given a share of $355m by Fifa for having players involved in the 2026 World Cup.",
+    "time": "2h ago",
+    "timestamp": 1780674868,
+    "color": "linear-gradient(135deg, #64748b, #334155)",
+    "overlay": "📺",
+    "link": "https://www.bbc.com/sport/football/articles/c893ndl18y9o?at_medium=RSS&at_campaign=rss",
+    "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/a012/live/11757050-60f1-11f1-89a3-d1f559421220.jpg",
+    "source": "BBC Sport",
+    "lang": "en",
+    "id": 201
+  },
+  {
+    "category": "tactics",
     "title": "More than the Score",
     "snippet": "Messi, Ronaldo, Mbappé and Yamal prepare to compete at the biggest men's World Cup ever",
-    "time": "46m ago",
+    "time": "2h ago",
     "timestamp": 1780673700,
     "color": "linear-gradient(135deg, #f59e0b, #78350f)",
     "overlay": "⚽",
@@ -11,13 +39,13 @@
     "image": "https://ichef.bbci.co.uk/images/ic/240x135/p0nqchln.jpg",
     "source": "BBC Sport",
     "lang": "en",
-    "id": 200
+    "id": 202
   },
   {
     "category": "tactics",
     "title": "How thunderstorms and lightning could impact games at World Cup",
     "snippet": "With several host cities in peak thunderstorm season there is a high chance that some World Cup games could be disrupted. Here is how and why.",
-    "time": "48m ago",
+    "time": "2h ago",
     "timestamp": 1780673603,
     "color": "linear-gradient(135deg, #f59e0b, #78350f)",
     "overlay": "⚽",
@@ -25,13 +53,13 @@
     "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/daf9/live/b2a9ef40-60e3-11f1-82ca-1380a42b6773.jpg",
     "source": "BBC Sport",
     "lang": "en",
-    "id": 201
+    "id": 203
   },
   {
     "category": "tactics",
     "title": "World Cup latest: Haaland the star of Norway viking shoot as Nike advert goes VIRAL",
     "snippet": "",
-    "time": "51m ago",
+    "time": "2h ago",
     "timestamp": 1780673400,
     "color": "linear-gradient(135deg, #f59e0b, #78350f)",
     "overlay": "⚽",
@@ -39,13 +67,13 @@
     "image": "https://e2.365dm.com/26/06/1920x1080/skysports-haaland-nike-world-cup_7266197.jpg?20260605143906",
     "source": "Sky Sports",
     "lang": "en",
-    "id": 202
+    "id": 204
   },
   {
     "category": "tactics",
     "title": "Who are the World Cup's record holders?",
     "snippet": "BBC Sport's Ask Me Anything team looks at the record holders in World Cup history ahead of the 2026 tournament",
-    "time": "2h ago",
+    "time": "4h ago",
     "timestamp": 1780669254,
     "color": "linear-gradient(135deg, #f59e0b, #78350f)",
     "overlay": "⚽",
@@ -53,13 +81,27 @@
     "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/56c7/live/e361e660-6020-11f1-8b8c-6d33e1d5abb6.jpg",
     "source": "BBC Sport",
     "lang": "en",
-    "id": 203
+    "id": 205
+  },
+  {
+    "category": "rules",
+    "title": "Football Daily",
+    "snippet": "John Murray, Ian Dennis & Ali Bruce-Ball answer questions ahead of the FIFA World Cup.",
+    "time": "4h ago",
+    "timestamp": 1780668060,
+    "color": "linear-gradient(135deg, #64748b, #334155)",
+    "overlay": "📺",
+    "link": "https://www.bbc.co.uk/sounds/play/p0np2n6t?at_medium=RSS&at_campaign=rss",
+    "image": "https://ichef.bbci.co.uk/images/ic/240x135/p0np2n9z.jpg",
+    "source": "BBC Sport",
+    "lang": "en",
+    "id": 206
   },
   {
     "category": "tactics",
     "title": "The story of Norway's Viking World Cup photoshoot",
     "snippet": "Renowned British photographer David Yarrow tells BBC Sport what inspired his viral Norway World Cup send-off photo.",
-    "time": "2h ago",
+    "time": "4h ago",
     "timestamp": 1780667579,
     "color": "linear-gradient(135deg, #f59e0b, #78350f)",
     "overlay": "⚽",
@@ -67,13 +109,13 @@
     "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/4d64/live/cd846d50-60d3-11f1-b808-9f0a293e0062.jpg",
     "source": "BBC Sport",
     "lang": "en",
-    "id": 204
+    "id": 207
   },
   {
     "category": "tactics",
     "title": "England to use palm-cooling devices at World Cup",
     "snippet": "Midfielder Jordan Henderson praises the \"top level research\" on \"cool down and recovery\" by the \"team behind the team\" as England continue to prepare for the World Cup.",
-    "time": "3h ago",
+    "time": "5h ago",
     "timestamp": 1780664091,
     "color": "linear-gradient(135deg, #f59e0b, #78350f)",
     "overlay": "⚽",
@@ -81,13 +123,13 @@
     "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/9813/live/602b6960-60de-11f1-82ca-1380a42b6773.jpg",
     "source": "BBC Sport",
     "lang": "en",
-    "id": 205
+    "id": 208
   },
   {
     "category": "tactics",
     "title": "Potter finding joy with Sweden after Chelsea and West Ham woe",
     "snippet": "It is more than two months since Viktor Gyokeres's 89th-minute goal sealed Sweden's extraordinary World Cup play-off victory over Poland at a delirious Strawberry Arena in Stockholm, but Graham Potter is still finding new ways to enjoy it.",
-    "time": "4h ago",
+    "time": "6h ago",
     "timestamp": 1780660800,
     "color": "linear-gradient(135deg, #f59e0b, #78350f)",
     "overlay": "⚽",
@@ -95,13 +137,13 @@
     "image": "https://e1.365dm.com/26/06/1920x1080/skysports-graham-potter-sweden_7264420.jpg?20260603121701",
     "source": "Sky Sports",
     "lang": "en",
-    "id": 206
+    "id": 209
   },
   {
     "category": "injury",
     "title": "Potter's Zlatan texts, overcoming failure & finding joy in Sweden",
     "snippet": "Graham Potter talks about his joy and pride in taking Sweden to the World Cup after hurt of Chelsea and West Ham dismissals.",
-    "time": "5h ago",
+    "time": "7h ago",
     "timestamp": 1780657584,
     "color": "linear-gradient(135deg, #ef4444, #7f1d1d)",
     "overlay": "🩺",
@@ -109,13 +151,13 @@
     "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/6143/live/63bd2020-5a92-11f1-b5ae-83d5964726ad.jpg",
     "source": "BBC Sport",
     "lang": "en",
-    "id": 207
+    "id": 210
   },
   {
     "category": "tactics",
     "title": "Tell us your stories of Scotland's World Cup",
     "snippet": "Share your footage and you could be included in a BBC programme telling the story of Scotland's World Cup campaign from the fans' perspective.",
-    "time": "6h ago",
+    "time": "8h ago",
     "timestamp": 1780654611,
     "color": "linear-gradient(135deg, #f59e0b, #78350f)",
     "overlay": "⚽",
@@ -123,13 +165,13 @@
     "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/e6ef/live/5c9a2500-601d-11f1-95e8-2f6b295436fc.jpg",
     "source": "BBC Sport",
     "lang": "en",
-    "id": 208
+    "id": 211
   },
   {
     "category": "rules",
     "title": "Huge flags and pyrotechnics with World Cup anthems",
     "snippet": "Fifa has unveiled what it describes as a new \"unique, immersive experience\" pre-match ceremony for all matches at the 2026 World Cup.",
-    "time": "6h ago",
+    "time": "8h ago",
     "timestamp": 1780653685,
     "color": "linear-gradient(135deg, #64748b, #334155)",
     "overlay": "📺",
@@ -137,13 +179,13 @@
     "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/dd32/live/dfdf6ec0-60c2-11f1-ba0c-494087e54831.jpg",
     "source": "BBC Sport",
     "lang": "en",
-    "id": 209
+    "id": 212
   },
   {
     "category": "rules",
     "title": "Fifa demands fans pay after ticketing error offered free World Cup tickets",
     "snippet": "Fifa says fans who were mistakenly given free tickets to World Cup group stage matches in Toronto must pay for them within seven days or lose the seats.",
-    "time": "7h ago",
+    "time": "9h ago",
     "timestamp": 1780650645,
     "color": "linear-gradient(135deg, #64748b, #334155)",
     "overlay": "📺",
@@ -151,60 +193,18 @@
     "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/2b75/live/11b21080-60b7-11f1-9b5a-5531746793c9.jpg",
     "source": "BBC Sport",
     "lang": "en",
-    "id": 210
+    "id": 213
   },
   {
     "category": "injury",
     "title": "From EFL to World Cup - 11 players to look out for",
     "snippet": "BBC Sport takes a look at 11 EFL players to watch out for at this summer's World Cup.",
-    "time": "8h ago",
+    "time": "10h ago",
     "timestamp": 1780646754,
     "color": "linear-gradient(135deg, #ef4444, #7f1d1d)",
     "overlay": "🩺",
     "link": "https://www.bbc.com/sport/football/articles/cm2pdkjzw13o?at_medium=RSS&at_campaign=rss",
     "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/5394/live/1e9a7160-5f4b-11f1-89a3-d1f559421220.png",
-    "source": "BBC Sport",
-    "lang": "en",
-    "id": 211
-  },
-  {
-    "category": "lineup",
-    "title": "World Cup quiz: Name every player in England's squad",
-    "snippet": "There are just 12 days until England play their World Cup opener against Croatia - but can you name ever member of the squad picked by Thomas Tuchel?",
-    "time": "8h ago",
-    "timestamp": 1780644793,
-    "color": "linear-gradient(135deg, #3b82f6, #1e3a8a)",
-    "overlay": "📋",
-    "link": "https://www.bbc.com/sport/football/articles/c202yprg4z2o?at_medium=RSS&at_campaign=rss",
-    "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/cedb/live/421a0f30-59db-11f1-b682-cf91850925ea.png",
-    "source": "BBC Sport",
-    "lang": "en",
-    "id": 212
-  },
-  {
-    "category": "tactics",
-    "title": "Will club momentum boost NI's World Cup hopes?",
-    "snippet": "With silverware fresh in their hands, many of Northern Ireland's players will arrive for international duty brimming with confidence.",
-    "time": "8h ago",
-    "timestamp": 1780644647,
-    "color": "linear-gradient(135deg, #f59e0b, #78350f)",
-    "overlay": "⚽",
-    "link": "https://www.bbc.com/sport/football/articles/cn4p53nwxw4o?at_medium=RSS&at_campaign=rss",
-    "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/334b/live/cbac4070-605b-11f1-8ab0-f1251918eb6f.png",
-    "source": "BBC Sport",
-    "lang": "en",
-    "id": 213
-  },
-  {
-    "category": "press",
-    "title": "Podcast: Cotton wool or full tilt? Scotland’s World Cup call, Shankland debate & St Mirren decision",
-    "snippet": "Scotland face Bolivia, Shankland stakes his claim, women push on and St Mirren decide",
-    "time": "9h ago",
-    "timestamp": 1780642800,
-    "color": "linear-gradient(135deg, #0d9488, #115e59)",
-    "overlay": "🎙️",
-    "link": "https://www.bbc.co.uk/sounds/play/p0nq80km?at_medium=RSS&at_campaign=rss",
-    "image": "https://ichef.bbci.co.uk/images/ic/240x135/p0nq80lg.jpg",
     "source": "BBC Sport",
     "lang": "en",
     "id": 214
@@ -213,7 +213,7 @@
     "category": "lineup",
     "title": "Una España plagada de ausencias sabe a poco: empate con Irak antes de viajar a Estados Unidos",
     "snippet": "Ferran Torres abrió el marcador en el minuto 16, pero Roski igualó antes del descanso. De la Fuente dejó fuera a la columna vertebral de su once e hizo debutar a jugadores como Pubill, Jon Martín, Javi Guerra o Leo Román Leer",
-    "time": "19h ago",
+    "time": "21h ago",
     "timestamp": 1780608026,
     "color": "linear-gradient(135deg, #3b82f6, #1e3a8a)",
     "overlay": "📋",
@@ -255,7 +255,7 @@
     "category": "tactics",
     "title": "Irán pasa por España el sábado antes de viajar a México para el Mundial",
     "snippet": "El presidente de la Federación Iraní ha confirmado que el equipo volará a España antes de partir rumbo a Tijuana Leer",
-    "time": "2d ago",
+    "time": "3d ago",
     "timestamp": 1780423458,
     "color": "linear-gradient(135deg, #f59e0b, #78350f)",
     "overlay": "⚽",
@@ -297,7 +297,7 @@
     "category": "tactics",
     "title": "A contra reloj en Riazor para reparar los daños en el césped y las gradas antes del amistoso de la selección",
     "snippet": "Tras la invasión del campo por parte de los aficionados coruñeses, el estado del estadio del RC Deportivo deja en el aire si se podrá disputar el España - Irak Leer",
-    "time": "3d ago",
+    "time": "4d ago",
     "timestamp": 1780334876,
     "color": "linear-gradient(135deg, #f59e0b, #78350f)",
     "overlay": "⚽",
@@ -325,7 +325,7 @@
     "category": "tactics",
     "title": "Protagonisme positiu i negatiu dels jugadors del Barça amb la selecció espanyola",
     "snippet": "La selecció espanyola ha disputat aquest dijous el primer partit amistós de preparació per al Mundial d’aquest estiu, que comença tot just la setmana vinent. Ha estat contra l’Iraq i el resultat final ha estat d’empat a un gol. En aquest duel han participat sis jugadors del Futbol Club Barcelona –Joan Garcia, Eric Garcia, Marc … Continued",
-    "time": "7h ago",
+    "time": "9h ago",
     "timestamp": 1780649550,
     "color": "linear-gradient(135deg, #f59e0b, #78350f)",
     "overlay": "⚽",
@@ -437,7 +437,7 @@
     "category": "press",
     "title": "La reina diu adeu: Alexia Putellas marxa del Barça",
     "snippet": "La capitana blaugrana s’acomiada del club després de 14 temporades i 30 títols guanyats com una de les grans llegendes del futbol mundial",
-    "time": "9d ago",
+    "time": "10d ago",
     "timestamp": 1779816682,
     "color": "linear-gradient(135deg, #0d9488, #115e59)",
     "overlay": "🎙️",
