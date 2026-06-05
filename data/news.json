@@ -1,9 +1,23 @@
 [
   {
     "category": "tactics",
+    "title": "Spain thrashing England with World Cup play-offs looming LIVE!",
+    "snippet": "",
+    "time": "1h ago",
+    "timestamp": 1780686000,
+    "color": "linear-gradient(135deg, #f59e0b, #78350f)",
+    "overlay": "⚽",
+    "link": "https://www.skysports.com/football/spain-women-vs-england-women/live/550122",
+    "image": "https://e2.365dm.com/26/06/1920x1080/skysports-alexia-putellas-spain-women_7266506.jpg?20260605204726",
+    "source": "Sky Sports",
+    "lang": "en",
+    "id": 200
+  },
+  {
+    "category": "tactics",
     "title": "Highlights: Wales held to draw in Montenegro",
     "snippet": "Watch highlights as Montenegro and Wales draw in Podgorica in Women's World Cup qualifying.",
-    "time": "9m ago",
+    "time": "2h ago",
     "timestamp": 1780683264,
     "color": "linear-gradient(135deg, #f59e0b, #78350f)",
     "overlay": "⚽",
@@ -11,13 +25,13 @@
     "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/78fb/live/174633c0-610a-11f1-b682-cf91850925ea.jpg",
     "source": "BBC Sport",
     "lang": "en",
-    "id": 200
+    "id": 201
   },
   {
     "category": "rules",
     "title": "Why is Fifa giving clubs $355m during the World Cup?",
     "snippet": "BBC Sport's Ask Me Anything team explains why clubs are being given a share of $355m by Fifa for having players involved in the 2026 World Cup.",
-    "time": "2h ago",
+    "time": "4h ago",
     "timestamp": 1780674868,
     "color": "linear-gradient(135deg, #64748b, #334155)",
     "overlay": "📺",
@@ -25,13 +39,13 @@
     "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/a012/live/11757050-60f1-11f1-89a3-d1f559421220.jpg",
     "source": "BBC Sport",
     "lang": "en",
-    "id": 201
+    "id": 202
   },
   {
     "category": "tactics",
     "title": "More than the Score",
     "snippet": "Messi, Ronaldo, Mbappé and Yamal prepare to compete at the biggest men's World Cup ever",
-    "time": "2h ago",
+    "time": "4h ago",
     "timestamp": 1780673700,
     "color": "linear-gradient(135deg, #f59e0b, #78350f)",
     "overlay": "⚽",
@@ -39,13 +53,13 @@
     "image": "https://ichef.bbci.co.uk/images/ic/240x135/p0nqchln.jpg",
     "source": "BBC Sport",
     "lang": "en",
-    "id": 202
+    "id": 203
   },
   {
     "category": "tactics",
     "title": "How thunderstorms and lightning could impact games at World Cup",
     "snippet": "With several host cities in peak thunderstorm season there is a high chance that some World Cup games could be disrupted. Here is how and why.",
-    "time": "2h ago",
+    "time": "4h ago",
     "timestamp": 1780673603,
     "color": "linear-gradient(135deg, #f59e0b, #78350f)",
     "overlay": "⚽",
@@ -53,13 +67,13 @@
     "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/daf9/live/b2a9ef40-60e3-11f1-82ca-1380a42b6773.jpg",
     "source": "BBC Sport",
     "lang": "en",
-    "id": 203
+    "id": 204
   },
   {
     "category": "tactics",
     "title": "World Cup latest: Haaland the star of Norway viking shoot as Nike advert goes VIRAL",
     "snippet": "",
-    "time": "2h ago",
+    "time": "4h ago",
     "timestamp": 1780673400,
     "color": "linear-gradient(135deg, #f59e0b, #78350f)",
     "overlay": "⚽",
@@ -67,13 +81,13 @@
     "image": "https://e2.365dm.com/26/06/1920x1080/skysports-haaland-nike-world-cup_7266197.jpg?20260605143906",
     "source": "Sky Sports",
     "lang": "en",
-    "id": 204
+    "id": 205
   },
   {
     "category": "tactics",
     "title": "Who are the World Cup's record holders?",
     "snippet": "BBC Sport's Ask Me Anything team looks at the record holders in World Cup history ahead of the 2026 tournament",
-    "time": "4h ago",
+    "time": "6h ago",
     "timestamp": 1780669254,
     "color": "linear-gradient(135deg, #f59e0b, #78350f)",
     "overlay": "⚽",
@@ -81,13 +95,13 @@
     "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/56c7/live/e361e660-6020-11f1-8b8c-6d33e1d5abb6.jpg",
     "source": "BBC Sport",
     "lang": "en",
-    "id": 205
+    "id": 206
   },
   {
     "category": "rules",
     "title": "Football Daily",
     "snippet": "John Murray, Ian Dennis & Ali Bruce-Ball answer questions ahead of the FIFA World Cup.",
-    "time": "4h ago",
+    "time": "6h ago",
     "timestamp": 1780668060,
     "color": "linear-gradient(135deg, #64748b, #334155)",
     "overlay": "📺",
@@ -95,13 +109,13 @@
     "image": "https://ichef.bbci.co.uk/images/ic/240x135/p0np2n9z.jpg",
     "source": "BBC Sport",
     "lang": "en",
-    "id": 206
+    "id": 207
   },
   {
     "category": "tactics",
     "title": "The story of Norway's Viking World Cup photoshoot",
     "snippet": "Renowned British photographer David Yarrow tells BBC Sport what inspired his viral Norway World Cup send-off photo.",
-    "time": "4h ago",
+    "time": "6h ago",
     "timestamp": 1780667579,
     "color": "linear-gradient(135deg, #f59e0b, #78350f)",
     "overlay": "⚽",
@@ -109,13 +123,13 @@
     "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/4d64/live/cd846d50-60d3-11f1-b808-9f0a293e0062.jpg",
     "source": "BBC Sport",
     "lang": "en",
-    "id": 207
+    "id": 208
   },
   {
     "category": "tactics",
     "title": "England to use palm-cooling devices at World Cup",
     "snippet": "Midfielder Jordan Henderson praises the \"top level research\" on \"cool down and recovery\" by the \"team behind the team\" as England continue to prepare for the World Cup.",
-    "time": "5h ago",
+    "time": "7h ago",
     "timestamp": 1780664091,
     "color": "linear-gradient(135deg, #f59e0b, #78350f)",
     "overlay": "⚽",
@@ -123,13 +137,13 @@
     "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/9813/live/602b6960-60de-11f1-82ca-1380a42b6773.jpg",
     "source": "BBC Sport",
     "lang": "en",
-    "id": 208
+    "id": 209
   },
   {
     "category": "tactics",
     "title": "Potter finding joy with Sweden after Chelsea and West Ham woe",
     "snippet": "It is more than two months since Viktor Gyokeres's 89th-minute goal sealed Sweden's extraordinary World Cup play-off victory over Poland at a delirious Strawberry Arena in Stockholm, but Graham Potter is still finding new ways to enjoy it.",
-    "time": "6h ago",
+    "time": "8h ago",
     "timestamp": 1780660800,
     "color": "linear-gradient(135deg, #f59e0b, #78350f)",
     "overlay": "⚽",
@@ -137,13 +151,13 @@
     "image": "https://e1.365dm.com/26/06/1920x1080/skysports-graham-potter-sweden_7264420.jpg?20260603121701",
     "source": "Sky Sports",
     "lang": "en",
-    "id": 209
+    "id": 210
   },
   {
     "category": "injury",
     "title": "Potter's Zlatan texts, overcoming failure & finding joy in Sweden",
     "snippet": "Graham Potter talks about his joy and pride in taking Sweden to the World Cup after hurt of Chelsea and West Ham dismissals.",
-    "time": "7h ago",
+    "time": "9h ago",
     "timestamp": 1780657584,
     "color": "linear-gradient(135deg, #ef4444, #7f1d1d)",
     "overlay": "🩺",
@@ -151,13 +165,13 @@
     "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/6143/live/63bd2020-5a92-11f1-b5ae-83d5964726ad.jpg",
     "source": "BBC Sport",
     "lang": "en",
-    "id": 210
+    "id": 211
   },
   {
     "category": "tactics",
     "title": "Tell us your stories of Scotland's World Cup",
     "snippet": "Share your footage and you could be included in a BBC programme telling the story of Scotland's World Cup campaign from the fans' perspective.",
-    "time": "8h ago",
+    "time": "10h ago",
     "timestamp": 1780654611,
     "color": "linear-gradient(135deg, #f59e0b, #78350f)",
     "overlay": "⚽",
@@ -165,13 +179,13 @@
     "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/e6ef/live/5c9a2500-601d-11f1-95e8-2f6b295436fc.jpg",
     "source": "BBC Sport",
     "lang": "en",
-    "id": 211
+    "id": 212
   },
   {
     "category": "rules",
     "title": "Huge flags and pyrotechnics with World Cup anthems",
     "snippet": "Fifa has unveiled what it describes as a new \"unique, immersive experience\" pre-match ceremony for all matches at the 2026 World Cup.",
-    "time": "8h ago",
+    "time": "10h ago",
     "timestamp": 1780653685,
     "color": "linear-gradient(135deg, #64748b, #334155)",
     "overlay": "📺",
@@ -179,13 +193,13 @@
     "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/dd32/live/dfdf6ec0-60c2-11f1-ba0c-494087e54831.jpg",
     "source": "BBC Sport",
     "lang": "en",
-    "id": 212
+    "id": 213
   },
   {
     "category": "rules",
     "title": "Fifa demands fans pay after ticketing error offered free World Cup tickets",
     "snippet": "Fifa says fans who were mistakenly given free tickets to World Cup group stage matches in Toronto must pay for them within seven days or lose the seats.",
-    "time": "9h ago",
+    "time": "11h ago",
     "timestamp": 1780650645,
     "color": "linear-gradient(135deg, #64748b, #334155)",
     "overlay": "📺",
@@ -193,27 +207,181 @@
     "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/2b75/live/11b21080-60b7-11f1-9b5a-5531746793c9.jpg",
     "source": "BBC Sport",
     "lang": "en",
-    "id": 213
+    "id": 214
   },
   {
-    "category": "injury",
-    "title": "From EFL to World Cup - 11 players to look out for",
-    "snippet": "BBC Sport takes a look at 11 EFL players to watch out for at this summer's World Cup.",
+    "category": "tactics",
+    "title": "Alemania cruza los dedos por Lennart Karl: \"No pinta bien\"",
+    "snippet": "La joya del Bayern tuvo que retirarse del último entrenamiento y su presencia en el Mundial corre serio peligro",
+    "time": "2h ago",
+    "timestamp": 1780684078,
+    "color": "linear-gradient(135deg, #f59e0b, #78350f)",
+    "overlay": "⚽",
+    "link": "https://www.marca.com/futbol/mundial/2026/06/05/alemania-cruza-dedos-lennart-karl-pinta-bien.html",
+    "image": "https://e01-xlk-ue-marca.uecdn.es/files/horizontal_image_desktop/uploads/2026/06/05/6a2314a4d4796.jpeg",
+    "source": "Marca",
+    "lang": "es",
+    "id": 215
+  },
+  {
+    "category": "tactics",
+    "title": "El ‘patito feo’ de la familia Doué que ‘destrozó’ a su Francia natal: “Siempre escuchaba que estaba ahí por él”",
+    "snippet": "El lateral del Estrasburgo lideró la remontada con un gol y una asistencia • Ambos hermanos jugarán el Mundial representando a países diferentes",
+    "time": "4h ago",
+    "timestamp": 1780676903,
+    "color": "linear-gradient(135deg, #f59e0b, #78350f)",
+    "overlay": "⚽",
+    "link": "https://www.marca.com/futbol/mundial/2026/06/05/guela-patito-feo-familia-doue-destrozo-francia-natal-siempre-escuchaba-ahi.html",
+    "image": "https://e01-xlk-ue-marca.uecdn.es/files/horizontal_image_desktop/uploads/2026/06/05/6a22f600dbf8e.jpeg",
+    "source": "Marca",
+    "lang": "es",
+    "id": 216
+  },
+  {
+    "category": "tactics",
+    "title": "Maialen Chourraut, otra vez con las mejores en la Copa del Mundo de Praga",
+    "snippet": "Acaba sexta en la final de K1 una semana después de su bronce en la primera gran cita de la temporada en Tacen",
+    "time": "5h ago",
+    "timestamp": 1780672973,
+    "color": "linear-gradient(135deg, #f59e0b, #78350f)",
+    "overlay": "⚽",
+    "link": "https://www.marca.com/otros-deportes/2026/06/05/maialen-chourraut-vez-mejores-copa-mundo-praga.html",
+    "image": "https://e01-xlk-ue-marca.uecdn.es/files/horizontal_image_desktop/uploads/2026/06/05/6a22e47bedd26.jpeg",
+    "source": "Marca",
+    "lang": "es",
+    "id": 217
+  },
+  {
+    "category": "rules",
+    "title": "La FIFA cubre de oro a los clubes: así reparte los millones<br>",
+    "snippet": "El nuevo Programa de Ayudas premiará por primera vez también a los clubes que cedan jugadores durante los clasificatorios mundialistas<span class=\"\" contenteditable=\"false\" tabindex=\"-1\" style=\"user-select: none; pointer-events: auto;\"></span>",
+    "time": "6h ago",
+    "timestamp": 1780668014,
+    "color": "linear-gradient(135deg, #64748b, #334155)",
+    "overlay": "📺",
+    "link": "https://www.marca.com/futbol/2026/06/05/fifa-abre-caja-mundial-2026-355-millones-compensar-clubes.html",
+    "image": "https://e01-xlk-ue-marca.uecdn.es/files/horizontal_image_desktop/uploads/2026/06/03/6a205b876cc6b.jpeg",
+    "source": "Marca",
+    "lang": "es",
+    "id": 218
+  },
+  {
+    "category": "tactics",
+    "title": "Los días más duros de Pedro Porro en Vallecas: “Mamá, voy solo, me da miedo”",
+    "snippet": "Segundo capítulo de 'Forjados': Pedro Porro",
+    "time": "7h ago",
+    "timestamp": 1780664579,
+    "color": "linear-gradient(135deg, #f59e0b, #78350f)",
+    "overlay": "⚽",
+    "link": "https://www.marca.com/futbol/mundial/2026/06/05/dias-duros-pedro-porro-vallecas-mama-me-da-miedo.html",
+    "image": "https://images.unsplash.com/photo-1518063319789-7217e6706b04?w=800&auto=format&fit=crop",
+    "source": "Marca",
+    "lang": "es",
+    "id": 219
+  },
+  {
+    "category": "tactics",
+    "title": "¿Cuánto dinero ganan al año los futbolistas mejor pagados del Mundial 2026?",
+    "snippet": "Cristiano Ronaldo llega a la cita mundialista norteamericana liderando el ránking de ingresos un año más mientras que jugadores de la talla de Messi",
+    "time": "7h ago",
+    "timestamp": 1780663833,
+    "color": "linear-gradient(135deg, #f59e0b, #78350f)",
+    "overlay": "⚽",
+    "link": "https://www.marca.com/sport-business/2playbook/2026/06/05/cuanto-dinero-ganan-ano-futbolistas-mejor-pagados-mundial-2026.html",
+    "image": "https://e01-xlk-ue-marca.uecdn.es/files/horizontal_image_desktop/uploads/2026/06/05/6a22c4cd886fe.jpeg",
+    "source": "Marca",
+    "lang": "es",
+    "id": 220
+  },
+  {
+    "category": "tactics",
+    "title": "Scaloni: \"Yo no soy el que manda, todas las decisiones pasan por Messi\"",
+    "snippet": "El seleccionador de Argentina mostró cual es el papel de Leo de cara al Mundial",
+    "time": "9h ago",
+    "timestamp": 1780658699,
+    "color": "linear-gradient(135deg, #f59e0b, #78350f)",
+    "overlay": "⚽",
+    "link": "https://www.marca.com/futbol/mundial/2026/06/05/sacaloni-manda-todas-decisiones-pasan-messi.html",
+    "image": "https://e01-xlk-ue-marca.uecdn.es/files/horizontal_image_desktop/uploads/2026/06/05/6a22aba45c16b.jpeg",
+    "source": "Marca",
+    "lang": "es",
+    "id": 221
+  },
+  {
+    "category": "lineup",
+    "title": "De la Fuente da pistas",
+    "snippet": "El once para arrancar el Mundial tiene muchas claves en el partido ante Irak",
+    "time": "9h ago",
+    "timestamp": 1780657756,
+    "color": "linear-gradient(135deg, #3b82f6, #1e3a8a)",
+    "overlay": "📋",
+    "link": "https://www.marca.com/futbol/seleccion/2026/06/05/fuente-da-pistas.html",
+    "image": "https://e01-xlk-ue-marca.uecdn.es/files/horizontal_image_desktop/uploads/2026/06/05/6a22ae25dc591.jpeg",
+    "source": "Marca",
+    "lang": "es",
+    "id": 222
+  },
+  {
+    "category": "tactics",
+    "title": "\"Hicimos todo el camino en silencio, pero al llegar nos derrumbamos\" I FORJADOS · Pedro Porro",
+    "snippet": "",
     "time": "10h ago",
-    "timestamp": 1780646754,
-    "color": "linear-gradient(135deg, #ef4444, #7f1d1d)",
-    "overlay": "🩺",
-    "link": "https://www.bbc.com/sport/football/articles/cm2pdkjzw13o?at_medium=RSS&at_campaign=rss",
-    "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/5394/live/1e9a7160-5f4b-11f1-89a3-d1f559421220.png",
-    "source": "BBC Sport",
-    "lang": "en",
-    "id": 214
+    "timestamp": 1780652695,
+    "color": "linear-gradient(135deg, #f59e0b, #78350f)",
+    "overlay": "⚽",
+    "link": "https://www.marca.com/futbol/mundial/2026/06/05/hicimos-camino-silencio-llegar-derrumbamos-i-forjados-pedro-porr-video.html",
+    "image": "https://images.unsplash.com/photo-1543351611-58f69d7c1781?w=800&auto=format&fit=crop",
+    "source": "Marca",
+    "lang": "es",
+    "id": 223
+  },
+  {
+    "category": "rules",
+    "title": "La FIFA revoluciona el ritual de los himnos: así serán a partir de este Mundial",
+    "snippet": "Titulares y suplentes participarán en una ceremonia renovada, con el círculo central como escenario y la incorporación progresiva de elementos de espectáculo como la pirotecnia<span class=\"\" contenteditable=\"false\" tabindex=\"-1\" style=\"user-select: none; pointer-events: auto;\"></span>",
+    "time": "11h ago",
+    "timestamp": 1780650586,
+    "color": "linear-gradient(135deg, #64748b, #334155)",
+    "overlay": "📺",
+    "link": "https://www.marca.com/futbol/mundial/2026/06/05/fifa-revoluciona-ritual-himnos-asi-seran-partir-mundial.html",
+    "image": "https://e01-xlk-ue-marca.uecdn.es/files/horizontal_image_desktop/uploads/2026/06/05/6a2291f934eb6.jpeg",
+    "source": "Marca",
+    "lang": "es",
+    "id": 224
+  },
+  {
+    "category": "tactics",
+    "title": "Erling Haaland ya es vikingo",
+    "snippet": "",
+    "time": "14h ago",
+    "timestamp": 1780638876,
+    "color": "linear-gradient(135deg, #f59e0b, #78350f)",
+    "overlay": "⚽",
+    "link": "https://www.marca.com/futbol/mundial/2026/06/05/erling-haaland-vikingo-norway-is-coming-video.html",
+    "image": "https://images.unsplash.com/photo-1579952363873-27f3bade9f55?w=800&auto=format&fit=crop",
+    "source": "Marca",
+    "lang": "es",
+    "id": 225
+  },
+  {
+    "category": "tactics",
+    "title": "La madridista Ivana Knoll se cuela en el Mundial para marcar un gol: el vídeo con IA que impacta al fútbol",
+    "snippet": "",
+    "time": "17h ago",
+    "timestamp": 1780628489,
+    "color": "linear-gradient(135deg, #f59e0b, #78350f)",
+    "overlay": "⚽",
+    "link": "https://www.marca.com/futbol/mundial/2026/06/05/madridista-ivana-knoll-cuela-mundial-marcar-gol-video-ia-impacta-futbol-video.html",
+    "image": "https://images.unsplash.com/photo-1518063319789-7217e6706b04?w=800&auto=format&fit=crop",
+    "source": "Marca",
+    "lang": "es",
+    "id": 226
   },
   {
     "category": "lineup",
     "title": "Una España plagada de ausencias sabe a poco: empate con Irak antes de viajar a Estados Unidos",
     "snippet": "Ferran Torres abrió el marcador en el minuto 16, pero Roski igualó antes del descanso. De la Fuente dejó fuera a la columna vertebral de su once e hizo debutar a jugadores como Pubill, Jon Martín, Javi Guerra o Leo Román Leer",
-    "time": "21h ago",
+    "time": "23h ago",
     "timestamp": 1780608026,
     "color": "linear-gradient(135deg, #3b82f6, #1e3a8a)",
     "overlay": "📋",
@@ -221,7 +389,21 @@
     "image": "https://e00-elmundo.uecdn.es/assets/multimedia/imagenes/2026/06/04/17806075861907_990x0.jpg",
     "source": "El Mundo Deportes",
     "lang": "es",
-    "id": 215
+    "id": 227
+  },
+  {
+    "category": "press",
+    "title": "La nueva faceta de Endrick: infiltrado entre la prensa para preguntar a Igor Thiago",
+    "snippet": "",
+    "time": "1d ago",
+    "timestamp": 1780576662,
+    "color": "linear-gradient(135deg, #0d9488, #115e59)",
+    "overlay": "🎙️",
+    "link": "https://www.marca.com/futbol/mundial/2026/06/04/nueva-faceta-endrick-infiltrado-prensa-preguntar-igor-thiag-video.html",
+    "image": "https://images.unsplash.com/photo-1508098682722-e99c43a406b2?w=800&auto=format&fit=crop",
+    "source": "Marca",
+    "lang": "es",
+    "id": 228
   },
   {
     "category": "injury",
@@ -235,97 +417,13 @@
     "image": "https://e00-elmundo.uecdn.es/assets/multimedia/imagenes/2026/06/03/17804430559791_990x0.jpg",
     "source": "El Mundo Deportes",
     "lang": "es",
-    "id": 216
-  },
-  {
-    "category": "tactics",
-    "title": "El baile de entrenadores en los banquillos de la Liga: seis equipos en busca de un técnico",
-    "snippet": "A ocho días del inicio del Mundial, media docena de equipos de primera aún no tienen técnico: Real Madrid, Rayo Vallecano, Elche, Osasuna y los recién descendidos Girona y Oviedo Leer",
-    "time": "2d ago",
-    "timestamp": 1780436966,
-    "color": "linear-gradient(135deg, #f59e0b, #78350f)",
-    "overlay": "⚽",
-    "link": "https://www.elmundo.es/deportes/futbol/primera-division/2026/06/02/6a1f0198fdddffb6298b458c.html",
-    "image": "https://e00-elmundo.uecdn.es/assets/multimedia/imagenes/2026/06/02/17804158765816_990x0.jpg",
-    "source": "El Mundo Deportes",
-    "lang": "es",
-    "id": 217
-  },
-  {
-    "category": "tactics",
-    "title": "Irán pasa por España el sábado antes de viajar a México para el Mundial",
-    "snippet": "El presidente de la Federación Iraní ha confirmado que el equipo volará a España antes de partir rumbo a Tijuana Leer",
-    "time": "3d ago",
-    "timestamp": 1780423458,
-    "color": "linear-gradient(135deg, #f59e0b, #78350f)",
-    "overlay": "⚽",
-    "link": "https://www.elmundo.es/deportes/futbol/mundial-de-futbol/2026/06/02/6a1f1b1ae4d4d811118b45cf.html",
-    "image": "https://e00-elmundo.uecdn.es/assets/multimedia/imagenes/2026/06/02/17804228460877_990x0.jpg",
-    "source": "El Mundo Deportes",
-    "lang": "es",
-    "id": 218
-  },
-  {
-    "category": "tactics",
-    "title": "Argentina y Francia, las favoritas para el Mundial: las casas de apuestas prevén ingresos de más de 50.000 millones de dólares",
-    "snippet": "Expertos y casas de apuestas hablan sobre ingresos, los favoritos para el Mundial y algunas apuestas extrañas que hacen saltar las alarmas Leer",
-    "time": "3d ago",
-    "timestamp": 1780400808,
-    "color": "linear-gradient(135deg, #f59e0b, #78350f)",
-    "overlay": "⚽",
-    "link": "https://www.elmundo.es/deportes/futbol/mundial-de-futbol/2026/06/02/6a1ec1afe9cf4a007c8b45b5.html",
-    "image": "https://e00-elmundo.uecdn.es/assets/multimedia/imagenes/2026/06/02/17804003865506_990x0.jpg",
-    "source": "El Mundo Deportes",
-    "lang": "es",
-    "id": 219
-  },
-  {
-    "category": "tactics",
-    "title": "El FBI en un hotel de Suiza, 220.000 millones de dólares, 7.000 muertos: el sinuoso camino de Qatar para ser sede de un Mundial",
-    "snippet": "La cita en el país del Golfo, cargada de polémicas, resultó exitosa, en cambio, en lo futbolístico y lo logístico, y dio proyección al país Leer",
-    "time": "3d ago",
-    "timestamp": 1780347812,
-    "color": "linear-gradient(135deg, #f59e0b, #78350f)",
-    "overlay": "⚽",
-    "link": "https://www.elmundo.es/deportes/futbol/2026/06/01/6a1b0183fc6c8344258b4581.html",
-    "image": "https://e00-elmundo.uecdn.es/assets/multimedia/imagenes/2026/05/30/17801548960104_990x0.jpg",
-    "source": "El Mundo Deportes",
-    "lang": "es",
-    "id": 220
-  },
-  {
-    "category": "tactics",
-    "title": "A contra reloj en Riazor para reparar los daños en el césped y las gradas antes del amistoso de la selección",
-    "snippet": "Tras la invasión del campo por parte de los aficionados coruñeses, el estado del estadio del RC Deportivo deja en el aire si se podrá disputar el España - Irak Leer",
-    "time": "4d ago",
-    "timestamp": 1780334876,
-    "color": "linear-gradient(135deg, #f59e0b, #78350f)",
-    "overlay": "⚽",
-    "link": "https://www.elmundo.es/deportes/futbol/mundial-de-futbol/2026/06/01/6a1dbdc021efa0ca338b4599.html",
-    "image": "https://e00-elmundo.uecdn.es/assets/multimedia/imagenes/2026/06/01/17803335164720_990x0.jpg",
-    "source": "El Mundo Deportes",
-    "lang": "es",
-    "id": 221
-  },
-  {
-    "category": "tactics",
-    "title": "Un viaje largo, los lesionados y la obsesión de De la Fuente: España se pone en marcha hacia el Mundial",
-    "snippet": "La selección ya entrena en Las Rozas antes de iniciar un periplo que le llevará a Coruña y México antes del debut, el día 15 contra Cabo Verde Leer",
-    "time": "4d ago",
-    "timestamp": 1780259763,
-    "color": "linear-gradient(135deg, #f59e0b, #78350f)",
-    "overlay": "⚽",
-    "link": "https://www.elmundo.es/deportes/futbol/mundial-de-futbol/2026/05/31/6a1b056fe4d4d8782b8b4589.html",
-    "image": "https://e00-elmundo.uecdn.es/assets/multimedia/imagenes/2026/05/31/17802419735935_990x0.jpg",
-    "source": "El Mundo Deportes",
-    "lang": "es",
-    "id": 222
+    "id": 229
   },
   {
     "category": "tactics",
     "title": "Protagonisme positiu i negatiu dels jugadors del Barça amb la selecció espanyola",
     "snippet": "La selecció espanyola ha disputat aquest dijous el primer partit amistós de preparació per al Mundial d’aquest estiu, que comença tot just la setmana vinent. Ha estat contra l’Iraq i el resultat final ha estat d’empat a un gol. En aquest duel han participat sis jugadors del Futbol Club Barcelona –Joan Garcia, Eric Garcia, Marc … Continued",
-    "time": "9h ago",
+    "time": "11h ago",
     "timestamp": 1780649550,
     "color": "linear-gradient(135deg, #f59e0b, #78350f)",
     "overlay": "⚽",
@@ -333,7 +431,7 @@
     "image": "https://images.unsplash.com/photo-1579952363873-27f3bade9f55?w=800&auto=format&fit=crop",
     "source": "Món Esport",
     "lang": "ca",
-    "id": 223
+    "id": 230
   },
   {
     "category": "tactics",
@@ -347,7 +445,7 @@
     "image": "https://static1.ara.cat/clip/8ae90eb1-5edb-44ee-ba08-be9927432fb2_16-9-aspect-ratio_default_0.jpg",
     "source": "ARA Esports",
     "lang": "ca",
-    "id": 224
+    "id": 231
   },
   {
     "category": "transfer",
@@ -361,7 +459,7 @@
     "image": "https://static1.ara.cat/clip/7fa2a8a8-765b-4bfb-80f6-cfb51e6b8131_16-9-aspect-ratio_default_0.jpg",
     "source": "ARA Esports",
     "lang": "ca",
-    "id": 225
+    "id": 232
   },
   {
     "category": "tactics",
@@ -375,7 +473,7 @@
     "image": "https://static1.ara.cat/clip/88c8347b-0417-4e84-8b5c-2a11a8ea90aa_16-9-aspect-ratio_default_0_x2351y869.jpg",
     "source": "ARA Esports",
     "lang": "ca",
-    "id": 226
+    "id": 233
   },
   {
     "category": "lineup",
@@ -389,7 +487,7 @@
     "image": "https://static1.ara.cat/clip/ee737dde-d694-4f24-9993-cd65d353a8a1_16-9-aspect-ratio_default_1058448.jpg",
     "source": "ARA Esports",
     "lang": "ca",
-    "id": 227
+    "id": 234
   },
   {
     "category": "tactics",
@@ -403,7 +501,7 @@
     "image": "https://d5r1tkwwv7d5g.cloudfront.net/articulos/articulos-719250.jpg",
     "source": "Nació Digital",
     "lang": "ca",
-    "id": 228
+    "id": 235
   },
   {
     "category": "transfer",
@@ -417,7 +515,7 @@
     "image": "https://static1.ara.cat/clip/797ed480-ad68-4bd5-bfd3-baa348e98c87_16-9-aspect-ratio_default_0_x2142y978.jpg",
     "source": "ARA Esports",
     "lang": "ca",
-    "id": 229
+    "id": 236
   },
   {
     "category": "tactics",
@@ -431,7 +529,7 @@
     "image": "https://d5r1tkwwv7d5g.cloudfront.net/articulos/articulos-596058.jpg",
     "source": "Nació Digital",
     "lang": "ca",
-    "id": 230
+    "id": 237
   },
   {
     "category": "press",
@@ -445,7 +543,7 @@
     "image": "https://d5r1tkwwv7d5g.cloudfront.net/articulos/articulos-704199.jpg",
     "source": "Nació Digital",
     "lang": "ca",
-    "id": 231
+    "id": 238
   },
   {
     "category": "lineup",
@@ -459,6 +557,6 @@
     "image": "https://d5r1tkwwv7d5g.cloudfront.net/articulos/articulos-715798.jpg",
     "source": "Nació Digital",
     "lang": "ca",
-    "id": 232
+    "id": 239
   }
 ]
