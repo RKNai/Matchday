@@ -746,13 +746,6 @@ document.addEventListener('DOMContentLoaded', () => {
       state.lang = e.target.value;
       localStorage.setItem('matchday_lang', state.lang);
       applyTranslations();
-      showToast(
-        state.lang === 'en' ? '🌐 Language Updated' :
-        state.lang === 'es' ? '🌐 Idioma Actualizado' : '🌐 Idioma Actualitzat',
-        state.lang === 'en' ? 'App text translated to English.' :
-        state.lang === 'es' ? 'Texto de la aplicación traducido al Español.' :
-                              'Text de l\'aplicació traduït al Català.'
-      );
     });
   }
   
@@ -761,6 +754,7 @@ document.addEventListener('DOMContentLoaded', () => {
   
   // Modals & Banner
   setupModalHandlers();
+  setupPartnerBanner();
 
   // Async load scraped backend feeds
   loadScrapedData();
@@ -806,7 +800,6 @@ function setupPwaInstallation() {
   window.addEventListener('appinstalled', () => {
     console.log('[PWA] MatchDay installed successfully!');
     DOM.installBtn.style.display = 'none';
-    showToast('🏆 Installation Complete', 'MatchDay has been installed to your home screen!');
   });
 }
 
@@ -917,7 +910,6 @@ function setupSplitScreenResizing() {
         document.documentElement.style.setProperty('--news-height', '2.5fr');
       }
     }
-    showToast('📐 Snapping Active', 'Cycle panels snap layout preset.');
   });
 
   // Mobile Touch Double-Tap Gesture Hydrator
@@ -1063,17 +1055,9 @@ function setupCustomizationPreferences() {
       if (e.target.checked) {
         document.body.classList.add('light-theme');
         localStorage.setItem('matchday_theme', 'light');
-        showToast(
-          state.lang === 'en' ? '☀️ Light Mode Active' : state.lang === 'es' ? '☀️ Modo Claro Activo' : '☀️ Modo Clar Actiu',
-          state.lang === 'en' ? 'App switched to light styling.' : state.lang === 'es' ? 'Aplicación cambiada al estilo claro.' : 'Aplicació canviada a l\'estil clar.'
-        );
       } else {
         document.body.classList.remove('light-theme');
         localStorage.setItem('matchday_theme', 'dark');
-        showToast(
-          state.lang === 'en' ? '🌙 Dark Mode Active' : state.lang === 'es' ? '🌙 Modo Oscuro Activo' : '🌙 Modo Fosc Actiu',
-          state.lang === 'en' ? 'App switched to dark styling.' : state.lang === 'es' ? 'Aplicación cambiada al estilo oscuro.' : 'Aplicació canviada a l\'estil fosc.'
-        );
       }
     });
   }
@@ -1082,10 +1066,6 @@ function setupCustomizationPreferences() {
     DOM.toggleMatchesBtn.addEventListener('change', (e) => {
       if (!e.target.checked && !DOM.toggleNewsBtn.checked) {
         e.target.checked = true;
-        showToast(
-          state.lang === 'en' ? '⚠️ Visibility Warning' : state.lang === 'es' ? '⚠️ Advertencia de Visibilidad' : '⚠️ Advertència de Visibilitat',
-          state.lang === 'en' ? 'You must keep at least one panel active.' : state.lang === 'es' ? 'Debes mantener al menos un panel activo.' : 'Has de mantenir almenys un panell actiu.'
-        );
         return;
       }
 
@@ -1104,10 +1084,6 @@ function setupCustomizationPreferences() {
     DOM.toggleNewsBtn.addEventListener('change', (e) => {
       if (!e.target.checked && !DOM.toggleMatchesBtn.checked) {
         e.target.checked = true;
-        showToast(
-          state.lang === 'en' ? '⚠️ Visibility Warning' : state.lang === 'es' ? '⚠️ Advertencia de Visibilidad' : '⚠️ Advertència de Visibilitat',
-          state.lang === 'en' ? 'You must keep at least one panel active.' : state.lang === 'es' ? 'Debes mantener al menos un panel activo.' : 'Has de mantenir almenys un panell actiu.'
-        );
         return;
       }
 
@@ -2034,6 +2010,22 @@ function setupModalHandlers() {
   });
 }
 
+function setupPartnerBanner() {
+  const partnerBanner = document.getElementById('partnerBanner');
+  const partnerBannerClose = document.getElementById('partnerBannerClose');
+  if (partnerBanner && partnerBannerClose) {
+    if (localStorage.getItem('matchday_partner_banner_dismissed') === 'true') {
+      partnerBanner.classList.add('hidden');
+    } else {
+      partnerBanner.classList.remove('hidden');
+    }
+    partnerBannerClose.addEventListener('click', () => {
+      partnerBanner.classList.add('hidden');
+      localStorage.setItem('matchday_partner_banner_dismissed', 'true');
+    });
+  }
+}
+
 function openMatchDetails(matchId) {
   state.activeModalMatchId = matchId;
   state.activeModalTab = 'timeline'; // Reset to timeline tab
@@ -2846,8 +2838,6 @@ async function loadScrapedData() {
     renderNewsGrid();
     renderSubscriptionsUI();
     updateSyncStatus();
-    
-    showToast('⚽ Live Sync Complete', 'Match results and breaking news feeds synchronized successfully.');
   } catch (err) {
     console.error('[PWA] Error fetching scraped data files: ', err);
   }
