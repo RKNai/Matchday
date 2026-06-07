@@ -1,9 +1,23 @@
 [
   {
     "category": "tactics",
+    "title": "Born in Leeds, crafted in Norway: How Haaland became nation's superstar",
+    "snippet": "Erling Haaland has guided Norway to their first World Cup since 1998. So what is it like being a global name from a nation with a population of just 5.5m people?",
+    "time": "14m ago",
+    "timestamp": 1780811533,
+    "color": "linear-gradient(135deg, #f59e0b, #78350f)",
+    "overlay": "⚽",
+    "link": "https://www.bbc.com/sport/football/articles/cd7pqdyy9v2o?at_medium=RSS&at_campaign=rss",
+    "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/40b4/live/168d6d10-5e83-11f1-82d1-3f140356d043.jpg",
+    "source": "BBC Sport",
+    "lang": "en",
+    "id": 200
+  },
+  {
+    "category": "tactics",
     "title": "Football Daily",
     "snippet": "England and Scotland acclimatise to conditions in the US ahead of the World Cup.",
-    "time": "1h ago",
+    "time": "6h ago",
     "timestamp": 1780789740,
     "color": "linear-gradient(135deg, #f59e0b, #78350f)",
     "overlay": "⚽",
@@ -11,13 +25,13 @@
     "image": "https://ichef.bbci.co.uk/images/ic/240x135/p0nqkddh.jpg",
     "source": "BBC Sport",
     "lang": "en",
-    "id": 200
+    "id": 201
   },
   {
     "category": "lineup",
     "title": "Clarke hails 'fantastic problems' with starting choices",
     "snippet": "Steve Clarke says he has \"fantastic problems\" in terms of selection after Scotland concluded their World Cup warm-up matches with an emphatic win over Bolivia.",
-    "time": "1h ago",
+    "time": "6h ago",
     "timestamp": 1780789080,
     "color": "linear-gradient(135deg, #3b82f6, #1e3a8a)",
     "overlay": "📋",
@@ -25,13 +39,13 @@
     "image": "https://e1.365dm.com/26/06/1920x1080/skysports-steve-clarke-scotland_7267162.jpg?20260606223359",
     "source": "Sky Sports",
     "lang": "en",
-    "id": 201
+    "id": 202
   },
   {
     "category": "tactics",
     "title": "This was a training game - England & Tuchel now need to get serious",
     "snippet": "England have one more game to prepare for their World Cup campaign - and they must use it wisely, writes Phil McNulty.",
-    "time": "1h ago",
+    "time": "6h ago",
     "timestamp": 1780788951,
     "color": "linear-gradient(135deg, #f59e0b, #78350f)",
     "overlay": "⚽",
@@ -39,13 +53,13 @@
     "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/54c1/live/24b29080-61f5-11f1-89a3-d1f559421220.jpg",
     "source": "BBC Sport",
     "lang": "en",
-    "id": 202
+    "id": 203
   },
   {
     "category": "tactics",
     "title": "Patient, precise, clinical - are Scotland ready to make World Cup mark?",
     "snippet": "Scotland thrash Bolivia and are in decent fettle one week out from the biggest game of their international lives.",
-    "time": "2h ago",
+    "time": "6h ago",
     "timestamp": 1780788678,
     "color": "linear-gradient(135deg, #f59e0b, #78350f)",
     "overlay": "⚽",
@@ -53,13 +67,13 @@
     "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/f343/live/cb475340-61ff-11f1-a3aa-cb75ff2c9b10.jpg",
     "source": "BBC Sport",
     "lang": "en",
-    "id": 203
+    "id": 204
   },
   {
     "category": "tactics",
     "title": "Scotland score four in first half to beat Bolivia",
     "snippet": "Watch the goals as Scotland score four in the first half to beat Bolivia in their final World Cup warm-up.",
-    "time": "2h ago",
+    "time": "7h ago",
     "timestamp": 1780786732,
     "color": "linear-gradient(135deg, #f59e0b, #78350f)",
     "overlay": "⚽",
@@ -67,13 +81,13 @@
     "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/0f96/live/c1178b60-61fa-11f1-8b8c-6d33e1d5abb6.jpg",
     "source": "BBC Sport",
     "lang": "en",
-    "id": 204
+    "id": 205
   },
   {
     "category": "tactics",
     "title": "Scotland thrash Bolivia ahead of World Cup opener",
     "snippet": "Che Adams scored twice as a dominant Scotland thrashed Bolivia 4-0 in New Jersey in their final friendly before getting their World Cup campaign under way next week.",
-    "time": "2h ago",
+    "time": "7h ago",
     "timestamp": 1780786680,
     "color": "linear-gradient(135deg, #f59e0b, #78350f)",
     "overlay": "⚽",
@@ -81,13 +95,13 @@
     "image": "https://e2.365dm.com/26/06/1920x1080/skysports-shankland-adams-mctominay_7267116.jpg?20260606213634",
     "source": "Sky Sports",
     "lang": "en",
-    "id": 205
+    "id": 206
   },
   {
     "category": "tactics",
     "title": "World Cup latest: Havertz stars in Germany victory as Portugal and Belgium secure wins",
     "snippet": "",
-    "time": "2h ago",
+    "time": "7h ago",
     "timestamp": 1780786320,
     "color": "linear-gradient(135deg, #f59e0b, #78350f)",
     "overlay": "⚽",
@@ -95,13 +109,13 @@
     "image": "https://e2.365dm.com/26/06/1920x1080/skysports-kai-havertz-germany_7267189.jpg?20260606225139",
     "source": "Sky Sports",
     "lang": "en",
-    "id": 206
+    "id": 207
   },
   {
     "category": "press",
     "title": "Iran says staff blocked from entering US after players given World Cup visas",
     "snippet": "Iranian officials say technical staff have been denied visas, hours after the US said players could enter the country.",
-    "time": "2h ago",
+    "time": "7h ago",
     "timestamp": 1780785516,
     "color": "linear-gradient(135deg, #0d9488, #115e59)",
     "overlay": "🎙️",
@@ -109,13 +123,13 @@
     "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/de59/live/4501e9e0-614f-11f1-89a3-d1f559421220.jpg",
     "source": "BBC Sport",
     "lang": "en",
-    "id": 207
+    "id": 208
   },
   {
     "category": "tactics",
     "title": "Mr Irreplaceable and Ballon d'Or contender - is this Kane's time?",
     "snippet": "Harry Kane has been described as irreplaceable for England, but will the World Cup provide the stage for him to prove he is now the best?",
-    "time": "3h ago",
+    "time": "7h ago",
     "timestamp": 1780785039,
     "color": "linear-gradient(135deg, #f59e0b, #78350f)",
     "overlay": "⚽",
@@ -123,13 +137,13 @@
     "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/09d1/live/6fed0d70-5dbb-11f1-8b6d-5b89cbb85786.jpg",
     "source": "BBC Sport",
     "lang": "en",
-    "id": 208
+    "id": 209
   },
   {
     "category": "tactics",
     "title": "How to watch the World Cup on the BBC and ITV",
     "snippet": "All the TV and radio details for each of the 2026 World Cup group games.",
-    "time": "5h ago",
+    "time": "9h ago",
     "timestamp": 1780777836,
     "color": "linear-gradient(135deg, #f59e0b, #78350f)",
     "overlay": "⚽",
@@ -137,13 +151,13 @@
     "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/0146/live/1059f7e0-61e6-11f1-8b8c-6d33e1d5abb6.jpg",
     "source": "BBC Sport",
     "lang": "en",
-    "id": 209
+    "id": 210
   },
   {
     "category": "tactics",
     "title": "Gemmill beats McTominay in vote for your most iconic Scotland goal",
     "snippet": "The votes are in and the contest is now over - you have decided that Archie Gemmill's solo effort against the Netherlands at the 1978 World Cup is Scotland's Most Iconic Goal.",
-    "time": "7h ago",
+    "time": "11h ago",
     "timestamp": 1780770575,
     "color": "linear-gradient(135deg, #f59e0b, #78350f)",
     "overlay": "⚽",
@@ -151,13 +165,13 @@
     "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/1f5c/live/a801a050-61c0-11f1-9127-3f1b1c5e19b3.jpg",
     "source": "BBC Sport",
     "lang": "en",
-    "id": 210
+    "id": 211
   },
   {
     "category": "tactics",
     "title": "Paraguay star Enciso injured in World Cup warm-up",
     "snippet": "Paraguay forward Julio Enciso's World Cup is in doubt after he was injured during a 4-0 friendly win over Nicaragua.",
-    "time": "12h ago",
+    "time": "17h ago",
     "timestamp": 1780751093,
     "color": "linear-gradient(135deg, #f59e0b, #78350f)",
     "overlay": "⚽",
@@ -165,13 +179,13 @@
     "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/7a36/live/fb50dd20-6198-11f1-80e4-07386a28f8fd.jpg",
     "source": "BBC Sport",
     "lang": "en",
-    "id": 211
+    "id": 212
   },
   {
     "category": "tactics",
     "title": "Lightning halts pre-World Cup friendly in Texas for two hours",
     "snippet": "Saudi Arabia's World Cup warm-up game against Puerto Rico in Texas is halted for nearly two hours because of extreme weather.",
-    "time": "14h ago",
+    "time": "19h ago",
     "timestamp": 1780743369,
     "color": "linear-gradient(135deg, #f59e0b, #78350f)",
     "overlay": "⚽",
@@ -179,32 +193,18 @@
     "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/0a4a/live/b7dd7e80-618f-11f1-b927-d7e60ed16f70.jpg",
     "source": "BBC Sport",
     "lang": "en",
-    "id": 212
+    "id": 213
   },
   {
     "category": "tactics",
     "title": "Watch: When Hagi's Romania thrashed Wales",
     "snippet": "Wales travel to Bucharest to face Romania on Saturday for the first time since their World Cup qualifying defeat in 1992.",
-    "time": "17h ago",
+    "time": "22h ago",
     "timestamp": 1780731914,
     "color": "linear-gradient(135deg, #f59e0b, #78350f)",
     "overlay": "⚽",
     "link": "https://www.bbc.com/sport/football/videos/cedp32xzxx5o?at_medium=RSS&at_campaign=rss",
     "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/96bd/live/299fdf40-5dd0-11f1-ad28-eda8e494639c.jpg",
-    "source": "BBC Sport",
-    "lang": "en",
-    "id": 213
-  },
-  {
-    "category": "tactics",
-    "title": "Wales aim to right their wrongs against Czechs",
-    "snippet": "Wales' trip to Montenegro did not go according to plan and, as a result, the path to the Women's World Cup is unchanged.",
-    "time": "18h ago",
-    "timestamp": 1780731280,
-    "color": "linear-gradient(135deg, #f59e0b, #78350f)",
-    "overlay": "⚽",
-    "link": "https://www.bbc.com/sport/football/articles/c5yzk55mk4no?at_medium=RSS&at_campaign=rss",
-    "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/2630/live/798d7700-6178-11f1-84b4-9d6caf5efa1c.jpg",
     "source": "BBC Sport",
     "lang": "en",
     "id": 214
@@ -213,7 +213,7 @@
     "category": "tactics",
     "title": "Scaloni pierde a un 'soldado' para el Mundial",
     "snippet": "El zaguero del Olympique de Marsella sufrió un desgarro en el entrenamiento previo al amistoso contra Honduras",
-    "time": "10h ago",
+    "time": "14h ago",
     "timestamp": 1780759292,
     "color": "linear-gradient(135deg, #f59e0b, #78350f)",
     "overlay": "⚽",
@@ -227,7 +227,7 @@
     "category": "tactics",
     "title": "Cuidado con Bélgica",
     "snippet": "Le endosaron una contundente goleada a Túnez (5-0) en su último amistoso de preparación",
-    "time": "10h ago",
+    "time": "15h ago",
     "timestamp": 1780758045,
     "color": "linear-gradient(135deg, #f59e0b, #78350f)",
     "overlay": "⚽",
@@ -241,7 +241,7 @@
     "category": "tactics",
     "title": "Miquel Travé, quinto a un segundo del podio en la Copa del Mundo de Praga",
     "snippet": "La penalización por tocar una puerta le privó de la medalla en la final de C1<span class=\"xai-icon\" contenteditable=\"false\" tabindex=\"-1\" style=\"user-select: none; pointer-events: auto;\"></span>",
-    "time": "12h ago",
+    "time": "17h ago",
     "timestamp": 1780750785,
     "color": "linear-gradient(135deg, #f59e0b, #78350f)",
     "overlay": "⚽",
@@ -255,7 +255,7 @@
     "category": "tactics",
     "title": "Japón estalla: amenaza con abandonar México<br>",
     "snippet": "",
-    "time": "16h ago",
+    "time": "20h ago",
     "timestamp": 1780737242,
     "color": "linear-gradient(135deg, #f59e0b, #78350f)",
     "overlay": "⚽",
@@ -269,7 +269,7 @@
     "category": "tactics",
     "title": "Polémica en Francia tras el frío gesto de Kanté con Mbappé<br>",
     "snippet": "",
-    "time": "17h ago",
+    "time": "21h ago",
     "timestamp": 1780734207,
     "color": "linear-gradient(135deg, #f59e0b, #78350f)",
     "overlay": "⚽",
@@ -283,7 +283,7 @@
     "category": "tactics",
     "title": "Entre el sueño y la necesidad",
     "snippet": "El Castellón ansía volver a la élite 35 años después • El Almería perdió el tren del ascenso directo, pero parte con ventaja tras ser 3º en Liga • Mabil y Cipenga, bajas por el Mundial",
-    "time": "20h ago",
+    "time": "1d ago",
     "timestamp": 1780723425,
     "color": "linear-gradient(135deg, #f59e0b, #78350f)",
     "overlay": "⚽",
@@ -297,7 +297,7 @@
     "category": "tactics",
     "title": "La foto que provoca las lágrimas de la madre de Pedro Porro: \"Espero que nunca pierda la sonrisa\"",
     "snippet": "Segundo capítulo de 'Forjados': Pedro Porro",
-    "time": "20h ago",
+    "time": "1d ago",
     "timestamp": 1780722590,
     "color": "linear-gradient(135deg, #f59e0b, #78350f)",
     "overlay": "⚽",
@@ -325,7 +325,7 @@
     "category": "tactics",
     "title": "Erling Haaland ya es vikingo",
     "snippet": "",
-    "time": "1d ago",
+    "time": "2d ago",
     "timestamp": 1780638876,
     "color": "linear-gradient(135deg, #f59e0b, #78350f)",
     "overlay": "⚽",
@@ -339,7 +339,7 @@
     "category": "tactics",
     "title": "La madridista Ivana Knoll se cuela en el Mundial para marcar un gol: el vídeo con IA que impacta al fútbol",
     "snippet": "",
-    "time": "1d ago",
+    "time": "2d ago",
     "timestamp": 1780628489,
     "color": "linear-gradient(135deg, #f59e0b, #78350f)",
     "overlay": "⚽",
@@ -423,7 +423,7 @@
     "category": "tactics",
     "title": "Els Busquets s’estrenen amb els Legends amb Alba i Mascherano",
     "snippet": "Els Barça Legends van tancar ahirel curs amb un triomf per golejada (8-3) davant les llegendes del Liverpool en un enfrontament disputat al Seoul World Cup Stadium (Seül, Corea del Sud). El matx va deixar...",
-    "time": "1h ago",
+    "time": "6h ago",
     "timestamp": 1780790400,
     "color": "linear-gradient(135deg, #f59e0b, #78350f)",
     "overlay": "⚽",
@@ -465,7 +465,7 @@
     "category": "transfer",
     "title": "El 'carpe diem' del Barça (i de Joan Laporta)",
     "snippet": "El Barça ha necessitat sis anys per tornar a afrontar un mercat d'estiu sense restriccions. Ni el del 2022 és equiparable, ja que aleshores el club, malgrat reforçar-se a cop de talonari amb Kounde, Raphinha i Lewandowski, va suar de valent perquè les palanques s'adaptessin a la normativa de la Lliga. Aquesta vegada l'aixeta raja i un cop confirmat el fitxatge d'Anthony Gordon, l'entitat que presideix encara de manera interina Rafael Yuste mou els fils per fitxar un davanter centre de talla mundial i, si és possible, reforçar la defensa amb un central de garanties.",
-    "time": "2d ago",
+    "time": "3d ago",
     "timestamp": 1780549254,
     "color": "linear-gradient(135deg, #a855f7, #581c87)",
     "overlay": "🔄",
@@ -549,7 +549,7 @@
     "category": "lineup",
     "title": "Els 6 millors vídeos de les seleccions per al Mundial",
     "snippet": "Les seleccions de França, Anglaterra, el Senegal, la República Txeca, Noruega i Escòcia han anunciat els convocats amb vídeos virals",
-    "time": "14d ago",
+    "time": "15d ago",
     "timestamp": 1779507001,
     "color": "linear-gradient(135deg, #3b82f6, #1e3a8a)",
     "overlay": "📋",
