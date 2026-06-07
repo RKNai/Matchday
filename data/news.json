@@ -1,9 +1,37 @@
 [
   {
+    "category": "injury",
+    "title": "Man Utd-bound Ederson replaces Wesley in Brazil squad",
+    "snippet": "Brazil full-back Wesley is ruled out of the World Cup because of a thigh injury, with Manchester United-bound midfielder Ederson called up to replace him.",
+    "time": "39m ago",
+    "timestamp": 1780855986,
+    "color": "linear-gradient(135deg, #ef4444, #7f1d1d)",
+    "overlay": "🩺",
+    "link": "https://www.bbc.com/sport/football/articles/c0ey82g18xjo?at_medium=RSS&at_campaign=rss",
+    "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/71ac/live/48ae51c0-629c-11f1-96bd-c1bed4b24e0c.jpg",
+    "source": "BBC Sport",
+    "lang": "en",
+    "id": 200
+  },
+  {
+    "category": "injury",
+    "title": "Man Utd-bound Ederson replaces injured Wesley in Brazil squad",
+    "snippet": "Brazil full-back Wesley is ruled out of the World Cup because of a thigh injury, with Manchester United-bound midfielder Ederson called up to replace him.",
+    "time": "39m ago",
+    "timestamp": 1780855986,
+    "color": "linear-gradient(135deg, #ef4444, #7f1d1d)",
+    "overlay": "🩺",
+    "link": "https://www.bbc.com/sport/football/articles/c0ey82g18xjo?at_medium=RSS&at_campaign=rss",
+    "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/71ac/live/48ae51c0-629c-11f1-96bd-c1bed4b24e0c.jpg",
+    "source": "BBC Sport",
+    "lang": "en",
+    "id": 201
+  },
+  {
     "category": "lineup",
     "title": "Man Utd latest: Ederson called up to Brazil World Cup squad",
     "snippet": "",
-    "time": "Just now",
+    "time": "52m ago",
     "timestamp": 1780855200,
     "color": "linear-gradient(135deg, #3b82f6, #1e3a8a)",
     "overlay": "📋",
@@ -11,7 +39,7 @@
     "image": "https://e1.365dm.com/26/02/1920x1080/skysports-michael-carrick-man-utd_7153593.jpg?20260202171649",
     "source": "Sky Sports",
     "lang": "en",
-    "id": 200
+    "id": 202
   },
   {
     "category": "tactics",
@@ -25,7 +53,7 @@
     "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/7d39/live/dd54ed30-628c-11f1-a012-97de4dc8804e.jpg",
     "source": "BBC Sport",
     "lang": "en",
-    "id": 201
+    "id": 203
   },
   {
     "category": "tactics",
@@ -39,13 +67,13 @@
     "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/46f9/live/b1f7db30-6281-11f1-86be-0da436fa9788.jpg",
     "source": "BBC Sport",
     "lang": "en",
-    "id": 202
+    "id": 204
   },
   {
     "category": "tactics",
     "title": "'Scotland optimism is through the roof now'",
     "snippet": "With less than a week until the 2026 World Cup kicks-off, we're live from New York.",
-    "time": "1h ago",
+    "time": "2h ago",
     "timestamp": 1780849200,
     "color": "linear-gradient(135deg, #f59e0b, #78350f)",
     "overlay": "⚽",
@@ -53,13 +81,13 @@
     "image": "https://ichef.bbci.co.uk/images/ic/240x135/p0gf9mfx.jpg",
     "source": "BBC Sport",
     "lang": "en",
-    "id": 203
+    "id": 205
   },
   {
     "category": "tactics",
     "title": "Iran's World Cup team lands in Mexico amid US visa row",
     "snippet": "All of Iran's group games are in the US, but players and support staff will have to fly in and out of the country on match day.",
-    "time": "4h ago",
+    "time": "5h ago",
     "timestamp": 1780838690,
     "color": "linear-gradient(135deg, #f59e0b, #78350f)",
     "overlay": "⚽",
@@ -67,13 +95,13 @@
     "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/fa37/live/dfbd7070-6286-11f1-a012-97de4dc8804e.jpg",
     "source": "BBC Sport",
     "lang": "en",
-    "id": 204
+    "id": 206
   },
   {
     "category": "tactics",
     "title": "How Scotland reached the World Cup - told by those who made it happen",
     "snippet": "Tom English speaks to those who returned Scotland to the men's World Cup finals  for the first time since 1998 about the epic win over Denmark.",
-    "time": "4h ago",
+    "time": "5h ago",
     "timestamp": 1780837789,
     "color": "linear-gradient(135deg, #f59e0b, #78350f)",
     "overlay": "⚽",
@@ -81,13 +109,13 @@
     "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/9cf3/live/91759960-277b-11f1-a79a-77e93010d956.jpg",
     "source": "BBC Sport",
     "lang": "en",
-    "id": 205
+    "id": 207
   },
   {
     "category": "tactics",
     "title": "Pre-World Cup friendlies - Messi rested & Leao sent off",
     "snippet": "Argentina great Lionel Messi is rested against Honduras, while Brazil, Germany, Belgium and Portugal each win warm-up games prior to the World Cup.",
-    "time": "8h ago",
+    "time": "9h ago",
     "timestamp": 1780825782,
     "color": "linear-gradient(135deg, #f59e0b, #78350f)",
     "overlay": "⚽",
@@ -95,13 +123,13 @@
     "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/e730/live/396f4d10-624f-11f1-8b8c-6d33e1d5abb6.png",
     "source": "BBC Sport",
     "lang": "en",
-    "id": 206
+    "id": 208
   },
   {
     "category": "lineup",
     "title": "France's Camavinga attends Harvard after World Cup omission",
     "snippet": "France midfielder Eduardo Camavinga takes a Harvard Business School course after missing out on Didier Deschamps' World Cup squad.",
-    "time": "8h ago",
+    "time": "9h ago",
     "timestamp": 1780825759,
     "color": "linear-gradient(135deg, #3b82f6, #1e3a8a)",
     "overlay": "📋",
@@ -109,7 +137,7 @@
     "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/b23f/live/fad7f2a0-6253-11f1-be00-fb33099ec41d.jpg",
     "source": "BBC Sport",
     "lang": "en",
-    "id": 207
+    "id": 209
   },
   {
     "category": "press",
@@ -123,13 +151,13 @@
     "image": "https://e0.365dm.com/26/06/1920x1080/skysports-thomas-tuchel-england_7267257.jpg?20260607074031",
     "source": "Sky Sports",
     "lang": "en",
-    "id": 208
+    "id": 210
   },
   {
     "category": "lineup",
     "title": "Shankland, Gunn and a midfield conundrum - Clarke's big decisions",
     "snippet": "Scotland head coach Steve Clarke has \"some decisions to make\" when it comes to his starting XI for their World Cup opener against Haiti on Sunday, but what are they?",
-    "time": "10h ago",
+    "time": "11h ago",
     "timestamp": 1780817611,
     "color": "linear-gradient(135deg, #3b82f6, #1e3a8a)",
     "overlay": "📋",
@@ -137,13 +165,13 @@
     "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/ca5d/live/03fee290-6244-11f1-b682-cf91850925ea.jpg",
     "source": "BBC Sport",
     "lang": "en",
-    "id": 209
+    "id": 211
   },
   {
     "category": "lineup",
     "title": "Clarke has 'some decisions to make' - but what are they?",
     "snippet": "Scotland head coach Steve Clarke has \"some decisions to make\" when it comes to his starting XI for their World Cup opener against Haiti on Sunday, but what are they?",
-    "time": "10h ago",
+    "time": "11h ago",
     "timestamp": 1780817611,
     "color": "linear-gradient(135deg, #3b82f6, #1e3a8a)",
     "overlay": "📋",
@@ -151,13 +179,13 @@
     "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/ca5d/live/03fee290-6244-11f1-b682-cf91850925ea.jpg",
     "source": "BBC Sport",
     "lang": "en",
-    "id": 210
+    "id": 212
   },
   {
     "category": "tactics",
     "title": "World Cup quiz: Can you name every host?",
     "snippet": "Countries far and wide have hosted the festival of football since the first tournament in 1930. How many countries can you name?",
-    "time": "10h ago",
+    "time": "11h ago",
     "timestamp": 1780816551,
     "color": "linear-gradient(135deg, #f59e0b, #78350f)",
     "overlay": "⚽",
@@ -165,13 +193,13 @@
     "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/d49b/live/6498c1c0-5dc1-11f1-89a3-d1f559421220.png",
     "source": "BBC Sport",
     "lang": "en",
-    "id": 211
+    "id": 213
   },
   {
     "category": "tactics",
     "title": "Are Portugal better without Ronaldo - and is he undroppable?",
     "snippet": "As Cristiano Ronaldo prepares for his sixth World Cup with Portugal, BBC Sport take a closer look at his place in the team.",
-    "time": "11h ago",
+    "time": "12h ago",
     "timestamp": 1780813968,
     "color": "linear-gradient(135deg, #f59e0b, #78350f)",
     "overlay": "⚽",
@@ -179,41 +207,41 @@
     "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/a3df/live/23801080-61e0-11f1-ad0c-49f100654739.jpg",
     "source": "BBC Sport",
     "lang": "en",
-    "id": 212
-  },
-  {
-    "category": "tactics",
-    "title": "Born in Leeds, crafted in Norway: How Haaland became nation's superstar",
-    "snippet": "Erling Haaland has guided Norway to their first World Cup since 1998. So what is it like being a global name from a nation with a population of just 5.5m people?",
-    "time": "12h ago",
-    "timestamp": 1780811533,
-    "color": "linear-gradient(135deg, #f59e0b, #78350f)",
-    "overlay": "⚽",
-    "link": "https://www.bbc.com/sport/football/articles/cd7pqdyy9v2o?at_medium=RSS&at_campaign=rss",
-    "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/40b4/live/168d6d10-5e83-11f1-82d1-3f140356d043.jpg",
-    "source": "BBC Sport",
-    "lang": "en",
-    "id": 213
-  },
-  {
-    "category": "tactics",
-    "title": "Football Daily",
-    "snippet": "England and Scotland acclimatise to conditions in the US ahead of the World Cup.",
-    "time": "18h ago",
-    "timestamp": 1780789740,
-    "color": "linear-gradient(135deg, #f59e0b, #78350f)",
-    "overlay": "⚽",
-    "link": "https://www.bbc.co.uk/sounds/play/p0nqkdcl?at_medium=RSS&at_campaign=rss",
-    "image": "https://ichef.bbci.co.uk/images/ic/240x135/p0nqkddh.jpg",
-    "source": "BBC Sport",
-    "lang": "en",
     "id": 214
+  },
+  {
+    "category": "tactics",
+    "title": "Imágenes impactantes: Eriksen se echa la mano al pecho y cae redondo...",
+    "snippet": "",
+    "time": "22m ago",
+    "timestamp": 1780857022,
+    "color": "linear-gradient(135deg, #f59e0b, #78350f)",
+    "overlay": "⚽",
+    "link": "https://www.marca.com/futbol/mundial/2026/06/07/eriksen-da-susto-suelo-mano-pech-video.html",
+    "image": "https://images.unsplash.com/photo-1508098682722-e99c43a406b2?w=800&auto=format&fit=crop",
+    "source": "Marca",
+    "lang": "es",
+    "id": 215
+  },
+  {
+    "category": "lineup",
+    "title": "Endrick pide paso: \"Creo que Dios le dará a Ancelotti la alineación correcta”",
+    "snippet": "El madridista marcó el gol del triunfo ante Egipto, se llevó el 'MVP' y hace dudar a 'Carletto'",
+    "time": "2h ago",
+    "timestamp": 1780850647,
+    "color": "linear-gradient(135deg, #3b82f6, #1e3a8a)",
+    "overlay": "📋",
+    "link": "https://www.marca.com/futbol/mundial/2026/06/07/endrick-pide-paso-creo-dios-le-dara-ancelotti-alineacion-correcta.html",
+    "image": "https://e01-xlk-ue-marca.uecdn.es/files/horizontal_image_desktop/uploads/2026/06/07/6a259f97a31d3.jpeg",
+    "source": "Marca",
+    "lang": "es",
+    "id": 216
   },
   {
     "category": "injury",
     "title": "¡Varapalo para Brasil a 4 días del Mundial!",
     "snippet": "La baja del lateral de la Roma obliga a Ancelotti a modificar la lista y llamar a Éderson para el Mundial",
-    "time": "1h ago",
+    "time": "2h ago",
     "timestamp": 1780849487,
     "color": "linear-gradient(135deg, #ef4444, #7f1d1d)",
     "overlay": "🩺",
@@ -221,13 +249,13 @@
     "image": "https://e01-xlk-ue-marca.uecdn.es/files/horizontal_image_desktop/uploads/2026/06/07/6a259a06f35d5.png",
     "source": "Marca",
     "lang": "es",
-    "id": 215
+    "id": 217
   },
   {
     "category": "tactics",
     "title": "Otra IA que da favorita a España",
     "snippet": "Tras el superordenador Opta y la de EA Sports, ahora se suma la&nbsp;Universidad Técnica de Dortmund (Alemania). Ya acertó el pronóstico en 2010, en la Eurocopa de 2012 y el Mundial Femenino de 2019.",
-    "time": "2h ago",
+    "time": "3h ago",
     "timestamp": 1780844616,
     "color": "linear-gradient(135deg, #f59e0b, #78350f)",
     "overlay": "⚽",
@@ -235,13 +263,13 @@
     "image": "https://e01-xlk-ue-marca.uecdn.es/files/horizontal_image_desktop/uploads/2026/06/05/6a22ae4d9856e.jpeg",
     "source": "Marca",
     "lang": "es",
-    "id": 216
+    "id": 218
   },
   {
     "category": "tactics",
     "title": "Bellingham corona a la nueva joya del 'football' y de Iraola: \"Todos disfrutamos viéndolo\"",
     "snippet": "Ngumoha se convirtió en el quinto debutante más joven en la historia de Inglaterra y se llevó el 'MVP'",
-    "time": "3h ago",
+    "time": "4h ago",
     "timestamp": 1780843452,
     "color": "linear-gradient(135deg, #f59e0b, #78350f)",
     "overlay": "⚽",
@@ -249,13 +277,13 @@
     "image": "https://e01-xlk-ue-marca.uecdn.es/files/horizontal_image_desktop/uploads/2026/06/07/6a258397cfe02.jpeg",
     "source": "Marca",
     "lang": "es",
-    "id": 217
+    "id": 219
   },
   {
     "category": "tactics",
     "title": "Suiza, a preparar el Mundial... ¡rodeado de serpientes!",
     "snippet": "La selección de Murat Yakin tendrá que ser cauto en su zona de entrenamiento en Estados Unidos",
-    "time": "4h ago",
+    "time": "5h ago",
     "timestamp": 1780840258,
     "color": "linear-gradient(135deg, #f59e0b, #78350f)",
     "overlay": "⚽",
@@ -263,13 +291,13 @@
     "image": "https://e01-xlk-ue-marca.uecdn.es/files/horizontal_image_desktop/uploads/2026/06/07/6a2576934efd6.jpeg",
     "source": "Marca",
     "lang": "es",
-    "id": 218
+    "id": 220
   },
   {
     "category": "tactics",
     "title": "El Atlético presenta un '12' Mundial",
     "snippet": "Los rojiblancos son el segundo equipo de LaLiga que más futbolistas aporta a la Copa del Mundo",
-    "time": "5h ago",
+    "time": "6h ago",
     "timestamp": 1780834025,
     "color": "linear-gradient(135deg, #f59e0b, #78350f)",
     "overlay": "⚽",
@@ -277,21 +305,21 @@
     "image": "https://e01-xlk-ue-marca.uecdn.es/files/horizontal_image_desktop/uploads/2026/06/07/6a255ee275cc9.jpeg",
     "source": "Marca",
     "lang": "es",
-    "id": 219
+    "id": 221
   },
   {
     "category": "rules",
     "title": "Leao llega calentito al Mundial: así fue la agresión que le costó la roja en un amistoso",
     "snippet": "",
-    "time": "21h ago",
+    "time": "22h ago",
     "timestamp": 1780776659,
     "color": "linear-gradient(135deg, #64748b, #334155)",
     "overlay": "📺",
     "link": "https://www.marca.com/futbol/2026/06/06/leao-llega-calentito-mundial-asi-agresion-le-costo-roja-amistos-video.html",
-    "image": "https://images.unsplash.com/photo-1579952363873-27f3bade9f55?w=800&auto=format&fit=crop",
+    "image": "https://images.unsplash.com/photo-1518063319789-7217e6706b04?w=800&auto=format&fit=crop",
     "source": "Marca",
     "lang": "es",
-    "id": 220
+    "id": 222
   },
   {
     "category": "tactics",
@@ -302,10 +330,24 @@
     "color": "linear-gradient(135deg, #f59e0b, #78350f)",
     "overlay": "⚽",
     "link": "https://www.marca.com/futbol/mundial/2026/06/06/japon-estalla-cambia-sede-dos-veces-amenaza-abandonar-mexic-video.html",
-    "image": "https://images.unsplash.com/photo-1579952363873-27f3bade9f55?w=800&auto=format&fit=crop",
+    "image": "https://images.unsplash.com/photo-1518063319789-7217e6706b04?w=800&auto=format&fit=crop",
     "source": "Marca",
     "lang": "es",
-    "id": 221
+    "id": 223
+  },
+  {
+    "category": "lineup",
+    "title": "Una España plagada de ausencias sabe a poco: empate con Irak antes de viajar a Estados Unidos",
+    "snippet": "Ferran Torres abrió el marcador en el minuto 16, pero Roski igualó antes del descanso. De la Fuente dejó fuera a la columna vertebral de su once e hizo debutar a jugadores como Pubill, Jon Martín, Javi Guerra o Leo Román Leer",
+    "time": "2d ago",
+    "timestamp": 1780608026,
+    "color": "linear-gradient(135deg, #3b82f6, #1e3a8a)",
+    "overlay": "📋",
+    "link": "https://www.elmundo.es/deportes/futbol/mundial-de-futbol/2026/06/04/6a21eaace4d4d887488b458f.html",
+    "image": "https://e00-elmundo.uecdn.es/assets/multimedia/imagenes/2026/06/04/17806075861907_990x0.jpg",
+    "source": "El Mundo Deportes",
+    "lang": "es",
+    "id": 224
   },
   {
     "category": "tactics",
@@ -319,13 +361,13 @@
     "image": "https://e00-elmundo.uecdn.es/assets/multimedia/imagenes/2026/06/03/17805060539723_990x0.jpg",
     "source": "El Mundo Deportes",
     "lang": "es",
-    "id": 222
+    "id": 225
   },
   {
     "category": "press",
     "title": "Luis de la Fuente: \"Sabemos qué portero va a jugar en el mundial\"",
     "snippet": "El seleccionador español ha dado una rueda de prensa previa al amistoso contra Irak donde ha tratado las nuevas incorporaciones, las comparaciones con la España de 2010 y la polémica de los guardametas Leer",
-    "time": "3d ago",
+    "time": "4d ago",
     "timestamp": 1780510692,
     "color": "linear-gradient(135deg, #0d9488, #115e59)",
     "overlay": "🎙️",
@@ -333,7 +375,7 @@
     "image": "https://e00-elmundo.uecdn.es/assets/multimedia/imagenes/2026/06/03/17805011561993_990x0.jpg",
     "source": "El Mundo Deportes",
     "lang": "es",
-    "id": 223
+    "id": 226
   },
   {
     "category": "injury",
@@ -347,7 +389,7 @@
     "image": "https://e00-elmundo.uecdn.es/assets/multimedia/imagenes/2026/06/03/17804430559791_990x0.jpg",
     "source": "El Mundo Deportes",
     "lang": "es",
-    "id": 224
+    "id": 227
   },
   {
     "category": "tactics",
@@ -361,60 +403,18 @@
     "image": "https://e00-elmundo.uecdn.es/assets/multimedia/imagenes/2026/06/02/17804158765816_990x0.jpg",
     "source": "El Mundo Deportes",
     "lang": "es",
-    "id": 225
+    "id": 228
   },
   {
     "category": "tactics",
     "title": "Irán pasa por España el sábado antes de viajar a México para el Mundial",
     "snippet": "El presidente de la Federación Iraní ha confirmado que el equipo volará a España antes de partir rumbo a Tijuana Leer",
-    "time": "4d ago",
+    "time": "5d ago",
     "timestamp": 1780423458,
     "color": "linear-gradient(135deg, #f59e0b, #78350f)",
     "overlay": "⚽",
     "link": "https://www.elmundo.es/deportes/futbol/mundial-de-futbol/2026/06/02/6a1f1b1ae4d4d811118b45cf.html",
     "image": "https://e00-elmundo.uecdn.es/assets/multimedia/imagenes/2026/06/02/17804228460877_990x0.jpg",
-    "source": "El Mundo Deportes",
-    "lang": "es",
-    "id": 226
-  },
-  {
-    "category": "transfer",
-    "title": "¿Crees que España alcanzará las semifinales del Mundial? Casino Marbella premia este hito con una brutal Supercuota 10.00.",
-    "snippet": "A tan solo unos días de que ruede el balón en la Copa Mundial de la FIFA de Canadá, México y Estados Unidos, las casas de apuestas echan fuego. Casino Marbella revienta el mercado ofreciendo un cuotón si la Roja se mete entre las cuatro mejores selecciones del planeta.",
-    "time": "5d ago",
-    "timestamp": 1780409838,
-    "color": "linear-gradient(135deg, #a855f7, #581c87)",
-    "overlay": "🔄",
-    "link": "https://www.marca.com/apuestas-deportivas/predicciones/2026/06/02/crees-espana-alcanzara-semifinales-mundial-casino-marbella-premia-hito-brutal-supercuota-10-00.html",
-    "image": "https://e01-xlk-ue-marca.uecdn.es/files/horizontal_image_desktop/uploads/2026/06/02/6a1ee5e8b3882.jpeg",
-    "source": "Marca",
-    "lang": "es",
-    "id": 227
-  },
-  {
-    "category": "tactics",
-    "title": "Argentina y Francia, las favoritas para el Mundial: las casas de apuestas prevén ingresos de más de 50.000 millones de dólares",
-    "snippet": "Expertos y casas de apuestas hablan sobre ingresos, los favoritos para el Mundial y algunas apuestas extrañas que hacen saltar las alarmas Leer",
-    "time": "5d ago",
-    "timestamp": 1780400808,
-    "color": "linear-gradient(135deg, #f59e0b, #78350f)",
-    "overlay": "⚽",
-    "link": "https://www.elmundo.es/deportes/futbol/mundial-de-futbol/2026/06/02/6a1ec1afe9cf4a007c8b45b5.html",
-    "image": "https://e00-elmundo.uecdn.es/assets/multimedia/imagenes/2026/06/02/17804003865506_990x0.jpg",
-    "source": "El Mundo Deportes",
-    "lang": "es",
-    "id": 228
-  },
-  {
-    "category": "tactics",
-    "title": "El FBI en un hotel de Suiza, 220.000 millones de dólares, 7.000 muertos: el sinuoso camino de Qatar para ser sede de un Mundial",
-    "snippet": "La cita en el país del Golfo, cargada de polémicas, resultó exitosa, en cambio, en lo futbolístico y lo logístico, y dio proyección al país Leer",
-    "time": "5d ago",
-    "timestamp": 1780347812,
-    "color": "linear-gradient(135deg, #f59e0b, #78350f)",
-    "overlay": "⚽",
-    "link": "https://www.elmundo.es/deportes/futbol/2026/06/01/6a1b0183fc6c8344258b4581.html",
-    "image": "https://e00-elmundo.uecdn.es/assets/multimedia/imagenes/2026/05/30/17801548960104_990x0.jpg",
     "source": "El Mundo Deportes",
     "lang": "es",
     "id": 229
