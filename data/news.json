@@ -1,5 +1,19 @@
 [
   {
+    "category": "rules",
+    "title": "Somali referee Artan barred from entering USA",
+    "snippet": "Somali referee Omar Artan, who was set to be the first from his country to officiate at the World Cup finals, is denied entry to the United States.",
+    "time": "7m ago",
+    "timestamp": 1780940346,
+    "color": "linear-gradient(135deg, #64748b, #334155)",
+    "overlay": "📺",
+    "link": "https://www.bbc.com/sport/football/articles/cnv9drg0qzgo?at_medium=RSS&at_campaign=rss",
+    "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/1c3c/live/7f657ff0-635e-11f1-8b15-6100cfbc3083.jpg",
+    "source": "BBC Sport",
+    "lang": "en",
+    "id": 200
+  },
+  {
     "category": "lineup",
     "title": "Walcott & Defoe’s 2006 World Cup fallout",
     "snippet": "Walcott, Defoe and Wayne revisit England's most controversial call-up.",
@@ -11,7 +25,7 @@
     "image": "https://ichef.bbci.co.uk/images/ic/240x135/p0lxths6.jpg",
     "source": "BBC Sport",
     "lang": "en",
-    "id": 200
+    "id": 201
   },
   {
     "category": "tactics",
@@ -25,13 +39,13 @@
     "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/73c5/live/8b099570-61fc-11f1-97a1-f7410493225c.jpg",
     "source": "BBC Sport",
     "lang": "en",
-    "id": 201
+    "id": 202
   },
   {
     "category": "press",
     "title": "Wilkinson reveals Wales plane was hit by lightning",
     "snippet": "Boss Rhian Wilkinson says Wales are happy to be at home in Tuesday's Women's World Cup qualifier against Czech Republic after revealing their team plane was struck by lightning en route to Montenegro.",
-    "time": "1h ago",
+    "time": "2h ago",
     "timestamp": 1780932932,
     "color": "linear-gradient(135deg, #0d9488, #115e59)",
     "overlay": "🎙️",
@@ -39,7 +53,7 @@
     "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/c1c0/live/70900920-632a-11f1-b1df-ebbb1d0d8a09.jpg",
     "source": "BBC Sport",
     "lang": "en",
-    "id": 202
+    "id": 203
   },
   {
     "category": "press",
@@ -53,7 +67,7 @@
     "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/5613/live/c5c00350-6343-11f1-b363-0978caabd15d.jpg",
     "source": "BBC Sport",
     "lang": "en",
-    "id": 203
+    "id": 204
   },
   {
     "category": "tactics",
@@ -67,7 +81,7 @@
     "image": "https://e2.365dm.com/26/06/1920x1080/skysports-football-england_7268425.jpg?20260608152134",
     "source": "Sky Sports",
     "lang": "en",
-    "id": 204
+    "id": 205
   },
   {
     "category": "press",
@@ -81,7 +95,7 @@
     "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/d7ff/live/c36aac30-6344-11f1-b1db-af71d47507d6.png",
     "source": "BBC Sport",
     "lang": "en",
-    "id": 205
+    "id": 206
   },
   {
     "category": "tactics",
@@ -95,7 +109,7 @@
     "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/3727/live/1a74ab70-633b-11f1-81a3-11c500fa26e7.jpg",
     "source": "BBC Sport",
     "lang": "en",
-    "id": 206
+    "id": 207
   },
   {
     "category": "tactics",
@@ -109,7 +123,7 @@
     "image": "https://e0.365dm.com/26/03/1920x1080/skysports-england-world-cup_7198576.jpg?20260320192255",
     "source": "Sky Sports",
     "lang": "en",
-    "id": 207
+    "id": 208
   },
   {
     "category": "rules",
@@ -123,7 +137,7 @@
     "image": "https://ichef.bbci.co.uk/images/ic/240x135/p0nqqysp.jpg",
     "source": "BBC Sport",
     "lang": "en",
-    "id": 208
+    "id": 209
   },
   {
     "category": "tactics",
@@ -137,7 +151,7 @@
     "image": "https://e2.365dm.com/26/06/1920x1080/skysports-world-cup-heat_7262834.png?20260601114442",
     "source": "Sky Sports",
     "lang": "en",
-    "id": 209
+    "id": 210
   },
   {
     "category": "tactics",
@@ -151,7 +165,7 @@
     "image": "https://e2.365dm.com/26/06/1920x1080/skysports-phil-babb-ireland_7263795.jpg?20260602145634",
     "source": "Sky Sports",
     "lang": "en",
-    "id": 210
+    "id": 211
   },
   {
     "category": "lineup",
@@ -165,7 +179,7 @@
     "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/2f01/live/451ede70-6315-11f1-aecd-df176a37a192.jpg",
     "source": "BBC Sport",
     "lang": "en",
-    "id": 211
+    "id": 212
   },
   {
     "category": "tactics",
@@ -179,7 +193,7 @@
     "image": "https://e2.365dm.com/26/06/1920x1080/skysports-world-cup-reporter-notebook_7268117.jpg?20260608100921",
     "source": "Sky Sports",
     "lang": "en",
-    "id": 212
+    "id": 213
   },
   {
     "category": "lineup",
@@ -193,27 +207,13 @@
     "image": "https://e1.365dm.com/26/06/1920x1080/skysports-jude-bellingham_7267903.jpg?20260607233059",
     "source": "Sky Sports",
     "lang": "en",
-    "id": 213
-  },
-  {
-    "category": "tactics",
-    "title": "Who am I? Guess World Cup star No 1",
-    "snippet": "Will you get today's player in as few attempts as possible?",
-    "time": "11h ago",
-    "timestamp": 1780897625,
-    "color": "linear-gradient(135deg, #f59e0b, #78350f)",
-    "overlay": "⚽",
-    "link": "https://www.bbc.com/sport/football/articles/cpwpn4kvd2do?at_medium=RSS&at_campaign=rss",
-    "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/e75c/live/3613f620-5eb7-11f1-89a3-d1f559421220.jpg",
-    "source": "BBC Sport",
-    "lang": "en",
     "id": 214
   },
   {
     "category": "tactics",
     "title": "Las nuevas botas de Lamine, Bellingham, Pedri y Raphinha",
     "snippet": "",
-    "time": "48m ago",
+    "time": "1h ago",
     "timestamp": 1780937145,
     "color": "linear-gradient(135deg, #f59e0b, #78350f)",
     "overlay": "⚽",
@@ -241,7 +241,7 @@
     "category": "rules",
     "title": "Lio en el Mundial: Estados Unidos deniega la entrada al mejor árbitro de África",
     "snippet": "Omar Abdulkadir Artan apunta a que no estará en la gran cita después de que no haya podido acceder al país",
-    "time": "1h ago",
+    "time": "2h ago",
     "timestamp": 1780933431,
     "color": "linear-gradient(135deg, #64748b, #334155)",
     "overlay": "📺",
@@ -353,7 +353,7 @@
     "category": "tactics",
     "title": "Reina avisa de la 'trampa' del Mundial y señala dos sorpresas: \"Va en el pack\"<br>",
     "snippet": "El exinternacional español habla con MARCA de la portería, la gestión de Luis de la Fuente y la presión del Mundial<span class=\"\" contenteditable=\"false\" tabindex=\"-1\" style=\"user-select: none; pointer-events: auto;\"></span>",
-    "time": "12h ago",
+    "time": "13h ago",
     "timestamp": 1780893238,
     "color": "linear-gradient(135deg, #f59e0b, #78350f)",
     "overlay": "⚽",
@@ -451,7 +451,7 @@
     "category": "injury",
     "title": "Abde Ezzalzouli podria perdre’s el Mundial",
     "snippet": "La selecció del Marroc podria patir una baixa de pes per afrontar el Mundial que comença el proper 11 de juny als Estats Units, Canadà i Mèxic ja que Abde Ezzalzouli, un dels seus millors futbolistes,...",
-    "time": "6h ago",
+    "time": "7h ago",
     "timestamp": 1780915147,
     "color": "linear-gradient(135deg, #ef4444, #7f1d1d)",
     "overlay": "🩺",
