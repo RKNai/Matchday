@@ -4,8 +4,8 @@
   "description": "Follow the FIFA World Cup 2026 with live matches, real-time updates, team subscriptions, and breaking news.",
   "start_url": "./index.html",
   "display": "standalone",
-  "background_color": "#080b11",
-  "theme_color": "#080b11",
+  "background_color": "#0f1115",
+  "theme_color": "#0f1115",
   "orientation": "any",
   "icons": [
     {

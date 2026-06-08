@@ -6,29 +6,30 @@
 
 /* --- Design Tokens --- */
 :root {
-  --bg-deep: #020204;           /* Deep Pitch-Black */
-  --bg-surface: rgba(10, 10, 12, 0.85); /* Neutral slate-black translucent background */
-  --bg-card: rgba(18, 18, 20, 0.6);      /* Dark neutral card */
-  --bg-card-hover: rgba(28, 28, 30, 0.8); /* Neutral dark card hover */
-  --border-color: rgba(255, 255, 255, 0.05); /* Softer borders */
-  --border-glow: rgba(16, 185, 129, 0.15);
+  --bg-deep: #0f1115;           /* sinsesgo slate-black background */
+  --bg-surface: rgba(15, 17, 21, 0.85); /* Slate-black translucent surface */
+  --bg-card: rgba(21, 24, 30, 0.65);      /* Muted slate-black card */
+  --bg-card-hover: rgba(30, 33, 41, 0.85); /* Hover card background */
+  --border-color: #252830;     /* sinsesgo dark borders */
+  --border-glow: rgba(245, 158, 11, 0.15); /* amber border glow */
   
   /* Brand Accents */
-  --primary: #10b981;          /* Electric Pitch Green */
-  --primary-glow: rgba(16, 185, 129, 0.4);
-  --secondary: #f59e0b;        /* Golden Trophy Yellow */
-  --secondary-glow: rgba(245, 158, 11, 0.4);
-  --accent: #3b82f6;           /* Host Nations Blue */
+  --primary: #f59e0b;          /* sinsesgo warm amber */
+  --primary-glow: rgba(245, 158, 11, 0.3);
+  --secondary: #d97706;        /* Deeper warm gold */
+  --secondary-glow: rgba(217, 119, 6, 0.3);
+  --accent: #f59e0b;           /* sinsesgo warm amber */
   --danger: #ef4444;           /* Alert Red */
   
   /* Text Colors */
-  --text-primary: #f8fafc;
-  --text-secondary: #94a3b8;
-  --text-muted: #64748b;
+  --text-primary: #fafaf7;     /* sinsesgo warm off-white */
+  --text-secondary: #a3a39a;   /* sinsesgo muted off-white */
+  --text-muted: #73736c;       /* sinsesgo dark muted grey */
   
   /* Typography */
-  --font-display: 'Outfit', -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+  --font-display: 'Newsreader', Georgia, serif;
   --font-body: 'Inter', -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+  --font-mono: 'JetBrains Mono', monospace;
   
   /* UI Layout (Updated dynamically by JS for split sizing) */
   --header-height: 70px;
@@ -62,8 +63,8 @@ body {
   overflow: hidden;
   position: relative;
   background-image: 
-    radial-gradient(circle at 10% 20%, rgba(16, 185, 129, 0.04) 0%, transparent 45%),
-    radial-gradient(circle at 90% 80%, rgba(59, 130, 246, 0.015) 0%, transparent 45%);
+    radial-gradient(circle at 10% 20%, rgba(245, 158, 11, 0.02) 0%, transparent 50%),
+    radial-gradient(circle at 90% 80%, rgba(217, 119, 6, 0.01) 0%, transparent 50%);
 }
 
 /* --- App Header (Glassmorphic) --- */
@@ -85,34 +86,34 @@ body {
 .header-logo {
   display: flex;
   align-items: center;
-  gap: 12px;
+  gap: 10px;
 }
 
-.logo-img {
-  width: 36px;
-  height: 36px;
-  object-fit: cover;
-  border-radius: 8px;
-  box-shadow: 0 0 15px var(--primary-glow);
-  border: 1px solid rgba(255, 255, 255, 0.1);
+.header-dot {
+  width: 8px;
+  height: 8px;
+  background: var(--primary);
+  border-radius: 50%;
+  box-shadow: 0 0 0 4px var(--primary-glow);
+  display: inline-block;
   transition: transform 0.3s var(--ease-spring);
 }
 
-.header-logo:hover .logo-img {
-  transform: rotate(15deg) scale(1.1);
+.header-logo:hover .header-dot {
+  transform: scale(1.25);
 }
 
 .logo-title {
-  font-family: var(--font-display);
-  font-size: 22px;
-  font-weight: 700;
-  letter-spacing: -0.5px;
+  font-family: var(--font-mono);
+  font-size: 15px;
+  font-weight: 600;
+  letter-spacing: -0.02em;
   color: var(--text-primary);
+  text-transform: lowercase;
 }
 
 .logo-title span {
   color: var(--primary);
-  text-shadow: 0 0 10px var(--primary-glow);
 }
 
 .header-actions {
@@ -126,8 +127,8 @@ body {
   display: flex;
   align-items: center;
   gap: 8px;
-  background: rgba(16, 185, 129, 0.1);
-  border: 1px solid rgba(16, 185, 129, 0.2);
+  background: rgba(245, 158, 11, 0.1);
+  border: 1px solid rgba(245, 158, 11, 0.2);
   padding: 6px 12px;
   border-radius: 20px;
   font-size: 12px;
@@ -147,9 +148,9 @@ body {
 }
 
 @keyframes pulse {
-  0% { transform: scale(0.95); box-shadow: 0 0 0 0 rgba(16, 185, 129, 0.7); }
-  70% { transform: scale(1); box-shadow: 0 0 0 6px rgba(16, 185, 129, 0); }
-  100% { transform: scale(0.95); box-shadow: 0 0 0 0 rgba(16, 185, 129, 0); }
+  0% { transform: scale(0.95); box-shadow: 0 0 0 0 rgba(245, 158, 11, 0.7); }
+  70% { transform: scale(1); box-shadow: 0 0 0 6px rgba(245, 158, 11, 0); }
+  100% { transform: scale(0.95); box-shadow: 0 0 0 0 rgba(245, 158, 11, 0); }
 }
 
 /* Install App Button */
@@ -297,11 +298,11 @@ body {
 }
 
 .tab-btn.active {
-  background: rgba(16, 185, 129, 0.15);
+  background: rgba(245, 158, 11, 0.15);
   border-color: var(--primary);
   color: var(--primary);
   font-weight: 600;
-  box-shadow: 0 0 10px rgba(16, 185, 129, 0.1);
+  box-shadow: 0 0 10px rgba(245, 158, 11, 0.1);
 }
 
 .tab-live-dot {
@@ -355,7 +356,7 @@ body {
   background: var(--primary);
   color: #000;
   border-color: var(--primary);
-  box-shadow: 0 4px 10px rgba(16, 185, 129, 0.25);
+  box-shadow: 0 4px 10px rgba(245, 158, 11, 0.25);
   font-weight: 700;
 }
 
@@ -368,12 +369,13 @@ body {
 .standings-table {
   width: 100%;
   border-collapse: collapse;
-  font-size: 12px;
+  font-family: var(--font-mono);
+  font-size: 11px;
   color: var(--text-secondary);
 }
 
 .standings-table th {
-  font-family: var(--font-display);
+  font-family: var(--font-mono);
   font-size: 10px;
   font-weight: 700;
   text-transform: uppercase;
@@ -400,6 +402,7 @@ body {
 
 .standings-table td.col-team {
   text-align: left;
+  font-family: var(--font-body);
   font-weight: 600;
   color: var(--text-primary);
   display: flex;
@@ -409,7 +412,7 @@ body {
 
 .standings-table td.col-pts {
   font-weight: 700;
-  color: var(--text-primary);
+  color: var(--primary);
 }
 
 .standings-row {
@@ -513,8 +516,8 @@ body {
 
 /* Live match glow effect */
 .match-card.live-match {
-  border-color: rgba(16, 185, 129, 0.25);
-  box-shadow: inset 0 0 12px rgba(16, 185, 129, 0.05);
+  border-color: rgba(245, 158, 11, 0.25);
+  box-shadow: inset 0 0 12px rgba(245, 158, 11, 0.05);
 }
 
 .match-card.live-match::before {
@@ -529,6 +532,7 @@ body {
 }
 
 .match-stage {
+  font-family: var(--font-mono);
   font-size: 10px;
   font-weight: 600;
   color: var(--text-muted);
@@ -537,7 +541,8 @@ body {
 }
 
 .match-status {
-  font-size: 11px;
+  font-family: var(--font-mono);
+  font-size: 10px;
   font-weight: 700;
   padding: 3px 6px;
   border-radius: 4px;
@@ -577,8 +582,8 @@ body {
 
 .pulse-text {
   color: var(--primary);
-  background: rgba(16, 185, 129, 0.1);
-  text-shadow: 0 0 4px rgba(16, 185, 129, 0.2);
+  background: rgba(245, 158, 11, 0.1);
+  text-shadow: 0 0 4px rgba(245, 158, 11, 0.2);
 }
 
 /* Match Score Layout */
@@ -616,9 +621,9 @@ body {
   align-items: center;
   justify-content: center;
   gap: 8px;
-  font-family: var(--font-display);
-  font-size: 16px;
-  font-weight: 800;
+  font-family: var(--font-mono);
+  font-size: 14px;
+  font-weight: 700;
   background: rgba(0, 0, 0, 0.35);
   padding: 4px 10px;
   border-radius: 8px;
@@ -632,8 +637,9 @@ body {
 }
 
 .score-upcoming {
-  font-size: 12px;
-  font-weight: 700;
+  font-family: var(--font-mono);
+  font-size: 11px;
+  font-weight: 600;
   color: var(--text-secondary);
   background: rgba(255, 255, 255, 0.05);
 }
@@ -689,10 +695,10 @@ body {
 }
 
 .btn-subscribe.active {
-  background: rgba(16, 185, 129, 0.12);
+  background: rgba(245, 158, 11, 0.12);
   border-color: var(--primary);
   color: var(--primary);
-  box-shadow: 0 0 10px rgba(16, 185, 129, 0.15);
+  box-shadow: 0 0 10px rgba(245, 158, 11, 0.15);
 }
 
 .btn-subscribe.active svg {
@@ -741,8 +747,8 @@ body {
 }
 
 .divider-handle:hover, .divider-handle.dragging {
-  background: rgba(16, 185, 129, 0.1);
-  border-color: rgba(16, 185, 129, 0.3);
+  background: rgba(245, 158, 11, 0.1);
+  border-color: rgba(245, 158, 11, 0.3);
 }
 
 .divider-knob {
@@ -786,7 +792,7 @@ body {
 
 .news-search-container:focus-within {
   border-color: var(--primary);
-  box-shadow: 0 0 10px rgba(16, 185, 129, 0.15);
+  box-shadow: 0 0 10px rgba(245, 158, 11, 0.15);
   width: 280px;
 }
 
@@ -954,14 +960,14 @@ body {
 }
 
 .news-source {
-  font-size: 11px;
+  font-family: var(--font-mono);
+  font-size: 10px;
   font-weight: 600;
   color: var(--primary);
-  background: rgba(16, 185, 129, 0.08);
-  border: 1px solid rgba(16, 185, 129, 0.15);
+  background: rgba(245, 158, 11, 0.08);
+  border: 1px solid rgba(245, 158, 11, 0.15);
   padding: 2px 8px;
   border-radius: 4px;
-  text-shadow: 0 0 4px rgba(16, 185, 129, 0.15);
 }
 
 .news-content {
@@ -979,7 +985,8 @@ body {
 }
 
 .news-tag {
-  font-size: 10px;
+  font-family: var(--font-mono);
+  font-size: 9px;
   font-weight: 700;
   text-transform: uppercase;
   padding: 2px 6px;
@@ -1017,7 +1024,8 @@ body {
 }
 
 .news-time {
-  font-size: 11px;
+  font-family: var(--font-mono);
+  font-size: 10px;
   color: var(--text-muted);
 }
 
@@ -1197,7 +1205,7 @@ body {
 }
 
 .team-chip-subscribe.active {
-  background: rgba(16, 185, 129, 0.08);
+  background: rgba(245, 158, 11, 0.08);
   border-color: var(--primary);
   color: var(--primary);
 }
@@ -1220,8 +1228,8 @@ body {
 }
 
 .subscribed-team-row {
-  background: rgba(16, 185, 129, 0.05);
-  border: 1px solid rgba(16, 185, 129, 0.2);
+  background: rgba(245, 158, 11, 0.05);
+  border: 1px solid rgba(245, 158, 11, 0.2);
   padding: 10px 14px;
   border-radius: 8px;
   display: flex;
@@ -1327,7 +1335,7 @@ body {
 
 .modal-header-section {
   padding: 30px 24px 20px 24px;
-  background: linear-gradient(180deg, rgba(16, 185, 129, 0.1) 0%, transparent 100%);
+  background: linear-gradient(180deg, rgba(245, 158, 11, 0.1) 0%, transparent 100%);
   border-bottom: 1px solid var(--border-color);
   display: flex;
   flex-direction: column;
@@ -1616,7 +1624,7 @@ body.light-theme .lineup-select-btn.active {
 .soccer-pitch {
   width: 100%;
   height: 350px;
-  background: radial-gradient(circle, rgba(16, 185, 129, 0.25) 0%, rgba(6, 78, 59, 0.35) 100%),
+  background: radial-gradient(circle, rgba(245, 158, 11, 0.25) 0%, rgba(6, 78, 59, 0.35) 100%),
               repeating-linear-gradient(90deg, rgba(255, 255, 255, 0.015) 0px, rgba(255, 255, 255, 0.015) 30px, rgba(0, 0, 0, 0.05) 30px, rgba(0, 0, 0, 0.05) 60px);
   border: 1px solid rgba(255, 255, 255, 0.15);
   border-radius: 12px;
@@ -1830,7 +1838,7 @@ body.light-theme .player-node-name {
   background: rgba(6, 6, 8, 0.95);
   backdrop-filter: blur(16px);
   border: 1px solid var(--primary);
-  box-shadow: 0 10px 25px rgba(0,0,0,0.5), 0 0 15px rgba(16, 185, 129, 0.15);
+  box-shadow: 0 10px 25px rgba(0,0,0,0.5), 0 0 15px rgba(245, 158, 11, 0.15);
   border-radius: 12px;
   padding: 16px;
   display: flex;
@@ -2194,24 +2202,24 @@ body.light-theme .player-node-name {
 
 /* --- Customization & Light Theme Overrides --- */
 body.light-theme {
-  --bg-deep: #f1f5f9;                 /* Light grayish blue background */
-  --bg-surface: rgba(255, 255, 255, 0.85); /* Translucent pure white surface */
-  --bg-card: rgba(255, 255, 255, 0.65);    /* Pure white cards */
-  --bg-card-hover: rgba(255, 255, 255, 0.9); /* Hover card background */
-  --border-color: rgba(15, 23, 42, 0.08);   /* Dark borders for light backgrounds */
-  --border-glow: rgba(16, 185, 129, 0.08);
+  --bg-deep: #fafaf7;                 /* sinsesgo warm off-white paper */
+  --bg-surface: rgba(250, 250, 247, 0.85);
+  --bg-card: rgba(242, 242, 233, 0.65);
+  --bg-card-hover: rgba(235, 235, 224, 0.85);
+  --border-color: #e4e4db;           /* sinsesgo light borders */
+  --border-glow: rgba(245, 158, 11, 0.08);
   
   /* Brand Accents */
-  --primary: #059669;                 /* Deeper emerald green for text contrast */
-  --primary-glow: rgba(5, 150, 105, 0.2);
-  --secondary: #d97706;               /* Deeper trophy gold */
+  --primary: #f59e0b;                 /* sinsesgo warm amber */
+  --primary-glow: rgba(245, 158, 11, 0.2);
+  --secondary: #d97706;               /* Deeper warm gold */
   --secondary-glow: rgba(217, 119, 6, 0.2);
-  --accent: #2563eb;                  /* Deeper blue */
+  --accent: #f59e0b;                  /* sinsesgo warm amber */
   
   /* Text Colors */
-  --text-primary: #0f172a;            /* Slate-900 */
-  --text-secondary: #475569;          /* Slate-600 */
-  --text-muted: #64748b;              /* Slate-500 */
+  --text-primary: #0f1115;            /* sinsesgo dark ink text */
+  --text-secondary: #5c5e54;          /* sinsesgo muted dark ink */
+  --text-muted: #8c8e82;              /* sinsesgo light muted grey */
 }
 
 /* Light Theme Component Specific Refinements */
@@ -2282,7 +2290,7 @@ body.light-theme .team-chip-subscribe:hover {
 }
 
 body.light-theme .team-chip-subscribe.active {
-  background: rgba(16, 185, 129, 0.1) !important;
+  background: rgba(245, 158, 11, 0.1) !important;
   color: var(--primary) !important;
 }
 
@@ -2543,7 +2551,7 @@ body.light-theme .slider-round:before {
 }
 
 .switch-toggle input:checked + .slider-round {
-  background-color: rgba(16, 185, 129, 0.2);
+  background-color: rgba(245, 158, 11, 0.2);
   border-color: var(--primary);
 }
 
@@ -2569,12 +2577,12 @@ body.light-theme .slider-round:before {
   position: absolute;
   border-radius: 50%;
   filter: blur(140px);
-  opacity: 0.14; /* Subtly glowing */
+  opacity: 0.04; /* Very subtle glow */
   transition: opacity 0.5s var(--ease-smooth);
 }
 
 .glow-emerald {
-  background: var(--primary);
+  background: #b45309; /* Warm terracotta rust */
   width: 45vw;
   height: 45vw;
   top: -12vw;
@@ -2583,7 +2591,7 @@ body.light-theme .slider-round:before {
 }
 
 .glow-gold {
-  background: var(--secondary);
+  background: #d97706; /* Warm amber/gold */
   width: 48vw;
   height: 48vw;
   bottom: -15vw;
@@ -2592,7 +2600,7 @@ body.light-theme .slider-round:before {
 }
 
 .glow-blue {
-  background: var(--accent);
+  background: #78716c; /* Warm slate sand */
   width: 38vw;
   height: 38vw;
   top: 45vh;
@@ -2643,7 +2651,7 @@ body.light-theme .slider-round:before {
 
 /* Light Theme overrides to soften watercolor flow */
 body.light-theme .mesh-glow {
-  opacity: 0.06;
+  opacity: 0.015;
 }
 
 /* --- Interactive Playoff Bracket Visualizer --- */
@@ -2812,7 +2820,7 @@ body.light-theme .mesh-glow {
 }
 
 .bracket-team-row.correct {
-  background: rgba(16, 185, 129, 0.12) !important;
+  background: rgba(245, 158, 11, 0.12) !important;
   border-color: var(--primary) !important;
   color: var(--primary) !important;
   font-weight: 600;
