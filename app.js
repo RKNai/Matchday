@@ -673,6 +673,34 @@ function translateDate(dateStr) {
     .replace('Jul', t('jul', 'Jul'));
 }
 
+function formatMatchDate(dateStr) {
+  if (!dateStr) return '';
+  if (dateStr.includes('UTC')) {
+    // Append year 2026 to guarantee accurate Date parsing
+    let parseStr = dateStr;
+    if (!dateStr.includes('2026')) {
+      parseStr = dateStr.replace('UTC', '2026 UTC');
+    }
+    const d = new Date(parseStr);
+    if (!isNaN(d.getTime())) {
+      const options = { month: 'short', day: 'numeric', hour: '2-digit', minute: '2-digit', hour12: false };
+      const locale = state.lang === 'es' ? 'es-ES' : state.lang === 'ca' ? 'ca-ES' : 'en-US';
+      let formatted = new Intl.DateTimeFormat(locale, options).format(d);
+      
+      // Get the local timezone abbreviation
+      let tzAbbr = '';
+      try {
+        const parts = d.toLocaleTimeString('en-US', { timeZoneName: 'short' }).split(' ');
+        const tzString = parts[parts.length - 1];
+        if (tzString) tzAbbr = ` (${tzString})`;
+      } catch (e) {}
+      
+      return formatted + tzAbbr;
+    }
+  }
+  return translateDate(dateStr);
+}
+
 // --- DOM References ---
 const DOM = {
   appContainer: document.getElementById('appContainer'),
@@ -982,28 +1010,39 @@ function isRealTeam(name) {
   return !/^[0-9]/.test(clean) && clean !== 'TBD' && !clean.toLowerCase().includes('announced');
 }
 
-function toggleSubscription(teamName) {
+function toggleSubscription(teamName, silent = false, skipRender = false) {
   if (!isRealTeam(teamName)) return;
+  let changed = false;
   if (state.subscribedTeams.has(teamName)) {
     state.subscribedTeams.delete(teamName);
-    showToast('🔔 Alerts Removed', `Unsubscribed from ${teamName} updates.`);
+    if (!silent) {
+      showToast('🔔 Alerts Removed', `Unsubscribed from ${teamName} updates.`);
+    }
+    changed = true;
   } else {
     state.subscribedTeams.add(teamName);
-    showToast('🔔 Subscribed!', `You will now receive live alerts for ${teamName}.`);
+    if (!silent) {
+      showToast('🔔 Subscribed!', `You will now receive live alerts for ${teamName}.`);
+    }
     
     // Prompt native notification permission on subscription if not granted yet
-    if (Notification.permission === 'default') {
+    if (Notification.permission === 'default' && !silent) {
       requestPushPermission();
     }
+    changed = true;
   }
   
-  // Persist State
-  localStorage.setItem('matchday_subs', JSON.stringify(Array.from(state.subscribedTeams)));
-  
-  // Sync all UIs
-  renderMatchesList();
-  renderSubscriptionsUI();
-  updateSyncStatus();
+  if (changed) {
+    // Persist State
+    localStorage.setItem('matchday_subs', JSON.stringify(Array.from(state.subscribedTeams)));
+    
+    // Sync all UIs
+    if (!skipRender) {
+      renderMatchesList();
+      renderSubscriptionsUI();
+      updateSyncStatus();
+    }
+  }
 }
 
 async function requestPushPermission() {
@@ -1812,7 +1851,7 @@ function renderMatchesList() {
     } else if (isFinished) {
       statusHtml = `<span class="match-status">${t('final_result', 'FINAL RESULT')}</span>`;
     } else {
-      const label = match.date ? `${translateDate(match.date)}` : t('upcoming_pred', 'Upcoming • Prediction open');
+      const label = match.date ? `${formatMatchDate(match.date)}` : t('upcoming_pred', 'Upcoming • Prediction open');
       statusHtml = `<span class="match-status">${label}</span>`;
     }
 
@@ -1864,8 +1903,28 @@ function renderMatchesList() {
     if (showAlertBtn) {
       card.querySelector('.btn-subscribe').addEventListener('click', (e) => {
         e.stopPropagation();
-        // Default to subscribing/unsubscribing home team as representative
-        toggleSubscription(match.home);
+        if (hasAnySub) {
+          const homeSubbed = state.subscribedTeams.has(match.home);
+          const awaySubbed = state.subscribedTeams.has(match.away);
+          if (homeSubbed) toggleSubscription(match.home, true, true);
+          if (awaySubbed) toggleSubscription(match.away, true, true);
+          // Manually run sync/render once after both are toggled
+          renderMatchesList();
+          renderSubscriptionsUI();
+          updateSyncStatus();
+          showToast('🔔 Alerts Removed', `Unsubscribed from match updates.`);
+        } else {
+          toggleSubscription(match.home, true, true);
+          toggleSubscription(match.away, true, true);
+          // Manually run sync/render once after both are toggled
+          renderMatchesList();
+          renderSubscriptionsUI();
+          updateSyncStatus();
+          showToast('🔔 Subscribed!', `You will now receive live alerts for this match.`);
+          if (Notification.permission === 'default') {
+            requestPushPermission();
+          }
+        }
       });
     }
 
