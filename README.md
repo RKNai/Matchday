@@ -50,7 +50,7 @@ MatchDay is a premium, zero-dependency, progressive web app (PWA) designed to tr
 
 ### 8. Dynamic Organic Mesh Gradients
 * **Drifting Glow Spheres**: Three large, animated blur spots (Emerald, Gold, and Blue) slowly drift and scale in the background to create a premium organic look.
-* **Watercolor Light Mode**: Automatically reduces the glow opacity to `0.06` in Light Mode to preserve readability on light backdrops.
+* **Watercolor Light Mode**: Automatically reduces the glow opacity to `0.04` in Light Mode to preserve readability on light backdrops.
 * **Layout Isolation**: Positioned behind the glassmorphic panels at `z-index: -2` with `pointer-events: none` to prevent user interaction blockage.
 
 ---
@@ -157,9 +157,9 @@ We have included a wrapper script and Systemd service template for this purpose:
 2. **Systemd Configuration (`matchday-scraper.service`)**: Daemonizes the scraper runner to start automatically on system boot and restart on failure.
 
 #### Deployment Steps on the VM:
-1. Pull the latest code on your VM:
+1. Pull the latest code on your VM (using fetch and reset to avoid divergent branch conflicts):
    ```bash
-   git pull origin main
+   git fetch origin && git reset --hard origin/main
    ```
 2. Mark the wrapper script as executable:
    ```bash
