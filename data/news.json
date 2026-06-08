@@ -1,9 +1,79 @@
 [
   {
     "category": "tactics",
-    "title": "World Cup 2026 kits: VOTE for the best 'home' shirts at the competition!",
-    "snippet": "",
+    "title": "Rashford 'dead cert to start for me' - Walcott",
+    "snippet": "Former England winger Theo Walcott is \"most psyched\" about Marcus Rashford for the Three Lions at the World Cup.",
+    "time": "18m ago",
+    "timestamp": 1780934412,
+    "color": "linear-gradient(135deg, #f59e0b, #78350f)",
+    "overlay": "⚽",
+    "link": "https://www.bbc.com/sport/football/articles/c07yepr7xj0o?at_medium=RSS&at_campaign=rss",
+    "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/73c5/live/8b099570-61fc-11f1-97a1-f7410493225c.jpg",
+    "source": "BBC Sport",
+    "lang": "en",
+    "id": 200
+  },
+  {
+    "category": "press",
+    "title": "Wilkinson reveals Wales plane was hit by lightning",
+    "snippet": "Boss Rhian Wilkinson says Wales are happy to be at home in Tuesday's Women's World Cup qualifier against Czech Republic after revealing their team plane was struck by lightning en route to Montenegro.",
+    "time": "42m ago",
+    "timestamp": 1780932932,
+    "color": "linear-gradient(135deg, #0d9488, #115e59)",
+    "overlay": "🎙️",
+    "link": "https://www.bbc.com/sport/football/articles/cly9v1r2077o?at_medium=RSS&at_campaign=rss",
+    "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/c1c0/live/70900920-632a-11f1-b1df-ebbb1d0d8a09.jpg",
+    "source": "BBC Sport",
+    "lang": "en",
+    "id": 201
+  },
+  {
+    "category": "press",
+    "title": "Beating France would be one of football's biggest stories - Ward",
+    "snippet": "Republic of Ireland boss Carla Ward says beating France to qualify automatically for the 2027 Women's World Cup would \"be one of the biggest stories in world football\".",
     "time": "1h ago",
+    "timestamp": 1780931346,
+    "color": "linear-gradient(135deg, #0d9488, #115e59)",
+    "overlay": "🎙️",
+    "link": "https://www.bbc.com/sport/articles/c4gyle0pze1o?at_medium=RSS&at_campaign=rss",
+    "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/5613/live/c5c00350-6343-11f1-b363-0978caabd15d.jpg",
+    "source": "BBC Sport",
+    "lang": "en",
+    "id": 202
+  },
+  {
+    "category": "press",
+    "title": "Norway boss brands Scotland's Clarke 'unprofessional'",
+    "snippet": "Steve Clarke is branded \"unprofessional\" by Norway counterpart Stale Solbakken after Scotland cancelled a training-ground friendly before the World Cup.",
+    "time": "1h ago",
+    "timestamp": 1780928635,
+    "color": "linear-gradient(135deg, #0d9488, #115e59)",
+    "overlay": "🎙️",
+    "link": "https://www.bbc.com/sport/football/articles/c17ylw8vz05o?at_medium=RSS&at_campaign=rss",
+    "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/d7ff/live/c36aac30-6344-11f1-b1db-af71d47507d6.png",
+    "source": "BBC Sport",
+    "lang": "en",
+    "id": 203
+  },
+  {
+    "category": "tactics",
+    "title": "How Emslie went from giving birth to World Cup qualifiers inside six months",
+    "snippet": "Scotland's Claire Emslie was back playing competitive football just five months after giving birth and is now targeting next year's World Cup finals in Brazil.",
+    "time": "2h ago",
+    "timestamp": 1780924851,
+    "color": "linear-gradient(135deg, #f59e0b, #78350f)",
+    "overlay": "⚽",
+    "link": "https://www.bbc.com/sport/football/articles/cx23kj5814po?at_medium=RSS&at_campaign=rss",
+    "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/3727/live/1a74ab70-633b-11f1-81a3-11c500fa26e7.jpg",
+    "source": "BBC Sport",
+    "lang": "en",
+    "id": 204
+  },
+  {
+    "category": "tactics",
+    "title": "World Cup 2026 kits: VOTE for your favourite!",
+    "snippet": "",
+    "time": "5h ago",
     "timestamp": 1780916400,
     "color": "linear-gradient(135deg, #f59e0b, #78350f)",
     "overlay": "⚽",
@@ -11,13 +81,13 @@
     "image": "https://e0.365dm.com/26/03/1920x1080/skysports-england-world-cup_7198576.jpg?20260320192255",
     "source": "Sky Sports",
     "lang": "en",
-    "id": 200
+    "id": 205
   },
   {
     "category": "rules",
     "title": "More than the Score",
     "snippet": "Morocco and Senegal are among the ten nations hoping to win a first FIFA men’s World Cup",
-    "time": "1h ago",
+    "time": "5h ago",
     "timestamp": 1780914120,
     "color": "linear-gradient(135deg, #64748b, #334155)",
     "overlay": "📺",
@@ -25,13 +95,13 @@
     "image": "https://ichef.bbci.co.uk/images/ic/240x135/p0nqqysp.jpg",
     "source": "BBC Sport",
     "lang": "en",
-    "id": 201
+    "id": 206
   },
   {
     "category": "tactics",
     "title": "How will extreme heat impact the 2026 World Cup?",
     "snippet": "The challenge of the 2026 World Cup will extend beyond tactics, pressure and talent - with extreme and dangerous levels of heat presenting itself as a formidable extra opponent.",
-    "time": "2h ago",
+    "time": "6h ago",
     "timestamp": 1780912800,
     "color": "linear-gradient(135deg, #f59e0b, #78350f)",
     "overlay": "⚽",
@@ -39,13 +109,13 @@
     "image": "https://e2.365dm.com/26/06/1920x1080/skysports-world-cup-heat_7262834.png?20260601114442",
     "source": "Sky Sports",
     "lang": "en",
-    "id": 202
+    "id": 207
   },
   {
     "category": "tactics",
     "title": "'Brutal, searing and punishing heat' - Babb on playing for Ireland at USA '94",
     "snippet": "While none of the home nations qualified for the 1994 World Cup, the Republic of Ireland did.",
-    "time": "2h ago",
+    "time": "6h ago",
     "timestamp": 1780912800,
     "color": "linear-gradient(135deg, #f59e0b, #78350f)",
     "overlay": "⚽",
@@ -53,13 +123,13 @@
     "image": "https://e2.365dm.com/26/06/1920x1080/skysports-phil-babb-ireland_7263795.jpg?20260602145634",
     "source": "Sky Sports",
     "lang": "en",
-    "id": 203
+    "id": 208
   },
   {
     "category": "tactics",
     "title": "Everything you need to know about Curacao - the World Cup's smallest ever nation",
     "snippet": "On Tuesday November 18 2025, Curacao travelled to Kingston to take on Jamaica in a winner-takes-all World Cup qualifier.",
-    "time": "2h ago",
+    "time": "6h ago",
     "timestamp": 1780912800,
     "color": "linear-gradient(135deg, #f59e0b, #78350f)",
     "overlay": "⚽",
@@ -67,13 +137,13 @@
     "image": "https://e0.365dm.com/26/06/1920x1080/skysports-curacao-world-cuo_7267161.jpg?20260606223338",
     "source": "Sky Sports",
     "lang": "en",
-    "id": 204
+    "id": 209
   },
   {
     "category": "lineup",
     "title": "Bellingham has fight to start for England - Tuchel",
     "snippet": "Jude Bellingham has a fight on his hands to feature in England's starting line-up at the World Cup, says manager Thomas Tuchel.",
-    "time": "3h ago",
+    "time": "7h ago",
     "timestamp": 1780909426,
     "color": "linear-gradient(135deg, #3b82f6, #1e3a8a)",
     "overlay": "📋",
@@ -81,13 +151,13 @@
     "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/2f01/live/451ede70-6315-11f1-aecd-df176a37a192.jpg",
     "source": "BBC Sport",
     "lang": "en",
-    "id": 205
+    "id": 210
   },
   {
     "category": "tactics",
     "title": "Group of death? Scotland eye progression on World Cup return",
     "snippet": "As Scotland’s World Cup opener draws ever closer, Steve Clarke will have a fair idea of who he will play and how he will set up.",
-    "time": "3h ago",
+    "time": "7h ago",
     "timestamp": 1780909200,
     "color": "linear-gradient(135deg, #f59e0b, #78350f)",
     "overlay": "⚽",
@@ -95,13 +165,13 @@
     "image": "https://e2.365dm.com/26/06/1920x1080/skysports-world-cup-reporter-notebook_7268117.jpg?20260608100921",
     "source": "Sky Sports",
     "lang": "en",
-    "id": 206
+    "id": 211
   },
   {
     "category": "lineup",
     "title": "Bellingham has a fight on his hands for England starting spot, Tuchel says",
     "snippet": "Thomas Tuchel says Jude Bellingham has a battle on his hands to secure an England starting place, as the competition for World Cup places hots up under the West Palm Beach sun.",
-    "time": "5h ago",
+    "time": "9h ago",
     "timestamp": 1780902000,
     "color": "linear-gradient(135deg, #3b82f6, #1e3a8a)",
     "overlay": "📋",
@@ -109,13 +179,13 @@
     "image": "https://e1.365dm.com/26/06/1920x1080/skysports-jude-bellingham_7267903.jpg?20260607233059",
     "source": "Sky Sports",
     "lang": "en",
-    "id": 207
+    "id": 212
   },
   {
     "category": "tactics",
     "title": "Who am I? Guess World Cup star No 1",
     "snippet": "Will you get today's player in as few attempts as possible?",
-    "time": "6h ago",
+    "time": "10h ago",
     "timestamp": 1780897625,
     "color": "linear-gradient(135deg, #f59e0b, #78350f)",
     "overlay": "⚽",
@@ -123,88 +193,18 @@
     "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/e75c/live/3613f620-5eb7-11f1-89a3-d1f559421220.jpg",
     "source": "BBC Sport",
     "lang": "en",
-    "id": 208
+    "id": 213
   },
   {
     "category": "tactics",
     "title": "Why Olise can be one of France's very best - Clichy",
     "snippet": "Former France international Gael Clichy explains why Bayern Munich's France forward Michael Olise could be the breakout star of this summer's World Cup.",
-    "time": "6h ago",
+    "time": "10h ago",
     "timestamp": 1780897313,
     "color": "linear-gradient(135deg, #f59e0b, #78350f)",
     "overlay": "⚽",
     "link": "https://www.bbc.com/sport/football/articles/c2020jylzk1o?at_medium=RSS&at_campaign=rss",
     "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/b37b/live/a3b25fe0-61bf-11f1-8b8c-6d33e1d5abb6.jpg",
-    "source": "BBC Sport",
-    "lang": "en",
-    "id": 209
-  },
-  {
-    "category": "lineup",
-    "title": "Papers: Ederson's Man Utd move at risk of delay after World Cup call-up",
-    "snippet": "The top stories and transfer rumours from Monday's newspapers...",
-    "time": "13h ago",
-    "timestamp": 1780871400,
-    "color": "linear-gradient(135deg, #3b82f6, #1e3a8a)",
-    "overlay": "📋",
-    "link": "https://www.skysports.com/football/news/11095/13551789/ederson-to-manchester-united-midfielders-call-up-to-brazil-world-cup-squad-could-delay-old-trafford-move-paper-talk",
-    "image": "https://e1.365dm.com/25/03/1920x1080/skysports-paper-talk-brand-refresh_6852897.jpg?20250311094415",
-    "source": "Sky Sports",
-    "lang": "en",
-    "id": 210
-  },
-  {
-    "category": "tactics",
-    "title": "Rice to be England's vice-captain at World Cup",
-    "snippet": "Arsenal midfielder Declan Rice will be England's vice-captain for the World Cup.",
-    "time": "14h ago",
-    "timestamp": 1780867408,
-    "color": "linear-gradient(135deg, #f59e0b, #78350f)",
-    "overlay": "⚽",
-    "link": "https://www.bbc.com/sport/football/articles/cn4r74yjpxvo?at_medium=RSS&at_campaign=rss",
-    "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/f2c5/live/7fab2040-62b5-11f1-8a13-59dc424d6dbf.jpg",
-    "source": "BBC Sport",
-    "lang": "en",
-    "id": 211
-  },
-  {
-    "category": "tactics",
-    "title": "England latest: Tuchel reveals vice-captain for World Cup",
-    "snippet": "",
-    "time": "17h ago",
-    "timestamp": 1780858800,
-    "color": "linear-gradient(135deg, #f59e0b, #78350f)",
-    "overlay": "⚽",
-    "link": "https://www.skysports.com/football/live-blog/11095/13427059/england-football-news-live-updates-schedule-and-analysis-of-thomas-tuchels-three-lions",
-    "image": "https://e2.365dm.com/26/05/1920x1080/skysports-world-cup-england_7255431.jpg?20260522080147",
-    "source": "Sky Sports",
-    "lang": "en",
-    "id": 212
-  },
-  {
-    "category": "injury",
-    "title": "Man Utd-bound Ederson replaces Wesley in Brazil squad",
-    "snippet": "Brazil full-back Wesley is ruled out of the World Cup because of a thigh injury, with Manchester United-bound midfielder Ederson called up to replace him.",
-    "time": "17h ago",
-    "timestamp": 1780855986,
-    "color": "linear-gradient(135deg, #ef4444, #7f1d1d)",
-    "overlay": "🩺",
-    "link": "https://www.bbc.com/sport/football/articles/c0ey82g18xjo?at_medium=RSS&at_campaign=rss",
-    "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/71ac/live/48ae51c0-629c-11f1-96bd-c1bed4b24e0c.jpg",
-    "source": "BBC Sport",
-    "lang": "en",
-    "id": 213
-  },
-  {
-    "category": "injury",
-    "title": "Man Utd-bound Ederson replaces injured Wesley in Brazil squad",
-    "snippet": "Brazil full-back Wesley is ruled out of the World Cup because of a thigh injury, with Manchester United-bound midfielder Ederson called up to replace him.",
-    "time": "17h ago",
-    "timestamp": 1780855986,
-    "color": "linear-gradient(135deg, #ef4444, #7f1d1d)",
-    "overlay": "🩺",
-    "link": "https://www.bbc.com/sport/football/articles/c0ey82g18xjo?at_medium=RSS&at_campaign=rss",
-    "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/71ac/live/48ae51c0-629c-11f1-96bd-c1bed4b24e0c.jpg",
     "source": "BBC Sport",
     "lang": "en",
     "id": 214
@@ -213,7 +213,7 @@
     "category": "rules",
     "title": "FIFA confirma la eliminación de la sanción al Cádiz",
     "snippet": "Todo se desencadenó por un fallo en el número de cuenta al pagar los derechos de formación de Brian Ocampo",
-    "time": "1h ago",
+    "time": "5h ago",
     "timestamp": 1780914069,
     "color": "linear-gradient(135deg, #64748b, #334155)",
     "overlay": "📺",
@@ -227,7 +227,7 @@
     "category": "rules",
     "title": "La excepción que confirma la regla en Curazao<br>",
     "snippet": "El excanterano del Manchester United es el único convocado por Advocaat nacido en Curazao",
-    "time": "2h ago",
+    "time": "6h ago",
     "timestamp": 1780911965,
     "color": "linear-gradient(135deg, #64748b, #334155)",
     "overlay": "📺",
@@ -241,7 +241,7 @@
     "category": "injury",
     "title": "Golpe muy duro para Marruecos con Abde<br>",
     "snippet": "El marroquí del Betis puede sufrir un esguince del ligamento interno de su rodilla derecha",
-    "time": "3h ago",
+    "time": "7h ago",
     "timestamp": 1780908758,
     "color": "linear-gradient(135deg, #ef4444, #7f1d1d)",
     "overlay": "🩺",
@@ -255,7 +255,7 @@
     "category": "tactics",
     "title": "¿Alerta Araujo en Uruguay?",
     "snippet": "Sigue la última hora de toda la información de la Copa del Mundo 2026",
-    "time": "4h ago",
+    "time": "9h ago",
     "timestamp": 1780902735,
     "color": "linear-gradient(135deg, #f59e0b, #78350f)",
     "overlay": "⚽",
@@ -269,7 +269,7 @@
     "category": "tactics",
     "title": "Mendieta: \"España no es la gran favorita para este Mundial\"",
     "snippet": "El exfutbolista&nbsp;vizcaíno&nbsp;atendió a MARCA&nbsp;como embajador de Enterprise",
-    "time": "5h ago",
+    "time": "9h ago",
     "timestamp": 1780902076,
     "color": "linear-gradient(135deg, #f59e0b, #78350f)",
     "overlay": "⚽",
@@ -283,7 +283,7 @@
     "category": "tactics",
     "title": "Reina avisa de la 'trampa' del Mundial y señala dos sorpresas: \"Va en el pack\"<br>",
     "snippet": "El exinternacional español habla con MARCA de la portería, la gestión de Luis de la Fuente y la presión del Mundial<span class=\"\" contenteditable=\"false\" tabindex=\"-1\" style=\"user-select: none; pointer-events: auto;\"></span>",
-    "time": "7h ago",
+    "time": "11h ago",
     "timestamp": 1780893238,
     "color": "linear-gradient(135deg, #f59e0b, #78350f)",
     "overlay": "⚽",
@@ -297,7 +297,7 @@
     "category": "tactics",
     "title": "Si ya es difícil jugar un Mundial, hacerlo con tu hermano es otro nivel<br>",
     "snippet": "El torneo está a nada de empezar y ya hay varias familias que tendrán el corazón dividido. Algunas parejas de hermanos participarán en el Mundial. Algunos de ellos lo harán como compañeros... ¡otros como 'enemigos'!",
-    "time": "7h ago",
+    "time": "11h ago",
     "timestamp": 1780893189,
     "color": "linear-gradient(135deg, #f59e0b, #78350f)",
     "overlay": "⚽",
@@ -311,7 +311,7 @@
     "category": "tactics",
     "title": "Neymar desafía al tiempo<br>",
     "snippet": "El 10 brasileño lucha contrarreloj para disputar su último Mundial, apoyado por tres hombres clave en una recuperación que mantiene en vilo a todo un país",
-    "time": "7h ago",
+    "time": "11h ago",
     "timestamp": 1780893176,
     "color": "linear-gradient(135deg, #f59e0b, #78350f)",
     "overlay": "⚽",
@@ -325,7 +325,7 @@
     "category": "lineup",
     "title": "De la Fuente, sobre el pisotón de Gavi a Rodri: \"Aquí nadie tiene que pedir perdón, esto es fútbol\"",
     "snippet": "El seleccionador quita importancia a la acción que se ha hecho viral, se muestra optimista con los lesionados y pondrá un once en el amistoso ante Perú similar al del debut contra Cabo Verde Leer",
-    "time": "7h ago",
+    "time": "11h ago",
     "timestamp": 1780893091,
     "color": "linear-gradient(135deg, #3b82f6, #1e3a8a)",
     "overlay": "📋",
@@ -339,7 +339,7 @@
     "category": "tactics",
     "title": "Doblete de Jhon Arias para dar tranquilidad a Colombia",
     "snippet": "El jugador del Palmeiras le dio un cierre dorado a la preparación colombiana en el Snapshot Stadium de San Diego",
-    "time": "9h ago",
+    "time": "13h ago",
     "timestamp": 1780887111,
     "color": "linear-gradient(135deg, #f59e0b, #78350f)",
     "overlay": "⚽",
@@ -353,7 +353,7 @@
     "category": "rules",
     "title": "España vuelve a Puebla, el lugar del crimen de México'86: \"Hubo un momento en que pensé en cambiarlo por cómo estaba colocado Pfaff, pero...\"",
     "snippet": "La selección juega esta noche en la misma ciudad mexicana donde Eloy Olaya falló el famoso penalti contra Bélgica en cuartos de final. \"Fue una lección de vida\", recuerda hoy Leer",
-    "time": "15h ago",
+    "time": "19h ago",
     "timestamp": 1780865720,
     "color": "linear-gradient(135deg, #64748b, #334155)",
     "overlay": "📺",
@@ -367,7 +367,7 @@
     "category": "tactics",
     "title": "Eriksen da otro susto: se va al suelo con la mano en el pecho",
     "snippet": "",
-    "time": "17h ago",
+    "time": "21h ago",
     "timestamp": 1780857022,
     "color": "linear-gradient(135deg, #f59e0b, #78350f)",
     "overlay": "⚽",
@@ -420,14 +420,14 @@
     "id": 229
   },
   {
-    "category": "injury",
-    "title": "Araujo encén les alarmes just abans de l’inici del Mundial",
-    "snippet": "Ronald Araujo, defensa central uruguaià del Futbol Club Barcelona, s’ha convertit en un dels protagonistes negatius de les darreres hores a causa d’una lesió que podria fer que perillés el Mundial per a ell. Mentre estava concentrat amb l’Uruguai, Aruajo ha notat unes molèsties musculars que l’han preocupat fins al punt que ha volgut tornar … Continued",
-    "time": "12m ago",
-    "timestamp": 1780919622,
-    "color": "linear-gradient(135deg, #ef4444, #7f1d1d)",
-    "overlay": "🩺",
-    "link": "https://monesport.cat/barca/jugadors/ronald-araujo-lesio-mundial-torna-barcelona-484761/",
+    "category": "tactics",
+    "title": "El fill d’una llegenda del Barça es posarà a les ordres de Flick",
+    "snippet": "La pretemporada del Futbol Club Barcelona va agafant forma. Després que s’anunciés que començarà el pròxim 13 de juliol, amb el Mundial encara en disputa, es van coneixent noms de jugadors del planter que pujaran al primer equip i es posaran a les ordres de Hansi Flick. Un d’ells s’ha conegut aquest dilluns i és … Continued",
+    "time": "11m ago",
+    "timestamp": 1780934833,
+    "color": "linear-gradient(135deg, #f59e0b, #78350f)",
+    "overlay": "⚽",
+    "link": "https://monesport.cat/barca/jugadors/shane-kluivert-flick-pretemporada-ordres-484792/",
     "image": "https://images.unsplash.com/photo-1508098682722-e99c43a406b2?w=800&auto=format&fit=crop",
     "source": "Món Esport",
     "lang": "ca",
@@ -435,9 +435,23 @@
   },
   {
     "category": "injury",
+    "title": "Araujo encén les alarmes just abans de l’inici del Mundial",
+    "snippet": "Ronald Araujo, defensa central uruguaià del Futbol Club Barcelona, s’ha convertit en un dels protagonistes negatius de les darreres hores a causa d’una lesió que podria fer que perillés el Mundial per a ell. Mentre estava concentrat amb l’Uruguai, Aruajo ha notat unes molèsties musculars que l’han preocupat fins al punt que ha volgut tornar … Continued",
+    "time": "4h ago",
+    "timestamp": 1780919622,
+    "color": "linear-gradient(135deg, #ef4444, #7f1d1d)",
+    "overlay": "🩺",
+    "link": "https://monesport.cat/barca/jugadors/ronald-araujo-lesio-mundial-torna-barcelona-484761/",
+    "image": "https://images.unsplash.com/photo-1518063319789-7217e6706b04?w=800&auto=format&fit=crop",
+    "source": "Món Esport",
+    "lang": "ca",
+    "id": 231
+  },
+  {
+    "category": "injury",
     "title": "Abde Ezzalzouli podria perdre’s el Mundial",
     "snippet": "La selecció del Marroc podria patir una baixa de pes per afrontar el Mundial que comença el proper 11 de juny als Estats Units, Canadà i Mèxic ja que Abde Ezzalzouli, un dels seus millors futbolistes,...",
-    "time": "1h ago",
+    "time": "5h ago",
     "timestamp": 1780915147,
     "color": "linear-gradient(135deg, #ef4444, #7f1d1d)",
     "overlay": "🩺",
@@ -445,27 +459,27 @@
     "image": "https://www.elpuntavui.cat/imatges/64/52/4x3/780_0008_6452631_8415849a59b485e64f570388e88e4f0fver2.jpg",
     "source": "El Punt Avui",
     "lang": "ca",
-    "id": 231
+    "id": 232
   },
   {
     "category": "press",
     "title": "De la Fuente fa una defensa aferrissada de Gavi",
     "snippet": "Luis de la Fuente, entrenador de la selecció espanyola, ha comparegut en roda de premsa abans del partit amistós de preparació pel Mundial que La Roja disputarà en les pròximes hores contra el Perú. Una de les seves respostes més destacades ha estat relacionada amb Gavi, migcampista andalús del Futbol Club Barcelona. Fa pocs dies, … Continued",
-    "time": "1h ago",
+    "time": "6h ago",
     "timestamp": 1780913657,
     "color": "linear-gradient(135deg, #0d9488, #115e59)",
     "overlay": "🎙️",
     "link": "https://monesport.cat/barca/jugadors/gavi-trepitjada-rodri-defensa-de-la-fuente-484753/",
-    "image": "https://images.unsplash.com/photo-1543351611-58f69d7c1781?w=800&auto=format&fit=crop",
+    "image": "https://images.unsplash.com/photo-1508098682722-e99c43a406b2?w=800&auto=format&fit=crop",
     "source": "Món Esport",
     "lang": "ca",
-    "id": 232
+    "id": 233
   },
   {
     "category": "tactics",
     "title": "Tiroteig amb nou ferits a pocs quilòmetres del centre d'operacions d'Anglaterra al Mundial",
     "snippet": "Els trets es van produir de matinada a Kansas City, la ciutat que acollirà la concentració de la selecció anglesa durant el Mundial del 2026",
-    "time": "16h ago",
+    "time": "20h ago",
     "timestamp": 1780862330,
     "color": "linear-gradient(135deg, #f59e0b, #78350f)",
     "overlay": "⚽",
@@ -473,13 +487,13 @@
     "image": "https://d5r1tkwwv7d5g.cloudfront.net/articulos/articulos-724031.jpg",
     "source": "Nació Digital",
     "lang": "ca",
-    "id": 233
+    "id": 234
   },
   {
     "category": "tactics",
     "title": "Calendari, horaris, televisió: informació pràctica sobre el Mundial de futbol",
     "snippet": "La cita esportiva més important i esperada de l'any ja arriba. El pròxim dijous 11 de juny comença el Mundial dels Estats Units, Canadà i Mèxic 2026, el primer que disputaran 48 seleccions (i no 32 com fins ara). Tres països i setze ciutats acolliran els 104 partits que acabaran el diumenge 19 de juliol (21.00 hores) en la gran final que es jugarà a l'estadi MetLife situat a Nova Jersey (a prop de Nova York). Una cita que representarà un canvi generacional al món del futbol, ja que serà la darrera Copa del Món de Leo Messi o Cristiano Ronaldo, entre altres, i l'emergència de noves estrelles mundials com Lamine Yamal, que disputarà el seu primer Mundial.",
-    "time": "3d ago",
+    "time": "4d ago",
     "timestamp": 1780585756,
     "color": "linear-gradient(135deg, #f59e0b, #78350f)",
     "overlay": "⚽",
@@ -487,7 +501,7 @@
     "image": "https://static1.ara.cat/clip/8ae90eb1-5edb-44ee-ba08-be9927432fb2_16-9-aspect-ratio_default_0.jpg",
     "source": "ARA Esports",
     "lang": "ca",
-    "id": 234
+    "id": 235
   },
   {
     "category": "transfer",
@@ -501,7 +515,7 @@
     "image": "https://static1.ara.cat/clip/7fa2a8a8-765b-4bfb-80f6-cfb51e6b8131_16-9-aspect-ratio_default_0.jpg",
     "source": "ARA Esports",
     "lang": "ca",
-    "id": 235
+    "id": 236
   },
   {
     "category": "tactics",
@@ -515,7 +529,7 @@
     "image": "https://static1.ara.cat/clip/88c8347b-0417-4e84-8b5c-2a11a8ea90aa_16-9-aspect-ratio_default_0_x2351y869.jpg",
     "source": "ARA Esports",
     "lang": "ca",
-    "id": 236
+    "id": 237
   },
   {
     "category": "lineup",
@@ -529,7 +543,7 @@
     "image": "https://static1.ara.cat/clip/ee737dde-d694-4f24-9993-cd65d353a8a1_16-9-aspect-ratio_default_1058448.jpg",
     "source": "ARA Esports",
     "lang": "ca",
-    "id": 237
+    "id": 238
   },
   {
     "category": "tactics",
@@ -543,7 +557,7 @@
     "image": "https://d5r1tkwwv7d5g.cloudfront.net/articulos/articulos-719250.jpg",
     "source": "Nació Digital",
     "lang": "ca",
-    "id": 238
+    "id": 239
   },
   {
     "category": "tactics",
@@ -557,7 +571,7 @@
     "image": "https://d5r1tkwwv7d5g.cloudfront.net/articulos/articulos-596058.jpg",
     "source": "Nació Digital",
     "lang": "ca",
-    "id": 239
+    "id": 240
   },
   {
     "category": "press",
@@ -571,6 +585,6 @@
     "image": "https://d5r1tkwwv7d5g.cloudfront.net/articulos/articulos-704199.jpg",
     "source": "Nació Digital",
     "lang": "ca",
-    "id": 240
+    "id": 241
   }
 ]
