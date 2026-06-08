@@ -6,28 +6,28 @@
 
 /* --- Design Tokens --- */
 :root {
-  --bg-deep: #0f1115;           /* sinsesgo slate-black background */
-  --bg-surface: rgba(15, 17, 21, 0.85); /* Slate-black translucent surface */
-  --bg-card: rgba(21, 24, 30, 0.65);      /* Muted slate-black card */
-  --bg-card-hover: rgba(30, 33, 41, 0.85); /* Hover card background */
-  --border-color: #252830;     /* sinsesgo dark borders */
-  --border-glow: rgba(245, 158, 11, 0.15); /* amber border glow */
+  --bg-deep: #080c14;           /* Deep midnight blue-black background */
+  --bg-surface: rgba(13, 20, 32, 0.85); /* Cool slate translucent surface */
+  --bg-card: rgba(22, 32, 48, 0.6);      /* Sporty dark card background */
+  --bg-card-hover: rgba(30, 43, 64, 0.8); /* Card hover background */
+  --border-color: rgba(255, 255, 255, 0.06); /* Clean dark borders */
+  --border-glow: rgba(16, 185, 129, 0.15);  /* Green border glow */
   
   /* Brand Accents */
-  --primary: #f59e0b;          /* sinsesgo warm amber */
-  --primary-glow: rgba(245, 158, 11, 0.3);
-  --secondary: #d97706;        /* Deeper warm gold */
-  --secondary-glow: rgba(217, 119, 6, 0.3);
-  --accent: #f59e0b;           /* sinsesgo warm amber */
+  --primary: #10b981;          /* Athletic emerald green */
+  --primary-glow: rgba(16, 185, 129, 0.3);
+  --secondary: #f59e0b;        /* Trophy gold */
+  --secondary-glow: rgba(245, 158, 11, 0.3);
+  --accent: #3b82f6;           /* Host nations blue accent */
   --danger: #ef4444;           /* Alert Red */
   
   /* Text Colors */
-  --text-primary: #fafaf7;     /* sinsesgo warm off-white */
-  --text-secondary: #a3a39a;   /* sinsesgo muted off-white */
-  --text-muted: #73736c;       /* sinsesgo dark muted grey */
+  --text-primary: #f8fafc;     /* Clean off-white text */
+  --text-secondary: #94a3b8;   /* Cool slate secondary text */
+  --text-muted: #64748b;       /* Cool slate muted text */
   
   /* Typography */
-  --font-display: 'Newsreader', Georgia, serif;
+  --font-display: 'Outfit', -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
   --font-body: 'Inter', -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
   --font-mono: 'JetBrains Mono', monospace;
   
@@ -63,8 +63,8 @@ body {
   overflow: hidden;
   position: relative;
   background-image: 
-    radial-gradient(circle at 10% 20%, rgba(245, 158, 11, 0.02) 0%, transparent 50%),
-    radial-gradient(circle at 90% 80%, rgba(217, 119, 6, 0.01) 0%, transparent 50%);
+    radial-gradient(circle at 10% 20%, rgba(16, 185, 129, 0.03) 0%, transparent 45%),
+    radial-gradient(circle at 90% 80%, rgba(59, 130, 246, 0.015) 0%, transparent 45%);
 }
 
 /* --- App Header (Glassmorphic) --- */
@@ -86,34 +86,34 @@ body {
 .header-logo {
   display: flex;
   align-items: center;
-  gap: 10px;
+  gap: 12px;
 }
 
-.header-dot {
-  width: 8px;
-  height: 8px;
-  background: var(--primary);
-  border-radius: 50%;
-  box-shadow: 0 0 0 4px var(--primary-glow);
-  display: inline-block;
+.logo-img {
+  width: 36px;
+  height: 36px;
+  object-fit: cover;
+  border-radius: 8px;
+  box-shadow: 0 0 15px var(--primary-glow);
+  border: 1px solid rgba(255, 255, 255, 0.1);
   transition: transform 0.3s var(--ease-spring);
 }
 
-.header-logo:hover .header-dot {
-  transform: scale(1.25);
+.header-logo:hover .logo-img {
+  transform: rotate(15deg) scale(1.1);
 }
 
 .logo-title {
-  font-family: var(--font-mono);
-  font-size: 15px;
-  font-weight: 600;
-  letter-spacing: -0.02em;
+  font-family: var(--font-display);
+  font-size: 22px;
+  font-weight: 700;
+  letter-spacing: -0.5px;
   color: var(--text-primary);
-  text-transform: lowercase;
 }
 
 .logo-title span {
   color: var(--primary);
+  text-shadow: 0 0 10px var(--primary-glow);
 }
 
 .header-actions {
@@ -964,8 +964,8 @@ body {
   font-size: 10px;
   font-weight: 600;
   color: var(--primary);
-  background: rgba(245, 158, 11, 0.08);
-  border: 1px solid rgba(245, 158, 11, 0.15);
+  background: rgba(16, 185, 129, 0.08);
+  border: 1px solid rgba(16, 185, 129, 0.15);
   padding: 2px 8px;
   border-radius: 4px;
 }
@@ -2202,24 +2202,24 @@ body.light-theme .player-node-name {
 
 /* --- Customization & Light Theme Overrides --- */
 body.light-theme {
-  --bg-deep: #fafaf7;                 /* sinsesgo warm off-white paper */
-  --bg-surface: rgba(250, 250, 247, 0.85);
-  --bg-card: rgba(242, 242, 233, 0.65);
-  --bg-card-hover: rgba(235, 235, 224, 0.85);
-  --border-color: #e4e4db;           /* sinsesgo light borders */
-  --border-glow: rgba(245, 158, 11, 0.08);
+  --bg-deep: #f8fafc;                 /* Cool light gray/blue background */
+  --bg-surface: rgba(255, 255, 255, 0.85); /* Translucent pure white surface */
+  --bg-card: rgba(255, 255, 255, 0.65);    /* Pure white cards */
+  --bg-card-hover: rgba(255, 255, 255, 0.9); /* Hover card background */
+  --border-color: rgba(15, 23, 42, 0.08);   /* Slate borders for light backgrounds */
+  --border-glow: rgba(16, 185, 129, 0.08);
   
   /* Brand Accents */
-  --primary: #f59e0b;                 /* sinsesgo warm amber */
-  --primary-glow: rgba(245, 158, 11, 0.2);
-  --secondary: #d97706;               /* Deeper warm gold */
+  --primary: #059669;                 /* Emerald green for text contrast */
+  --primary-glow: rgba(5, 150, 105, 0.2);
+  --secondary: #d97706;               /* Trophy gold */
   --secondary-glow: rgba(217, 119, 6, 0.2);
-  --accent: #f59e0b;                  /* sinsesgo warm amber */
+  --accent: #2563eb;                  /* Host nations blue */
   
   /* Text Colors */
-  --text-primary: #0f1115;            /* sinsesgo dark ink text */
-  --text-secondary: #5c5e54;          /* sinsesgo muted dark ink */
-  --text-muted: #8c8e82;              /* sinsesgo light muted grey */
+  --text-primary: #0f172a;            /* Slate-900 */
+  --text-secondary: #475569;          /* Slate-600 */
+  --text-muted: #64748b;              /* Slate-500 */
 }
 
 /* Light Theme Component Specific Refinements */
@@ -2577,12 +2577,12 @@ body.light-theme .slider-round:before {
   position: absolute;
   border-radius: 50%;
   filter: blur(140px);
-  opacity: 0.04; /* Very subtle glow */
+  opacity: 0.08; /* Soft sporty glow */
   transition: opacity 0.5s var(--ease-smooth);
 }
 
 .glow-emerald {
-  background: #b45309; /* Warm terracotta rust */
+  background: var(--primary);
   width: 45vw;
   height: 45vw;
   top: -12vw;
@@ -2591,7 +2591,7 @@ body.light-theme .slider-round:before {
 }
 
 .glow-gold {
-  background: #d97706; /* Warm amber/gold */
+  background: var(--secondary);
   width: 48vw;
   height: 48vw;
   bottom: -15vw;
@@ -2600,7 +2600,7 @@ body.light-theme .slider-round:before {
 }
 
 .glow-blue {
-  background: #78716c; /* Warm slate sand */
+  background: var(--accent);
   width: 38vw;
   height: 38vw;
   top: 45vh;
@@ -2651,7 +2651,7 @@ body.light-theme .slider-round:before {
 
 /* Light Theme overrides to soften watercolor flow */
 body.light-theme .mesh-glow {
-  opacity: 0.015;
+  opacity: 0.04;
 }
 
 /* --- Interactive Playoff Bracket Visualizer --- */
