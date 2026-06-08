@@ -1,9 +1,23 @@
 [
   {
+    "category": "lineup",
+    "title": "Norway dress up as Vikings for World Cup",
+    "snippet": "Watch behind-the-scenes footage as the Norway squad dress up as Vikings for a team photo before the World Cup.",
+    "time": "16m ago",
+    "timestamp": 1780941418,
+    "color": "linear-gradient(135deg, #3b82f6, #1e3a8a)",
+    "overlay": "📋",
+    "link": "https://www.bbc.com/sport/football/videos/ce8jv6j3km0o?at_medium=RSS&at_campaign=rss",
+    "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/6bf4/live/3fa63cc0-6362-11f1-8e1d-bbbb1017d210.jpg",
+    "source": "BBC Sport",
+    "lang": "en",
+    "id": 200
+  },
+  {
     "category": "rules",
     "title": "Somali referee Artan barred from entering USA",
     "snippet": "Somali referee Omar Artan, who was set to be the first from his country to officiate at the World Cup finals, is denied entry to the United States.",
-    "time": "7m ago",
+    "time": "34m ago",
     "timestamp": 1780940346,
     "color": "linear-gradient(135deg, #64748b, #334155)",
     "overlay": "📺",
@@ -11,7 +25,7 @@
     "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/1c3c/live/7f657ff0-635e-11f1-8b15-6100cfbc3083.jpg",
     "source": "BBC Sport",
     "lang": "en",
-    "id": 200
+    "id": 201
   },
   {
     "category": "lineup",
@@ -25,13 +39,13 @@
     "image": "https://ichef.bbci.co.uk/images/ic/240x135/p0lxths6.jpg",
     "source": "BBC Sport",
     "lang": "en",
-    "id": 201
+    "id": 202
   },
   {
     "category": "tactics",
     "title": "Rashford 'dead cert to start for me' - Walcott",
     "snippet": "Former England winger Theo Walcott is \"most psyched\" about Marcus Rashford for the Three Lions at the World Cup.",
-    "time": "1h ago",
+    "time": "2h ago",
     "timestamp": 1780934412,
     "color": "linear-gradient(135deg, #f59e0b, #78350f)",
     "overlay": "⚽",
@@ -39,7 +53,7 @@
     "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/73c5/live/8b099570-61fc-11f1-97a1-f7410493225c.jpg",
     "source": "BBC Sport",
     "lang": "en",
-    "id": 202
+    "id": 203
   },
   {
     "category": "press",
@@ -53,13 +67,13 @@
     "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/c1c0/live/70900920-632a-11f1-b1df-ebbb1d0d8a09.jpg",
     "source": "BBC Sport",
     "lang": "en",
-    "id": 203
+    "id": 204
   },
   {
     "category": "press",
     "title": "Beating France would be one of football's biggest stories - Ward",
     "snippet": "Republic of Ireland boss Carla Ward says beating France to qualify automatically for the 2027 Women's World Cup would \"be one of the biggest stories in world football\".",
-    "time": "2h ago",
+    "time": "3h ago",
     "timestamp": 1780931346,
     "color": "linear-gradient(135deg, #0d9488, #115e59)",
     "overlay": "🎙️",
@@ -67,13 +81,13 @@
     "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/5613/live/c5c00350-6343-11f1-b363-0978caabd15d.jpg",
     "source": "BBC Sport",
     "lang": "en",
-    "id": 204
+    "id": 205
   },
   {
     "category": "tactics",
     "title": "Key dates England fans MUST KNOW for World Cup knockout stages!",
     "snippet": "Sky Sports' Ron Walker reveals the key dates England fans must be aware of if the Three Lions reach the knockout stages at the World Cup.",
-    "time": "2h ago",
+    "time": "3h ago",
     "timestamp": 1780930860,
     "color": "linear-gradient(135deg, #f59e0b, #78350f)",
     "overlay": "⚽",
@@ -81,7 +95,7 @@
     "image": "https://e2.365dm.com/26/06/1920x1080/skysports-football-england_7268425.jpg?20260608152134",
     "source": "Sky Sports",
     "lang": "en",
-    "id": 205
+    "id": 206
   },
   {
     "category": "press",
@@ -95,7 +109,7 @@
     "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/d7ff/live/c36aac30-6344-11f1-b1db-af71d47507d6.png",
     "source": "BBC Sport",
     "lang": "en",
-    "id": 206
+    "id": 207
   },
   {
     "category": "tactics",
@@ -109,13 +123,13 @@
     "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/3727/live/1a74ab70-633b-11f1-81a3-11c500fa26e7.jpg",
     "source": "BBC Sport",
     "lang": "en",
-    "id": 207
+    "id": 208
   },
   {
     "category": "tactics",
     "title": "World Cup 2026 kits: VOTE for your favourite!",
     "snippet": "",
-    "time": "6h ago",
+    "time": "7h ago",
     "timestamp": 1780916400,
     "color": "linear-gradient(135deg, #f59e0b, #78350f)",
     "overlay": "⚽",
@@ -123,7 +137,7 @@
     "image": "https://e0.365dm.com/26/03/1920x1080/skysports-england-world-cup_7198576.jpg?20260320192255",
     "source": "Sky Sports",
     "lang": "en",
-    "id": 208
+    "id": 209
   },
   {
     "category": "rules",
@@ -137,13 +151,13 @@
     "image": "https://ichef.bbci.co.uk/images/ic/240x135/p0nqqysp.jpg",
     "source": "BBC Sport",
     "lang": "en",
-    "id": 209
+    "id": 210
   },
   {
     "category": "tactics",
     "title": "How will extreme heat impact the 2026 World Cup?",
     "snippet": "The challenge of the 2026 World Cup will extend beyond tactics, pressure and talent - with extreme and dangerous levels of heat presenting itself as a formidable extra opponent.",
-    "time": "7h ago",
+    "time": "8h ago",
     "timestamp": 1780912800,
     "color": "linear-gradient(135deg, #f59e0b, #78350f)",
     "overlay": "⚽",
@@ -151,13 +165,13 @@
     "image": "https://e2.365dm.com/26/06/1920x1080/skysports-world-cup-heat_7262834.png?20260601114442",
     "source": "Sky Sports",
     "lang": "en",
-    "id": 210
+    "id": 211
   },
   {
     "category": "tactics",
     "title": "'Brutal, searing and punishing heat' - Babb on playing for Ireland at USA '94",
     "snippet": "While none of the home nations qualified for the 1994 World Cup, the Republic of Ireland did.",
-    "time": "7h ago",
+    "time": "8h ago",
     "timestamp": 1780912800,
     "color": "linear-gradient(135deg, #f59e0b, #78350f)",
     "overlay": "⚽",
@@ -165,13 +179,13 @@
     "image": "https://e2.365dm.com/26/06/1920x1080/skysports-phil-babb-ireland_7263795.jpg?20260602145634",
     "source": "Sky Sports",
     "lang": "en",
-    "id": 211
+    "id": 212
   },
   {
     "category": "lineup",
     "title": "Bellingham has fight to start for England - Tuchel",
     "snippet": "Jude Bellingham has a fight on his hands to feature in England's starting line-up at the World Cup, says manager Thomas Tuchel.",
-    "time": "8h ago",
+    "time": "9h ago",
     "timestamp": 1780909426,
     "color": "linear-gradient(135deg, #3b82f6, #1e3a8a)",
     "overlay": "📋",
@@ -179,32 +193,18 @@
     "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/2f01/live/451ede70-6315-11f1-aecd-df176a37a192.jpg",
     "source": "BBC Sport",
     "lang": "en",
-    "id": 212
+    "id": 213
   },
   {
     "category": "tactics",
     "title": "Group of death? Scotland eye progression on World Cup return",
     "snippet": "As Scotland’s World Cup opener draws ever closer, Steve Clarke will have a fair idea of who he will play and how he will set up.",
-    "time": "8h ago",
+    "time": "9h ago",
     "timestamp": 1780909200,
     "color": "linear-gradient(135deg, #f59e0b, #78350f)",
     "overlay": "⚽",
     "link": "https://www.skysports.com/football/news/11095/13551871/scotland-at-world-cup-2026-steve-clarkes-side-look-to-progress-beyond-the-group-stage-for-first-time",
     "image": "https://e2.365dm.com/26/06/1920x1080/skysports-world-cup-reporter-notebook_7268117.jpg?20260608100921",
-    "source": "Sky Sports",
-    "lang": "en",
-    "id": 213
-  },
-  {
-    "category": "lineup",
-    "title": "Bellingham has a fight on his hands for England starting spot, Tuchel says",
-    "snippet": "Thomas Tuchel says Jude Bellingham has a battle on his hands to secure an England starting place, as the competition for World Cup places hots up under the West Palm Beach sun.",
-    "time": "10h ago",
-    "timestamp": 1780902000,
-    "color": "linear-gradient(135deg, #3b82f6, #1e3a8a)",
-    "overlay": "📋",
-    "link": "https://www.skysports.com/football/news/11095/13551807/jude-bellingham-england-boss-thomas-tuchel-claims-real-madrid-star-has-a-fight-on-his-hands-to-earn-world-cup-starting-spot",
-    "image": "https://e1.365dm.com/26/06/1920x1080/skysports-jude-bellingham_7267903.jpg?20260607233059",
     "source": "Sky Sports",
     "lang": "en",
     "id": 214
@@ -269,7 +269,7 @@
     "category": "tactics",
     "title": "Starfelt estará en el Mundial",
     "snippet": "Se recuperó a última hora de la hernia discal lumbar",
-    "time": "2h ago",
+    "time": "3h ago",
     "timestamp": 1780931199,
     "color": "linear-gradient(135deg, #f59e0b, #78350f)",
     "overlay": "⚽",
@@ -283,7 +283,7 @@
     "category": "tactics",
     "title": "La gran revolución del Mundial: así funciona el Power Ranking de MARCA",
     "snippet": "",
-    "time": "3h ago",
+    "time": "4h ago",
     "timestamp": 1780927619,
     "color": "linear-gradient(135deg, #f59e0b, #78350f)",
     "overlay": "⚽",
@@ -339,7 +339,7 @@
     "category": "tactics",
     "title": "Alerta de la ONU por calor extremo en el Mundial",
     "snippet": "Sigue la última hora de toda la información de la Copa del Mundo 2026",
-    "time": "10h ago",
+    "time": "11h ago",
     "timestamp": 1780902735,
     "color": "linear-gradient(135deg, #f59e0b, #78350f)",
     "overlay": "⚽",
@@ -381,7 +381,7 @@
     "category": "rules",
     "title": "España vuelve a Puebla, el lugar del crimen de México'86: \"Hubo un momento en que pensé en cambiarlo por cómo estaba colocado Pfaff, pero...\"",
     "snippet": "La selección juega esta noche en la misma ciudad mexicana donde Eloy Olaya falló el famoso penalti contra Bélgica en cuartos de final. \"Fue una lección de vida\", recuerda hoy Leer",
-    "time": "20h ago",
+    "time": "21h ago",
     "timestamp": 1780865720,
     "color": "linear-gradient(135deg, #64748b, #334155)",
     "overlay": "📺",
@@ -423,7 +423,7 @@
     "category": "tactics",
     "title": "El fill d’una llegenda del Barça es posarà a les ordres de Flick",
     "snippet": "La pretemporada del Futbol Club Barcelona va agafant forma. Després que s’anunciés que començarà el pròxim 13 de juliol, amb el Mundial encara en disputa, es van coneixent noms de jugadors del planter que pujaran al primer equip i es posaran a les ordres de Hansi Flick. Un d’ells s’ha conegut aquest dilluns i és … Continued",
-    "time": "1h ago",
+    "time": "2h ago",
     "timestamp": 1780934833,
     "color": "linear-gradient(135deg, #f59e0b, #78350f)",
     "overlay": "⚽",
@@ -437,7 +437,7 @@
     "category": "injury",
     "title": "Araujo encén les alarmes just abans de l’inici del Mundial",
     "snippet": "Ronald Araujo, defensa central uruguaià del Futbol Club Barcelona, s’ha convertit en un dels protagonistes negatius de les darreres hores a causa d’una lesió que podria fer que perillés el Mundial per a ell. Mentre estava concentrat amb l’Uruguai, Aruajo ha notat unes molèsties musculars que l’han preocupat fins al punt que ha volgut tornar … Continued",
-    "time": "5h ago",
+    "time": "6h ago",
     "timestamp": 1780919622,
     "color": "linear-gradient(135deg, #ef4444, #7f1d1d)",
     "overlay": "🩺",
@@ -479,7 +479,7 @@
     "category": "tactics",
     "title": "Tiroteig amb nou ferits a pocs quilòmetres del centre d'operacions d'Anglaterra al Mundial",
     "snippet": "Els trets es van produir de matinada a Kansas City, la ciutat que acollirà la concentració de la selecció anglesa durant el Mundial del 2026",
-    "time": "21h ago",
+    "time": "22h ago",
     "timestamp": 1780862330,
     "color": "linear-gradient(135deg, #f59e0b, #78350f)",
     "overlay": "⚽",
