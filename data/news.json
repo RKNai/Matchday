@@ -1,9 +1,51 @@
 [
   {
     "category": "lineup",
+    "title": "Bellingham has a fight on his hands for England starting spot, Tuchel says",
+    "snippet": "Thomas Tuchel says Jude Bellingham has a battle on his hands to secure an England starting place, as the competition for World Cup places hots up under the West Palm Beach sun.",
+    "time": "Just now",
+    "timestamp": 1780902000,
+    "color": "linear-gradient(135deg, #3b82f6, #1e3a8a)",
+    "overlay": "📋",
+    "link": "https://www.skysports.com/football/news/11095/13551807/jude-bellingham-england-boss-thomas-tuchel-claims-real-madrid-star-has-a-fight-on-his-hands-to-earn-world-cup-starting-spot",
+    "image": "https://e1.365dm.com/26/06/1920x1080/skysports-jude-bellingham_7267903.jpg?20260607233059",
+    "source": "Sky Sports",
+    "lang": "en",
+    "id": 200
+  },
+  {
+    "category": "tactics",
+    "title": "Who am I? Guess World Cup star No 1",
+    "snippet": "Will you get today's player in as few attempts as possible?",
+    "time": "1h ago",
+    "timestamp": 1780897625,
+    "color": "linear-gradient(135deg, #f59e0b, #78350f)",
+    "overlay": "⚽",
+    "link": "https://www.bbc.com/sport/football/articles/cpwpn4kvd2do?at_medium=RSS&at_campaign=rss",
+    "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/e75c/live/3613f620-5eb7-11f1-89a3-d1f559421220.jpg",
+    "source": "BBC Sport",
+    "lang": "en",
+    "id": 201
+  },
+  {
+    "category": "tactics",
+    "title": "Why Olise can be one of France's very best - Clichy",
+    "snippet": "Former France international Gael Clichy explains why Bayern Munich's France forward Michael Olise could be the breakout star of this summer's World Cup.",
+    "time": "1h ago",
+    "timestamp": 1780897313,
+    "color": "linear-gradient(135deg, #f59e0b, #78350f)",
+    "overlay": "⚽",
+    "link": "https://www.bbc.com/sport/football/articles/c2020jylzk1o?at_medium=RSS&at_campaign=rss",
+    "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/b37b/live/a3b25fe0-61bf-11f1-8b8c-6d33e1d5abb6.jpg",
+    "source": "BBC Sport",
+    "lang": "en",
+    "id": 202
+  },
+  {
+    "category": "lineup",
     "title": "Papers: Ederson's Man Utd move at risk of delay after World Cup call-up",
     "snippet": "The top stories and transfer rumours from Monday's newspapers...",
-    "time": "3h ago",
+    "time": "8h ago",
     "timestamp": 1780871400,
     "color": "linear-gradient(135deg, #3b82f6, #1e3a8a)",
     "overlay": "📋",
@@ -11,13 +53,13 @@
     "image": "https://e1.365dm.com/25/03/1920x1080/skysports-paper-talk-brand-refresh_6852897.jpg?20250311094415",
     "source": "Sky Sports",
     "lang": "en",
-    "id": 200
+    "id": 203
   },
   {
     "category": "tactics",
     "title": "Rice to be England's vice-captain at World Cup",
     "snippet": "Arsenal midfielder Declan Rice will be England's vice-captain for the World Cup.",
-    "time": "4h ago",
+    "time": "9h ago",
     "timestamp": 1780867408,
     "color": "linear-gradient(135deg, #f59e0b, #78350f)",
     "overlay": "⚽",
@@ -25,13 +67,13 @@
     "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/f2c5/live/7fab2040-62b5-11f1-8a13-59dc424d6dbf.jpg",
     "source": "BBC Sport",
     "lang": "en",
-    "id": 201
+    "id": 204
   },
   {
     "category": "tactics",
     "title": "England latest: Tuchel reveals vice-captain for World Cup",
     "snippet": "",
-    "time": "6h ago",
+    "time": "11h ago",
     "timestamp": 1780858800,
     "color": "linear-gradient(135deg, #f59e0b, #78350f)",
     "overlay": "⚽",
@@ -39,13 +81,13 @@
     "image": "https://e2.365dm.com/26/05/1920x1080/skysports-world-cup-england_7255431.jpg?20260522080147",
     "source": "Sky Sports",
     "lang": "en",
-    "id": 202
+    "id": 205
   },
   {
     "category": "injury",
     "title": "Man Utd-bound Ederson replaces Wesley in Brazil squad",
     "snippet": "Brazil full-back Wesley is ruled out of the World Cup because of a thigh injury, with Manchester United-bound midfielder Ederson called up to replace him.",
-    "time": "7h ago",
+    "time": "12h ago",
     "timestamp": 1780855986,
     "color": "linear-gradient(135deg, #ef4444, #7f1d1d)",
     "overlay": "🩺",
@@ -53,13 +95,13 @@
     "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/71ac/live/48ae51c0-629c-11f1-96bd-c1bed4b24e0c.jpg",
     "source": "BBC Sport",
     "lang": "en",
-    "id": 203
+    "id": 206
   },
   {
     "category": "injury",
     "title": "Man Utd-bound Ederson replaces injured Wesley in Brazil squad",
     "snippet": "Brazil full-back Wesley is ruled out of the World Cup because of a thigh injury, with Manchester United-bound midfielder Ederson called up to replace him.",
-    "time": "7h ago",
+    "time": "12h ago",
     "timestamp": 1780855986,
     "color": "linear-gradient(135deg, #ef4444, #7f1d1d)",
     "overlay": "🩺",
@@ -67,13 +109,13 @@
     "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/71ac/live/48ae51c0-629c-11f1-96bd-c1bed4b24e0c.jpg",
     "source": "BBC Sport",
     "lang": "en",
-    "id": 204
+    "id": 207
   },
   {
     "category": "lineup",
     "title": "Man Utd latest: Ederson called up to Brazil World Cup squad",
     "snippet": "",
-    "time": "7h ago",
+    "time": "12h ago",
     "timestamp": 1780855200,
     "color": "linear-gradient(135deg, #3b82f6, #1e3a8a)",
     "overlay": "📋",
@@ -81,13 +123,13 @@
     "image": "https://e1.365dm.com/26/02/1920x1080/skysports-michael-carrick-man-utd_7153593.jpg?20260202171649",
     "source": "Sky Sports",
     "lang": "en",
-    "id": 205
+    "id": 208
   },
   {
     "category": "tactics",
     "title": "DR Congo friendly to be played behind closed doors",
     "snippet": "Democratic Republic of Congo's final World Cup warm-up game against Chile will take place behind closed doors amid concerns about the Ebola outbreak in the central African nation.",
-    "time": "9h ago",
+    "time": "14h ago",
     "timestamp": 1780851352,
     "color": "linear-gradient(135deg, #f59e0b, #78350f)",
     "overlay": "⚽",
@@ -95,13 +137,13 @@
     "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/7d39/live/dd54ed30-628c-11f1-a012-97de4dc8804e.jpg",
     "source": "BBC Sport",
     "lang": "en",
-    "id": 206
+    "id": 209
   },
   {
     "category": "tactics",
     "title": "From dazzling winger to veteran who barely runs - the evolution of Messi",
     "snippet": "Lionel Messi is set for his sixth World Cup with Argentina. Guillem Balague looks at how the Argentine has evolved.",
-    "time": "9h ago",
+    "time": "14h ago",
     "timestamp": 1780851311,
     "color": "linear-gradient(135deg, #f59e0b, #78350f)",
     "overlay": "⚽",
@@ -109,13 +151,13 @@
     "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/46f9/live/b1f7db30-6281-11f1-86be-0da436fa9788.jpg",
     "source": "BBC Sport",
     "lang": "en",
-    "id": 207
+    "id": 210
   },
   {
     "category": "tactics",
     "title": "Iran's World Cup team lands in Mexico amid US visa row",
     "snippet": "All of Iran's group games are in the US, but players and support staff will have to fly in and out of the country on match day.",
-    "time": "12h ago",
+    "time": "17h ago",
     "timestamp": 1780838690,
     "color": "linear-gradient(135deg, #f59e0b, #78350f)",
     "overlay": "⚽",
@@ -123,27 +165,13 @@
     "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/fa37/live/dfbd7070-6286-11f1-a012-97de4dc8804e.jpg",
     "source": "BBC Sport",
     "lang": "en",
-    "id": 208
-  },
-  {
-    "category": "tactics",
-    "title": "How Scotland reached the World Cup - told by those who made it happen",
-    "snippet": "Tom English speaks to those who returned Scotland to the men's World Cup finals  for the first time since 1998 about the epic win over Denmark.",
-    "time": "12h ago",
-    "timestamp": 1780837789,
-    "color": "linear-gradient(135deg, #f59e0b, #78350f)",
-    "overlay": "⚽",
-    "link": "https://www.bbc.com/sport/football/articles/ckgl75x45z5o?at_medium=RSS&at_campaign=rss",
-    "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/9cf3/live/91759960-277b-11f1-a79a-77e93010d956.jpg",
-    "source": "BBC Sport",
-    "lang": "en",
-    "id": 209
+    "id": 211
   },
   {
     "category": "tactics",
     "title": "Pre-World Cup friendlies - Messi rested & Leao sent off",
     "snippet": "Argentina great Lionel Messi is rested against Honduras, while Brazil, Germany, Belgium and Portugal each win warm-up games prior to the World Cup.",
-    "time": "16h ago",
+    "time": "21h ago",
     "timestamp": 1780825782,
     "color": "linear-gradient(135deg, #f59e0b, #78350f)",
     "overlay": "⚽",
@@ -151,13 +179,13 @@
     "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/e730/live/396f4d10-624f-11f1-8b8c-6d33e1d5abb6.png",
     "source": "BBC Sport",
     "lang": "en",
-    "id": 210
+    "id": 212
   },
   {
     "category": "lineup",
     "title": "France's Camavinga attends Harvard after World Cup omission",
     "snippet": "France midfielder Eduardo Camavinga takes a Harvard Business School course after missing out on Didier Deschamps' World Cup squad.",
-    "time": "16h ago",
+    "time": "21h ago",
     "timestamp": 1780825759,
     "color": "linear-gradient(135deg, #3b82f6, #1e3a8a)",
     "overlay": "📋",
@@ -165,13 +193,13 @@
     "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/b23f/live/fad7f2a0-6253-11f1-be00-fb33099ec41d.jpg",
     "source": "BBC Sport",
     "lang": "en",
-    "id": 211
+    "id": 213
   },
   {
     "category": "press",
     "title": "Tuchel frustrated by 'freestyling' as NZ boss says England 'need to be better'",
     "snippet": "Thomas Tuchel was frustrated by England's \"freestyle\" first-half display against New Zealand as World Cup preparations stepped up with a scrappy 1-0 win in sweltering Florida conditions.",
-    "time": "18h ago",
+    "time": "23h ago",
     "timestamp": 1780818900,
     "color": "linear-gradient(135deg, #0d9488, #115e59)",
     "overlay": "🎙️",
@@ -179,41 +207,27 @@
     "image": "https://e0.365dm.com/26/06/1920x1080/skysports-thomas-tuchel-england_7267257.jpg?20260607074031",
     "source": "Sky Sports",
     "lang": "en",
-    "id": 212
-  },
-  {
-    "category": "lineup",
-    "title": "Shankland, Gunn and a midfield conundrum - Clarke's big decisions",
-    "snippet": "Scotland head coach Steve Clarke has \"some decisions to make\" when it comes to his starting XI for their World Cup opener against Haiti on Sunday, but what are they?",
-    "time": "18h ago",
-    "timestamp": 1780817611,
-    "color": "linear-gradient(135deg, #3b82f6, #1e3a8a)",
-    "overlay": "📋",
-    "link": "https://www.bbc.com/sport/football/articles/czrxg1306lro?at_medium=RSS&at_campaign=rss",
-    "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/ca5d/live/03fee290-6244-11f1-b682-cf91850925ea.jpg",
-    "source": "BBC Sport",
-    "lang": "en",
-    "id": 213
-  },
-  {
-    "category": "lineup",
-    "title": "Clarke has 'some decisions to make' - but what are they?",
-    "snippet": "Scotland head coach Steve Clarke has \"some decisions to make\" when it comes to his starting XI for their World Cup opener against Haiti on Sunday, but what are they?",
-    "time": "18h ago",
-    "timestamp": 1780817611,
-    "color": "linear-gradient(135deg, #3b82f6, #1e3a8a)",
-    "overlay": "📋",
-    "link": "https://www.bbc.com/sport/football/articles/czrxg1306lro?at_medium=RSS&at_campaign=rss",
-    "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/ca5d/live/03fee290-6244-11f1-b682-cf91850925ea.jpg",
-    "source": "BBC Sport",
-    "lang": "en",
     "id": 214
+  },
+  {
+    "category": "lineup",
+    "title": "De la Fuente, sobre el pisotón de Gavi a Rodri: \"Aquí nadie tiene que pedir perdón, esto es fútbol\"",
+    "snippet": "El seleccionador quita importancia a la acción que se ha hecho viral, se muestra optimista con los lesionados y pondrá un once en el amistoso ante Perú similar al del debut contra Cabo Verde Leer",
+    "time": "2h ago",
+    "timestamp": 1780893091,
+    "color": "linear-gradient(135deg, #3b82f6, #1e3a8a)",
+    "overlay": "📋",
+    "link": "https://www.elmundo.es/deportes/futbol/mundial-de-futbol/2026/06/08/6a264594fdddffa2188b459d.html",
+    "image": "https://e00-elmundo.uecdn.es/assets/multimedia/imagenes/2026/06/08/17808929395990_990x0.jpg",
+    "source": "El Mundo Deportes",
+    "lang": "es",
+    "id": 215
   },
   {
     "category": "tactics",
     "title": "Marruecos y Noruega firman un empate con sello madridista",
     "snippet": "Brahim abrió el marcador para los Leones del Atlas y Odegaard, exjugador blanco, igualó en la segunda parte",
-    "time": "4h ago",
+    "time": "9h ago",
     "timestamp": 1780866586,
     "color": "linear-gradient(135deg, #f59e0b, #78350f)",
     "overlay": "⚽",
@@ -221,13 +235,13 @@
     "image": "https://e01-xlk-ue-marca.uecdn.es/files/horizontal_image_desktop/uploads/2026/06/07/6a25dddeca8ec.jpeg",
     "source": "Marca",
     "lang": "es",
-    "id": 215
+    "id": 216
   },
   {
     "category": "injury",
     "title": "Abde, lesionado",
     "snippet": "El extremo del Betis, con signos de dolor en la rodilla tras caerle encima un compañero",
-    "time": "4h ago",
+    "time": "9h ago",
     "timestamp": 1780866127,
     "color": "linear-gradient(135deg, #ef4444, #7f1d1d)",
     "overlay": "🩺",
@@ -235,13 +249,13 @@
     "image": "https://e01-xlk-ue-marca.uecdn.es/files/horizontal_image_desktop/uploads/2026/06/07/6a25db97abda0.jpeg",
     "source": "Marca",
     "lang": "es",
-    "id": 216
+    "id": 217
   },
   {
     "category": "rules",
     "title": "España vuelve a Puebla, el lugar del crimen de México'86: \"Hubo un momento en que pensé en cambiarlo por cómo estaba colocado Pfaff, pero...\"",
     "snippet": "La selección juega esta noche en la misma ciudad mexicana donde Eloy Olaya falló el famoso penalti contra Bélgica en cuartos de final. \"Fue una lección de vida\", recuerda hoy Leer",
-    "time": "5h ago",
+    "time": "10h ago",
     "timestamp": 1780865720,
     "color": "linear-gradient(135deg, #64748b, #334155)",
     "overlay": "📺",
@@ -249,13 +263,13 @@
     "image": "https://e00-elmundo.uecdn.es/assets/multimedia/imagenes/2026/06/06/17807640537621_990x0.jpg",
     "source": "El Mundo Deportes",
     "lang": "es",
-    "id": 217
+    "id": 218
   },
   {
     "category": "tactics",
     "title": "Modric activa el 'modo Mundial' con Croacia: gol y victoria ante la Eslovenia de Oblak",
     "snippet": "Victoria en el último amistoso previo al debut en el Mundial contra Inglaterra",
-    "time": "5h ago",
+    "time": "10h ago",
     "timestamp": 1780865335,
     "color": "linear-gradient(135deg, #f59e0b, #78350f)",
     "overlay": "⚽",
@@ -263,13 +277,13 @@
     "image": "https://e01-xlk-ue-marca.uecdn.es/files/horizontal_image_desktop/uploads/2026/06/07/6a25d8fbda3b9.jpeg",
     "source": "Marca",
     "lang": "es",
-    "id": 218
+    "id": 219
   },
   {
     "category": "tactics",
     "title": "Lamine, Nico y Víctor Muñoz no viajan para el último amistoso antes del Mundial",
     "snippet": "Los tres jugadores se quedan en Chattanooga",
-    "time": "6h ago",
+    "time": "11h ago",
     "timestamp": 1780860041,
     "color": "linear-gradient(135deg, #f59e0b, #78350f)",
     "overlay": "⚽",
@@ -277,13 +291,13 @@
     "image": "https://images.unsplash.com/photo-1518063319789-7217e6706b04?w=800&auto=format&fit=crop",
     "source": "Marca",
     "lang": "es",
-    "id": 219
+    "id": 220
   },
   {
     "category": "tactics",
     "title": "Imágenes impactantes: Eriksen se echa la mano al pecho y cae redondo...",
     "snippet": "",
-    "time": "7h ago",
+    "time": "12h ago",
     "timestamp": 1780857022,
     "color": "linear-gradient(135deg, #f59e0b, #78350f)",
     "overlay": "⚽",
@@ -291,13 +305,13 @@
     "image": "https://images.unsplash.com/photo-1543351611-58f69d7c1781?w=800&auto=format&fit=crop",
     "source": "Marca",
     "lang": "es",
-    "id": 220
+    "id": 221
   },
   {
     "category": "tactics",
     "title": "El Atlético presenta un '12' Mundial",
     "snippet": "Los rojiblancos son el segundo equipo de LaLiga que más futbolistas aporta a la Copa del Mundo",
-    "time": "13h ago",
+    "time": "18h ago",
     "timestamp": 1780834025,
     "color": "linear-gradient(135deg, #f59e0b, #78350f)",
     "overlay": "⚽",
@@ -305,7 +319,7 @@
     "image": "https://e01-xlk-ue-marca.uecdn.es/files/horizontal_image_desktop/uploads/2026/06/07/6a255ee275cc9.jpeg",
     "source": "Marca",
     "lang": "es",
-    "id": 221
+    "id": 222
   },
   {
     "category": "lineup",
@@ -319,7 +333,7 @@
     "image": "https://e00-elmundo.uecdn.es/assets/multimedia/imagenes/2026/06/04/17806075861907_990x0.jpg",
     "source": "El Mundo Deportes",
     "lang": "es",
-    "id": 222
+    "id": 223
   },
   {
     "category": "tactics",
@@ -333,7 +347,7 @@
     "image": "https://e00-elmundo.uecdn.es/assets/multimedia/imagenes/2026/06/03/17805060539723_990x0.jpg",
     "source": "El Mundo Deportes",
     "lang": "es",
-    "id": 223
+    "id": 224
   },
   {
     "category": "press",
@@ -347,7 +361,7 @@
     "image": "https://e00-elmundo.uecdn.es/assets/multimedia/imagenes/2026/06/03/17805011561993_990x0.jpg",
     "source": "El Mundo Deportes",
     "lang": "es",
-    "id": 224
+    "id": 225
   },
   {
     "category": "injury",
@@ -361,7 +375,7 @@
     "image": "https://e00-elmundo.uecdn.es/assets/multimedia/imagenes/2026/06/03/17804430559791_990x0.jpg",
     "source": "El Mundo Deportes",
     "lang": "es",
-    "id": 225
+    "id": 226
   },
   {
     "category": "tactics",
@@ -375,7 +389,7 @@
     "image": "https://e00-elmundo.uecdn.es/assets/multimedia/imagenes/2026/06/02/17804158765816_990x0.jpg",
     "source": "El Mundo Deportes",
     "lang": "es",
-    "id": 226
+    "id": 227
   },
   {
     "category": "tactics",
@@ -389,7 +403,7 @@
     "image": "https://e00-elmundo.uecdn.es/assets/multimedia/imagenes/2026/06/02/17804228460877_990x0.jpg",
     "source": "El Mundo Deportes",
     "lang": "es",
-    "id": 227
+    "id": 228
   },
   {
     "category": "transfer",
@@ -403,27 +417,13 @@
     "image": "https://e01-xlk-ue-marca.uecdn.es/files/horizontal_image_desktop/uploads/2026/06/02/6a1ee5e8b3882.jpeg",
     "source": "Marca",
     "lang": "es",
-    "id": 228
-  },
-  {
-    "category": "tactics",
-    "title": "Argentina y Francia, las favoritas para el Mundial: las casas de apuestas prevén ingresos de más de 50.000 millones de dólares",
-    "snippet": "Expertos y casas de apuestas hablan sobre ingresos, los favoritos para el Mundial y algunas apuestas extrañas que hacen saltar las alarmas Leer",
-    "time": "5d ago",
-    "timestamp": 1780400808,
-    "color": "linear-gradient(135deg, #f59e0b, #78350f)",
-    "overlay": "⚽",
-    "link": "https://www.elmundo.es/deportes/futbol/mundial-de-futbol/2026/06/02/6a1ec1afe9cf4a007c8b45b5.html",
-    "image": "https://e00-elmundo.uecdn.es/assets/multimedia/imagenes/2026/06/02/17804003865506_990x0.jpg",
-    "source": "El Mundo Deportes",
-    "lang": "es",
     "id": 229
   },
   {
     "category": "tactics",
     "title": "Tiroteig amb nou ferits a pocs quilòmetres del centre d'operacions d'Anglaterra al Mundial",
     "snippet": "Els trets es van produir de matinada a Kansas City, la ciutat que acollirà la concentració de la selecció anglesa durant el Mundial del 2026",
-    "time": "6h ago",
+    "time": "10h ago",
     "timestamp": 1780862330,
     "color": "linear-gradient(135deg, #f59e0b, #78350f)",
     "overlay": "⚽",
@@ -451,7 +451,7 @@
     "category": "transfer",
     "title": "El 'carpe diem' del Barça (i de Joan Laporta)",
     "snippet": "El Barça ha necessitat sis anys per tornar a afrontar un mercat d'estiu sense restriccions. Ni el del 2022 és equiparable, ja que aleshores el club, malgrat reforçar-se a cop de talonari amb Kounde, Raphinha i Lewandowski, va suar de valent perquè les palanques s'adaptessin a la normativa de la Lliga. Aquesta vegada l'aixeta raja i un cop confirmat el fitxatge d'Anthony Gordon, l'entitat que presideix encara de manera interina Rafael Yuste mou els fils per fitxar un davanter centre de talla mundial i, si és possible, reforçar la defensa amb un central de garanties.",
-    "time": "3d ago",
+    "time": "4d ago",
     "timestamp": 1780549254,
     "color": "linear-gradient(135deg, #a855f7, #581c87)",
     "overlay": "🔄",
