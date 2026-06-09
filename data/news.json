@@ -1,9 +1,107 @@
 [
   {
+    "category": "tactics",
+    "title": "'Diogo will be with you' - Jota's widow writes to Robertson",
+    "snippet": "Diogo Jota's widow urges Scotland captain Andrew Robertson to carry his former Liverpool team-mate \"in your heart\" when he plays at the World Cup.",
+    "time": "1h ago",
+    "timestamp": 1780989689,
+    "color": "linear-gradient(135deg, #f59e0b, #78350f)",
+    "overlay": "⚽",
+    "link": "https://www.bbc.com/sport/football/articles/c3dyvyy8g5vo?at_medium=RSS&at_campaign=rss",
+    "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/c227/live/dc511470-63ce-11f1-b048-bfb92c644ab6.jpg",
+    "source": "BBC Sport",
+    "lang": "en",
+    "id": 200
+  },
+  {
+    "category": "tactics",
+    "title": "Podcast: Summing up Scotland’s strikers & war of words with Norway",
+    "snippet": "We assess Scotland’s strikers at the World Cup and there's disagreement with Norway.",
+    "time": "1h ago",
+    "timestamp": 1780988400,
+    "color": "linear-gradient(135deg, #f59e0b, #78350f)",
+    "overlay": "⚽",
+    "link": "https://www.bbc.co.uk/sounds/play/p0nqx3cq?at_medium=RSS&at_campaign=rss",
+    "image": "https://ichef.bbci.co.uk/images/ic/240x135/p0nqx3df.jpg",
+    "source": "BBC Sport",
+    "lang": "en",
+    "id": 201
+  },
+  {
+    "category": "tactics",
+    "title": "'Mazadona', 'Einstein', 'The Ant' - 20 new players to watch at the 2026 World Cup",
+    "snippet": "BBC Sport TV and radio commentators pick the players they think could be the breakout stars of the 2026 World Cup.",
+    "time": "1h ago",
+    "timestamp": 1780987373,
+    "color": "linear-gradient(135deg, #f59e0b, #78350f)",
+    "overlay": "⚽",
+    "link": "https://www.bbc.com/sport/football/articles/cn0p0gkl90go?at_medium=RSS&at_campaign=rss",
+    "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/ec23/live/6345f2d0-60bd-11f1-8b8c-6d33e1d5abb6.jpg",
+    "source": "BBC Sport",
+    "lang": "en",
+    "id": 202
+  },
+  {
+    "category": "tactics",
+    "title": "Scotland's fateful 1978 World Cup campaign still resonates",
+    "snippet": "There's a mesmeric quality to this story of '78, a legend of how a man and a country lost the run of itself, writes Tom English.",
+    "time": "2h ago",
+    "timestamp": 1780986009,
+    "color": "linear-gradient(135deg, #f59e0b, #78350f)",
+    "overlay": "⚽",
+    "link": "https://www.bbc.com/sport/football/articles/c626v3y3jz4o?at_medium=RSS&at_campaign=rss",
+    "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/f736/live/672f9880-5abc-11f1-8f60-593796f4e07d.jpg",
+    "source": "BBC Sport",
+    "lang": "en",
+    "id": 203
+  },
+  {
+    "category": "tactics",
+    "title": "Two brothers, two nations, one World Cup & how grief bound them",
+    "snippet": "In July 2022, brothers Harry and John Souttar lost their hero, but as both prepare to represent different nations at the World Cup, his influence lives on.",
+    "time": "2h ago",
+    "timestamp": 1780985698,
+    "color": "linear-gradient(135deg, #f59e0b, #78350f)",
+    "overlay": "⚽",
+    "link": "https://www.bbc.com/sport/football/articles/c8r2dvdk6xxo?at_medium=RSS&at_campaign=rss",
+    "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/9606/live/0b19a7f0-636a-11f1-8546-8f19e4fe30f4.png",
+    "source": "BBC Sport",
+    "lang": "en",
+    "id": 204
+  },
+  {
+    "category": "tactics",
+    "title": "Why super-sized and politicised World Cup comes at a cost",
+    "snippet": "Whatever one's perspective, it seems certain that away from the on-field spectacle, this super-sized World Cup could be among the most contentious ever.",
+    "time": "2h ago",
+    "timestamp": 1780984644,
+    "color": "linear-gradient(135deg, #f59e0b, #78350f)",
+    "overlay": "⚽",
+    "link": "https://www.bbc.com/sport/football/articles/cg4wqr2ev33o?at_medium=RSS&at_campaign=rss",
+    "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/ff85/live/b9e236b0-63d5-11f1-b1db-af71d47507d6.jpg",
+    "source": "BBC Sport",
+    "lang": "en",
+    "id": 205
+  },
+  {
+    "category": "tactics",
+    "title": "Who am I? Guess World Cup star No 2",
+    "snippet": "Will you get today's player in as few attempts as possible?",
+    "time": "2h ago",
+    "timestamp": 1780984351,
+    "color": "linear-gradient(135deg, #f59e0b, #78350f)",
+    "overlay": "⚽",
+    "link": "https://www.bbc.com/sport/football/articles/c202d04y761o?at_medium=RSS&at_campaign=rss",
+    "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/982b/live/d022e7c0-6309-11f1-89a3-d1f559421220.jpg",
+    "source": "BBC Sport",
+    "lang": "en",
+    "id": 206
+  },
+  {
     "category": "lineup",
     "title": "Somali referee dropped from World Cup after US visa denial",
     "snippet": "Africa's top referee will not be allowed to officiate at the World Cup after he was refused entry to the USA, FIFA has confirmed.",
-    "time": "5h ago",
+    "time": "9h ago",
     "timestamp": 1780959900,
     "color": "linear-gradient(135deg, #3b82f6, #1e3a8a)",
     "overlay": "📋",
@@ -11,13 +109,13 @@
     "image": "https://e2.365dm.com/26/06/1920x1080/skysports-omar-artan-referee_7268690.jpg?20260608231150",
     "source": "Sky Sports",
     "lang": "en",
-    "id": 200
+    "id": 207
   },
   {
     "category": "tactics",
     "title": "Olise scores hat-trick as France beat Northern Ireland",
     "snippet": "Bayern Munich's Michael Olise scores a hat-trick in France's 3-1 victory over Northern Ireland in their final World Cup warm-up match in Lille.",
-    "time": "6h ago",
+    "time": "10h ago",
     "timestamp": 1780955983,
     "color": "linear-gradient(135deg, #f59e0b, #78350f)",
     "overlay": "⚽",
@@ -25,13 +123,13 @@
     "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/ddf9/live/2f1d0ff0-6385-11f1-b1db-af71d47507d6.png",
     "source": "BBC Sport",
     "lang": "en",
-    "id": 201
+    "id": 208
   },
   {
     "category": "rules",
     "title": "Somali referee Artan to miss World Cup after being barred from entering US",
     "snippet": "Omar Artan, who was set to be the first Somali to referee at the World Cup finals, is dropped from the list of officials after he was denied entry to the United States.",
-    "time": "6h ago",
+    "time": "10h ago",
     "timestamp": 1780954945,
     "color": "linear-gradient(135deg, #64748b, #334155)",
     "overlay": "📺",
@@ -39,13 +137,13 @@
     "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/1c3c/live/7f657ff0-635e-11f1-8b15-6100cfbc3083.jpg",
     "source": "BBC Sport",
     "lang": "en",
-    "id": 202
+    "id": 209
   },
   {
     "category": "tactics",
     "title": "McGinn in the form of his life and now dancing to Scotland's tune",
     "snippet": "If Scotland hit the mark in their upcoming matches the way John McGinn does in front of the media then this could be a special World Cup for Steve Clarke's side, writes Tom English.",
-    "time": "7h ago",
+    "time": "11h ago",
     "timestamp": 1780952453,
     "color": "linear-gradient(135deg, #f59e0b, #78350f)",
     "overlay": "⚽",
@@ -53,13 +151,13 @@
     "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/1f59/live/a227a040-6377-11f1-b861-8786890186b3.jpg",
     "source": "BBC Sport",
     "lang": "en",
-    "id": 203
+    "id": 210
   },
   {
     "category": "injury",
     "title": "Netherlands' Timber out of World Cup with injury",
     "snippet": "Arsenal defender Jurrien Timber is ruled out of the Netherlands' World Cup campaign with a groin injury, while Brazil's Neymar is making good progress from injury.",
-    "time": "9h ago",
+    "time": "13h ago",
     "timestamp": 1780946518,
     "color": "linear-gradient(135deg, #ef4444, #7f1d1d)",
     "overlay": "🩺",
@@ -67,13 +165,13 @@
     "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/9c69/live/e36c4490-636b-11f1-b400-a9a3aa116c11.jpg",
     "source": "BBC Sport",
     "lang": "en",
-    "id": 204
+    "id": 211
   },
   {
     "category": "lineup",
     "title": "Norway dress up as Vikings for World Cup",
     "snippet": "Watch behind-the-scenes footage as the Norway squad dress up as Vikings for a team photo before the World Cup.",
-    "time": "10h ago",
+    "time": "14h ago",
     "timestamp": 1780941418,
     "color": "linear-gradient(135deg, #3b82f6, #1e3a8a)",
     "overlay": "📋",
@@ -81,13 +179,13 @@
     "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/6bf4/live/3fa63cc0-6362-11f1-8e1d-bbbb1017d210.jpg",
     "source": "BBC Sport",
     "lang": "en",
-    "id": 205
+    "id": 212
   },
   {
     "category": "lineup",
     "title": "Walcott & Defoe’s 2006 World Cup fallout",
     "snippet": "Walcott, Defoe and Wayne revisit England's most controversial call-up.",
-    "time": "12h ago",
+    "time": "16h ago",
     "timestamp": 1780935360,
     "color": "linear-gradient(135deg, #3b82f6, #1e3a8a)",
     "overlay": "📋",
@@ -95,13 +193,13 @@
     "image": "https://ichef.bbci.co.uk/images/ic/240x135/p0lxths6.jpg",
     "source": "BBC Sport",
     "lang": "en",
-    "id": 206
+    "id": 213
   },
   {
     "category": "tactics",
     "title": "Rashford 'dead cert to start for me' - Walcott",
     "snippet": "Former England winger Theo Walcott is \"most psyched\" about Marcus Rashford for the Three Lions at the World Cup.",
-    "time": "12h ago",
+    "time": "16h ago",
     "timestamp": 1780934412,
     "color": "linear-gradient(135deg, #f59e0b, #78350f)",
     "overlay": "⚽",
@@ -109,111 +207,125 @@
     "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/73c5/live/8b099570-61fc-11f1-97a1-f7410493225c.jpg",
     "source": "BBC Sport",
     "lang": "en",
-    "id": 207
-  },
-  {
-    "category": "press",
-    "title": "Wilkinson reveals Wales plane was hit by lightning",
-    "snippet": "Boss Rhian Wilkinson says Wales are happy to be at home in Tuesday's Women's World Cup qualifier against Czech Republic after revealing their team plane was struck by lightning en route to Montenegro.",
-    "time": "13h ago",
-    "timestamp": 1780932932,
-    "color": "linear-gradient(135deg, #0d9488, #115e59)",
-    "overlay": "🎙️",
-    "link": "https://www.bbc.com/sport/football/articles/cly9v1r2077o?at_medium=RSS&at_campaign=rss",
-    "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/c1c0/live/70900920-632a-11f1-b1df-ebbb1d0d8a09.jpg",
-    "source": "BBC Sport",
-    "lang": "en",
-    "id": 208
-  },
-  {
-    "category": "tactics",
-    "title": "Rowing boats & regrets - Scotland's undefeated 1974 World Cup campaign",
-    "snippet": "Joe Jordan and Davie Hay remember Scotland's 1974 World Cup campaign, that ended at the group stage despite an unbeaten record.",
-    "time": "13h ago",
-    "timestamp": 1780931863,
-    "color": "linear-gradient(135deg, #f59e0b, #78350f)",
-    "overlay": "⚽",
-    "link": "https://www.bbc.com/sport/football/articles/cpdp7lyx432o?at_medium=RSS&at_campaign=rss",
-    "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/3dc2/live/cad7e410-5ab6-11f1-89a3-d1f559421220.jpg",
-    "source": "BBC Sport",
-    "lang": "en",
-    "id": 209
-  },
-  {
-    "category": "press",
-    "title": "Beating France would be one of football's biggest stories - Ward",
-    "snippet": "Republic of Ireland boss Carla Ward says beating France to qualify automatically for the 2027 Women's World Cup would \"be one of the biggest stories in world football\".",
-    "time": "13h ago",
-    "timestamp": 1780931346,
-    "color": "linear-gradient(135deg, #0d9488, #115e59)",
-    "overlay": "🎙️",
-    "link": "https://www.bbc.com/sport/articles/c4gyle0pze1o?at_medium=RSS&at_campaign=rss",
-    "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/5613/live/c5c00350-6343-11f1-b363-0978caabd15d.jpg",
-    "source": "BBC Sport",
-    "lang": "en",
-    "id": 210
-  },
-  {
-    "category": "tactics",
-    "title": "Key dates England fans MUST KNOW for World Cup knockout stages!",
-    "snippet": "Sky Sports' Ron Walker reveals the key dates England fans must be aware of if the Three Lions reach the knockout stages at the World Cup.",
-    "time": "13h ago",
-    "timestamp": 1780930860,
-    "color": "linear-gradient(135deg, #f59e0b, #78350f)",
-    "overlay": "⚽",
-    "link": "https://www.skysports.com/watch/video/13552009/key-dates-england-fans-must-know-for-world-cup-knockout-stages",
-    "image": "https://e2.365dm.com/26/06/1920x1080/skysports-football-england_7268425.jpg?20260608152134",
-    "source": "Sky Sports",
-    "lang": "en",
-    "id": 211
-  },
-  {
-    "category": "press",
-    "title": "Norway boss brands Scotland's Clarke 'unprofessional'",
-    "snippet": "Steve Clarke is branded \"unprofessional\" by Norway counterpart Stale Solbakken after Scotland cancelled a training-ground friendly before the World Cup.",
-    "time": "14h ago",
-    "timestamp": 1780928635,
-    "color": "linear-gradient(135deg, #0d9488, #115e59)",
-    "overlay": "🎙️",
-    "link": "https://www.bbc.com/sport/football/articles/c17ylw8vz05o?at_medium=RSS&at_campaign=rss",
-    "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/d7ff/live/c36aac30-6344-11f1-b1db-af71d47507d6.png",
-    "source": "BBC Sport",
-    "lang": "en",
-    "id": 212
-  },
-  {
-    "category": "tactics",
-    "title": "How Emslie went from giving birth to World Cup qualifiers inside six months",
-    "snippet": "Scotland's Claire Emslie was back playing competitive football just five months after giving birth and is now targeting next year's World Cup finals in Brazil.",
-    "time": "15h ago",
-    "timestamp": 1780924851,
-    "color": "linear-gradient(135deg, #f59e0b, #78350f)",
-    "overlay": "⚽",
-    "link": "https://www.bbc.com/sport/football/articles/cx23kj5814po?at_medium=RSS&at_campaign=rss",
-    "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/3727/live/1a74ab70-633b-11f1-81a3-11c500fa26e7.jpg",
-    "source": "BBC Sport",
-    "lang": "en",
-    "id": 213
-  },
-  {
-    "category": "tactics",
-    "title": "World Cup 2026 kits: VOTE for your favourite!",
-    "snippet": "",
-    "time": "17h ago",
-    "timestamp": 1780916400,
-    "color": "linear-gradient(135deg, #f59e0b, #78350f)",
-    "overlay": "⚽",
-    "link": "https://www.skysports.com/football/live-blog/11095/13526404/world-cup-2026-kits-england-brazil-spain-argentina-france-germany-usa-japan-shirts-from-nike-adidas-puma-and-more",
-    "image": "https://e0.365dm.com/26/03/1920x1080/skysports-england-world-cup_7198576.jpg?20260320192255",
-    "source": "Sky Sports",
-    "lang": "en",
     "id": 214
+  },
+  {
+    "category": "tactics",
+    "title": "El mensaje que envía Irán al mundo con un 168 en la solapa<br>",
+    "snippet": "La selección de Irán aterrizó en Tijuana (México) para disputar el Mundial 2026. Los jugadores del 'Team Melli' lucieron insignias en la solapa con el número 168. Según el Ministerio de Relaciones Exteriores iraní el 168 reproduce un hashtag de internet que conmemora el número de niños que murieron en una escuela primaria de Minab, durante un ataque aéreo con tres misiles Tomahawk de Estados Unidos&nbsp;el 28 de febrero de 2026.",
+    "time": "1h ago",
+    "timestamp": 1780988628,
+    "color": "linear-gradient(135deg, #f59e0b, #78350f)",
+    "overlay": "⚽",
+    "link": "https://www.marca.com/futbol/mundial/album/2026/06/09/aterriza-iran-mundial-168-solapa.html",
+    "image": "https://e01-xlk-ue-marca.uecdn.es/files/horizontal_image_desktop/uploads/2026/06/09/6a27babe2220d.jpeg",
+    "source": "Marca",
+    "lang": "es",
+    "id": 215
+  },
+  {
+    "category": "tactics",
+    "title": "\"Irán, Trump y su servil Infantino\"",
+    "snippet": "'Al otro lado del espejo', una opinión de Alfredo Relaño",
+    "time": "2h ago",
+    "timestamp": 1780983449,
+    "color": "linear-gradient(135deg, #f59e0b, #78350f)",
+    "overlay": "⚽",
+    "link": "https://www.marca.com/futbol/mundial/opinion/2026/06/09/iran-trump-servil-infantino.html",
+    "image": "https://e01-xlk-ue-marca.uecdn.es/files/horizontal_image_desktop/uploads/2026/06/08/6a26df2801e7c.jpeg",
+    "source": "Marca",
+    "lang": "es",
+    "id": 216
+  },
+  {
+    "category": "tactics",
+    "title": "Así vive México el inicio del Mundial: día sin colegios, teletrabajo... y siete manifestaciones convocadas",
+    "snippet": "MARCA ya está en Ciudad de México dos días antes de la inauguración del jueves&nbsp;",
+    "time": "3h ago",
+    "timestamp": 1780982126,
+    "color": "linear-gradient(135deg, #f59e0b, #78350f)",
+    "overlay": "⚽",
+    "link": "https://www.marca.com/futbol/mundial/2026/06/09/asi-vive-mexico-inicio-mundial-dia-colegios-teletrabajo-siete-manifestaciones-convocadas.html",
+    "image": "https://e01-xlk-ue-marca.uecdn.es/files/horizontal_image_desktop/uploads/2026/06/09/6a2799fc75ad5.jpeg",
+    "source": "Marca",
+    "lang": "es",
+    "id": 217
+  },
+  {
+    "category": "tactics",
+    "title": "Messi y Mbappé, al asalto de un récord para la historia de los Mundiales",
+    "snippet": "El argentino y el francés pelearán por sellar su nombre en la memoria de los registros goleadores del torneo",
+    "time": "3h ago",
+    "timestamp": 1780981944,
+    "color": "linear-gradient(135deg, #f59e0b, #78350f)",
+    "overlay": "⚽",
+    "link": "https://www.marca.com/futbol/mundial/2026/06/09/messi-mbappe-asalto-record-historia-mundiales.html",
+    "image": "https://e01-xlk-ue-marca.uecdn.es/files/horizontal_image_desktop/uploads/2026/06/03/6a202db169dbc.jpeg",
+    "source": "Marca",
+    "lang": "es",
+    "id": 218
+  },
+  {
+    "category": "tactics",
+    "title": "Vinicius, en busca del Trono del Nuevo Mundo",
+    "snippet": "El líder brasileño arranca en la tierra de LeBron James su camino a la gloria en el Mundial para seguir dando pasos hacia un legado que quiere que trascienda más allá de lo deportivo",
+    "time": "3h ago",
+    "timestamp": 1780981799,
+    "color": "linear-gradient(135deg, #f59e0b, #78350f)",
+    "overlay": "⚽",
+    "link": "https://www.marca.com/futbol/mundial/2026/06/09/vinicius-busca-trono-nuevo-mundo.html",
+    "image": "https://e01-xlk-ue-marca.uecdn.es/files/horizontal_image_desktop/uploads/2026/06/07/6a2591bd18a0b.jpeg",
+    "source": "Marca",
+    "lang": "es",
+    "id": 219
+  },
+  {
+    "category": "tactics",
+    "title": "Klopp bromea sobre su futuro: \"Adivina dónde voy...\"",
+    "snippet": "Jürgen Klopp comparte dos fotos con sus 5,8 millones de seguidores en Instagram con un doble mensaje",
+    "time": "3h ago",
+    "timestamp": 1780979890,
+    "color": "linear-gradient(135deg, #f59e0b, #78350f)",
+    "overlay": "⚽",
+    "link": "https://www.marca.com/futbol/mundial/2026/06/09/juergen-klopp-bromea-sobre-futuro-adivina.html",
+    "image": "https://e01-xlk-ue-marca.uecdn.es/files/horizontal_image_desktop/uploads/2026/06/09/6a2798a4199ad.jpeg",
+    "source": "Marca",
+    "lang": "es",
+    "id": 220
+  },
+  {
+    "category": "tactics",
+    "title": "Las reacciones de los jugadores con el himno más largo de España que han escuchado<br>",
+    "snippet": "Miradas de reojo, alguna leve sonrisa e incluso muecas de sorpresa fueron las reacciones de los jugadores de España ante la versión de más de dos minutos del himno nacional",
+    "time": "6h ago",
+    "timestamp": 1780971156,
+    "color": "linear-gradient(135deg, #f59e0b, #78350f)",
+    "overlay": "⚽",
+    "link": "https://www.marca.com/futbol/mundial/2026/06/09/reacciones-jugadores-espana-interpretacion-version-larga-himno-nacional.html",
+    "image": "https://e01-xlk-ue-marca.uecdn.es/files/horizontal_image_desktop/uploads/2026/06/09/6a27766754dbd.jpeg",
+    "source": "Marca",
+    "lang": "es",
+    "id": 221
+  },
+  {
+    "category": "tactics",
+    "title": "La emotiva carta de la viuda de Diogo Jota a Robertson<br>",
+    "snippet": "Rute Cardoso anima al escocés, el gran amigo de Diogo, antes de debutar en el Mundial",
+    "time": "9h ago",
+    "timestamp": 1780960771,
+    "color": "linear-gradient(135deg, #f59e0b, #78350f)",
+    "overlay": "⚽",
+    "link": "https://www.marca.com/futbol/mundial/2026/06/09/emotiva-carta-viuda-diogo-jota-robertson-mundial-llevaras-contigo-tambien-sueno.html",
+    "image": "https://e01-xlk-ue-marca.uecdn.es/files/horizontal_image_desktop/uploads/2026/06/09/6a274d97d3e2c.jpeg",
+    "source": "Marca",
+    "lang": "es",
+    "id": 222
   },
   {
     "category": "tactics",
     "title": "Como locos con Olise<br>",
     "snippet": "El extremo del Bayern acapara los focos y los elogios en el último amistoso de Francia",
-    "time": "5h ago",
+    "time": "9h ago",
     "timestamp": 1780959297,
     "color": "linear-gradient(135deg, #f59e0b, #78350f)",
     "overlay": "⚽",
@@ -221,69 +333,27 @@
     "image": "https://e01-xlk-ue-marca.uecdn.es/files/horizontal_image_desktop/uploads/2026/06/09/6a2747e527326.jpeg",
     "source": "Marca",
     "lang": "es",
-    "id": 215
-  },
-  {
-    "category": "rules",
-    "title": "El primer español en un Mundial",
-    "snippet": "España no aceptó la invitación de la FIFA para acudir a Uruguay 1930. el barcelonés paco bru fue seleccionador de Perú en la primera Copa del Mundo",
-    "time": "6h ago",
-    "timestamp": 1780956523,
-    "color": "linear-gradient(135deg, #64748b, #334155)",
-    "overlay": "📺",
-    "link": "https://www.marca.com/futbol/mundial/2026/06/09/primer-espanol-mundial.html",
-    "image": "https://e01-xlk-ue-marca.uecdn.es/files/horizontal_image_desktop/uploads/2026/06/08/6a273b26060a5.jpeg",
-    "source": "Marca",
-    "lang": "es",
-    "id": 216
+    "id": 223
   },
   {
     "category": "tactics",
-    "title": "Un jugador como para tirar la casa por la ventana<br>",
-    "snippet": "Un 'hat-trick' del jugador del Bayern aniquilia a Irlanda del Norte en el último ensayo de Francia",
-    "time": "7h ago",
-    "timestamp": 1780953489,
-    "color": "linear-gradient(135deg, #f59e0b, #78350f)",
-    "overlay": "⚽",
-    "link": "https://www.marca.com/futbol/mundial/cronica/2026/06/08/olise-vale-150-millones.html",
-    "image": "https://e01-xlk-ue-marca.uecdn.es/files/horizontal_image_desktop/files/fp/uploads/2026/06/08/6a2731863e508.r_d.1224-341-0.jpeg",
-    "source": "Marca",
-    "lang": "es",
-    "id": 217
-  },
-  {
-    "category": "rules",
-    "title": "Cannavaro le mete un susto a Países Bajos",
-    "snippet": "Gakpo salvó los muebles ante Uzbekistán (2-1) convirtiendo un doblete de penalti",
-    "time": "7h ago",
-    "timestamp": 1780952001,
-    "color": "linear-gradient(135deg, #64748b, #334155)",
-    "overlay": "📺",
-    "link": "https://www.marca.com/futbol/mundial/cronica/2026/06/08/cannavaro-le-mete-susto-paises-bajos.html",
-    "image": "https://e01-xlk-ue-marca.uecdn.es/files/horizontal_image_desktop/uploads/2026/06/08/6a272b9e79be8.jpeg",
-    "source": "Marca",
-    "lang": "es",
-    "id": 218
-  },
-  {
-    "category": "tactics",
-    "title": "Johannes Klaebo: MARCA Leyenda porque en el fondo es el mejor",
+    "title": "Johannes Klaebo ya es MARCA Leyenda: en el fondo es el mejor",
     "snippet": "El rey de los Juegos Olímpicos de invierno engrandece la galería más importante del deporte mundial. Su abuelo le inculcó una técnica única con la que aplasta a sus rivales",
-    "time": "8h ago",
+    "time": "12h ago",
     "timestamp": 1780949678,
     "color": "linear-gradient(135deg, #f59e0b, #78350f)",
     "overlay": "⚽",
     "link": "https://www.marca.com/premios/adn/2026/06/08/johannes-klaebo-marca-leyenda-fondo-mejor.html",
-    "image": "https://images.unsplash.com/photo-1579952363873-27f3bade9f55?w=800&auto=format&fit=crop",
+    "image": "https://images.unsplash.com/photo-1543351611-58f69d7c1781?w=800&auto=format&fit=crop",
     "source": "Marca",
     "lang": "es",
-    "id": 219
+    "id": 224
   },
   {
     "category": "tactics",
     "title": "Audrey Pascual, la 'Number One' con ADN de campeona",
     "snippet": "La esquiadora, de 21 años, ganó cuatro medallas en los Juegos Paralímpicos de Milán-Cortina: 2 oros, una plata y un bronce. Y 17 medallas en la Copa del Mundo 2026",
-    "time": "8h ago",
+    "time": "12h ago",
     "timestamp": 1780948603,
     "color": "linear-gradient(135deg, #f59e0b, #78350f)",
     "overlay": "⚽",
@@ -291,13 +361,13 @@
     "image": "https://e01-xlk-ue-marca.uecdn.es/files/horizontal_image_desktop/uploads/2026/06/08/bSgMI1g9oDPue_Pbe.jpeg",
     "source": "Marca",
     "lang": "es",
-    "id": 220
+    "id": 225
   },
   {
     "category": "tactics",
     "title": "La primera estrella y el genial \"Iniesta de mi vida\": los recuerdos de Sudáfrica 2010",
     "snippet": "España ganó tras superar un tortuoso camino que empezó con derrota ante Suiza. Iniesta marcó el gol en la prórroga de la final ante Holanda con el remate más tenso y hermoso de la historia de nuestro fútbol. Leer",
-    "time": "8h ago",
+    "time": "12h ago",
     "timestamp": 1780948073,
     "color": "linear-gradient(135deg, #f59e0b, #78350f)",
     "overlay": "⚽",
@@ -305,13 +375,13 @@
     "image": "https://e00-elmundo.uecdn.es/assets/multimedia/imagenes/2026/06/06/17807668245690_990x0.jpg",
     "source": "El Mundo Deportes",
     "lang": "es",
-    "id": 221
+    "id": 226
   },
   {
     "category": "tactics",
     "title": "20 años de Alemania 2006, el inicio del dominio futbolístico y mediático de Messi y Cristiano: más de 1.800 goles, 350 millones de euros anuales, 1.000 millones de seguidores...",
     "snippet": "Llegan ahora a su sexto Mundial, un récord histórico, dos décadas después del primero. El argentino tocó el cielo en Qatar y el portugués, semifinalista en Alemania, busca el gran título que le falta. Leer",
-    "time": "8h ago",
+    "time": "12h ago",
     "timestamp": 1780948043,
     "color": "linear-gradient(135deg, #f59e0b, #78350f)",
     "overlay": "⚽",
@@ -319,111 +389,55 @@
     "image": "https://e00-elmundo.uecdn.es/assets/multimedia/imagenes/2026/06/08/17809372373328_990x0.png",
     "source": "El Mundo Deportes",
     "lang": "es",
-    "id": 222
-  },
-  {
-    "category": "tactics",
-    "title": "El FC lo tiene claro: Uruguay es la selección tapada del Mundial",
-    "snippet": "Uruguay podría ser la candidata a dar la sorpresa en la copa que se disputará en Canadá, México y Estados Unidos",
-    "time": "12h ago",
-    "timestamp": 1780936258,
-    "color": "linear-gradient(135deg, #f59e0b, #78350f)",
-    "overlay": "⚽",
-    "link": "https://www.marca.com/videojuegos/juegos/2026/06/08/fc-claro-uruguay-seleccion-tapada-mundial-2026.html",
-    "image": "https://e01-xlk-ue-marca.uecdn.es/files/horizontal_image_desktop/uploads/2026/06/08/6a26e2ea94617.png",
-    "source": "Marca",
-    "lang": "es",
-    "id": 223
-  },
-  {
-    "category": "tactics",
-    "title": "Compás de espera con Abde",
-    "snippet": "Se someterá a nuevas pruebas para decidir si se queda con Marruecos o se cae del Mundial",
-    "time": "13h ago",
-    "timestamp": 1780931782,
-    "color": "linear-gradient(135deg, #f59e0b, #78350f)",
-    "overlay": "⚽",
-    "link": "https://www.marca.com/futbol/mundial/2026/06/08/compas-espera-abde-baje-inflamacion-rodilla.html",
-    "image": "https://e01-xlk-ue-marca.uecdn.es/files/horizontal_image_desktop/uploads/2026/06/08/6a26877bbf81a.jpeg",
-    "source": "Marca",
-    "lang": "es",
-    "id": 224
-  },
-  {
-    "category": "tactics",
-    "title": "La gran revolución del Mundial: así funciona el Power Ranking de MARCA",
-    "snippet": "",
-    "time": "14h ago",
-    "timestamp": 1780927619,
-    "color": "linear-gradient(135deg, #f59e0b, #78350f)",
-    "overlay": "⚽",
-    "link": "https://www.marca.com/futbol/power-ranking/2026/06/08/gran-revolucion-mundial-asi-funciona-power-ranking-marca-video.html",
-    "image": "https://images.unsplash.com/photo-1579952363873-27f3bade9f55?w=800&auto=format&fit=crop",
-    "source": "Marca",
-    "lang": "es",
-    "id": 225
-  },
-  {
-    "category": "rules",
-    "title": "España vuelve a Puebla, el lugar del crimen de México'86: \"Hubo un momento en que pensé en cambiarlo por cómo estaba colocado Pfaff, pero...\"",
-    "snippet": "La selección juega esta noche en la misma ciudad mexicana donde Eloy Olaya falló el famoso penalti contra Bélgica en cuartos de final. \"Fue una lección de vida\", recuerda hoy Leer",
-    "time": "1d ago",
-    "timestamp": 1780865720,
-    "color": "linear-gradient(135deg, #64748b, #334155)",
-    "overlay": "📺",
-    "link": "https://www.elmundo.es/deportes/futbol/mundial-de-futbol/2026/06/07/6a244f19fc6c83ec6e8b45ac.html",
-    "image": "https://e00-elmundo.uecdn.es/assets/multimedia/imagenes/2026/06/06/17807640537621_990x0.jpg",
-    "source": "El Mundo Deportes",
-    "lang": "es",
-    "id": 226
-  },
-  {
-    "category": "tactics",
-    "title": "Alexia pone a España rumbo al Mundial de Brasil con una goleada a Inglaterra",
-    "snippet": "La selección derrota a la campeona de Europa con dos tantos de la doble Balón de Oro, Patri Guijarro y Clàudia Pina. Le queda un partido ante Islandia Leer",
-    "time": "3d ago",
-    "timestamp": 1780692778,
-    "color": "linear-gradient(135deg, #f59e0b, #78350f)",
-    "overlay": "⚽",
-    "link": "https://www.elmundo.es/deportes/2026/06/05/6a233728e85ece0e0e8b45a1.html",
-    "image": "https://e00-elmundo.uecdn.es/assets/multimedia/imagenes/2026/06/05/17806926640702_990x0.jpg",
-    "source": "El Mundo Deportes",
-    "lang": "es",
     "id": 227
   },
   {
     "category": "rules",
-    "title": "La FIFA introduce cambios en la ceremonia de himnos para el Mundial 2026",
-    "snippet": "Fuegos artificiales, banderas gigantes y adiós a los 11 jugadores alineados sobre el césped Leer",
-    "time": "3d ago",
-    "timestamp": 1780684431,
+    "title": "Estados Unidos deniega la entrada al mejor árbitro de África",
+    "snippet": "Omar Abdulkadir Artan apunta a que no estará en la gran cita después de que no haya podido acceder al país",
+    "time": "16h ago",
+    "timestamp": 1780933431,
     "color": "linear-gradient(135deg, #64748b, #334155)",
     "overlay": "📺",
-    "link": "https://www.elmundo.es/deportes/futbol/mundial-de-futbol/2026/06/05/6a230801fdddff085a8b4590.html",
-    "image": "https://e00-elmundo.uecdn.es/assets/multimedia/imagenes/2026/06/05/17806804364237_990x0.jpg",
-    "source": "El Mundo Deportes",
+    "link": "https://www.marca.com/futbol/mundial/2026/06/08/lio-mundial-estados-unidos-niega-entrada-mejor-arbitro-africa-2025.html",
+    "image": "https://e01-xlk-ue-marca.uecdn.es/files/horizontal_image_desktop/uploads/2026/06/08/6a26e2b3bff78.jpeg",
+    "source": "Marca",
     "lang": "es",
     "id": 228
   },
   {
     "category": "tactics",
-    "title": "Los orígenes de Zubimendi: \"Por favor, nunca vas a llegar a ser futbolista profesional\"",
-    "snippet": "Tras Lamine y Pedro Porro, MARCA estrena el tercer capítulo de 'Forjados'",
-    "time": "3d ago",
-    "timestamp": 1780657367,
+    "title": "La gran revolución del Mundial: así funciona el Power Ranking de MARCA",
+    "snippet": "",
+    "time": "18h ago",
+    "timestamp": 1780927619,
     "color": "linear-gradient(135deg, #f59e0b, #78350f)",
     "overlay": "⚽",
-    "link": "https://www.marca.com/futbol/mundial/2026/06/05/origenes-martin-zubimendi.html",
+    "link": "https://www.marca.com/futbol/power-ranking/2026/06/08/gran-revolucion-mundial-asi-funciona-power-ranking-marca-video.html",
     "image": "https://images.unsplash.com/photo-1508098682722-e99c43a406b2?w=800&auto=format&fit=crop",
     "source": "Marca",
     "lang": "es",
     "id": 229
   },
   {
+    "category": "rules",
+    "title": "Escàndol al Mundial: el govern de Trump no concedeix el visat al millor àrbitre africà",
+    "snippet": "A poques hores per a l'inici del Mundial aquest dijous, el govern dels Estats Units ha comunicat que no deixarà entrar al seu país un dels àrbitres escollits per la FIFA per dirigir partits. Es tracta d'Omar Artan, que havia de ser el primer àrbitre de Somàlia en dirigir partits a la Copa del Món. La FIFA, ens organitzador del torneig, havia defensat els darrers mesos que tothom seria \"benvingut al Mundial\" en paraules del seu president, Gianni Infantino, però el govern de Donald Trump ho veu diferent. Les darreres setmanes ha anat denegant el visat de molts aficionats, però també de periodistes, membres de delegacions dels equips i finalment, un dels àrbitres escollits per dirigir partits.",
+    "time": "3h ago",
+    "timestamp": 1780980705,
+    "color": "linear-gradient(135deg, #64748b, #334155)",
+    "overlay": "📺",
+    "link": "https://www.ara.cat/esports/futbol/escandol-mundial-govern-trump-no-concedeix-visat-arbitre_1_5762625.html",
+    "image": "https://static1.ara.cat/clip/6deae1f1-cb51-4cdf-8973-8ae03717eb74_16-9-aspect-ratio_default_1058581.jpg",
+    "source": "ARA Esports",
+    "lang": "ca",
+    "id": 230
+  },
+  {
     "category": "injury",
     "title": "Blaugrana resplendent",
     "snippet": "Lamine Yamal afronta la seva primera copa del món com una de les principals estrelles del torneig, amb només divuit anysL’atacant català del Barça evoluciona favorablement de la lesió i arribarà al primer partit",
-    "time": "4h ago",
+    "time": "8h ago",
     "timestamp": 1780963200,
     "color": "linear-gradient(135deg, #ef4444, #7f1d1d)",
     "overlay": "🩺",
@@ -431,13 +445,13 @@
     "image": "https://www.elpuntavui.cat/imatges/64/52/4x3/780_0008_6452520_65578d27ba64ee385bead8fccee787b7ver3.jpg",
     "source": "El Punt Avui",
     "lang": "ca",
-    "id": 230
+    "id": 231
   },
   {
     "category": "injury",
     "title": "Ensurts d’última hora",
     "snippet": "Anada i tornada. Ronald Araujo viatja a Barcelona per iniciar tractament d’una lesió lleu al soli que no li ha d’impedir jugar el mundial amb l’Uruguai",
-    "time": "4h ago",
+    "time": "8h ago",
     "timestamp": 1780963200,
     "color": "linear-gradient(135deg, #ef4444, #7f1d1d)",
     "overlay": "🩺",
@@ -445,13 +459,13 @@
     "image": "https://www.elpuntavui.cat/imatges/64/52/4x3/780_0008_6452714_d2de9f0a0614d272a42cb6ff81c92bb1ver2.jpg",
     "source": "El Punt Avui",
     "lang": "ca",
-    "id": 231
+    "id": 232
   },
   {
     "category": "tactics",
     "title": "El fill d’una llegenda del Barça es posarà a les ordres de Flick",
     "snippet": "La pretemporada del Futbol Club Barcelona va agafant forma. Després que s’anunciés que començarà el pròxim 13 de juliol, amb el Mundial encara en disputa, es van coneixent noms de jugadors del planter que pujaran al primer equip i es posaran a les ordres de Hansi Flick. Un d’ells s’ha conegut aquest dilluns i és … Continued",
-    "time": "12h ago",
+    "time": "16h ago",
     "timestamp": 1780934833,
     "color": "linear-gradient(135deg, #f59e0b, #78350f)",
     "overlay": "⚽",
@@ -459,13 +473,13 @@
     "image": "https://images.unsplash.com/photo-1543351611-58f69d7c1781?w=800&auto=format&fit=crop",
     "source": "Món Esport",
     "lang": "ca",
-    "id": 232
+    "id": 233
   },
   {
     "category": "injury",
     "title": "Araujo encén les alarmes just abans de l’inici del Mundial",
     "snippet": "Ronald Araujo, defensa central uruguaià del Futbol Club Barcelona, s’ha convertit en un dels protagonistes negatius de les darreres hores a causa d’una lesió que podria fer que perillés el Mundial per a ell. Mentre estava concentrat amb l’Uruguai, Aruajo ha notat unes molèsties musculars que l’han preocupat fins al punt que ha volgut tornar … Continued",
-    "time": "16h ago",
+    "time": "20h ago",
     "timestamp": 1780919622,
     "color": "linear-gradient(135deg, #ef4444, #7f1d1d)",
     "overlay": "🩺",
@@ -473,13 +487,13 @@
     "image": "https://images.unsplash.com/photo-1508098682722-e99c43a406b2?w=800&auto=format&fit=crop",
     "source": "Món Esport",
     "lang": "ca",
-    "id": 233
+    "id": 234
   },
   {
     "category": "press",
     "title": "De la Fuente fa una defensa aferrissada de Gavi",
     "snippet": "Luis de la Fuente, entrenador de la selecció espanyola, ha comparegut en roda de premsa abans del partit amistós de preparació pel Mundial que La Roja disputarà en les pròximes hores contra el Perú. Una de les seves respostes més destacades ha estat relacionada amb Gavi, migcampista andalús del Futbol Club Barcelona. Fa pocs dies, … Continued",
-    "time": "18h ago",
+    "time": "22h ago",
     "timestamp": 1780913657,
     "color": "linear-gradient(135deg, #0d9488, #115e59)",
     "overlay": "🎙️",
@@ -487,7 +501,7 @@
     "image": "https://images.unsplash.com/photo-1543351611-58f69d7c1781?w=800&auto=format&fit=crop",
     "source": "Món Esport",
     "lang": "ca",
-    "id": 234
+    "id": 235
   },
   {
     "category": "tactics",
@@ -501,7 +515,7 @@
     "image": "https://d5r1tkwwv7d5g.cloudfront.net/articulos/articulos-724031.jpg",
     "source": "Nació Digital",
     "lang": "ca",
-    "id": 235
+    "id": 236
   },
   {
     "category": "tactics",
@@ -515,13 +529,13 @@
     "image": "https://static1.ara.cat/clip/8ae90eb1-5edb-44ee-ba08-be9927432fb2_16-9-aspect-ratio_default_0.jpg",
     "source": "ARA Esports",
     "lang": "ca",
-    "id": 236
+    "id": 237
   },
   {
     "category": "transfer",
     "title": "El 'carpe diem' del Barça (i de Joan Laporta)",
     "snippet": "El Barça ha necessitat sis anys per tornar a afrontar un mercat d'estiu sense restriccions. Ni el del 2022 és equiparable, ja que aleshores el club, malgrat reforçar-se a cop de talonari amb Kounde, Raphinha i Lewandowski, va suar de valent perquè les palanques s'adaptessin a la normativa de la Lliga. Aquesta vegada l'aixeta raja i un cop confirmat el fitxatge d'Anthony Gordon, l'entitat que presideix encara de manera interina Rafael Yuste mou els fils per fitxar un davanter centre de talla mundial i, si és possible, reforçar la defensa amb un central de garanties.",
-    "time": "4d ago",
+    "time": "5d ago",
     "timestamp": 1780549254,
     "color": "linear-gradient(135deg, #a855f7, #581c87)",
     "overlay": "🔄",
@@ -529,7 +543,7 @@
     "image": "https://static1.ara.cat/clip/7fa2a8a8-765b-4bfb-80f6-cfb51e6b8131_16-9-aspect-ratio_default_0.jpg",
     "source": "ARA Esports",
     "lang": "ca",
-    "id": 237
+    "id": 238
   },
   {
     "category": "tactics",
@@ -543,7 +557,7 @@
     "image": "https://static1.ara.cat/clip/88c8347b-0417-4e84-8b5c-2a11a8ea90aa_16-9-aspect-ratio_default_0_x2351y869.jpg",
     "source": "ARA Esports",
     "lang": "ca",
-    "id": 238
+    "id": 239
   },
   {
     "category": "lineup",
@@ -557,7 +571,7 @@
     "image": "https://static1.ara.cat/clip/ee737dde-d694-4f24-9993-cd65d353a8a1_16-9-aspect-ratio_default_1058448.jpg",
     "source": "ARA Esports",
     "lang": "ca",
-    "id": 239
+    "id": 240
   },
   {
     "category": "tactics",
@@ -571,7 +585,7 @@
     "image": "https://d5r1tkwwv7d5g.cloudfront.net/articulos/articulos-719250.jpg",
     "source": "Nació Digital",
     "lang": "ca",
-    "id": 240
+    "id": 241
   },
   {
     "category": "tactics",
@@ -585,7 +599,7 @@
     "image": "https://d5r1tkwwv7d5g.cloudfront.net/articulos/articulos-596058.jpg",
     "source": "Nació Digital",
     "lang": "ca",
-    "id": 241
+    "id": 242
   },
   {
     "category": "press",
@@ -599,6 +613,6 @@
     "image": "https://d5r1tkwwv7d5g.cloudfront.net/articulos/articulos-704199.jpg",
     "source": "Nació Digital",
     "lang": "ca",
-    "id": 242
+    "id": 243
   }
 ]
