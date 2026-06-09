@@ -901,6 +901,8 @@ body {
   cursor: pointer;
   transition: all 0.3s var(--ease-smooth);
   min-height: 110px;
+  height: auto;
+  flex-shrink: 0;
   
   /* Staggered entrance animation */
   animation: scaleIn 0.35s var(--ease-spring) forwards;
@@ -2044,6 +2046,8 @@ body.light-theme .player-node-name {
   .news-card {
     border-radius: 12px;
     min-height: 95px;
+    height: auto;
+    flex-shrink: 0;
   }
   
   .news-img-container {
