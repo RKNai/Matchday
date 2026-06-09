@@ -14,6 +14,20 @@
     "id": 200
   },
   {
+    "category": "rules",
+    "title": "Platini begins legal proceedings against Fifa",
+    "snippet": "Former Uefa president Michel Platini initiaites civil and legal proceedings against Fifa and current president Gianni Infantino over corruption allegations from 2015.",
+    "time": "4m ago",
+    "timestamp": 1781004999,
+    "color": "linear-gradient(135deg, #64748b, #334155)",
+    "overlay": "📺",
+    "link": "https://www.bbc.com/sport/football/articles/c3ey9l4d0qdo?at_medium=RSS&at_campaign=rss",
+    "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/2be8/live/1db36400-63f1-11f1-abe1-f36e5ae3bba8.jpg",
+    "source": "BBC Sport",
+    "lang": "en",
+    "id": 201
+  },
+  {
     "category": "tactics",
     "title": "Tickets for Iran fans revoked, says federation",
     "snippet": "Iran's football federation says its allocation of tickets for the group stage of the World Cup has been revoked just days before the tournament.",
@@ -25,7 +39,7 @@
     "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/ef46/live/11506fd0-63e9-11f1-bb83-f9b0320ac35b.jpg",
     "source": "BBC Sport",
     "lang": "en",
-    "id": 201
+    "id": 202
   },
   {
     "category": "tactics",
@@ -39,7 +53,7 @@
     "image": "https://e1.365dm.com/26/06/1920x1080/skysports-edin-dzeko-bosnia-and-herzegovina_7268819.jpg?20260609092009",
     "source": "Sky Sports",
     "lang": "en",
-    "id": 202
+    "id": 203
   },
   {
     "category": "tactics",
@@ -53,7 +67,7 @@
     "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/df85/live/2d749e00-63af-11f1-9060-6b89482bccd5.jpg",
     "source": "BBC Sport",
     "lang": "en",
-    "id": 203
+    "id": 204
   },
   {
     "category": "rules",
@@ -67,13 +81,13 @@
     "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/1c3c/live/7f657ff0-635e-11f1-8b15-6100cfbc3083.jpg",
     "source": "BBC Sport",
     "lang": "en",
-    "id": 204
+    "id": 205
   },
   {
     "category": "tactics",
     "title": "More than the Score",
     "snippet": "World Cup 2026: After years of near-misses, Uzbekistan will make their debut",
-    "time": "2h ago",
+    "time": "3h ago",
     "timestamp": 1780993920,
     "color": "linear-gradient(135deg, #f59e0b, #78350f)",
     "overlay": "⚽",
@@ -81,7 +95,7 @@
     "image": "https://ichef.bbci.co.uk/images/ic/240x135/p0nqxdn8.jpg",
     "source": "BBC Sport",
     "lang": "en",
-    "id": 205
+    "id": 206
   },
   {
     "category": "tactics",
@@ -95,7 +109,7 @@
     "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/1890/live/daffe870-5f51-11f1-89a3-d1f559421220.jpg",
     "source": "BBC Sport",
     "lang": "en",
-    "id": 206
+    "id": 207
   },
   {
     "category": "tactics",
@@ -109,7 +123,7 @@
     "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/c227/live/dc511470-63ce-11f1-b048-bfb92c644ab6.jpg",
     "source": "BBC Sport",
     "lang": "en",
-    "id": 207
+    "id": 208
   },
   {
     "category": "tactics",
@@ -123,7 +137,7 @@
     "image": "https://ichef.bbci.co.uk/images/ic/240x135/p0nqx3df.jpg",
     "source": "BBC Sport",
     "lang": "en",
-    "id": 208
+    "id": 209
   },
   {
     "category": "tactics",
@@ -137,7 +151,7 @@
     "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/ec23/live/6345f2d0-60bd-11f1-8b8c-6d33e1d5abb6.jpg",
     "source": "BBC Sport",
     "lang": "en",
-    "id": 209
+    "id": 210
   },
   {
     "category": "tactics",
@@ -151,7 +165,7 @@
     "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/f736/live/672f9880-5abc-11f1-8f60-593796f4e07d.jpg",
     "source": "BBC Sport",
     "lang": "en",
-    "id": 210
+    "id": 211
   },
   {
     "category": "tactics",
@@ -165,7 +179,7 @@
     "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/9606/live/0b19a7f0-636a-11f1-8546-8f19e4fe30f4.png",
     "source": "BBC Sport",
     "lang": "en",
-    "id": 211
+    "id": 212
   },
   {
     "category": "tactics",
@@ -179,7 +193,7 @@
     "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/ff85/live/b9e236b0-63d5-11f1-b1db-af71d47507d6.jpg",
     "source": "BBC Sport",
     "lang": "en",
-    "id": 212
+    "id": 213
   },
   {
     "category": "tactics",
@@ -193,27 +207,13 @@
     "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/982b/live/d022e7c0-6309-11f1-89a3-d1f559421220.jpg",
     "source": "BBC Sport",
     "lang": "en",
-    "id": 213
-  },
-  {
-    "category": "lineup",
-    "title": "Somali referee dropped from World Cup after US visa denial",
-    "snippet": "Africa's top referee will not be allowed to officiate at the World Cup after he was refused entry to the USA, FIFA has confirmed.",
-    "time": "12h ago",
-    "timestamp": 1780959900,
-    "color": "linear-gradient(135deg, #3b82f6, #1e3a8a)",
-    "overlay": "📋",
-    "link": "https://www.skysports.com/football/news/11095/13552142/somali-referee-dropped-from-world-cup-omar-artan-misses-out-on-tournament-after-us-visa-denial",
-    "image": "https://e2.365dm.com/26/06/1920x1080/skysports-omar-artan-referee_7268690.jpg?20260608231150",
-    "source": "Sky Sports",
-    "lang": "en",
     "id": 214
   },
   {
     "category": "tactics",
     "title": "El 30-0 de España que asusta al mundo<br>",
     "snippet": "Se presenta en el Mundial con una racha como en ninguna edición anterior: 30 partidos sin perder",
-    "time": "23m ago",
+    "time": "33m ago",
     "timestamp": 1781003207,
     "color": "linear-gradient(135deg, #f59e0b, #78350f)",
     "overlay": "⚽",
@@ -227,7 +227,7 @@
     "category": "tactics",
     "title": "A Oyarzabal se le ha puesto cara de Villa en 2010",
     "snippet": "Enlaza seis partidos marcando con la Selección y Casumo ofrece una suculenta cuota a que acaba conquistando la Bota de Oro del Mundial",
-    "time": "31m ago",
+    "time": "42m ago",
     "timestamp": 1781002712,
     "color": "linear-gradient(135deg, #f59e0b, #78350f)",
     "overlay": "⚽",
@@ -255,7 +255,7 @@
     "category": "tactics",
     "title": "Radio MARCA hará historia: 104 partidos, madrugadas infinitas y todo el Mundial en directo",
     "snippet": "Pablo López explicó en 'La Tribu' el despliegue de 'Marcador' para una Copa del Mundo con horarios extremos, 48 selecciones y programación en directo casi permanente",
-    "time": "1h ago",
+    "time": "2h ago",
     "timestamp": 1780997627,
     "color": "linear-gradient(135deg, #f59e0b, #78350f)",
     "overlay": "⚽",
@@ -311,7 +311,7 @@
     "category": "tactics",
     "title": "Lamine Yamal ya tiene su primera figura de cera<br>",
     "snippet": "Sigue la última hora de toda la información de la Copa del Mundo 2026",
-    "time": "3h ago",
+    "time": "4h ago",
     "timestamp": 1780990449,
     "color": "linear-gradient(135deg, #f59e0b, #78350f)",
     "overlay": "⚽",
@@ -420,10 +420,24 @@
     "id": 229
   },
   {
+    "category": "rules",
+    "title": "Estats Units nega l’entrada al millor àrbitre africà",
+    "snippet": "Encara no ha començat el mundial de futbol i ja tenim el primer conflicte amb els Estats Units. El país amfitrió de la cita prohibeix l’entrada a l’àrbitre somali Omar Abdulkarir Artan per problemes...",
+    "time": "6m ago",
+    "timestamp": 1781004850,
+    "color": "linear-gradient(135deg, #64748b, #334155)",
+    "overlay": "📺",
+    "link": "http://www.lesportiudecatalunya.cat/futbol/article/2649974-estats-units-nega-l-entrada-al-millor-arbitre-africa.html",
+    "image": "https://www.elpuntavui.cat/imatges/64/52/4x3/780_0008_6452873_7144f34ad69837b0c1f2897b1e24d494ver5.jpg",
+    "source": "El Punt Avui",
+    "lang": "ca",
+    "id": 230
+  },
+  {
     "category": "tactics",
     "title": "La Pilota d'Or, els seus ídols i els millors moments fora del futbol: així és Lamine Yamal",
     "snippet": "Abans d'estrenar-se en el seu primer Mundial i després d'una temporada amb el Barça en què ha reeditat el títol de campió de Lliga i de la Supercopa d'Espanya, Lamine Yamal ha revelat algunes interioritats al seu canal personal de YouTube. En una conversa distesa, en diferents moments quotidians com un trajecte en cotxe, l'estrella blaugrana i del combinat estatal espanyol ha confessat que pensava que guanyaria la Pilota d'Or, que finalment va ser atorgada a Ousmane Dembélé, i ha explicat l'impacte positiu que va tenir per a ell no aixecar el guardó.",
-    "time": "25m ago",
+    "time": "36m ago",
     "timestamp": 1781003060,
     "color": "linear-gradient(135deg, #f59e0b, #78350f)",
     "overlay": "⚽",
@@ -431,7 +445,7 @@
     "image": "https://static1.ara.cat/clip/5b425446-c4cb-4105-b895-67f7f07ffab6_source-aspect-ratio_default_0.jpg",
     "source": "ARA Esports",
     "lang": "ca",
-    "id": 230
+    "id": 231
   },
   {
     "category": "tactics",
@@ -445,7 +459,7 @@
     "image": "https://images.unsplash.com/photo-1543351611-58f69d7c1781?w=800&auto=format&fit=crop",
     "source": "Món Esport",
     "lang": "ca",
-    "id": 231
+    "id": 232
   },
   {
     "category": "rules",
@@ -459,7 +473,7 @@
     "image": "https://images.unsplash.com/photo-1508098682722-e99c43a406b2?w=800&auto=format&fit=crop",
     "source": "Món Esport",
     "lang": "ca",
-    "id": 232
+    "id": 233
   },
   {
     "category": "rules",
@@ -473,7 +487,7 @@
     "image": "https://static1.ara.cat/clip/6deae1f1-cb51-4cdf-8973-8ae03717eb74_16-9-aspect-ratio_default_1058581.jpg",
     "source": "ARA Esports",
     "lang": "ca",
-    "id": 233
+    "id": 234
   },
   {
     "category": "injury",
@@ -487,7 +501,7 @@
     "image": "https://www.elpuntavui.cat/imatges/64/52/4x3/780_0008_6452520_65578d27ba64ee385bead8fccee787b7ver3.jpg",
     "source": "El Punt Avui",
     "lang": "ca",
-    "id": 234
+    "id": 235
   },
   {
     "category": "injury",
@@ -501,7 +515,7 @@
     "image": "https://www.elpuntavui.cat/imatges/64/52/4x3/780_0008_6452714_d2de9f0a0614d272a42cb6ff81c92bb1ver2.jpg",
     "source": "El Punt Avui",
     "lang": "ca",
-    "id": 235
+    "id": 236
   },
   {
     "category": "tactics",
@@ -515,7 +529,7 @@
     "image": "https://images.unsplash.com/photo-1579952363873-27f3bade9f55?w=800&auto=format&fit=crop",
     "source": "Món Esport",
     "lang": "ca",
-    "id": 236
+    "id": 237
   },
   {
     "category": "injury",
@@ -529,7 +543,7 @@
     "image": "https://images.unsplash.com/photo-1543351611-58f69d7c1781?w=800&auto=format&fit=crop",
     "source": "Món Esport",
     "lang": "ca",
-    "id": 237
+    "id": 238
   },
   {
     "category": "tactics",
@@ -543,7 +557,7 @@
     "image": "https://d5r1tkwwv7d5g.cloudfront.net/articulos/articulos-724031.jpg",
     "source": "Nació Digital",
     "lang": "ca",
-    "id": 238
+    "id": 239
   },
   {
     "category": "tactics",
@@ -557,7 +571,7 @@
     "image": "https://static1.ara.cat/clip/8ae90eb1-5edb-44ee-ba08-be9927432fb2_16-9-aspect-ratio_default_0.jpg",
     "source": "ARA Esports",
     "lang": "ca",
-    "id": 239
+    "id": 240
   },
   {
     "category": "transfer",
@@ -571,7 +585,7 @@
     "image": "https://static1.ara.cat/clip/7fa2a8a8-765b-4bfb-80f6-cfb51e6b8131_16-9-aspect-ratio_default_0.jpg",
     "source": "ARA Esports",
     "lang": "ca",
-    "id": 240
+    "id": 241
   },
   {
     "category": "tactics",
@@ -585,7 +599,7 @@
     "image": "https://static1.ara.cat/clip/88c8347b-0417-4e84-8b5c-2a11a8ea90aa_16-9-aspect-ratio_default_0_x2351y869.jpg",
     "source": "ARA Esports",
     "lang": "ca",
-    "id": 241
+    "id": 242
   },
   {
     "category": "lineup",
@@ -599,7 +613,7 @@
     "image": "https://static1.ara.cat/clip/ee737dde-d694-4f24-9993-cd65d353a8a1_16-9-aspect-ratio_default_1058448.jpg",
     "source": "ARA Esports",
     "lang": "ca",
-    "id": 242
+    "id": 243
   },
   {
     "category": "tactics",
@@ -611,20 +625,6 @@
     "overlay": "⚽",
     "link": "https://naciodigital.cat/esports/lestadi-del-poble-lantecessor-comunista-de-lactual-puskas-arena.html",
     "image": "https://d5r1tkwwv7d5g.cloudfront.net/articulos/articulos-719250.jpg",
-    "source": "Nació Digital",
-    "lang": "ca",
-    "id": 243
-  },
-  {
-    "category": "tactics",
-    "title": "Els 13 catalans del Mundial 2026 (i les absències més il·lustres)",
-    "snippet": "Tot i la impossibilitat d'estar representada de manera oficial al campionat més important del món, la presència catalana és indiscutible i sobrepassa la selecció espanyola",
-    "time": "13d ago",
-    "timestamp": 1779873324,
-    "color": "linear-gradient(135deg, #f59e0b, #78350f)",
-    "overlay": "⚽",
-    "link": "https://naciodigital.cat/esports/els-13-catalans-del-mundial-2026-i-les-absencies-mes-illustres.html",
-    "image": "https://d5r1tkwwv7d5g.cloudfront.net/articulos/articulos-596058.jpg",
     "source": "Nació Digital",
     "lang": "ca",
     "id": 244
