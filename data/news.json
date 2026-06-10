@@ -1,9 +1,93 @@
 [
   {
+    "category": "tactics",
+    "title": "Any early shocks? Sutton's World Cup 2026 score predictions - opening group games",
+    "snippet": "BBC Sport's football expert Chris Sutton gives his predictions for the scores of the first round of group games at the 2026 World Cup.",
+    "time": "3m ago",
+    "timestamp": 1781112338,
+    "color": "linear-gradient(135deg, #f59e0b, #78350f)",
+    "overlay": "⚽",
+    "link": "https://www.bbc.com/sport/football/articles/cvgdxg2v5d7o?at_medium=RSS&at_campaign=rss",
+    "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/da24/live/94353bc0-641a-11f1-8546-8f19e4fe30f4.jpg",
+    "source": "BBC Sport",
+    "lang": "en",
+    "id": 200
+  },
+  {
+    "category": "tactics",
+    "title": "Brother's memory inspires SA's Williams for World Cup opener",
+    "snippet": "Ronwen Williams' brother Marvin, who died in a car crash in 2010, is a source of inspiration as the goalkeeper captains South Africa against Mexico in the opening match of the 2026 World Cup.",
+    "time": "1h ago",
+    "timestamp": 1781108879,
+    "color": "linear-gradient(135deg, #f59e0b, #78350f)",
+    "overlay": "⚽",
+    "link": "https://www.bbc.com/sport/football/articles/cx21lpdl4r6o?at_medium=RSS&at_campaign=rss",
+    "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/1a7f/live/6f62fbe0-64cc-11f1-8e1d-bbbb1017d210.jpg",
+    "source": "BBC Sport",
+    "lang": "en",
+    "id": 201
+  },
+  {
+    "category": "press",
+    "title": "World Cup latest: Have your say on which players will shine!",
+    "snippet": "",
+    "time": "1h ago",
+    "timestamp": 1781106600,
+    "color": "linear-gradient(135deg, #0d9488, #115e59)",
+    "overlay": "🎙️",
+    "link": "https://www.skysports.com/football/live-blog/11095/13509050/world-cup-2026-news-and-live-updates-usa-canada-and-mexico-build-up-plus-latest-on-trump-tickets-and-fans",
+    "image": "https://e0.365dm.com/26/06/1920x1080/skysports-endrick-brazil_7270073.jpg?20260610144712",
+    "source": "Sky Sports",
+    "lang": "en",
+    "id": 202
+  },
+  {
+    "category": "rules",
+    "title": "Referee Omar Artan returns to Somalia",
+    "snippet": "Referee Omar Artan arrives back in Somalia after being denied entry to the United States for the World Cup because of his \"association with suspected members of terror organisations\".",
+    "time": "2h ago",
+    "timestamp": 1781102438,
+    "color": "linear-gradient(135deg, #64748b, #334155)",
+    "overlay": "📺",
+    "link": "https://www.bbc.com/sport/football/videos/c14ylv1eyl0o?at_medium=RSS&at_campaign=rss",
+    "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/9ed2/live/9981af90-64d9-11f1-b1db-af71d47507d6.jpg",
+    "source": "BBC Sport",
+    "lang": "en",
+    "id": 203
+  },
+  {
+    "category": "tactics",
+    "title": "USA not totally reliant on Pulisic - Balboa",
+    "snippet": "Former United States defender Marcelo Balboa says his country are not totally reliant on AC Milan star Christian Pulisic as the co-hosts prepare for their opening game of the World Cup.",
+    "time": "2h ago",
+    "timestamp": 1781101771,
+    "color": "linear-gradient(135deg, #f59e0b, #78350f)",
+    "overlay": "⚽",
+    "link": "https://www.bbc.com/sport/football/videos/cy5vlg1de26o?at_medium=RSS&at_campaign=rss",
+    "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/1ddc/live/e5a77820-64d7-11f1-8546-8f19e4fe30f4.jpg",
+    "source": "BBC Sport",
+    "lang": "en",
+    "id": 204
+  },
+  {
+    "category": "tactics",
+    "title": "Wilkinson's Wales give themselves World Cup chance",
+    "snippet": "The next European Championship may still be a more realistic target, but Wales have given themselves hope of reaching the 2027 Women's World Cup.",
+    "time": "3h ago",
+    "timestamp": 1781100088,
+    "color": "linear-gradient(135deg, #f59e0b, #78350f)",
+    "overlay": "⚽",
+    "link": "https://www.bbc.com/sport/football/articles/cx23nyexwz6o?at_medium=RSS&at_campaign=rss",
+    "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/f119/live/a0b940b0-64cb-11f1-b6a3-ad1d6981e942.jpg",
+    "source": "BBC Sport",
+    "lang": "en",
+    "id": 205
+  },
+  {
     "category": "rules",
     "title": "VAR, timewasting and subs - World Cup law changes explained",
     "snippet": "The 2026 World Cup is going to be unprecedented for a variety of reasons - and that includes the sheer number of law changes.",
-    "time": "38m ago",
+    "time": "4h ago",
     "timestamp": 1781097507,
     "color": "linear-gradient(135deg, #64748b, #334155)",
     "overlay": "📺",
@@ -11,13 +95,13 @@
     "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/16e8/live/06015330-64be-11f1-8f51-b550443b533b.jpg",
     "source": "BBC Sport",
     "lang": "en",
-    "id": 200
+    "id": 206
   },
   {
     "category": "transfer",
     "title": "How Alvarez became Europe's most sought-after striker",
     "snippet": "Julian Alvarez heads to the World Cup aiming to fire Argentina to back-to-back triumphs at a time when he is the subject of one the most sensational transfer bids ever made.",
-    "time": "1h ago",
+    "time": "4h ago",
     "timestamp": 1781095424,
     "color": "linear-gradient(135deg, #a855f7, #581c87)",
     "overlay": "🔄",
@@ -25,13 +109,13 @@
     "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/4b98/live/00754d00-64bd-11f1-8f51-b550443b533b.jpg",
     "source": "BBC Sport",
     "lang": "en",
-    "id": 201
+    "id": 207
   },
   {
     "category": "tactics",
     "title": "How has world changed since Scotland were last at men's finals?",
     "snippet": "When Scotland last reached a men's World Cup, the Scottish parliament didn't exist, Google wasn't a thing and a pint of lager was roughly £1.90.",
-    "time": "2h ago",
+    "time": "5h ago",
     "timestamp": 1781091863,
     "color": "linear-gradient(135deg, #f59e0b, #78350f)",
     "overlay": "⚽",
@@ -39,13 +123,13 @@
     "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/3212/live/f0497960-c4e4-11f0-b288-51552c83ad58.png",
     "source": "BBC Sport",
     "lang": "en",
-    "id": 202
+    "id": 208
   },
   {
     "category": "tactics",
     "title": "Carragher fears over Bellingham’s England role at World Cup",
     "snippet": "Jamie Carragher fears Jude Bellingham’s role in the England team at the World Cup could “dominate airwaves” this summer.",
-    "time": "2h ago",
+    "time": "6h ago",
     "timestamp": 1781089440,
     "color": "linear-gradient(135deg, #f59e0b, #78350f)",
     "overlay": "⚽",
@@ -53,27 +137,13 @@
     "image": "https://e1.365dm.com/26/06/1920x1080/skysports-world-cup-england_7269941.jpg?20260610124051",
     "source": "Sky Sports",
     "lang": "en",
-    "id": 203
-  },
-  {
-    "category": "tactics",
-    "title": "Football Daily",
-    "snippet": "How will the rules at the 2026 World Cup differ from previous tournaments?",
-    "time": "2h ago",
-    "timestamp": 1781089200,
-    "color": "linear-gradient(135deg, #f59e0b, #78350f)",
-    "overlay": "⚽",
-    "link": "https://www.bbc.co.uk/sounds/play/p0nqz2dl?at_medium=RSS&at_campaign=rss",
-    "image": "https://ichef.bbci.co.uk/images/ic/240x135/p0nr41xn.jpg",
-    "source": "BBC Sport",
-    "lang": "en",
-    "id": 204
+    "id": 209
   },
   {
     "category": "tactics",
     "title": "More than the Score",
     "snippet": "The United States, Canada and Mexico will co-host the biggest ever World Cup",
-    "time": "3h ago",
+    "time": "7h ago",
     "timestamp": 1781086560,
     "color": "linear-gradient(135deg, #f59e0b, #78350f)",
     "overlay": "⚽",
@@ -81,13 +151,13 @@
     "image": "https://ichef.bbci.co.uk/images/ic/240x135/p0nr418x.jpg",
     "source": "BBC Sport",
     "lang": "en",
-    "id": 205
+    "id": 210
   },
   {
     "category": "tactics",
     "title": "Laboured Lionesses must sharpen up or risk missing out on World Cup",
     "snippet": "England are in a pickle. The reigning European champions can no longer qualify automatically for next summer's World Cup in Brazil. They must negotiate a tricky play-off campaign to get there.",
-    "time": "3h ago",
+    "time": "7h ago",
     "timestamp": 1781085600,
     "color": "linear-gradient(135deg, #f59e0b, #78350f)",
     "overlay": "⚽",
@@ -95,27 +165,13 @@
     "image": "https://e2.365dm.com/26/06/1920x1080/skysports-england-keira-walsh_7266818.jpg?20260606142629",
     "source": "Sky Sports",
     "lang": "en",
-    "id": 206
-  },
-  {
-    "category": "tactics",
-    "title": "El Niño, extreme weather and the future: World Cup Q&A with a climate scientist",
-    "snippet": "One of the key talking points in the lead up to the World Cup in USA, Canada and Mexico is what weather conditions matches will be played in.",
-    "time": "3h ago",
-    "timestamp": 1781085600,
-    "color": "linear-gradient(135deg, #f59e0b, #78350f)",
-    "overlay": "⚽",
-    "link": "https://www.skysports.com/football/news/11095/13545542/world-cup-2026-el-ni241o-extreme-weather-and-the-future-qa-with-climate-scientist-dr-ella-gilbert",
-    "image": "https://e2.365dm.com/26/06/1920x1080/skysports-dr-ella-gilbert-climate-scientist_7263855.jpg?20260602164218",
-    "source": "Sky Sports",
-    "lang": "en",
-    "id": 207
+    "id": 211
   },
   {
     "category": "tactics",
     "title": "When will an African side win the World Cup?",
     "snippet": "Morocco became Africa's first World Cup semi-finalists at Qatar 2022, but how close is a side from the continent to lifting the trophy?",
-    "time": "5h ago",
+    "time": "8h ago",
     "timestamp": 1781081605,
     "color": "linear-gradient(135deg, #f59e0b, #78350f)",
     "overlay": "⚽",
@@ -123,13 +179,13 @@
     "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/bde4/live/46e5fb10-63df-11f1-8546-8f19e4fe30f4.jpg",
     "source": "BBC Sport",
     "lang": "en",
-    "id": 208
+    "id": 212
   },
   {
     "category": "rules",
     "title": "World Cup predictions: Our writers make their picks",
     "snippet": "The 2026 FIFA World Cup is nearly upon us as 48 nations look to battle it out to see who will be crowned champions of the world in New York on July 19 - and Sky Sports' football writers have predicted their winners at the MetLife Stadium...",
-    "time": "5h ago",
+    "time": "9h ago",
     "timestamp": 1781078400,
     "color": "linear-gradient(135deg, #64748b, #334155)",
     "overlay": "📺",
@@ -137,13 +193,13 @@
     "image": "https://e2.365dm.com/26/06/1920x1080/skysports-harry-kane-vinicius_7269338.jpg?20260609173812",
     "source": "Sky Sports",
     "lang": "en",
-    "id": 209
+    "id": 213
   },
   {
     "category": "tactics",
     "title": "World Cup 1982: Stein, Narey, Brazil & being a cartoon character",
     "snippet": "Joe Jordan, Gordon Strachan and John Wark recall Scotland's 1982 World Cup campaign.",
-    "time": "6h ago",
+    "time": "9h ago",
     "timestamp": 1781077641,
     "color": "linear-gradient(135deg, #f59e0b, #78350f)",
     "overlay": "⚽",
@@ -151,69 +207,27 @@
     "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/5d6b/live/097015f0-5abf-11f1-9795-7731afabd29b.jpg",
     "source": "BBC Sport",
     "lang": "en",
-    "id": 210
-  },
-  {
-    "category": "tactics",
-    "title": "Fresh faces to managerial mayhem - NI's qualifying campaign",
-    "snippet": "A World Cup group qualifying campaign with many talking points for Northern Ireland comes to an end with the main objective achieved - keeping the World Cup dream alive.",
-    "time": "6h ago",
-    "timestamp": 1781076082,
-    "color": "linear-gradient(135deg, #f59e0b, #78350f)",
-    "overlay": "⚽",
-    "link": "https://www.bbc.com/sport/football/articles/cpv32vznj21o?at_medium=RSS&at_campaign=rss",
-    "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/08af/live/21e99fc0-6456-11f1-9d09-9d4366ff92f4.jpg",
-    "source": "BBC Sport",
-    "lang": "en",
-    "id": 211
-  },
-  {
-    "category": "tactics",
-    "title": "Scotland 'living dream' thanks to 'humble' superstar Weir",
-    "snippet": "Caroline Weir insists it is a team effort after her four goals against Israel ensure Scotland top their Women's World Cup qualifying group.",
-    "time": "7h ago",
-    "timestamp": 1781073375,
-    "color": "linear-gradient(135deg, #f59e0b, #78350f)",
-    "overlay": "⚽",
-    "link": "https://www.bbc.com/sport/football/articles/crr899ke177o?at_medium=RSS&at_campaign=rss",
-    "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/5fe3/live/dc8e8370-644e-11f1-b1db-af71d47507d6.jpg",
-    "source": "BBC Sport",
-    "lang": "en",
-    "id": 212
-  },
-  {
-    "category": "press",
-    "title": "Why this World Cup will showcase 'different Steve Clarke'",
-    "snippet": "The Scotland head coach feels like a new man heading into a seismic World Cup opener with Haiti - and he is sensing a fresh wave of optimism.",
-    "time": "7h ago",
-    "timestamp": 1781072671,
-    "color": "linear-gradient(135deg, #0d9488, #115e59)",
-    "overlay": "🎙️",
-    "link": "https://www.bbc.com/sport/football/articles/cy5vy5w52wxo?at_medium=RSS&at_campaign=rss",
-    "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/93e9/live/b53c68a0-6412-11f1-9216-c3eba4acaf31.jpg",
-    "source": "BBC Sport",
-    "lang": "en",
-    "id": 213
-  },
-  {
-    "category": "tactics",
-    "title": "Who am I? Guess World Cup star No 3",
-    "snippet": "Will you get today's player in as few attempts as possible?",
-    "time": "8h ago",
-    "timestamp": 1781070684,
-    "color": "linear-gradient(135deg, #f59e0b, #78350f)",
-    "overlay": "⚽",
-    "link": "https://www.bbc.com/sport/football/articles/c759x541vn9o?at_medium=RSS&at_campaign=rss",
-    "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/f2e7/live/1fba93a0-630a-11f1-8b8c-6d33e1d5abb6.jpg",
-    "source": "BBC Sport",
-    "lang": "en",
     "id": 214
+  },
+  {
+    "category": "rules",
+    "title": "Los dueños de los palcos del estadio Azteca amenazan con boicotear el Mundial: \"La FIFA vino a pisar nuestras leyes\"",
+    "snippet": "La disputa por los 15.000 lugares de palcos y plateas tiene su origen en la exigencia del organismo para tomar el control de las localidades de los estadios mundialistas, vigente desde 1998 Leer",
+    "time": "3h ago",
+    "timestamp": 1781099168,
+    "color": "linear-gradient(135deg, #64748b, #334155)",
+    "overlay": "📺",
+    "link": "https://www.elmundo.es/deportes/futbol/mundial-de-futbol/2026/06/10/6a2952c9e9cf4a304a8b45b5.html",
+    "image": "https://e00-elmundo.uecdn.es/assets/multimedia/imagenes/2026/06/10/17810924925592_990x0.jpg",
+    "source": "El Mundo Deportes",
+    "lang": "es",
+    "id": 215
   },
   {
     "category": "tactics",
     "title": "Brasil exige respeto: el \"no sé\" de Olise, lo que más dolió<br>",
     "snippet": "La selección brasileña cierra filas ante el ruido constante... y pasa al ataque tras sentir que han perdido el respeto que siempre acompañó a Brasil<span class=\"\" contenteditable=\"false\" tabindex=\"-1\" style=\"user-select: none; pointer-events: auto;\"></span>",
-    "time": "2h ago",
+    "time": "6h ago",
     "timestamp": 1781090816,
     "color": "linear-gradient(135deg, #f59e0b, #78350f)",
     "overlay": "⚽",
@@ -221,13 +235,13 @@
     "image": "https://e01-xlk-ue-marca.uecdn.es/files/horizontal_image_desktop/uploads/2026/06/09/6a277a9e45b79.jpeg",
     "source": "Marca",
     "lang": "es",
-    "id": 215
+    "id": 216
   },
   {
     "category": "tactics",
     "title": "Mundial 2026, en directo: hoy juegan dos favoritas",
     "snippet": "Sigue la última hora de toda la información de la Copa del Mundo 2026",
-    "time": "2h ago",
+    "time": "6h ago",
     "timestamp": 1781089303,
     "color": "linear-gradient(135deg, #f59e0b, #78350f)",
     "overlay": "⚽",
@@ -235,13 +249,27 @@
     "image": "https://e01-xlk-ue-marca.uecdn.es/files/horizontal_image_desktop/uploads/2026/06/10/17810898823492.jpeg",
     "source": "Marca",
     "lang": "es",
-    "id": 216
+    "id": 217
+  },
+  {
+    "category": "tactics",
+    "title": "La hora del relevo en el Olimpo de las favoritas: el adiós de Messi y Cristiano, el testigo de Mbappé y Vinicius, con Kane de invitado",
+    "snippet": "El foco estará puesto en los jugadores con más talento de Argentina, Francia, Portugal, Brasil e Inglaterra, sin perder de vista a la coral Alemania y al debut de Erling Haaland. Leer",
+    "time": "6h ago",
+    "timestamp": 1781088568,
+    "color": "linear-gradient(135deg, #f59e0b, #78350f)",
+    "overlay": "⚽",
+    "link": "https://www.elmundo.es/deportes/futbol/mundial-de-futbol/2026/06/09/6a26a7d221efa0e31a8b45b1.html",
+    "image": "https://e00-elmundo.uecdn.es/assets/multimedia/imagenes/2026/06/09/17810245611066_990x0.jpg",
+    "source": "El Mundo Deportes",
+    "lang": "es",
+    "id": 218
   },
   {
     "category": "tactics",
     "title": "¡Pudo acabar en tragedia! Una cámara cae desde más de 20 metros durante un partido, y el Mundial preocupa...",
     "snippet": "",
-    "time": "3h ago",
+    "time": "6h ago",
     "timestamp": 1781088322,
     "color": "linear-gradient(135deg, #f59e0b, #78350f)",
     "overlay": "⚽",
@@ -249,13 +277,13 @@
     "image": "https://images.unsplash.com/photo-1543351611-58f69d7c1781?w=800&auto=format&fit=crop",
     "source": "Marca",
     "lang": "es",
-    "id": 217
+    "id": 219
   },
   {
     "category": "injury",
     "title": "El milagro del jugador más viejo del Mundial: \"Podrías quedar paralizado, incluso morir\"",
     "snippet": "El portero de Escocia se sometió a un tratamiento en marzo por una grave lesión de cuello",
-    "time": "3h ago",
+    "time": "6h ago",
     "timestamp": 1781087394,
     "color": "linear-gradient(135deg, #ef4444, #7f1d1d)",
     "overlay": "🩺",
@@ -263,13 +291,13 @@
     "image": "https://e01-xlk-ue-marca.uecdn.es/files/horizontal_image_desktop/uploads/2026/06/10/6a293bf67a185.jpeg",
     "source": "Marca",
     "lang": "es",
-    "id": 218
+    "id": 220
   },
   {
     "category": "rules",
     "title": "De ser rechazado por Estados Unidos a recibir una ovación en su país: el emotivo regreso del árbitro somalí",
     "snippet": "",
-    "time": "3h ago",
+    "time": "7h ago",
     "timestamp": 1781086575,
     "color": "linear-gradient(135deg, #64748b, #334155)",
     "overlay": "📺",
@@ -277,13 +305,13 @@
     "image": "https://images.unsplash.com/photo-1508098682722-e99c43a406b2?w=800&auto=format&fit=crop",
     "source": "Marca",
     "lang": "es",
-    "id": 219
+    "id": 221
   },
   {
     "category": "rules",
     "title": "El inesperado gesto de Lamine con Inés García desde el Mundial que está dando mucho que hablar",
     "snippet": "La influencer sevillana ha compartido en redes el regalo que le ha enviado el futbolista a pocos días del debut de La Roja",
-    "time": "3h ago",
+    "time": "7h ago",
     "timestamp": 1781085861,
     "color": "linear-gradient(135deg, #64748b, #334155)",
     "overlay": "📺",
@@ -291,13 +319,13 @@
     "image": "https://e01-xlk-ue-marca.uecdn.es/files/horizontal_image_desktop/uploads/2026/05/25/6a13f16046d2e.png",
     "source": "Marca",
     "lang": "es",
-    "id": 220
+    "id": 222
   },
   {
     "category": "tactics",
     "title": "La temprana llegada de la Selección Española a Chattanooga: \"Tenemos todas las piezas para ganar un Mundial\"",
     "snippet": "",
-    "time": "3h ago",
+    "time": "7h ago",
     "timestamp": 1781085445,
     "color": "linear-gradient(135deg, #f59e0b, #78350f)",
     "overlay": "⚽",
@@ -305,13 +333,13 @@
     "image": "https://images.unsplash.com/photo-1543351611-58f69d7c1781?w=800&auto=format&fit=crop",
     "source": "Marca",
     "lang": "es",
-    "id": 221
+    "id": 223
   },
   {
     "category": "tactics",
     "title": "El brutal mapa 3D con las sedes del Mundial<br>",
     "snippet": "Toda la información del Mundial de Estados Unidos, México y Canadá",
-    "time": "4h ago",
+    "time": "7h ago",
     "timestamp": 1781085325,
     "color": "linear-gradient(135deg, #f59e0b, #78350f)",
     "overlay": "⚽",
@@ -319,13 +347,13 @@
     "image": "https://e01-xlk-ue-marca.uecdn.es/files/horizontal_image_desktop/uploads/2026/06/10/6a2934804446f.jpeg",
     "source": "Marca",
     "lang": "es",
-    "id": 222
+    "id": 224
   },
   {
     "category": "tactics",
     "title": "De Inglaterra a Brasil: el millonario negocio del ‘Big-6’ del Mundial 2026",
     "snippet": "España, tercera con 400 millones de facturación, se acerca a una Alemania que le dobla en patrocinios",
-    "time": "4h ago",
+    "time": "8h ago",
     "timestamp": 1781082659,
     "color": "linear-gradient(135deg, #f59e0b, #78350f)",
     "overlay": "⚽",
@@ -333,13 +361,13 @@
     "image": "https://e01-xlk-ue-marca.uecdn.es/files/horizontal_image_desktop/uploads/2025/12/17/17209214856098.jpeg",
     "source": "Marca",
     "lang": "es",
-    "id": 223
+    "id": 225
   },
   {
     "category": "tactics",
     "title": "El Mundial de los hermanos enfrentados: de las estrellas Williams y Doué al tatuaje de los Souttar",
     "snippet": "Cuatro parejas juegan juntas, y cuatro compiten entre sí vistiendo camisetas diferentes; las estrellas y los lazos especiales trascienden fronteras. La marca en la piel de John y Harry Souttar en memoria de su hermano mayor fallecido. Leer",
-    "time": "4h ago",
+    "time": "8h ago",
     "timestamp": 1781082605,
     "color": "linear-gradient(135deg, #f59e0b, #78350f)",
     "overlay": "⚽",
@@ -347,13 +375,13 @@
     "image": "https://e00-elmundo.uecdn.es/assets/multimedia/imagenes/2026/06/10/17810817943915_990x0.jpg",
     "source": "El Mundo Deportes",
     "lang": "es",
-    "id": 224
+    "id": 226
   },
   {
     "category": "injury",
     "title": "Las selecciones más altas (y más bajas) del Mundial<br>",
     "snippet": "La selección más baja es Arabia Saudí y Brasil pasa del primer puesto de Qatar al 23 en este Mundial",
-    "time": "5h ago",
+    "time": "8h ago",
     "timestamp": 1781081320,
     "color": "linear-gradient(135deg, #ef4444, #7f1d1d)",
     "overlay": "🩺",
@@ -361,13 +389,13 @@
     "image": "https://e01-xlk-ue-marca.uecdn.es/files/horizontal_image_desktop/uploads/2026/06/10/6a2924d0e3a95.jpeg",
     "source": "Marca",
     "lang": "es",
-    "id": 225
+    "id": 227
   },
   {
     "category": "tactics",
     "title": "\"Cuando tienes tres hijos, pasan los meses y ves que no tienes acomodo...\"<br>",
     "snippet": "El seleccionador se sienta con MARCA a las puertas del Mundial",
-    "time": "5h ago",
+    "time": "9h ago",
     "timestamp": 1781079190,
     "color": "linear-gradient(135deg, #f59e0b, #78350f)",
     "overlay": "⚽",
@@ -375,13 +403,13 @@
     "image": "https://e01-xlk-ue-marca.uecdn.es/files/horizontal_image_desktop/uploads/2026/06/06/bPvsQ1g91AO8ShuaE.jpeg",
     "source": "Marca",
     "lang": "es",
-    "id": 226
+    "id": 228
   },
   {
     "category": "rules",
     "title": "Regreso goleador de Messi y victoria de Argentina antes de su estreno en el Mundial",
     "snippet": "El delantero jugó 20 minutos ante Islandia, marcó de penalti y su selección acabó ganando por 3-0 Leer",
-    "time": "6h ago",
+    "time": "10h ago",
     "timestamp": 1781075638,
     "color": "linear-gradient(135deg, #64748b, #334155)",
     "overlay": "📺",
@@ -389,41 +417,27 @@
     "image": "https://e00-elmundo.uecdn.es/assets/multimedia/imagenes/2026/06/10/17810751179185_990x0.jpg",
     "source": "El Mundo Deportes",
     "lang": "es",
-    "id": 227
-  },
-  {
-    "category": "tactics",
-    "title": "El hijo de un ex del Barça que sorprendió a Messi tras el partido",
-    "snippet": "El astro argentino charló tras el encuentro con el hijo de&nbsp;Gudjohnsen",
-    "time": "6h ago",
-    "timestamp": 1781074687,
-    "color": "linear-gradient(135deg, #f59e0b, #78350f)",
-    "overlay": "⚽",
-    "link": "https://www.marca.com/futbol/mundial/2026/06/10/hijo-ex-barca-sorprendio-messi-partido.html",
-    "image": "https://e01-xlk-ue-marca.uecdn.es/files/horizontal_image_desktop/uploads/2026/06/10/6a290aeca44fa.jpeg",
-    "source": "Marca",
-    "lang": "es",
-    "id": 228
-  },
-  {
-    "category": "tactics",
-    "title": "El torneo del caos: guerra, redadas migratorias y lío geopolítico",
-    "snippet": "El Mundial está marcado por los conflictos armados, las fricciones diplomáticas y un inestable escenario internacional que condiciona el campeonato mucho más allá de lo estrictamente deportivo Leer",
-    "time": "7h ago",
-    "timestamp": 1781072220,
-    "color": "linear-gradient(135deg, #f59e0b, #78350f)",
-    "overlay": "⚽",
-    "link": "https://www.elmundo.es/deportes/futbol/mundial-de-futbol/2026/06/09/6a271c39fdddff6c018b4595.html",
-    "image": "https://e00-elmundo.uecdn.es/assets/multimedia/imagenes/2026/06/09/17810247886908_990x0.jpg",
-    "source": "El Mundo Deportes",
-    "lang": "es",
     "id": 229
+  },
+  {
+    "category": "tactics",
+    "title": "El secret català darrere del partit inaugural del Mundial",
+    "snippet": "El duel entre les seleccions de Mèxic i de Sud-àfrica d'aquest dijous (21 h, RTVE) a l'estadi Azteca de Ciutat de Mèxic donarà el tret de sortida al Mundial. Milions d'aficionats arreu del planeta seguiran la màxima competició del futbol de seleccions, que s'estendrà fins al 19 de juliol en el format amb més equips (48) de tota la història. També serà la Copa del Món en què es jugarà en més estadis: setze, la majoria als Estats Units, tot i que també hi haurà tres seus a Mèxic i dues al Canadà.",
+    "time": "47m ago",
+    "timestamp": 1781109739,
+    "color": "linear-gradient(135deg, #f59e0b, #78350f)",
+    "overlay": "⚽",
+    "link": "https://www.ara.cat/esports/futbol/secret-catala-darrere-inauguracio-mundial-l-azteca_1_5764450.html",
+    "image": "https://static1.ara.cat/clip/485a75ea-14eb-4490-a748-f251207eafc2_source-aspect-ratio_default_0.jpg",
+    "source": "ARA Esports",
+    "lang": "ca",
+    "id": 230
   },
   {
     "category": "rules",
     "title": "Les normes que canviaran el futbol per sempre en aquest Mundial",
     "snippet": "El 1994, els Estats Units van acollir per primer cop un Mundial de futbol. Una de les novetats d'aquella cita va ser la introducció d'una nova norma que va canviar el joc: va quedar prohibit passar la pilota al porter i que aquest la pogués agafar amb la mà, com passava fins llavors, fet que portava a grans pèrdues de temps. La cita d'aquest any també serà recordada per la introducció de noves normes que modificaran el joc de forma significativa, sempre amb la intenció d'evitar pèrdues de joc, segons la IFAB (International Football Association Board), entitat que determina les regles del joc.",
-    "time": "1h ago",
+    "time": "5h ago",
     "timestamp": 1781092830,
     "color": "linear-gradient(135deg, #64748b, #334155)",
     "overlay": "📺",
@@ -431,55 +445,55 @@
     "image": "https://static1.ara.cat/clip/9e71932e-f3af-4a28-ae61-9493002f7317_16-9-aspect-ratio_default_0_x1098y362.jpg",
     "source": "ARA Esports",
     "lang": "ca",
-    "id": 230
+    "id": 231
   },
   {
     "category": "injury",
     "title": "Declaracions destacades de Luis de la Fuente sobre els jugadors del Barça",
     "snippet": "Luis de la Fuente, seleccionador espanyol, ha concedit una extensa entrevista al diari Marca durant la concentració per al Mundial que comença aquesta mateixa setmana. Ha parlat de diversos jugadors del Futbol Club Barcelona i ha deixat algunes declaracions destacades. Un dels temes que més preocupa és l’estat físic de Lamine Yamal, que ha arribat … Continued",
-    "time": "2h ago",
+    "time": "6h ago",
     "timestamp": 1781089724,
     "color": "linear-gradient(135deg, #ef4444, #7f1d1d)",
     "overlay": "🩺",
     "link": "https://monesport.cat/barca/jugadors/luis-de-la-fuente-mundial-lamine-yamal-484940/",
-    "image": "https://images.unsplash.com/photo-1508098682722-e99c43a406b2?w=800&auto=format&fit=crop",
-    "source": "Món Esport",
-    "lang": "ca",
-    "id": 231
-  },
-  {
-    "category": "tactics",
-    "title": "Messi bat un nou rècord històric just abans de començar el Mundial",
-    "snippet": "La selecció argentina ha disputat el darrer partit amistós de preparació per al Mundial i ho ha fet de la millor manera possible. L’albiceleste ha superat Islàndia amb una golejada (3-0) que confirma que els de Lionel Scaloni estan disposats a lluitar per defensar el títol de campions del món que van aconseguir l’any 2022. … Continued",
-    "time": "4h ago",
-    "timestamp": 1781083114,
-    "color": "linear-gradient(135deg, #f59e0b, #78350f)",
-    "overlay": "⚽",
-    "link": "https://monesport.cat/futbol/internacional/leo-messi-record-vetera-argentina-mundial-484917/",
-    "image": "https://images.unsplash.com/photo-1518063319789-7217e6706b04?w=800&auto=format&fit=crop",
+    "image": "https://images.unsplash.com/photo-1543351611-58f69d7c1781?w=800&auto=format&fit=crop",
     "source": "Món Esport",
     "lang": "ca",
     "id": 232
   },
   {
+    "category": "tactics",
+    "title": "Messi bat un nou rècord històric just abans de començar el Mundial",
+    "snippet": "La selecció argentina ha disputat el darrer partit amistós de preparació per al Mundial i ho ha fet de la millor manera possible. L’albiceleste ha superat Islàndia amb una golejada (3-0) que confirma que els de Lionel Scaloni estan disposats a lluitar per defensar el títol de campions del món que van aconseguir l’any 2022. … Continued",
+    "time": "8h ago",
+    "timestamp": 1781083114,
+    "color": "linear-gradient(135deg, #f59e0b, #78350f)",
+    "overlay": "⚽",
+    "link": "https://monesport.cat/futbol/internacional/leo-messi-record-vetera-argentina-mundial-484917/",
+    "image": "https://images.unsplash.com/photo-1508098682722-e99c43a406b2?w=800&auto=format&fit=crop",
+    "source": "Món Esport",
+    "lang": "ca",
+    "id": 233
+  },
+  {
     "category": "rules",
     "title": "La tornada de Messi fa somiar l’Argentina",
     "snippet": "La selecció argentina ha tancat la preparació de cara al mundial amb victòria davant Islàndia (3-0) en un partit amistós als Estats Units. N’hi ha hagut prou amb vint minuts de Leo Messi per esperonar...",
-    "time": "5h ago",
+    "time": "8h ago",
     "timestamp": 1781080388,
     "color": "linear-gradient(135deg, #64748b, #334155)",
     "overlay": "📺",
     "link": "http://www.lesportiudecatalunya.cat/futbol/article/2650222-la-tornada-de-messi-fa-somiar-l-argentina.html",
-    "image": "https://www.elpuntavui.cat/imatges/64/53/4x3/780_0008_6453124_641a06e1413701ded9529495721d568fver4.jpg",
+    "image": "https://www.elpuntavui.cat/imatges/64/53/4x3/780_0008_6453124_641a06e1413701ded9529495721d568fver5.jpg",
     "source": "El Punt Avui",
     "lang": "ca",
-    "id": 233
+    "id": 234
   },
   {
     "category": "tactics",
     "title": "La febrada pel Mundial arriba fins a les botigues de congelats catalanes",
     "snippet": "\"Quan arribes al quiosc ja et pregunten si vols cromos del Mundial. T'ho veuen a la cara. La primera pregunta és: «En teniu?». I la segona: «Quan n'arribaran més? És que s'estan esgotant a molts llocs»\", explica l'Albert Valor, col·leccionista. \"Aquest any s'estan venent més que mai. Costa trobar-ne perquè les vendes estan superant les expectatives de Panini\", ratifica Ferran Roig, responsable de la botiga de cromos Euro Soccer Cards.",
-    "time": "8h ago",
+    "time": "12h ago",
     "timestamp": 1781067614,
     "color": "linear-gradient(135deg, #f59e0b, #78350f)",
     "overlay": "⚽",
@@ -487,13 +501,13 @@
     "image": "https://static1.ara.cat/clip/c08ec6b5-89d2-4846-91b8-047c6e2f3f7b_source-aspect-ratio_default_0.jpg",
     "source": "ARA Esports",
     "lang": "ca",
-    "id": 234
+    "id": 235
   },
   {
     "category": "tactics",
     "title": "Geopolítica del mundial",
     "snippet": "Demà començarà el mundial de futbol. Durant més d’un mes el món estarà (encara) més pendent del futbol que de costum, que ja és dir. Aquesta edició serà diferent a les altres per diverses raons....",
-    "time": "13h ago",
+    "time": "17h ago",
     "timestamp": 1781049600,
     "color": "linear-gradient(135deg, #f59e0b, #78350f)",
     "overlay": "⚽",
@@ -501,55 +515,27 @@
     "image": "https://www.elpuntavui.cat/imatges/64/52/4x3/780_0008_6452875_910270e627b103c7d6292473e0dc146fver2.jpg",
     "source": "El Punt Avui",
     "lang": "ca",
-    "id": 235
+    "id": 236
   },
   {
     "category": "tactics",
     "title": "Ja la tenim aquí",
     "snippet": "El partit de demà (21 h) entre la selecció de Mèxic i la de Sud-àfrica dona el tret de sortida de la 23a edició de la copa del món de futbol, la primera en què participen 48 equips i que és organitzada per tres països diferents",
-    "time": "13h ago",
+    "time": "17h ago",
     "timestamp": 1781049600,
     "color": "linear-gradient(135deg, #f59e0b, #78350f)",
     "overlay": "⚽",
     "link": "http://www.lesportiudecatalunya.cat/futbol/article/2649891-ja-la-tenim-aqui.html",
-    "image": "https://www.elpuntavui.cat/imatges/64/52/4x3/780_0008_6452759_73b19771c5527498a898966c9e508fc3ver6.jpg",
-    "source": "El Punt Avui",
-    "lang": "ca",
-    "id": 236
-  },
-  {
-    "category": "tactics",
-    "title": "El periple de la pista de Barcelona 95",
-    "snippet": "El paviment on es va disputar el mundial ‘indoor’ tornarà a cobrar vida a Portugal després d’una acord amb la federació catalana",
-    "time": "13h ago",
-    "timestamp": 1781049600,
-    "color": "linear-gradient(135deg, #f59e0b, #78350f)",
-    "overlay": "⚽",
-    "link": "http://www.lesportiudecatalunya.cat/mes-esport/article/2650107-el-periple-de-la-pista-de-barcelona-95.html",
-    "image": "https://www.elpuntavui.cat/imatges/64/53/4x3/780_0008_6453020_4f80d4102f30994da74b6fdd7a21b718ver2.jpg",
+    "image": "https://www.elpuntavui.cat/imatges/64/52/4x3/780_0008_6452759_73b19771c5527498a898966c9e508fc3ver8.jpg",
     "source": "El Punt Avui",
     "lang": "ca",
     "id": 237
   },
   {
-    "category": "tactics",
-    "title": "Lamine: icona mundial",
-    "snippet": "Lamine Yamal arriba a la seva primera copa del món com a gran estrella. La seva figura de cera al Madame Tussauds de Berlín i el mural pintat a Gaza exemplifiquen bé l’impacte Lamine com a fenomen global",
-    "time": "20h ago",
-    "timestamp": 1781027720,
-    "color": "linear-gradient(135deg, #f59e0b, #78350f)",
-    "overlay": "⚽",
-    "link": "http://www.lesportiudecatalunya.cat/barca/article/2650136-lamine-icona-mundial.html",
-    "image": "https://www.elpuntavui.cat/fitxers/collaboradors/000/0164/0000164678/4x3/0000164678ver4.jpg",
-    "source": "El Punt Avui",
-    "lang": "ca",
-    "id": 238
-  },
-  {
     "category": "transfer",
     "title": "Així ha entomat el Barça el paperot de Florentino amb Julián Álvarez",
     "snippet": "Ni Michael Olise, ni Vitinha ni Harry Kane. El crac mundial que el seu president, Florentino Pérez, va anunciar fa uns dies en campanya al programa d'Iker Jiménez era Julián Álvarez. O, com a mínim, això és el que s'entén del comunicat que el Madrid va fer aquest dimarts al vespre. \"El Reial Madrid comunica que, després de la reunió de junta directiva que s'ha celebrat aquest dimarts, ha fet una oferta de 150 milions d'euros a l'Atlètic de Madrid pels drets federatius de Julián Álvarez\", deia el club a l'inici de l'escrit, que finalitzava amb un altre paràgraf meridià: \"Després d'estudiar-la i valorar-la, l'Atlètic de Madrid ha agraït l'oferta, efectuada en el marc de les bones relacions que hi ha entre els dos clubs, i l'ha rebutjat remetent-se a la clàusula de rescissió del jugador\".",
-    "time": "20h ago",
+    "time": "23h ago",
     "timestamp": 1781026210,
     "color": "linear-gradient(135deg, #a855f7, #581c87)",
     "overlay": "🔄",
@@ -557,21 +543,7 @@
     "image": "https://static1.ara.cat/clip/bf0b1cc1-7541-4cca-9083-0c536b20e592_16-9-aspect-ratio_default_0.jpg",
     "source": "ARA Esports",
     "lang": "ca",
-    "id": 239
-  },
-  {
-    "category": "tactics",
-    "title": "La situació surrealista que viuran els jugadors de l’Iran al Mundial",
-    "snippet": "La selecció iraniana viurà una situació surrealista al Mundial d’aquest estiu que es jugarà als Estats Units, a Mèxic i al Canadà. Precisament per la guerra que hi ha a l’Orient Mitjà entre l’Iran i el país nord-americà, malgrat que actualment hi ha un alto el foc i sembla que les converses per acabar el … Continued",
-    "time": "22h ago",
-    "timestamp": 1781019261,
-    "color": "linear-gradient(135deg, #f59e0b, #78350f)",
-    "overlay": "⚽",
-    "link": "https://monesport.cat/futbol/internacional/mundial-seleccio-iran-situacio-surrealista-estats-units-484860/",
-    "image": "https://images.unsplash.com/photo-1543351611-58f69d7c1781?w=800&auto=format&fit=crop",
-    "source": "Món Esport",
-    "lang": "ca",
-    "id": 240
+    "id": 238
   },
   {
     "category": "tactics",
@@ -585,7 +557,7 @@
     "image": "https://static1.ara.cat/clip/5b425446-c4cb-4105-b895-67f7f07ffab6_source-aspect-ratio_default_0.jpg",
     "source": "ARA Esports",
     "lang": "ca",
-    "id": 241
+    "id": 239
   },
   {
     "category": "rules",
@@ -599,7 +571,7 @@
     "image": "https://static1.ara.cat/clip/6deae1f1-cb51-4cdf-8973-8ae03717eb74_16-9-aspect-ratio_default_1058581.jpg",
     "source": "ARA Esports",
     "lang": "ca",
-    "id": 242
+    "id": 240
   },
   {
     "category": "tactics",
@@ -613,18 +585,46 @@
     "image": "https://d5r1tkwwv7d5g.cloudfront.net/articulos/articulos-724031.jpg",
     "source": "Nació Digital",
     "lang": "ca",
-    "id": 243
+    "id": 241
   },
   {
     "category": "tactics",
     "title": "Calendari, horaris, televisió: informació pràctica sobre el Mundial de futbol",
     "snippet": "La cita esportiva més important i esperada de l'any ja arriba. El pròxim dijous 11 de juny comença el Mundial dels Estats Units, Canadà i Mèxic 2026, el primer que disputaran 48 seleccions (i no 32 com fins ara). Tres països i setze ciutats acolliran els 104 partits que acabaran el diumenge 19 de juliol (21.00 hores) en la gran final que es jugarà a l'estadi MetLife situat a Nova Jersey (a prop de Nova York). Una cita que representarà un canvi generacional al món del futbol, ja que serà la darrera Copa del Món de Leo Messi o Cristiano Ronaldo, entre altres, i l'emergència de noves estrelles mundials com Lamine Yamal, que disputarà el seu primer Mundial.",
-    "time": "5d ago",
+    "time": "6d ago",
     "timestamp": 1780585756,
     "color": "linear-gradient(135deg, #f59e0b, #78350f)",
     "overlay": "⚽",
     "link": "https://www.ara.cat/esports/futbol/mundial/mundial-estats-units-mexic-canada-2026-calendari-horaris-televisio_1_5756901.html",
     "image": "https://static1.ara.cat/clip/8ae90eb1-5edb-44ee-ba08-be9927432fb2_16-9-aspect-ratio_default_0.jpg",
+    "source": "ARA Esports",
+    "lang": "ca",
+    "id": 242
+  },
+  {
+    "category": "transfer",
+    "title": "El 'carpe diem' del Barça (i de Joan Laporta)",
+    "snippet": "El Barça ha necessitat sis anys per tornar a afrontar un mercat d'estiu sense restriccions. Ni el del 2022 és equiparable, ja que aleshores el club, malgrat reforçar-se a cop de talonari amb Kounde, Raphinha i Lewandowski, va suar de valent perquè les palanques s'adaptessin a la normativa de la Lliga. Aquesta vegada l'aixeta raja i un cop confirmat el fitxatge d'Anthony Gordon, l'entitat que presideix encara de manera interina Rafael Yuste mou els fils per fitxar un davanter centre de talla mundial i, si és possible, reforçar la defensa amb un central de garanties.",
+    "time": "6d ago",
+    "timestamp": 1780549254,
+    "color": "linear-gradient(135deg, #a855f7, #581c87)",
+    "overlay": "🔄",
+    "link": "https://www.ara.cat/esports/barca/carpe-diem-barca-joan-laporta_1_5754711.html",
+    "image": "https://static1.ara.cat/clip/7fa2a8a8-765b-4bfb-80f6-cfb51e6b8131_16-9-aspect-ratio_default_0.jpg",
+    "source": "ARA Esports",
+    "lang": "ca",
+    "id": 243
+  },
+  {
+    "category": "tactics",
+    "title": "Leo Messi, guardonat amb el premi Princesa d'Astúries dels esports 2026",
+    "snippet": "Leo Messi ha estat guardonat amb el premi Princesa d'Astúries dels esports 2026. El futbolista argentí, que actualment juga a l'Inter de Miami, recollirà el premi el 23 d'octubre al Teatre Campoamor d'Oviedo. El jurat –presidit per la nedadora Teresa Perales– ha remarcat la seva \"excepcional trajectòria esportiva\" i la seva solidaritat per \"promoure l'accés a l'educació i la cura de la salut dels nens més desfavorits\". L'exestrella blaugrana ha guanyat 47 títols, entre els quals destaquen quatre Champions League, deu lligues espanyoles i el Mundial aconseguit amb l'Argentina el 2022.",
+    "time": "7d ago",
+    "timestamp": 1780481922,
+    "color": "linear-gradient(135deg, #f59e0b, #78350f)",
+    "overlay": "⚽",
+    "link": "https://www.ara.cat/esports/leo-messi-guardonat-premi-princesa-d-asturies-dels-esports-2026_1_5756834.html",
+    "image": "https://static1.ara.cat/clip/88c8347b-0417-4e84-8b5c-2a11a8ea90aa_16-9-aspect-ratio_default_0_x2351y869.jpg",
     "source": "ARA Esports",
     "lang": "ca",
     "id": 244
