@@ -1805,13 +1805,18 @@ function renderPlayoffBracket() {
 }
 
 function getMatchTimestamp(dateStr) {
-  if (!dateStr || dateStr === 'Upcoming') return 0;
-  let clean = dateStr.replace(',', '');
+  if (!dateStr || dateStr === 'Upcoming' || dateStr.includes('announced')) return 0;
+  let clean = dateStr;
   if (!clean.includes('2026')) {
-    const parts = clean.split(' ');
-    if (parts.length >= 2) {
-      parts.splice(2, 0, '2026');
-      clean = parts.join(' ');
+    if (clean.includes(',')) {
+      const parts = clean.split(',');
+      clean = parts[0] + ', 2026' + parts[1];
+    } else {
+      const parts = clean.split(' ');
+      if (parts.length >= 2) {
+        parts.splice(2, 0, '2026');
+        clean = parts.join(' ');
+      }
     }
   }
   const ts = Date.parse(clean);

@@ -3178,29 +3178,48 @@
     "homeFlag": "🇧🇷",
     "away": "Haiti",
     "awayFlag": "🇭🇹",
-    "homeScore": 0,
-    "awayScore": 0,
-    "status": "upcoming",
-    "minute": 0,
+    "homeScore": 2,
+    "awayScore": 1,
+    "status": "live",
+    "minute": 60,
     "date": "Jun 20, 01:00 UTC",
     "location": "Philadelphia Stadium",
-    "events": [],
+    "events": [
+      {
+        "minute": 13,
+        "team": "Brazil",
+        "type": "goal",
+        "desc": "Yan Couto ⚽ (Goal!)"
+      },
+      {
+        "minute": 39,
+        "team": "Haiti",
+        "type": "goal",
+        "desc": "Jerome ⚽ (Goal!)"
+      },
+      {
+        "minute": 44,
+        "team": "Brazil",
+        "type": "goal",
+        "desc": "Beraldo ⚽ (Goal!)"
+      }
+    ],
     "stats": {
       "possession": [
-        50,
-        50
+        55,
+        45
       ],
       "shots": [
-        0,
-        0
+        8,
+        4
       ],
       "fouls": [
-        0,
-        0
+        6,
+        7
       ],
       "corners": [
-        0,
-        0
+        3,
+        2
       ]
     },
     "lineups": {
