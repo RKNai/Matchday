@@ -216,7 +216,17 @@ def parse_fixtures():
       elapsed_minutes = 0
       
       if dt_utc:
-        now_utc = datetime.now(timezone.utc)
+        sim_date_str = os.environ.get('SIMULATED_DATE')
+        if sim_date_str:
+          try:
+            now_utc = datetime.strptime(sim_date_str, "%Y-%m-%d %H:%M:%S").replace(tzinfo=timezone.utc)
+          except ValueError:
+            try:
+              now_utc = datetime.strptime(sim_date_str, "%Y-%m-%d").replace(tzinfo=timezone.utc)
+            except ValueError:
+              now_utc = datetime.now(timezone.utc)
+        else:
+          now_utc = datetime.now(timezone.utc)
         if dt_utc <= now_utc <= (dt_utc + timedelta(minutes=105)):
           is_live = True
           elapsed_minutes = int((now_utc - dt_utc).total_seconds() / 60)
