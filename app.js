@@ -804,6 +804,7 @@ document.addEventListener('DOMContentLoaded', () => {
 
   // Async load scraped backend feeds
   loadScrapedData();
+  setInterval(loadScrapedData, 30000); // Poll every 30 seconds for live database updates
 });
 
 // --- PWA Installation & Service Worker ---
@@ -3694,6 +3695,9 @@ async function loadScrapedData() {
     renderNewsGrid();
     renderSubscriptionsUI();
     updateSyncStatus();
+    if (state.activeModalMatchId) {
+      renderModalContent();
+    }
   } catch (err) {
     console.error('[PWA] Error fetching scraped data files: ', err);
   }

@@ -15,6 +15,7 @@ import json
 import urllib.request
 from datetime import datetime, timezone, timedelta
 import time
+import subprocess
 
 # --- Constants & Paths ---
 BASE_DIR = os.path.dirname(os.path.abspath(__file__))
@@ -143,8 +144,22 @@ def fetch_json(url):
     with urllib.request.urlopen(req, timeout=10) as response:
       return response.read()
   except Exception as e:
-    print(f"[Match Scraper] Failed to fetch feed from {url}: {e}")
-    return None
+    print(f"[Match Scraper] Urllib failed: {e}. Trying curl fallback...")
+    try:
+      result = subprocess.run(
+        ['curl', '-s', '-H', 'User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36', url],
+        stdout=subprocess.PIPE,
+        stderr=subprocess.PIPE,
+        timeout=15
+      )
+      if result.returncode == 0:
+        return result.stdout
+      else:
+        print(f"[Match Scraper] Curl failed with return code {result.returncode}")
+        return None
+    except Exception as e2:
+      print(f"[Match Scraper] Curl fallback failed: {e2}")
+      return None
 
 def parse_fixtures():
   print("[Match Scraper] Fetching real FIFA World Cup 2026 fixtures JSON...")

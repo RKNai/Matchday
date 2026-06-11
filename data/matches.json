@@ -6,19 +6,13 @@
     "homeFlag": "🇲🇽",
     "away": "South Africa",
     "awayFlag": "🇿🇦",
-    "homeScore": 2,
-    "awayScore": 1,
-    "status": "live",
-    "minute": 40,
+    "homeScore": 3,
+    "awayScore": 2,
+    "status": "finished",
+    "minute": 0,
     "date": "Jun 11, 19:00 UTC",
     "location": "Mexico City Stadium",
     "events": [
-      {
-        "minute": 3,
-        "team": "Mexico",
-        "type": "goal",
-        "desc": "Lozano ⚽ (Goal!)"
-      },
       {
         "minute": 9,
         "team": "South Africa",
@@ -30,24 +24,42 @@
         "team": "Mexico",
         "type": "goal",
         "desc": "Pineda ⚽ (Goal!)"
+      },
+      {
+        "minute": 40,
+        "team": "South Africa",
+        "type": "goal",
+        "desc": "Mnyamane ⚽ (Goal!)"
+      },
+      {
+        "minute": 43,
+        "team": "Mexico",
+        "type": "goal",
+        "desc": "Lozano ⚽ (Goal!)"
+      },
+      {
+        "minute": 72,
+        "team": "Mexico",
+        "type": "goal",
+        "desc": "Santiago Giménez ⚽ (Goal!)"
       }
     ],
     "stats": {
       "possession": [
-        55,
-        45
+        50,
+        50
       ],
       "shots": [
-        8,
-        4
+        0,
+        0
       ],
       "fouls": [
-        6,
-        7
+        0,
+        0
       ],
       "corners": [
-        3,
-        2
+        0,
+        0
       ]
     },
     "lineups": {
