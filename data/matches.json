@@ -127,32 +127,13 @@
     "homeFlag": "🇰🇷",
     "away": "Czechia",
     "awayFlag": "🇨🇿",
-    "homeScore": 2,
-    "awayScore": 1,
-    "status": "finished",
+    "homeScore": 0,
+    "awayScore": 0,
+    "status": "upcoming",
     "minute": 0,
     "date": "Jun 12, 02:00 UTC",
     "location": "Guadalajara Stadium",
-    "events": [
-      {
-        "minute": 31,
-        "team": "Korea Republic",
-        "type": "goal",
-        "desc": "Son Heung-min ⚽ (Goal!)"
-      },
-      {
-        "minute": 32,
-        "team": "Czechia",
-        "type": "goal",
-        "desc": "Barak ⚽ (Goal!)"
-      },
-      {
-        "minute": 60,
-        "team": "Korea Republic",
-        "type": "goal",
-        "desc": "Hwang Hee-chan ⚽ (Goal!)"
-      }
-    ],
+    "events": [],
     "stats": {
       "possession": [
         50,
@@ -236,20 +217,13 @@
     "homeFlag": "🇨🇦",
     "away": "Bosnia and Herzegovina",
     "awayFlag": "🇧🇦",
-    "homeScore": 1,
+    "homeScore": 0,
     "awayScore": 0,
-    "status": "finished",
+    "status": "upcoming",
     "minute": 0,
     "date": "Jun 12, 19:00 UTC",
     "location": "Toronto Stadium",
-    "events": [
-      {
-        "minute": 48,
-        "team": "Canada",
-        "type": "goal",
-        "desc": "Larin ⚽ (Goal!)"
-      }
-    ],
+    "events": [],
     "stats": {
       "possession": [
         50,
@@ -334,25 +308,12 @@
     "away": "Paraguay",
     "awayFlag": "🇵🇾",
     "homeScore": 0,
-    "awayScore": 2,
-    "status": "finished",
+    "awayScore": 0,
+    "status": "upcoming",
     "minute": 0,
     "date": "Jun 13, 01:00 UTC",
     "location": "Los Angeles Stadium",
-    "events": [
-      {
-        "minute": 21,
-        "team": "Paraguay",
-        "type": "goal",
-        "desc": "Arce ⚽ (Goal!)"
-      },
-      {
-        "minute": 78,
-        "team": "Paraguay",
-        "type": "goal",
-        "desc": "Sanabria ⚽ (Goal!)"
-      }
-    ],
+    "events": [],
     "stats": {
       "possession": [
         50,
@@ -437,19 +398,12 @@
     "away": "Switzerland",
     "awayFlag": "🇨🇭",
     "homeScore": 0,
-    "awayScore": 1,
-    "status": "finished",
+    "awayScore": 0,
+    "status": "upcoming",
     "minute": 0,
     "date": "Jun 13, 19:00 UTC",
     "location": "San Francisco Bay Area Stadium",
-    "events": [
-      {
-        "minute": 13,
-        "team": "Switzerland",
-        "type": "goal",
-        "desc": "Mvogo ⚽ (Goal!)"
-      }
-    ],
+    "events": [],
     "stats": {
       "possession": [
         50,
@@ -533,32 +487,13 @@
     "homeFlag": "🇧🇷",
     "away": "Morocco",
     "awayFlag": "🇲🇦",
-    "homeScore": 1,
-    "awayScore": 2,
-    "status": "finished",
+    "homeScore": 0,
+    "awayScore": 0,
+    "status": "upcoming",
     "minute": 0,
     "date": "Jun 13, 22:00 UTC",
     "location": "New York/New Jersey Stadium",
-    "events": [
-      {
-        "minute": 11,
-        "team": "Brazil",
-        "type": "goal",
-        "desc": "Bento ⚽ (Goal!)"
-      },
-      {
-        "minute": 36,
-        "team": "Morocco",
-        "type": "goal",
-        "desc": "Benabid ⚽ (Goal!)"
-      },
-      {
-        "minute": 67,
-        "team": "Morocco",
-        "type": "goal",
-        "desc": "Harit ⚽ (Goal!)"
-      }
-    ],
+    "events": [],
     "stats": {
       "possession": [
         50,
@@ -642,38 +577,13 @@
     "homeFlag": "🇭🇹",
     "away": "Scotland",
     "awayFlag": "🏴󠁧󠁢󠁳󠁣󠁴󠁿",
-    "homeScore": 3,
-    "awayScore": 1,
-    "status": "finished",
+    "homeScore": 0,
+    "awayScore": 0,
+    "status": "upcoming",
     "minute": 0,
     "date": "Jun 14, 01:00 UTC",
     "location": "Boston Stadium",
-    "events": [
-      {
-        "minute": 28,
-        "team": "Haiti",
-        "type": "goal",
-        "desc": "Dulysse ⚽ (Goal!)"
-      },
-      {
-        "minute": 57,
-        "team": "Haiti",
-        "type": "goal",
-        "desc": "Jerome ⚽ (Goal!)"
-      },
-      {
-        "minute": 59,
-        "team": "Scotland",
-        "type": "goal",
-        "desc": "Hanley ⚽ (Goal!)"
-      },
-      {
-        "minute": 86,
-        "team": "Haiti",
-        "type": "goal",
-        "desc": "Apollon ⚽ (Goal!)"
-      }
-    ],
+    "events": [],
     "stats": {
       "possession": [
         50,
@@ -757,26 +667,13 @@
     "homeFlag": "🇦🇺",
     "away": "Türkiye",
     "awayFlag": "🇹🇷",
-    "homeScore": 2,
+    "homeScore": 0,
     "awayScore": 0,
-    "status": "finished",
+    "status": "upcoming",
     "minute": 0,
     "date": "Jun 14, 04:00 UTC",
     "location": "BC Place Vancouver",
-    "events": [
-      {
-        "minute": 45,
-        "team": "Australia",
-        "type": "goal",
-        "desc": "Bos ⚽ (Goal!)"
-      },
-      {
-        "minute": 74,
-        "team": "Australia",
-        "type": "goal",
-        "desc": "Burgess ⚽ (Goal!)"
-      }
-    ],
+    "events": [],
     "stats": {
       "possession": [
         50,
@@ -860,38 +757,13 @@
     "homeFlag": "🇩🇪",
     "away": "Curaçao",
     "awayFlag": "🇨🇼",
-    "homeScore": 2,
-    "awayScore": 2,
-    "status": "finished",
+    "homeScore": 0,
+    "awayScore": 0,
+    "status": "upcoming",
     "minute": 0,
     "date": "Jun 14, 17:00 UTC",
     "location": "Houston Stadium",
-    "events": [
-      {
-        "minute": 3,
-        "team": "Germany",
-        "type": "goal",
-        "desc": "Raum ⚽ (Goal!)"
-      },
-      {
-        "minute": 17,
-        "team": "Curaçao",
-        "type": "goal",
-        "desc": "Kastaneer ⚽ (Goal!)"
-      },
-      {
-        "minute": 48,
-        "team": "Curaçao",
-        "type": "goal",
-        "desc": "Bodak ⚽ (Goal!)"
-      },
-      {
-        "minute": 62,
-        "team": "Germany",
-        "type": "goal",
-        "desc": "Koch ⚽ (Goal!)"
-      }
-    ],
+    "events": [],
     "stats": {
       "possession": [
         50,
@@ -975,26 +847,13 @@
     "homeFlag": "🇳🇱",
     "away": "Japan",
     "awayFlag": "🇯🇵",
-    "homeScore": 1,
-    "awayScore": 1,
-    "status": "finished",
+    "homeScore": 0,
+    "awayScore": 0,
+    "status": "upcoming",
     "minute": 0,
     "date": "Jun 14, 20:00 UTC",
     "location": "Dallas Stadium",
-    "events": [
-      {
-        "minute": 40,
-        "team": "Japan",
-        "type": "goal",
-        "desc": "Hashioka ⚽ (Goal!)"
-      },
-      {
-        "minute": 79,
-        "team": "Netherlands",
-        "type": "goal",
-        "desc": "Geertruida ⚽ (Goal!)"
-      }
-    ],
+    "events": [],
     "stats": {
       "possession": [
         50,
@@ -1078,32 +937,13 @@
     "homeFlag": "🇨🇮",
     "away": "Ecuador",
     "awayFlag": "🇪🇨",
-    "homeScore": 3,
+    "homeScore": 0,
     "awayScore": 0,
-    "status": "finished",
+    "status": "upcoming",
     "minute": 0,
     "date": "Jun 14, 23:00 UTC",
     "location": "Philadelphia Stadium",
-    "events": [
-      {
-        "minute": 8,
-        "team": "Côte d'Ivoire",
-        "type": "goal",
-        "desc": "Lazare ⚽ (Goal!)"
-      },
-      {
-        "minute": 37,
-        "team": "Côte d'Ivoire",
-        "type": "goal",
-        "desc": "Diallo ⚽ (Goal!)"
-      },
-      {
-        "minute": 66,
-        "team": "Côte d'Ivoire",
-        "type": "goal",
-        "desc": "Diakité ⚽ (Goal!)"
-      }
-    ],
+    "events": [],
     "stats": {
       "possession": [
         50,
@@ -1189,7 +1029,7 @@
     "awayFlag": "🇹🇳",
     "homeScore": 0,
     "awayScore": 0,
-    "status": "finished",
+    "status": "upcoming",
     "minute": 0,
     "date": "Jun 15, 02:00 UTC",
     "location": "Monterrey Stadium",
@@ -1277,32 +1117,13 @@
     "homeFlag": "🇪🇸",
     "away": "Cabo Verde",
     "awayFlag": "🇨🇻",
-    "homeScore": 2,
-    "awayScore": 1,
-    "status": "finished",
+    "homeScore": 0,
+    "awayScore": 0,
+    "status": "upcoming",
     "minute": 0,
     "date": "Jun 15, 16:00 UTC",
     "location": "Atlanta Stadium",
-    "events": [
-      {
-        "minute": 21,
-        "team": "Cabo Verde",
-        "type": "goal",
-        "desc": "Rodrigues ⚽ (Goal!)"
-      },
-      {
-        "minute": 42,
-        "team": "Spain",
-        "type": "goal",
-        "desc": "Fermín ⚽ (Goal!)"
-      },
-      {
-        "minute": 71,
-        "team": "Spain",
-        "type": "goal",
-        "desc": "Olmo ⚽ (Goal!)"
-      }
-    ],
+    "events": [],
     "stats": {
       "possession": [
         50,
@@ -1387,25 +1208,12 @@
     "away": "Egypt",
     "awayFlag": "🇪🇬",
     "homeScore": 0,
-    "awayScore": 2,
-    "status": "finished",
+    "awayScore": 0,
+    "status": "upcoming",
     "minute": 0,
     "date": "Jun 15, 19:00 UTC",
     "location": "Seattle Stadium",
-    "events": [
-      {
-        "minute": 44,
-        "team": "Egypt",
-        "type": "goal",
-        "desc": "Faisal ⚽ (Goal!)"
-      },
-      {
-        "minute": 75,
-        "team": "Egypt",
-        "type": "goal",
-        "desc": "Ashour ⚽ (Goal!)"
-      }
-    ],
+    "events": [],
     "stats": {
       "possession": [
         50,
@@ -1489,44 +1297,13 @@
     "homeFlag": "🇸🇦",
     "away": "Uruguay",
     "awayFlag": "🇺🇾",
-    "homeScore": 3,
-    "awayScore": 2,
-    "status": "finished",
+    "homeScore": 0,
+    "awayScore": 0,
+    "status": "upcoming",
     "minute": 0,
     "date": "Jun 15, 22:00 UTC",
     "location": "Miami Stadium",
-    "events": [
-      {
-        "minute": 10,
-        "team": "Uruguay",
-        "type": "goal",
-        "desc": "Arrascaeta ⚽ (Goal!)"
-      },
-      {
-        "minute": 17,
-        "team": "Saudi Arabia",
-        "type": "goal",
-        "desc": "Maran ⚽ (Goal!)"
-      },
-      {
-        "minute": 46,
-        "team": "Saudi Arabia",
-        "type": "goal",
-        "desc": "Maran ⚽ (Goal!)"
-      },
-      {
-        "minute": 67,
-        "team": "Uruguay",
-        "type": "goal",
-        "desc": "Torres ⚽ (Goal!)"
-      },
-      {
-        "minute": 76,
-        "team": "Saudi Arabia",
-        "type": "goal",
-        "desc": "Asiri ⚽ (Goal!)"
-      }
-    ],
+    "events": [],
     "stats": {
       "possession": [
         50,
@@ -1610,20 +1387,13 @@
     "homeFlag": "🇮🇷",
     "away": "New Zealand",
     "awayFlag": "🇳🇿",
-    "homeScore": 1,
+    "homeScore": 0,
     "awayScore": 0,
-    "status": "finished",
+    "status": "upcoming",
     "minute": 0,
     "date": "Jun 16, 01:00 UTC",
     "location": "Los Angeles Stadium",
-    "events": [
-      {
-        "minute": 5,
-        "team": "IR Iran",
-        "type": "goal",
-        "desc": "Ansarifard ⚽ (Goal!)"
-      }
-    ],
+    "events": [],
     "stats": {
       "possession": [
         50,
@@ -1707,38 +1477,13 @@
     "homeFlag": "🇫🇷",
     "away": "Senegal",
     "awayFlag": "🇸🇳",
-    "homeScore": 3,
-    "awayScore": 1,
-    "status": "finished",
+    "homeScore": 0,
+    "awayScore": 0,
+    "status": "upcoming",
     "minute": 0,
     "date": "Jun 16, 19:00 UTC",
     "location": "New York/New Jersey Stadium",
-    "events": [
-      {
-        "minute": 22,
-        "team": "France",
-        "type": "goal",
-        "desc": "Giroud ⚽ (Goal!)"
-      },
-      {
-        "minute": 25,
-        "team": "Senegal",
-        "type": "goal",
-        "desc": "Player ⚽ (Goal!)"
-      },
-      {
-        "minute": 51,
-        "team": "France",
-        "type": "goal",
-        "desc": "Giroud ⚽ (Goal!)"
-      },
-      {
-        "minute": 80,
-        "team": "France",
-        "type": "goal",
-        "desc": "Giroud ⚽ (Goal!)"
-      }
-    ],
+    "events": [],
     "stats": {
       "possession": [
         50,
@@ -1822,26 +1567,13 @@
     "homeFlag": "🇮🇶",
     "away": "Norway",
     "awayFlag": "🇳🇴",
-    "homeScore": 2,
+    "homeScore": 0,
     "awayScore": 0,
-    "status": "finished",
+    "status": "upcoming",
     "minute": 0,
     "date": "Jun 16, 22:00 UTC",
     "location": "Boston Stadium",
-    "events": [
-      {
-        "minute": 39,
-        "team": "Iraq",
-        "type": "goal",
-        "desc": "Player ⚽ (Goal!)"
-      },
-      {
-        "minute": 68,
-        "team": "Iraq",
-        "type": "goal",
-        "desc": "Player ⚽ (Goal!)"
-      }
-    ],
+    "events": [],
     "stats": {
       "possession": [
         50,
@@ -1925,32 +1657,13 @@
     "homeFlag": "🇦🇷",
     "away": "Algeria",
     "awayFlag": "🇩🇿",
-    "homeScore": 1,
-    "awayScore": 2,
-    "status": "finished",
+    "homeScore": 0,
+    "awayScore": 0,
+    "status": "upcoming",
     "minute": 0,
     "date": "Jun 17, 01:00 UTC",
     "location": "Kansas City Stadium",
-    "events": [
-      {
-        "minute": 14,
-        "team": "Algeria",
-        "type": "goal",
-        "desc": "Player ⚽ (Goal!)"
-      },
-      {
-        "minute": 56,
-        "team": "Argentina",
-        "type": "goal",
-        "desc": "Di María ⚽ (Goal!)"
-      },
-      {
-        "minute": 71,
-        "team": "Algeria",
-        "type": "goal",
-        "desc": "Player ⚽ (Goal!)"
-      }
-    ],
+    "events": [],
     "stats": {
       "possession": [
         50,
@@ -2035,19 +1748,12 @@
     "away": "Jordan",
     "awayFlag": "🇯🇴",
     "homeScore": 0,
-    "awayScore": 1,
-    "status": "finished",
+    "awayScore": 0,
+    "status": "upcoming",
     "minute": 0,
     "date": "Jun 17, 04:00 UTC",
     "location": "San Francisco Bay Area Stadium",
-    "events": [
-      {
-        "minute": 6,
-        "team": "Jordan",
-        "type": "goal",
-        "desc": "Player ⚽ (Goal!)"
-      }
-    ],
+    "events": [],
     "stats": {
       "possession": [
         50,
@@ -2131,26 +1837,13 @@
     "homeFlag": "🇵🇹",
     "away": "Congo DR",
     "awayFlag": "⚽",
-    "homeScore": 1,
-    "awayScore": 1,
-    "status": "finished",
+    "homeScore": 0,
+    "awayScore": 0,
+    "status": "upcoming",
     "minute": 0,
     "date": "Jun 17, 17:00 UTC",
     "location": "Houston Stadium",
-    "events": [
-      {
-        "minute": 2,
-        "team": "Portugal",
-        "type": "goal",
-        "desc": "Ramos ⚽ (Goal!)"
-      },
-      {
-        "minute": 29,
-        "team": "Congo DR",
-        "type": "goal",
-        "desc": "Player ⚽ (Goal!)"
-      }
-    ],
+    "events": [],
     "stats": {
       "possession": [
         50,
@@ -2234,38 +1927,13 @@
     "homeFlag": "🏴󠁧󠁢󠁥󠁮󠁧󠁿",
     "away": "Croatia",
     "awayFlag": "🇭🇷",
-    "homeScore": 2,
-    "awayScore": 2,
-    "status": "finished",
+    "homeScore": 0,
+    "awayScore": 0,
+    "status": "upcoming",
     "minute": 0,
     "date": "Jun 17, 20:00 UTC",
     "location": "Dallas Stadium",
-    "events": [
-      {
-        "minute": 19,
-        "team": "England",
-        "type": "goal",
-        "desc": "Watkins ⚽ (Goal!)"
-      },
-      {
-        "minute": 48,
-        "team": "England",
-        "type": "goal",
-        "desc": "Watkins ⚽ (Goal!)"
-      },
-      {
-        "minute": 52,
-        "team": "Croatia",
-        "type": "goal",
-        "desc": "Budimir ⚽ (Goal!)"
-      },
-      {
-        "minute": 83,
-        "team": "Croatia",
-        "type": "goal",
-        "desc": "Budimir ⚽ (Goal!)"
-      }
-    ],
+    "events": [],
     "stats": {
       "possession": [
         50,
@@ -2349,32 +2017,13 @@
     "homeFlag": "🇬🇭",
     "away": "Panama",
     "awayFlag": "🇵🇦",
-    "homeScore": 3,
+    "homeScore": 0,
     "awayScore": 0,
-    "status": "finished",
+    "status": "upcoming",
     "minute": 0,
     "date": "Jun 17, 23:00 UTC",
     "location": "Toronto Stadium",
-    "events": [
-      {
-        "minute": 6,
-        "team": "Ghana",
-        "type": "goal",
-        "desc": "Player ⚽ (Goal!)"
-      },
-      {
-        "minute": 36,
-        "team": "Ghana",
-        "type": "goal",
-        "desc": "Player ⚽ (Goal!)"
-      },
-      {
-        "minute": 65,
-        "team": "Ghana",
-        "type": "goal",
-        "desc": "Player ⚽ (Goal!)"
-      }
-    ],
+    "events": [],
     "stats": {
       "possession": [
         50,
@@ -2460,7 +2109,7 @@
     "awayFlag": "🇨🇴",
     "homeScore": 0,
     "awayScore": 0,
-    "status": "finished",
+    "status": "upcoming",
     "minute": 0,
     "date": "Jun 18, 02:00 UTC",
     "location": "Mexico City Stadium",
@@ -2548,44 +2197,13 @@
     "homeFlag": "🇨🇿",
     "away": "South Africa",
     "awayFlag": "🇿🇦",
-    "homeScore": 3,
-    "awayScore": 2,
-    "status": "finished",
+    "homeScore": 0,
+    "awayScore": 0,
+    "status": "upcoming",
     "minute": 0,
     "date": "Jun 18, 16:00 UTC",
     "location": "Atlanta Stadium",
-    "events": [
-      {
-        "minute": 11,
-        "team": "Czechia",
-        "type": "goal",
-        "desc": "Hlozek ⚽ (Goal!)"
-      },
-      {
-        "minute": 33,
-        "team": "South Africa",
-        "type": "goal",
-        "desc": "Morena ⚽ (Goal!)"
-      },
-      {
-        "minute": 40,
-        "team": "Czechia",
-        "type": "goal",
-        "desc": "Schick ⚽ (Goal!)"
-      },
-      {
-        "minute": 64,
-        "team": "South Africa",
-        "type": "goal",
-        "desc": "Mnyamane ⚽ (Goal!)"
-      },
-      {
-        "minute": 70,
-        "team": "Czechia",
-        "type": "goal",
-        "desc": "Barak ⚽ (Goal!)"
-      }
-    ],
+    "events": [],
     "stats": {
       "possession": [
         50,
@@ -2669,32 +2287,13 @@
     "homeFlag": "🇨🇭",
     "away": "Bosnia and Herzegovina",
     "awayFlag": "🇧🇦",
-    "homeScore": 2,
-    "awayScore": 1,
-    "status": "finished",
+    "homeScore": 0,
+    "awayScore": 0,
+    "status": "upcoming",
     "minute": 0,
     "date": "Jun 18, 19:00 UTC",
     "location": "Los Angeles Stadium",
-    "events": [
-      {
-        "minute": 28,
-        "team": "Switzerland",
-        "type": "goal",
-        "desc": "Embolo ⚽ (Goal!)"
-      },
-      {
-        "minute": 56,
-        "team": "Bosnia and Herzegovina",
-        "type": "goal",
-        "desc": "Stevanović ⚽ (Goal!)"
-      },
-      {
-        "minute": 87,
-        "team": "Switzerland",
-        "type": "goal",
-        "desc": "Vargas ⚽ (Goal!)"
-      }
-    ],
+    "events": [],
     "stats": {
       "possession": [
         50,
@@ -2778,20 +2377,13 @@
     "homeFlag": "🇨🇦",
     "away": "Qatar",
     "awayFlag": "🇶🇦",
-    "homeScore": 1,
+    "homeScore": 0,
     "awayScore": 0,
-    "status": "finished",
+    "status": "upcoming",
     "minute": 0,
     "date": "Jun 18, 22:00 UTC",
     "location": "BC Place Vancouver",
-    "events": [
-      {
-        "minute": 16,
-        "team": "Canada",
-        "type": "goal",
-        "desc": "Millar ⚽ (Goal!)"
-      }
-    ],
+    "events": [],
     "stats": {
       "possession": [
         50,
@@ -2876,25 +2468,12 @@
     "away": "Korea Republic",
     "awayFlag": "🇰🇷",
     "homeScore": 0,
-    "awayScore": 2,
-    "status": "finished",
+    "awayScore": 0,
+    "status": "upcoming",
     "minute": 0,
     "date": "Jun 19, 01:00 UTC",
     "location": "Guadalajara Stadium",
-    "events": [
-      {
-        "minute": 14,
-        "team": "Korea Republic",
-        "type": "goal",
-        "desc": "Song ⚽ (Goal!)"
-      },
-      {
-        "minute": 45,
-        "team": "Korea Republic",
-        "type": "goal",
-        "desc": "Lee Kang-in ⚽ (Goal!)"
-      }
-    ],
+    "events": [],
     "stats": {
       "possession": [
         50,
@@ -2979,19 +2558,12 @@
     "away": "Australia",
     "awayFlag": "🇦🇺",
     "homeScore": 0,
-    "awayScore": 1,
-    "status": "finished",
+    "awayScore": 0,
+    "status": "upcoming",
     "minute": 0,
     "date": "Jun 19, 19:00 UTC",
     "location": "Seattle Stadium",
-    "events": [
-      {
-        "minute": 37,
-        "team": "Australia",
-        "type": "goal",
-        "desc": "Thomas ⚽ (Goal!)"
-      }
-    ],
+    "events": [],
     "stats": {
       "possession": [
         50,
@@ -3075,26 +2647,13 @@
     "homeFlag": "🏴󠁧󠁢󠁳󠁣󠁴󠁿",
     "away": "Morocco",
     "awayFlag": "🇲🇦",
-    "homeScore": 2,
+    "homeScore": 0,
     "awayScore": 0,
-    "status": "finished",
+    "status": "upcoming",
     "minute": 0,
     "date": "Jun 19, 22:00 UTC",
     "location": "Boston Stadium",
-    "events": [
-      {
-        "minute": 8,
-        "team": "Scotland",
-        "type": "goal",
-        "desc": "Cooper ⚽ (Goal!)"
-      },
-      {
-        "minute": 67,
-        "team": "Scotland",
-        "type": "goal",
-        "desc": "Hanley ⚽ (Goal!)"
-      }
-    ],
+    "events": [],
     "stats": {
       "possession": [
         50,
@@ -3178,48 +2737,29 @@
     "homeFlag": "🇧🇷",
     "away": "Haiti",
     "awayFlag": "🇭🇹",
-    "homeScore": 2,
-    "awayScore": 1,
-    "status": "live",
-    "minute": 60,
+    "homeScore": 0,
+    "awayScore": 0,
+    "status": "upcoming",
+    "minute": 0,
     "date": "Jun 20, 01:00 UTC",
     "location": "Philadelphia Stadium",
-    "events": [
-      {
-        "minute": 13,
-        "team": "Brazil",
-        "type": "goal",
-        "desc": "Yan Couto ⚽ (Goal!)"
-      },
-      {
-        "minute": 39,
-        "team": "Haiti",
-        "type": "goal",
-        "desc": "Jerome ⚽ (Goal!)"
-      },
-      {
-        "minute": 44,
-        "team": "Brazil",
-        "type": "goal",
-        "desc": "Beraldo ⚽ (Goal!)"
-      }
-    ],
+    "events": [],
     "stats": {
       "possession": [
-        55,
-        45
+        50,
+        50
       ],
       "shots": [
-        8,
-        4
+        0,
+        0
       ],
       "fouls": [
-        6,
-        7
+        0,
+        0
       ],
       "corners": [
-        3,
-        2
+        0,
+        0
       ]
     },
     "lineups": {

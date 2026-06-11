@@ -644,13 +644,37 @@ body {
   background: rgba(255, 255, 255, 0.05);
 }
 
-/* Live scorers details */
-.match-highlights {
-  display: flex;
-  flex-direction: column;
-  gap: 2px;
+/* Live scorers details - split under home/away teams */
+.match-scorers-row {
+  display: grid;
+  grid-template-columns: 1fr auto 1fr;
+  align-items: flex-start;
+  gap: 12px;
+  margin-top: 6px;
+  margin-bottom: 2px;
   border-top: 1px dashed var(--border-color);
   padding-top: 8px;
+}
+
+.team-scorers {
+  display: flex;
+  flex-direction: column;
+  gap: 3px;
+}
+
+.team-scorers.home-scorers {
+  align-items: flex-start;
+  text-align: left;
+}
+
+.team-scorers.away-scorers {
+  align-items: flex-end;
+  text-align: right;
+}
+
+.scorers-divider-placeholder {
+  min-width: 70px;
+  visibility: hidden;
 }
 
 .scorer {
@@ -658,7 +682,7 @@ body {
   color: var(--text-secondary);
   display: flex;
   align-items: center;
-  gap: 6px;
+  gap: 4px;
 }
 
 /* Subscribe Alerts Button */
@@ -2190,9 +2214,14 @@ body.light-theme .player-node-name {
     min-width: 60px;
   }
   
-  .match-highlights {
+  .match-scorers-row {
     padding-top: 6px;
-    gap: 1px;
+    gap: 12px;
+    margin-top: 4px;
+  }
+  
+  .scorers-divider-placeholder {
+    min-width: 60px;
   }
   
   .scorer {

@@ -1893,24 +1893,38 @@ function renderMatchesList() {
     
     // Status HTML formatter
     let statusHtml = '';
+    const formattedDate = match.date ? formatMatchDate(match.date) : '';
     if (isLive) {
-      statusHtml = `<span class="match-status pulse-text"><span class="match-live-dot"></span>${t('modal_status_live', 'LIVE')} • ${match.minute}'</span>`;
+      statusHtml = `<span class="match-status pulse-text"><span class="match-live-dot"></span>${t('modal_status_live', 'LIVE')} • ${match.minute}' ${formattedDate ? `| ${formattedDate}` : ''}</span>`;
     } else if (isFinished) {
-      statusHtml = `<span class="match-status">${t('final_result', 'FINAL RESULT')}</span>`;
+      statusHtml = `<span class="match-status">${t('final_result', 'FINAL RESULT')} ${formattedDate ? `| ${formattedDate}` : ''}</span>`;
     } else {
       const label = match.date ? `${formatMatchDate(match.date)}` : t('upcoming_pred', 'Upcoming • Prediction open');
       statusHtml = `<span class="match-status">${label}</span>`;
     }
 
-    // Goal scorers snippet
+    // Goal scorers snippet - split under home/away teams
     let scorersHtml = '';
     const goals = match.events.filter(e => e.type === 'goal');
     if (goals.length > 0) {
-      scorersHtml = `<div class="match-highlights">`;
-      goals.forEach((g) => {
-        scorersHtml += `<span class="scorer">${g.minute}' ⚽ ${g.desc.split(' (')[0]}</span>`;
-      });
-      scorersHtml += `</div>`;
+      const homeGoals = goals.filter(g => g.team === match.home);
+      const awayGoals = goals.filter(g => g.team === match.away);
+      
+      scorersHtml = `
+        <div class="match-scorers-row">
+          <div class="team-scorers home-scorers">
+            ${homeGoals.map(g => `
+              <span class="scorer">${g.minute}' ⚽ ${g.desc.split(' ⚽')[0].split(' (')[0]}</span>
+            `).join('')}
+          </div>
+          <div class="scorers-divider-placeholder"></div>
+          <div class="team-scorers away-scorers">
+            ${awayGoals.map(g => `
+              <span class="scorer">${g.minute}' ⚽ ${g.desc.split(' ⚽')[0].split(' (')[0]}</span>
+            `).join('')}
+          </div>
+        </div>
+      `;
     }
 
     const showAlertBtn = isRealTeam(match.home) && isRealTeam(match.away);
