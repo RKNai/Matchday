@@ -1804,6 +1804,20 @@ function renderPlayoffBracket() {
   }
 }
 
+function getMatchTimestamp(dateStr) {
+  if (!dateStr || dateStr === 'Upcoming') return 0;
+  let clean = dateStr.replace(',', '');
+  if (!clean.includes('2026')) {
+    const parts = clean.split(' ');
+    if (parts.length >= 2) {
+      parts.splice(2, 0, '2026');
+      clean = parts.join(' ');
+    }
+  }
+  const ts = Date.parse(clean);
+  return isNaN(ts) ? 0 : ts;
+}
+
 function renderMatchesList() {
   DOM.matchesList.innerHTML = '';
   
@@ -1829,16 +1843,25 @@ function renderMatchesList() {
     filteredMatches = [...state.matches];
   }
 
-  // Sort matches: 'live' matches at the very top, then 'upcoming', then 'finished' (results) last.
-  // Within the same status, sort chronologically by match number (id).
+  // Smart sort matches by status and date
   filteredMatches.sort((a, b) => {
+    if (state.activeTab === 'results') {
+      return getMatchTimestamp(b.date) - getMatchTimestamp(a.date) || b.id - a.id;
+    }
+    if (state.activeTab === 'upcoming') {
+      return getMatchTimestamp(a.date) - getMatchTimestamp(b.date) || a.id - b.id;
+    }
+    
     const statusOrder = { 'live': 0, 'upcoming': 1, 'finished': 2 };
     const orderA = statusOrder[a.status] !== undefined ? statusOrder[a.status] : 99;
     const orderB = statusOrder[b.status] !== undefined ? statusOrder[b.status] : 99;
     if (orderA !== orderB) {
       return orderA - orderB;
     }
-    return a.id - b.id;
+    if (a.status === 'finished') {
+      return getMatchTimestamp(b.date) - getMatchTimestamp(a.date) || b.id - a.id;
+    }
+    return getMatchTimestamp(a.date) - getMatchTimestamp(b.date) || a.id - b.id;
   });
 
   if (filteredMatches.length === 0) {
