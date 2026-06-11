@@ -87,6 +87,10 @@ TEAM_SQUADS = {
   "Norway": ["Nyland", "Ryerson", "Østigård", "Ajer", "Wolfe", "Berge", "Ødegaard", "Patrick Berg", "Bobb", "Erling Haaland", "Sørloth", "Dyngeland", "Selvik", "Gundersen", "Hanche-Olsen", "Pedersen", "Tronstad", "Thorsby", "Elyounoussi", "Nusa", "Strand Larsen", "Donnum", "Botheim"]
 }
 
+REAL_SCORES_OVERRIDE = {
+  1: (2, 0)  # Match #1: Mexico vs South Africa: 2-0
+}
+
 FIFA_RATINGS = {
   "Argentina": 1860, "France": 1840, "England": 1795, "Belgium": 1790, "Brazil": 1785,
   "Spain": 1775, "Portugal": 1750, "Netherlands": 1745, "Italy": 1725, "Croatia": 1720,
@@ -192,6 +196,9 @@ def parse_fixtures():
       
       home_score = match.get("HomeTeamScore")
       away_score = match.get("AwayTeamScore")
+      
+      if match_num in REAL_SCORES_OVERRIDE:
+        home_score, away_score = REAL_SCORES_OVERRIDE[match_num]
       
       # Convert DateUtc e.g. "2026-06-11 19:00:00Z" to nice label
       date_str = match.get("DateUtc", "")
