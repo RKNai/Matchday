@@ -211,11 +211,8 @@ def parse_fixtures():
       home_flag = FLAG_MAP.get(home_team, "⚽")
       away_flag = FLAG_MAP.get(away_team, "⚽")
       
-      home_score = match.get("HomeTeamScore")
-      away_score = match.get("AwayTeamScore")
-      
-      if match_num in REAL_SCORES_OVERRIDE:
-        home_score, away_score = REAL_SCORES_OVERRIDE[match_num]
+      feed_home_score = match.get("HomeTeamScore")
+      feed_away_score = match.get("AwayTeamScore")
       
       # Convert DateUtc e.g. "2026-06-11 19:00:00Z" to nice label
       date_str = match.get("DateUtc", "")
@@ -259,80 +256,73 @@ def parse_fixtures():
         elif now_utc > (dt_utc + timedelta(minutes=105)):
           is_finished = True
           
-      if home_score is not None and away_score is not None:
+      # Determine base status, minute, and scores
+      if feed_home_score is not None and feed_away_score is not None:
         status = 'finished'
-        home_score = int(home_score)
-        away_score = int(away_score)
+        home_score = int(feed_home_score)
+        away_score = int(feed_away_score)
+        minute = 0
+      elif is_live:
+        status = 'live'
+        minute = elapsed_minutes
+        # Procedurally simulate score if feed has no score and not overridden
+        home_score = int((match_num * 7 + elapsed_minutes * 13) % 3)
+        away_score = int((match_num * 11 + elapsed_minutes * 17) % 3)
+      elif is_finished:
+        status = 'finished'
+        minute = 0
+        # Procedurally simulate score if feed has no score and not overridden
+        home_score = int((match_num * 7) % 4)
+        away_score = int((match_num * 11) % 3)
+      else:
+        status = 'upcoming'
+        minute = 0
+        home_score = 0
+        away_score = 0
         
-        # Generate realistic goal scorers based on the squads
+      # Apply real score override if specified
+      if match_num in REAL_SCORES_OVERRIDE:
+        home_score, away_score = REAL_SCORES_OVERRIDE[match_num]
+        if is_live:
+          status = 'live'
+          minute = elapsed_minutes
+        else:
+          status = 'finished'
+          minute = 0
+
+      # Generate events based on status
+      events = []
+      if status == 'finished':
         if match_num in REAL_EVENTS_OVERRIDE:
           events = REAL_EVENTS_OVERRIDE[match_num]
         elif home_score > 0 or away_score > 0:
           home_players = TEAM_SQUADS.get(norm_team(home_team), ["Player"])
           away_players = TEAM_SQUADS.get(norm_team(away_team), ["Player"])
-          # Home scorers
           for i in range(home_score):
             scorer = home_players[min((idx + i) % len(home_players) + 7, len(home_players)-1)]
             minute_val = (idx * 17 + i * 29 + 13) % 88 + 1
             events.append({ "minute": minute_val, "team": home_team, "type": "goal", "desc": f"{scorer} ⚽ (Goal!)" })
-          # Away scorers
           for i in range(away_score):
             scorer = away_players[min((idx + i * 19) % len(away_players) + 7, len(away_players)-1)]
             minute_val = (idx * 23 + i * 31 + 8) % 88 + 1
             events.append({ "minute": minute_val, "team": away_team, "type": "goal", "desc": f"{scorer} ⚽ (Goal!)" })
-            
           events.sort(key=lambda x: x["minute"])
-      elif is_live:
-        # Match is currently playing in reality!
-        status = 'live'
-        minute = elapsed_minutes
-        
-        # Procedurally simulate score updating based on elapsed minutes
-        home_score = int((match_num * 7 + elapsed_minutes * 13) % 3)
-        away_score = int((match_num * 11 + elapsed_minutes * 17) % 3)
-        
-        # Generate dynamic events matching the live minute
-        home_players = TEAM_SQUADS.get(norm_team(home_team), ["Player"])
-        away_players = TEAM_SQUADS.get(norm_team(away_team), ["Player"])
-        # Home scorers
-        for i in range(home_score):
-          scorer = home_players[min((idx + i) % len(home_players) + 7, len(home_players)-1)]
-          event_minute = min(int((idx * 17 + i * 29 + 13) % elapsed_minutes + 1), elapsed_minutes)
-          events.append({ "minute": event_minute, "team": home_team, "type": "goal", "desc": f"{scorer} ⚽ (Goal!)" })
-        # Away scorers
-        for i in range(away_score):
-          scorer = away_players[min((idx + i * 19) % len(away_players) + 7, len(away_players)-1)]
-          event_minute = min(int((idx * 23 + i * 31 + 8) % elapsed_minutes + 1), elapsed_minutes)
-          events.append({ "minute": event_minute, "team": away_team, "type": "goal", "desc": f"{scorer} ⚽ (Goal!)" })
-          
-        events.sort(key=lambda x: x["minute"])
-      elif is_finished:
-        # Match occurred in the past but feed doesn't have scores
-        status = 'finished'
-        home_score = int((match_num * 7) % 4)
-        away_score = int((match_num * 11) % 3)
-        
-        # Generate finished match scorers
-        if home_score > 0 or away_score > 0:
+      elif status == 'live':
+        if match_num in REAL_EVENTS_OVERRIDE:
+          # Filter overridden events to only show goals that have occurred up to current live minute
+          events = [ev for ev in REAL_EVENTS_OVERRIDE[match_num] if ev["minute"] <= elapsed_minutes]
+        else:
           home_players = TEAM_SQUADS.get(norm_team(home_team), ["Player"])
           away_players = TEAM_SQUADS.get(norm_team(away_team), ["Player"])
-          # Home scorers
           for i in range(home_score):
             scorer = home_players[min((idx + i) % len(home_players) + 7, len(home_players)-1)]
-            minute_val = (idx * 17 + i * 29 + 13) % 88 + 1
-            events.append({ "minute": minute_val, "team": home_team, "type": "goal", "desc": f"{scorer} ⚽ (Goal!)" })
-          # Away scorers
+            event_minute = min(int((idx * 17 + i * 29 + 13) % elapsed_minutes + 1), elapsed_minutes)
+            events.append({ "minute": event_minute, "team": home_team, "type": "goal", "desc": f"{scorer} ⚽ (Goal!)" })
           for i in range(away_score):
             scorer = away_players[min((idx + i * 19) % len(away_players) + 7, len(away_players)-1)]
-            minute_val = (idx * 23 + i * 31 + 8) % 88 + 1
-            events.append({ "minute": minute_val, "team": away_team, "type": "goal", "desc": f"{scorer} ⚽ (Goal!)" })
-            
+            event_minute = min(int((idx * 23 + i * 31 + 8) % elapsed_minutes + 1), elapsed_minutes)
+            events.append({ "minute": event_minute, "team": away_team, "type": "goal", "desc": f"{scorer} ⚽ (Goal!)" })
           events.sort(key=lambda x: x["minute"])
-      else:
-        # Upcoming match
-        status = 'upcoming'
-        home_score = 0
-        away_score = 0
           
       # Detailed stats prediction/structure
       stats = {

@@ -1,9 +1,9 @@
-const CACHE_NAME = 'matchday-v53';
+const CACHE_NAME = 'matchday-v54';
 const ASSETS = [
   './',
   './index.html',
-  './style.css?v=53',
-  './app.js?v=53',
+  './style.css?v=54',
+  './app.js?v=54',
   './manifest.json',
   './assets/icon-192.png',
   './assets/icon-512.png'

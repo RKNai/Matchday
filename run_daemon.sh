@@ -18,6 +18,13 @@ while true; do
   # Run the matches scraper every 10 seconds
   python3 -u scrape_matches.py
   
+  # Run the news scraper every 60 iterations (approx. 10 minutes)
+  # or on the very first iteration to ensure the initial cache is populated
+  if [ $counter -eq 0 ] || [ $((counter % 60)) -eq 0 ]; then
+    echo "[MatchDay Daemon] Running news scraper (10-minute interval)..."
+    python3 -u scrape_news.py
+  fi
+
   # Check if any files inside the data/ folder have changed
   if [ -n "$(git status --porcelain data/)" ]; then
     echo "[MatchDay Daemon] New data detected! Committing and pushing to GitHub..."
