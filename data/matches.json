@@ -220,27 +220,27 @@
     "awayFlag": "🇧🇦",
     "homeScore": 0,
     "awayScore": 0,
-    "status": "upcoming",
-    "minute": 0,
+    "status": "live",
+    "minute": 27,
     "date": "Jun 12, 19:00 UTC",
     "location": "Toronto Stadium",
     "events": [],
     "stats": {
       "possession": [
-        50,
-        50
+        55,
+        45
       ],
       "shots": [
-        0,
-        0
+        8,
+        4
       ],
       "fouls": [
-        0,
-        0
+        6,
+        7
       ],
       "corners": [
-        0,
-        0
+        3,
+        2
       ]
     },
     "lineups": {
