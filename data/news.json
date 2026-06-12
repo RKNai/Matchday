@@ -1,9 +1,23 @@
 [
   {
     "category": "tactics",
+    "title": "'Nightmare from start to finish' for South Africa in opener",
+    "snippet": "Former captain Dean Furman says South Africa were \"miles off it\" in their World Cup opener against Mexico, as many on the continent 'hate-watch' Bafana Bafana.",
+    "time": "30m ago",
+    "timestamp": 1781274390,
+    "color": "linear-gradient(135deg, #f59e0b, #78350f)",
+    "overlay": "⚽",
+    "link": "https://www.bbc.com/sport/football/articles/cn4dx3v9wjgo?at_medium=RSS&at_campaign=rss",
+    "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/0ede/live/4af93c90-6654-11f1-9afd-55fafa742f4a.jpg",
+    "source": "BBC Sport",
+    "lang": "en",
+    "id": 200
+  },
+  {
+    "category": "tactics",
     "title": "Scotland's McTominay trains after stomach upset",
     "snippet": "Scotland midfielder Scott McTominay takes part in training on the eve of the World Cup opener against Haiti, having missed out the previous day because of an upset stomach.",
-    "time": "26m ago",
+    "time": "37m ago",
     "timestamp": 1781273986,
     "color": "linear-gradient(135deg, #f59e0b, #78350f)",
     "overlay": "⚽",
@@ -11,7 +25,7 @@
     "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/66a4/live/85d150d0-666a-11f1-b68a-af11ef3c7f8c.jpg",
     "source": "BBC Sport",
     "lang": "en",
-    "id": 200
+    "id": 201
   },
   {
     "category": "tactics",
@@ -25,7 +39,7 @@
     "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/d2a5/live/57648670-6662-11f1-8546-8f19e4fe30f4.jpg",
     "source": "BBC Sport",
     "lang": "en",
-    "id": 201
+    "id": 202
   },
   {
     "category": "tactics",
@@ -39,7 +53,7 @@
     "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/5c62/live/b086b320-665f-11f1-b68a-af11ef3c7f8c.png",
     "source": "BBC Sport",
     "lang": "en",
-    "id": 202
+    "id": 203
   },
   {
     "category": "tactics",
@@ -53,7 +67,7 @@
     "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/03dd/live/deace580-61af-11f1-8b8c-6d33e1d5abb6.png",
     "source": "BBC Sport",
     "lang": "en",
-    "id": 203
+    "id": 204
   },
   {
     "category": "tactics",
@@ -67,7 +81,7 @@
     "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/737d/live/62c2a5e0-664b-11f1-8546-8f19e4fe30f4.jpg",
     "source": "BBC Sport",
     "lang": "en",
-    "id": 204
+    "id": 205
   },
   {
     "category": "tactics",
@@ -79,20 +93,6 @@
     "overlay": "⚽",
     "link": "https://www.bbc.com/sport/football/articles/ce372ep1xlgo?at_medium=RSS&at_campaign=rss",
     "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/3f40/live/ea30b730-663f-11f1-b1db-af71d47507d6.jpg",
-    "source": "BBC Sport",
-    "lang": "en",
-    "id": 205
-  },
-  {
-    "category": "tactics",
-    "title": "Three red cards - are referees getting tough at this World Cup?",
-    "snippet": "Three players were sent off in the World Cup opener as Mexico beat South Africa 2-0. Are we about to see a World Cup littered with red cards?",
-    "time": "6h ago",
-    "timestamp": 1781253084,
-    "color": "linear-gradient(135deg, #f59e0b, #78350f)",
-    "overlay": "⚽",
-    "link": "https://www.bbc.com/sport/football/articles/cjwglq2gzd6o?at_medium=RSS&at_campaign=rss",
-    "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/151f/live/524541b0-65e6-11f1-b2f0-b71544526ae8.jpg",
     "source": "BBC Sport",
     "lang": "en",
     "id": 206
@@ -115,7 +115,7 @@
     "category": "rules",
     "title": "What are World Cup's red card suspension rules?",
     "snippet": "BBC Sport's Ask Me Anything team explains Fifa's suspension rules on red and yellow cards during the World Cup.",
-    "time": "6h ago",
+    "time": "7h ago",
     "timestamp": 1781251003,
     "color": "linear-gradient(135deg, #64748b, #334155)",
     "overlay": "📺",
@@ -255,7 +255,7 @@
     "category": "tactics",
     "title": "Un periodista deja su retransmisión para hacerse una foto con Shakira: \"¡Ridículo informativo!\"",
     "snippet": "",
-    "time": "5h ago",
+    "time": "6h ago",
     "timestamp": 1781254275,
     "color": "linear-gradient(135deg, #f59e0b, #78350f)",
     "overlay": "⚽",
@@ -381,7 +381,7 @@
     "category": "rules",
     "title": "Matthaus lo tiene claro: “Alemania volverá a caer contra España”",
     "snippet": "El campeón del mundo en 1990 coloca a la Roja y Francia como favoritos e Inglaterra queda un escalón por detrás<span class=\"xai-icon\" contenteditable=\"false\" aria-hidden=\"true\" tabindex=\"-1\" style=\"user-select: none; pointer-events: auto;\"></span>",
-    "time": "7h ago",
+    "time": "8h ago",
     "timestamp": 1781246855,
     "color": "linear-gradient(135deg, #64748b, #334155)",
     "overlay": "📺",
@@ -465,7 +465,7 @@
     "category": "tactics",
     "title": "Remuntada coreana per superar la República Txeca en el segon partit del mundial (2-1)",
     "snippet": "Corea del Sud ha iniciat el mundial 2026 amb una treballada victòria davant la República Txeca (2-1) en un partit que s’ha decidit a la segona meitat. Vint anys després, la selecció europea ha tornat...",
-    "time": "5h ago",
+    "time": "6h ago",
     "timestamp": 1781254583,
     "color": "linear-gradient(135deg, #f59e0b, #78350f)",
     "overlay": "⚽",
