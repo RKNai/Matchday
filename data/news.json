@@ -101,7 +101,7 @@
     "category": "tactics",
     "title": "Three red cards - are referees getting tough at this World Cup?",
     "snippet": "Three players were sent off in the World Cup opener as Mexico beat South Africa 2-0. Are we about to see a World Cup littered with red cards?",
-    "time": "6h ago",
+    "time": "7h ago",
     "timestamp": 1781253084,
     "color": "linear-gradient(135deg, #f59e0b, #78350f)",
     "overlay": "⚽",
@@ -129,7 +129,7 @@
     "category": "tactics",
     "title": "Could one win get Scotland out of World Cup group?",
     "snippet": "BBC Scotland digs into Scotland's World Cup progression prospects.",
-    "time": "7h ago",
+    "time": "8h ago",
     "timestamp": 1781249621,
     "color": "linear-gradient(135deg, #f59e0b, #78350f)",
     "overlay": "⚽",
@@ -157,7 +157,7 @@
     "category": "rules",
     "title": "World Cup issues still cannot take shine off greatest show on earth",
     "snippet": "And we are off. Three red cards including a VAR intervention. Two goals for co-hosts Mexico in the Estadio Azteca. One nightmare start for South Africa midfielder Yaya Sithole. And an emotional first World Cup goal for Raul Jimenez at the age of 35.",
-    "time": "9h ago",
+    "time": "10h ago",
     "timestamp": 1781242500,
     "color": "linear-gradient(135deg, #64748b, #334155)",
     "overlay": "📺",
@@ -241,7 +241,7 @@
     "category": "tactics",
     "title": "El debut que Lopetegui llevaba 2.920 días esperando: \"La vida me debía un Mundial y lo he conseguido\"",
     "snippet": "Dirigirá a Qatar después de ser destituido a dos días del estreno ante Portugal en Rusia 2018",
-    "time": "5h ago",
+    "time": "6h ago",
     "timestamp": 1781256651,
     "color": "linear-gradient(135deg, #f59e0b, #78350f)",
     "overlay": "⚽",
@@ -250,6 +250,20 @@
     "source": "Marca",
     "lang": "es",
     "id": 217
+  },
+  {
+    "category": "injury",
+    "title": "Raúl Jiménez, hombre 'milagro': de la rotura de cráneo a marcar su primer gol en un Mundial gracias a su 'casco blando'",
+    "snippet": "El delantero de México sufrió rotura craneal con hemorragia cerebral en noviembre de 2020 que puso en riesgo su vida. Leer",
+    "time": "6h ago",
+    "timestamp": 1781254902,
+    "color": "linear-gradient(135deg, #ef4444, #7f1d1d)",
+    "overlay": "🩺",
+    "link": "https://www.elmundo.es/deportes/futbol/mundial-de-futbol/2026/06/12/6a2b5ed2e85ece972d8b456e.html",
+    "image": "http://secure-uk.imrworldwide.com/cgi-bin/m?cid=es-widgetueditorial&amp;cg=rss-elmundo&amp;ci=es-widgetueditorial&amp;si=http://www.elmundo.es/rss/deportes.xml",
+    "source": "El Mundo Deportes",
+    "lang": "es",
+    "id": 218
   },
   {
     "category": "tactics",
@@ -263,7 +277,7 @@
     "image": "https://images.unsplash.com/photo-1543351611-58f69d7c1781?w=800&auto=format&fit=crop",
     "source": "Marca",
     "lang": "es",
-    "id": 218
+    "id": 219
   },
   {
     "category": "injury",
@@ -277,7 +291,7 @@
     "image": "https://e01-xlk-ue-marca.uecdn.es/files/horizontal_image_desktop/uploads/2026/06/12/6a2bc2dad49ed.jpeg",
     "source": "Marca",
     "lang": "es",
-    "id": 219
+    "id": 220
   },
   {
     "category": "tactics",
@@ -291,13 +305,41 @@
     "image": "https://e01-xlk-ue-marca.uecdn.es/files/horizontal_image_desktop/uploads/2026/06/12/6a2bb5fd3d661.jpeg",
     "source": "Marca",
     "lang": "es",
-    "id": 220
+    "id": 221
+  },
+  {
+    "category": "rules",
+    "title": "¿Cuánto dinero se gana en el Mundial de fútbol? Este es el millonario reparto de premios para las selecciones",
+    "snippet": "El Mundial de 2026 también batirá récords en premios. La FIFA distribuirá más de 700 millones de dólares entre las 48 selecciones participantes. Los campeones recibirán 50 millones de dólares, pero incluso la simple clasificación para el torneo garantiza un cheque millonario Leer",
+    "time": "7h ago",
+    "timestamp": 1781250864,
+    "color": "linear-gradient(135deg, #64748b, #334155)",
+    "overlay": "📺",
+    "link": "https://www.elmundo.es/deportes/futbol/mundial-de-futbol/2026/06/12/6a2bbb1821efa0a9568b4574.html",
+    "image": "https://e00-elmundo.uecdn.es/assets/multimedia/imagenes/2026/06/12/17812502647457_990x0.jpg",
+    "source": "El Mundo Deportes",
+    "lang": "es",
+    "id": 222
+  },
+  {
+    "category": "tactics",
+    "title": "Ecuador elimina el impuesto a la cerveza durante el Mundial: \"Bajará  el precio más de un 20% y ustedes podrán  disfrutar del equipo de la mejor forma\"",
+    "snippet": "El presidente Noboa anuncia que se eliminará temporalmente el impuesto a los consumos especiales (ICE) a las bebidas de moderación hasta el 19 de julio Leer",
+    "time": "7h ago",
+    "timestamp": 1781250791,
+    "color": "linear-gradient(135deg, #f59e0b, #78350f)",
+    "overlay": "⚽",
+    "link": "https://www.elmundo.es/deportes/futbol/mundial-de-futbol/2026/06/12/6a2bb9c3e4d4d85f788b45c2.html",
+    "image": "https://e00-elmundo.uecdn.es/assets/multimedia/imagenes/2026/06/12/17812506922884_990x0.jpg",
+    "source": "El Mundo Deportes",
+    "lang": "es",
+    "id": 223
   },
   {
     "category": "tactics",
     "title": "La novia de Lamine publica una foto de Yamal enmascarado en la cama para tranquilizar a España: \"Llega perfecto al Mundial\"",
     "snippet": "<a href=\"https://www.marca.com/tiramillas/sociedad/album/2026/05/25/asi-ines-garcia-novia-lamine-yamal-album-intimo-personal-influencer.html\"><b>Inés García Santos</b></a>, la pareja de Lamine Yamal, publicó una <a href=\"https://www.marca.com/tiramillas/sociedad/2026/06/12/ines-garcia-novia-lamine-yamal-tranquiliza-todos-debut-espana-llega-perfecto-preocupeis.html\"><b>foto con mensaje sobre la estrella de la selección de España</b></a>. La influencer sevillana publicó en su 'stories' de Instagram una imagen de Lamine Yamal con una mascarilla facial tumbado en una cama del hotel en la que está concentrada la selección para el Mundial 2026. <b>\"Llega perfecto al Mundial, no os preocupéis por él\"</b>, aseguró Inés García.",
-    "time": "7h ago",
+    "time": "8h ago",
     "timestamp": 1781249699,
     "color": "linear-gradient(135deg, #f59e0b, #78350f)",
     "overlay": "⚽",
@@ -305,7 +347,7 @@
     "image": "https://e01-xlk-ue-marca.uecdn.es/files/horizontal_image_desktop/uploads/2026/06/12/6a2bb5fe97ffc.jpeg",
     "source": "Marca",
     "lang": "es",
-    "id": 221
+    "id": 224
   },
   {
     "category": "tactics",
@@ -319,7 +361,7 @@
     "image": "https://images.unsplash.com/photo-1518063319789-7217e6706b04?w=800&auto=format&fit=crop",
     "source": "Marca",
     "lang": "es",
-    "id": 222
+    "id": 225
   },
   {
     "category": "tactics",
@@ -333,7 +375,7 @@
     "image": "https://e00-elmundo.uecdn.es/assets/multimedia/imagenes/2026/06/12/17812475826507_990x0.jpg",
     "source": "El Mundo Deportes",
     "lang": "es",
-    "id": 223
+    "id": 226
   },
   {
     "category": "injury",
@@ -347,7 +389,7 @@
     "image": "https://e00-elmundo.uecdn.es/assets/multimedia/imagenes/2026/06/01/17803357782171_990x0.jpg",
     "source": "El Mundo Deportes",
     "lang": "es",
-    "id": 224
+    "id": 227
   },
   {
     "category": "tactics",
@@ -361,7 +403,7 @@
     "image": "https://images.unsplash.com/photo-1508098682722-e99c43a406b2?w=800&auto=format&fit=crop",
     "source": "Marca",
     "lang": "es",
-    "id": 225
+    "id": 228
   },
   {
     "category": "tactics",
@@ -373,48 +415,6 @@
     "overlay": "⚽",
     "link": "https://www.elmundo.es/deportes/futbol/mundial-de-futbol/2026/06/12/6a2baf76e4d4d8545c8b4580.html",
     "image": "http://secure-uk.imrworldwide.com/cgi-bin/m?cid=es-widgetueditorial&amp;cg=rss-elmundo&amp;ci=es-widgetueditorial&amp;si=http://www.elmundo.es/rss/deportes.xml",
-    "source": "El Mundo Deportes",
-    "lang": "es",
-    "id": 226
-  },
-  {
-    "category": "rules",
-    "title": "Matthaus lo tiene claro: “Alemania volverá a caer contra España”",
-    "snippet": "El campeón del mundo en 1990 coloca a la Roja y Francia como favoritos e Inglaterra queda un escalón por detrás<span class=\"xai-icon\" contenteditable=\"false\" aria-hidden=\"true\" tabindex=\"-1\" style=\"user-select: none; pointer-events: auto;\"></span>",
-    "time": "8h ago",
-    "timestamp": 1781246855,
-    "color": "linear-gradient(135deg, #64748b, #334155)",
-    "overlay": "📺",
-    "link": "https://www.marca.com/futbol/mundial/2026/06/12/matthaus-claro-alemania-volvera-caer-espana.html",
-    "image": "https://e01-xlk-ue-marca.uecdn.es/files/horizontal_image_desktop/uploads/2026/04/07/69d4abf22923a.jpeg",
-    "source": "Marca",
-    "lang": "es",
-    "id": 227
-  },
-  {
-    "category": "tactics",
-    "title": "Cachondeo en España con los pies de Nico Williams... que se venga de Lamine Yamal poco después",
-    "snippet": "",
-    "time": "9h ago",
-    "timestamp": 1781244194,
-    "color": "linear-gradient(135deg, #f59e0b, #78350f)",
-    "overlay": "⚽",
-    "link": "https://www.marca.com/futbol/mundial/2026/06/12/cachondeo-espana-pies-nico-williams-venga-lamine-yamal-poco-despues-video.html",
-    "image": "https://images.unsplash.com/photo-1543351611-58f69d7c1781?w=800&auto=format&fit=crop",
-    "source": "Marca",
-    "lang": "es",
-    "id": 228
-  },
-  {
-    "category": "tactics",
-    "title": "¿Actuó realmente Shakira en la ceremonia inaugural en el Estadio Azteca?",
-    "snippet": "Muchos usuarios de redes sociales comentan que se veía \"distinta\" o \"irreconocible\" en algunos planos de televisión Leer",
-    "time": "9h ago",
-    "timestamp": 1781244174,
-    "color": "linear-gradient(135deg, #f59e0b, #78350f)",
-    "overlay": "⚽",
-    "link": "https://www.elmundo.es/deportes/futbol/mundial-de-futbol/2026/06/12/6a2ba10cfc6c838b198b45cc.html",
-    "image": "https://e00-elmundo.uecdn.es/assets/multimedia/imagenes/2026/06/12/17812437957575_990x0.jpg",
     "source": "El Mundo Deportes",
     "lang": "es",
     "id": 229
@@ -451,7 +451,7 @@
     "category": "rules",
     "title": "La UEFA recompensa l’àrbitre africà vetat per Trump",
     "snippet": "L’àrbitre somalià Omar Artan s’ha convertit en un dels malaurats protagonistes del Mundial de futbol. Aquest col·legiat, designat millor àrbitre africà de 2025 per la Confederació Africana de Futbol (CAF), havia de participar de la Copa del Món, però les autoritats estaunidenques van prohibir-li l’entrada al país un cop ja havia aterrat a l’aeroport de … Continued",
-    "time": "4h ago",
+    "time": "5h ago",
     "timestamp": 1781260268,
     "color": "linear-gradient(135deg, #64748b, #334155)",
     "overlay": "📺",
