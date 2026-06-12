@@ -1,9 +1,9 @@
 [
   {
     "category": "tactics",
-    "title": "Scotland's McTominay 'ready to go' after illness",
+    "title": "Scotland's McTominay 'ready to go' for Haiti opener after illness",
     "snippet": "Scotland midfielder Scott McTominay takes part in training on the eve of the World Cup opener against Haiti, having missed out the previous day because of an upset stomach.",
-    "time": "13m ago",
+    "time": "24m ago",
     "timestamp": 1781281904,
     "color": "linear-gradient(135deg, #f59e0b, #78350f)",
     "overlay": "⚽",
@@ -12,20 +12,6 @@
     "source": "BBC Sport",
     "lang": "en",
     "id": 200
-  },
-  {
-    "category": "tactics",
-    "title": "Scotland's McTominay 'ready to go' for Haiti opener after illness",
-    "snippet": "Scotland midfielder Scott McTominay takes part in training on the eve of the World Cup opener against Haiti, having missed out the previous day because of an upset stomach.",
-    "time": "13m ago",
-    "timestamp": 1781281904,
-    "color": "linear-gradient(135deg, #f59e0b, #78350f)",
-    "overlay": "⚽",
-    "link": "https://www.bbc.com/sport/football/articles/c78y50pmd2go?at_medium=RSS&at_campaign=rss",
-    "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/66a4/live/85d150d0-666a-11f1-b68a-af11ef3c7f8c.jpg",
-    "source": "BBC Sport",
-    "lang": "en",
-    "id": 201
   },
   {
     "category": "tactics",
@@ -39,7 +25,7 @@
     "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/0ede/live/4af93c90-6654-11f1-9afd-55fafa742f4a.jpg",
     "source": "BBC Sport",
     "lang": "en",
-    "id": 202
+    "id": 201
   },
   {
     "category": "tactics",
@@ -53,7 +39,7 @@
     "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/d2a5/live/57648670-6662-11f1-8546-8f19e4fe30f4.jpg",
     "source": "BBC Sport",
     "lang": "en",
-    "id": 203
+    "id": 202
   },
   {
     "category": "tactics",
@@ -67,7 +53,7 @@
     "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/5c62/live/b086b320-665f-11f1-b68a-af11ef3c7f8c.png",
     "source": "BBC Sport",
     "lang": "en",
-    "id": 204
+    "id": 203
   },
   {
     "category": "tactics",
@@ -81,7 +67,7 @@
     "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/03dd/live/deace580-61af-11f1-8b8c-6d33e1d5abb6.png",
     "source": "BBC Sport",
     "lang": "en",
-    "id": 205
+    "id": 204
   },
   {
     "category": "tactics",
@@ -95,7 +81,7 @@
     "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/737d/live/62c2a5e0-664b-11f1-8546-8f19e4fe30f4.jpg",
     "source": "BBC Sport",
     "lang": "en",
-    "id": 206
+    "id": 205
   },
   {
     "category": "tactics",
@@ -109,7 +95,7 @@
     "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/3f40/live/ea30b730-663f-11f1-b1db-af71d47507d6.jpg",
     "source": "BBC Sport",
     "lang": "en",
-    "id": 207
+    "id": 206
   },
   {
     "category": "tactics",
@@ -123,7 +109,7 @@
     "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/151f/live/524541b0-65e6-11f1-b2f0-b71544526ae8.jpg",
     "source": "BBC Sport",
     "lang": "en",
-    "id": 208
+    "id": 207
   },
   {
     "category": "tactics",
@@ -136,6 +122,20 @@
     "link": "https://www.skysports.com/football/news/11095/13553058/how-the-usa-fell-in-love-with-football-world-cup-1994-the-premier-league-and-the-outspoken-vision-of-alan-rothenberg",
     "image": "https://e2.365dm.com/26/06/1920x1080/skysports-graphic-usa_7270862.jpg?20260611152709",
     "source": "Sky Sports",
+    "lang": "en",
+    "id": 208
+  },
+  {
+    "category": "tactics",
+    "title": "Could one win get Scotland out of World Cup group?",
+    "snippet": "BBC Scotland digs into Scotland's World Cup progression prospects.",
+    "time": "9h ago",
+    "timestamp": 1781249621,
+    "color": "linear-gradient(135deg, #f59e0b, #78350f)",
+    "overlay": "⚽",
+    "link": "https://www.bbc.com/sport/football/articles/c0r9v911g9zo?at_medium=RSS&at_campaign=rss",
+    "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/4220/live/87f25470-d21f-11f0-8c06-f5d460985095.png",
+    "source": "BBC Sport",
     "lang": "en",
     "id": 209
   },
@@ -213,7 +213,7 @@
     "category": "tactics",
     "title": "Advocaat, el 'abuelo' del Mundial que mide a la próxima generación: \"Tengo suerte de que me sigan queriendo\"",
     "snippet": "Se convertirá en el técnico más veterano en la historia de los Mundiales a los mandos de Curazao y compartirá grupo con tres de los cinco seleccionadores más jóvenes de la edición",
-    "time": "53m ago",
+    "time": "1h ago",
     "timestamp": 1781279518,
     "color": "linear-gradient(135deg, #f59e0b, #78350f)",
     "overlay": "⚽",
@@ -255,7 +255,7 @@
     "category": "tactics",
     "title": "Sin selección, pero con protagonismo: China también juega su Mundial",
     "snippet": "La selección vuelve a quedarse fuera del torneo, pero las empresas chinas ganan protagonismo con tecnología, marcas y una industria que trasciende la fabricación de bajo coste<span class=\"xai-icon\" contenteditable=\"false\" aria-hidden=\"true\" tabindex=\"-1\" style=\"user-select: none; pointer-events: auto;\"></span>",
-    "time": "4h ago",
+    "time": "5h ago",
     "timestamp": 1781264862,
     "color": "linear-gradient(135deg, #f59e0b, #78350f)",
     "overlay": "⚽",
@@ -367,7 +367,7 @@
     "category": "tactics",
     "title": "Un periodista deja su retransmisión para hacerse una foto con Shakira: \"¡Ridículo informativo!\"",
     "snippet": "",
-    "time": "7h ago",
+    "time": "8h ago",
     "timestamp": 1781254275,
     "color": "linear-gradient(135deg, #f59e0b, #78350f)",
     "overlay": "⚽",
@@ -395,7 +395,7 @@
     "category": "rules",
     "title": "¿Cuánto dinero se gana en el Mundial de fútbol? Este es el millonario reparto de premios para las selecciones",
     "snippet": "El Mundial de 2026 también batirá récords en premios. La FIFA distribuirá más de 700 millones de dólares entre las 48 selecciones participantes. Los campeones recibirán 50 millones de dólares, pero incluso la simple clasificación para el torneo garantiza un cheque millonario Leer",
-    "time": "8h ago",
+    "time": "9h ago",
     "timestamp": 1781250864,
     "color": "linear-gradient(135deg, #64748b, #334155)",
     "overlay": "📺",
@@ -409,7 +409,7 @@
     "category": "tactics",
     "title": "Ecuador elimina el impuesto a la cerveza durante el Mundial: \"Bajará  el precio más de un 20% y ustedes podrán  disfrutar del equipo de la mejor forma\"",
     "snippet": "El presidente Noboa anuncia que se eliminará temporalmente el impuesto a los consumos especiales (ICE) a las bebidas de moderación hasta el 19 de julio Leer",
-    "time": "8h ago",
+    "time": "9h ago",
     "timestamp": 1781250791,
     "color": "linear-gradient(135deg, #f59e0b, #78350f)",
     "overlay": "⚽",
@@ -465,7 +465,7 @@
     "category": "tactics",
     "title": "Remuntada coreana per superar la República Txeca en el segon partit del mundial (2-1)",
     "snippet": "Corea del Sud ha iniciat el mundial 2026 amb una treballada victòria davant la República Txeca (2-1) en un partit que s’ha decidit a la segona meitat. Vint anys després, la selecció europea ha tornat...",
-    "time": "7h ago",
+    "time": "8h ago",
     "timestamp": 1781254583,
     "color": "linear-gradient(135deg, #f59e0b, #78350f)",
     "overlay": "⚽",
