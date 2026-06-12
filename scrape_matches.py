@@ -204,6 +204,8 @@ def parse_fixtures():
     # We parse all matches from the official tournament fixtures list
     for idx, match in enumerate(fixtures_list):
       match_num = match.get("MatchNumber")
+      r_num = match.get("RoundNumber", 1)
+      is_knockout = (r_num >= 4)
       
       home_team = match.get("HomeTeam", "TBD")
       away_team = match.get("AwayTeam", "TBD")
@@ -248,12 +250,15 @@ def parse_fixtures():
               now_utc = datetime.now(timezone.utc)
         else:
           now_utc = datetime.now(timezone.utc)
-        if dt_utc <= now_utc <= (dt_utc + timedelta(minutes=105)):
+        
+        live_limit_mins = 180 if is_knockout else 120
+        if dt_utc <= now_utc <= (dt_utc + timedelta(minutes=live_limit_mins)):
           is_live = True
           elapsed_minutes = int((now_utc - dt_utc).total_seconds() / 60)
-          if elapsed_minutes > 90:
-            elapsed_minutes = 90
-        elif now_utc > (dt_utc + timedelta(minutes=105)):
+          max_minutes = 120 if is_knockout else 90
+          if elapsed_minutes > max_minutes:
+            elapsed_minutes = max_minutes
+        elif now_utc > (dt_utc + timedelta(minutes=live_limit_mins)):
           is_finished = True
           
       # Determine base status, minute, and scores

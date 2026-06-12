@@ -1260,20 +1260,28 @@ function startMatchSimulation() {
 
     liveMatches.forEach((match) => {
       // 1. Advance Match Time
-      match.minute += 1;
-      if (match.minute >= 90) {
-        match.status = 'finished';
-        match.minute = 90;
-        showToast('🏁 Match Finished', `${match.homeFlag} ${match.home} ${match.homeScore} - ${match.awayScore} ${match.away} ${match.awayFlag}`);
-        // Notify subscribers of final whistle
-        if (state.subscribedTeams.has(match.home) || state.subscribedTeams.has(match.away)) {
-          const title = `FULL TIME: ${match.home} vs ${match.away}`;
-          const body = `Final Score: ${match.home} ${match.homeScore} - ${match.awayScore} ${match.away}`;
-          triggerSystemNotification(title, body);
+      const isKnockout = !match.stage.includes('Group');
+      const maxMinute = isKnockout ? 120 : 90;
+      
+      if (match.minute < maxMinute) {
+        match.minute += 1;
+      } else {
+        if (!isKnockout) {
+          match.status = 'finished';
+          match.minute = 90;
+          showToast('🏁 Match Finished', `${match.homeFlag} ${match.home} ${match.homeScore} - ${match.awayScore} ${match.away} ${match.awayFlag}`);
+          // Notify subscribers of final whistle
+          if (state.subscribedTeams.has(match.home) || state.subscribedTeams.has(match.away)) {
+            const title = `FULL TIME: ${match.home} vs ${match.away}`;
+            const body = `Final Score: ${match.home} ${match.homeScore} - ${match.awayScore} ${match.away}`;
+            triggerSystemNotification(title, body);
+          }
+          renderMatchesList();
+          if (state.activeModalMatchId === match.id) renderModalContent();
+          return;
+        } else {
+          match.minute = 120;
         }
-        renderMatchesList();
-        if (state.activeModalMatchId === match.id) renderModalContent();
-        return;
       }
 
       // 2. Chance of a Goal (Simulated 4% probability per tick)
@@ -3727,6 +3735,34 @@ async function loadScrapedData() {
     }
 
     if (Array.isArray(matchesData) && matchesData.length > 0) {
+      if (state.matches && state.matches.length > 0) {
+        matchesData.forEach((newMatch) => {
+          const oldMatch = state.matches.find(m => m.id === newMatch.id);
+          if (oldMatch) {
+            // Trigger final whistle alerts on server transition
+            if (oldMatch.status === 'live' && newMatch.status === 'finished') {
+              showToast('🏁 Match Finished', `${newMatch.homeFlag} ${newMatch.home} ${newMatch.homeScore} - ${newMatch.awayScore} ${newMatch.away} ${newMatch.awayFlag}`);
+              if (state.subscribedTeams.has(newMatch.home) || state.subscribedTeams.has(newMatch.away)) {
+                const title = `FULL TIME: ${newMatch.home} vs ${newMatch.away}`;
+                const body = `Final Score: ${newMatch.home} ${newMatch.homeScore} - ${newMatch.awayScore} ${newMatch.away}`;
+                triggerSystemNotification(title, body);
+              }
+            }
+            // Trigger goal alerts on server updates
+            if (oldMatch.status === 'live' && newMatch.status === 'live') {
+              if (newMatch.homeScore > oldMatch.homeScore || newMatch.awayScore > oldMatch.awayScore) {
+                const scoringTeam = newMatch.homeScore > oldMatch.homeScore ? newMatch.home : newMatch.away;
+                showToast('⚽ GOAL ALERT!', `${newMatch.home} ${newMatch.homeScore} - ${newMatch.awayScore} ${newMatch.away}`);
+                if (state.subscribedTeams.has(scoringTeam)) {
+                  const alertTitle = `⚽ GOAL! ${scoringTeam} Scored!`;
+                  const alertBody = `${newMatch.home} ${newMatch.homeScore} - ${newMatch.awayScore} ${newMatch.away}`;
+                  triggerSystemNotification(alertTitle, alertBody);
+                }
+              }
+            }
+          }
+        });
+      }
       state.matches = matchesData;
     }
 
