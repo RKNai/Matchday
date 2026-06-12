@@ -1857,7 +1857,7 @@ function renderMatchesList() {
       return getMatchTimestamp(a.date) - getMatchTimestamp(b.date) || a.id - b.id;
     }
     
-    const statusOrder = { 'live': 0, 'upcoming': 1, 'finished': 2 };
+    const statusOrder = { 'live': 0, 'finished': 1, 'upcoming': 2 };
     const orderA = statusOrder[a.status] !== undefined ? statusOrder[a.status] : 99;
     const orderB = statusOrder[b.status] !== undefined ? statusOrder[b.status] : 99;
     if (orderA !== orderB) {
