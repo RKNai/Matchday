@@ -22,6 +22,7 @@ BASE_DIR = os.path.dirname(os.path.abspath(__file__))
 DATA_DIR = os.path.join(BASE_DIR, 'data')
 MATCHES_JSON_PATH = os.path.join(DATA_DIR, 'matches.json')
 FIXTURES_JSON_URL = 'https://fixturedownload.com/feed/json/fifa-world-cup-2026'
+WORLDCUP_API_URL = 'https://worldcup26.ir/get/games'
 
 FLAG_MAP = {
   "USA": "🇺🇸", "United States": "🇺🇸", "England": "🏴󠁧󠁢󠁥󠁮󠁧󠁿", "Mexico": "🇲🇽", "Germany": "🇩🇪",
@@ -182,12 +183,52 @@ def fetch_json(url):
       print(f"[Match Scraper] Curl fallback failed: {e2}")
       return None
 
+import re
+
+def parse_scorers_string(scorers_str):
+  if not scorers_str or scorers_str == "null":
+    return []
+  # Strip curly braces
+  cleaned = scorers_str.strip('{}')
+  # Strip quotes and smart quotes
+  cleaned = re.sub(r'[\"“”\\]', '', cleaned)
+  tokens = cleaned.split(',')
+  
+  results = []
+  for token in tokens:
+    token = token.strip()
+    if not token:
+      continue
+    # Extract minute (e.g. 67' or 9')
+    match = re.search(r'(\d+)\'?$', token)
+    if match:
+      minute_val = int(match.group(1))
+      name = token[:match.start()].strip()
+      results.append((name, minute_val))
+    else:
+      results.append((token, 0))
+  return results
+
 def parse_fixtures():
   print("[Match Scraper] Fetching real FIFA World Cup 2026 fixtures JSON...")
   raw_data = fetch_json(FIXTURES_JSON_URL)
   if not raw_data:
     print("[Match Scraper] JSON feed empty. Retaining previous caches.")
     return False
+
+  # Fetch real-time live scores API (rezarahiminia/worldcup2026)
+  api_games_map = {}
+  try:
+    print("[Match Scraper] Fetching real-time scores from worldcup26.ir API...")
+    raw_api_data = fetch_json(WORLDCUP_API_URL)
+    if raw_api_data:
+      api_json = json.loads(raw_api_data.decode('utf-8'))
+      api_games = api_json.get("games", [])
+      for g in api_games:
+        api_games_map[str(g.get("id"))] = g
+      print(f"[Match Scraper] Loaded {len(api_games_map)} real-time matches from score API.")
+  except Exception as e:
+    print(f"[Match Scraper] Warning: Failed to fetch real-time score API ({e}). Falling back to time-based simulation.")
 
   try:
     fixtures_list = json.loads(raw_data.decode('utf-8'))
@@ -285,7 +326,40 @@ def parse_fixtures():
         home_score = 0
         away_score = 0
         
-      # Apply real score override if specified
+      # Check if we have real-time scores from worldcup26.ir API
+      api_game = api_games_map.get(str(match_num))
+      api_events = []
+      if api_game:
+        # Override scores
+        home_score = int(api_game.get("home_score", 0))
+        away_score = int(api_game.get("away_score", 0))
+        
+        # Override status and minute
+        api_finished = api_game.get("finished", "FALSE") == "TRUE"
+        time_elapsed = api_game.get("time_elapsed", "")
+        
+        if api_finished:
+          status = 'finished'
+          minute = 0
+        elif time_elapsed == "live" or (time_elapsed and time_elapsed != "notstarted" and time_elapsed != "finished"):
+          status = 'live'
+          minute = int(time_elapsed) if time_elapsed.isdigit() else elapsed_minutes
+        elif time_elapsed == "notstarted":
+          status = 'upcoming'
+          minute = 0
+          home_score = 0
+          away_score = 0
+        
+        # Override events (parse scorers)
+        home_scorers = parse_scorers_string(api_game.get("home_scorers"))
+        away_scorers = parse_scorers_string(api_game.get("away_scorers"))
+        for name, min_val in home_scorers:
+          api_events.append({ "minute": min_val, "team": home_team, "type": "goal", "desc": f"{name} ⚽ (Goal!)" })
+        for name, min_val in away_scorers:
+          api_events.append({ "minute": min_val, "team": away_team, "type": "goal", "desc": f"{name} ⚽ (Goal!)" })
+        api_events.sort(key=lambda x: x["minute"])
+
+      # Apply real score override if specified (takes precedence over both feeds)
       if match_num in REAL_SCORES_OVERRIDE:
         home_score, away_score = REAL_SCORES_OVERRIDE[match_num]
         if is_live:
@@ -300,6 +374,8 @@ def parse_fixtures():
       if status == 'finished':
         if match_num in REAL_EVENTS_OVERRIDE:
           events = REAL_EVENTS_OVERRIDE[match_num]
+        elif api_game and (len(api_events) > 0 or (home_score == 0 and away_score == 0)):
+          events = api_events
         elif home_score > 0 or away_score > 0:
           home_players = TEAM_SQUADS.get(norm_team(home_team), ["Player"])
           away_players = TEAM_SQUADS.get(norm_team(away_team), ["Player"])
@@ -316,6 +392,9 @@ def parse_fixtures():
         if match_num in REAL_EVENTS_OVERRIDE:
           # Filter overridden events to only show goals that have occurred up to current live minute
           events = [ev for ev in REAL_EVENTS_OVERRIDE[match_num] if ev["minute"] <= elapsed_minutes]
+        elif api_game and (len(api_events) > 0 or (home_score == 0 and away_score == 0)):
+          # Filter API events
+          events = [ev for ev in api_events if ev["minute"] <= minute]
         else:
           home_players = TEAM_SQUADS.get(norm_team(home_team), ["Player"])
           away_players = TEAM_SQUADS.get(norm_team(away_team), ["Player"])
