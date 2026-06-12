@@ -31,7 +31,7 @@
     "category": "tactics",
     "title": "When do England play and how can you follow it?",
     "snippet": "BBC Sport's Ask Me Anything looks at England's next World Cup fixture and how you can follow along via the BBC.",
-    "time": "1h ago",
+    "time": "2h ago",
     "timestamp": 1781271718,
     "color": "linear-gradient(135deg, #f59e0b, #78350f)",
     "overlay": "⚽",
@@ -126,20 +126,6 @@
     "id": 208
   },
   {
-    "category": "tactics",
-    "title": "Could one win get Scotland out of World Cup group?",
-    "snippet": "BBC Scotland digs into Scotland's World Cup progression prospects.",
-    "time": "8h ago",
-    "timestamp": 1781249621,
-    "color": "linear-gradient(135deg, #f59e0b, #78350f)",
-    "overlay": "⚽",
-    "link": "https://www.bbc.com/sport/football/articles/c0r9v911g9zo?at_medium=RSS&at_campaign=rss",
-    "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/4220/live/87f25470-d21f-11f0-8c06-f5d460985095.png",
-    "source": "BBC Sport",
-    "lang": "en",
-    "id": 209
-  },
-  {
     "category": "transfer",
     "title": "'Best Canada team ever' bid to shine at home World Cup",
     "snippet": "Amid political turbulence in the US and talk of moving matches out of Mexico, it can be forgotten that there is a third co-host of the 2026 World Cup. Canada hope it will be their time to shine.",
@@ -151,7 +137,7 @@
     "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/7f66/live/1baa6380-52ac-11f1-9ab8-af14435162fc.jpg",
     "source": "BBC Sport",
     "lang": "en",
-    "id": 210
+    "id": 209
   },
   {
     "category": "rules",
@@ -165,7 +151,7 @@
     "image": "https://e1.365dm.com/26/06/1920x1080/skysports-mexico-south-africa_7271185.jpg?20260611210849",
     "source": "Sky Sports",
     "lang": "en",
-    "id": 211
+    "id": 210
   },
   {
     "category": "tactics",
@@ -179,7 +165,7 @@
     "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/ddaa/live/43daed80-661a-11f1-ac3e-c1a2e88f59e9.jpg",
     "source": "BBC Sport",
     "lang": "en",
-    "id": 212
+    "id": 211
   },
   {
     "category": "tactics",
@@ -193,7 +179,7 @@
     "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/291c/live/bb028290-630b-11f1-b682-cf91850925ea.jpg",
     "source": "BBC Sport",
     "lang": "en",
-    "id": 213
+    "id": 212
   },
   {
     "category": "tactics",
@@ -205,6 +191,20 @@
     "overlay": "⚽",
     "link": "https://www.bbc.com/sport/football/articles/cm2dl67rljvo?at_medium=RSS&at_campaign=rss",
     "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/de26/live/9f9c2ee0-65f2-11f1-8546-8f19e4fe30f4.jpg",
+    "source": "BBC Sport",
+    "lang": "en",
+    "id": 213
+  },
+  {
+    "category": "tactics",
+    "title": "World Cup kicks off in Mexico with Shakira, dancing, and protests",
+    "snippet": "There was a star-studded opening ceremony, and some sporadic clashes between police and protesters around the Azteca stadium.",
+    "time": "16h ago",
+    "timestamp": 1781221274,
+    "color": "linear-gradient(135deg, #f59e0b, #78350f)",
+    "overlay": "⚽",
+    "link": "https://www.bbc.com/news/articles/c2ly928xz8go?at_medium=RSS&at_campaign=rss",
+    "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/74a4/live/8f0db940-65c5-11f1-8546-8f19e4fe30f4.jpg",
     "source": "BBC Sport",
     "lang": "en",
     "id": 214
