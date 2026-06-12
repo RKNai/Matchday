@@ -109,29 +109,48 @@
     "homeFlag": "🇰🇷",
     "away": "Czechia",
     "awayFlag": "🇨🇿",
-    "homeScore": 0,
-    "awayScore": 0,
-    "status": "upcoming",
-    "minute": 0,
+    "homeScore": 1,
+    "awayScore": 2,
+    "status": "live",
+    "minute": 2,
     "date": "Jun 12, 02:00 UTC",
     "location": "Guadalajara Stadium",
-    "events": [],
+    "events": [
+      {
+        "minute": 1,
+        "team": "Korea Republic",
+        "type": "goal",
+        "desc": "Son Heung-min ⚽ (Goal!)"
+      },
+      {
+        "minute": 1,
+        "team": "Czechia",
+        "type": "goal",
+        "desc": "Kuchta ⚽ (Goal!)"
+      },
+      {
+        "minute": 2,
+        "team": "Czechia",
+        "type": "goal",
+        "desc": "Barak ⚽ (Goal!)"
+      }
+    ],
     "stats": {
       "possession": [
-        50,
-        50
+        55,
+        45
       ],
       "shots": [
-        0,
-        0
+        8,
+        4
       ],
       "fouls": [
-        0,
-        0
+        6,
+        7
       ],
       "corners": [
-        0,
-        0
+        3,
+        2
       ]
     },
     "lineups": {

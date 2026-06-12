@@ -1,9 +1,23 @@
 [
   {
     "category": "tactics",
+    "title": "From near death to World Cup hero - Jimenez's tears for Mexico",
+    "snippet": "From nearly dying on the pitch to scoring for Mexico at the World Cup - Raul Jimenez has completed a remarkable comeback.",
+    "time": "1h ago",
+    "timestamp": 1781222528,
+    "color": "linear-gradient(135deg, #f59e0b, #78350f)",
+    "overlay": "⚽",
+    "link": "https://www.bbc.com/sport/football/articles/cm2dl67rljvo?at_medium=RSS&at_campaign=rss",
+    "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/de26/live/9f9c2ee0-65f2-11f1-8546-8f19e4fe30f4.jpg",
+    "source": "BBC Sport",
+    "lang": "en",
+    "id": 200
+  },
+  {
+    "category": "tactics",
     "title": "World Cup kicks off in Mexico with Shakira, dancing, and protests",
     "snippet": "There was a star-studded opening ceremony, and some sporadic clashes between police and protesters around the Azteca stadium.",
-    "time": "2m ago",
+    "time": "2h ago",
     "timestamp": 1781221274,
     "color": "linear-gradient(135deg, #f59e0b, #78350f)",
     "overlay": "⚽",
@@ -11,13 +25,13 @@
     "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/74a4/live/8f0db940-65c5-11f1-8546-8f19e4fe30f4.jpg",
     "source": "BBC Sport",
     "lang": "en",
-    "id": 200
+    "id": 201
   },
   {
     "category": "tactics",
     "title": "McTominay travels separately in Boston as precaution",
     "snippet": "Key midfielder Scott McTominay travelled with a doctor as a precaution prior to Scotland's World Cup opener.",
-    "time": "4m ago",
+    "time": "2h ago",
     "timestamp": 1781221172,
     "color": "linear-gradient(135deg, #f59e0b, #78350f)",
     "overlay": "⚽",
@@ -25,13 +39,13 @@
     "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/efef/live/2f55b480-65e8-11f1-8e1d-bbbb1017d210.jpg",
     "source": "BBC Sport",
     "lang": "en",
-    "id": 201
+    "id": 202
   },
   {
     "category": "tactics",
     "title": "Three red cards - are referees getting tough at this World Cup?",
     "snippet": "Three players were sent off in the World Cup opener as Mexico beat South Africa 2-0. Are we about to see a World Cup littered with red cards?",
-    "time": "30m ago",
+    "time": "2h ago",
     "timestamp": 1781219598,
     "color": "linear-gradient(135deg, #f59e0b, #78350f)",
     "overlay": "⚽",
@@ -39,13 +53,13 @@
     "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/151f/live/524541b0-65e6-11f1-b2f0-b71544526ae8.jpg",
     "source": "BBC Sport",
     "lang": "en",
-    "id": 202
+    "id": 203
   },
   {
     "category": "tactics",
     "title": "Why are footballers wearing pink boots at the World Cup?",
     "snippet": "The opening match of the 2026 World Cup was dominated by players wearing pink boots - but why is the colour so prevalent in football at the moment?",
-    "time": "1h ago",
+    "time": "3h ago",
     "timestamp": 1781215491,
     "color": "linear-gradient(135deg, #f59e0b, #78350f)",
     "overlay": "⚽",
@@ -53,32 +67,18 @@
     "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/d184/live/ba7ce3f0-65e1-11f1-94fa-99c9438be586.jpg",
     "source": "BBC Sport",
     "lang": "en",
-    "id": 203
+    "id": 204
   },
   {
     "category": "tactics",
     "title": "Three red cards shown as Mexico beat South Africa in World Cup opener",
     "snippet": "Three players are sent off as World Cup co-hosts Mexico defeat South Africa in a dramatic opening match at a packed Azteca Stadium.",
-    "time": "1h ago",
+    "time": "4h ago",
     "timestamp": 1781215274,
     "color": "linear-gradient(135deg, #f59e0b, #78350f)",
     "overlay": "⚽",
     "link": "https://www.bbc.com/sport/football/videos/cx2dyr3e1zro?at_medium=RSS&at_campaign=rss",
     "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/2ab4/live/43c0e230-65e0-11f1-b1db-af71d47507d6.jpg",
-    "source": "BBC Sport",
-    "lang": "en",
-    "id": 204
-  },
-  {
-    "category": "tactics",
-    "title": "The parents whose boys play in two World Cup teams",
-    "snippet": "Jack and Heather Souttar are heading to the USA to support their sons, who play for Scotland and Australia.",
-    "time": "1h ago",
-    "timestamp": 1781215005,
-    "color": "linear-gradient(135deg, #f59e0b, #78350f)",
-    "overlay": "⚽",
-    "link": "https://www.bbc.com/news/articles/c0lygw3zpy8o?at_medium=RSS&at_campaign=rss",
-    "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/a509/live/0f0459d0-6592-11f1-b1db-af71d47507d6.jpg",
     "source": "BBC Sport",
     "lang": "en",
     "id": 205
@@ -87,7 +87,7 @@
     "category": "tactics",
     "title": "THREE red cards as Mexico get World Cup started with win over South Africa",
     "snippet": "Mexico got their joint-home World Cup off to the perfect start with a 2-0 opening match win over nine-man South Africa - in a game that had THREE red cards.",
-    "time": "1h ago",
+    "time": "4h ago",
     "timestamp": 1781214300,
     "color": "linear-gradient(135deg, #f59e0b, #78350f)",
     "overlay": "⚽",
@@ -101,7 +101,7 @@
     "category": "rules",
     "title": "Three red cards shown in opening game of World Cup",
     "snippet": "Referee Wilton Pereira Sampaio shows red cards to South Africa's Yaya Sithole and Themba Zwane as well as Mexico's Cesar Montes during the opening match of the 2026 World Cup at the Mexico City Stadium.",
-    "time": "2h ago",
+    "time": "4h ago",
     "timestamp": 1781213442,
     "color": "linear-gradient(135deg, #64748b, #334155)",
     "overlay": "📺",
@@ -115,7 +115,7 @@
     "category": "tactics",
     "title": "Shakira among the performers at World Cup opening ceremony",
     "snippet": "Shakira was among the performers during the opening ceremony of the 2026 World Cup at the Mexico City Stadium ahead of the opening game between Mexico and South Africa.",
-    "time": "2h ago",
+    "time": "4h ago",
     "timestamp": 1781212019,
     "color": "linear-gradient(135deg, #f59e0b, #78350f)",
     "overlay": "⚽",
@@ -129,7 +129,7 @@
     "category": "tactics",
     "title": "Quinones scores opening goal of 2026 World Cup",
     "snippet": "Mexico's Julian Quinones scores the opening goal of the 2026 World Cup against South Africa at Mexico City Stadium.",
-    "time": "2h ago",
+    "time": "4h ago",
     "timestamp": 1781211829,
     "color": "linear-gradient(135deg, #f59e0b, #78350f)",
     "overlay": "⚽",
@@ -143,7 +143,7 @@
     "category": "injury",
     "title": "Captain Endo out of World Cup and retires from Japan duty",
     "snippet": "Liverpool midfielder Wataru Endo withdraws from Japan's World Cup squad because of injury and retires from international football.",
-    "time": "3h ago",
+    "time": "6h ago",
     "timestamp": 1781207216,
     "color": "linear-gradient(135deg, #ef4444, #7f1d1d)",
     "overlay": "🩺",
@@ -157,7 +157,7 @@
     "category": "tactics",
     "title": "Players organise England team-bonding dinner in Miami",
     "snippet": "England players organise a team-bonding dinner in Miami with Thomas Tuchel giving them time off from their gruelling Florida pre-World Cup training camp.",
-    "time": "5h ago",
+    "time": "7h ago",
     "timestamp": 1781203227,
     "color": "linear-gradient(135deg, #f59e0b, #78350f)",
     "overlay": "⚽",
@@ -171,7 +171,7 @@
     "category": "tactics",
     "title": "World Cup news: Haiti forced to redesign kit before opener with Scotland",
     "snippet": "",
-    "time": "5h ago",
+    "time": "8h ago",
     "timestamp": 1781200800,
     "color": "linear-gradient(135deg, #f59e0b, #78350f)",
     "overlay": "⚽",
@@ -185,7 +185,7 @@
     "category": "rules",
     "title": "How to watch highlights of World Cup matches?",
     "snippet": "BBC Sport's Ask Me Anything team explains how you can watch match highlights and full match replays during the 2026 Fifa World Cup",
-    "time": "6h ago",
+    "time": "8h ago",
     "timestamp": 1781198806,
     "color": "linear-gradient(135deg, #64748b, #334155)",
     "overlay": "📺",
@@ -199,7 +199,7 @@
     "category": "tactics",
     "title": "Catch up on the World Cup without any spoilers",
     "snippet": "It is a dilemma plenty of fans in the UK will have - and we are giving you the chance to follow the World Cup without spoilers.",
-    "time": "6h ago",
+    "time": "8h ago",
     "timestamp": 1781197720,
     "color": "linear-gradient(135deg, #f59e0b, #78350f)",
     "overlay": "⚽",
@@ -211,9 +211,23 @@
   },
   {
     "category": "tactics",
+    "title": "El Mundial del juicio a la galaxia del Madrid: el torneo marcará la renovación (o no) de Vinicius",
+    "snippet": "La dirección del club, decepcionada con algunos ausentes en el torneo, pendiente de su columna vertebral, del nivel del brasileño y de jugadores que puedan brillar. Leer",
+    "time": "2h ago",
+    "timestamp": 1781221970,
+    "color": "linear-gradient(135deg, #f59e0b, #78350f)",
+    "overlay": "⚽",
+    "link": "https://www.elmundo.es/deportes/futbol/2026/06/12/6a293feee4d4d883518b457b.html",
+    "image": "https://e00-elmundo.uecdn.es/assets/multimedia/imagenes/2026/06/10/17810884321021_990x0.jpg",
+    "source": "El Mundo Deportes",
+    "lang": "es",
+    "id": 215
+  },
+  {
+    "category": "tactics",
     "title": "El sueño americano de la selección de EEUU pasa por Christian Pulisic",
     "snippet": "La gran estrella de Estados Unidos lidera a un equipo obligado a dar un paso adelante como país anfitrión Leer",
-    "time": "1h ago",
+    "time": "4h ago",
     "timestamp": 1781214429,
     "color": "linear-gradient(135deg, #f59e0b, #78350f)",
     "overlay": "⚽",
@@ -221,13 +235,13 @@
     "image": "https://e00-elmundo.uecdn.es/assets/multimedia/imagenes/2026/06/11/17811765161576_990x0.jpg",
     "source": "El Mundo Deportes",
     "lang": "es",
-    "id": 215
+    "id": 216
   },
   {
     "category": "tactics",
     "title": "Gol de Raúl Jiménez (2-0) en el México 2-0 Sudáfrica",
     "snippet": "",
-    "time": "2h ago",
+    "time": "4h ago",
     "timestamp": 1781214191,
     "color": "linear-gradient(135deg, #f59e0b, #78350f)",
     "overlay": "⚽",
@@ -235,13 +249,13 @@
     "image": "https://images.unsplash.com/photo-1508098682722-e99c43a406b2?w=800&auto=format&fit=crop",
     "source": "Marca",
     "lang": "es",
-    "id": 216
+    "id": 217
   },
   {
     "category": "tactics",
     "title": "Gol de Quiñones (1-0) en el México 2-0 Sudáfrica",
     "snippet": "",
-    "time": "2h ago",
+    "time": "4h ago",
     "timestamp": 1781214058,
     "color": "linear-gradient(135deg, #f59e0b, #78350f)",
     "overlay": "⚽",
@@ -249,13 +263,13 @@
     "image": "https://images.unsplash.com/photo-1543351611-58f69d7c1781?w=800&auto=format&fit=crop",
     "source": "Marca",
     "lang": "es",
-    "id": 217
+    "id": 218
   },
   {
     "category": "tactics",
     "title": "Las insólitas peripecias de Gavi, el 'despistado' que multiplica la energía en la selección: una maleta vacía, tres llaves de habitación y un cargador en cada viaje",
     "snippet": "El centrocampista del Barça, dueño de mil anécdotas por su peculiar forma de ser, ha regresado al Mundial tras poco más de 700 minutos este año en su equipo Leer",
-    "time": "2h ago",
+    "time": "4h ago",
     "timestamp": 1781213896,
     "color": "linear-gradient(135deg, #f59e0b, #78350f)",
     "overlay": "⚽",
@@ -263,13 +277,13 @@
     "image": "https://e00-elmundo.uecdn.es/assets/multimedia/imagenes/2026/06/11/17811996695430_990x0.jpg",
     "source": "El Mundo Deportes",
     "lang": "es",
-    "id": 218
+    "id": 219
   },
   {
     "category": "tactics",
     "title": "Raúl Jiménez roba a última hora a Quiñones el primer Power Ranking by Skechers",
     "snippet": "El mexicano Alvarado completa el podio",
-    "time": "2h ago",
+    "time": "4h ago",
     "timestamp": 1781213851,
     "color": "linear-gradient(135deg, #f59e0b, #78350f)",
     "overlay": "⚽",
@@ -277,13 +291,13 @@
     "image": "https://e01-xlk-ue-marca.uecdn.es/files/horizontal_image_desktop/uploads/2026/06/11/6a2b2a74ea90b.jpeg",
     "source": "Marca",
     "lang": "es",
-    "id": 219
+    "id": 220
   },
   {
     "category": "tactics",
     "title": "México 2-0 Sudáfrica | Resumen Mundial 2026",
     "snippet": "",
-    "time": "2h ago",
+    "time": "4h ago",
     "timestamp": 1781213150,
     "color": "linear-gradient(135deg, #f59e0b, #78350f)",
     "overlay": "⚽",
@@ -291,13 +305,13 @@
     "image": "https://images.unsplash.com/photo-1518063319789-7217e6706b04?w=800&auto=format&fit=crop",
     "source": "Marca",
     "lang": "es",
-    "id": 220
+    "id": 221
   },
   {
     "category": "tactics",
     "title": "Un debut soñado para México que acabó con tres rojas y el Azteca cantando 'El Rey'",
     "snippet": "La selección de Javier Aguirre, alentada por su estadio lleno absoluto, destrozó con goles de Quiñones y Raúl Jiménez a una Sudáfrica que vio dos rojas directas. El mexicano César Montes también fue expulsado en el añadido. Leer",
-    "time": "2h ago",
+    "time": "4h ago",
     "timestamp": 1781212951,
     "color": "linear-gradient(135deg, #f59e0b, #78350f)",
     "overlay": "⚽",
@@ -305,13 +319,13 @@
     "image": "https://e00-elmundo.uecdn.es/assets/multimedia/imagenes/2026/06/11/17812126999156_990x0.jpg",
     "source": "El Mundo Deportes",
     "lang": "es",
-    "id": 221
+    "id": 222
   },
   {
     "category": "tactics",
     "title": "Tres rojas directas que ya son historia de los Mundiales",
     "snippet": "México y Sudáfrica nos han dejado un hito inolvidable en la historia de los Mundiales",
-    "time": "2h ago",
+    "time": "4h ago",
     "timestamp": 1781212766,
     "color": "linear-gradient(135deg, #f59e0b, #78350f)",
     "overlay": "⚽",
@@ -319,13 +333,13 @@
     "image": "https://images.unsplash.com/photo-1508098682722-e99c43a406b2?w=800&auto=format&fit=crop",
     "source": "Marca",
     "lang": "es",
-    "id": 222
+    "id": 223
   },
   {
     "category": "tactics",
     "title": "No era para tanto<br>",
     "snippet": "La contracrónica del México-Sudáfrica",
-    "time": "2h ago",
+    "time": "4h ago",
     "timestamp": 1781211888,
     "color": "linear-gradient(135deg, #f59e0b, #78350f)",
     "overlay": "⚽",
@@ -333,13 +347,13 @@
     "image": "https://e01-xlk-ue-marca.uecdn.es/files/horizontal_image_desktop/uploads/2026/06/11/6a2b1a74e4c96.jpeg",
     "source": "Marca",
     "lang": "es",
-    "id": 223
+    "id": 224
   },
   {
     "category": "tactics",
     "title": "¡México, qué lindo!",
     "snippet": "Los goles de Quiñones y Raúl Jiménez brillan ante una débil Sudáfrica",
-    "time": "2h ago",
+    "time": "4h ago",
     "timestamp": 1781211857,
     "color": "linear-gradient(135deg, #f59e0b, #78350f)",
     "overlay": "⚽",
@@ -347,13 +361,13 @@
     "image": "https://images.unsplash.com/photo-1579952363873-27f3bade9f55?w=800&auto=format&fit=crop",
     "source": "Marca",
     "lang": "es",
-    "id": 224
+    "id": 225
   },
   {
     "category": "tactics",
     "title": "La dura historia de superación de Raúl Jiménez: ¿por qué juega con una cinta protectora en la cabeza?",
     "snippet": "La historia de superación del delantero mexicano que ha marcado su primer gol en el Mundial 2026",
-    "time": "2h ago",
+    "time": "5h ago",
     "timestamp": 1781211164,
     "color": "linear-gradient(135deg, #f59e0b, #78350f)",
     "overlay": "⚽",
@@ -361,13 +375,13 @@
     "image": "https://e01-xlk-ue-marca.uecdn.es/files/horizontal_image_desktop/uploads/2026/06/11/6a2b1fc2222c5.jpeg",
     "source": "Marca",
     "lang": "es",
-    "id": 225
+    "id": 226
   },
   {
     "category": "tactics",
     "title": "Así va el Power Ranking: nueve mexicanos en el top10",
     "snippet": "Quiñones empieza como líder del Mundial",
-    "time": "3h ago",
+    "time": "5h ago",
     "timestamp": 1781210543,
     "color": "linear-gradient(135deg, #f59e0b, #78350f)",
     "overlay": "⚽",
@@ -375,13 +389,13 @@
     "image": "https://e01-xlk-ue-marca.uecdn.es/files/horizontal_image_desktop/uploads/2026/06/11/6a2b1d9ab64dc.jpeg",
     "source": "Marca",
     "lang": "es",
-    "id": 226
+    "id": 227
   },
   {
     "category": "tactics",
     "title": "Tenso careo entre dos médicas acusadas de la muerte de Maradona",
     "snippet": "Desvelan irregularidades e incumplimientos en los cuidados de la leyenda, fallecida en 2020",
-    "time": "3h ago",
+    "time": "5h ago",
     "timestamp": 1781208389,
     "color": "linear-gradient(135deg, #f59e0b, #78350f)",
     "overlay": "⚽",
@@ -389,13 +403,13 @@
     "image": "https://e01-xlk-ue-marca.uecdn.es/files/horizontal_image_desktop/uploads/2026/06/11/6a2b134dae13f.jpeg",
     "source": "Marca",
     "lang": "es",
-    "id": 227
+    "id": 228
   },
   {
     "category": "tactics",
     "title": "Shakira deslumbra en la ceremonia de inauguración, con Sheinbaum como gran ausente",
     "snippet": "La artista colombiana acapara los focos en el Azteca, con una grada entregada al fútbol, mientras la presidenta mexicana se ausenta del palco tras ceder su entrada a una niña. Leer",
-    "time": "3h ago",
+    "time": "5h ago",
     "timestamp": 1781208133,
     "color": "linear-gradient(135deg, #f59e0b, #78350f)",
     "overlay": "⚽",
@@ -403,27 +417,69 @@
     "image": "https://e00-elmundo.uecdn.es/assets/multimedia/imagenes/2026/06/11/17812077586681_990x0.jpg",
     "source": "El Mundo Deportes",
     "lang": "es",
-    "id": 228
+    "id": 229
   },
   {
     "category": "tactics",
-    "title": "Un aficionado sufre un paro cardíaco antes del partido inaugural",
-    "snippet": "Le tuvieron que atender y realizar la RCP",
-    "time": "4h ago",
-    "timestamp": 1781204860,
+    "title": "El mundial, en marxa",
+    "snippet": "L’estadi Azteca, blindat per les forces de seguretat a causa de les protestes socials existents a la Ciutat de Mèxic, obre el teló de la cita mundialista en un partit a què no assisteix la presidenta del país, Claudia SheinbaumLa cerimònia inicial, amb la música de protagonista, dona pas a un partit en què Mèxic supera amb molta comoditat (2-0) Sud-àfrica",
+    "time": "2h ago",
+    "timestamp": 1781222400,
     "color": "linear-gradient(135deg, #f59e0b, #78350f)",
     "overlay": "⚽",
-    "link": "https://www.marca.com/futbol/mundial/2026/06/11/aficionado-sufre-paro-cardiaco-justo-partido-inaugural-mexico-sudafrica.html",
-    "image": "https://e01-xlk-ue-marca.uecdn.es/files/horizontal_image_desktop/uploads/2026/06/11/6a2b05cd03025.jpeg",
-    "source": "Marca",
-    "lang": "es",
-    "id": 229
+    "link": "http://www.lesportiudecatalunya.cat/futbol/article/2650892-el-mundial-en-marxa.html",
+    "image": "https://www.elpuntavui.cat/imatges/64/53/4x3/780_0008_6453610_16c52a65533c53c24805d89d3984e8e5ver3.jpg",
+    "source": "El Punt Avui",
+    "lang": "ca",
+    "id": 230
+  },
+  {
+    "category": "tactics",
+    "title": "El gran drac encara escup foc",
+    "snippet": "L’ariet de 40 anys afronta la seva segona presència en un mundial com el referent absolut de Bòsnia i HercegovinaEl veterà punta ha acabat el curs a la segona divisió d’Alemanya, a l’Schalke 04, amb el qual ha contribuït a l’ascens a la BundesligaSuperats uns problemes físics, el dorsal 11 està a punt per avui (21 h) en l’estrena dels ‘dracs’ contra el Canadà",
+    "time": "2h ago",
+    "timestamp": 1781222400,
+    "color": "linear-gradient(135deg, #f59e0b, #78350f)",
+    "overlay": "⚽",
+    "link": "http://www.lesportiudecatalunya.cat/futbol/article/2650788-el-gran-drac-encara-escup-foc.html",
+    "image": "https://www.elpuntavui.cat/imatges/64/53/4x3/780_0008_6453539_a5f7c0d7e1d1eef815bcfc04fef9701fver2.jpg",
+    "source": "El Punt Avui",
+    "lang": "ca",
+    "id": 231
+  },
+  {
+    "category": "tactics",
+    "title": "El circ de Florentino",
+    "snippet": "Florentino Pérez ha tingut el detall de muntar una representació per entretenir el compte enrere del Mundial. S’ha de reconèixer que la cosa ha donat per cruspir-se uns quants bols de crispetes, però...",
+    "time": "2h ago",
+    "timestamp": 1781222400,
+    "color": "linear-gradient(135deg, #f59e0b, #78350f)",
+    "overlay": "⚽",
+    "link": "http://www.lesportiudecatalunya.cat/opinio/article/2650642-el-circ-de-florentino.html",
+    "image": "https://www.elpuntavui.cat/imatges/64/53/4x3/780_0008_6453187_33ba11a7c1cf1b8f4252aa2b7d13da46ver3.jpg",
+    "source": "El Punt Avui",
+    "lang": "ca",
+    "id": 232
+  },
+  {
+    "category": "tactics",
+    "title": "L’altra cara del mundial a Ciutat de Mèxic",
+    "snippet": "LA IMATGE DEL DIA",
+    "time": "2h ago",
+    "timestamp": 1781222400,
+    "color": "linear-gradient(135deg, #f59e0b, #78350f)",
+    "overlay": "⚽",
+    "link": "http://www.lesportiudecatalunya.cat/futbol/article/2650807-l-altra-cara-del-mundial-a-ciutat-de-mexic.html",
+    "image": "https://www.elpuntavui.cat/imatges/64/53/4x3/780_0008_6453546_87d294def56048a25bc298a01b1f0297ver2.jpg",
+    "source": "El Punt Avui",
+    "lang": "ca",
+    "id": 233
   },
   {
     "category": "tactics",
     "title": "Mèxic s’imposa (2-0) a Sud-àfrica en el partit inaugural",
     "snippet": "El mundial ja està en marxa. La copa del mon més llarga de la història, la dels 48 equips i els 104 partits, la de les estrelles i els equipassos, la dels debutants, la dels habituals canvis arbitrals,...",
-    "time": "2h ago",
+    "time": "4h ago",
     "timestamp": 1781213391,
     "color": "linear-gradient(135deg, #f59e0b, #78350f)",
     "overlay": "⚽",
@@ -431,13 +487,13 @@
     "image": "https://www.elpuntavui.cat/imatges/64/53/4x3/780_0008_6453617_794a0ea96bdb841d31249995a9dc4584ver3.jpg",
     "source": "El Punt Avui",
     "lang": "ca",
-    "id": 230
+    "id": 234
   },
   {
     "category": "tactics",
     "title": "Tret de sortida al Mundial: Mèxic derrota Sud-àfrica (2-0)",
     "snippet": "El Mundial 2026 ja ha començat. Després de la inauguració a l’Estadi Azteca amb diverses actuacions musicals, la pilota ja ha rodat sobre el terreny de joc. Complint el paper, Mèxic ha estat la primera de les tres seleccions amfitriones que hi haurà en aquesta cita mundialista i ha arrencat amb un bon resultat (2-0). … Continued",
-    "time": "2h ago",
+    "time": "4h ago",
     "timestamp": 1781211939,
     "color": "linear-gradient(135deg, #f59e0b, #78350f)",
     "overlay": "⚽",
@@ -445,13 +501,13 @@
     "image": "https://images.unsplash.com/photo-1508098682722-e99c43a406b2?w=800&auto=format&fit=crop",
     "source": "Món Esport",
     "lang": "ca",
-    "id": 231
+    "id": 235
   },
   {
     "category": "tactics",
     "title": "Shakira dona el tret de sortida al Mundial més global",
     "snippet": "En la cerimònia inaugural a Ciutat de Mèxic també han actuat altres artistes com Lila Downs, Belinda i J Balvin abans del primer partit entre Mèxic i Sud-àfrica",
-    "time": "4h ago",
+    "time": "6h ago",
     "timestamp": 1781204561,
     "color": "linear-gradient(135deg, #f59e0b, #78350f)",
     "overlay": "⚽",
@@ -459,13 +515,13 @@
     "image": "https://d5r1tkwwv7d5g.cloudfront.net/articulos/articulos-726665.jpg",
     "source": "Nació Digital",
     "lang": "ca",
-    "id": 232
+    "id": 236
   },
   {
     "category": "rules",
     "title": "Arrenca el Mundial més llarg i polèmic",
     "snippet": "La FIFA tenia moltes ganes que comencés a rodar la pilota a l'estadi Azteca. Era la manera que el futbol passés per sobre de les múltiples polèmiques que han envoltat el Mundial 2026 i que, fins i tot, van amenaçar amb fer-lo descarrilar. El duel entre Mèxic, una de les amfitriones, i Sud-àfrica, que finalitzava amb victòria local (2-0) amb els gols de Quiñones i Jiménez, donava el tret de sortida a una competició que per primera vegada tindrà 48 seleccions, que s'allargarà 39 dies, amb 104 partits programats i que coneixerà el seu guanyador el diumenge 19 de juliol.",
-    "time": "4h ago",
+    "time": "6h ago",
     "timestamp": 1781204544,
     "color": "linear-gradient(135deg, #64748b, #334155)",
     "overlay": "📺",
@@ -473,27 +529,13 @@
     "image": "https://static1.ara.cat/clip/8f6cb472-ffcd-4bae-b898-ca9193613e0b_source-aspect-ratio_default_0.jpg",
     "source": "ARA Esports",
     "lang": "ca",
-    "id": 233
-  },
-  {
-    "category": "injury",
-    "title": "Lamine Yamal s’entrena amb el grup i confirma que deixa enrere la lesió",
-    "snippet": "Espanya ha fet avui una sessió d’entrenament a Chattanooga, on fa dies s’ha instal·lat per participar en el mundial. Luis de la Fuente ha pogut comptar amb Lamine Yamal i Nico Williams, que s’han...",
-    "time": "6h ago",
-    "timestamp": 1781197302,
-    "color": "linear-gradient(135deg, #ef4444, #7f1d1d)",
-    "overlay": "🩺",
-    "link": "http://www.lesportiudecatalunya.cat/barca/article/2650816-lamine-yamal-s-entrena-amb-el-grup-i-confirma-que-deixa-enrere-la-lesio.html",
-    "image": "https://www.elpuntavui.cat/imatges/64/53/4x3/780_0008_6453554_d8dc252086100c920999108dd99dba71ver2.jpg",
-    "source": "El Punt Avui",
-    "lang": "ca",
-    "id": 234
+    "id": 237
   },
   {
     "category": "rules",
     "title": "El gran repte de Pochettino: unir les dues Amèriques en l'era de Trump",
     "snippet": "Ara fa uns mesos, aquest març, Donald Trump va rebre una delegació de la Federació Nord-americana de Futbol i va preguntar al seleccionador, l'argentí Mauricio Pochettino, si els Estats Units poden guanyar el Mundial. \"Li he respost que el podem guanyar\", va dir l'exjugador de l'Espanyol. Pochettino té un repte al davant: aconseguir bons resultats i que la selecció engresqui un país que arriba molt dividit a la cita. El debut serà contra la selecció del Paraguai dissabte a les tres de la matinada.",
-    "time": "7h ago",
+    "time": "10h ago",
     "timestamp": 1781193659,
     "color": "linear-gradient(135deg, #64748b, #334155)",
     "overlay": "📺",
@@ -501,13 +543,13 @@
     "image": "https://static1.ara.cat/clip/61e32d1a-73e5-4fe8-a0ff-288a002e7070_source-aspect-ratio_default_0.jpg",
     "source": "ARA Esports",
     "lang": "ca",
-    "id": 235
+    "id": 238
   },
   {
     "category": "transfer",
     "title": "La FIFA revoluciona completament els traspassos del futbol",
     "snippet": "La FIFA ha aprovat una nova normativa en la regulació del mercat de fitxatges del futbol. A partir d’ara, tots els contractes dels jugadors hauran de tenir una clàusula de rescissió. Això significa que qualsevol futbolista podrà abonar la quantitat pactada -que serà normalment de molts milions- per poder abandonar el seu club sense que … Continued",
-    "time": "8h ago",
+    "time": "10h ago",
     "timestamp": 1781190710,
     "color": "linear-gradient(135deg, #a855f7, #581c87)",
     "overlay": "🔄",
@@ -515,13 +557,13 @@
     "image": "https://images.unsplash.com/photo-1508098682722-e99c43a406b2?w=800&auto=format&fit=crop",
     "source": "Món Esport",
     "lang": "ca",
-    "id": 236
+    "id": 239
   },
   {
     "category": "tactics",
     "title": "10 imperdibles del Mundial 2026: l'últim de Messi i Cristiano amb l'estrena d'un nou format",
     "snippet": "La Copa del Món que organitzen Mèxic, els Estats Units i Canadà serà atípica i històrica; el clima condicionarà una competició en què Lamine Yamal intentarà deixar emprempta amb només 18 anys",
-    "time": "8h ago",
+    "time": "10h ago",
     "timestamp": 1781190491,
     "color": "linear-gradient(135deg, #f59e0b, #78350f)",
     "overlay": "⚽",
@@ -529,13 +571,13 @@
     "image": "https://d5r1tkwwv7d5g.cloudfront.net/articulos/articulos-724302.jpg",
     "source": "Nació Digital",
     "lang": "ca",
-    "id": 237
+    "id": 240
   },
   {
     "category": "tactics",
     "title": "Tots els canvis en la normativa arbitral que entraran en vigor al Mundial",
     "snippet": "Tot i que el Mundial de futbol acostuma a cridar especialment l’atenció per les actuacions dels jugadors i de les seleccions, les Copes del Món també són un gran escenari per introduir canvis destacats en la competició esportiva. De la mateixa manera que el Mundial de Rússia de 2018 va servir com a inauguració del … Continued",
-    "time": "9h ago",
+    "time": "11h ago",
     "timestamp": 1781188948,
     "color": "linear-gradient(135deg, #f59e0b, #78350f)",
     "overlay": "⚽",
@@ -543,13 +585,13 @@
     "image": "https://images.unsplash.com/photo-1543351611-58f69d7c1781?w=800&auto=format&fit=crop",
     "source": "Món Esport",
     "lang": "ca",
-    "id": 238
+    "id": 241
   },
   {
     "category": "rules",
     "title": "El Mundial del canvi generacional",
     "snippet": "Aquest dijous 11 de juny comença el Mundial de 2026. Aquesta Copa del Món es disputa, per primera vegada a la història, en tres estats diferents: els Estats Units, Mèxic i el Canadà. A més a més, aquest Mundial també és històric, perquè la FIFA ha decidit ampliar els països participants fins als 48. Això … Continued",
-    "time": "9h ago",
+    "time": "11h ago",
     "timestamp": 1781187045,
     "color": "linear-gradient(135deg, #64748b, #334155)",
     "overlay": "📺",
@@ -557,13 +599,13 @@
     "image": "https://images.unsplash.com/photo-1579952363873-27f3bade9f55?w=800&auto=format&fit=crop",
     "source": "Món Esport",
     "lang": "ca",
-    "id": 239
+    "id": 242
   },
   {
     "category": "tactics",
     "title": "Arrenca el Mundial 2026",
     "snippet": "",
-    "time": "11h ago",
+    "time": "13h ago",
     "timestamp": 1781180530,
     "color": "linear-gradient(135deg, #f59e0b, #78350f)",
     "overlay": "⚽",
@@ -571,61 +613,19 @@
     "image": "https://static1.ara.cat/clip/8f6cb472-ffcd-4bae-b898-ca9193613e0b_16-9-aspect-ratio_default_0.jpg",
     "source": "ARA Esports",
     "lang": "ca",
-    "id": 240
+    "id": 243
   },
   {
     "category": "press",
     "title": "Infantino, president de la FIFA, fa la gara-gara a Trump abans del Mundial",
     "snippet": "Gianni Infantino, president de la FIFA, ha comparegut aquest dijous 11 de juny en roda de premsa, dia en què comença el Mundial dels Estats Units, Mèxic i el Canadà. Un dels aspectes més polèmics d’aquesta Copa del Món és el fet que l’estigui organitzat un país governat per Donald Trump, amb polítiques migratòries i … Continued",
-    "time": "12h ago",
+    "time": "14h ago",
     "timestamp": 1781177072,
     "color": "linear-gradient(135deg, #0d9488, #115e59)",
     "overlay": "🎙️",
     "link": "https://monesport.cat/futbol/federacions/gianni-infantino-mundial-donald-trump-485011/",
     "image": "https://images.unsplash.com/photo-1518063319789-7217e6706b04?w=800&auto=format&fit=crop",
     "source": "Món Esport",
-    "lang": "ca",
-    "id": 241
-  },
-  {
-    "category": "tactics",
-    "title": "Gordon marca i assisteix contra Costa Rica",
-    "snippet": "Anglaterra ja està a punt per al mundial. La selecció anglesa ha superat aquesta matinada Costa Rica (3-0) en l’últim assaig abans de la cita mundialista. Si bé és cert que aquests partits de preparació...",
-    "time": "13h ago",
-    "timestamp": 1781171856,
-    "color": "linear-gradient(135deg, #f59e0b, #78350f)",
-    "overlay": "⚽",
-    "link": "http://www.lesportiudecatalunya.cat/futbol/article/2650670-gordon-marca-i-assisteix-contra-costa-rica.html",
-    "image": "https://www.elpuntavui.cat/imatges/64/53/4x3/780_0008_6453446_c1b200140b68f11b8854a9c561b124c3ver3.jpg",
-    "source": "El Punt Avui",
-    "lang": "ca",
-    "id": 242
-  },
-  {
-    "category": "tactics",
-    "title": "El Mundial de Trump en un món en guerra",
-    "snippet": "La màxima competició del món del futbol arrenca als Estats Units enmig de tensions geopolítiques i polèmiques",
-    "time": "19h ago",
-    "timestamp": 1781151296,
-    "color": "linear-gradient(135deg, #f59e0b, #78350f)",
-    "overlay": "⚽",
-    "link": "https://naciodigital.cat/esports/el-mundial-de-trump-en-un-mon-en-guerra.html",
-    "image": "https://d5r1tkwwv7d5g.cloudfront.net/articulos/articulos-725200.jpg",
-    "source": "Nació Digital",
-    "lang": "ca",
-    "id": 243
-  },
-  {
-    "category": "tactics",
-    "title": "“Aquest mundial serà una experiència només per a rics”",
-    "snippet": "“Els preus són molt elevats i per tant hi haurà menys aficionats desplaçats que en altres edicions; a això cal sumar-hi altres factors, com el context polític i migratori als Estats Units”“Es retiren Leo Messi, Cristiano Ronaldo i Neymar, tres gegants que deixen pas  a una nova generació ja encapçalada per Lamine Yamal; això farà que sigui molt especial”",
-    "time": "23h ago",
-    "timestamp": 1781136000,
-    "color": "linear-gradient(135deg, #f59e0b, #78350f)",
-    "overlay": "⚽",
-    "link": "http://www.lesportiudecatalunya.cat/futbol/article/2650464-aquest-mundial-sera-una-experiencia-nomes-per-a-rics.html",
-    "image": "https://www.elpuntavui.cat/imatges/64/53/4x3/780_0008_6453059_9f2f67f7ab4ff73516c91207587ace4aver3.jpg",
-    "source": "El Punt Avui",
     "lang": "ca",
     "id": 244
   }
