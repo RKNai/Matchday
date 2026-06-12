@@ -218,7 +218,7 @@
     "homeFlag": "🇨🇦",
     "away": "Bosnia and Herzegovina",
     "awayFlag": "🇧🇦",
-    "homeScore": 0,
+    "homeScore": 1,
     "awayScore": 1,
     "status": "live",
     "minute": 90,
@@ -230,6 +230,12 @@
         "team": "Bosnia and Herzegovina",
         "type": "goal",
         "desc": "Jovo Lukić ⚽ (Goal!)"
+      },
+      {
+        "minute": 79,
+        "team": "Canada",
+        "type": "goal",
+        "desc": "Cyle Larin ⚽ (Goal!)"
       }
     ],
     "stats": {

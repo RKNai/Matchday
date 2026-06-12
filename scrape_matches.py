@@ -91,7 +91,7 @@ TEAM_SQUADS = {
 REAL_SCORES_OVERRIDE = {
   1: (2, 0),  # Match #1: Mexico vs South Africa: 2-0
   2: (2, 1),  # Match #2: South Korea vs Czechia: 2-1
-  3: (0, 1)   # Match #3: Canada vs Bosnia and Herzegovina: 0-1
+  3: (1, 1)   # Match #3: Canada vs Bosnia and Herzegovina: 1-1
 }
 
 REAL_EVENTS_OVERRIDE = {
@@ -105,7 +105,8 @@ REAL_EVENTS_OVERRIDE = {
     { "minute": 80, "team": "South Korea", "type": "goal", "desc": "Oh Hyeon-gyu ⚽ (Goal!)" }
   ],
   3: [
-    { "minute": 21, "team": "Bosnia and Herzegovina", "type": "goal", "desc": "Jovo Lukić ⚽ (Goal!)" }
+    { "minute": 21, "team": "Bosnia and Herzegovina", "type": "goal", "desc": "Jovo Lukić ⚽ (Goal!)" },
+    { "minute": 79, "team": "Canada", "type": "goal", "desc": "Cyle Larin ⚽ (Goal!)" }
   ]
 }
 
