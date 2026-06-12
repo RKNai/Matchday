@@ -1,9 +1,23 @@
 [
   {
+    "category": "press",
+    "title": "Scotland boss Clarke by those who know him best",
+    "snippet": "As Steve Clarke prepares to lead Scotland at their first men's World Cup since 1998, those who know him well reveal what makes him successful.",
+    "time": "7m ago",
+    "timestamp": 1781283578,
+    "color": "linear-gradient(135deg, #0d9488, #115e59)",
+    "overlay": "🎙️",
+    "link": "https://www.bbc.com/sport/football/articles/c4gyze8rpz0o?at_medium=RSS&at_campaign=rss",
+    "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/379e/live/14578af0-667e-11f1-9286-5160d00e7bd3.jpg",
+    "source": "BBC Sport",
+    "lang": "en",
+    "id": 200
+  },
+  {
     "category": "tactics",
     "title": "Scotland's McTominay 'ready to go' for Haiti opener after illness",
     "snippet": "Scotland midfielder Scott McTominay takes part in training on the eve of the World Cup opener against Haiti, having missed out the previous day because of an upset stomach.",
-    "time": "24m ago",
+    "time": "35m ago",
     "timestamp": 1781281904,
     "color": "linear-gradient(135deg, #f59e0b, #78350f)",
     "overlay": "⚽",
@@ -11,7 +25,7 @@
     "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/66a4/live/85d150d0-666a-11f1-b68a-af11ef3c7f8c.jpg",
     "source": "BBC Sport",
     "lang": "en",
-    "id": 200
+    "id": 201
   },
   {
     "category": "tactics",
@@ -25,7 +39,7 @@
     "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/0ede/live/4af93c90-6654-11f1-9afd-55fafa742f4a.jpg",
     "source": "BBC Sport",
     "lang": "en",
-    "id": 201
+    "id": 202
   },
   {
     "category": "tactics",
@@ -39,7 +53,7 @@
     "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/d2a5/live/57648670-6662-11f1-8546-8f19e4fe30f4.jpg",
     "source": "BBC Sport",
     "lang": "en",
-    "id": 202
+    "id": 203
   },
   {
     "category": "tactics",
@@ -53,13 +67,13 @@
     "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/5c62/live/b086b320-665f-11f1-b68a-af11ef3c7f8c.png",
     "source": "BBC Sport",
     "lang": "en",
-    "id": 203
+    "id": 204
   },
   {
     "category": "tactics",
     "title": "World Cup quiz: Can you identify these 2026 host cities?",
     "snippet": "We have selected seven of the 16 World Cup host cities for you to identify. Can you pick them out from our clues?",
-    "time": "3h ago",
+    "time": "4h ago",
     "timestamp": 1781269391,
     "color": "linear-gradient(135deg, #f59e0b, #78350f)",
     "overlay": "⚽",
@@ -67,7 +81,7 @@
     "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/03dd/live/deace580-61af-11f1-8b8c-6d33e1d5abb6.png",
     "source": "BBC Sport",
     "lang": "en",
-    "id": 204
+    "id": 205
   },
   {
     "category": "tactics",
@@ -81,7 +95,7 @@
     "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/737d/live/62c2a5e0-664b-11f1-8546-8f19e4fe30f4.jpg",
     "source": "BBC Sport",
     "lang": "en",
-    "id": 205
+    "id": 206
   },
   {
     "category": "tactics",
@@ -95,7 +109,7 @@
     "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/3f40/live/ea30b730-663f-11f1-b1db-af71d47507d6.jpg",
     "source": "BBC Sport",
     "lang": "en",
-    "id": 206
+    "id": 207
   },
   {
     "category": "tactics",
@@ -109,33 +123,19 @@
     "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/151f/live/524541b0-65e6-11f1-b2f0-b71544526ae8.jpg",
     "source": "BBC Sport",
     "lang": "en",
-    "id": 207
+    "id": 208
   },
   {
     "category": "tactics",
     "title": "How the USA fell in love with football",
     "snippet": "Alan Rothenberg had a vision: A World Cup so enticing it could convince the USA - and the world - that the country could fall in love with football.",
-    "time": "8h ago",
+    "time": "9h ago",
     "timestamp": 1781251200,
     "color": "linear-gradient(135deg, #f59e0b, #78350f)",
     "overlay": "⚽",
     "link": "https://www.skysports.com/football/news/11095/13553058/how-the-usa-fell-in-love-with-football-world-cup-1994-the-premier-league-and-the-outspoken-vision-of-alan-rothenberg",
     "image": "https://e2.365dm.com/26/06/1920x1080/skysports-graphic-usa_7270862.jpg?20260611152709",
     "source": "Sky Sports",
-    "lang": "en",
-    "id": 208
-  },
-  {
-    "category": "tactics",
-    "title": "Could one win get Scotland out of World Cup group?",
-    "snippet": "BBC Scotland digs into Scotland's World Cup progression prospects.",
-    "time": "9h ago",
-    "timestamp": 1781249621,
-    "color": "linear-gradient(135deg, #f59e0b, #78350f)",
-    "overlay": "⚽",
-    "link": "https://www.bbc.com/sport/football/articles/c0r9v911g9zo?at_medium=RSS&at_campaign=rss",
-    "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/4220/live/87f25470-d21f-11f0-8c06-f5d460985095.png",
-    "source": "BBC Sport",
     "lang": "en",
     "id": 209
   },
@@ -199,7 +199,7 @@
     "category": "tactics",
     "title": "From near death to World Cup hero - Jimenez's tears for Mexico",
     "snippet": "From nearly dying on the pitch to scoring for Mexico at the World Cup - Raul Jimenez has completed a remarkable comeback.",
-    "time": "16h ago",
+    "time": "17h ago",
     "timestamp": 1781222528,
     "color": "linear-gradient(135deg, #f59e0b, #78350f)",
     "overlay": "⚽",
@@ -241,7 +241,7 @@
     "category": "tactics",
     "title": "Klopp, muy duro con el estreno: \"Parecía un partido benéfico\"<br>",
     "snippet": "El alemán analizó en ZDF el México-Sudáfrica del Azteca y fue muy crítico con el juego de las dos selecciones<span class=\"\" contenteditable=\"false\" aria-hidden=\"true\" tabindex=\"-1\" style=\"user-select: none; pointer-events: auto;\"></span>",
-    "time": "4h ago",
+    "time": "5h ago",
     "timestamp": 1781265628,
     "color": "linear-gradient(135deg, #f59e0b, #78350f)",
     "overlay": "⚽",
@@ -325,7 +325,7 @@
     "category": "rules",
     "title": "Mundial 2026: 100 marcas activan en las camisetas de entreno ante el blindaje de la FIFA",
     "snippet": "La FIFA prevé ingresar un récord de 1.786 millones de dólares por patrocinio tras vender todos sus paquetes comerciales",
-    "time": "6h ago",
+    "time": "7h ago",
     "timestamp": 1781258478,
     "color": "linear-gradient(135deg, #64748b, #334155)",
     "overlay": "📺",
@@ -353,7 +353,7 @@
     "category": "injury",
     "title": "Raúl Jiménez, hombre 'milagro': de la rotura de cráneo a marcar su primer gol en un Mundial gracias a su 'casco blando'",
     "snippet": "El delantero de México sufrió rotura craneal con hemorragia cerebral en noviembre de 2020 que puso en riesgo su vida. Leer",
-    "time": "7h ago",
+    "time": "8h ago",
     "timestamp": 1781254902,
     "color": "linear-gradient(135deg, #ef4444, #7f1d1d)",
     "overlay": "🩺",
@@ -381,7 +381,7 @@
     "category": "tactics",
     "title": "Se desata la polémica con la actuación de Shakira en el Mundial por dos motivos: ¿era ella o una doble?",
     "snippet": "La utilización de gafas oscuras en su actuación y sus movimientos y apariencia física hacen saltar las dudas de sus seguidores",
-    "time": "8h ago",
+    "time": "9h ago",
     "timestamp": 1781251045,
     "color": "linear-gradient(135deg, #f59e0b, #78350f)",
     "overlay": "⚽",
@@ -437,7 +437,7 @@
     "category": "press",
     "title": "La recepta de Carlo Ancelotti per il·lusionar 213 milions de persones",
     "snippet": "Costa imaginar què pot posar nerviós Carlo Ancelotti. El veterà tècnic italià ha dirigit alguns dels clubs on es treballa amb més pressió del planeta, com el Madrid, la Juve o el Chelsea. Ha treballat sota la mirada de Florentino Pérez, Silvio Berlusconi o Roman Abramóvitx. Ha après com parlar amb joves jugadors egoistes i amb empresaris excèntrics. Sap com tractar futbolistes generosos i altres d'egoistes. Costa explicar quin és el seu sistema tàctic preferit, però sap gestionar persones i motivar-les. Per això va rebre la trucada de la Confederació Brasilera de Futbol ara fa menys de dos anys. El Brasil, la selecció que més cops ha guanyat el Mundial, s'encomanava a ell per tal de ser gran de nou. Per primer cop en la història, el Brasil arriba a un Mundial amb un tècnic estranger. Ancelotti no sembla nerviós, però. Se'l veu content.",
-    "time": "4h ago",
+    "time": "5h ago",
     "timestamp": 1781265614,
     "color": "linear-gradient(135deg, #0d9488, #115e59)",
     "overlay": "🎙️",
@@ -521,7 +521,7 @@
     "category": "tactics",
     "title": "El mundial, en marxa",
     "snippet": "L’estadi Azteca, blindat per les forces de seguretat a causa de les protestes socials existents a la Ciutat de Mèxic, obre el teló de la cita mundialista en un partit a què no assisteix la presidenta del país, Claudia SheinbaumLa cerimònia inicial, amb la música de protagonista, dona pas a un partit en què Mèxic supera amb molta comoditat (2-0) Sud-àfrica",
-    "time": "16h ago",
+    "time": "17h ago",
     "timestamp": 1781222400,
     "color": "linear-gradient(135deg, #f59e0b, #78350f)",
     "overlay": "⚽",
@@ -535,7 +535,7 @@
     "category": "tactics",
     "title": "Tret de sortida al Mundial: Mèxic derrota Sud-àfrica (2-0)",
     "snippet": "El Mundial 2026 ja ha començat. Després de la inauguració a l’Estadi Azteca amb diverses actuacions musicals, la pilota ja ha rodat sobre el terreny de joc. Complint el paper, Mèxic ha estat la primera de les tres seleccions amfitriones que hi haurà en aquesta cita mundialista i ha arrencat amb un bon resultat (2-0). … Continued",
-    "time": "19h ago",
+    "time": "20h ago",
     "timestamp": 1781211939,
     "color": "linear-gradient(135deg, #f59e0b, #78350f)",
     "overlay": "⚽",
@@ -549,7 +549,7 @@
     "category": "tactics",
     "title": "Shakira dona el tret de sortida al Mundial més global",
     "snippet": "En la cerimònia inaugural a Ciutat de Mèxic també han actuat altres artistes com Lila Downs, Belinda i J Balvin abans del primer partit entre Mèxic i Sud-àfrica",
-    "time": "21h ago",
+    "time": "22h ago",
     "timestamp": 1781204561,
     "color": "linear-gradient(135deg, #f59e0b, #78350f)",
     "overlay": "⚽",
@@ -563,7 +563,7 @@
     "category": "rules",
     "title": "Arrenca el Mundial més llarg i polèmic",
     "snippet": "La FIFA tenia moltes ganes que comencés a rodar la pilota a l'estadi Azteca. Era la manera que el futbol passés per sobre de les múltiples polèmiques que han envoltat el Mundial 2026 i que, fins i tot, van amenaçar amb fer-lo descarrilar. El duel entre Mèxic, una de les amfitriones, i Sud-àfrica, que finalitzava amb victòria local (2-0) amb els gols de Quiñones i Jiménez, donava el tret de sortida a una competició que per primera vegada tindrà 48 seleccions, que s'allargarà 39 dies, amb 104 partits programats i que coneixerà el seu guanyador el diumenge 19 de juliol.",
-    "time": "21h ago",
+    "time": "22h ago",
     "timestamp": 1781204544,
     "color": "linear-gradient(135deg, #64748b, #334155)",
     "overlay": "📺",
