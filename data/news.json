@@ -17,7 +17,7 @@
     "category": "tactics",
     "title": "Scotland's McTominay trains after stomach upset",
     "snippet": "Scotland midfielder Scott McTominay takes part in training on the eve of the World Cup opener against Haiti, having missed out the previous day because of an upset stomach.",
-    "time": "1h ago",
+    "time": "2h ago",
     "timestamp": 1781273986,
     "color": "linear-gradient(135deg, #f59e0b, #78350f)",
     "overlay": "⚽",
@@ -171,7 +171,7 @@
     "category": "tactics",
     "title": "Who am I? Guess World Cup star No 5",
     "snippet": "Will you get today's player in as few attempts as possible?",
-    "time": "10h ago",
+    "time": "11h ago",
     "timestamp": 1781241668,
     "color": "linear-gradient(135deg, #f59e0b, #78350f)",
     "overlay": "⚽",
@@ -211,9 +211,107 @@
   },
   {
     "category": "tactics",
+    "title": "Advocaat, el 'abuelo' del Mundial que mide a la próxima generación: \"Tengo suerte de que me sigan queriendo\"",
+    "snippet": "Se convertirá en el técnico más veterano en la historia de los Mundiales a los mandos de Curazao y compartirá grupo con tres de los cinco seleccionadores más jóvenes de la edición",
+    "time": "31m ago",
+    "timestamp": 1781279518,
+    "color": "linear-gradient(135deg, #f59e0b, #78350f)",
+    "overlay": "⚽",
+    "link": "https://www.marca.com/futbol/mundial/2026/06/12/dick-advocaat-abuelo-mundial-mide-proxima-generacion-suerte-me-sigan-queriendo-edad.html",
+    "image": "https://e01-xlk-ue-marca.uecdn.es/files/horizontal_image_desktop/uploads/2026/06/12/6a2c28db423c3.jpeg",
+    "source": "Marca",
+    "lang": "es",
+    "id": 215
+  },
+  {
+    "category": "rules",
+    "title": "Adham Makhadmeh arbitrará el España-Cabo Verde",
+    "snippet": "El árbitro jordano, que debutará en un Mundial, dirigirá el debut del cuadro de Luis De la Fuente",
+    "time": "2h ago",
+    "timestamp": 1781273259,
+    "color": "linear-gradient(135deg, #64748b, #334155)",
+    "overlay": "📺",
+    "link": "https://www.marca.com/futbol/seleccion/2026/06/12/adham-makhadmeh-arbitrara-espana-cabo-verde.html",
+    "image": "https://e01-xlk-ue-marca.uecdn.es/files/horizontal_image_desktop/uploads/2026/06/12/6a2c11294c2cd.jpeg",
+    "source": "Marca",
+    "lang": "es",
+    "id": 216
+  },
+  {
+    "category": "tactics",
+    "title": "Klopp, muy duro con el estreno: \"Parecía un partido benéfico\"<br>",
+    "snippet": "El alemán analizó en ZDF el México-Sudáfrica del Azteca y fue muy crítico con el juego de las dos selecciones<span class=\"\" contenteditable=\"false\" aria-hidden=\"true\" tabindex=\"-1\" style=\"user-select: none; pointer-events: auto;\"></span>",
+    "time": "4h ago",
+    "timestamp": 1781265628,
+    "color": "linear-gradient(135deg, #f59e0b, #78350f)",
+    "overlay": "⚽",
+    "link": "https://www.marca.com/futbol/mundial/2026/06/12/klopp-carga-estreno-mundial-primera-categoria.html",
+    "image": "https://e01-xlk-ue-marca.uecdn.es/files/horizontal_image_desktop/uploads/2026/06/06/6a23c5dda33c9.jpeg",
+    "source": "Marca",
+    "lang": "es",
+    "id": 217
+  },
+  {
+    "category": "tactics",
+    "title": "Sin selección, pero con protagonismo: China también juega su Mundial",
+    "snippet": "La selección vuelve a quedarse fuera del torneo, pero las empresas chinas ganan protagonismo con tecnología, marcas y una industria que trasciende la fabricación de bajo coste<span class=\"xai-icon\" contenteditable=\"false\" aria-hidden=\"true\" tabindex=\"-1\" style=\"user-select: none; pointer-events: auto;\"></span>",
+    "time": "4h ago",
+    "timestamp": 1781264862,
+    "color": "linear-gradient(135deg, #f59e0b, #78350f)",
+    "overlay": "⚽",
+    "link": "https://www.marca.com/futbol/mundial/2026/06/12/seleccion-protagonismo-china-tambien-juega-mundial.html",
+    "image": "https://e01-xlk-ue-marca.uecdn.es/files/horizontal_image_desktop/uploads/2026/06/12/6a2bf1d426bba.jpeg",
+    "source": "Marca",
+    "lang": "es",
+    "id": 218
+  },
+  {
+    "category": "tactics",
+    "title": "Cabo Verde no renuncia a su 'cachupada' para medirse a España",
+    "snippet": "La selección celebrará una reunión con su plato típico de&nbsp;maíz, alubias, carne y embutidos",
+    "time": "4h ago",
+    "timestamp": 1781264309,
+    "color": "linear-gradient(135deg, #f59e0b, #78350f)",
+    "overlay": "⚽",
+    "link": "https://www.marca.com/futbol/mundial/2026/06/12/cabo-verde-renuncia-cachupada-medirse-espana.html",
+    "image": "https://e01-xlk-ue-marca.uecdn.es/files/horizontal_image_desktop/uploads/2026/06/12/6a2bee4880e85.png",
+    "source": "Marca",
+    "lang": "es",
+    "id": 219
+  },
+  {
+    "category": "rules",
+    "title": "Habrá españoles en el Mundial: Del Cerro Grande estará en el Estados Unidos vs Paraguay",
+    "snippet": "El excolegiado madrileño ejercerá como árbitro VAR en el duelo entre Estados Unidos y Paraguay, ampliando la presencia española en la gran cita del fútbol mundial<span class=\"\" contenteditable=\"false\" aria-hidden=\"true\" tabindex=\"-1\" style=\"user-select: none; pointer-events: auto;\"></span>",
+    "time": "4h ago",
+    "timestamp": 1781264282,
+    "color": "linear-gradient(135deg, #64748b, #334155)",
+    "overlay": "📺",
+    "link": "https://www.marca.com/futbol/mundial/2026/06/12/habra-espanoles-mundial-cerro-grande-estara-estados-unidos-vs-paraguay.html",
+    "image": "https://e01-xlk-ue-marca.uecdn.es/files/horizontal_image_desktop/uploads/2026/06/12/6a2bef45d44ce.jpeg",
+    "source": "Marca",
+    "lang": "es",
+    "id": 220
+  },
+  {
+    "category": "tactics",
+    "title": "Indignación en Italia ante una broma de Infantino&nbsp;",
+    "snippet": "Sigue la última hora de toda la información de la Copa del Mundo 2026",
+    "time": "5h ago",
+    "timestamp": 1781263358,
+    "color": "linear-gradient(135deg, #f59e0b, #78350f)",
+    "overlay": "⚽",
+    "link": "https://www.marca.com/futbol/mundial/2026/06/12/6a2be417cf1a9beb617a6124.html",
+    "image": "https://e01-xlk-ue-marca.uecdn.es/files/horizontal_image_desktop/uploads/2026/06/12/17812629923569.jpeg",
+    "source": "Marca",
+    "lang": "es",
+    "id": 221
+  },
+  {
+    "category": "tactics",
     "title": "Marcelo, evacuado por la Policía tras un altercado en el estreno del Mundial",
     "snippet": "El brasileño quedó atrapado entre manifestantes y autoridades locales después del México-Sudáfrica y salió del estadio sin sufrir daños<span class=\"\" contenteditable=\"false\" aria-hidden=\"true\" tabindex=\"-1\" style=\"user-select: none; pointer-events: auto;\"></span>",
-    "time": "5h ago",
+    "time": "6h ago",
     "timestamp": 1781259616,
     "color": "linear-gradient(135deg, #f59e0b, #78350f)",
     "overlay": "⚽",
@@ -221,7 +319,7 @@
     "image": "https://e01-xlk-ue-marca.uecdn.es/files/horizontal_image_desktop/uploads/2026/06/12/6a2bdd41bebc9.jpeg",
     "source": "Marca",
     "lang": "es",
-    "id": 215
+    "id": 222
   },
   {
     "category": "rules",
@@ -235,7 +333,7 @@
     "image": "https://e01-xlk-ue-marca.uecdn.es/files/horizontal_image_desktop/uploads/2026/06/12/6a2bd0eb2c096.jpeg",
     "source": "Marca",
     "lang": "es",
-    "id": 216
+    "id": 223
   },
   {
     "category": "tactics",
@@ -249,7 +347,7 @@
     "image": "https://e01-xlk-ue-marca.uecdn.es/files/horizontal_image_desktop/uploads/2026/06/10/6a295249ef533.jpeg",
     "source": "Marca",
     "lang": "es",
-    "id": 217
+    "id": 224
   },
   {
     "category": "injury",
@@ -263,7 +361,7 @@
     "image": "http://secure-uk.imrworldwide.com/cgi-bin/m?cid=es-widgetueditorial&amp;cg=rss-elmundo&amp;ci=es-widgetueditorial&amp;si=http://www.elmundo.es/rss/deportes.xml",
     "source": "El Mundo Deportes",
     "lang": "es",
-    "id": 218
+    "id": 225
   },
   {
     "category": "tactics",
@@ -274,24 +372,10 @@
     "color": "linear-gradient(135deg, #f59e0b, #78350f)",
     "overlay": "⚽",
     "link": "https://www.marca.com/futbol/mundial/2026/06/12/periodista-deja-retransmision-hacerse-foto-shakira-ridiculo-informat-video.html",
-    "image": "https://images.unsplash.com/photo-1543351611-58f69d7c1781?w=800&auto=format&fit=crop",
+    "image": "https://images.unsplash.com/photo-1579952363873-27f3bade9f55?w=800&auto=format&fit=crop",
     "source": "Marca",
     "lang": "es",
-    "id": 219
-  },
-  {
-    "category": "injury",
-    "title": "La aplaudida medida del presidente de Ecuador: baja un 20% el precio de la cerveza durante el Mundial",
-    "snippet": "Noboa elimina el impuesto a las bebidas de moderación desde el 11 de junio hasta el 19 de julio<span class=\"xai-icon\" contenteditable=\"false\" aria-hidden=\"true\" tabindex=\"-1\" style=\"user-select: none; pointer-events: auto;\"></span>",
-    "time": "7h ago",
-    "timestamp": 1781252852,
-    "color": "linear-gradient(135deg, #ef4444, #7f1d1d)",
-    "overlay": "🩺",
-    "link": "https://www.marca.com/futbol/mundial/2026/06/12/aplaudida-medida-presidente-ecuador-baja-20-precio-cerveza-durante-mundial.html",
-    "image": "https://e01-xlk-ue-marca.uecdn.es/files/horizontal_image_desktop/uploads/2026/06/12/6a2bc2dad49ed.jpeg",
-    "source": "Marca",
-    "lang": "es",
-    "id": 220
+    "id": 226
   },
   {
     "category": "tactics",
@@ -305,7 +389,7 @@
     "image": "https://e01-xlk-ue-marca.uecdn.es/files/horizontal_image_desktop/uploads/2026/06/12/6a2bb5fd3d661.jpeg",
     "source": "Marca",
     "lang": "es",
-    "id": 221
+    "id": 227
   },
   {
     "category": "rules",
@@ -319,7 +403,7 @@
     "image": "https://e00-elmundo.uecdn.es/assets/multimedia/imagenes/2026/06/12/17812502647457_990x0.jpg",
     "source": "El Mundo Deportes",
     "lang": "es",
-    "id": 222
+    "id": 228
   },
   {
     "category": "tactics",
@@ -333,97 +417,13 @@
     "image": "https://e00-elmundo.uecdn.es/assets/multimedia/imagenes/2026/06/12/17812506922884_990x0.jpg",
     "source": "El Mundo Deportes",
     "lang": "es",
-    "id": 223
-  },
-  {
-    "category": "tactics",
-    "title": "La novia de Lamine publica una foto de Yamal enmascarado en la cama para tranquilizar a España: \"Llega perfecto al Mundial\"",
-    "snippet": "<a href=\"https://www.marca.com/tiramillas/sociedad/album/2026/05/25/asi-ines-garcia-novia-lamine-yamal-album-intimo-personal-influencer.html\"><b>Inés García Santos</b></a>, la pareja de Lamine Yamal, publicó una <a href=\"https://www.marca.com/tiramillas/sociedad/2026/06/12/ines-garcia-novia-lamine-yamal-tranquiliza-todos-debut-espana-llega-perfecto-preocupeis.html\"><b>foto con mensaje sobre la estrella de la selección de España</b></a>. La influencer sevillana publicó en su 'stories' de Instagram una imagen de Lamine Yamal con una mascarilla facial tumbado en una cama del hotel en la que está concentrada la selección para el Mundial 2026. <b>\"Llega perfecto al Mundial, no os preocupéis por él\"</b>, aseguró Inés García.",
-    "time": "8h ago",
-    "timestamp": 1781249699,
-    "color": "linear-gradient(135deg, #f59e0b, #78350f)",
-    "overlay": "⚽",
-    "link": "https://www.marca.com/futbol/mundial/album/2026/06/12/novia-lamine-publica-foto-yamal-enmascarado-cama-tranquilizar-espana-llega-mundial.html",
-    "image": "https://e01-xlk-ue-marca.uecdn.es/files/horizontal_image_desktop/uploads/2026/06/12/6a2bb5fe97ffc.jpeg",
-    "source": "Marca",
-    "lang": "es",
-    "id": 224
-  },
-  {
-    "category": "tactics",
-    "title": "\"Tengo un gran apego por el Barça\"<br>",
-    "snippet": "El Balón de Oro se sienta con MARCA antes del debut de Les Bleus ante Senegal: Mbappé, Messi, Luis Enrique, Deschamps o Zidane, sobre la mesa, y por supuesto, España",
-    "time": "8h ago",
-    "timestamp": 1781249004,
-    "color": "linear-gradient(135deg, #f59e0b, #78350f)",
-    "overlay": "⚽",
-    "link": "https://www.marca.com/futbol/mundial/2026/06/12/dembele-ganar-mundial-cima-absoluta.html",
-    "image": "https://images.unsplash.com/photo-1518063319789-7217e6706b04?w=800&auto=format&fit=crop",
-    "source": "Marca",
-    "lang": "es",
-    "id": 225
-  },
-  {
-    "category": "tactics",
-    "title": "Partidos de hoy, viernes 12 de junio, del Mundial 2026: horarios y dónde ver por TV",
-    "snippet": "Tras la victoria de México sobre Sudáfrica, la selección de Corea del Sur también se impuso en la pasada madrugada a Chequia dentro del grupo B Leer",
-    "time": "8h ago",
-    "timestamp": 1781248604,
-    "color": "linear-gradient(135deg, #f59e0b, #78350f)",
-    "overlay": "⚽",
-    "link": "https://www.elmundo.es/deportes/futbol/mundial-de-futbol/2026/06/12/6a2a97ade4d4d82e3a8b45ac.html",
-    "image": "https://e00-elmundo.uecdn.es/assets/multimedia/imagenes/2026/06/12/17812475826507_990x0.jpg",
-    "source": "El Mundo Deportes",
-    "lang": "es",
-    "id": 226
-  },
-  {
-    "category": "injury",
-    "title": "Laia Font, la gimnasta que soñó con Biles y volvió de una lesión de pesadilla: \"Quiero hacer gimnasia a mi manera\"",
-    "snippet": "La española brilla en la élite con un oro en la Copa del Mundo después de conocer a la leyenda, Biles, en un Mundial que disputó con apenas 17 años Leer",
-    "time": "8h ago",
-    "timestamp": 1781248533,
-    "color": "linear-gradient(135deg, #ef4444, #7f1d1d)",
-    "overlay": "🩺",
-    "link": "https://www.elmundo.es/deportes/mas-deporte/2026/06/12/6a1dbff1e4d4d84e558b45a7.html",
-    "image": "https://e00-elmundo.uecdn.es/assets/multimedia/imagenes/2026/06/01/17803357782171_990x0.jpg",
-    "source": "El Mundo Deportes",
-    "lang": "es",
-    "id": 227
-  },
-  {
-    "category": "tactics",
-    "title": "Marisol Olmedo, la nueva Larissa Riquelme: de albañil a 'Madrina' del Mundial 2026",
-    "snippet": "",
-    "time": "8h ago",
-    "timestamp": 1781248458,
-    "color": "linear-gradient(135deg, #f59e0b, #78350f)",
-    "overlay": "⚽",
-    "link": "https://www.marca.com/futbol/mundial/2026/06/12/marisol-olmedo-nueva-larissa-riquelme-albanil-madrina-mundial-2026-video.html",
-    "image": "https://images.unsplash.com/photo-1508098682722-e99c43a406b2?w=800&auto=format&fit=crop",
-    "source": "Marca",
-    "lang": "es",
-    "id": 228
-  },
-  {
-    "category": "tactics",
-    "title": "Corea protagoniza la primera remontada del Mundial",
-    "snippet": "República Checa se había adelantado por medio de  Krejci, pero los tantos de Hwang Inbeom y Oh Hyeong yu dieron el triunfo al conjunto asiático Leer",
-    "time": "9h ago",
-    "timestamp": 1781247875,
-    "color": "linear-gradient(135deg, #f59e0b, #78350f)",
-    "overlay": "⚽",
-    "link": "https://www.elmundo.es/deportes/futbol/mundial-de-futbol/2026/06/12/6a2baf76e4d4d8545c8b4580.html",
-    "image": "http://secure-uk.imrworldwide.com/cgi-bin/m?cid=es-widgetueditorial&amp;cg=rss-elmundo&amp;ci=es-widgetueditorial&amp;si=http://www.elmundo.es/rss/deportes.xml",
-    "source": "El Mundo Deportes",
-    "lang": "es",
     "id": 229
   },
   {
     "category": "press",
     "title": "Dembélé revela alguns secrets de la seva etapa al Barça",
     "snippet": "Ousmane Dembélé, davanter del París Saint-Germain (PSG), ha concedit una extensa entrevista al diari Marca durant la concentració amb la selecció francesa per al Mundial i ha parlat de diversos aspectes relacionats amb la seva etapa al Futbol Club Barcelona. Dembélé ha volgut deixar clar que li va saber molt greu marxar del Barça, perquè … Continued",
-    "time": "2h ago",
+    "time": "3h ago",
     "timestamp": 1781270044,
     "color": "linear-gradient(135deg, #0d9488, #115e59)",
     "overlay": "🎙️",
@@ -533,20 +533,6 @@
   },
   {
     "category": "tactics",
-    "title": "El gran drac encara escup foc",
-    "snippet": "L’ariet de 40 anys afronta la seva segona presència en un mundial com el referent absolut de Bòsnia i HercegovinaEl veterà punta ha acabat el curs a la segona divisió d’Alemanya, a l’Schalke 04, amb el qual ha contribuït a l’ascens a la BundesligaSuperats uns problemes físics, el dorsal 11 està a punt per avui (21 h) en l’estrena dels ‘dracs’ contra el Canadà",
-    "time": "16h ago",
-    "timestamp": 1781222400,
-    "color": "linear-gradient(135deg, #f59e0b, #78350f)",
-    "overlay": "⚽",
-    "link": "http://www.lesportiudecatalunya.cat/futbol/article/2650788-el-gran-drac-encara-escup-foc.html",
-    "image": "https://www.elpuntavui.cat/imatges/64/53/4x3/780_0008_6453539_a5f7c0d7e1d1eef815bcfc04fef9701fver2.jpg",
-    "source": "El Punt Avui",
-    "lang": "ca",
-    "id": 238
-  },
-  {
-    "category": "tactics",
     "title": "Tret de sortida al Mundial: Mèxic derrota Sud-àfrica (2-0)",
     "snippet": "El Mundial 2026 ja ha començat. Després de la inauguració a l’Estadi Azteca amb diverses actuacions musicals, la pilota ja ha rodat sobre el terreny de joc. Complint el paper, Mèxic ha estat la primera de les tres seleccions amfitriones que hi haurà en aquesta cita mundialista i ha arrencat amb un bon resultat (2-0). … Continued",
     "time": "19h ago",
@@ -557,7 +543,7 @@
     "image": "https://images.unsplash.com/photo-1543351611-58f69d7c1781?w=800&auto=format&fit=crop",
     "source": "Món Esport",
     "lang": "ca",
-    "id": 239
+    "id": 238
   },
   {
     "category": "tactics",
@@ -571,7 +557,7 @@
     "image": "https://d5r1tkwwv7d5g.cloudfront.net/articulos/articulos-726665.jpg",
     "source": "Nació Digital",
     "lang": "ca",
-    "id": 240
+    "id": 239
   },
   {
     "category": "rules",
@@ -585,7 +571,7 @@
     "image": "https://static1.ara.cat/clip/8f6cb472-ffcd-4bae-b898-ca9193613e0b_source-aspect-ratio_default_0.jpg",
     "source": "ARA Esports",
     "lang": "ca",
-    "id": 241
+    "id": 240
   },
   {
     "category": "rules",
@@ -599,7 +585,7 @@
     "image": "https://static1.ara.cat/clip/61e32d1a-73e5-4fe8-a0ff-288a002e7070_source-aspect-ratio_default_0.jpg",
     "source": "ARA Esports",
     "lang": "ca",
-    "id": 242
+    "id": 241
   },
   {
     "category": "tactics",
@@ -613,7 +599,7 @@
     "image": "https://d5r1tkwwv7d5g.cloudfront.net/articulos/articulos-724302.jpg",
     "source": "Nació Digital",
     "lang": "ca",
-    "id": 243
+    "id": 242
   },
   {
     "category": "tactics",
@@ -626,6 +612,20 @@
     "link": "https://www.ara.cat/esports/futbol/mundial/mundial-2026-directe-fase-grups_6_5765502.html",
     "image": "https://static1.ara.cat/clip/0de04244-3e52-42b1-858d-9ebe8c0a572b_16-9-aspect-ratio_default_0_x1799y964.jpg",
     "source": "ARA Esports",
+    "lang": "ca",
+    "id": 243
+  },
+  {
+    "category": "tactics",
+    "title": "El Mundial de Trump en un món en guerra",
+    "snippet": "La màxima competició del món del futbol arrenca als Estats Units enmig de tensions geopolítiques i polèmiques",
+    "time": "1d ago",
+    "timestamp": 1781151296,
+    "color": "linear-gradient(135deg, #f59e0b, #78350f)",
+    "overlay": "⚽",
+    "link": "https://naciodigital.cat/esports/el-mundial-de-trump-en-un-mon-en-guerra.html",
+    "image": "https://d5r1tkwwv7d5g.cloudfront.net/articulos/articulos-725200.jpg",
+    "source": "Nació Digital",
     "lang": "ca",
     "id": 244
   }
