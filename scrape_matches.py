@@ -88,7 +88,24 @@ TEAM_SQUADS = {
 }
 
 REAL_SCORES_OVERRIDE = {
-  1: (2, 0)  # Match #1: Mexico vs South Africa: 2-0
+  1: (2, 0),  # Match #1: Mexico vs South Africa: 2-0
+  2: (2, 1),  # Match #2: South Korea vs Czechia: 2-1
+  3: (0, 1)   # Match #3: Canada vs Bosnia and Herzegovina: 0-1
+}
+
+REAL_EVENTS_OVERRIDE = {
+  1: [
+    { "minute": 16, "team": "Mexico", "type": "goal", "desc": "Quiñones ⚽ (Goal!)" },
+    { "minute": 43, "team": "Mexico", "type": "goal", "desc": "Jiménez ⚽ (Goal!)" }
+  ],
+  2: [
+    { "minute": 59, "team": "Czechia", "type": "goal", "desc": "Krejčí ⚽ (Goal!)" },
+    { "minute": 67, "team": "South Korea", "type": "goal", "desc": "Hwang In-beom ⚽ (Goal!)" },
+    { "minute": 80, "team": "South Korea", "type": "goal", "desc": "Oh Hyeon-gyu ⚽ (Goal!)" }
+  ],
+  3: [
+    { "minute": 21, "team": "Bosnia and Herzegovina", "type": "goal", "desc": "Jovo Lukić ⚽ (Goal!)" }
+  ]
 }
 
 FIFA_RATINGS = {
@@ -248,7 +265,9 @@ def parse_fixtures():
         away_score = int(away_score)
         
         # Generate realistic goal scorers based on the squads
-        if home_score > 0 or away_score > 0:
+        if match_num in REAL_EVENTS_OVERRIDE:
+          events = REAL_EVENTS_OVERRIDE[match_num]
+        elif home_score > 0 or away_score > 0:
           home_players = TEAM_SQUADS.get(norm_team(home_team), ["Player"])
           away_players = TEAM_SQUADS.get(norm_team(away_team), ["Player"])
           # Home scorers

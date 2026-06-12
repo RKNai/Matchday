@@ -14,16 +14,16 @@
     "location": "Mexico City Stadium",
     "events": [
       {
-        "minute": 14,
+        "minute": 16,
         "team": "Mexico",
         "type": "goal",
-        "desc": "Pineda ⚽ (Goal!)"
+        "desc": "Quiñones ⚽ (Goal!)"
       },
       {
         "minute": 43,
         "team": "Mexico",
         "type": "goal",
-        "desc": "Lozano ⚽ (Goal!)"
+        "desc": "Jiménez ⚽ (Goal!)"
       }
     ],
     "stats": {
@@ -117,22 +117,22 @@
     "location": "Guadalajara Stadium",
     "events": [
       {
-        "minute": 31,
-        "team": "Korea Republic",
-        "type": "goal",
-        "desc": "Son Heung-min ⚽ (Goal!)"
-      },
-      {
-        "minute": 32,
+        "minute": 59,
         "team": "Czechia",
         "type": "goal",
-        "desc": "Barak ⚽ (Goal!)"
+        "desc": "Krejčí ⚽ (Goal!)"
       },
       {
-        "minute": 60,
-        "team": "Korea Republic",
+        "minute": 67,
+        "team": "South Korea",
         "type": "goal",
-        "desc": "Hwang Hee-chan ⚽ (Goal!)"
+        "desc": "Hwang In-beom ⚽ (Goal!)"
+      },
+      {
+        "minute": 80,
+        "team": "South Korea",
+        "type": "goal",
+        "desc": "Oh Hyeon-gyu ⚽ (Goal!)"
       }
     ],
     "stats": {
@@ -219,28 +219,35 @@
     "away": "Bosnia and Herzegovina",
     "awayFlag": "🇧🇦",
     "homeScore": 0,
-    "awayScore": 0,
-    "status": "live",
-    "minute": 27,
+    "awayScore": 1,
+    "status": "finished",
+    "minute": 0,
     "date": "Jun 12, 19:00 UTC",
     "location": "Toronto Stadium",
-    "events": [],
+    "events": [
+      {
+        "minute": 21,
+        "team": "Bosnia and Herzegovina",
+        "type": "goal",
+        "desc": "Jovo Lukić ⚽ (Goal!)"
+      }
+    ],
     "stats": {
       "possession": [
-        55,
-        45
+        50,
+        50
       ],
       "shots": [
-        8,
-        4
+        0,
+        0
       ],
       "fouls": [
-        6,
-        7
+        0,
+        0
       ],
       "corners": [
-        3,
-        2
+        0,
+        0
       ]
     },
     "lineups": {
