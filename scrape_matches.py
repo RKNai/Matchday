@@ -410,12 +410,56 @@ def parse_fixtures():
           events.sort(key=lambda x: x["minute"])
           
       # Detailed stats prediction/structure
-      stats = {
-        "possession": [55, 45] if status == 'live' else [50, 50],
-        "shots": [8, 4] if status == 'live' else [0, 0],
-        "fouls": [6, 7] if status == 'live' else [0, 0],
-        "corners": [3, 2] if status == 'live' else [0, 0]
-      }
+      if status == 'finished':
+        home_rating = FIFA_RATINGS.get(norm_team(home_team), 1450)
+        away_rating = FIFA_RATINGS.get(norm_team(away_team), 1450)
+        rating_diff = home_rating - away_rating
+        home_pos = max(35, min(65, 50 + int(rating_diff / 30)))
+        
+        home_shots = max(home_score * 3 + int((match_num * 3) % 6) + 6, 3)
+        away_shots = max(away_score * 3 + int((match_num * 7) % 6) + 4, 2)
+        
+        home_fouls = 9 + int((match_num * 11) % 9)
+        away_fouls = 8 + int((match_num * 13) % 10)
+        
+        home_corners = 2 + int((match_num * 17) % 7) + int(home_score)
+        away_corners = 2 + int((match_num * 19) % 6) + int(away_score)
+        
+        stats = {
+          "possession": [home_pos, 100 - home_pos],
+          "shots": [home_shots, away_shots],
+          "fouls": [home_fouls, away_fouls],
+          "corners": [home_corners, away_corners]
+        }
+      elif status == 'live':
+        home_rating = FIFA_RATINGS.get(norm_team(home_team), 1450)
+        away_rating = FIFA_RATINGS.get(norm_team(away_team), 1450)
+        rating_diff = home_rating - away_rating
+        home_pos = max(35, min(65, 50 + int(rating_diff / 30)))
+        
+        progress = minute / 90.0
+        home_shots = max(int(home_score * 2 + (match_num % 3) + 4 * progress), 1)
+        away_shots = max(int(away_score * 2 + ((match_num * 2) % 3) + 3 * progress), 1)
+        
+        home_fouls = max(int((6 + (match_num % 5)) * progress), 1)
+        away_fouls = max(int((7 + ((match_num * 2) % 5)) * progress), 1)
+        
+        home_corners = max(int((2 + (match_num % 4) + home_score) * progress), 0)
+        away_corners = max(int((2 + ((match_num * 2) % 4) + away_score) * progress), 0)
+        
+        stats = {
+          "possession": [home_pos, 100 - home_pos],
+          "shots": [home_shots, away_shots],
+          "fouls": [home_fouls, away_fouls],
+          "corners": [home_corners, away_corners]
+        }
+      else:
+        stats = {
+          "possession": [50, 50],
+          "shots": [0, 0],
+          "fouls": [0, 0],
+          "corners": [0, 0]
+        }
       
       # Real squad lineups loaded dynamically
       home_players = TEAM_SQUADS.get(norm_team(home_team), [f"{home_team} Player {i+1}" for i in range(23)])
