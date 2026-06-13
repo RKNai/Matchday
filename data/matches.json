@@ -443,28 +443,35 @@
     "away": "Switzerland",
     "awayFlag": "🇨🇭",
     "homeScore": 0,
-    "awayScore": 0,
-    "status": "upcoming",
-    "minute": 0,
+    "awayScore": 1,
+    "status": "live",
+    "minute": 53,
     "date": "Jun 13, 19:00 UTC",
     "location": "San Francisco Bay Area Stadium",
-    "events": [],
+    "events": [
+      {
+        "minute": 0,
+        "team": "Switzerland",
+        "type": "goal",
+        "desc": "Breel Embolo 17' (p) ⚽ (Goal!)"
+      }
+    ],
     "stats": {
       "possession": [
-        50,
-        50
+        23,
+        77
       ],
       "shots": [
-        0,
-        0
+        4,
+        11
       ],
       "fouls": [
-        0,
-        0
+        6,
+        7
       ],
       "corners": [
-        0,
-        0
+        2,
+        3
       ]
     },
     "lineups": {
