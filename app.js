@@ -973,15 +973,51 @@ function setupSplitScreenResizing() {
 
 // --- Dynamic Notification System ---
 function showToast(title, body) {
+  let type = 'info';
+  let cleanedTitle = title;
+
+  // Detect type based on leading emoji in title and clean the title string
+  if (title.includes('⚽')) {
+    type = 'goal';
+    cleanedTitle = title.replace('⚽', '').trim();
+  } else if (title.includes('🏁')) {
+    type = 'finish';
+    cleanedTitle = title.replace('🏁', '').trim();
+  } else if (title.includes('🟨')) {
+    type = 'card';
+    cleanedTitle = title.replace('🟨', '').trim();
+  } else if (title.includes('⚠️')) {
+    type = 'warning';
+    cleanedTitle = title.replace('⚠️', '').trim();
+  } else if (title.includes('🔔')) {
+    type = 'info';
+    cleanedTitle = title.replace('🔔', '').trim();
+  }
+
+  // Generate modern SVG icon markup
+  let svgIcon = '';
+  if (type === 'goal') {
+    svgIcon = `<svg viewBox="0 0 24 24" width="16" height="16" stroke="currentColor" stroke-width="2" fill="none" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"></circle><path d="M12 2a15.3 15.3 0 0 1 4 10 15.3 15.3 0 0 1-4 10 15.3 15.3 0 0 1-4-10 15.3 15.3 0 0 1 4-10z"></path><path d="M2 12h20"></path></svg>`;
+  } else if (type === 'finish') {
+    svgIcon = `<svg viewBox="0 0 24 24" width="16" height="16" stroke="currentColor" stroke-width="2" fill="none" stroke-linecap="round" stroke-linejoin="round"><path d="M4 15s1-1 4-1 5 2 8 2 4-1 4-1V3s-1 1-4 1-5-2-8-2-4 1-4 1z"></path><line x1="4" y1="22" x2="4" y2="15"></line></svg>`;
+  } else if (type === 'card') {
+    svgIcon = `<svg viewBox="0 0 24 24" width="16" height="16" stroke="currentColor" stroke-width="2" fill="none" stroke-linecap="round" stroke-linejoin="round"><rect x="5" y="3" width="14" height="18" rx="2" ry="2"></rect><line x1="9" y1="7" x2="15" y2="7"></line><line x1="9" y1="11" x2="15" y2="11"></line></svg>`;
+  } else if (type === 'warning') {
+    svgIcon = `<svg viewBox="0 0 24 24" width="16" height="16" stroke="currentColor" stroke-width="2" fill="none" stroke-linecap="round" stroke-linejoin="round"><path d="M10.29 3.86L1.82 18a2 2 0 0 0 1.71 3h16.94a2 2 0 0 0 1.71-3L13.71 3.86a2 2 0 0 0-3.42 0z"></path><line x1="12" y1="9" x2="12" y2="13"></line><line x1="12" y1="17" x2="12.01" y2="17"></line></svg>`;
+  } else {
+    // default/info/bell
+    svgIcon = `<svg viewBox="0 0 24 24" width="16" height="16" stroke="currentColor" stroke-width="2" fill="none" stroke-linecap="round" stroke-linejoin="round"><path d="M18 8A6 6 0 0 0 6 8c0 7-3 9-3 9h18s-3-2-3-9"></path><path d="M13.73 21a2 2 0 0 1-3.46 0"></path></svg>`;
+  }
+
   const toast = document.createElement('div');
-  toast.className = 'toast';
+  toast.className = `toast toast-${type}`;
   toast.innerHTML = `
-    <span class="toast-bell">🔔</span>
+    <div class="toast-badge">${svgIcon}</div>
     <div class="toast-content">
-      <div class="toast-title">${title}</div>
-      <div class="toast-body">${body}</div>
+      <div class="toast-title">${cleanedTitle}</div>
+      <div class="toast-body" title="${body}">${body}</div>
     </div>
-    <button class="toast-close">&times;</button>
+    <button class="toast-close" aria-label="Close alert">&times;</button>
   `;
 
   DOM.toastContainer.appendChild(toast);

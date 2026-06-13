@@ -2022,24 +2022,25 @@ body.light-theme .player-node-name {
   z-index: 1000;
   display: flex;
   flex-direction: column;
-  gap: 12px;
+  gap: 10px;
   pointer-events: none;
   max-width: 320px;
 }
 
 .toast {
   pointer-events: auto;
-  background: rgba(6, 6, 8, 0.95);
-  backdrop-filter: blur(16px);
-  border: 1px solid var(--primary);
-  box-shadow: 0 10px 25px rgba(0,0,0,0.5), 0 0 15px rgba(245, 158, 11, 0.15);
+  background: var(--bg-surface);
+  backdrop-filter: blur(20px);
+  -webkit-backdrop-filter: blur(20px);
+  border: 1px solid var(--border-color);
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.4), inset 0 1px 0 rgba(255, 255, 255, 0.05);
   border-radius: 12px;
-  padding: 16px;
+  padding: 12px 14px;
   display: flex;
   gap: 12px;
-  align-items: flex-start;
+  align-items: center;
   transform: translateX(120%);
-  transition: transform 0.4s var(--ease-spring), opacity 0.4s;
+  transition: transform 0.4s cubic-bezier(0.16, 1, 0.3, 1), opacity 0.3s ease;
   opacity: 0;
 }
 
@@ -2048,27 +2049,90 @@ body.light-theme .player-node-name {
   opacity: 1;
 }
 
-.toast-bell {
-  font-size: 20px;
-  animation: ringAlert 0.5s infinite alternate;
+.toast-badge {
+  width: 32px;
+  height: 32px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-shrink: 0;
+  transition: all 0.3s ease;
+}
+
+/* Specific Toast Types with soft glows */
+.toast-info .toast-badge {
+  background: rgba(16, 185, 129, 0.12);
+  border: 1px solid rgba(16, 185, 129, 0.25);
+  color: var(--primary);
+}
+.toast-info {
+  border-left: 3px solid var(--primary);
+}
+
+.toast-goal .toast-badge {
+  background: rgba(245, 158, 11, 0.12);
+  border: 1px solid rgba(245, 158, 11, 0.25);
+  color: var(--secondary);
+}
+.toast-goal {
+  border-left: 3px solid var(--secondary);
+}
+
+.toast-finish .toast-badge {
+  background: rgba(59, 130, 246, 0.12);
+  border: 1px solid rgba(59, 130, 246, 0.25);
+  color: var(--accent);
+}
+.toast-finish {
+  border-left: 3px solid var(--accent);
+}
+
+.toast-card .toast-badge {
+  background: rgba(245, 158, 11, 0.12);
+  border: 1px solid rgba(245, 158, 11, 0.25);
+  color: var(--secondary);
+}
+.toast-card {
+  border-left: 3px solid var(--secondary);
+}
+
+.toast-warning .toast-badge {
+  background: rgba(239, 68, 68, 0.12);
+  border: 1px solid rgba(239, 68, 68, 0.25);
+  color: var(--danger);
+}
+.toast-warning {
+  border-left: 3px solid var(--danger);
 }
 
 .toast-content {
   flex: 1;
+  min-width: 0;
 }
 
 .toast-title {
   font-family: var(--font-display);
   font-weight: 700;
-  font-size: 13px;
-  color: var(--primary);
-  margin-bottom: 4px;
+  font-size: 11px;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  margin-bottom: 2px;
 }
 
+.toast-info .toast-title { color: var(--primary); }
+.toast-goal .toast-title { color: var(--secondary); }
+.toast-finish .toast-title { color: var(--accent); }
+.toast-card .toast-title { color: var(--secondary); }
+.toast-warning .toast-title { color: var(--danger); }
+
 .toast-body {
-  font-size: 12px;
-  color: var(--text-primary);
-  line-height: 1.4;
+  font-size: 11px;
+  color: var(--text-secondary);
+  line-height: 1.35;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
 }
 
 .toast-close {
@@ -2078,6 +2142,9 @@ body.light-theme .player-node-name {
   font-size: 16px;
   cursor: pointer;
   line-height: 1;
+  padding: 4px;
+  align-self: center;
+  transition: color 0.2s;
 }
 
 .toast-close:hover {
