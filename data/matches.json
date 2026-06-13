@@ -321,13 +321,44 @@
     "homeFlag": "🇺🇸",
     "away": "Paraguay",
     "awayFlag": "🇵🇾",
-    "homeScore": 0,
-    "awayScore": 0,
-    "status": "upcoming",
+    "homeScore": 4,
+    "awayScore": 1,
+    "status": "finished",
     "minute": 0,
     "date": "Jun 13, 01:00 UTC",
     "location": "Los Angeles Stadium",
-    "events": [],
+    "events": [
+      {
+        "minute": 0,
+        "team": "USA",
+        "type": "goal",
+        "desc": "D. Bobadilla 7'(OG) ⚽ (Goal!)"
+      },
+      {
+        "minute": 5,
+        "team": "USA",
+        "type": "goal",
+        "desc": "F. Balogun 45'+ ⚽ (Goal!)"
+      },
+      {
+        "minute": 8,
+        "team": "USA",
+        "type": "goal",
+        "desc": "G. Reyna 90'+ ⚽ (Goal!)"
+      },
+      {
+        "minute": 31,
+        "team": "USA",
+        "type": "goal",
+        "desc": "F. Balogun ⚽ (Goal!)"
+      },
+      {
+        "minute": 73,
+        "team": "Paraguay",
+        "type": "goal",
+        "desc": "Maurício ⚽ (Goal!)"
+      }
+    ],
     "stats": {
       "possession": [
         50,
