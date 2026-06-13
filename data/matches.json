@@ -468,7 +468,7 @@
         68
       ],
       "shots": [
-        7,
+        6,
         26
       ],
       "fouls": [
@@ -545,28 +545,35 @@
     "homeFlag": "🇧🇷",
     "away": "Morocco",
     "awayFlag": "🇲🇦",
-    "homeScore": 0,
-    "awayScore": 0,
-    "status": "upcoming",
-    "minute": 0,
+    "homeScore": 1,
+    "awayScore": 1,
+    "status": "live",
+    "minute": 39,
     "date": "Jun 13, 22:00 UTC",
     "location": "New York/New Jersey Stadium",
-    "events": [],
+    "events": [
+      {
+        "minute": 21,
+        "team": "Morocco",
+        "type": "goal",
+        "desc": "I. Saibari ⚽ (Goal!)"
+      }
+    ],
     "stats": {
       "possession": [
-        0,
-        0
+        52,
+        48
       ],
       "shots": [
-        0,
-        0
+        4,
+        12
       ],
       "fouls": [
-        0,
-        0
+        5,
+        5
       ],
       "corners": [
-        0,
+        1,
         0
       ]
     },
