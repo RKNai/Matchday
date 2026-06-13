@@ -548,7 +548,7 @@
     "homeScore": 1,
     "awayScore": 1,
     "status": "live",
-    "minute": 39,
+    "minute": 90,
     "date": "Jun 13, 22:00 UTC",
     "location": "New York/New Jersey Stadium",
     "events": [
@@ -557,23 +557,29 @@
         "team": "Morocco",
         "type": "goal",
         "desc": "I. Saibari ⚽ (Goal!)"
+      },
+      {
+        "minute": 32,
+        "team": "Brazil",
+        "type": "goal",
+        "desc": "V. Júnior ⚽ (Goal!)"
       }
     ],
     "stats": {
       "possession": [
-        52,
-        48
+        55,
+        45
       ],
       "shots": [
-        4,
+        11,
         12
       ],
       "fouls": [
-        5,
-        5
+        14,
+        12
       ],
       "corners": [
-        1,
+        4,
         0
       ]
     },
