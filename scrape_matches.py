@@ -210,6 +210,80 @@ def parse_scorers_string(scorers_str):
       results.append((token, 0))
   return results
 
+def clean_team_name(name):
+  n = name.lower()
+  if 'korea' in n:
+    return 'southkorea'
+  if 'china' in n:
+    return 'china'
+  if 'usa' in n or 'united states' in n:
+    return 'usa'
+  if 'iran' in n:
+    return 'iran'
+  if 'turkey' in n or 'türkiye' in n:
+    return 'turkey'
+  if "cote d" in n or "côte d" in n or 'ivory coast' in n:
+    return 'ivorycoast'
+  if 'cape verde' in n or 'cabo verde' in n:
+    return 'caboverde'
+  n = n.replace('and', '').replace('&', '').replace('-', '').replace(' ', '')
+  return "".join(c for c in n if c.isalnum())
+
+def fetch_espn_stats_for_dates(dates_list):
+  espn_stats = {}
+  for date_str in dates_list:
+    url = f"https://site.api.espn.com/apis/site/v2/sports/soccer/fifa.world/scoreboard?dates={date_str}"
+    print(f"[Match Scraper] Fetching ESPN stats for date {date_str}...")
+    raw_api_data = fetch_json(url)
+    if not raw_api_data:
+      continue
+    try:
+      api_json = json.loads(raw_api_data.decode('utf-8'))
+      events = api_json.get("events", [])
+      for ev in events:
+        comp = ev.get('competitions', [{}])[0]
+        competitors = comp.get('competitors', [])
+        if len(competitors) < 2:
+          continue
+        home_team = competitors[0]
+        away_team = competitors[1]
+        if home_team.get('homeAway') != 'home':
+          home_team, away_team = away_team, home_team
+        
+        h_name = home_team['team']['displayName']
+        a_name = away_team['team']['displayName']
+        h_clean = clean_team_name(h_name)
+        a_clean = clean_team_name(a_name)
+        
+        h_stats = {s['name']: s['displayValue'] for s in home_team.get('statistics', [])}
+        a_stats = {s['name']: s['displayValue'] for s in away_team.get('statistics', [])}
+        
+        def parse_val(stats, key, default):
+          val = stats.get(key)
+          if val is None:
+            return default
+          try:
+            return int(round(float(val)))
+          except ValueError:
+            return default
+
+        h_pos = parse_val(h_stats, 'possessionPct', 50)
+        a_pos = parse_val(a_stats, 'possessionPct', 50)
+        if h_pos + a_pos != 100 and h_pos + a_pos > 0:
+          h_pos = int(round(h_pos / (h_pos + a_pos) * 100))
+          a_pos = 100 - h_pos
+
+        stats_entry = {
+          "possession": [h_pos, a_pos],
+          "shots": [parse_val(h_stats, 'totalShots', 0), parse_val(a_stats, 'totalShots', 0)],
+          "fouls": [parse_val(h_stats, 'foulsCommitted', 0), parse_val(a_stats, 'foulsCommitted', 0)],
+          "corners": [parse_val(h_stats, 'wonCorners', 0), parse_val(a_stats, 'wonCorners', 0)]
+        }
+        espn_stats[f"{h_clean}_{a_clean}"] = stats_entry
+    except Exception as e:
+      print(f"[Match Scraper] Warning: Failed to parse ESPN stats for {date_str} ({e})")
+  return espn_stats
+
 def parse_fixtures():
   print("[Match Scraper] Fetching real FIFA World Cup 2026 fixtures JSON...")
   raw_data = fetch_json(FIXTURES_JSON_URL)
@@ -234,6 +308,36 @@ def parse_fixtures():
   try:
     fixtures_list = json.loads(raw_data.decode('utf-8'))
     print(f"[Match Scraper] Scraped {len(fixtures_list)} total World Cup matches successfully.")
+    
+    # Pre-calculate now_utc to avoid repetitive parsing inside the loop
+    sim_date_str = os.environ.get('SIMULATED_DATE')
+    if sim_date_str:
+      try:
+        now_utc = datetime.strptime(sim_date_str, "%Y-%m-%d %H:%M:%S").replace(tzinfo=timezone.utc)
+      except ValueError:
+        try:
+          now_utc = datetime.strptime(sim_date_str, "%Y-%m-%d").replace(tzinfo=timezone.utc)
+        except ValueError:
+          now_utc = datetime.now(timezone.utc)
+    else:
+      now_utc = datetime.now(timezone.utc)
+
+    # Collect unique dates for matches that have kickoff times <= now_utc + 6 hours
+    dates_to_fetch = set()
+    for match in fixtures_list:
+      date_str = match.get("DateUtc", "")
+      if date_str:
+        try:
+          dt_utc = datetime.strptime(date_str, "%Y-%m-%d %H:%M:%SZ").replace(tzinfo=timezone.utc)
+          if dt_utc <= now_utc + timedelta(hours=6):
+            dates_to_fetch.add(dt_utc.strftime("%Y%m%d"))
+        except Exception:
+          pass
+
+    # Fetch ESPN stats map
+    espn_stats_map = {}
+    if dates_to_fetch:
+      espn_stats_map = fetch_espn_stats_for_dates(sorted(list(dates_to_fetch)))
     
     formatted_matches = []
     
@@ -281,18 +385,6 @@ def parse_fixtures():
       elapsed_minutes = 0
       
       if dt_utc:
-        sim_date_str = os.environ.get('SIMULATED_DATE')
-        if sim_date_str:
-          try:
-            now_utc = datetime.strptime(sim_date_str, "%Y-%m-%d %H:%M:%S").replace(tzinfo=timezone.utc)
-          except ValueError:
-            try:
-              now_utc = datetime.strptime(sim_date_str, "%Y-%m-%d").replace(tzinfo=timezone.utc)
-            except ValueError:
-              now_utc = datetime.now(timezone.utc)
-        else:
-          now_utc = datetime.now(timezone.utc)
-        
         live_limit_mins = 180 if is_knockout else 120
         if dt_utc <= now_utc <= (dt_utc + timedelta(minutes=live_limit_mins)):
           is_live = True
@@ -410,50 +502,27 @@ def parse_fixtures():
           events.sort(key=lambda x: x["minute"])
           
       # Detailed stats prediction/structure
-      if status == 'finished':
-        home_rating = FIFA_RATINGS.get(norm_team(home_team), 1450)
-        away_rating = FIFA_RATINGS.get(norm_team(away_team), 1450)
-        rating_diff = home_rating - away_rating
-        home_pos = max(35, min(65, 50 + int(rating_diff / 30)))
-        
-        home_shots = max(home_score * 3 + int((match_num * 3) % 6) + 6, 3)
-        away_shots = max(away_score * 3 + int((match_num * 7) % 6) + 4, 2)
-        
-        home_fouls = 9 + int((match_num * 11) % 9)
-        away_fouls = 8 + int((match_num * 13) % 10)
-        
-        home_corners = 2 + int((match_num * 17) % 7) + int(home_score)
-        away_corners = 2 + int((match_num * 19) % 6) + int(away_score)
-        
-        stats = {
-          "possession": [home_pos, 100 - home_pos],
-          "shots": [home_shots, away_shots],
-          "fouls": [home_fouls, away_fouls],
-          "corners": [home_corners, away_corners]
-        }
-      elif status == 'live':
-        home_rating = FIFA_RATINGS.get(norm_team(home_team), 1450)
-        away_rating = FIFA_RATINGS.get(norm_team(away_team), 1450)
-        rating_diff = home_rating - away_rating
-        home_pos = max(35, min(65, 50 + int(rating_diff / 30)))
-        
-        progress = minute / 90.0
-        home_shots = max(int(home_score * 2 + (match_num % 3) + 4 * progress), 1)
-        away_shots = max(int(away_score * 2 + ((match_num * 2) % 3) + 3 * progress), 1)
-        
-        home_fouls = max(int((6 + (match_num % 5)) * progress), 1)
-        away_fouls = max(int((7 + ((match_num * 2) % 5)) * progress), 1)
-        
-        home_corners = max(int((2 + (match_num % 4) + home_score) * progress), 0)
-        away_corners = max(int((2 + ((match_num * 2) % 4) + away_score) * progress), 0)
-        
-        stats = {
-          "possession": [home_pos, 100 - home_pos],
-          "shots": [home_shots, away_shots],
-          "fouls": [home_fouls, away_fouls],
-          "corners": [home_corners, away_corners]
-        }
+      h_clean = clean_team_name(home_team)
+      a_clean = clean_team_name(away_team)
+      stats_key = f"{h_clean}_{a_clean}"
+      
+      espn_match_stats = espn_stats_map.get(stats_key)
+      if not espn_match_stats:
+        # Try inverted key
+        inverted_key = f"{a_clean}_{h_clean}"
+        inverted_stats = espn_stats_map.get(inverted_key)
+        if inverted_stats:
+          espn_match_stats = {
+            "possession": [inverted_stats["possession"][1], inverted_stats["possession"][0]],
+            "shots": [inverted_stats["shots"][1], inverted_stats["shots"][0]],
+            "fouls": [inverted_stats["fouls"][1], inverted_stats["fouls"][0]],
+            "corners": [inverted_stats["corners"][1], inverted_stats["corners"][0]]
+          }
+      
+      if espn_match_stats:
+        stats = espn_match_stats
       else:
+        # Fallback to zero stats if not found (don't invent data)
         stats = {
           "possession": [50, 50],
           "shots": [0, 0],
