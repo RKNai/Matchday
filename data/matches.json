@@ -442,10 +442,10 @@
     "homeFlag": "🇶🇦",
     "away": "Switzerland",
     "awayFlag": "🇨🇭",
-    "homeScore": 0,
+    "homeScore": 1,
     "awayScore": 1,
-    "status": "live",
-    "minute": 53,
+    "status": "finished",
+    "minute": 0,
     "date": "Jun 13, 19:00 UTC",
     "location": "San Francisco Bay Area Stadium",
     "events": [
@@ -454,24 +454,30 @@
         "team": "Switzerland",
         "type": "goal",
         "desc": "Breel Embolo 17' (p) ⚽ (Goal!)"
+      },
+      {
+        "minute": 5,
+        "team": "Qatar",
+        "type": "goal",
+        "desc": "B. Khoukhi 90'+ ⚽ (Goal!)"
       }
     ],
     "stats": {
       "possession": [
-        23,
-        77
+        32,
+        68
       ],
       "shots": [
-        4,
-        11
+        7,
+        26
       ],
       "fouls": [
-        6,
-        7
+        12,
+        11
       ],
       "corners": [
-        2,
-        3
+        3,
+        10
       ]
     },
     "lineups": {
@@ -548,8 +554,8 @@
     "events": [],
     "stats": {
       "possession": [
-        50,
-        50
+        0,
+        0
       ],
       "shots": [
         0,
