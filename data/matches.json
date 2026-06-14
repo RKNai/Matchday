@@ -650,8 +650,8 @@
     "awayFlag": "🏴󠁧󠁢󠁳󠁣󠁴󠁿",
     "homeScore": 0,
     "awayScore": 1,
-    "status": "live",
-    "minute": 90,
+    "status": "finished",
+    "minute": 0,
     "date": "Jun 14, 01:00 UTC",
     "location": "Boston Stadium",
     "events": [
@@ -664,19 +664,19 @@
     ],
     "stats": {
       "possession": [
-        48,
-        52
+        54,
+        46
       ],
       "shots": [
-        8,
-        8
+        15,
+        9
       ],
       "fouls": [
-        20,
-        14
+        23,
+        21
       ],
       "corners": [
-        1,
+        4,
         3
       ]
     },
@@ -745,29 +745,42 @@
     "homeFlag": "🇦🇺",
     "away": "Türkiye",
     "awayFlag": "🇹🇷",
-    "homeScore": 0,
+    "homeScore": 2,
     "awayScore": 0,
-    "status": "upcoming",
+    "status": "finished",
     "minute": 0,
     "date": "Jun 14, 04:00 UTC",
     "location": "BC Place Vancouver",
-    "events": [],
+    "events": [
+      {
+        "minute": 27,
+        "team": "Australia",
+        "type": "goal",
+        "desc": "Nestory Irankunda ⚽ (Goal!)"
+      },
+      {
+        "minute": 75,
+        "team": "Australia",
+        "type": "goal",
+        "desc": "C. Metcalfe ⚽ (Goal!)"
+      }
+    ],
     "stats": {
       "possession": [
-        50,
-        50
+        28,
+        72
       ],
       "shots": [
-        0,
-        0
+        9,
+        30
       ],
       "fouls": [
-        0,
-        0
+        12,
+        4
       ],
       "corners": [
-        0,
-        0
+        5,
+        8
       ]
     },
     "lineups": {
