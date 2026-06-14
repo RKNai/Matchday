@@ -1,9 +1,65 @@
 [
   {
+    "category": "tactics",
+    "title": "The 20-year-old who stole the show on Scotland's World Cup return",
+    "snippet": "Ben Gannon-Doak wasn't born when Scotland last played at the men's World Cup. But the 20-year-old was at the heart of their long-awaited return and their first win at the tournament in 36 years as he stole the show against Haiti.",
+    "time": "21m ago",
+    "timestamp": 1781438810,
+    "color": "linear-gradient(135deg, #f59e0b, #78350f)",
+    "overlay": "⚽",
+    "link": "https://www.bbc.com/sport/football/articles/clyrepwp0gno?at_medium=RSS&at_campaign=rss",
+    "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/3cba/live/a1fce630-67ea-11f1-b1db-af71d47507d6.jpg",
+    "source": "BBC Sport",
+    "lang": "en",
+    "id": 200
+  },
+  {
+    "category": "tactics",
+    "title": "Could Japan be the World Cup's dark horses?",
+    "snippet": "Japan could be one of the surprise packages of the 2026 World Cup, with growing belief they are ready to go further than ever before.",
+    "time": "26m ago",
+    "timestamp": 1781438552,
+    "color": "linear-gradient(135deg, #f59e0b, #78350f)",
+    "overlay": "⚽",
+    "link": "https://www.bbc.com/sport/football/articles/c2ky51391jlo?at_medium=RSS&at_campaign=rss",
+    "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/48b4/live/f3b62c40-676b-11f1-9852-c7121e9e1897.jpg",
+    "source": "BBC Sport",
+    "lang": "en",
+    "id": 201
+  },
+  {
+    "category": "lineup",
+    "title": "How Cape Verde plan to 'surprise people' at the World Cup",
+    "snippet": "Cape Verde’s presence at this World Cup, where they take on favourites Spain in their opening game, is one of the fairy-tales of this tournament. But it has been coming. “I believe we can surprise people once again,” Telmo Arcanjo tells Sky Sports.",
+    "time": "28m ago",
+    "timestamp": 1781438400,
+    "color": "linear-gradient(135deg, #3b82f6, #1e3a8a)",
+    "overlay": "📋",
+    "link": "https://www.skysports.com/football/news/11095/13549964/telmo-arcanjo-interview-cape-verdes-unity-key-to-world-cup-achievement-as-they-plan-to-surprise-the-opposition",
+    "image": "https://e0.365dm.com/26/06/1920x1080/skysports-telmo-arcanjo-cape-verde_7271051.jpg?20260611183744",
+    "source": "Sky Sports",
+    "lang": "en",
+    "id": 202
+  },
+  {
+    "category": "lineup",
+    "title": "BBC Sport pundits choose England World Cup XIs - who would you pick?",
+    "snippet": "Thomas Tuchel will pick his first England World Cup team on Wednesday, when the Three Lions take on Croatia. BBC Sport pundits choose their starting XIs - who would you pick?",
+    "time": "1h ago",
+    "timestamp": 1781435093,
+    "color": "linear-gradient(135deg, #3b82f6, #1e3a8a)",
+    "overlay": "📋",
+    "link": "https://www.bbc.com/sport/football/articles/c8r2l12jjz7o?at_medium=RSS&at_campaign=rss",
+    "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/c972/live/082eff70-676d-11f1-8546-8f19e4fe30f4.png",
+    "source": "BBC Sport",
+    "lang": "en",
+    "id": 203
+  },
+  {
     "category": "transfer",
     "title": "Fifa to pay Somali referee Artan full World Cup fee",
     "snippet": "Somali referee Omar Artan, who was denied entry to the United States to officiate at the World Cup, will still receive his tournament fee from Fifa in full.",
-    "time": "1h ago",
+    "time": "3h ago",
     "timestamp": 1781427608,
     "color": "linear-gradient(135deg, #a855f7, #581c87)",
     "overlay": "🔄",
@@ -11,13 +67,13 @@
     "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/1c3c/live/7f657ff0-635e-11f1-8b15-6100cfbc3083.jpg",
     "source": "BBC Sport",
     "lang": "en",
-    "id": 200
+    "id": 204
   },
   {
     "category": "tactics",
     "title": "Smaller than Isle of Man & huge Dutch influence: Curacao making history",
     "snippet": "Curacao has possibly been most famous for its alcoholic drink of the same name - but now the nation is ready to announce itself at the World Cup.",
-    "time": "1h ago",
+    "time": "3h ago",
     "timestamp": 1781426880,
     "color": "linear-gradient(135deg, #f59e0b, #78350f)",
     "overlay": "⚽",
@@ -25,13 +81,13 @@
     "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/df05/live/1067a030-641a-11f1-b8c4-d17e7970dcab.jpg",
     "source": "BBC Sport",
     "lang": "en",
-    "id": 201
+    "id": 205
   },
   {
     "category": "rules",
     "title": "Was this offside? Technology fault leaves questions over VAR images",
     "snippet": "Fifa have blamed a technical fault for the delay in releasing the VAR images after a potential - and controversial - offside call during Qatar's World Cup draw with Switzerland.",
-    "time": "1h ago",
+    "time": "3h ago",
     "timestamp": 1781425965,
     "color": "linear-gradient(135deg, #64748b, #334155)",
     "overlay": "📺",
@@ -39,13 +95,13 @@
     "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/c4e2/live/6b8e8bc0-6773-11f1-b1db-af71d47507d6.png",
     "source": "BBC Sport",
     "lang": "en",
-    "id": 202
+    "id": 206
   },
   {
     "category": "tactics",
     "title": "'Resolute, gritty and determined' - Scotland battle to famous win",
     "snippet": "Luke Shanley gives his verdict on Scotland’s 1-0 win over Haiti at the World Cup.",
-    "time": "2h ago",
+    "time": "4h ago",
     "timestamp": 1781425680,
     "color": "linear-gradient(135deg, #f59e0b, #78350f)",
     "overlay": "⚽",
@@ -53,13 +109,13 @@
     "image": "https://e0.365dm.com/26/06/1920x1080/skysports-verdict-scotland_7272962.jpg?20260614083006",
     "source": "Sky Sports",
     "lang": "en",
-    "id": 203
+    "id": 207
   },
   {
     "category": "rules",
     "title": "FIFA blames 'technical' error for VAR controversy in Qatar vs Switzerland",
     "snippet": "",
-    "time": "2h ago",
+    "time": "4h ago",
     "timestamp": 1781424000,
     "color": "linear-gradient(135deg, #64748b, #334155)",
     "overlay": "📺",
@@ -67,13 +123,13 @@
     "image": "https://e2.365dm.com/26/06/1920x1080/skysports-qatar-switzerland_7272948.png?20260614080735",
     "source": "Sky Sports",
     "lang": "en",
-    "id": 204
+    "id": 208
   },
   {
     "category": "tactics",
     "title": "Will Van Dijk's last Netherlands dance end in World Cup glory?",
     "snippet": "Virgil van Dijk will be desperate to lead the Netherlands to World Cup glory for the first time in their history in what will surely be the centre back's final-ever appearance at the tournament.",
-    "time": "2h ago",
+    "time": "4h ago",
     "timestamp": 1781424000,
     "color": "linear-gradient(135deg, #f59e0b, #78350f)",
     "overlay": "⚽",
@@ -81,13 +137,13 @@
     "image": "https://e1.365dm.com/24/06/1920x1080/skysports-van-dijk-netherlands_6574568.jpg?20240606102941",
     "source": "Sky Sports",
     "lang": "en",
-    "id": 205
+    "id": 209
   },
   {
     "category": "tactics",
     "title": "Refugee who quit Bayern to create Aussie World Cup dream",
     "snippet": "Nestory Irankunda was born as a refugee in Tanzania before becoming Australian record breaker with goal in victory over Turkey.",
-    "time": "2h ago",
+    "time": "4h ago",
     "timestamp": 1781422865,
     "color": "linear-gradient(135deg, #f59e0b, #78350f)",
     "overlay": "⚽",
@@ -95,13 +151,13 @@
     "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/b919/live/59c7e700-67c4-11f1-8ca6-eb07b94f604c.jpg",
     "source": "BBC Sport",
     "lang": "en",
-    "id": 206
+    "id": 210
   },
   {
     "category": "tactics",
     "title": "Clinical Australia upset Turkey in World Cup opener",
     "snippet": "Watch highlights as Australia beat Turkey in their opening match, with 20-year-old Nestory Irankunda becoming the Socceroos's youngest ever World Cup goalscorer.",
-    "time": "3h ago",
+    "time": "5h ago",
     "timestamp": 1781421405,
     "color": "linear-gradient(135deg, #f59e0b, #78350f)",
     "overlay": "⚽",
@@ -109,13 +165,13 @@
     "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/a760/live/aea29840-67bc-11f1-8546-8f19e4fe30f4.jpg",
     "source": "BBC Sport",
     "lang": "en",
-    "id": 207
+    "id": 211
   },
   {
     "category": "tactics",
     "title": "Australia shock Turkey to make winning start to World Cup campaign",
     "snippet": "Goals in each half from Nestory Irankunda and Connor Metcalfe saw Australia shock Turkey 2-0 in their opening World Cup Group D clash in Vancouver.",
-    "time": "3h ago",
+    "time": "5h ago",
     "timestamp": 1781421300,
     "color": "linear-gradient(135deg, #f59e0b, #78350f)",
     "overlay": "⚽",
@@ -123,13 +179,13 @@
     "image": "https://e1.365dm.com/26/06/1920x1080/skysports-irankunda-australia_7272868.jpg?20260614054438",
     "source": "Sky Sports",
     "lang": "en",
-    "id": 208
+    "id": 212
   },
   {
     "category": "tactics",
     "title": "Football Daily",
     "snippet": "Scotland are back and they've started their World Cup with a win.",
-    "time": "3h ago",
+    "time": "5h ago",
     "timestamp": 1781421060,
     "color": "linear-gradient(135deg, #f59e0b, #78350f)",
     "overlay": "⚽",
@@ -137,13 +193,13 @@
     "image": "https://ichef.bbci.co.uk/images/ic/240x135/p0nrkrh6.jpg",
     "source": "BBC Sport",
     "lang": "en",
-    "id": 209
+    "id": 213
   },
   {
     "category": "tactics",
     "title": "'Super John McGinn!' | Scotland fans overjoyed after win over Haiti",
     "snippet": "Scotland fans in Boston overjoyed after win over Haiti in the World Cup.",
-    "time": "3h ago",
+    "time": "5h ago",
     "timestamp": 1781419140,
     "color": "linear-gradient(135deg, #f59e0b, #78350f)",
     "overlay": "⚽",
@@ -151,69 +207,27 @@
     "image": "https://e0.365dm.com/26/06/1920x1080/skysports-scotland-football_7272894.jpg?20260614064351",
     "source": "Sky Sports",
     "lang": "en",
-    "id": 210
-  },
-  {
-    "category": "tactics",
-    "title": "Who am I? Guess World Cup star No 7",
-    "snippet": "Will you get today's player in as few attempts as possible?",
-    "time": "4h ago",
-    "timestamp": 1781418361,
-    "color": "linear-gradient(135deg, #f59e0b, #78350f)",
-    "overlay": "⚽",
-    "link": "https://www.bbc.com/sport/football/articles/c5y7vy9zz25o?at_medium=RSS&at_campaign=rss",
-    "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/edec/live/683e3260-630c-11f1-89a3-d1f559421220.jpg",
-    "source": "BBC Sport",
-    "lang": "en",
-    "id": 211
-  },
-  {
-    "category": "tactics",
-    "title": "Scotland latest: We achieved our World Cup dreams today, says Robertson",
-    "snippet": "",
-    "time": "4h ago",
-    "timestamp": 1781416200,
-    "color": "linear-gradient(135deg, #f59e0b, #78350f)",
-    "overlay": "⚽",
-    "link": "https://www.skysports.com/football/live-blog/11095/13551944/scotland-football-news-live-updates-schedule-and-analysis-of-steve-clarkes-side",
-    "image": "https://e0.365dm.com/26/06/1920x1080/skysports-andy-robertson-john-mcginn_7272867.jpg?20260614054225",
-    "source": "Sky Sports",
-    "lang": "en",
-    "id": 212
-  },
-  {
-    "category": "tactics",
-    "title": "Clarke: Pressure has eased on Scotland after crucial win",
-    "snippet": "Steve Clarke believes the pressure has eased on Scotland after earning their first World Cup victory in 36 years with a 1-0 win over Haiti in their Group C opener.",
-    "time": "4h ago",
-    "timestamp": 1781415900,
-    "color": "linear-gradient(135deg, #f59e0b, #78350f)",
-    "overlay": "⚽",
-    "link": "https://www.skysports.com/football/news/11095/13553844/haiti-0-1-scotland-steve-clarke-reflects-on-must-win-world-cup-group-c-opener-as-andy-robertson-says-players-achieved-their-dreams",
-    "image": "https://e1.365dm.com/26/06/1920x1080/skysports-scotland-andy-robertson_7272855.jpg?20260614051706",
-    "source": "Sky Sports",
-    "lang": "en",
-    "id": 213
-  },
-  {
-    "category": "tactics",
-    "title": "England's first World Cup training session: What did we learn?",
-    "snippet": "England have had their first training session in Kansas City - what did we learn?",
-    "time": "5h ago",
-    "timestamp": 1781413276,
-    "color": "linear-gradient(135deg, #f59e0b, #78350f)",
-    "overlay": "⚽",
-    "link": "https://www.bbc.com/sport/football/articles/cx2kjrrxxx2o?at_medium=RSS&at_campaign=rss",
-    "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/cce0/live/58426930-67a8-11f1-881b-3b97a2dda258.jpg",
-    "source": "BBC Sport",
-    "lang": "en",
     "id": 214
+  },
+  {
+    "category": "tactics",
+    "title": "La paradoja de David Raya, el portero invisible: \"Puede que se hayan olvidado de mí\"",
+    "snippet": "Siendo uno de los porteros más valorados en el mundo, observa cómo el debate se centra en Unai Simón y Joan García Leer",
+    "time": "1h ago",
+    "timestamp": 1781434501,
+    "color": "linear-gradient(135deg, #f59e0b, #78350f)",
+    "overlay": "⚽",
+    "link": "https://www.elmundo.es/deportes/futbol/mundial-de-futbol/2026/06/14/6a2d841be9cf4a0f3b8b45c1.html",
+    "image": "https://e00-elmundo.uecdn.es/assets/multimedia/imagenes/2026/06/13/17813677193974_990x0.jpg",
+    "source": "El Mundo Deportes",
+    "lang": "es",
+    "id": 215
   },
   {
     "category": "injury",
     "title": "Llegó el momento: elige el once de España para su debut en el Mundial ante Cabo Verde",
     "snippet": "Muchos fijos y alguna duda para De la Fuente<span class=\"xai-icon\" contenteditable=\"false\" aria-hidden=\"true\" tabindex=\"-1\" style=\"user-select: none; pointer-events: auto;\"></span>",
-    "time": "1h ago",
+    "time": "3h ago",
     "timestamp": 1781428241,
     "color": "linear-gradient(135deg, #ef4444, #7f1d1d)",
     "overlay": "🩺",
@@ -221,13 +235,13 @@
     "image": "https://e01-xlk-ue-marca.uecdn.es/files/horizontal_image_desktop/uploads/2026/06/14/6a2e6ffb5edd7.jpeg",
     "source": "Marca",
     "lang": "es",
-    "id": 215
+    "id": 216
   },
   {
     "category": "tactics",
     "title": "Portugal rendirá homenaje a Diogo Jota",
     "snippet": "Sigue la última hora de toda la información de la Copa del Mundo 2026",
-    "time": "3h ago",
+    "time": "5h ago",
     "timestamp": 1781421411,
     "color": "linear-gradient(135deg, #f59e0b, #78350f)",
     "overlay": "⚽",
@@ -235,13 +249,13 @@
     "image": "https://e01-xlk-ue-marca.uecdn.es/files/horizontal_image_desktop/uploads/2026/06/14/6a2e720610df2.jpeg",
     "source": "Marca",
     "lang": "es",
-    "id": 216
+    "id": 217
   },
   {
     "category": "tactics",
     "title": "Cumbre de líderes de la industria deportiva como preámbulo al debut de España",
     "snippet": "La Cámara de Comercio España-EEUU y la Metro Atlanta Chamber organizan este lunes el Business and Sports Summit USA 2026 al calor de la Copa del mundo, con MARCA como diario oficial",
-    "time": "3h ago",
+    "time": "5h ago",
     "timestamp": 1781420637,
     "color": "linear-gradient(135deg, #f59e0b, #78350f)",
     "overlay": "⚽",
@@ -249,13 +263,27 @@
     "image": "https://e01-xlk-ue-marca.uecdn.es/files/horizontal_image_desktop/uploads/2026/06/14/6a2e4c560ca9d.jpeg",
     "source": "Marca",
     "lang": "es",
-    "id": 217
+    "id": 218
+  },
+  {
+    "category": "tactics",
+    "title": "Partidos de hoy, domingo 14 de junio, del Mundial 2026: horarios y dónde ver por TV",
+    "snippet": "Hoy hay varios partidos previstos de la fase previa del Mundial de fútbol, que se juega en EEUU, Canadá y México: algunos de ellos de selecciones europeas Leer",
+    "time": "5h ago",
+    "timestamp": 1781420400,
+    "color": "linear-gradient(135deg, #f59e0b, #78350f)",
+    "overlay": "⚽",
+    "link": "https://www.elmundo.es/deportes/futbol/mundial-de-futbol/2026/06/14/6a2bf022e9cf4aa03f8b4575.html",
+    "image": "https://e00-elmundo.uecdn.es/assets/multimedia/imagenes/2026/06/12/17812647081620_990x0.jpg",
+    "source": "El Mundo Deportes",
+    "lang": "es",
+    "id": 219
   },
   {
     "category": "tactics",
     "title": "Australia 2-0 Turquía | Resumen Mundial 2026",
     "snippet": "",
-    "time": "3h ago",
+    "time": "5h ago",
     "timestamp": 1781419062,
     "color": "linear-gradient(135deg, #f59e0b, #78350f)",
     "overlay": "⚽",
@@ -263,13 +291,13 @@
     "image": "https://images.unsplash.com/photo-1579952363873-27f3bade9f55?w=800&auto=format&fit=crop",
     "source": "Marca",
     "lang": "es",
-    "id": 218
+    "id": 220
   },
   {
     "category": "tactics",
     "title": "Patrick Beach, el mejor jugador de lo que va de Mundial",
     "snippet": "A pesar de la victoria, tan solo un jugador de Australia se cuela en el top 5",
-    "time": "4h ago",
+    "time": "6h ago",
     "timestamp": 1781418278,
     "color": "linear-gradient(135deg, #f59e0b, #78350f)",
     "overlay": "⚽",
@@ -277,13 +305,13 @@
     "image": "https://e01-xlk-ue-marca.uecdn.es/files/horizontal_image_desktop/uploads/2026/06/14/6a2e48b52983b.jpeg",
     "source": "Marca",
     "lang": "es",
-    "id": 219
+    "id": 221
   },
   {
     "category": "tactics",
     "title": "Australia hace que 'Arda' el Mundial",
     "snippet": "La selección oceánica se impuso a la Turquía de Güler con una gran actuación de los de Popovic. Irankunda y Metcalfe, los goleadores",
-    "time": "4h ago",
+    "time": "6h ago",
     "timestamp": 1781416795,
     "color": "linear-gradient(135deg, #f59e0b, #78350f)",
     "overlay": "⚽",
@@ -291,13 +319,13 @@
     "image": "https://e01-xlk-ue-marca.uecdn.es/files/horizontal_image_desktop/uploads/2026/06/14/6a2e40b56c127.jpeg",
     "source": "Marca",
     "lang": "es",
-    "id": 220
+    "id": 222
   },
   {
     "category": "tactics",
     "title": "El negocio oculto del Mundial: cuánto cobrará cada club por sus jugadores",
     "snippet": "Antonio Fernández, Senior Associate del área de Sports de Baker McKenzie, explica a MARCA cómo funcionará el reparto económico por ceder futbolistas al Mundial 2026<span class=\"\" contenteditable=\"false\" aria-hidden=\"true\" tabindex=\"-1\" style=\"user-select: none; pointer-events: auto;\"></span><span class=\"\" contenteditable=\"false\" aria-hidden=\"true\" tabindex=\"-1\" style=\"user-select: none; pointer-events: auto;\"></span><span class=\"\" contenteditable=\"false\" aria-hidden=\"true\" tabindex=\"-1\" style=\"user-select: none; pointer-events: auto;\"></span>",
-    "time": "5h ago",
+    "time": "7h ago",
     "timestamp": 1781414605,
     "color": "linear-gradient(135deg, #f59e0b, #78350f)",
     "overlay": "⚽",
@@ -305,13 +333,13 @@
     "image": "https://e01-xlk-ue-marca.uecdn.es/files/horizontal_image_desktop/uploads/2026/06/12/6a2c5c585cd15.jpeg",
     "source": "Marca",
     "lang": "es",
-    "id": 221
+    "id": 223
   },
   {
     "category": "tactics",
     "title": "Haití 0-1 Escocia | Resumen Mundial 2026",
     "snippet": "",
-    "time": "5h ago",
+    "time": "7h ago",
     "timestamp": 1781414232,
     "color": "linear-gradient(135deg, #f59e0b, #78350f)",
     "overlay": "⚽",
@@ -319,13 +347,13 @@
     "image": "https://images.unsplash.com/photo-1508098682722-e99c43a406b2?w=800&auto=format&fit=crop",
     "source": "Marca",
     "lang": "es",
-    "id": 222
+    "id": 224
   },
   {
     "category": "lineup",
     "title": "Dumfries debuta como madridista en Países Bajos",
     "snippet": "El futuro jugador del Real Madrid será titular como lateral derecho de Koeman",
-    "time": "5h ago",
+    "time": "7h ago",
     "timestamp": 1781413412,
     "color": "linear-gradient(135deg, #3b82f6, #1e3a8a)",
     "overlay": "📋",
@@ -333,13 +361,13 @@
     "image": "https://e01-xlk-ue-marca.uecdn.es/files/horizontal_image_desktop/uploads/2026/06/14/6a2e2be597637.jpeg",
     "source": "Marca",
     "lang": "es",
-    "id": 223
+    "id": 225
   },
   {
     "category": "tactics",
     "title": "Leandro Bacuna: \"Hemos puesto a Curazao en el mapa\"",
     "snippet": "El capitán de la selección más pequeña de la historia en jugar un Mundial charla con MARCA antes de su debut contra Alemania",
-    "time": "5h ago",
+    "time": "7h ago",
     "timestamp": 1781413285,
     "color": "linear-gradient(135deg, #f59e0b, #78350f)",
     "overlay": "⚽",
@@ -347,13 +375,13 @@
     "image": "https://e01-xlk-ue-marca.uecdn.es/files/horizontal_image_desktop/uploads/2026/06/14/6a2e16200e34e.jpeg",
     "source": "Marca",
     "lang": "es",
-    "id": 224
+    "id": 226
   },
   {
     "category": "tactics",
     "title": "\"Curazao aprovecha los descartes de Holanda\"",
     "snippet": "'Al otro lado del espejo', una opinión de Alfredo Relaño",
-    "time": "5h ago",
+    "time": "7h ago",
     "timestamp": 1781413093,
     "color": "linear-gradient(135deg, #f59e0b, #78350f)",
     "overlay": "⚽",
@@ -361,13 +389,13 @@
     "image": "https://e01-xlk-ue-marca.uecdn.es/files/horizontal_image_desktop/uploads/2026/06/13/6a2d814edbd02.jpeg",
     "source": "Marca",
     "lang": "es",
-    "id": 225
+    "id": 227
   },
   {
     "category": "tactics",
     "title": "Los ocho senegaleses que nacieron en Francia",
     "snippet": "El grupo del combinado africano lo componen en buena parte jugadores que crecieron en las inferiores de Les Bleus, que juegan en la Ligue 1 y que nacieron en el país galo",
-    "time": "5h ago",
+    "time": "7h ago",
     "timestamp": 1781412171,
     "color": "linear-gradient(135deg, #f59e0b, #78350f)",
     "overlay": "⚽",
@@ -375,46 +403,18 @@
     "image": "https://e01-xlk-ue-marca.uecdn.es/files/horizontal_image_desktop/uploads/2026/06/12/6a2bf17cbe9f0.jpeg",
     "source": "Marca",
     "lang": "es",
-    "id": 226
+    "id": 228
   },
   {
     "category": "injury",
     "title": "La médico ex Real Madrid que mantiene en forma a la 'cenicienta' del Mundial",
     "snippet": "La jefa de los servicios médicos de Curazao, que formó parte del Real Madrid (2020-2024) lidera los cuidados de la pequeña isla caribeña, debutante mundialista en 2026",
-    "time": "5h ago",
+    "time": "7h ago",
     "timestamp": 1781412047,
     "color": "linear-gradient(135deg, #ef4444, #7f1d1d)",
     "overlay": "🩺",
     "link": "https://www.marca.com/futbol/mundial/2026/06/14/medicina-real-madrid-curazao-suzanne-huurman-medico-mantiene-forma-cenicienta-mundial.html",
     "image": "https://e01-xlk-ue-marca.uecdn.es/files/horizontal_image_desktop/uploads/2026/06/13/6a2d75dccf36e.jpeg",
-    "source": "Marca",
-    "lang": "es",
-    "id": 227
-  },
-  {
-    "category": "tactics",
-    "title": "A Escocia no le sobra nada contra Haití",
-    "snippet": "Los de Clark sudan la gota gorda para sacar los tres puntos en un partido en el que terminaron pidiendo la hora",
-    "time": "7h ago",
-    "timestamp": 1781406822,
-    "color": "linear-gradient(135deg, #f59e0b, #78350f)",
-    "overlay": "⚽",
-    "link": "https://www.marca.com/futbol/mundial/cronica/2026/06/14/mcginn-sonreir-escocia-combativa-haiti.html",
-    "image": "https://images.unsplash.com/photo-1579952363873-27f3bade9f55?w=800&auto=format&fit=crop",
-    "source": "Marca",
-    "lang": "es",
-    "id": 228
-  },
-  {
-    "category": "tactics",
-    "title": "\"El fútbol y sus confusiones\"",
-    "snippet": "'Diario del Mundial (V)', por Juan Ignacio Gallardo",
-    "time": "8h ago",
-    "timestamp": 1781400890,
-    "color": "linear-gradient(135deg, #f59e0b, #78350f)",
-    "overlay": "⚽",
-    "link": "https://www.marca.com/futbol/mundial/opinion/2026/06/14/futbol-confusiones.html",
-    "image": "https://e01-xlk-ue-marca.uecdn.es/files/horizontal_image_desktop/uploads/2026/06/14/6a2e050a3f35e.jpeg",
     "source": "Marca",
     "lang": "es",
     "id": 229
@@ -423,7 +423,7 @@
     "category": "tactics",
     "title": "Brasil ensopega, Escòcia colpeja i Austràlia sorprèn Turquia ￼",
     "snippet": "La jornada d’aquest dissabte al Mundial 2026 ha deixat algunes de les primeres sorpreses del torneig. El Brasil no ha pogut passar de l’empat davant el Marroc, Qatar ha demostrat que pot competir contra qualsevol rival empatant amb Suïssa, Escòcia ha estrenat el seu caseller de victòries davant Haití i Austràlia ha superat Turquia en … Continued",
-    "time": "2h ago",
+    "time": "4h ago",
     "timestamp": 1781424173,
     "color": "linear-gradient(135deg, #f59e0b, #78350f)",
     "overlay": "⚽",
@@ -437,7 +437,7 @@
     "category": "tactics",
     "title": "El futbol va de poder... sobretot un Mundial",
     "snippet": "El pòdcast de Nació analitza les enormes implicacions geopolítiques i històriques de la competició al llarg de la seva història; l'edició dels Estats Units, Canadà i Mèxic no se n'escapa i ho expliquen Ferran Casas, Ramon Usall i Neus Climent",
-    "time": "4h ago",
+    "time": "6h ago",
     "timestamp": 1781417169,
     "color": "linear-gradient(135deg, #f59e0b, #78350f)",
     "overlay": "⚽",
@@ -451,7 +451,7 @@
     "category": "rules",
     "title": "Haití fa suar Escòcia (0-1)",
     "snippet": "Escòcia ha debutat amb victòria en el mundial, però ha hagut de suar de valent contra Haití. Un gol del davanter de l’Aston Villa John McGinn (29’) ha donat el triomf als escocesos, que no participaven...",
-    "time": "4h ago",
+    "time": "6h ago",
     "timestamp": 1781415688,
     "color": "linear-gradient(135deg, #64748b, #334155)",
     "overlay": "📺",
@@ -465,7 +465,7 @@
     "category": "tactics",
     "title": "Empat entre Brasil i Marroc amb gol del català Saibari",
     "snippet": "Un dels partits amb més cartells dels primers que s’estan jugant en el mundial és el que enfrontava les seleccions del Brasil i el Marroc. El duel, disputat a Nova Jersey, ha acabat en taules (1-1)....",
-    "time": "5h ago",
+    "time": "6h ago",
     "timestamp": 1781415032,
     "color": "linear-gradient(135deg, #f59e0b, #78350f)",
     "overlay": "⚽",
@@ -479,7 +479,7 @@
     "category": "tactics",
     "title": "La força del poble",
     "snippet": "Amb només 185.500 habitants, Curaçao, que debuta avui (19 h) contra la totpoderosa selecció d’Alemanya, esdevé el país menys poblat de la història que serà representat pel seu equip de futbol en una copa del món",
-    "time": "10h ago",
+    "time": "12h ago",
     "timestamp": 1781395200,
     "color": "linear-gradient(135deg, #f59e0b, #78350f)",
     "overlay": "⚽",
@@ -493,7 +493,7 @@
     "category": "rules",
     "title": "El debut somiat",
     "snippet": "Folarin Balogun va liderar els Estats Units en el seu debut a casa contra el Paraguai amb un doblet que dona bitllet per als setzens de finalEl davanter del Mònaco és el cinquè jugador en la història dels mundials que fa un doblet en el primer partit en una copa del món",
-    "time": "10h ago",
+    "time": "12h ago",
     "timestamp": 1781395200,
     "color": "linear-gradient(135deg, #64748b, #334155)",
     "overlay": "📺",
@@ -507,7 +507,7 @@
     "category": "tactics",
     "title": "Vázquez Montalbán i el mundial",
     "snippet": "Ja ha començat el campionat del món de futbol i de ben segur que, en el dia del seu 87è aniversari, Manuel Vázquez Montalbán no s’hagués perdut el partit d’aquesta matinada entre Brasil, una...",
-    "time": "10h ago",
+    "time": "12h ago",
     "timestamp": 1781395200,
     "color": "linear-gradient(135deg, #f59e0b, #78350f)",
     "overlay": "⚽",
@@ -521,7 +521,7 @@
     "category": "press",
     "title": "¿La samarreta d'una selecció de futbol és patrimoni de l'extrema dreta?",
     "snippet": "Colòmbia està dividida. Com passa en altres països llatinoamericans, sembla que la meitat del país votarà un candidat d'extrema dreta, Abelardo de la Espriella, i l'altra meitat per un d'esquerres, Iván Cepeda. Tots dos van accedir a la segona ronda de les presidencials programada pel 21 de juny, amb Abelardo de la Espriella aconseguint ser el candidat més votat. Aquest advocat que viu a Barranquilla afirma admirar Trump, Milei o el salvadoreny Bukele, amb un discurs marcadament populista en què ha fet servir una arma molt potent: la samarreta de la selecció colombiana de futbol just ara que hi ha el Mundial.",
-    "time": "18h ago",
+    "time": "20h ago",
     "timestamp": 1781366417,
     "color": "linear-gradient(135deg, #0d9488, #115e59)",
     "overlay": "🎙️",
@@ -577,7 +577,7 @@
     "category": "press",
     "title": "La recepta de Carlo Ancelotti per il·lusionar 213 milions de persones",
     "snippet": "Costa imaginar què pot posar nerviós Carlo Ancelotti. El veterà tècnic italià ha dirigit alguns dels clubs on es treballa amb més pressió del planeta, com el Madrid, la Juve o el Chelsea. Ha treballat sota la mirada de Florentino Pérez, Silvio Berlusconi o Roman Abramóvitx. Ha après com parlar amb joves jugadors egoistes i amb empresaris excèntrics. Sap com tractar futbolistes generosos i altres d'egoistes. Costa explicar quin és el seu sistema tàctic preferit, però sap gestionar persones i motivar-les. Per això va rebre la trucada de la Confederació Brasilera de Futbol ara fa menys de dos anys. El Brasil, la selecció que més cops ha guanyat el Mundial, s'encomanava a ell per tal de ser gran de nou. Per primer cop en la història, el Brasil arriba a un Mundial amb un tècnic estranger. Ancelotti no sembla nerviós, però. Se'l veu content.",
-    "time": "1d ago",
+    "time": "2d ago",
     "timestamp": 1781265614,
     "color": "linear-gradient(135deg, #0d9488, #115e59)",
     "overlay": "🎙️",
