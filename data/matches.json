@@ -987,10 +987,10 @@
     "homeFlag": "🇳🇱",
     "away": "Japan",
     "awayFlag": "🇯🇵",
-    "homeScore": 1,
-    "awayScore": 1,
-    "status": "live",
-    "minute": 82,
+    "homeScore": 2,
+    "awayScore": 2,
+    "status": "finished",
+    "minute": 0,
     "date": "Jun 14, 20:00 UTC",
     "location": "Dallas Stadium",
     "events": [
@@ -1005,24 +1005,36 @@
         "team": "Japan",
         "type": "goal",
         "desc": "K. Nakamura ⚽ (Goal!)"
+      },
+      {
+        "minute": 64,
+        "team": "Netherlands",
+        "type": "goal",
+        "desc": "C. Summerville ⚽ (Goal!)"
+      },
+      {
+        "minute": 89,
+        "team": "Japan",
+        "type": "goal",
+        "desc": "K. Ogawa ⚽ (Goal!)"
       }
     ],
     "stats": {
       "possession": [
-        69,
-        31
+        60,
+        40
       ],
       "shots": [
-        5,
-        4
+        10,
+        10
       ],
       "fouls": [
-        4,
-        5
+        7,
+        7
       ],
       "corners": [
-        4,
-        1
+        5,
+        4
       ]
     },
     "lineups": {
@@ -1092,26 +1104,26 @@
     "awayFlag": "🇪🇨",
     "homeScore": 0,
     "awayScore": 0,
-    "status": "upcoming",
-    "minute": 0,
+    "status": "live",
+    "minute": 56,
     "date": "Jun 14, 23:00 UTC",
     "location": "Philadelphia Stadium",
     "events": [],
     "stats": {
       "possession": [
-        50,
-        50
+        45,
+        55
       ],
       "shots": [
-        0,
-        0
+        6,
+        6
       ],
       "fouls": [
-        0,
-        0
+        8,
+        3
       ],
       "corners": [
-        0,
+        2,
         0
       ]
     },

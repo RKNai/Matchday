@@ -1,9 +1,79 @@
 [
   {
+    "category": "tactics",
+    "title": "Japan come from behind twice to draw with Netherlands",
+    "snippet": "Daichi Kamada's late header rescues a deserved point for Japan against the Netherlands in their opening World Cup game in Dallas.",
+    "time": "1h ago",
+    "timestamp": 1781477102,
+    "color": "linear-gradient(135deg, #f59e0b, #78350f)",
+    "overlay": "⚽",
+    "link": "https://www.bbc.com/sport/football/videos/cnv9dzl62g6o?at_medium=RSS&at_campaign=rss",
+    "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/2d8d/live/7618dd60-6841-11f1-8e1d-bbbb1017d210.jpg",
+    "source": "BBC Sport",
+    "lang": "en",
+    "id": 200
+  },
+  {
+    "category": "tactics",
+    "title": "Kamada scores late equaliser for Japan",
+    "snippet": "Watch as Japan's Daichi Kamada brings his side level to the Netherlands in their Group F fixture in the 2026 World Cup.",
+    "time": "1h ago",
+    "timestamp": 1781475623,
+    "color": "linear-gradient(135deg, #f59e0b, #78350f)",
+    "overlay": "⚽",
+    "link": "https://www.bbc.com/sport/football/videos/c39yle4z4pzo?at_medium=RSS&at_campaign=rss",
+    "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/2b15/live/26dbdc00-683e-11f1-8546-8f19e4fe30f4.jpg",
+    "source": "BBC Sport",
+    "lang": "en",
+    "id": 201
+  },
+  {
+    "category": "tactics",
+    "title": "'Big goal from a big player!' - Van Dijk scores Netherlands opener",
+    "snippet": "Virgil van Dijk scores the opening goal in the Netherlands Group F match against Japan at the 2026 World Cup.",
+    "time": "1h ago",
+    "timestamp": 1781474364,
+    "color": "linear-gradient(135deg, #f59e0b, #78350f)",
+    "overlay": "⚽",
+    "link": "https://www.bbc.com/sport/football/videos/c5yz9pzz5gdo?at_medium=RSS&at_campaign=rss",
+    "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/5c55/live/a7564e90-6836-11f1-8546-8f19e4fe30f4.jpg",
+    "source": "BBC Sport",
+    "lang": "en",
+    "id": 202
+  },
+  {
+    "category": "tactics",
+    "title": "Summerville scores 'sizzler' as Netherlands retake lead",
+    "snippet": "Crysencio Summerville's \"sizzler\" of a goal helps Netherlands retake the lead against Japan in their Group F fixture at the 2026 World Cup.",
+    "time": "2h ago",
+    "timestamp": 1781474186,
+    "color": "linear-gradient(135deg, #f59e0b, #78350f)",
+    "overlay": "⚽",
+    "link": "https://www.bbc.com/sport/football/videos/c1jypd85k0go?at_medium=RSS&at_campaign=rss",
+    "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/66b0/live/d1029490-6847-11f1-b1db-af71d47507d6.jpg",
+    "source": "BBC Sport",
+    "lang": "en",
+    "id": 203
+  },
+  {
+    "category": "press",
+    "title": "World Cup teams reject Ceferin 'uninteresting' claim",
+    "snippet": "Uefa president Aleksander Ceferin has been criticised for reportedly claiming the World Cup expansion for the 2026 finals has led to 'uninteresting' games.",
+    "time": "2h ago",
+    "timestamp": 1781472159,
+    "color": "linear-gradient(135deg, #0d9488, #115e59)",
+    "overlay": "🎙️",
+    "link": "https://www.bbc.com/sport/football/articles/cqj1dln9kpqo?at_medium=RSS&at_campaign=rss",
+    "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/55d2/live/f6c61960-6831-11f1-922d-f5dbb8adf3ec.jpg",
+    "source": "BBC Sport",
+    "lang": "en",
+    "id": 204
+  },
+  {
     "category": "press",
     "title": "'I'll be staying out of the way' - Southgate on World Cup punditry",
     "snippet": "Former England manager Sir Gareth Southgate says he turned down work as a pundit at the World Cup because he did not think it would be \"helpful\" to the side's chances.",
-    "time": "25m ago",
+    "time": "2h ago",
     "timestamp": 1781470665,
     "color": "linear-gradient(135deg, #0d9488, #115e59)",
     "overlay": "🎙️",
@@ -11,13 +81,13 @@
     "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/ff76/live/f497f620-682e-11f1-82ae-c5c92bb336d1.jpg",
     "source": "BBC Sport",
     "lang": "en",
-    "id": 200
+    "id": 205
   },
   {
     "category": "lineup",
     "title": "England-Croatia referee was called Grade E by Tuchel",
     "snippet": "Clement Turpin is appointed referee for England's opening World Cup game against Croatia on Wednesday - and was once labelled a \"Grade E\" official by head coach Thomas Tuchel.",
-    "time": "37m ago",
+    "time": "3h ago",
     "timestamp": 1781469929,
     "color": "linear-gradient(135deg, #3b82f6, #1e3a8a)",
     "overlay": "📋",
@@ -25,13 +95,13 @@
     "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/b71e/live/61f999b0-6831-11f1-922d-f5dbb8adf3ec.jpg",
     "source": "BBC Sport",
     "lang": "en",
-    "id": 201
+    "id": 206
   },
   {
     "category": "tactics",
     "title": "Havertz scores twice as Germany thrash Curacao",
     "snippet": "Four-time winners Germany overcome a brief scare from World Cup debutants Curacao before turning on the style to win their Group E opener in Houston.",
-    "time": "1h ago",
+    "time": "3h ago",
     "timestamp": 1781467283,
     "color": "linear-gradient(135deg, #f59e0b, #78350f)",
     "overlay": "⚽",
@@ -39,13 +109,13 @@
     "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/5e6e/live/b0d7e4d0-682a-11f1-8e1d-bbbb1017d210.jpg",
     "source": "BBC Sport",
     "lang": "en",
-    "id": 202
+    "id": 207
   },
   {
     "category": "tactics",
     "title": "Germany fire SEVEN past World Cup debutants Curacao",
     "snippet": "Germany made a confident start to their World Cup campaign with a 7-1 win over tournament debutants Curacao in Group E.",
-    "time": "1h ago",
+    "time": "4h ago",
     "timestamp": 1781466300,
     "color": "linear-gradient(135deg, #f59e0b, #78350f)",
     "overlay": "⚽",
@@ -53,13 +123,13 @@
     "image": "https://e1.365dm.com/26/06/1920x1080/skysports-kai-havertz-world-cup_7273482.jpg?20260614195532",
     "source": "Sky Sports",
     "lang": "en",
-    "id": 203
+    "id": 208
   },
   {
     "category": "tactics",
     "title": "Comenencia scores Curacao's first-ever World Cup goal",
     "snippet": "Livano Comenencia makes national history scoring Curacao's first-ever World Cup goal against Germany in their Group E match in Houston.",
-    "time": "2h ago",
+    "time": "4h ago",
     "timestamp": 1781463526,
     "color": "linear-gradient(135deg, #f59e0b, #78350f)",
     "overlay": "⚽",
@@ -67,13 +137,13 @@
     "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/9244/live/2cfbe070-6821-11f1-b1db-af71d47507d6.jpg",
     "source": "BBC Sport",
     "lang": "en",
-    "id": 204
+    "id": 209
   },
   {
     "category": "tactics",
     "title": "Boyd: 'Nervy' Scotland must step it up against Morocco",
     "snippet": "Kris Boyd claimed that Scotland looked 'nervous' as the favourites against Haiti and that they need to improve their performance levels if they want to secure a point against Morocco, which would all but see them qualify for the World Cup knockout stages.",
-    "time": "4h ago",
+    "time": "6h ago",
     "timestamp": 1781456400,
     "color": "linear-gradient(135deg, #f59e0b, #78350f)",
     "overlay": "⚽",
@@ -81,13 +151,13 @@
     "image": "https://e0.365dm.com/26/06/1920x1080/skysports-steve-clarke-world-cup_7272848.jpg?20260614044426",
     "source": "Sky Sports",
     "lang": "en",
-    "id": 205
+    "id": 210
   },
   {
     "category": "transfer",
     "title": "Real Madrid agree £51.8m deal for Chelsea's Cucurella",
     "snippet": "Real Madrid have agreed a deal worth up to £51.8m to sign Chelsea defender Marc Cucurella after the World Cup.",
-    "time": "4h ago",
+    "time": "7h ago",
     "timestamp": 1781455299,
     "color": "linear-gradient(135deg, #a855f7, #581c87)",
     "overlay": "🔄",
@@ -95,27 +165,13 @@
     "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/a4b8/live/8207c6c0-680c-11f1-a8b7-c37900b54878.jpg",
     "source": "BBC Sport",
     "lang": "en",
-    "id": 206
-  },
-  {
-    "category": "rules",
-    "title": "Why will Uruguay v Saudi Arabia referee wear pink?",
-    "snippet": "Italian referee Maurizio Mariani will wear pink during Monday's World Cup game between Uruguay and Saudi Arabia.",
-    "time": "4h ago",
-    "timestamp": 1781454988,
-    "color": "linear-gradient(135deg, #64748b, #334155)",
-    "overlay": "📺",
-    "link": "https://www.bbc.com/sport/football/articles/c70yq29lx50o?at_medium=RSS&at_campaign=rss",
-    "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/7c09/live/30c1a790-680c-11f1-a177-65e13786d3a5.jpg",
-    "source": "BBC Sport",
-    "lang": "en",
-    "id": 207
+    "id": 211
   },
   {
     "category": "tactics",
     "title": "Why can't World Cup games kick off on time?",
     "snippet": "A delay to Scotland's Group C tie with Haiti in Massachusetts continued a noticeable trend of tardiness at the 2026 tournament, with none of the first eight matches kicking off on time.",
-    "time": "6h ago",
+    "time": "8h ago",
     "timestamp": 1781449887,
     "color": "linear-gradient(135deg, #f59e0b, #78350f)",
     "overlay": "⚽",
@@ -123,13 +179,13 @@
     "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/479d/live/a26c7da0-67fa-11f1-8094-9970ec1ebecd.jpg",
     "source": "BBC Sport",
     "lang": "en",
-    "id": 208
+    "id": 212
   },
   {
     "category": "tactics",
     "title": "The 20-year-old who stole the show on Scotland's World Cup return",
     "snippet": "Ben Gannon-Doak wasn't born when Scotland last played at the men's World Cup. But the 20-year-old was at the heart of their long-awaited return and their first win at the tournament in 36 years as he stole the show against Haiti.",
-    "time": "9h ago",
+    "time": "11h ago",
     "timestamp": 1781438810,
     "color": "linear-gradient(135deg, #f59e0b, #78350f)",
     "overlay": "⚽",
@@ -137,13 +193,13 @@
     "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/5790/live/7b3e5a30-67ed-11f1-8e1d-bbbb1017d210.jpg",
     "source": "BBC Sport",
     "lang": "en",
-    "id": 209
+    "id": 213
   },
   {
     "category": "tactics",
     "title": "Could Japan be the World Cup's dark horses?",
     "snippet": "Japan could be one of the surprise packages of the 2026 World Cup, with growing belief they are ready to go further than ever before.",
-    "time": "9h ago",
+    "time": "11h ago",
     "timestamp": 1781438552,
     "color": "linear-gradient(135deg, #f59e0b, #78350f)",
     "overlay": "⚽",
@@ -151,69 +207,97 @@
     "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/48b4/live/f3b62c40-676b-11f1-9852-c7121e9e1897.jpg",
     "source": "BBC Sport",
     "lang": "en",
-    "id": 210
+    "id": 214
   },
   {
-    "category": "lineup",
-    "title": "BBC Sport pundits choose England World Cup XIs - who would you pick?",
-    "snippet": "Thomas Tuchel will pick his first England World Cup team on Wednesday, when the Three Lions take on Croatia. BBC Sport pundits choose their starting XIs - who would you pick?",
-    "time": "10h ago",
-    "timestamp": 1781435093,
-    "color": "linear-gradient(135deg, #3b82f6, #1e3a8a)",
-    "overlay": "📋",
-    "link": "https://www.bbc.com/sport/football/articles/c8r2l12jjz7o?at_medium=RSS&at_campaign=rss",
-    "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/c972/live/082eff70-676d-11f1-8546-8f19e4fe30f4.png",
-    "source": "BBC Sport",
-    "lang": "en",
-    "id": 211
-  },
-  {
-    "category": "transfer",
-    "title": "Fifa to pay Somali referee Artan full World Cup fee",
-    "snippet": "Somali referee Omar Artan, who was denied entry to the United States to officiate at the World Cup, will still receive his tournament fee from Fifa in full.",
-    "time": "12h ago",
-    "timestamp": 1781427608,
-    "color": "linear-gradient(135deg, #a855f7, #581c87)",
-    "overlay": "🔄",
-    "link": "https://www.bbc.com/sport/football/articles/c79y10r2plzo?at_medium=RSS&at_campaign=rss",
-    "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/1c3c/live/7f657ff0-635e-11f1-8b15-6100cfbc3083.jpg",
-    "source": "BBC Sport",
-    "lang": "en",
-    "id": 212
+    "category": "injury",
+    "title": "Países Bajos deja resucitar a un timorato Japón que castiga a Koeman",
+    "snippet": "Los nipones remontaron dos goles a balón parado ante una de las defensas más altas del campeonato. Kubo se retiró por lesión y apenas tuvo impacto. Leer",
+    "time": "1h ago",
+    "timestamp": 1781475352,
+    "color": "linear-gradient(135deg, #ef4444, #7f1d1d)",
+    "overlay": "🩺",
+    "link": "https://www.elmundo.es/deportes/futbol/mundial-de-futbol/2026/06/15/6a2f136c21efa06a548b4576.html",
+    "image": "https://e00-elmundo.uecdn.es/assets/multimedia/imagenes/2026/06/15/17814753047906_990x0.jpg",
+    "source": "El Mundo Deportes",
+    "lang": "es",
+    "id": 215
   },
   {
     "category": "tactics",
-    "title": "Smaller than Isle of Man & huge Dutch influence: Curacao making history",
-    "snippet": "Curacao has possibly been most famous for its alcoholic drink of the same name - but now the nation is ready to announce itself at the World Cup.",
-    "time": "12h ago",
-    "timestamp": 1781426880,
+    "title": "Marcelo deja sin palabras a Pogba: el truco que ni un campeón del mundo pudo copiar<br>",
+    "snippet": "La leyenda francesa desató la locura en la espectacular fan zone que Adidas ha instalado junto al Puente de Brooklyn para seguir el Mundial",
+    "time": "2h ago",
+    "timestamp": 1781472993,
     "color": "linear-gradient(135deg, #f59e0b, #78350f)",
     "overlay": "⚽",
-    "link": "https://www.bbc.com/sport/football/articles/cn7p0d1mdrzo?at_medium=RSS&at_campaign=rss",
-    "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/df05/live/1067a030-641a-11f1-b8c4-d17e7970dcab.jpg",
-    "source": "BBC Sport",
-    "lang": "en",
-    "id": 213
+    "link": "https://www.marca.com/futbol/mundial/2026/06/14/eterno-zidane-marca-acompana-leyenda-francesa-bano-masas-inolvidable.html",
+    "image": "https://images.unsplash.com/photo-1518063319789-7217e6706b04?w=800&auto=format&fit=crop",
+    "source": "Marca",
+    "lang": "es",
+    "id": 216
   },
   {
-    "category": "rules",
-    "title": "Was this offside? Technology fault leaves questions over VAR images",
-    "snippet": "Fifa have blamed a technical fault for the delay in releasing the VAR images after a potential - and controversial - offside call during Qatar's World Cup draw with Switzerland.",
-    "time": "12h ago",
-    "timestamp": 1781425965,
-    "color": "linear-gradient(135deg, #64748b, #334155)",
-    "overlay": "📺",
-    "link": "https://www.bbc.com/sport/football/articles/ckg80k1yn89o?at_medium=RSS&at_campaign=rss",
-    "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/c4e2/live/6b8e8bc0-6773-11f1-b1db-af71d47507d6.png",
-    "source": "BBC Sport",
-    "lang": "en",
-    "id": 214
+    "category": "tactics",
+    "title": "Un paseo por la cuna de Pelé en Nueva York 50 años después: \"Pelé se asustó, tenía las manos manchadas de verde porque habían pintado la tierra\"",
+    "snippet": "El 15 de junio de 1975, el brasileño, arruinado, debutó con el Cosmos. \"Son los fans más afortunados del mundo porque van a ver a Pelé\", decía el cartel del partido, cuyas entradas costaban entre dos y seis dólares. Leer",
+    "time": "2h ago",
+    "timestamp": 1781472016,
+    "color": "linear-gradient(135deg, #f59e0b, #78350f)",
+    "overlay": "⚽",
+    "link": "https://www.elmundo.es/deportes/futbol/mundial-de-futbol/2026/06/14/6a2d759421efa0065d8b45b8.html",
+    "image": "https://e00-elmundo.uecdn.es/assets/multimedia/imagenes/2026/06/13/17813644840400_990x0.jpg",
+    "source": "El Mundo Deportes",
+    "lang": "es",
+    "id": 217
+  },
+  {
+    "category": "press",
+    "title": "Logan Costa, el central que cambió Francia por Cabo Verde y al que vacila Yeremy Pino: \"Dice que voy a pasar un mal rato\"",
+    "snippet": "El defensor del Villarreal se rompió el cruzado hace un año y ha tenido una recuperación de 302 días para poder disputar el Mundial Leer",
+    "time": "2h ago",
+    "timestamp": 1781472010,
+    "color": "linear-gradient(135deg, #0d9488, #115e59)",
+    "overlay": "🎙️",
+    "link": "https://www.elmundo.es/deportes/futbol/mundial-de-futbol/2026/06/14/6a2ece5cfc6c83490f8b4599.html",
+    "image": "https://e00-elmundo.uecdn.es/assets/multimedia/imagenes/2026/06/14/17814513469034_990x0.jpg",
+    "source": "El Mundo Deportes",
+    "lang": "es",
+    "id": 218
+  },
+  {
+    "category": "tactics",
+    "title": "Hay onces confirmados",
+    "snippet": "Sigue el partido y consulta cómo va Costa de Marfil contra Ecuador",
+    "time": "2h ago",
+    "timestamp": 1781471749,
+    "color": "linear-gradient(135deg, #f59e0b, #78350f)",
+    "overlay": "⚽",
+    "link": "https://www.marca.com/futbol/mundial/2026/06/14/01-0117-20260614-1221-830.html",
+    "image": "https://e01-xlk-ue-marca.uecdn.es/files/horizontal_image_desktop/uploads/2026/06/14/17813911490481.jpeg",
+    "source": "Marca",
+    "lang": "es",
+    "id": 219
+  },
+  {
+    "category": "tactics",
+    "title": "La insólita imagen del Alemania-Curazao: \"Somos rivales, pero luego todos somos cristianos y hermanos\"",
+    "snippet": "Felix Nmecha y Tah se sumaron a los rezos de los caribeños al acabar el partido",
+    "time": "2h ago",
+    "timestamp": 1781471468,
+    "color": "linear-gradient(135deg, #f59e0b, #78350f)",
+    "overlay": "⚽",
+    "link": "https://www.marca.com/futbol/mundial/2026/06/14/insolita-imagen-alemania-curazao-rivales-luego-todos-cristianos-hermanos.html",
+    "image": "https://e01-xlk-ue-marca.uecdn.es/files/horizontal_image_desktop/uploads/2026/06/14/6a2f17ba78670.jpeg",
+    "source": "Marca",
+    "lang": "es",
+    "id": 220
   },
   {
     "category": "tactics",
     "title": "Aymeric Laporte, el jefe de España: \"No confío en casi nadie\"",
     "snippet": "Justo antes del debut de España en el Mundial, uno de los 'capos' del vestuario de la selección, probablemente el que más manda ahí dentro, reflexiona sobre lo que ha sido su vida y sobre cómo esa vida ha marcado su forma de ser Leer",
-    "time": "40m ago",
+    "time": "3h ago",
     "timestamp": 1781469768,
     "color": "linear-gradient(135deg, #f59e0b, #78350f)",
     "overlay": "⚽",
@@ -221,13 +305,13 @@
     "image": "https://e00-elmundo.uecdn.es/assets/multimedia/imagenes/2026/06/13/17813071348126_990x0.jpg",
     "source": "El Mundo Deportes",
     "lang": "es",
-    "id": 215
+    "id": 221
   },
   {
     "category": "tactics",
     "title": "Mourinho manda huEGOS",
     "snippet": "El Brasil de 'Carletto' no ha sido capaz de ganar a Marruecos. Tuvo que salir a su rescate Vinicius. Habrá que ver si 'Mou' va a ser capaz de gestionar el suyo y otros egos. Leer",
-    "time": "43m ago",
+    "time": "3h ago",
     "timestamp": 1781469544,
     "color": "linear-gradient(135deg, #f59e0b, #78350f)",
     "overlay": "⚽",
@@ -235,13 +319,13 @@
     "image": "https://e00-elmundo.uecdn.es/assets/multimedia/imagenes/2026/06/14/17814457348248_990x0.jpg",
     "source": "El Mundo Deportes",
     "lang": "es",
-    "id": 216
+    "id": 222
   },
   {
     "category": "tactics",
     "title": "La diáspora convierte el debut de Irán en un pulso político: \"Este equipo no nos representa\"",
     "snippet": "Miles de persas del sur de California se niegan a apoyar a una selección que consideran un instrumento del régimen de los ayatolás Leer",
-    "time": "44m ago",
+    "time": "3h ago",
     "timestamp": 1781469515,
     "color": "linear-gradient(135deg, #f59e0b, #78350f)",
     "overlay": "⚽",
@@ -249,13 +333,41 @@
     "image": "https://e00-elmundo.uecdn.es/assets/multimedia/imagenes/2026/06/14/17814406374507_990x0.jpg",
     "source": "El Mundo Deportes",
     "lang": "es",
-    "id": 217
+    "id": 223
+  },
+  {
+    "category": "tactics",
+    "title": "Egoitz Bijueska logra un bronce en la Copa del Mundo de Roma y sigue en la élite mundial",
+    "snippet": "El campeón del mundo de Park, de sólo 15 años, se quedó a un punto del oro en una prueba que ganó en 2025",
+    "time": "3h ago",
+    "timestamp": 1781469411,
+    "color": "linear-gradient(135deg, #f59e0b, #78350f)",
+    "overlay": "⚽",
+    "link": "https://www.marca.com/otros-deportes/2026/06/14/egoitz-bijueska-logra-bronce-copa-mundo-roma-sigue-elite-mundial.html",
+    "image": "https://e01-xlk-ue-marca.uecdn.es/files/horizontal_image_desktop/uploads/2026/06/14/6a2f10ca2b297.jpeg",
+    "source": "Marca",
+    "lang": "es",
+    "id": 224
+  },
+  {
+    "category": "tactics",
+    "title": "Klopp se disculpa con Nagelsmann: \"Voy a cumplir 59 años y sigo siendo un idiota\"",
+    "snippet": "El ex del Liverpool cuestionó las elecciones del seleccionador de Alemania antes del debut",
+    "time": "3h ago",
+    "timestamp": 1781468110,
+    "color": "linear-gradient(135deg, #f59e0b, #78350f)",
+    "overlay": "⚽",
+    "link": "https://www.marca.com/futbol/mundial/2026/06/14/klopp-disculpa-nagelsmann-cumplir-59-anos-sigo-siendo-idiota.html",
+    "image": "https://e01-xlk-ue-marca.uecdn.es/files/horizontal_image_desktop/uploads/2026/06/14/6a2f0bc725370.jpeg",
+    "source": "Marca",
+    "lang": "es",
+    "id": 225
   },
   {
     "category": "transfer",
     "title": "De la Fuente: \"¿Cucurella? Si es una buena noticia para él, es una buena noticia para todos\"",
     "snippet": "El seleccionador, en la previa del debut contra Cabo Verde, cree que el posible fichaje del lateral por el Real Madrid no va a influir en su rendimiento Leer",
-    "time": "1h ago",
+    "time": "3h ago",
     "timestamp": 1781468045,
     "color": "linear-gradient(135deg, #a855f7, #581c87)",
     "overlay": "🔄",
@@ -263,27 +375,13 @@
     "image": "https://e00-elmundo.uecdn.es/assets/multimedia/imagenes/2026/06/14/17814646460607_990x0.jpg",
     "source": "El Mundo Deportes",
     "lang": "es",
-    "id": 218
-  },
-  {
-    "category": "tactics",
-    "title": "Deschamps no renuncia a su apuesta ofensiva",
-    "snippet": "El seleccionador va a arrancar con el ataque que tenía planeado pese a las dudas que generó en el último amistoso ante Irlanda del Norte",
-    "time": "1h ago",
-    "timestamp": 1781467743,
-    "color": "linear-gradient(135deg, #f59e0b, #78350f)",
-    "overlay": "⚽",
-    "link": "https://www.marca.com/futbol/mundial/2026/06/14/deschamps-renuncia-apuesta-ofensiva.html",
-    "image": "https://images.unsplash.com/photo-1518063319789-7217e6706b04?w=800&auto=format&fit=crop",
-    "source": "Marca",
-    "lang": "es",
-    "id": 219
+    "id": 226
   },
   {
     "category": "tactics",
     "title": "Hacer la ola con 4-1 en contra: Curazao ya ha ganado su Mundial",
     "snippet": "Espectáculo en las gradas de la afición caribeña pese a la goleada germana",
-    "time": "1h ago",
+    "time": "4h ago",
     "timestamp": 1781466634,
     "color": "linear-gradient(135deg, #f59e0b, #78350f)",
     "overlay": "⚽",
@@ -291,13 +389,13 @@
     "image": "https://e01-xlk-ue-marca.uecdn.es/files/horizontal_image_desktop/uploads/2026/06/14/6a2f05feb73dd.jpeg",
     "source": "Marca",
     "lang": "es",
-    "id": 220
+    "id": 227
   },
   {
     "category": "tactics",
     "title": "Se rompe el audio de la retransmisión con el histórico gol de Livano&nbsp;Comenencia",
     "snippet": "",
-    "time": "1h ago",
+    "time": "4h ago",
     "timestamp": 1781466128,
     "color": "linear-gradient(135deg, #f59e0b, #78350f)",
     "overlay": "⚽",
@@ -305,13 +403,13 @@
     "image": "https://images.unsplash.com/photo-1543351611-58f69d7c1781?w=800&auto=format&fit=crop",
     "source": "Marca",
     "lang": "es",
-    "id": 221
+    "id": 228
   },
   {
     "category": "tactics",
     "title": "Alemania 7-1 Curazao I Resumen Mundial 2026",
     "snippet": "",
-    "time": "1h ago",
+    "time": "4h ago",
     "timestamp": 1781465761,
     "color": "linear-gradient(135deg, #f59e0b, #78350f)",
     "overlay": "⚽",
@@ -319,125 +417,55 @@
     "image": "https://images.unsplash.com/photo-1579952363873-27f3bade9f55?w=800&auto=format&fit=crop",
     "source": "Marca",
     "lang": "es",
-    "id": 222
-  },
-  {
-    "category": "tactics",
-    "title": "Havertz comanda el 'pleno' de su selección en el Power Ranking&nbsp;",
-    "snippet": "El top 10 de la clasificación del ranking en el partido, copado por futbolistas germanos",
-    "time": "1h ago",
-    "timestamp": 1781465195,
-    "color": "linear-gradient(135deg, #f59e0b, #78350f)",
-    "overlay": "⚽",
-    "link": "https://www.marca.com/futbol/mundial/2026/06/14/havertz-comanda-pleno-seleccion-power-ranking-by-skechers-alemania-curazao.html",
-    "image": "https://e01-xlk-ue-marca.uecdn.es/files/horizontal_image_desktop/uploads/2026/06/14/6a2effe9452a4.jpeg",
-    "source": "Marca",
-    "lang": "es",
-    "id": 223
-  },
-  {
-    "category": "rules",
-    "title": "Un error en el papeleo del avión deja a Uruguay en tierra en la previa del debut ante Arabia Saudí",
-    "snippet": "Según medios charrúas, FIFA no realizó un trámite para que el chárter pueda volar a EEUU",
-    "time": "2h ago",
-    "timestamp": 1781464696,
-    "color": "linear-gradient(135deg, #64748b, #334155)",
-    "overlay": "📺",
-    "link": "https://www.marca.com/futbol/mundial/2026/06/14/error-papeleo-avion-deja-uruguay-tierra-previa-debut-arabia-saudi.html",
-    "image": "https://e01-xlk-ue-marca.uecdn.es/files/horizontal_image_desktop/uploads/2026/06/14/6a2efe39cbbfe.jpeg",
-    "source": "Marca",
-    "lang": "es",
-    "id": 224
-  },
-  {
-    "category": "tactics",
-    "title": "Alemania sofoca con contundencia la pequeña rebelión de Curazao",
-    "snippet": "Los de Nagelsmann no perdonan a la debutante selección caribeña",
-    "time": "2h ago",
-    "timestamp": 1781463801,
-    "color": "linear-gradient(135deg, #f59e0b, #78350f)",
-    "overlay": "⚽",
-    "link": "https://www.marca.com/futbol/mundial/cronica/2026/06/14/alemania-sofoca-contundencia-pequena-rebelion-curazao.html",
-    "image": "https://images.unsplash.com/photo-1508098682722-e99c43a406b2?w=800&auto=format&fit=crop",
-    "source": "Marca",
-    "lang": "es",
-    "id": 225
-  },
-  {
-    "category": "tactics",
-    "title": "Una coral Alemania aplasta a la histórica Curazao, que marcó su primer gol en un Mundial",
-    "snippet": "El equipo de Nagelsmann no tiene piedad y le hace siete tantos a una de las debutantes del torneo con la mayoría de goleadores diferentes Leer",
-    "time": "2h ago",
-    "timestamp": 1781463534,
-    "color": "linear-gradient(135deg, #f59e0b, #78350f)",
-    "overlay": "⚽",
-    "link": "https://www.elmundo.es/deportes/futbol/mundial-de-futbol/2026/06/14/6a2edeaae85ece1d268b4572.html",
-    "image": "https://e00-elmundo.uecdn.es/assets/multimedia/imagenes/2026/06/14/17814606053954_990x0.jpg",
-    "source": "El Mundo Deportes",
-    "lang": "es",
-    "id": 226
-  },
-  {
-    "category": "tactics",
-    "title": "Varias selecciones, molestas con Ceferin por sus comentarios sobre el Mundial ampliado",
-    "snippet": "Comunicado conjunto entre algunos participantes de la Copa del Mundo 2026",
-    "time": "2h ago",
-    "timestamp": 1781463355,
-    "color": "linear-gradient(135deg, #f59e0b, #78350f)",
-    "overlay": "⚽",
-    "link": "https://www.marca.com/futbol/mundial/2026/06/14/selecciones-molestas-ceferin-comentarios-sobre-mundial-ampliado.html",
-    "image": "https://e01-xlk-ue-marca.uecdn.es/files/horizontal_image_desktop/uploads/2026/06/14/6a2ef8e205f4e.jpeg",
-    "source": "Marca",
-    "lang": "es",
-    "id": 227
-  },
-  {
-    "category": "tactics",
-    "title": "El vídeo con más aura de lo que llevamos de Mundial: Marcelo enseñando a Pogba, Zidane firmando a Rodrygo...",
-    "snippet": "",
-    "time": "2h ago",
-    "timestamp": 1781463034,
-    "color": "linear-gradient(135deg, #f59e0b, #78350f)",
-    "overlay": "⚽",
-    "link": "https://www.marca.com/futbol/mundial/2026/06/14/video-aura-llevamos-mundial-marcelo-ensenando-pogba-zidane-firmando-rodryg-video.html",
-    "image": "https://images.unsplash.com/photo-1543351611-58f69d7c1781?w=800&auto=format&fit=crop",
-    "source": "Marca",
-    "lang": "es",
-    "id": 228
-  },
-  {
-    "category": "rules",
-    "title": "¿Por qué FIFA veta las estrellas de Egipto y permite que Uruguay lleve cuatro?",
-    "snippet": "La selección africana debe cambiar su camiseta y quitar las siete insignias de su escudo",
-    "time": "3h ago",
-    "timestamp": 1781459969,
-    "color": "linear-gradient(135deg, #64748b, #334155)",
-    "overlay": "📺",
-    "link": "https://www.marca.com/futbol/mundial/2026/06/14/polemica-fifa-estrellas.html",
-    "image": "https://e01-xlk-ue-marca.uecdn.es/files/horizontal_image_desktop/uploads/2026/06/14/6a2ee98c8c5b4.jpeg",
-    "source": "Marca",
-    "lang": "es",
     "id": 229
   },
   {
-    "category": "tactics",
-    "title": "Alemanya no té pietat de la debutant Curaçao (7-1)",
-    "snippet": "Curaçao ja ha jugat en una copa del mon. Avui ha estat el dia de l’estrena, davant d’Alemanya, en un partit en què tot i acabar caient amb estrèpit (7-1), representa una fita històrica pel combinat...",
-    "time": "2h ago",
-    "timestamp": 1781464555,
-    "color": "linear-gradient(135deg, #f59e0b, #78350f)",
-    "overlay": "⚽",
-    "link": "http://www.lesportiudecatalunya.cat/futbol/article/2651532-alemanya-no-te-pietat-de-la-debutant-curacao-7-1.html",
-    "image": "https://www.elpuntavui.cat/imatges/64/54/4x3/780_0008_6454063_b01a4fa6c0b0a5ef912c8d56e024abf2ver3.jpg",
+    "category": "rules",
+    "title": "L’onada blava dura 38 minuts",
+    "snippet": "Grup E. Curaçao debuta en la copa del món contra Alemanya, protagonitza un inici de partit prometedor i fins i tot fa un gol, però acaba sucumbint abans del descans i acaba golejat (7-1)",
+    "time": "Just now",
+    "timestamp": 1781481600,
+    "color": "linear-gradient(135deg, #64748b, #334155)",
+    "overlay": "📺",
+    "link": "http://www.lesportiudecatalunya.cat/futbol/article/2651529-l-onada-blava-dura-38-minuts.html",
+    "image": "https://www.elpuntavui.cat/imatges/64/54/4x3/780_0008_6454062_92a4c2a24830a10dbbdf819ca27fd761ver2.jpg",
     "source": "El Punt Avui",
     "lang": "ca",
     "id": 230
   },
   {
+    "category": "rules",
+    "title": "Amb segell terrassenc",
+    "snippet": "Ismael Saibari, nascut a Terrassa fa 25 anys, impacta en la copa del món marcant en l’empat (1-1) del Marroc contra el BrasilEl català, que va créixer a Bèlgica, ha protagonitzat una gran temporada en el PSV Eindhoven amb 19 gols i 8 assistències i és objecte de desig del Bayern",
+    "time": "Just now",
+    "timestamp": 1781481600,
+    "color": "linear-gradient(135deg, #64748b, #334155)",
+    "overlay": "📺",
+    "link": "http://www.lesportiudecatalunya.cat/futbol/article/2651503-amb-segell-terrassenc.html",
+    "image": "https://www.elpuntavui.cat/imatges/64/54/4x3/780_0008_6454025_e6aab49192c8fe6c8a9ac34a1e6519ebver2.jpg",
+    "source": "El Punt Avui",
+    "lang": "ca",
+    "id": 231
+  },
+  {
+    "category": "lineup",
+    "title": "El viatge cap al 2010",
+    "snippet": "Espanya, vigent campiona d’Europa, aterra a la cita mundialista amb una generació de talent blaugrana  i una ratxa immaculada, però amb el mundial com a gran deute pendent des de la primera estrella a Johannesburg",
+    "time": "Just now",
+    "timestamp": 1781481600,
+    "color": "linear-gradient(135deg, #3b82f6, #1e3a8a)",
+    "overlay": "📋",
+    "link": "http://www.lesportiudecatalunya.cat/futbol/article/2651473-el-viatge-cap-al-2010.html",
+    "image": "https://www.elpuntavui.cat/imatges/64/53/4x3/780_0008_6453890_2e8f1b7a7a3e7c91a5f239e237e21717ver2.jpg",
+    "source": "El Punt Avui",
+    "lang": "ca",
+    "id": 232
+  },
+  {
     "category": "lineup",
     "title": "De la por de perdre el pare a la mina a vibrar pels seus orígens en un Mundial",
     "snippet": "\"És una alegria tremenda i una cosa que gairebé semblava impossible\", destaca Valdo (Villaseca de Laciana, Lleó; 1981), exjugador de l'Espanyol i jugador de la selecció de Cap Verd. Parla de la gesta d'aquest arxipèlag africà, un dels quatre debutants d'aquest Mundial i el primer contrincant d'Espanya aquest dilluns en la fase de grups (18 hores, La 1). Cap Verd, excolònia portuguesa, és el segon país més petit de la història del torneig en territori i el tercer en població amb 4.000 km² i 600.000 habitants. La província de Girona en té 6.000 i 850.000.",
-    "time": "5h ago",
+    "time": "7h ago",
     "timestamp": 1781452810,
     "color": "linear-gradient(135deg, #3b82f6, #1e3a8a)",
     "overlay": "📋",
@@ -445,13 +473,13 @@
     "image": "https://static1.ara.cat/clip/3cd47b79-da56-4034-a8e2-8b1c93b430cf_16-9-aspect-ratio_default_0.png",
     "source": "ARA Esports",
     "lang": "ca",
-    "id": 231
+    "id": 233
   },
   {
     "category": "tactics",
     "title": "Brasil ensopega, Escòcia colpeja i Austràlia sorprèn Turquia ￼",
     "snippet": "La jornada d’aquest dissabte al Mundial 2026 ha deixat algunes de les primeres sorpreses del torneig. El Brasil no ha pogut passar de l’empat davant el Marroc, Qatar ha demostrat que pot competir contra qualsevol rival empatant amb Suïssa, Escòcia ha estrenat el seu caseller de victòries davant Haití i Austràlia ha superat Turquia en … Continued",
-    "time": "13h ago",
+    "time": "15h ago",
     "timestamp": 1781424173,
     "color": "linear-gradient(135deg, #f59e0b, #78350f)",
     "overlay": "⚽",
@@ -459,13 +487,13 @@
     "image": "https://images.unsplash.com/photo-1508098682722-e99c43a406b2?w=800&auto=format&fit=crop",
     "source": "Món Esport",
     "lang": "ca",
-    "id": 232
+    "id": 234
   },
   {
     "category": "tactics",
     "title": "El futbol va de poder... sobretot un Mundial",
     "snippet": "El pòdcast de Nació analitza les enormes implicacions geopolítiques i històriques de la competició al llarg de la seva història; l'edició dels Estats Units, Canadà i Mèxic no se n'escapa i ho expliquen Ferran Casas, Ramon Usall i Neus Climent",
-    "time": "15h ago",
+    "time": "17h ago",
     "timestamp": 1781417169,
     "color": "linear-gradient(135deg, #f59e0b, #78350f)",
     "overlay": "⚽",
@@ -473,27 +501,13 @@
     "image": "https://d5r1tkwwv7d5g.cloudfront.net/articulos/articulos-726573.jpg",
     "source": "Nació Digital",
     "lang": "ca",
-    "id": 233
-  },
-  {
-    "category": "rules",
-    "title": "Haití fa suar Escòcia (0-1)",
-    "snippet": "Escòcia ha debutat amb victòria en el mundial, però ha hagut de suar de valent contra Haití. Un gol del davanter de l’Aston Villa John McGinn (29’) ha donat el triomf als escocesos, que no participaven...",
-    "time": "15h ago",
-    "timestamp": 1781415688,
-    "color": "linear-gradient(135deg, #64748b, #334155)",
-    "overlay": "📺",
-    "link": "http://www.lesportiudecatalunya.cat/futbol/article/2651432-haiti-fa-suar-escocia-0-1.html",
-    "image": "https://www.elpuntavui.cat/imatges/64/53/4x3/780_0008_6453972_67f6e332f5699dfc749dd669b9be1b0aver3.jpg",
-    "source": "El Punt Avui",
-    "lang": "ca",
-    "id": 234
+    "id": 235
   },
   {
     "category": "tactics",
     "title": "Empat entre Brasil i Marroc amb gol del català Saibari",
     "snippet": "Un dels partits amb més cartells dels primers que s’estan jugant en el mundial és el que enfrontava les seleccions del Brasil i el Marroc. El duel, disputat a Nova Jersey, ha acabat en taules (1-1)....",
-    "time": "15h ago",
+    "time": "18h ago",
     "timestamp": 1781415032,
     "color": "linear-gradient(135deg, #f59e0b, #78350f)",
     "overlay": "⚽",
@@ -501,7 +515,7 @@
     "image": "https://www.elpuntavui.cat/imatges/64/53/4x3/780_0008_6453971_2a985e4e78f5cb709f2178b16d3bff94ver3.jpg",
     "source": "El Punt Avui",
     "lang": "ca",
-    "id": 235
+    "id": 236
   },
   {
     "category": "press",
@@ -515,7 +529,7 @@
     "image": "https://static1.ara.cat/clip/ba95183c-04c9-4ff5-abf9-1f120e3af0fb_16-9-aspect-ratio_default_0_x2924y1133.jpg",
     "source": "ARA Esports",
     "lang": "ca",
-    "id": 236
+    "id": 237
   },
   {
     "category": "tactics",
@@ -529,7 +543,7 @@
     "image": "https://static1.ara.cat/clip/9ae37282-5dff-4c62-a92b-70fa08277c92_16-9-aspect-ratio_default_0_x2361y1363.jpg",
     "source": "ARA Esports",
     "lang": "ca",
-    "id": 237
+    "id": 238
   },
   {
     "category": "tactics",
@@ -543,7 +557,7 @@
     "image": "https://d5r1tkwwv7d5g.cloudfront.net/articulos/articulos-726156.jpg",
     "source": "Nació Digital",
     "lang": "ca",
-    "id": 238
+    "id": 239
   },
   {
     "category": "press",
@@ -557,7 +571,7 @@
     "image": "https://static1.ara.cat/clip/86fb49f9-42cf-44f6-84c1-ecddaecf0a86_source-aspect-ratio_default_0_x1391y619.jpg",
     "source": "ARA Esports",
     "lang": "ca",
-    "id": 239
+    "id": 240
   },
   {
     "category": "tactics",
@@ -571,7 +585,7 @@
     "image": "https://d5r1tkwwv7d5g.cloudfront.net/articulos/articulos-724562.jpg",
     "source": "Nació Digital",
     "lang": "ca",
-    "id": 240
+    "id": 241
   },
   {
     "category": "rules",
@@ -585,7 +599,7 @@
     "image": "https://d5r1tkwwv7d5g.cloudfront.net/articulos/articulos-726961.jpg",
     "source": "Nació Digital",
     "lang": "ca",
-    "id": 241
+    "id": 242
   },
   {
     "category": "tactics",
@@ -599,7 +613,7 @@
     "image": "https://d5r1tkwwv7d5g.cloudfront.net/articulos/articulos-726665.jpg",
     "source": "Nació Digital",
     "lang": "ca",
-    "id": 242
+    "id": 243
   },
   {
     "category": "rules",
@@ -611,20 +625,6 @@
     "overlay": "📺",
     "link": "https://www.ara.cat/esports/futbol/mundial/arrenca-mundial-mes-polemic_1_5766052.html",
     "image": "https://static1.ara.cat/clip/8f6cb472-ffcd-4bae-b898-ca9193613e0b_source-aspect-ratio_default_0.jpg",
-    "source": "ARA Esports",
-    "lang": "ca",
-    "id": 243
-  },
-  {
-    "category": "rules",
-    "title": "El gran repte de Pochettino: unir les dues Amèriques en l'era de Trump",
-    "snippet": "Ara fa uns mesos, aquest març, Donald Trump va rebre una delegació de la Federació Nord-americana de Futbol i va preguntar al seleccionador, l'argentí Mauricio Pochettino, si els Estats Units poden guanyar el Mundial. \"Li he respost que el podem guanyar\", va dir l'exjugador de l'Espanyol. Pochettino té un repte al davant: aconseguir bons resultats i que la selecció engresqui un país que arriba molt dividit a la cita. El debut serà contra la selecció del Paraguai dissabte a les tres de la matinada.",
-    "time": "3d ago",
-    "timestamp": 1781193659,
-    "color": "linear-gradient(135deg, #64748b, #334155)",
-    "overlay": "📺",
-    "link": "https://www.ara.cat/esports/futbol/gran-repte-pochettino-unir-dues-ameriques-l-trump_1_5764365.html",
-    "image": "https://static1.ara.cat/clip/61e32d1a-73e5-4fe8-a0ff-288a002e7070_source-aspect-ratio_default_0.jpg",
     "source": "ARA Esports",
     "lang": "ca",
     "id": 244
