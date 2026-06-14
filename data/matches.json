@@ -848,10 +848,10 @@
     "homeFlag": "🇩🇪",
     "away": "Curaçao",
     "awayFlag": "🇨🇼",
-    "homeScore": 3,
+    "homeScore": 7,
     "awayScore": 1,
-    "status": "live",
-    "minute": 65,
+    "status": "finished",
+    "minute": 0,
     "date": "Jun 14, 17:00 UTC",
     "location": "Houston Stadium",
     "events": [
@@ -878,24 +878,48 @@
         "team": "Germany",
         "type": "goal",
         "desc": "N. Schlotterbeck ⚽ (Goal!)"
+      },
+      {
+        "minute": 47,
+        "team": "Germany",
+        "type": "goal",
+        "desc": "J. Musiala ⚽ (Goal!)"
+      },
+      {
+        "minute": 68,
+        "team": "Germany",
+        "type": "goal",
+        "desc": "N. Brown ⚽ (Goal!)"
+      },
+      {
+        "minute": 78,
+        "team": "Germany",
+        "type": "goal",
+        "desc": "D. Undav ⚽ (Goal!)"
+      },
+      {
+        "minute": 88,
+        "team": "Germany",
+        "type": "goal",
+        "desc": "K. Havertz ⚽ (Goal!)"
       }
     ],
     "stats": {
       "possession": [
-        71,
-        29
+        65,
+        35
       ],
       "shots": [
-        16,
-        4
+        26,
+        8
       ],
       "fouls": [
-        7,
-        5
+        18,
+        11
       ],
       "corners": [
-        6,
-        0
+        8,
+        1
       ]
     },
     "lineups": {
@@ -972,8 +996,8 @@
     "events": [],
     "stats": {
       "possession": [
-        50,
-        50
+        0,
+        0
       ],
       "shots": [
         0,
