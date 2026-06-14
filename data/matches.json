@@ -987,29 +987,42 @@
     "homeFlag": "🇳🇱",
     "away": "Japan",
     "awayFlag": "🇯🇵",
-    "homeScore": 0,
-    "awayScore": 0,
-    "status": "upcoming",
-    "minute": 0,
+    "homeScore": 1,
+    "awayScore": 1,
+    "status": "live",
+    "minute": 82,
     "date": "Jun 14, 20:00 UTC",
     "location": "Dallas Stadium",
-    "events": [],
+    "events": [
+      {
+        "minute": 51,
+        "team": "Netherlands",
+        "type": "goal",
+        "desc": "Virgil van Dijk ⚽ (Goal!)"
+      },
+      {
+        "minute": 57,
+        "team": "Japan",
+        "type": "goal",
+        "desc": "K. Nakamura ⚽ (Goal!)"
+      }
+    ],
     "stats": {
       "possession": [
-        0,
-        0
+        69,
+        31
       ],
       "shots": [
-        0,
-        0
+        5,
+        4
       ],
       "fouls": [
-        0,
-        0
+        4,
+        5
       ],
       "corners": [
-        0,
-        0
+        4,
+        1
       ]
     },
     "lineups": {
