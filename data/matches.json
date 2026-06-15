@@ -1102,29 +1102,36 @@
     "homeFlag": "🇨🇮",
     "away": "Ecuador",
     "awayFlag": "🇪🇨",
-    "homeScore": 0,
+    "homeScore": 1,
     "awayScore": 0,
-    "status": "live",
-    "minute": 56,
+    "status": "finished",
+    "minute": 0,
     "date": "Jun 14, 23:00 UTC",
     "location": "Philadelphia Stadium",
-    "events": [],
+    "events": [
+      {
+        "minute": 90,
+        "team": "Côte d'Ivoire",
+        "type": "goal",
+        "desc": "A. Diallo ⚽ (Goal!)"
+      }
+    ],
     "stats": {
       "possession": [
-        45,
-        55
+        48,
+        52
       ],
       "shots": [
-        6,
-        6
+        15,
+        12
       ],
       "fouls": [
-        8,
-        3
+        10,
+        13
       ],
       "corners": [
-        2,
-        0
+        3,
+        6
       ]
     },
     "lineups": {
@@ -1192,29 +1199,66 @@
     "homeFlag": "🇸🇪",
     "away": "Tunisia",
     "awayFlag": "🇹🇳",
-    "homeScore": 0,
-    "awayScore": 0,
-    "status": "upcoming",
+    "homeScore": 5,
+    "awayScore": 1,
+    "status": "finished",
     "minute": 0,
     "date": "Jun 15, 02:00 UTC",
     "location": "Monterrey Stadium",
-    "events": [],
+    "events": [
+      {
+        "minute": 6,
+        "team": "Sweden",
+        "type": "goal",
+        "desc": "Y.Ayari 90'+ ⚽ (Goal!)"
+      },
+      {
+        "minute": 7,
+        "team": "Sweden",
+        "type": "goal",
+        "desc": "Y.Ayari ⚽ (Goal!)"
+      },
+      {
+        "minute": 30,
+        "team": "Sweden",
+        "type": "goal",
+        "desc": "A. Isak ⚽ (Goal!)"
+      },
+      {
+        "minute": 43,
+        "team": "Tunisia",
+        "type": "goal",
+        "desc": "O. Rekik ⚽ (Goal!)"
+      },
+      {
+        "minute": 59,
+        "team": "Sweden",
+        "type": "goal",
+        "desc": "V. Gyökeres ⚽ (Goal!)"
+      },
+      {
+        "minute": 84,
+        "team": "Sweden",
+        "type": "goal",
+        "desc": "M. Svanberg ⚽ (Goal!)"
+      }
+    ],
     "stats": {
       "possession": [
-        50,
-        50
+        49,
+        51
       ],
       "shots": [
-        0,
-        0
+        13,
+        6
       ],
       "fouls": [
-        0,
-        0
+        10,
+        8
       ],
       "corners": [
-        0,
-        0
+        4,
+        2
       ]
     },
     "lineups": {
