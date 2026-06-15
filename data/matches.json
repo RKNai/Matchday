@@ -1326,48 +1326,29 @@
     "homeFlag": "🇪🇸",
     "away": "Cabo Verde",
     "awayFlag": "🇨🇻",
-    "homeScore": 1,
-    "awayScore": 2,
-    "status": "live",
-    "minute": 32,
+    "homeScore": 0,
+    "awayScore": 0,
+    "status": "finished",
+    "minute": 0,
     "date": "Jun 15, 16:00 UTC",
     "location": "Atlanta Stadium",
-    "events": [
-      {
-        "minute": 26,
-        "team": "Spain",
-        "type": "goal",
-        "desc": "Fermín ⚽ (Goal!)"
-      },
-      {
-        "minute": 28,
-        "team": "Cabo Verde",
-        "type": "goal",
-        "desc": "Cuca ⚽ (Goal!)"
-      },
-      {
-        "minute": 29,
-        "team": "Cabo Verde",
-        "type": "goal",
-        "desc": "Rodrigues ⚽ (Goal!)"
-      }
-    ],
+    "events": [],
     "stats": {
       "possession": [
-        67,
-        33
+        74,
+        26
       ],
       "shots": [
-        5,
-        1
+        27,
+        6
       ],
       "fouls": [
-        2,
+        10,
         1
       ],
       "corners": [
-        1,
-        0
+        11,
+        1
       ]
     },
     "lineups": {
@@ -1435,29 +1416,48 @@
     "homeFlag": "🇧🇪",
     "away": "Egypt",
     "awayFlag": "🇪🇬",
-    "homeScore": 0,
-    "awayScore": 0,
-    "status": "upcoming",
-    "minute": 0,
+    "homeScore": 1,
+    "awayScore": 2,
+    "status": "live",
+    "minute": 69,
     "date": "Jun 15, 19:00 UTC",
     "location": "Seattle Stadium",
-    "events": [],
+    "events": [
+      {
+        "minute": 28,
+        "team": "Belgium",
+        "type": "goal",
+        "desc": "Bakayoko ⚽ (Goal!)"
+      },
+      {
+        "minute": 32,
+        "team": "Egypt",
+        "type": "goal",
+        "desc": "Faisal ⚽ (Goal!)"
+      },
+      {
+        "minute": 63,
+        "team": "Egypt",
+        "type": "goal",
+        "desc": "Ashour ⚽ (Goal!)"
+      }
+    ],
     "stats": {
       "possession": [
-        50,
-        50
+        57,
+        43
       ],
       "shots": [
-        0,
-        0
+        7,
+        4
       ],
       "fouls": [
-        0,
-        0
+        10,
+        7
       ],
       "corners": [
-        0,
-        0
+        1,
+        4
       ]
     },
     "lineups": {
