@@ -1417,47 +1417,41 @@
     "away": "Egypt",
     "awayFlag": "🇪🇬",
     "homeScore": 1,
-    "awayScore": 2,
-    "status": "live",
-    "minute": 69,
+    "awayScore": 1,
+    "status": "finished",
+    "minute": 0,
     "date": "Jun 15, 19:00 UTC",
     "location": "Seattle Stadium",
     "events": [
       {
-        "minute": 28,
-        "team": "Belgium",
-        "type": "goal",
-        "desc": "Bakayoko ⚽ (Goal!)"
-      },
-      {
-        "minute": 32,
+        "minute": 44,
         "team": "Egypt",
         "type": "goal",
         "desc": "Faisal ⚽ (Goal!)"
       },
       {
-        "minute": 63,
-        "team": "Egypt",
+        "minute": 59,
+        "team": "Belgium",
         "type": "goal",
-        "desc": "Ashour ⚽ (Goal!)"
+        "desc": "Bakayoko ⚽ (Goal!)"
       }
     ],
     "stats": {
       "possession": [
-        57,
-        43
+        54,
+        46
       ],
       "shots": [
-        7,
-        4
+        15,
+        14
       ],
       "fouls": [
-        10,
-        7
+        15,
+        15
       ],
       "corners": [
-        1,
-        4
+        2,
+        7
       ]
     },
     "lineups": {
@@ -1525,29 +1519,48 @@
     "homeFlag": "🇸🇦",
     "away": "Uruguay",
     "awayFlag": "🇺🇾",
-    "homeScore": 0,
-    "awayScore": 0,
-    "status": "upcoming",
-    "minute": 0,
+    "homeScore": 2,
+    "awayScore": 1,
+    "status": "live",
+    "minute": 28,
     "date": "Jun 15, 22:00 UTC",
     "location": "Miami Stadium",
-    "events": [],
+    "events": [
+      {
+        "minute": 1,
+        "team": "Saudi Arabia",
+        "type": "goal",
+        "desc": "Maran ⚽ (Goal!)"
+      },
+      {
+        "minute": 23,
+        "team": "Uruguay",
+        "type": "goal",
+        "desc": "Torres ⚽ (Goal!)"
+      },
+      {
+        "minute": 28,
+        "team": "Saudi Arabia",
+        "type": "goal",
+        "desc": "Asiri ⚽ (Goal!)"
+      }
+    ],
     "stats": {
       "possession": [
-        50,
-        50
+        44,
+        56
       ],
       "shots": [
-        0,
-        0
+        1,
+        3
       ],
       "fouls": [
-        0,
-        0
+        2,
+        1
       ],
       "corners": [
-        0,
-        0
+        1,
+        1
       ]
     },
     "lineups": {
