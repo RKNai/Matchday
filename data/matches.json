@@ -329,34 +329,34 @@
     "location": "Los Angeles Stadium",
     "events": [
       {
-        "minute": 0,
+        "minute": 6,
         "team": "USA",
         "type": "goal",
-        "desc": "D. Bobadilla 7'(OG) ⚽ (Goal!)"
+        "desc": "Horvath ⚽ (Goal!)"
       },
       {
-        "minute": 5,
+        "minute": 35,
         "team": "USA",
         "type": "goal",
-        "desc": "F. Balogun 45'+ ⚽ (Goal!)"
+        "desc": "Johnson ⚽ (Goal!)"
       },
       {
-        "minute": 8,
+        "minute": 64,
         "team": "USA",
         "type": "goal",
-        "desc": "G. Reyna 90'+ ⚽ (Goal!)"
+        "desc": "Carter-Vickers ⚽ (Goal!)"
       },
       {
-        "minute": 31,
+        "minute": 65,
         "team": "USA",
         "type": "goal",
-        "desc": "F. Balogun ⚽ (Goal!)"
+        "desc": "Christian Pulisic ⚽ (Goal!)"
       },
       {
-        "minute": 73,
+        "minute": 78,
         "team": "Paraguay",
         "type": "goal",
-        "desc": "Maurício ⚽ (Goal!)"
+        "desc": "Sanabria ⚽ (Goal!)"
       }
     ],
     "stats": {
@@ -450,16 +450,16 @@
     "location": "San Francisco Bay Area Stadium",
     "events": [
       {
-        "minute": 0,
+        "minute": 13,
         "team": "Switzerland",
         "type": "goal",
-        "desc": "Breel Embolo 17' (p) ⚽ (Goal!)"
+        "desc": "Mvogo ⚽ (Goal!)"
       },
       {
-        "minute": 5,
+        "minute": 82,
         "team": "Qatar",
         "type": "goal",
-        "desc": "B. Khoukhi 90'+ ⚽ (Goal!)"
+        "desc": "Al-Sheeb ⚽ (Goal!)"
       }
     ],
     "stats": {
@@ -553,16 +553,16 @@
     "location": "New York/New Jersey Stadium",
     "events": [
       {
-        "minute": 21,
-        "team": "Morocco",
-        "type": "goal",
-        "desc": "I. Saibari ⚽ (Goal!)"
-      },
-      {
-        "minute": 32,
+        "minute": 11,
         "team": "Brazil",
         "type": "goal",
-        "desc": "V. Júnior ⚽ (Goal!)"
+        "desc": "Bento ⚽ (Goal!)"
+      },
+      {
+        "minute": 36,
+        "team": "Morocco",
+        "type": "goal",
+        "desc": "Benabid ⚽ (Goal!)"
       }
     ],
     "stats": {
@@ -656,10 +656,10 @@
     "location": "Boston Stadium",
     "events": [
       {
-        "minute": 28,
+        "minute": 59,
         "team": "Scotland",
         "type": "goal",
-        "desc": "J. McGinn ⚽ (Goal!)"
+        "desc": "Hanley ⚽ (Goal!)"
       }
     ],
     "stats": {
@@ -753,16 +753,16 @@
     "location": "BC Place Vancouver",
     "events": [
       {
-        "minute": 27,
+        "minute": 45,
         "team": "Australia",
         "type": "goal",
-        "desc": "Nestory Irankunda ⚽ (Goal!)"
+        "desc": "Bos ⚽ (Goal!)"
       },
       {
-        "minute": 75,
+        "minute": 74,
         "team": "Australia",
         "type": "goal",
-        "desc": "C. Metcalfe ⚽ (Goal!)"
+        "desc": "Burgess ⚽ (Goal!)"
       }
     ],
     "stats": {
@@ -856,52 +856,52 @@
     "location": "Houston Stadium",
     "events": [
       {
-        "minute": 0,
+        "minute": 2,
         "team": "Germany",
         "type": "goal",
-        "desc": "K. Havertz 45'+5'(p) ⚽ (Goal!)"
+        "desc": "Can ⚽ (Goal!)"
       },
       {
-        "minute": 7,
+        "minute": 3,
         "team": "Germany",
         "type": "goal",
-        "desc": "Felix Nmecha ⚽ (Goal!)"
+        "desc": "Raum ⚽ (Goal!)"
       },
       {
-        "minute": 21,
+        "minute": 17,
         "team": "Curaçao",
         "type": "goal",
-        "desc": "L. Comenencia ⚽ (Goal!)"
+        "desc": "Kastaneer ⚽ (Goal!)"
       },
       {
-        "minute": 38,
+        "minute": 31,
         "team": "Germany",
         "type": "goal",
-        "desc": "N. Schlotterbeck ⚽ (Goal!)"
+        "desc": "Sané ⚽ (Goal!)"
       },
       {
-        "minute": 47,
+        "minute": 32,
         "team": "Germany",
         "type": "goal",
-        "desc": "J. Musiala ⚽ (Goal!)"
+        "desc": "Henrichs ⚽ (Goal!)"
       },
       {
-        "minute": 68,
+        "minute": 60,
         "team": "Germany",
         "type": "goal",
-        "desc": "N. Brown ⚽ (Goal!)"
+        "desc": "Müller ⚽ (Goal!)"
       },
       {
-        "minute": 78,
+        "minute": 61,
         "team": "Germany",
         "type": "goal",
-        "desc": "D. Undav ⚽ (Goal!)"
+        "desc": "Groß ⚽ (Goal!)"
       },
       {
-        "minute": 88,
+        "minute": 62,
         "team": "Germany",
         "type": "goal",
-        "desc": "K. Havertz ⚽ (Goal!)"
+        "desc": "Koch ⚽ (Goal!)"
       }
     ],
     "stats": {
@@ -995,28 +995,28 @@
     "location": "Dallas Stadium",
     "events": [
       {
-        "minute": 51,
+        "minute": 20,
         "team": "Netherlands",
         "type": "goal",
-        "desc": "Virgil van Dijk ⚽ (Goal!)"
+        "desc": "Wijnaldum ⚽ (Goal!)"
       },
       {
-        "minute": 57,
+        "minute": 40,
         "team": "Japan",
         "type": "goal",
-        "desc": "K. Nakamura ⚽ (Goal!)"
+        "desc": "Hashioka ⚽ (Goal!)"
       },
       {
-        "minute": 64,
+        "minute": 71,
+        "team": "Japan",
+        "type": "goal",
+        "desc": "Nozawa ⚽ (Goal!)"
+      },
+      {
+        "minute": 79,
         "team": "Netherlands",
         "type": "goal",
-        "desc": "C. Summerville ⚽ (Goal!)"
-      },
-      {
-        "minute": 89,
-        "team": "Japan",
-        "type": "goal",
-        "desc": "K. Ogawa ⚽ (Goal!)"
+        "desc": "Geertruida ⚽ (Goal!)"
       }
     ],
     "stats": {
@@ -1110,10 +1110,10 @@
     "location": "Philadelphia Stadium",
     "events": [
       {
-        "minute": 90,
+        "minute": 8,
         "team": "Côte d'Ivoire",
         "type": "goal",
-        "desc": "A. Diallo ⚽ (Goal!)"
+        "desc": "Lazare ⚽ (Goal!)"
       }
     ],
     "stats": {
@@ -1207,40 +1207,40 @@
     "location": "Monterrey Stadium",
     "events": [
       {
-        "minute": 6,
+        "minute": 24,
         "team": "Sweden",
         "type": "goal",
-        "desc": "Y.Ayari 90'+ ⚽ (Goal!)"
+        "desc": "Svanberg ⚽ (Goal!)"
       },
       {
-        "minute": 7,
+        "minute": 25,
         "team": "Sweden",
         "type": "goal",
-        "desc": "Y.Ayari ⚽ (Goal!)"
+        "desc": "Forsberg ⚽ (Goal!)"
       },
       {
-        "minute": 30,
+        "minute": 53,
         "team": "Sweden",
         "type": "goal",
-        "desc": "A. Isak ⚽ (Goal!)"
+        "desc": "Eliasson ⚽ (Goal!)"
       },
       {
-        "minute": 43,
+        "minute": 54,
+        "team": "Sweden",
+        "type": "goal",
+        "desc": "Sema ⚽ (Goal!)"
+      },
+      {
+        "minute": 83,
+        "team": "Sweden",
+        "type": "goal",
+        "desc": "Nilsson ⚽ (Goal!)"
+      },
+      {
+        "minute": 86,
         "team": "Tunisia",
         "type": "goal",
-        "desc": "O. Rekik ⚽ (Goal!)"
-      },
-      {
-        "minute": 59,
-        "team": "Sweden",
-        "type": "goal",
-        "desc": "V. Gyökeres ⚽ (Goal!)"
-      },
-      {
-        "minute": 84,
-        "team": "Sweden",
-        "type": "goal",
-        "desc": "M. Svanberg ⚽ (Goal!)"
+        "desc": "Ellyes Skhiri ⚽ (Goal!)"
       }
     ],
     "stats": {
@@ -1326,28 +1326,47 @@
     "homeFlag": "🇪🇸",
     "away": "Cabo Verde",
     "awayFlag": "🇨🇻",
-    "homeScore": 0,
-    "awayScore": 0,
-    "status": "upcoming",
-    "minute": 0,
+    "homeScore": 1,
+    "awayScore": 2,
+    "status": "live",
+    "minute": 32,
     "date": "Jun 15, 16:00 UTC",
     "location": "Atlanta Stadium",
-    "events": [],
+    "events": [
+      {
+        "minute": 26,
+        "team": "Spain",
+        "type": "goal",
+        "desc": "Fermín ⚽ (Goal!)"
+      },
+      {
+        "minute": 28,
+        "team": "Cabo Verde",
+        "type": "goal",
+        "desc": "Cuca ⚽ (Goal!)"
+      },
+      {
+        "minute": 29,
+        "team": "Cabo Verde",
+        "type": "goal",
+        "desc": "Rodrigues ⚽ (Goal!)"
+      }
+    ],
     "stats": {
       "possession": [
-        50,
-        50
+        67,
+        33
       ],
       "shots": [
-        0,
-        0
+        5,
+        1
       ],
       "fouls": [
-        0,
-        0
+        2,
+        1
       ],
       "corners": [
-        0,
+        1,
         0
       ]
     },
