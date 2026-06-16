@@ -1519,13 +1519,38 @@
     "homeFlag": "🇸🇦",
     "away": "Uruguay",
     "awayFlag": "🇺🇾",
-    "homeScore": 0,
-    "awayScore": 0,
-    "status": "upcoming",
+    "homeScore": 2,
+    "awayScore": 2,
+    "status": "finished",
     "minute": 0,
     "date": "Jun 15, 22:00 UTC",
     "location": "Miami Stadium",
-    "events": [],
+    "events": [
+      {
+        "minute": 7,
+        "team": "Uruguay",
+        "type": "goal",
+        "desc": "Ali Jast ⚽ (Goal!)"
+      },
+      {
+        "minute": 32,
+        "team": "Saudi Arabia",
+        "type": "goal",
+        "desc": "Ramin Rzaiian ⚽ (Goal!)"
+      },
+      {
+        "minute": 54,
+        "team": "Uruguay",
+        "type": "goal",
+        "desc": "Ali Jast ⚽ (Goal!)"
+      },
+      {
+        "minute": 64,
+        "team": "Saudi Arabia",
+        "type": "goal",
+        "desc": "Mohamed Mhbi ⚽ (Goal!)"
+      }
+    ],
     "stats": {
       "possession": [
         33,
@@ -1533,7 +1558,7 @@
       ],
       "shots": [
         7,
-        28
+        27
       ],
       "fouls": [
         11,
@@ -1617,34 +1642,34 @@
     "location": "Los Angeles Stadium",
     "events": [
       {
-        "minute": 19,
+        "minute": 20,
         "team": "New Zealand",
         "type": "goal",
-        "desc": "امام آشور ⚽ (Goal!)"
+        "desc": "Emam Ashour ⚽ (Goal!)"
       },
       {
         "minute": 66,
         "team": "IR Iran",
         "type": "goal",
-        "desc": "محمد هانی ⚽ (Goal!)"
+        "desc": "Mohamed Hany ⚽ (Goal!)"
       }
     ],
     "stats": {
       "possession": [
-        0,
-        0
+        48,
+        52
       ],
       "shots": [
-        0,
-        0
+        17,
+        14
       ],
       "fouls": [
-        0,
-        0
+        10,
+        8
       ],
       "corners": [
-        0,
-        0
+        4,
+        1
       ]
     },
     "lineups": {

@@ -1,9 +1,51 @@
 [
   {
     "category": "lineup",
+    "title": "Why Kante is still crucial for France  - Giroud",
+    "snippet": "France's World Cup winner Olivier Giroud explains why N'Golo Kante is still an important part of Didier Deschamps' squad, eight years after planning to retire from international football.",
+    "time": "12m ago",
+    "timestamp": 1781587636,
+    "color": "linear-gradient(135deg, #3b82f6, #1e3a8a)",
+    "overlay": "📋",
+    "link": "https://www.bbc.com/sport/football/articles/c3vypg424glo?at_medium=RSS&at_campaign=rss",
+    "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/6e1c/live/eb6be4c0-668b-11f1-8546-8f19e4fe30f4.jpg",
+    "source": "BBC Sport",
+    "lang": "en",
+    "id": 200
+  },
+  {
+    "category": "tactics",
+    "title": "World Cup latest: Iran national anthem booed by sections of LA crowd",
+    "snippet": "",
+    "time": "24m ago",
+    "timestamp": 1781586900,
+    "color": "linear-gradient(135deg, #f59e0b, #78350f)",
+    "overlay": "⚽",
+    "link": "https://www.skysports.com/football/live-blog/11095/13509050/world-cup-2026-news-and-live-updates-usa-canada-and-mexico-latest-including-trump-tickets-and-fans",
+    "image": "https://e0.365dm.com/26/06/1920x1080/skysports-world-cup-iran_7274533.jpg?20260616051815",
+    "source": "Sky Sports",
+    "lang": "en",
+    "id": 201
+  },
+  {
+    "category": "tactics",
+    "title": "Iran fight back twice to rescue thrilling draw against New Zealand",
+    "snippet": "Iran put their turbulent build-up to the World Cup behind them as they came from behind twice to secure a 2-2 draw with New Zealand in what was arguably the game of the tournament so far.",
+    "time": "39m ago",
+    "timestamp": 1781586000,
+    "color": "linear-gradient(135deg, #f59e0b, #78350f)",
+    "overlay": "⚽",
+    "link": "https://www.skysports.com/football/iran-vs-new-zealand/report/549779",
+    "image": "https://e0.365dm.com/26/06/1920x1080/skysports-new-zealand-iran_7274527.jpg?20260616042844",
+    "source": "Sky Sports",
+    "lang": "en",
+    "id": 202
+  },
+  {
+    "category": "lineup",
     "title": "Lukaku makes impact off the bench as Belgium draw with Egypt",
     "snippet": "An own goal from Mohamed Hany denies Egypt a first ever victory at the World Cup as they draw 1-1 with Belgium at the Seattle Stadium.",
-    "time": "2h ago",
+    "time": "7h ago",
     "timestamp": 1781560503,
     "color": "linear-gradient(135deg, #3b82f6, #1e3a8a)",
     "overlay": "📋",
@@ -11,13 +53,13 @@
     "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/933b/live/fa3168c0-68fe-11f1-b1db-af71d47507d6.jpg",
     "source": "BBC Sport",
     "lang": "en",
-    "id": 200
+    "id": 203
   },
   {
     "category": "tactics",
     "title": "Egypt denied first World Cup win in Belgium draw as Lukaku makes instant impact",
     "snippet": "Egypt were denied a first-ever World Cup win after Romelu Lukaku forced an own-goal equaliser just seconds after coming on to rescue a 1-1 draw for Belgium in their Group G opener.",
-    "time": "2h ago",
+    "time": "7h ago",
     "timestamp": 1781559900,
     "color": "linear-gradient(135deg, #f59e0b, #78350f)",
     "overlay": "⚽",
@@ -25,13 +67,13 @@
     "image": "https://e2.365dm.com/26/06/1920x1080/skysports-belgium-egypt_7274458.jpg?20260615213225",
     "source": "Sky Sports",
     "lang": "en",
-    "id": 201
+    "id": 204
   },
   {
     "category": "injury",
     "title": "I'll keep gambling with fitness for England - Saka",
     "snippet": "Bukayo Saka says he will continue gambling with his fitness and is \"ready to go\" for England's World Cup opener against Croatia on Wednesday.",
-    "time": "3h ago",
+    "time": "8h ago",
     "timestamp": 1781557968,
     "color": "linear-gradient(135deg, #ef4444, #7f1d1d)",
     "overlay": "🩺",
@@ -39,13 +81,13 @@
     "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/39f0/live/164ceaf0-68f2-11f1-a322-77bd30adf518.jpg",
     "source": "BBC Sport",
     "lang": "en",
-    "id": 202
+    "id": 205
   },
   {
     "category": "tactics",
     "title": "Cape Verde show beauty of football in one of the game's biggest mismatches",
     "snippet": "The essence of football is anyone stands a chance against anyone. With all the financial muscle in the game, that essence becomes harder and harder to see. And yet, there are days like this at the World Cup that defy everything.",
-    "time": "3h ago",
+    "time": "9h ago",
     "timestamp": 1781555280,
     "color": "linear-gradient(135deg, #f59e0b, #78350f)",
     "overlay": "⚽",
@@ -53,13 +95,13 @@
     "image": "https://e0.365dm.com/26/06/1920x1080/skysports-spain-cape-verde_7274434.jpg?20260615203504",
     "source": "Sky Sports",
     "lang": "en",
-    "id": 203
+    "id": 206
   },
   {
     "category": "tactics",
     "title": "2,500 passes since Spain's last World Cup goal - key stats as Cape Verde earn point",
     "snippet": "Veteran goalkeeper Vozinha stars and Spain reach 2,500 passes since their last World Cup goal - the key stats as debutants Cape Verde secure a memorable point in Atlanta.",
-    "time": "3h ago",
+    "time": "9h ago",
     "timestamp": 1781555176,
     "color": "linear-gradient(135deg, #f59e0b, #78350f)",
     "overlay": "⚽",
@@ -67,13 +109,13 @@
     "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/d369/live/1ec836f0-68f5-11f1-8546-8f19e4fe30f4.jpg",
     "source": "BBC Sport",
     "lang": "en",
-    "id": 204
+    "id": 207
   },
   {
     "category": "tactics",
     "title": "'My word!' - Ashour's long-range strikes put Egypt ahead",
     "snippet": "Egypt's Emam Ashour scores the opener in their Group G fixture against Belgium in the 2026 World Cup.",
-    "time": "4h ago",
+    "time": "9h ago",
     "timestamp": 1781554137,
     "color": "linear-gradient(135deg, #f59e0b, #78350f)",
     "overlay": "⚽",
@@ -81,13 +123,13 @@
     "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/f84a/live/afd94e90-68f0-11f1-b1db-af71d47507d6.jpg",
     "source": "BBC Sport",
     "lang": "en",
-    "id": 205
+    "id": 208
   },
   {
     "category": "tactics",
     "title": "Cape Verde hold Spain in one of World Cup's biggest surprises",
     "snippet": "Cape Verde pulled off one of the biggest shocks in World Cup history as the African debutants held tournament favourites Spain to a goalless draw in Atlanta.",
-    "time": "5h ago",
+    "time": "10h ago",
     "timestamp": 1781550300,
     "color": "linear-gradient(135deg, #f59e0b, #78350f)",
     "overlay": "⚽",
@@ -95,13 +137,13 @@
     "image": "https://e0.365dm.com/26/06/1920x1080/skysports-spain-cape-verde_7274379.jpg?20260615184722",
     "source": "Sky Sports",
     "lang": "en",
-    "id": 206
+    "id": 209
   },
   {
     "category": "tactics",
     "title": "Vozinha heroics help Cape Verde hold Spain to goalless draw",
     "snippet": "European champions Spain were held to surprise 0-0 draw by debutants Cape Verde in their World Cup opener, with 40-year-old goalkeeper Vozinha producing a standout performance for his side in their Group H clash.",
-    "time": "5h ago",
+    "time": "10h ago",
     "timestamp": 1781549564,
     "color": "linear-gradient(135deg, #f59e0b, #78350f)",
     "overlay": "⚽",
@@ -109,13 +151,13 @@
     "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/39a5/live/aa918c10-68e9-11f1-8e1d-bbbb1017d210.jpg",
     "source": "BBC Sport",
     "lang": "en",
-    "id": 207
+    "id": 210
   },
   {
     "category": "tactics",
     "title": "What's the score with watching Scotland in the World Cup?",
     "snippet": "Scotland's next two group stages matches will be played on Friday night and next Wednesday.",
-    "time": "5h ago",
+    "time": "10h ago",
     "timestamp": 1781548909,
     "color": "linear-gradient(135deg, #f59e0b, #78350f)",
     "overlay": "⚽",
@@ -123,13 +165,13 @@
     "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/d53d/live/c7726440-6893-11f1-8e1d-bbbb1017d210.jpg",
     "source": "BBC Sport",
     "lang": "en",
-    "id": 208
+    "id": 211
   },
   {
     "category": "tactics",
     "title": "Emotional full-time scenes as Cape Verde celebrate 0-0 draw against Spain",
     "snippet": "Watch the emotional full-time scenes following Cape Verde's 0-0 draw against Spain in the 2026 World Cup.",
-    "time": "5h ago",
+    "time": "10h ago",
     "timestamp": 1781548862,
     "color": "linear-gradient(135deg, #f59e0b, #78350f)",
     "overlay": "⚽",
@@ -137,13 +179,13 @@
     "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/7aa5/live/38057860-68e8-11f1-8546-8f19e4fe30f4.jpg",
     "source": "BBC Sport",
     "lang": "en",
-    "id": 209
+    "id": 212
   },
   {
     "category": "tactics",
     "title": "'He's the story' - Vozinha's epic goalkeeping display thwarts Spain",
     "snippet": "Watch Cape Verde goalkeeper Vozinha produce a masterclass in goalkeeping to help his team record a 0-0 draw again Spain in their Group H fixture at the 2026 World Cup.",
-    "time": "6h ago",
+    "time": "11h ago",
     "timestamp": 1781547150,
     "color": "linear-gradient(135deg, #f59e0b, #78350f)",
     "overlay": "⚽",
@@ -151,13 +193,13 @@
     "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/8248/live/7c84f830-68e3-11f1-b1db-af71d47507d6.jpg",
     "source": "BBC Sport",
     "lang": "en",
-    "id": 210
+    "id": 213
   },
   {
     "category": "press",
     "title": "Tunisia sack head coach after heavy defeat in World Cup opener",
     "snippet": "Tunisia have sacked their head coach Sabri Lamouchi following their opening game of the 2026 World Cup, a heavy 5-1 defeat to Sweden.",
-    "time": "6h ago",
+    "time": "12h ago",
     "timestamp": 1781544960,
     "color": "linear-gradient(135deg, #0d9488, #115e59)",
     "overlay": "🎙️",
@@ -165,73 +207,31 @@
     "image": "https://e0.365dm.com/26/06/1920x1080/skysports-sabri-lamouchi-tunisia_7274302.jpg?20260615171714",
     "source": "Sky Sports",
     "lang": "en",
-    "id": 211
-  },
-  {
-    "category": "tactics",
-    "title": "World Cup latest: Cape Verde GK's Instagram following soars after Spain draw",
-    "snippet": "",
-    "time": "6h ago",
-    "timestamp": 1781544000,
-    "color": "linear-gradient(135deg, #f59e0b, #78350f)",
-    "overlay": "⚽",
-    "link": "https://www.skysports.com/football/live-blog/11095/13509050/world-cup-2026-news-and-live-updates-usa-canada-and-mexico-latest-including-trump-tickets-and-fans",
-    "image": "https://e1.365dm.com/26/06/1920x1080/skysports-vozinha-spain_7274398.jpg?20260615193255",
-    "source": "Sky Sports",
-    "lang": "en",
-    "id": 212
-  },
-  {
-    "category": "tactics",
-    "title": "BBC or ITV? Inside how World Cup broadcast picks are made",
-    "snippet": "The 2026 World Cup is under way - but how do the BBC and ITV decide who shows which matches on TV?",
-    "time": "7h ago",
-    "timestamp": 1781542291,
-    "color": "linear-gradient(135deg, #f59e0b, #78350f)",
-    "overlay": "⚽",
-    "link": "https://www.bbc.com/sport/football/articles/cn81y63wn27o?at_medium=RSS&at_campaign=rss",
-    "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/0e52/live/c9d18ba0-d4f3-11f0-96eb-53528c4e8a84.jpg",
-    "source": "BBC Sport",
-    "lang": "en",
-    "id": 213
-  },
-  {
-    "category": "press",
-    "title": "Empty seat at World Cup for imprisoned French sports journalist",
-    "snippet": "A seat is being left empty in the press box at every France game at the World Cup to highlight the case of a French football writer who is in prison in Algeria.",
-    "time": "7h ago",
-    "timestamp": 1781541911,
-    "color": "linear-gradient(135deg, #0d9488, #115e59)",
-    "overlay": "🎙️",
-    "link": "https://www.bbc.com/sport/football/articles/c0ly17770lpo?at_medium=RSS&at_campaign=rss",
-    "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/5342/live/ed957f80-68d0-11f1-a53d-a3fd187200ab.jpg",
-    "source": "BBC Sport",
-    "lang": "en",
     "id": 214
   },
   {
     "category": "tactics",
-    "title": "Onces confirmados",
-    "snippet": "Sigue el partido y consulta cómo va el Irán contra Nueva Zelanda",
-    "time": "1h ago",
-    "timestamp": 1781565032,
+    "title": "Fede pone deberes a Uruguay",
+    "snippet": "Valverde, \"frustrado\" por el resultado, \"satisfecho\" como capitán",
+    "time": "4h ago",
+    "timestamp": 1781570730,
     "color": "linear-gradient(135deg, #f59e0b, #78350f)",
     "overlay": "⚽",
-    "link": "https://www.marca.com/futbol/mundial/2026/06/16/01-0117-20260616-1042-1804.html",
-    "image": "https://e01-xlk-ue-marca.uecdn.es/files/horizontal_image_desktop/uploads/2026/06/15/6a2f3a64a83ed.jpeg",
+    "link": "https://www.marca.com/futbol/mundial/2026/06/16/fede-pone-deberes-uruguay-trabajar-presionar.html",
+    "image": "https://e01-xlk-ue-marca.uecdn.es/files/horizontal_image_desktop/uploads/2026/06/16/6a309c41c60c5.jpeg",
     "source": "Marca",
     "lang": "es",
     "id": 215
   },
   {
     "category": "tactics",
-    "title": "La emoción de Scaloni a la pregunta de su excompañero Martín Palermo",
+    "title": "Arabia Saudí 1-1 Uruguay | Resumen Mundial 2026",
     "snippet": "",
-    "time": "1h ago",
-    "timestamp": 1781564223,
+    "time": "5h ago",
+    "timestamp": 1781569959,
     "color": "linear-gradient(135deg, #f59e0b, #78350f)",
     "overlay": "⚽",
-    "link": "https://www.marca.com/futbol/mundial/2026/06/16/emocion-scaloni-pregunta-excompanero-martin-palerm-video.html",
+    "link": "https://www.marca.com/futbol/mundial/2026/06/16/arabia-saudi-1-1-uruguay-resumen-mundial-2026-video.html",
     "image": "https://images.unsplash.com/photo-1543351611-58f69d7c1781?w=800&auto=format&fit=crop",
     "source": "Marca",
     "lang": "es",
@@ -239,55 +239,55 @@
   },
   {
     "category": "tactics",
-    "title": "El nuevo Príncipe de Egipto se presenta al mundo: \"He seguido todos sus partidos en el Barcelona\"<br>",
-    "snippet": "El '9' fichado por el conjunto 'culé' se convirtió en el jugador más joven de los 'Faraones' en disputar una Copa del Mundo",
-    "time": "1h ago",
-    "timestamp": 1781562676,
+    "title": "¿Quién va a fichar a Fede Viñas?<br>",
+    "snippet": "La contracrónica del Arabia Saudí 1-1 Uruguay",
+    "time": "5h ago",
+    "timestamp": 1781568806,
     "color": "linear-gradient(135deg, #f59e0b, #78350f)",
     "overlay": "⚽",
-    "link": "https://www.marca.com/futbol/mundial/2026/06/16/hamza-abdelkarim-nuevo-principe-egipto-presenta-mundo-he-seguido-todos-partidos-barcelona.html",
-    "image": "https://e01-xlk-ue-marca.uecdn.es/files/horizontal_image_desktop/uploads/2026/06/16/6a307cb52d884.jpeg",
+    "link": "https://www.marca.com/futbol/mundial/2026/06/16/arabia-saudi-manda-aviso.html",
+    "image": "https://e01-xlk-ue-marca.uecdn.es/files/horizontal_image_desktop/uploads/2026/06/16/6a30945f60e53.jpeg",
     "source": "Marca",
     "lang": "es",
     "id": 217
   },
   {
     "category": "tactics",
-    "title": "\"No me ha gustado eso de De la Fuente...\"<br>",
-    "snippet": "",
-    "time": "2h ago",
-    "timestamp": 1781560497,
+    "title": "Bueno para España",
+    "snippet": "Al empate de España y Cabo Verde le siguió otro entre Uruguay y Arabia Saudí que dejan todo igual, pero con una jornada menos por jugarse. Maxi Araujo igualó el tanto inicial de Al Amri",
+    "time": "5h ago",
+    "timestamp": 1781568312,
     "color": "linear-gradient(135deg, #f59e0b, #78350f)",
     "overlay": "⚽",
-    "link": "https://www.marca.com/futbol/mundial/2026/06/15/ocurra-darle-seleccion-campeona-mun-video.html",
-    "image": "https://images.unsplash.com/photo-1518063319789-7217e6706b04?w=800&auto=format&fit=crop",
+    "link": "https://www.marca.com/futbol/mundial/cronica/2026/06/16/arabia-saudi-uruguay-resetean-grupo.html",
+    "image": "https://e01-xlk-ue-marca.uecdn.es/files/horizontal_image_desktop/uploads/2026/06/16/6a3093d626541.jpeg",
     "source": "Marca",
     "lang": "es",
     "id": 218
   },
   {
     "category": "tactics",
-    "title": "La calculadora: España puede tener el peor rival en dieciseisavos",
-    "snippet": "",
-    "time": "2h ago",
-    "timestamp": 1781560266,
+    "title": "¡Just adelanta a Nueva Zelenda!",
+    "snippet": "Sigue el partido y consulta cómo va el Irán contra Nueva Zelanda",
+    "time": "6h ago",
+    "timestamp": 1781565032,
     "color": "linear-gradient(135deg, #f59e0b, #78350f)",
     "overlay": "⚽",
-    "link": "https://www.marca.com/futbol/mundial/2026/06/15/calculadora-mundial-2026-empezar-echar-cuentas.html",
-    "image": "https://e01-xlk-ue-marca.uecdn.es/files/horizontal_image_desktop/uploads/2026/06/15/6a3073acd728c.jpeg",
+    "link": "https://www.marca.com/futbol/mundial/2026/06/16/01-0117-20260616-1042-1804.html",
+    "image": "https://e01-xlk-ue-marca.uecdn.es/files/horizontal_image_desktop/uploads/2026/06/16/6a30a28039b8b.jpeg",
     "source": "Marca",
     "lang": "es",
     "id": 219
   },
   {
     "category": "tactics",
-    "title": "Bélgica 1-1 Egipto | Resumen Mundial 2026",
+    "title": "La emoción de Scaloni a la pregunta de su excompañero Martín Palermo",
     "snippet": "",
-    "time": "2h ago",
-    "timestamp": 1781560128,
+    "time": "6h ago",
+    "timestamp": 1781564223,
     "color": "linear-gradient(135deg, #f59e0b, #78350f)",
     "overlay": "⚽",
-    "link": "https://www.marca.com/futbol/mundial/2026/06/15/belgica-1-1-egipto-resumen-mundial-2026-video.html",
+    "link": "https://www.marca.com/futbol/mundial/2026/06/16/emocion-scaloni-pregunta-excompanero-martin-palerm-video.html",
     "image": "https://images.unsplash.com/photo-1543351611-58f69d7c1781?w=800&auto=format&fit=crop",
     "source": "Marca",
     "lang": "es",
@@ -295,9 +295,65 @@
   },
   {
     "category": "tactics",
+    "title": "El nuevo Príncipe de Egipto se presenta al mundo: \"He seguido todos sus partidos en el Barcelona\"<br>",
+    "snippet": "El '9' fichado por el conjunto 'culé' se convirtió en el jugador más joven de los 'Faraones' en disputar una Copa del Mundo",
+    "time": "7h ago",
+    "timestamp": 1781562676,
+    "color": "linear-gradient(135deg, #f59e0b, #78350f)",
+    "overlay": "⚽",
+    "link": "https://www.marca.com/futbol/mundial/2026/06/16/hamza-abdelkarim-nuevo-principe-egipto-presenta-mundo-he-seguido-todos-partidos-barcelona.html",
+    "image": "https://e01-xlk-ue-marca.uecdn.es/files/horizontal_image_desktop/uploads/2026/06/16/6a307cb52d884.jpeg",
+    "source": "Marca",
+    "lang": "es",
+    "id": 221
+  },
+  {
+    "category": "tactics",
+    "title": "\"No me ha gustado eso de De la Fuente...\"<br>",
+    "snippet": "",
+    "time": "7h ago",
+    "timestamp": 1781560497,
+    "color": "linear-gradient(135deg, #f59e0b, #78350f)",
+    "overlay": "⚽",
+    "link": "https://www.marca.com/futbol/mundial/2026/06/15/ocurra-darle-seleccion-campeona-mun-video.html",
+    "image": "https://images.unsplash.com/photo-1518063319789-7217e6706b04?w=800&auto=format&fit=crop",
+    "source": "Marca",
+    "lang": "es",
+    "id": 222
+  },
+  {
+    "category": "tactics",
+    "title": "La calculadora: España puede tener el peor rival en dieciseisavos",
+    "snippet": "",
+    "time": "7h ago",
+    "timestamp": 1781560266,
+    "color": "linear-gradient(135deg, #f59e0b, #78350f)",
+    "overlay": "⚽",
+    "link": "https://www.marca.com/futbol/mundial/2026/06/15/calculadora-mundial-2026-empezar-echar-cuentas.html",
+    "image": "https://e01-xlk-ue-marca.uecdn.es/files/horizontal_image_desktop/uploads/2026/06/15/6a3073acd728c.jpeg",
+    "source": "Marca",
+    "lang": "es",
+    "id": 223
+  },
+  {
+    "category": "tactics",
+    "title": "Bélgica 1-1 Egipto | Resumen Mundial 2026",
+    "snippet": "",
+    "time": "7h ago",
+    "timestamp": 1781560128,
+    "color": "linear-gradient(135deg, #f59e0b, #78350f)",
+    "overlay": "⚽",
+    "link": "https://www.marca.com/futbol/mundial/2026/06/15/belgica-1-1-egipto-resumen-mundial-2026-video.html",
+    "image": "https://images.unsplash.com/photo-1543351611-58f69d7c1781?w=800&auto=format&fit=crop",
+    "source": "Marca",
+    "lang": "es",
+    "id": 224
+  },
+  {
+    "category": "tactics",
     "title": "El portero Vozinha, el héroe de Cabo Verde: 40 años, sin equipo, 50.000€ de valor y nueva estrella en redes",
     "snippet": "El desconocido guardameta de la modesta selección africana fue el protagonista de un empate que ya es historia del deporte en Cabo Verde Leer",
-    "time": "2h ago",
+    "time": "8h ago",
     "timestamp": 1781558744,
     "color": "linear-gradient(135deg, #f59e0b, #78350f)",
     "overlay": "⚽",
@@ -305,13 +361,13 @@
     "image": "https://e00-elmundo.uecdn.es/assets/multimedia/imagenes/2026/06/15/17815587019931_990x0.jpg",
     "source": "El Mundo Deportes",
     "lang": "es",
-    "id": 221
+    "id": 225
   },
   {
     "category": "tactics",
     "title": "España, ¿y ahora qué? \"No sé cómo nos va a condicionar esto\"",
     "snippet": "La selección, que no se quedaba sin marcar en un partido oficial desde hace dos años, se enfrenta a una situación nueva: las críticas tras un gran fiasco Leer",
-    "time": "3h ago",
+    "time": "8h ago",
     "timestamp": 1781557634,
     "color": "linear-gradient(135deg, #f59e0b, #78350f)",
     "overlay": "⚽",
@@ -319,13 +375,13 @@
     "image": "https://e00-elmundo.uecdn.es/assets/multimedia/imagenes/2026/06/15/17815575251645_990x0.jpg",
     "source": "El Mundo Deportes",
     "lang": "es",
-    "id": 222
+    "id": 226
   },
   {
     "category": "tactics",
     "title": "Lukaku rescata un punto para Bélgica ante Egipto",
     "snippet": "El delantero provocó el gol que repartió el primer punto para ambas selecciones en el grupo G Leer",
-    "time": "3h ago",
+    "time": "8h ago",
     "timestamp": 1781557274,
     "color": "linear-gradient(135deg, #f59e0b, #78350f)",
     "overlay": "⚽",
@@ -333,13 +389,13 @@
     "image": "https://e00-elmundo.uecdn.es/assets/multimedia/imagenes/2026/06/15/17815570527195_990x0.jpg",
     "source": "El Mundo Deportes",
     "lang": "es",
-    "id": 223
+    "id": 227
   },
   {
     "category": "tactics",
     "title": "Lukaku llega a tiempo",
     "snippet": "Provoca el gol del empate de Bélgica, en propia puerta de Hany, apenas 14 segundos después de salir al campo. Se adelantó Egipto en la primera parte por medio de&nbsp;Ashour",
-    "time": "3h ago",
+    "time": "8h ago",
     "timestamp": 1781557091,
     "color": "linear-gradient(135deg, #f59e0b, #78350f)",
     "overlay": "⚽",
@@ -347,13 +403,13 @@
     "image": "https://e01-xlk-ue-marca.uecdn.es/files/horizontal_image_desktop/uploads/2026/06/15/6a306718c733a.jpeg",
     "source": "Marca",
     "lang": "es",
-    "id": 224
+    "id": 228
   },
   {
     "category": "lineup",
     "title": "32 años del dopaje de Maradona: la venganza argentina por el Mundial que les 'robaron'",
     "snippet": "En junio de 1994, en el segundo partido de la fase de grupos, el '10' dio positivo en un control por un \"cóctel casero de estimulantes\". La selección cayó en octavos con Rumanía. \"Perdimos nuestro faro\", confiesan jugadores de aquella plantilla Leer",
-    "time": "3h ago",
+    "time": "8h ago",
     "timestamp": 1781556188,
     "color": "linear-gradient(135deg, #3b82f6, #1e3a8a)",
     "overlay": "📋",
@@ -361,69 +417,27 @@
     "image": "https://e00-elmundo.uecdn.es/assets/multimedia/imagenes/2026/06/15/17815223558675_990x0.jpg",
     "source": "El Mundo Deportes",
     "lang": "es",
-    "id": 225
-  },
-  {
-    "category": "tactics",
-    "title": "\"No por campeón del mundo vamos a dejar de competir aquí\"",
-    "snippet": "El seleccionador argentino refuerza su ilusión de ser campeones por segunda vez consecutiva",
-    "time": "3h ago",
-    "timestamp": 1781556187,
-    "color": "linear-gradient(135deg, #f59e0b, #78350f)",
-    "overlay": "⚽",
-    "link": "https://www.marca.com/futbol/mundial/2026/06/15/scaloni-campeon-mundo-dejar-competir-aqui.html",
-    "image": "https://e01-xlk-ue-marca.uecdn.es/files/horizontal_image_desktop/uploads/2026/06/15/6a306314e718b.jpeg",
-    "source": "Marca",
-    "lang": "es",
-    "id": 226
-  },
-  {
-    "category": "press",
-    "title": "Michael Olise, la estrella diferente en la constelación de Francia: \"Tenéis que aceptarlo, nunca cambiará\"",
-    "snippet": "El delantero del Bayern, de padre nigeriano y madre franco-argelina, es la sensación de la temporada por su fútbol y su carácter. Juega al ajedrez, no quiere hablar con la prensa y apenas publica en redes sociales. \"Es introvertido\", dice Mbappé Leer",
-    "time": "3h ago",
-    "timestamp": 1781556094,
-    "color": "linear-gradient(135deg, #0d9488, #115e59)",
-    "overlay": "🎙️",
-    "link": "https://www.elmundo.es/deportes/futbol/mundial-de-futbol/2026/06/15/6a30139ce9cf4ab5718b459e.html",
-    "image": "https://e00-elmundo.uecdn.es/assets/multimedia/imagenes/2026/06/15/17815354711836_990x0.jpg",
-    "source": "El Mundo Deportes",
-    "lang": "es",
-    "id": 227
-  },
-  {
-    "category": "tactics",
-    "title": "Bueno para España",
-    "snippet": "Sigue el minuto a minuto del Arabia Saudí - Uruguay en directo",
-    "time": "3h ago",
-    "timestamp": 1781555329,
-    "color": "linear-gradient(135deg, #f59e0b, #78350f)",
-    "overlay": "⚽",
-    "link": "https://www.marca.com/futbol/mundial/2026/06/15/01-0117-20260615-1264-837.html",
-    "image": "https://e01-xlk-ue-marca.uecdn.es/files/horizontal_image_desktop/uploads/2026/06/16/6a309283db1e3.jpeg",
-    "source": "Marca",
-    "lang": "es",
-    "id": 228
-  },
-  {
-    "category": "tactics",
-    "title": "Gonzalo Miró, contundente tras el empate de España ante Cabo Verde: \"La primera media hora la hemos tirado a la basura\"",
-    "snippet": "El periodista opina del inesperado empate de la selección española en su primer partido del Mundial 2026",
-    "time": "3h ago",
-    "timestamp": 1781554779,
-    "color": "linear-gradient(135deg, #f59e0b, #78350f)",
-    "overlay": "⚽",
-    "link": "https://www.marca.com/radio/2026/06/15/gonzalo-miro-contundente-empate-espana-cabo-verde-primera-media-hora-hemos-tirado-basura.html",
-    "image": "https://e01-xlk-ue-marca.uecdn.es/files/horizontal_image_desktop/uploads/2026/06/15/6a305bcf19002.jpeg",
-    "source": "Marca",
-    "lang": "es",
     "id": 229
+  },
+  {
+    "category": "tactics",
+    "title": "El futbol acaba triomfant el dia que l'himne de l'Iran ha sonat als Estats Units",
+    "snippet": "Suats i cansats, els jugadors iranians donaven la volta al terreny de joc de l'estadi de Los Àngeles aplaudint als aficionats. A la graderia, milers de ciutadans nord-americans d'origen iranià els estaven ovacionant mostrant banderes monàrquiques. És a dir, símbols prohibits a l'actual Iran. Però per un moment, encara que fos, semblava que tots els iranians podien caminar de costat, units. La selecció de l'Iran ha debutat al Mundial empatat 2 a 2 un bonic partit contra una combativa Nova Zelanda que ha sorprès pel seu atreviment. Una jornada on ha triomfat el futbol, amb gols i espectacle, quan en els dies anteriors només es parlava, com és lògic, de política. No sempre es veu l'himne d'un estat sonant al territori del país que els ha bombardejat.",
+    "time": "1h ago",
+    "timestamp": 1781582176,
+    "color": "linear-gradient(135deg, #f59e0b, #78350f)",
+    "overlay": "⚽",
+    "link": "https://www.ara.cat/esports/futbol/futbol-acaba-triomfant-dia-l-himne-l-iran-sonat-als-estats-units_1_5770017.html",
+    "image": "https://static1.ara.cat/clip/3c5bc5b9-ccab-4a12-9cde-3a7570f16b88_16-9-aspect-ratio_default_0_x0y0.jpg",
+    "source": "ARA Esports",
+    "lang": "ca",
+    "id": 230
   },
   {
     "category": "tactics",
     "title": "El futbol dels quatre quarts",
     "snippet": "El futbol és ara un esport de quatre quarts. Almenys en aquest mundial és així, amb els tres temps de descans que hi ha. Al de la mitja part, el de tota la vida de 15 minuts, se li han afegit dos d’extres...",
-    "time": "15m ago",
+    "time": "5h ago",
     "timestamp": 1781568000,
     "color": "linear-gradient(135deg, #f59e0b, #78350f)",
     "overlay": "⚽",
@@ -431,13 +445,13 @@
     "image": "https://www.elpuntavui.cat/elements/enllacos/opinio2015/cgonzalez.png",
     "source": "El Punt Avui",
     "lang": "ca",
-    "id": 230
+    "id": 231
   },
   {
     "category": "lineup",
     "title": "Espifiada d’Espanya que no pot amb Cap Verd (0-0)",
     "snippet": "Ningú s’esperava que Espanya, un dels candidats més ferms a guanyar la copa del mon, no guanyés en l’estrena, al Cap Verd, debutant en la competició. Però així ha estat. El conjunt entrenat per...",
-    "time": "6h ago",
+    "time": "11h ago",
     "timestamp": 1781546979,
     "color": "linear-gradient(135deg, #3b82f6, #1e3a8a)",
     "overlay": "📋",
@@ -445,13 +459,13 @@
     "image": "https://www.elpuntavui.cat/imatges/64/54/4x3/780_0008_6454265_3ab226260b2b21c7ddbb83595db6c719ver5.jpg",
     "source": "El Punt Avui",
     "lang": "ca",
-    "id": 231
+    "id": 232
   },
   {
     "category": "lineup",
     "title": "Debut espantós de la selecció espanyola al Mundial (0-0)",
     "snippet": "La selecció espanyola ha tingut un debut espantós al Mundial. L’equip dirigit per Luis de la Fuente no ha pogut passar de l’empat contra Cap Verd, un dels combinats més fluixos de la competició, i només ha sumat un punt en la primera jornada (0-0). El conjunt estatal ha realitzat un partit molt fluix i … Continued",
-    "time": "6h ago",
+    "time": "11h ago",
     "timestamp": 1781546742,
     "color": "linear-gradient(135deg, #3b82f6, #1e3a8a)",
     "overlay": "📋",
@@ -459,13 +473,13 @@
     "image": "https://images.unsplash.com/photo-1543351611-58f69d7c1781?w=800&auto=format&fit=crop",
     "source": "Món Esport",
     "lang": "ca",
-    "id": 232
+    "id": 233
   },
   {
     "category": "lineup",
     "title": "Espanya s'estavella contra Cap Verd en el debut al Mundial",
     "snippet": "El combinat estatal empata a zero amb una selecció debutant a la Copa del Món tot i dominar el partit en una estrena decebedora d'una de les candidates a guanyar la Copa del Món",
-    "time": "6h ago",
+    "time": "11h ago",
     "timestamp": 1781546257,
     "color": "linear-gradient(135deg, #3b82f6, #1e3a8a)",
     "overlay": "📋",
@@ -473,13 +487,13 @@
     "image": "https://d5r1tkwwv7d5g.cloudfront.net/articulos/articulos-729179.jpg",
     "source": "Nació Digital",
     "lang": "ca",
-    "id": 233
+    "id": 234
   },
   {
     "category": "lineup",
     "title": "Espanya s'estavella contra Cap Verd en el seu debut al Mundial",
     "snippet": "Espanya, amb quatre blaugranes a l'onze –Cubarsí, Pedri, Gavi i Ferran–, va ser incapaç de desencallar el marcador (0-0) davant Cap Verd, país de poc més de mig milió d'habitants. Vozinha va ser l'heroi del seu conjunt davant un combinat espanyol que, ni amb l'entrada de Lamine Yamal a vint minuts del final, no va poder canviar el signe del partit.",
-    "time": "6h ago",
+    "time": "11h ago",
     "timestamp": 1781546217,
     "color": "linear-gradient(135deg, #3b82f6, #1e3a8a)",
     "overlay": "📋",
@@ -487,13 +501,13 @@
     "image": "https://static1.ara.cat/clip/8e7251f4-b907-482f-80bd-2d1f7d821c3d_16-9-aspect-ratio_default_0.jpg",
     "source": "ARA Esports",
     "lang": "ca",
-    "id": 234
+    "id": 235
   },
   {
     "category": "tactics",
     "title": "Loughinisland 1994: una matança «mundial»",
     "snippet": "Amb el Mundial, revisem un dels episodis més tràgics de la Copa del Món de futbol: la massacre que el pub d’un petit poblet del nord d’Irlanda va viure l’estiu de 1994 mentre els seus parroquians animaven la selecció irlandesa",
-    "time": "9h ago",
+    "time": "14h ago",
     "timestamp": 1781534526,
     "color": "linear-gradient(135deg, #f59e0b, #78350f)",
     "overlay": "⚽",
@@ -501,13 +515,13 @@
     "image": "https://d5r1tkwwv7d5g.cloudfront.net/articulos/articulos-729064.jpg",
     "source": "Nació Digital",
     "lang": "ca",
-    "id": 235
+    "id": 236
   },
   {
     "category": "tactics",
     "title": "El jugador català que s’ha convertit en la moda inesperada d’aquest Mundial",
     "snippet": "Fins al moment, el partit entre el Brasil i el Marroc ha estat l’enfrontament de més nivell d’aquest Mundial dels Estats Units, Mèxic i el Canadà. La selecció africana va sorprendre la canarinha amb un inici vibrant i un gol matiner, que Vinicius Jr. va empatar, per deixar el marcador final d’1-1. La diana inicial … Continued",
-    "time": "13h ago",
+    "time": "18h ago",
     "timestamp": 1781520722,
     "color": "linear-gradient(135deg, #f59e0b, #78350f)",
     "overlay": "⚽",
@@ -515,13 +529,13 @@
     "image": "https://images.unsplash.com/photo-1508098682722-e99c43a406b2?w=800&auto=format&fit=crop",
     "source": "Món Esport",
     "lang": "ca",
-    "id": 236
+    "id": 237
   },
   {
     "category": "transfer",
     "title": "Molts aficionats de la selecció espanyola, indignats amb el Reial Madrid",
     "snippet": "El Reial Madrid ha anunciat en les últimes hores el fitxatge de Marc Cucurella, format a les categories inferiors del Futbol Club Barcelona -va arribar a debutar amb el primer equip- i pretès també per l’Atlètic de Madrid en aquest mercat d’estiu. Aquesta operació ha despertat la indignació per part de molts aficionats de la … Continued",
-    "time": "13h ago",
+    "time": "19h ago",
     "timestamp": 1781519563,
     "color": "linear-gradient(135deg, #a855f7, #581c87)",
     "overlay": "🔄",
@@ -529,13 +543,13 @@
     "image": "https://images.unsplash.com/photo-1543351611-58f69d7c1781?w=800&auto=format&fit=crop",
     "source": "Món Esport",
     "lang": "ca",
-    "id": 237
+    "id": 238
   },
   {
     "category": "tactics",
     "title": "Jornada de moltíssims gols i sorpreses al Mundial de futbol",
     "snippet": "La fase de grups del Mundial dels Estats Units, Mèxic i el Canadà continua endavant i en les darreres hores hi ha hagut diversos partits que han deixat moments destacats. El primer és la golejada de la selecció alemanya a Curaçao, un dels països debutants en aquesta Copa del Món. Amb només 150.000 habitants, aquest … Continued",
-    "time": "14h ago",
+    "time": "20h ago",
     "timestamp": 1781515106,
     "color": "linear-gradient(135deg, #f59e0b, #78350f)",
     "overlay": "⚽",
@@ -543,7 +557,7 @@
     "image": "https://images.unsplash.com/photo-1508098682722-e99c43a406b2?w=800&auto=format&fit=crop",
     "source": "Món Esport",
     "lang": "ca",
-    "id": 238
+    "id": 239
   },
   {
     "category": "lineup",
@@ -557,7 +571,7 @@
     "image": "https://static1.ara.cat/clip/3cd47b79-da56-4034-a8e2-8b1c93b430cf_16-9-aspect-ratio_default_0.png",
     "source": "ARA Esports",
     "lang": "ca",
-    "id": 239
+    "id": 240
   },
   {
     "category": "tactics",
@@ -571,7 +585,7 @@
     "image": "https://d5r1tkwwv7d5g.cloudfront.net/articulos/articulos-726573.jpg",
     "source": "Nació Digital",
     "lang": "ca",
-    "id": 240
+    "id": 241
   },
   {
     "category": "press",
@@ -585,7 +599,7 @@
     "image": "https://static1.ara.cat/clip/ba95183c-04c9-4ff5-abf9-1f120e3af0fb_16-9-aspect-ratio_default_0_x2924y1133.jpg",
     "source": "ARA Esports",
     "lang": "ca",
-    "id": 241
+    "id": 242
   },
   {
     "category": "tactics",
@@ -599,7 +613,7 @@
     "image": "https://static1.ara.cat/clip/9ae37282-5dff-4c62-a92b-70fa08277c92_16-9-aspect-ratio_default_0_x2361y1363.jpg",
     "source": "ARA Esports",
     "lang": "ca",
-    "id": 242
+    "id": 243
   },
   {
     "category": "tactics",
@@ -612,20 +626,6 @@
     "link": "https://naciodigital.cat/esports/troben-un-cadaver-prop-del-centre-dentrenament-de-liran-pel-mundial.html",
     "image": "https://d5r1tkwwv7d5g.cloudfront.net/articulos/articulos-726156.jpg",
     "source": "Nació Digital",
-    "lang": "ca",
-    "id": 243
-  },
-  {
-    "category": "press",
-    "title": "La recepta de Carlo Ancelotti per il·lusionar 213 milions de persones",
-    "snippet": "Costa imaginar què pot posar nerviós Carlo Ancelotti. El veterà tècnic italià ha dirigit alguns dels clubs on es treballa amb més pressió del planeta, com el Madrid, la Juve o el Chelsea. Ha treballat sota la mirada de Florentino Pérez, Silvio Berlusconi o Roman Abramóvitx. Ha après com parlar amb joves jugadors egoistes i amb empresaris excèntrics. Sap com tractar futbolistes generosos i altres d'egoistes. Costa explicar quin és el seu sistema tàctic preferit, però sap gestionar persones i motivar-les. Per això va rebre la trucada de la Confederació Brasilera de Futbol ara fa menys de dos anys. El Brasil, la selecció que més cops ha guanyat el Mundial, s'encomanava a ell per tal de ser gran de nou. Per primer cop en la història, el Brasil arriba a un Mundial amb un tècnic estranger. Ancelotti no sembla nerviós, però. Se'l veu content.",
-    "time": "3d ago",
-    "timestamp": 1781265614,
-    "color": "linear-gradient(135deg, #0d9488, #115e59)",
-    "overlay": "🎙️",
-    "link": "https://www.ara.cat/esports/futbol/recepta-carlo-ancelotti-il-lusionar-213-milions-persones_1_5764829.html",
-    "image": "https://static1.ara.cat/clip/86fb49f9-42cf-44f6-84c1-ecddaecf0a86_source-aspect-ratio_default_0_x1391y619.jpg",
-    "source": "ARA Esports",
     "lang": "ca",
     "id": 244
   }
