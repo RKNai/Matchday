@@ -1,9 +1,37 @@
 [
   {
+    "category": "rules",
+    "title": "'Nearly men of Asian football' - Uzbekistan's rise to the World Cup",
+    "snippet": "Uzbekistan are the first nation from Central Asia to qualify for the Fifa World Cup. Here is how they got to North America.",
+    "time": "1h ago",
+    "timestamp": 1781704638,
+    "color": "linear-gradient(135deg, #64748b, #334155)",
+    "overlay": "📺",
+    "link": "https://www.bbc.com/sport/football/articles/cgqklykgjqzo?at_medium=RSS&at_campaign=rss",
+    "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/0896/live/0782fe90-3294-11f1-a3b7-f51d149332d6.jpg",
+    "source": "BBC Sport",
+    "lang": "en",
+    "id": 200
+  },
+  {
+    "category": "tactics",
+    "title": "Messi stays humble after hat-trick performance",
+    "snippet": "Argentina captain Lionel Messi says equalling the record for World Cup goals \"is an honour, but it is just a statistic\".",
+    "time": "2h ago",
+    "timestamp": 1781703070,
+    "color": "linear-gradient(135deg, #f59e0b, #78350f)",
+    "overlay": "⚽",
+    "link": "https://www.bbc.com/sport/football/videos/cq617v69y50o?at_medium=RSS&at_campaign=rss",
+    "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/8a19/live/dbe0b9c0-6a4d-11f1-b1db-af71d47507d6.jpg",
+    "source": "BBC Sport",
+    "lang": "en",
+    "id": 201
+  },
+  {
     "category": "tactics",
     "title": "How sweltering Scotland can handle World Cup heat",
     "snippet": "With Scotland's World Cup games expected to take place in temperatures of around 30C, Steve Clarke and his team will have to battle the conditions as well as Morocco and Brazil.",
-    "time": "39m ago",
+    "time": "4h ago",
     "timestamp": 1781694980,
     "color": "linear-gradient(135deg, #f59e0b, #78350f)",
     "overlay": "⚽",
@@ -11,13 +39,13 @@
     "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/5ea9/live/743ddc80-6999-11f1-8546-8f19e4fe30f4.jpg",
     "source": "BBC Sport",
     "lang": "en",
-    "id": 200
+    "id": 202
   },
   {
     "category": "lineup",
     "title": "Can Bellingham become England's superstar once more at the World Cup?",
     "snippet": "After tough love from England head coach Thomas Tuchel, Jude Bellingham's World Cup build-up points to a special talent who can be a key figure in their quest to win the World Cup.",
-    "time": "1h ago",
+    "time": "5h ago",
     "timestamp": 1781690779,
     "color": "linear-gradient(135deg, #3b82f6, #1e3a8a)",
     "overlay": "📋",
@@ -25,13 +53,13 @@
     "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/b1b2/live/f7bb6f60-69b1-11f1-9c9e-51a808d0c47c.jpg",
     "source": "BBC Sport",
     "lang": "en",
-    "id": 201
+    "id": 203
   },
   {
     "category": "tactics",
     "title": "World Cup latest: VOTE! Big hitters arrive but which goalscorer would you want?",
     "snippet": "",
-    "time": "1h ago",
+    "time": "5h ago",
     "timestamp": 1781690400,
     "color": "linear-gradient(135deg, #f59e0b, #78350f)",
     "overlay": "⚽",
@@ -39,13 +67,13 @@
     "image": "https://e2.365dm.com/26/06/1920x1080/skysports-world-cup-norway_7275553.jpg?20260617081232",
     "source": "Sky Sports",
     "lang": "en",
-    "id": 202
+    "id": 204
   },
   {
     "category": "tactics",
     "title": "Are Portugal better without Ronaldo - and is he undroppable?",
     "snippet": "As Cristiano Ronaldo prepares for his sixth World Cup with Portugal, BBC Sport take a closer look at his place in the team.",
-    "time": "3h ago",
+    "time": "7h ago",
     "timestamp": 1781686346,
     "color": "linear-gradient(135deg, #f59e0b, #78350f)",
     "overlay": "⚽",
@@ -53,13 +81,13 @@
     "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/a3df/live/23801080-61e0-11f1-ad0c-49f100654739.jpg",
     "source": "BBC Sport",
     "lang": "en",
-    "id": 203
+    "id": 205
   },
   {
     "category": "press",
     "title": "The records Ronaldo can break at the World Cup",
     "snippet": "Very rarely in life do we get an opportunity to say goodbye in real time.",
-    "time": "3h ago",
+    "time": "7h ago",
     "timestamp": 1781683200,
     "color": "linear-gradient(135deg, #0d9488, #115e59)",
     "overlay": "🎙️",
@@ -67,13 +95,13 @@
     "image": "https://e2.365dm.com/26/06/1920x1080/skysports-cristiano-ronaldo_7263099.jpg?20260601163505",
     "source": "Sky Sports",
     "lang": "en",
-    "id": 204
+    "id": 206
   },
   {
     "category": "rules",
     "title": "Arnautovic on target as Austria beat spirited Jordan",
     "snippet": "Arnautovic scores a late penalty as Austria beat World Cup debutants Jordan 3-1 in Group J.",
-    "time": "4h ago",
+    "time": "8h ago",
     "timestamp": 1781682759,
     "color": "linear-gradient(135deg, #64748b, #334155)",
     "overlay": "📺",
@@ -81,13 +109,13 @@
     "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/cffd/live/dc1abdb0-6a1a-11f1-8546-8f19e4fe30f4.jpg",
     "source": "BBC Sport",
     "lang": "en",
-    "id": 205
+    "id": 207
   },
   {
     "category": "tactics",
     "title": "World Cup quiz: England's previous opening games",
     "snippet": "Test your knowledge of England's previous opening games at World Cups. How much can you remember?",
-    "time": "4h ago",
+    "time": "8h ago",
     "timestamp": 1781681632,
     "color": "linear-gradient(135deg, #f59e0b, #78350f)",
     "overlay": "⚽",
@@ -95,13 +123,13 @@
     "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/aac5/live/6db02870-6811-11f1-8e1d-bbbb1017d210.png",
     "source": "BBC Sport",
     "lang": "en",
-    "id": 206
+    "id": 208
   },
   {
     "category": "tactics",
     "title": "Extraordinary Messi makes more history in masterclass for the ages",
     "snippet": "Kylian Mbappe and Erling Haaland both enjoyed a fine start to the World Cup - but on a day packed with superstars, Lionel Messi still took top billing.",
-    "time": "4h ago",
+    "time": "8h ago",
     "timestamp": 1781680659,
     "color": "linear-gradient(135deg, #f59e0b, #78350f)",
     "overlay": "⚽",
@@ -109,13 +137,13 @@
     "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/50b5/live/e01706b0-6a1c-11f1-8e1d-bbbb1017d210.jpg",
     "source": "BBC Sport",
     "lang": "en",
-    "id": 207
+    "id": 209
   },
   {
     "category": "tactics",
     "title": "Ballon d'Or on the line - has Kane saved his best World Cup dance for last?",
     "snippet": "For England, the thought is frightening but very real. This could be Harry Kane's final World Cup.",
-    "time": "4h ago",
+    "time": "8h ago",
     "timestamp": 1781679600,
     "color": "linear-gradient(135deg, #f59e0b, #78350f)",
     "overlay": "⚽",
@@ -123,27 +151,13 @@
     "image": "https://e0.365dm.com/26/06/1920x1080/skysports-kane-england_7275235.jpg?20260616183802",
     "source": "Sky Sports",
     "lang": "en",
-    "id": 208
-  },
-  {
-    "category": "rules",
-    "title": "Listen: Latest from Scotland at World Cup & Rangers' big decision",
-    "snippet": "As big teams slip up is Scotland's win looking better by the day?",
-    "time": "4h ago",
-    "timestamp": 1781679600,
-    "color": "linear-gradient(135deg, #64748b, #334155)",
-    "overlay": "📺",
-    "link": "https://www.bbc.co.uk/sounds/play/p0nsf2zw?at_medium=RSS&at_campaign=rss",
-    "image": "https://ichef.bbci.co.uk/images/ic/240x135/p0nsf31r.jpg",
-    "source": "BBC Sport",
-    "lang": "en",
-    "id": 209
+    "id": 210
   },
   {
     "category": "tactics",
     "title": "England's World Cup begins",
     "snippet": "England's World Cup opener is almost here.",
-    "time": "5h ago",
+    "time": "9h ago",
     "timestamp": 1781676660,
     "color": "linear-gradient(135deg, #f59e0b, #78350f)",
     "overlay": "⚽",
@@ -151,13 +165,13 @@
     "image": "https://ichef.bbci.co.uk/images/ic/240x135/p0ns7tvn.jpg",
     "source": "BBC Sport",
     "lang": "en",
-    "id": 210
+    "id": 211
   },
   {
     "category": "tactics",
     "title": "The Scottish set-piece guru plotting Portugal's World Cup glory",
     "snippet": "Austin MacPhee helped steer Aston Villa to European glory and now is integral to Portugal's hopes of winning the World Cup.",
-    "time": "5h ago",
+    "time": "9h ago",
     "timestamp": 1781676479,
     "color": "linear-gradient(135deg, #f59e0b, #78350f)",
     "overlay": "⚽",
@@ -165,32 +179,18 @@
     "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/6bbb/live/7e9eabb0-5eb7-11f1-9877-71c2729415b9.jpg",
     "source": "BBC Sport",
     "lang": "en",
-    "id": 211
+    "id": 212
   },
   {
     "category": "tactics",
     "title": "Who am I? Guess World Cup star No 10",
     "snippet": "Will you get today's player in as few attempts as possible?",
-    "time": "5h ago",
+    "time": "9h ago",
     "timestamp": 1781676042,
     "color": "linear-gradient(135deg, #f59e0b, #78350f)",
     "overlay": "⚽",
     "link": "https://www.bbc.com/sport/football/articles/c8d80dzj6gmo?at_medium=RSS&at_campaign=rss",
     "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/8065/live/ff310d20-630f-11f1-b682-cf91850925ea.jpg",
-    "source": "BBC Sport",
-    "lang": "en",
-    "id": 212
-  },
-  {
-    "category": "lineup",
-    "title": "'It's very Bond': Fashion experts on the England squad's off-pitch look",
-    "snippet": "What experts make of the men's team's official off-duty fashion as they prepare for their first World Cup match.",
-    "time": "6h ago",
-    "timestamp": 1781675523,
-    "color": "linear-gradient(135deg, #3b82f6, #1e3a8a)",
-    "overlay": "📋",
-    "link": "https://www.bbc.com/news/articles/c9v2e8llnkwo?at_medium=RSS&at_campaign=rss",
-    "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/eaf8/live/e50c9ea0-6a30-11f1-8546-8f19e4fe30f4.jpg",
     "source": "BBC Sport",
     "lang": "en",
     "id": 213
@@ -199,7 +199,7 @@
     "category": "tactics",
     "title": "Highlights: Messi equals Klose scoring record with hat-trick against Algeria",
     "snippet": "Lionel Messi becomes the World Cup's joint-top all-time leading scorer with a hat-trick, as reigning champions Argentina begin their defence with a 3-0 win over Algeria.",
-    "time": "7h ago",
+    "time": "11h ago",
     "timestamp": 1781669340,
     "color": "linear-gradient(135deg, #f59e0b, #78350f)",
     "overlay": "⚽",
@@ -211,9 +211,65 @@
   },
   {
     "category": "tactics",
+    "title": "Messi, \"una actuación para la eternidad\" y Rafael Nadal como inspiración",
+    "snippet": "El 'hat-trick' de la estrella argentina en el debut mundialista desató la euforia en Buenos Aires. Leer",
+    "time": "2h ago",
+    "timestamp": 1781703046,
+    "color": "linear-gradient(135deg, #f59e0b, #78350f)",
+    "overlay": "⚽",
+    "link": "https://www.elmundo.es/deportes/futbol/mundial-de-futbol/2026/06/17/6a329e78fdddffa8608b45c8.html",
+    "image": "https://e00-elmundo.uecdn.es/assets/multimedia/imagenes/2026/06/17/17817028640903_990x0.jpg",
+    "source": "El Mundo Deportes",
+    "lang": "es",
+    "id": 215
+  },
+  {
+    "category": "tactics",
+    "title": "Los ocho récords pulverizados por Messi en el Mundial: \"Es un extraterrestre\"",
+    "snippet": "La estrella argentina fulmina marcas a una semana de cumplir 39 años. «Me identifico con Rafa Nadal, me gusta competir», admite Leer",
+    "time": "3h ago",
+    "timestamp": 1781698462,
+    "color": "linear-gradient(135deg, #f59e0b, #78350f)",
+    "overlay": "⚽",
+    "link": "https://www.elmundo.es/deportes/futbol/mundial-de-futbol/2026/06/17/6a328e64e4d4d86c728b45a7.html",
+    "image": "https://e00-elmundo.uecdn.es/assets/multimedia/imagenes/2026/06/17/17816980856454_990x0.jpg",
+    "source": "El Mundo Deportes",
+    "lang": "es",
+    "id": 216
+  },
+  {
+    "category": "tactics",
+    "title": "Argelia reclama un planchazo de Messi a Mandi",
+    "snippet": "",
+    "time": "3h ago",
+    "timestamp": 1781697717,
+    "color": "linear-gradient(135deg, #f59e0b, #78350f)",
+    "overlay": "⚽",
+    "link": "https://www.marca.com/futbol/mundial/2026/06/17/argelia-reclama-planchazo-messi-man-video.html",
+    "image": "https://images.unsplash.com/photo-1508098682722-e99c43a406b2?w=800&auto=format&fit=crop",
+    "source": "Marca",
+    "lang": "es",
+    "id": 217
+  },
+  {
+    "category": "tactics",
+    "title": "Nunca nadie había completado tantos pases con 100% de acierto en los Mundiales",
+    "snippet": "Nunca nadie había completado tantos pases (83) con 100% de acierto en los Mundiales",
+    "time": "4h ago",
+    "timestamp": 1781697164,
+    "color": "linear-gradient(135deg, #f59e0b, #78350f)",
+    "overlay": "⚽",
+    "link": "https://www.marca.com/futbol/mundial/2026/06/17/perfect-chris-richards-nueva-piel-ee-uu-demasiado-negro-blancos-demasiado-blanco-negros.html",
+    "image": "https://e01-xlk-ue-marca.uecdn.es/files/horizontal_image_desktop/uploads/2026/06/17/6a327a0b487c4.jpeg",
+    "source": "Marca",
+    "lang": "es",
+    "id": 218
+  },
+  {
+    "category": "tactics",
     "title": "Los neozelandeses Jenny y Tyler Bindon se convierten en la primera pareja de madre e hijo que  participa en los Mundiales de fútbol",
     "snippet": "Ella jugó en China 2007 y en Alemania  2011, y ahora él se encuentra en Estados Unidos, donde pasó gran parte de su adolescencia Leer",
-    "time": "18m ago",
+    "time": "4h ago",
     "timestamp": 1781696281,
     "color": "linear-gradient(135deg, #f59e0b, #78350f)",
     "overlay": "⚽",
@@ -221,13 +277,13 @@
     "image": "https://e00-elmundo.uecdn.es/assets/multimedia/imagenes/2026/06/17/17816958350739_990x0.jpg",
     "source": "El Mundo Deportes",
     "lang": "es",
-    "id": 215
+    "id": 219
   },
   {
     "category": "tactics",
     "title": "Humildes desconocidos convertidos en estrellas: los porteros del Mundial que comenzaron su vida laboral como pastores, odontólogos o dependientes",
     "snippet": "Los guardametas desconocidos consiguen de vez en cuando 'pegar su cromito' en la página adecuada Leer",
-    "time": "35m ago",
+    "time": "4h ago",
     "timestamp": 1781695249,
     "color": "linear-gradient(135deg, #f59e0b, #78350f)",
     "overlay": "⚽",
@@ -235,13 +291,13 @@
     "image": "https://e00-elmundo.uecdn.es/assets/multimedia/imagenes/2026/06/17/17816950987832_990x0.jpg",
     "source": "El Mundo Deportes",
     "lang": "es",
-    "id": 216
+    "id": 220
   },
   {
     "category": "tactics",
     "title": "Mbappé-Olise, ¡vaya pareja!",
     "snippet": "Si en el Madrid no ha terminado de formar una sociedad ilimitada con Vinicius, el delantero se entiende a la perfección con Olise para reivindicarse ante los críticos",
-    "time": "47m ago",
+    "time": "4h ago",
     "timestamp": 1781694495,
     "color": "linear-gradient(135deg, #f59e0b, #78350f)",
     "overlay": "⚽",
@@ -249,27 +305,13 @@
     "image": "https://e01-xlk-ue-marca.uecdn.es/files/horizontal_image_desktop/uploads/2026/06/17/6a3211b4ccc7d.jpeg",
     "source": "Marca",
     "lang": "es",
-    "id": 217
-  },
-  {
-    "category": "tactics",
-    "title": "Los padres de Diogo Jota acompañan a Portugal en su debut en el Mundial",
-    "snippet": "Han sido invitados por la Federación para asistir al estreno ante la RD Congo",
-    "time": "1h ago",
-    "timestamp": 1781691640,
-    "color": "linear-gradient(135deg, #f59e0b, #78350f)",
-    "overlay": "⚽",
-    "link": "https://www.marca.com/futbol/mundial/2026/06/17/padres-diogo-jota-acompanan-portugal-debut-mundial.html",
-    "image": "https://e01-xlk-ue-marca.uecdn.es/files/horizontal_image_desktop/uploads/2026/06/17/6a327479c3a7b.jpeg",
-    "source": "Marca",
-    "lang": "es",
-    "id": 218
+    "id": 221
   },
   {
     "category": "tactics",
     "title": "El 'gol del honor' de Aymen Hussein: su padre fue asesinado por Al Qaeda y su hermano continúa desaparecido",
     "snippet": "El autor del 1-1 de Irak frente a Noruega tiene una historia de vida realmente dramática",
-    "time": "1h ago",
+    "time": "5h ago",
     "timestamp": 1781690303,
     "color": "linear-gradient(135deg, #f59e0b, #78350f)",
     "overlay": "⚽",
@@ -277,13 +319,13 @@
     "image": "https://e01-xlk-ue-marca.uecdn.es/files/horizontal_image_desktop/uploads/2026/06/17/6a326fb254dd3.jpeg",
     "source": "Marca",
     "lang": "es",
-    "id": 219
+    "id": 222
   },
   {
     "category": "tactics",
     "title": "Portugal en el Mundial 2026: grupo, rivales, fechas y horarios",
     "snippet": "Cristiano Ronaldo busca llevar a hombros a su selección para conquistar la primera Copa del Mundo para su país y el único trofeo que le falta Leer",
-    "time": "2h ago",
+    "time": "6h ago",
     "timestamp": 1781689372,
     "color": "linear-gradient(135deg, #f59e0b, #78350f)",
     "overlay": "⚽",
@@ -291,13 +333,13 @@
     "image": "https://e00-elmundo.uecdn.es/assets/multimedia/imagenes/2026/06/17/17816890790862_990x0.jpg",
     "source": "El Mundo Deportes",
     "lang": "es",
-    "id": 220
+    "id": 223
   },
   {
     "category": "rules",
     "title": "La baza de la FIFA para 'exprimir' al aficionado en el Mundial",
     "snippet": "El negocio de la venta de entradas y ‘hospitality’ se multiplicará por seis en comparación con el del ciclo que culminó Qatar 2022",
-    "time": "2h ago",
+    "time": "6h ago",
     "timestamp": 1781689167,
     "color": "linear-gradient(135deg, #64748b, #334155)",
     "overlay": "📺",
@@ -305,13 +347,13 @@
     "image": "https://e01-xlk-ue-marca.uecdn.es/files/horizontal_image_desktop/uploads/2026/06/17/6a326a243e59c.jpeg",
     "source": "Marca",
     "lang": "es",
-    "id": 221
+    "id": 224
   },
   {
     "category": "tactics",
     "title": "Haaland, Sorloth y Thorstvedt, la 'vendetta' de los hijos de 'Striker'",
     "snippet": "Sus padres,&nbsp;Erik Thorstvedt, Goran Sorloth y  Alfie Haaland, jugaron juntos el Mundial'1994",
-    "time": "2h ago",
+    "time": "6h ago",
     "timestamp": 1781688772,
     "color": "linear-gradient(135deg, #f59e0b, #78350f)",
     "overlay": "⚽",
@@ -319,27 +361,13 @@
     "image": "https://e01-xlk-ue-marca.uecdn.es/files/horizontal_image_desktop/uploads/2026/06/17/6a32610c27dbe.jpeg",
     "source": "Marca",
     "lang": "es",
-    "id": 222
-  },
-  {
-    "category": "tactics",
-    "title": "Alarma en las concentraciones de varias selecciones del Mundial por la presencia de serpientes venenosas: \"Si pisas una puedes acabar mal\"",
-    "snippet": "Uno de los casos más comentados es el de Alemania, después de que su capitán Kimmich relatara el encuentro del equipo con una serpiente en su centro de entrenamiento en Carolina del Norte Leer",
-    "time": "2h ago",
-    "timestamp": 1781687496,
-    "color": "linear-gradient(135deg, #f59e0b, #78350f)",
-    "overlay": "⚽",
-    "link": "https://www.elmundo.es/deportes/futbol/mundial-de-futbol/2026/06/17/6a326353e9cf4ab83c8b457d.html",
-    "image": "https://e00-elmundo.uecdn.es/assets/multimedia/imagenes/2026/06/17/17816870820237_990x0.jpg",
-    "source": "El Mundo Deportes",
-    "lang": "es",
-    "id": 223
+    "id": 225
   },
   {
     "category": "tactics",
     "title": "Golpe letal al tráfico de camisetas falsas en España<br>",
     "snippet": "Los registros se han realizado en 15 puntos de España",
-    "time": "2h ago",
+    "time": "6h ago",
     "timestamp": 1781687352,
     "color": "linear-gradient(135deg, #f59e0b, #78350f)",
     "overlay": "⚽",
@@ -347,13 +375,13 @@
     "image": "https://e01-xlk-ue-marca.uecdn.es/files/horizontal_image_desktop/uploads/2026/06/17/6a326408db697.jpeg",
     "source": "Marca",
     "lang": "es",
-    "id": 224
+    "id": 226
   },
   {
     "category": "tactics",
     "title": "La pelea que se viene en el Mundial<br>",
     "snippet": "Messi, autor de un hat-trick, y Mbappé y Haaland, que firmaron un doblete, brillan en su debut en la Copa del Mundo y rompen todos los registros. Hoy se estrenan Cristiano y Kane",
-    "time": "2h ago",
+    "time": "6h ago",
     "timestamp": 1781686746,
     "color": "linear-gradient(135deg, #f59e0b, #78350f)",
     "overlay": "⚽",
@@ -361,13 +389,13 @@
     "image": "https://e01-xlk-ue-marca.uecdn.es/files/horizontal_image_desktop/uploads/2026/06/17/6a32580f99aa5.jpeg",
     "source": "Marca",
     "lang": "es",
-    "id": 225
+    "id": 227
   },
   {
     "category": "tactics",
     "title": "Messi, Klose, Ronaldo... Los máximos goleadores de los Mundiales",
     "snippet": "El triplete del argentino en su debut frente a Argelia le permite alcanzar al alemán con 16 goles Leer",
-    "time": "2h ago",
+    "time": "6h ago",
     "timestamp": 1781686697,
     "color": "linear-gradient(135deg, #f59e0b, #78350f)",
     "overlay": "⚽",
@@ -375,13 +403,13 @@
     "image": "http://secure-uk.imrworldwide.com/cgi-bin/m?cid=es-widgetueditorial&amp;cg=rss-elmundo&amp;ci=es-widgetueditorial&amp;si=http://www.elmundo.es/rss/deportes.xml",
     "source": "El Mundo Deportes",
     "lang": "es",
-    "id": 226
+    "id": 228
   },
   {
     "category": "injury",
     "title": "Raphinha no duda<br>",
     "snippet": "No se plantea su salida y se centra en la disputa del Mundial con Brasil",
-    "time": "3h ago",
+    "time": "7h ago",
     "timestamp": 1781686238,
     "color": "linear-gradient(135deg, #ef4444, #7f1d1d)",
     "overlay": "🩺",
@@ -389,97 +417,83 @@
     "image": "https://e01-xlk-ue-marca.uecdn.es/files/horizontal_image_desktop/uploads/2026/05/28/6a1898256aa55.jpeg",
     "source": "Marca",
     "lang": "es",
-    "id": 227
-  },
-  {
-    "category": "tactics",
-    "title": "Inglaterra - Croacia: horario y dónde ver hoy por TV el partido del Mundial 2026",
-    "snippet": "El Inglaterra-Croacia de la fase de grupos del Mundial se juega hoy a las 22:00 horas: es el debut de ambas selecciones en la competición Leer",
-    "time": "3h ago",
-    "timestamp": 1781685741,
-    "color": "linear-gradient(135deg, #f59e0b, #78350f)",
-    "overlay": "⚽",
-    "link": "https://www.elmundo.es/deportes/futbol/mundial-de-futbol/2026/06/17/6a325d2be85ecea02b8b458c.html",
-    "image": "https://e00-elmundo.uecdn.es/assets/multimedia/imagenes/2026/06/17/17816857112512_990x0.jpg",
-    "source": "El Mundo Deportes",
-    "lang": "es",
-    "id": 228
-  },
-  {
-    "category": "tactics",
-    "title": "Portugal - RD del Congo: horario y dónde ver hoy por TV el partido del Mundial 2026",
-    "snippet": "Cristiano Ronaldo, a sus 41 años, lidera otra de las selecciones que aspiran al título y que se estrena contra la ilusión de Los Leopardos Leer",
-    "time": "3h ago",
-    "timestamp": 1781685442,
-    "color": "linear-gradient(135deg, #f59e0b, #78350f)",
-    "overlay": "⚽",
-    "link": "https://www.elmundo.es/deportes/futbol/mundial-de-futbol/2026/06/17/6a324fac21efa0723d8b458c.html",
-    "image": "https://e00-elmundo.uecdn.es/assets/multimedia/imagenes/2026/06/17/17816820097407_990x0.jpg",
-    "source": "El Mundo Deportes",
-    "lang": "es",
     "id": 229
+  },
+  {
+    "category": "tactics",
+    "title": "Tres marques de roba 'guanyen' el seu Mundial particular",
+    "snippet": "Tot i que aquest és el Mundial amb més seleccions participants de la història, les equipacions continuen concentrades en mans de poques marques. De fet, malgrat que aquesta edició presenta la diversitat més gran de fabricants fins ara, amb 13 marques representades, Adidas, Nike i Puma mantenen un domini aclaparador: vesteixen 37 de les 48 seleccions classificades, és a dir,  tres de cada quatre equips que aspiren al trofeu daurat.",
+    "time": "30m ago",
+    "timestamp": 1781709976,
+    "color": "linear-gradient(135deg, #f59e0b, #78350f)",
+    "overlay": "⚽",
+    "link": "https://www.ara.cat/esports/futbol/mundial/tres-marques-roba-guanyen-mundial-particular_130_5769704.html",
+    "image": "https://static1.ara.cat/clip/16428382-725c-41d7-96be-2d37165a2293_16-9-aspect-ratio_default_0.png",
+    "source": "ARA Esports",
+    "lang": "ca",
+    "id": 230
   },
   {
     "category": "tactics",
     "title": "La febre dels cromos del Mundial arriba als quioscos de Barcelona: «La gent s’endú les caixes senceres»",
     "snippet": "La demanda de sobres i àlbums s'ha reactivat per la competició internacional que se celebra a Mèxic, als Estats Units i al Canadà aquests dies i arriba a nens, pares, avis i turistes",
-    "time": "28m ago",
+    "time": "4h ago",
     "timestamp": 1781695665,
     "color": "linear-gradient(135deg, #f59e0b, #78350f)",
     "overlay": "⚽",
     "link": "https://naciodigital.cat/societat/la-febre-dels-cromos-del-mundial-arriba-als-quioscs-de-barcelona-la-gent-sendu-les-caixes-senceres.html",
-    "image": "https://d5r1tkwwv7d5g.cloudfront.net/articulos/articulos-246484.jpg",
+    "image": "https://d5r1tkwwv7d5g.cloudfront.net/articulos/articulos-730290.jpg",
     "source": "Nació Digital",
     "lang": "ca",
-    "id": 230
+    "id": 231
   },
   {
     "category": "transfer",
     "title": "El Madrid fa oficial el fitxatge que també volien Barça i Atlètic",
     "snippet": "El Reial Madrid ha anunciat aquest dimecres el fitxatge de Bernardo Silva. De la mateixa manera que va fer el club blanc amb Marc Cucurella, l’entitat merengue ha fet oficial aquesta incorporació el mateix dia del debut de la seva selecció al Mundial, en aquest cas la portuguesa. El comunicat del Madrid, com sempre molt … Continued",
-    "time": "1h ago",
+    "time": "5h ago",
     "timestamp": 1781691314,
     "color": "linear-gradient(135deg, #a855f7, #581c87)",
     "overlay": "🔄",
     "link": "https://monesport.cat/madrid/club-madrid/bernardo-silva-fitxatge-oficial-barca-atletic-485432/",
-    "image": "https://images.unsplash.com/photo-1508098682722-e99c43a406b2?w=800&auto=format&fit=crop",
-    "source": "Món Esport",
-    "lang": "ca",
-    "id": 231
-  },
-  {
-    "category": "tactics",
-    "title": "Messi, Mbappé i Haaland, grans protagonistes de la jornada del Mundial",
-    "snippet": "La darrera jornada del Mundial dels Estats Units, Mèxic i el Canadà ha estat potser la més espectacular de les que s’han viscut fins ara, sobretot perquè han brillat alguns noms propis que tothom tenia ganes de veure, com són Leo Messi, amb un hat trick amb la selecció argentina, i Kylian Mbappé i Erling … Continued",
-    "time": "2h ago",
-    "timestamp": 1781689919,
-    "color": "linear-gradient(135deg, #f59e0b, #78350f)",
-    "overlay": "⚽",
-    "link": "https://monesport.cat/futbol/internacional/mundial-messi-mbappe-haaland-485425/",
-    "image": "https://images.unsplash.com/photo-1543351611-58f69d7c1781?w=800&auto=format&fit=crop",
+    "image": "https://images.unsplash.com/photo-1579952363873-27f3bade9f55?w=800&auto=format&fit=crop",
     "source": "Món Esport",
     "lang": "ca",
     "id": 232
   },
   {
     "category": "tactics",
-    "title": "Messi signa una nit per a la història en el debut de l’Argentina al Mundial",
-    "snippet": "Quan semblava que el món del futbol ja ho havia vist absolutament tot de Leo Messi, l’astre argentí tenia encara alguns trucs reservats i els ha començat a ensenyar en el primer partit de l’albiceleste en aquest Mundial dels Estats Units, Mèxic i el Canadà. La selecció argentina ha debutat aquesta matinada contra Algèria i … Continued",
-    "time": "2h ago",
-    "timestamp": 1781687102,
+    "title": "Messi, Mbappé i Haaland, grans protagonistes de la jornada del Mundial",
+    "snippet": "La darrera jornada del Mundial dels Estats Units, Mèxic i el Canadà ha estat potser la més espectacular de les que s’han viscut fins ara, sobretot perquè han brillat alguns noms propis que tothom tenia ganes de veure, com són Leo Messi, amb un hat trick amb la selecció argentina, i Kylian Mbappé i Erling … Continued",
+    "time": "6h ago",
+    "timestamp": 1781689919,
     "color": "linear-gradient(135deg, #f59e0b, #78350f)",
     "overlay": "⚽",
-    "link": "https://monesport.cat/futbol/internacional/leo-messi-debut-mundial-historia-records-485413/",
-    "image": "https://images.unsplash.com/photo-1579952363873-27f3bade9f55?w=800&auto=format&fit=crop",
+    "link": "https://monesport.cat/futbol/internacional/mundial-messi-mbappe-haaland-485425/",
+    "image": "https://images.unsplash.com/photo-1518063319789-7217e6706b04?w=800&auto=format&fit=crop",
     "source": "Món Esport",
     "lang": "ca",
     "id": 233
   },
   {
     "category": "tactics",
+    "title": "Messi signa una nit per a la història en el debut de l’Argentina al Mundial",
+    "snippet": "Quan semblava que el món del futbol ja ho havia vist absolutament tot de Leo Messi, l’astre argentí tenia encara alguns trucs reservats i els ha començat a ensenyar en el primer partit de l’albiceleste en aquest Mundial dels Estats Units, Mèxic i el Canadà. La selecció argentina ha debutat aquesta matinada contra Algèria i … Continued",
+    "time": "6h ago",
+    "timestamp": 1781687102,
+    "color": "linear-gradient(135deg, #f59e0b, #78350f)",
+    "overlay": "⚽",
+    "link": "https://monesport.cat/futbol/internacional/leo-messi-debut-mundial-historia-records-485413/",
+    "image": "https://images.unsplash.com/photo-1508098682722-e99c43a406b2?w=800&auto=format&fit=crop",
+    "source": "Món Esport",
+    "lang": "ca",
+    "id": 234
+  },
+  {
+    "category": "tactics",
     "title": "Doblet de Haaland en la golejada de Noruega a l’Iraq (1-4) i victòria d’Àustria davant Jordània (3-1)",
     "snippet": "Golejada noruega davant l’Iraq (1-4) per estrenar-se amb bon peu al mundial i liderar el grup I per davant de França. Erling Haaland ha liderat el país escandinau amb un doblet en el retorn de Noruega...",
-    "time": "3h ago",
+    "time": "7h ago",
     "timestamp": 1781686214,
     "color": "linear-gradient(135deg, #f59e0b, #78350f)",
     "overlay": "⚽",
@@ -487,13 +501,13 @@
     "image": "https://www.elpuntavui.cat/imatges/64/54/4x3/780_0008_6454578_a619378b79dd45b2ce7e5102730c7089ver3.jpg",
     "source": "El Punt Avui",
     "lang": "ca",
-    "id": 234
+    "id": 235
   },
   {
     "category": "lineup",
     "title": "Messi fa història amb tres gols contra Algèria (3-0)",
     "snippet": "Debut immillorable per a Leo Messi en el mundial 2026. El millor futbolista de la història ha guiat la vigent campiona del món cap a la victòria contra Algèria (3-0). L’exblaugrana s’ha exhibit...",
-    "time": "6h ago",
+    "time": "10h ago",
     "timestamp": 1781673190,
     "color": "linear-gradient(135deg, #3b82f6, #1e3a8a)",
     "overlay": "📋",
@@ -501,13 +515,13 @@
     "image": "https://www.elpuntavui.cat/imatges/64/54/4x3/780_0008_6454557_80096479adaedc823f5a23a141916062ver2.jpg",
     "source": "El Punt Avui",
     "lang": "ca",
-    "id": 235
+    "id": 236
   },
   {
     "category": "lineup",
     "title": "Quin paper tindran les dones àrbitres en aquest Mundial?",
     "snippet": "L’arbitratge femení tornarà a tenir presència en un Mundial masculí. La FIFA ha inclòs sis dones dins del grup de 170 col·legiats convocats per al torneig: dues àrbitres principals, tres assistents i una especialista de VAR. L’atenció se centra especialment en les dues àrbitres principals: l’estatunidenca Tori Penso i la mexicana Katia García. Totes dues procedeixen de països organitzadors i afronten el repte més exigent de la seva trajectòria en el futbol masculí.",
-    "time": "6h ago",
+    "time": "10h ago",
     "timestamp": 1781672428,
     "color": "linear-gradient(135deg, #3b82f6, #1e3a8a)",
     "overlay": "📋",
@@ -515,13 +529,13 @@
     "image": "https://static1.ara.cat/clip/7afb5047-571d-4c79-877f-d76c0014af2b_16-9-aspect-ratio_default_0.jpg",
     "source": "ARA Esports",
     "lang": "ca",
-    "id": 236
+    "id": 237
   },
   {
     "category": "lineup",
     "title": "Messi és etern: fa tres gols i ja és el màxim golejador de la història dels Mundials",
-    "snippet": "Tres crits de matinada han despertat molts veïns a Catalunya. Eren argentins que viuen aquí o catalans que enyoren Messi. L'exjugador del Barça ha debutat en el seu sisè Mundial just el dia que feia 20 anys del seu primer partit, el 2006 a Alemanya. Ho feia defensant la corona aconseguida fa quatre anys a Qatar. Els argentins s'enfrontaven a Algèria en un test que havia de permetre entendre el seu nivell de joc, després de jugar pocs amistosos de nivell els darrers mesos. I han superat el test amb nota gràcies a tres gols del seu capità. Hi havia gent que deia que no havia de ser titular perquè ja és veterà. Altres deien que viu permanentment de vacances a Miami. En realitat, Messi és etern i ha marcat els tres gols de l'albiceleste. I encara ha fet un quart gol que no ha pujat al marcador.",
-    "time": "8h ago",
+    "snippet": "Tres crits de matinada van despertar molts veïns a Catalunya. Eren argentins que viuen aquí o catalans que enyoren Messi. L’exjugador del Barça va debutar la matinada de dimecres a Kansas City en el seu sisè Mundial. Ho feia  just el dia que feia 20 anys exactes del seu primer partit a una Copa del món, un llunyà 2006 a Alemanya. Messi entrava al terreny de joc defensant la corona aconseguida fa quatre anys a Qatar, quan per fi va ser campió. Els argentins s’enfrontaven a Algèria en un test que havia de permetre entendre el seu nivell de joc, després de jugar pocs amistosos de nivell els darrers mesos. I van superar el test amb nota gràcies a tres gols del seu capità. Hi havia gent que deia que no havia de ser titular perquè ja és veterà. Altres deien que viu permanentment de vacances a Miami. En realitat, Messi és etern i va marcar els tres gols de l’albiceleste. I encara va fer un quart gol que no va pujar al marcador. Tanbé va cometre una errada quan va trepitjar una rival molt fort, jugant amb foc. Els algerians van demanar targeta vermella, però l’àrbitre no el va fer fora.",
+    "time": "12h ago",
     "timestamp": 1781667059,
     "color": "linear-gradient(135deg, #3b82f6, #1e3a8a)",
     "overlay": "📋",
@@ -529,32 +543,18 @@
     "image": "https://static1.ara.cat/clip/8c0e7da1-2afc-4a6a-b0a6-268bc48aa788_16-9-aspect-ratio_default_0.jpg",
     "source": "ARA Esports",
     "lang": "ca",
-    "id": 237
+    "id": 238
   },
   {
     "category": "press",
     "title": "La tercera d’en Robert",
     "snippet": "El tècnic català afronta la seva tercera copa del món, ara amb Portugal, amb què busca la seva consagracióDe nou amb Cristiano Ronaldo com a líder, el combinat portuguès compta amb un dels millors equips",
-    "time": "11h ago",
+    "time": "15h ago",
     "timestamp": 1781654400,
     "color": "linear-gradient(135deg, #0d9488, #115e59)",
     "overlay": "🎙️",
     "link": "http://www.lesportiudecatalunya.cat/futbol/article/2651835-la-tercera-d-en-robert.html",
     "image": "https://www.elpuntavui.cat/imatges/64/53/4x3/780_0008_6453851_7ccab7ff665723ee483f44a966da1d10ver3.jpg",
-    "source": "El Punt Avui",
-    "lang": "ca",
-    "id": 238
-  },
-  {
-    "category": "tactics",
-    "title": "Furor a Egipte amb Hamza Abdelkarim, i Flick, atent",
-    "snippet": "Barça. Al club blaugrana beneeixen el debut mundialista del davanter egipci, als seus 18 anys, i es feliciten per haver-lo lligat abans de la copa del món",
-    "time": "11h ago",
-    "timestamp": 1781654400,
-    "color": "linear-gradient(135deg, #f59e0b, #78350f)",
-    "overlay": "⚽",
-    "link": "http://www.lesportiudecatalunya.cat/barca/article/2652222-furor-a-egipte-amb-hamza-abdelkarim-i-flick-atent.html",
-    "image": "https://www.elpuntavui.cat/fitxers/collaboradors/000/0164/0000164800/4x3/0000164800ver6.jpg",
     "source": "El Punt Avui",
     "lang": "ca",
     "id": 239
@@ -582,38 +582,10 @@
     "color": "linear-gradient(135deg, #3b82f6, #1e3a8a)",
     "overlay": "📋",
     "link": "https://monesport.cat/futbol/internacional/vozinha-porter-cap-verd-heroi-espanya-mundial-485360/",
-    "image": "https://images.unsplash.com/photo-1518063319789-7217e6706b04?w=800&auto=format&fit=crop",
-    "source": "Món Esport",
-    "lang": "ca",
-    "id": 241
-  },
-  {
-    "category": "lineup",
-    "title": "El Mundial deixa quatre empats que ningú no esperava",
-    "snippet": "La darrera jornada del Mundial dels Estats Units, Mèxic i el Canadà ha tingut quatre partits i tots ells han acabat amb empat. El primer ha estat el més sorprenent de tots, i és que la selecció espanyola no ha estat capaç de veure porteria contra la debutant Cap Verd, un dels pitjors equips de … Continued",
-    "time": "1d ago",
-    "timestamp": 1781600230,
-    "color": "linear-gradient(135deg, #3b82f6, #1e3a8a)",
-    "overlay": "📋",
-    "link": "https://monesport.cat/futbol/internacional/mundial-empats-belgica-uruguai-485351/",
-    "image": "https://images.unsplash.com/photo-1508098682722-e99c43a406b2?w=800&auto=format&fit=crop",
-    "source": "Món Esport",
-    "lang": "ca",
-    "id": 242
-  },
-  {
-    "category": "rules",
-    "title": "Al camp i al relat: doble punxada d’Espanya",
-    "snippet": "Havia de ser un festí com el de la selecció alemanya, però l’estrena de La Roja ha estat francament decebedora, tant en el camp com, sobretot, als micròfons de la televisió pública. En el plànol exclusivament futbolístic, només detalls de Pedri, l’electricitat revulsiva de Lamine i el perill d’Olmo entre línies -tots dos haurien d’haver … Continued",
-    "time": "1d ago",
-    "timestamp": 1781598896,
-    "color": "linear-gradient(135deg, #64748b, #334155)",
-    "overlay": "📺",
-    "link": "https://monesport.cat/opinio/seleccio-espanyola-debut-mundial-decebedor-485343/",
     "image": "https://images.unsplash.com/photo-1543351611-58f69d7c1781?w=800&auto=format&fit=crop",
     "source": "Món Esport",
     "lang": "ca",
-    "id": 243
+    "id": 241
   },
   {
     "category": "tactics",
@@ -626,6 +598,34 @@
     "link": "https://www.ara.cat/esports/futbol/somnis-realitat-mundial-porter-40-anys-equip-aturat-espanya_130_5770014.html",
     "image": "https://static1.ara.cat/clip/1d1dd3a6-8080-4561-869f-b05b1badaf41_16-9-aspect-ratio_default_0_x898y637.jpg",
     "source": "ARA Esports",
+    "lang": "ca",
+    "id": 242
+  },
+  {
+    "category": "tactics",
+    "title": "Xiulets a l'himne i problemes amb els visats: el caòtic debut de l'Iran al Mundial",
+    "snippet": "Suats i cansats, els jugadors iranians donaven la volta al terreny de joc de l'estadi de Los Angeles aplaudint als aficionats. A la graderia, milers de ciutadans nord-americans d'origen iranià els estaven ovacionant mentre mostraven banderes monàrquiques. És a dir, símbols prohibits a l'actual Iran. Però per un moment, encara que fos, semblava que tots els iranians podien caminar de costat, units. La selecció de l'Iran ha debutat al Mundial empatant a 2 en un bonic partit contra una combativa Nova Zelanda que ha sorprès pel seu atreviment. Ha estat una jornada en què ha triomfat el futbol, amb gols i espectacle, tot i que en els dies anteriors només es parlava, com és lògic, de política. No sempre sona l'himne d'un país en territori del país que l'ha bombardejat.",
+    "time": "1d ago",
+    "timestamp": 1781582176,
+    "color": "linear-gradient(135deg, #f59e0b, #78350f)",
+    "overlay": "⚽",
+    "link": "https://www.ara.cat/esports/futbol/futbol-acaba-triomfant-dia-l-himne-l-iran-sonat-als-estats-units_1_5770017.html",
+    "image": "https://static1.ara.cat/clip/655353c6-f891-4d52-8356-7c1cc08407c4_16-9-aspect-ratio_default_0_x1208y1007.jpg",
+    "source": "ARA Esports",
+    "lang": "ca",
+    "id": 243
+  },
+  {
+    "category": "lineup",
+    "title": "Espanya s'estavella contra Cap Verd en el debut al Mundial",
+    "snippet": "El combinat estatal empata a zero amb una selecció debutant a la Copa del Món tot i dominar el partit en una estrena decebedora d'una de les candidates a guanyar la Copa del Món",
+    "time": "1d ago",
+    "timestamp": 1781546257,
+    "color": "linear-gradient(135deg, #3b82f6, #1e3a8a)",
+    "overlay": "📋",
+    "link": "https://naciodigital.cat/esports/espanya-sestavella-contra-cap-verd-en-el-debut-al-mundial.html",
+    "image": "https://d5r1tkwwv7d5g.cloudfront.net/articulos/articulos-729179.jpg",
+    "source": "Nació Digital",
     "lang": "ca",
     "id": 244
   }
