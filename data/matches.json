@@ -1771,8 +1771,8 @@
     ],
     "stats": {
       "possession": [
-        54,
-        46
+        53,
+        47
       ],
       "shots": [
         11,
@@ -1852,29 +1852,60 @@
     "homeFlag": "🇮🇶",
     "away": "Norway",
     "awayFlag": "🇳🇴",
-    "homeScore": 0,
-    "awayScore": 0,
-    "status": "upcoming",
+    "homeScore": 1,
+    "awayScore": 4,
+    "status": "finished",
     "minute": 0,
     "date": "Jun 16, 22:00 UTC",
     "location": "Boston Stadium",
-    "events": [],
+    "events": [
+      {
+        "minute": 22,
+        "team": "Norway",
+        "type": "goal",
+        "desc": "Tronstad ⚽ (Goal!)"
+      },
+      {
+        "minute": 39,
+        "team": "Iraq",
+        "type": "goal",
+        "desc": "Player ⚽ (Goal!)"
+      },
+      {
+        "minute": 48,
+        "team": "Norway",
+        "type": "goal",
+        "desc": "Botheim ⚽ (Goal!)"
+      },
+      {
+        "minute": 53,
+        "team": "Norway",
+        "type": "goal",
+        "desc": "Selvik ⚽ (Goal!)"
+      },
+      {
+        "minute": 79,
+        "team": "Norway",
+        "type": "goal",
+        "desc": "Strand Larsen ⚽ (Goal!)"
+      }
+    ],
     "stats": {
       "possession": [
-        0,
-        0
+        39,
+        61
       ],
       "shots": [
-        0,
-        0
+        11,
+        12
       ],
       "fouls": [
-        0,
-        0
+        12,
+        13
       ],
       "corners": [
-        0,
-        0
+        2,
+        5
       ]
     },
     "lineups": {
@@ -1942,29 +1973,48 @@
     "homeFlag": "🇦🇷",
     "away": "Algeria",
     "awayFlag": "🇩🇿",
-    "homeScore": 0,
-    "awayScore": 0,
-    "status": "upcoming",
-    "minute": 0,
+    "homeScore": 1,
+    "awayScore": 2,
+    "status": "live",
+    "minute": 45,
     "date": "Jun 17, 01:00 UTC",
     "location": "Kansas City Stadium",
-    "events": [],
+    "events": [
+      {
+        "minute": 4,
+        "team": "Algeria",
+        "type": "goal",
+        "desc": "Player ⚽ (Goal!)"
+      },
+      {
+        "minute": 5,
+        "team": "Argentina",
+        "type": "goal",
+        "desc": "Di María ⚽ (Goal!)"
+      },
+      {
+        "minute": 18,
+        "team": "Algeria",
+        "type": "goal",
+        "desc": "Player ⚽ (Goal!)"
+      }
+    ],
     "stats": {
       "possession": [
-        50,
-        50
+        61,
+        39
       ],
       "shots": [
-        0,
-        0
+        1,
+        1
       ],
       "fouls": [
-        0,
-        0
+        5,
+        2
       ],
       "corners": [
         0,
-        0
+        1
       ]
     },
     "lineups": {
