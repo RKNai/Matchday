@@ -2641,27 +2641,27 @@
     "awayFlag": "🇿🇦",
     "homeScore": 0,
     "awayScore": 0,
-    "status": "upcoming",
-    "minute": 0,
+    "status": "live",
+    "minute": 17,
     "date": "Jun 18, 16:00 UTC",
     "location": "Atlanta Stadium",
     "events": [],
     "stats": {
       "possession": [
-        50,
-        50
+        44,
+        56
       ],
       "shots": [
-        0,
-        0
+        4,
+        2
       ],
       "fouls": [
-        0,
-        0
+        1,
+        2
       ],
       "corners": [
-        0,
-        0
+        2,
+        1
       ]
     },
     "lineups": {
