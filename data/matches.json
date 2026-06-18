@@ -2863,29 +2863,48 @@
     "homeFlag": "🇨🇦",
     "away": "Qatar",
     "awayFlag": "🇶🇦",
-    "homeScore": 0,
-    "awayScore": 0,
-    "status": "upcoming",
-    "minute": 0,
+    "homeScore": 1,
+    "awayScore": 2,
+    "status": "live",
+    "minute": 73,
     "date": "Jun 18, 22:00 UTC",
     "location": "BC Place Vancouver",
-    "events": [],
+    "events": [
+      {
+        "minute": 18,
+        "team": "Canada",
+        "type": "goal",
+        "desc": "Millar ⚽ (Goal!)"
+      },
+      {
+        "minute": 23,
+        "team": "Qatar",
+        "type": "goal",
+        "desc": "Ali ⚽ (Goal!)"
+      },
+      {
+        "minute": 54,
+        "team": "Qatar",
+        "type": "goal",
+        "desc": "Mazeed ⚽ (Goal!)"
+      }
+    ],
     "stats": {
       "possession": [
-        0,
-        0
+        71,
+        29
       ],
       "shots": [
-        0,
-        0
+        15,
+        2
       ],
       "fouls": [
-        0,
-        0
+        3,
+        5
       ],
       "corners": [
-        0,
-        0
+        5,
+        1
       ]
     },
     "lineups": {
