@@ -2639,29 +2639,60 @@
     "homeFlag": "🇨🇿",
     "away": "South Africa",
     "awayFlag": "🇿🇦",
-    "homeScore": 0,
-    "awayScore": 0,
-    "status": "live",
-    "minute": 17,
+    "homeScore": 3,
+    "awayScore": 2,
+    "status": "finished",
+    "minute": 0,
     "date": "Jun 18, 16:00 UTC",
     "location": "Atlanta Stadium",
-    "events": [],
+    "events": [
+      {
+        "minute": 11,
+        "team": "Czechia",
+        "type": "goal",
+        "desc": "Hlozek ⚽ (Goal!)"
+      },
+      {
+        "minute": 33,
+        "team": "South Africa",
+        "type": "goal",
+        "desc": "Morena ⚽ (Goal!)"
+      },
+      {
+        "minute": 40,
+        "team": "Czechia",
+        "type": "goal",
+        "desc": "Schick ⚽ (Goal!)"
+      },
+      {
+        "minute": 64,
+        "team": "South Africa",
+        "type": "goal",
+        "desc": "Mnyamane ⚽ (Goal!)"
+      },
+      {
+        "minute": 70,
+        "team": "Czechia",
+        "type": "goal",
+        "desc": "Barak ⚽ (Goal!)"
+      }
+    ],
     "stats": {
       "possession": [
-        44,
-        56
+        38,
+        62
       ],
       "shots": [
-        4,
-        2
+        14,
+        17
       ],
       "fouls": [
-        1,
-        2
+        12,
+        10
       ],
       "corners": [
-        2,
-        1
+        5,
+        5
       ]
     },
     "lineups": {
@@ -2738,8 +2769,8 @@
     "events": [],
     "stats": {
       "possession": [
-        50,
-        50
+        0,
+        0
       ],
       "shots": [
         0,
