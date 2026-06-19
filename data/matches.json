@@ -3078,20 +3078,20 @@
     "events": [],
     "stats": {
       "possession": [
-        73,
-        27
+        63,
+        37
       ],
       "shots": [
-        3,
-        2
+        10,
+        4
       ],
       "fouls": [
-        3,
-        2
+        10,
+        13
       ],
       "corners": [
-        1,
-        0
+        6,
+        4
       ]
     },
     "lineups": {
@@ -3339,7 +3339,7 @@
     "homeFlag": "🇹🇷",
     "away": "Paraguay",
     "awayFlag": "🇵🇾",
-    "homeScore": 1,
+    "homeScore": 2,
     "awayScore": 0,
     "status": "live",
     "minute": 0,
