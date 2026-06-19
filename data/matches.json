@@ -2863,47 +2863,65 @@
     "homeFlag": "🇨🇦",
     "away": "Qatar",
     "awayFlag": "🇶🇦",
-    "homeScore": 1,
-    "awayScore": 2,
-    "status": "live",
-    "minute": 73,
+    "homeScore": 6,
+    "awayScore": 0,
+    "status": "finished",
+    "minute": 0,
     "date": "Jun 18, 22:00 UTC",
     "location": "BC Place Vancouver",
     "events": [
       {
-        "minute": 18,
+        "minute": 15,
+        "team": "Canada",
+        "type": "goal",
+        "desc": "Hiebert ⚽ (Goal!)"
+      },
+      {
+        "minute": 16,
         "team": "Canada",
         "type": "goal",
         "desc": "Millar ⚽ (Goal!)"
       },
       {
-        "minute": 23,
-        "team": "Qatar",
+        "minute": 44,
+        "team": "Canada",
         "type": "goal",
-        "desc": "Ali ⚽ (Goal!)"
+        "desc": "Waterman ⚽ (Goal!)"
       },
       {
-        "minute": 54,
-        "team": "Qatar",
+        "minute": 45,
+        "team": "Canada",
         "type": "goal",
-        "desc": "Mazeed ⚽ (Goal!)"
+        "desc": "St. Clair ⚽ (Goal!)"
+      },
+      {
+        "minute": 73,
+        "team": "Canada",
+        "type": "goal",
+        "desc": "Laryea ⚽ (Goal!)"
+      },
+      {
+        "minute": 74,
+        "team": "Canada",
+        "type": "goal",
+        "desc": "McGill ⚽ (Goal!)"
       }
     ],
     "stats": {
       "possession": [
-        71,
-        29
+        79,
+        21
       ],
       "shots": [
-        15,
+        32,
         2
       ],
       "fouls": [
-        3,
-        5
+        9,
+        10
       ],
       "corners": [
-        5,
+        19,
         1
       ]
     },
@@ -2972,25 +2990,44 @@
     "homeFlag": "🇲🇽",
     "away": "Korea Republic",
     "awayFlag": "🇰🇷",
-    "homeScore": 0,
-    "awayScore": 0,
-    "status": "upcoming",
-    "minute": 0,
+    "homeScore": 2,
+    "awayScore": 1,
+    "status": "live",
+    "minute": 70,
     "date": "Jun 19, 01:00 UTC",
     "location": "Guadalajara Stadium",
-    "events": [],
+    "events": [
+      {
+        "minute": 12,
+        "team": "Mexico",
+        "type": "goal",
+        "desc": "J. Araujo ⚽ (Goal!)"
+      },
+      {
+        "minute": 53,
+        "team": "Mexico",
+        "type": "goal",
+        "desc": "Malagón ⚽ (Goal!)"
+      },
+      {
+        "minute": 70,
+        "team": "Korea Republic",
+        "type": "goal",
+        "desc": "Song ⚽ (Goal!)"
+      }
+    ],
     "stats": {
       "possession": [
-        50,
-        50
+        48,
+        52
       ],
       "shots": [
-        0,
-        0
+        4,
+        2
       ],
       "fouls": [
-        0,
-        0
+        4,
+        4
       ],
       "corners": [
         0,

@@ -1,9 +1,51 @@
 [
   {
+    "category": "injury",
+    "title": "Canada score six but historic win marred by Kone injury",
+    "snippet": "Ismael Kone's serious-looking injury left Canada manager Jesse Marsch in tears and overshadowed their first-ever World Cup finals win as they thrashed nine-man Qatar 6-0.",
+    "time": "11m ago",
+    "timestamp": 1781834313,
+    "color": "linear-gradient(135deg, #ef4444, #7f1d1d)",
+    "overlay": "🩺",
+    "link": "https://www.bbc.com/sport/football/videos/ckg7nx6kg51o?at_medium=RSS&at_campaign=rss",
+    "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/9885/live/5462e5c0-6b71-11f1-8e1d-bbbb1017d210.jpg",
+    "source": "BBC Sport",
+    "lang": "en",
+    "id": 200
+  },
+  {
+    "category": "injury",
+    "title": "Kone injury is a 'huge loss' - Marsch",
+    "snippet": "Canada coach Jessie Marsch praises his players for their 6-0 win over Qatar at the 2026 World Cup in Vancouver, but says losing Ismael Kone to a serious-looking injury is a \"huge loss\".",
+    "time": "1h ago",
+    "timestamp": 1781830958,
+    "color": "linear-gradient(135deg, #ef4444, #7f1d1d)",
+    "overlay": "🩺",
+    "link": "https://www.bbc.com/sport/football/videos/ckg0r24xk5wo?at_medium=RSS&at_campaign=rss",
+    "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/2103/live/a8a4aa00-6b77-11f1-b1db-af71d47507d6.jpg",
+    "source": "BBC Sport",
+    "lang": "en",
+    "id": 201
+  },
+  {
+    "category": "injury",
+    "title": "David scores hat-trick as Canada thrash NINE-man Qatar",
+    "snippet": "Canada are on the brink of qualifying for the World Cup knockout stages after a Jonathan David treble inspired a 6-0 win over woeful nine-man Qatar - in a result marred by a serious leg injury for midfielder Ismael Kone.",
+    "time": "1h ago",
+    "timestamp": 1781829900,
+    "color": "linear-gradient(135deg, #ef4444, #7f1d1d)",
+    "overlay": "🩺",
+    "link": "https://www.skysports.com/football/canada-vs-qatar/report/549792",
+    "image": "https://e1.365dm.com/26/06/1920x1080/skysports-canada-qatar_7277256.jpg?20260618235349",
+    "source": "Sky Sports",
+    "lang": "en",
+    "id": 202
+  },
+  {
     "category": "tactics",
     "title": "Super sub Manzambi helps Switzerland close on knockout stages with thumping win",
     "snippet": "Switzerland took a giant leap towards qualifying for the World Cup knockout stages with an emphatic 4-1 win over Bosnia-Herzegovina in Los Angeles.",
-    "time": "58m ago",
+    "time": "3h ago",
     "timestamp": 1781820900,
     "color": "linear-gradient(135deg, #f59e0b, #78350f)",
     "overlay": "⚽",
@@ -11,13 +53,13 @@
     "image": "https://e1.365dm.com/26/06/1920x1080/skysports-football-switzerland_7277151.jpg?20260618214643",
     "source": "Sky Sports",
     "lang": "en",
-    "id": 200
+    "id": 203
   },
   {
     "category": "tactics",
     "title": "Manzambi double propels Switzerland to win against Bosnia",
     "snippet": "Substitute Johan Manzambi scores twice in a thrilling final 20 minutes, as Switzerland beat Bosnia-Herzegovina 4-1 to edge towards a place in the World Cup round of 32.",
-    "time": "1h ago",
+    "time": "4h ago",
     "timestamp": 1781820531,
     "color": "linear-gradient(135deg, #f59e0b, #78350f)",
     "overlay": "⚽",
@@ -25,13 +67,13 @@
     "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/8451/live/bb6029b0-6b60-11f1-b1db-af71d47507d6.jpg",
     "source": "BBC Sport",
     "lang": "en",
-    "id": 201
+    "id": 204
   },
   {
     "category": "tactics",
     "title": "Switzerland's Manzambi scores superb double against Bosnia",
     "snippet": "20-year-old Johan Manzambi scores twice as Switzerland beat Bosnia in their 2026 World Cup match in Los Angeles.",
-    "time": "2h ago",
+    "time": "4h ago",
     "timestamp": 1781817052,
     "color": "linear-gradient(135deg, #f59e0b, #78350f)",
     "overlay": "⚽",
@@ -39,13 +81,13 @@
     "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/56dc/live/9b7d8800-6b5a-11f1-8e1d-bbbb1017d210.jpg",
     "source": "BBC Sport",
     "lang": "en",
-    "id": 202
+    "id": 205
   },
   {
     "category": "tactics",
     "title": "Neville: France still favourites despite England display",
     "snippet": "Gary Neville believes England produced the best football of the World Cup so far in their second-half display against Croatia, but remains unconvinced that Thomas Tuchel's side should be considered favourites for the tournament.",
-    "time": "2h ago",
+    "time": "5h ago",
     "timestamp": 1781816400,
     "color": "linear-gradient(135deg, #f59e0b, #78350f)",
     "overlay": "⚽",
@@ -53,13 +95,13 @@
     "image": "https://e1.365dm.com/26/06/1920x1080/skysports-football-harry-kane_7276287.jpg?20260617235603",
     "source": "Sky Sports",
     "lang": "en",
-    "id": 203
+    "id": 206
   },
   {
     "category": "tactics",
     "title": "'Best 15 minutes any team has played' | England impress Neville",
     "snippet": "Gary Neville speaks highly on England and Thomas Tuchel after their win against Croatia in the World Cup, but says France remain his favourites to win the tournament.",
-    "time": "2h ago",
+    "time": "5h ago",
     "timestamp": 1781815020,
     "color": "linear-gradient(135deg, #f59e0b, #78350f)",
     "overlay": "⚽",
@@ -67,13 +109,27 @@
     "image": "https://e1.365dm.com/26/06/1920x1080/skysports-world-cup-england_7277100.jpg?20260618204022",
     "source": "Sky Sports",
     "lang": "en",
-    "id": 204
+    "id": 207
+  },
+  {
+    "category": "tactics",
+    "title": "Tuchel: Saka unlikely to start against Ghana",
+    "snippet": "Thomas Tuchel says Bukayo Saka will be nursed through the next week of training but is unlikely to start for England until the final World Cup group game against Panama.",
+    "time": "6h ago",
+    "timestamp": 1781812860,
+    "color": "linear-gradient(135deg, #f59e0b, #78350f)",
+    "overlay": "⚽",
+    "link": "https://www.skysports.com/football/news/11095/13555396/world-cup-2026-bukayo-saka-unlikely-to-start-for-england-until-panama-game-thomas-tuchel-says",
+    "image": "https://e0.365dm.com/26/06/1920x1080/skysports-bukayo-saka-england_7276927.jpg?20260618175044",
+    "source": "Sky Sports",
+    "lang": "en",
+    "id": 208
   },
   {
     "category": "tactics",
     "title": "Sutton's World Cup score predictions - second group games",
     "snippet": "BBC Sport's football expert Chris Sutton gives his predictions for the scores of the second round of group games at the 2026 World Cup.",
-    "time": "3h ago",
+    "time": "6h ago",
     "timestamp": 1781812821,
     "color": "linear-gradient(135deg, #f59e0b, #78350f)",
     "overlay": "⚽",
@@ -81,27 +137,13 @@
     "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/da24/live/94353bc0-641a-11f1-8546-8f19e4fe30f4.jpg",
     "source": "BBC Sport",
     "lang": "en",
-    "id": 205
-  },
-  {
-    "category": "tactics",
-    "title": "Tuchel: Saka unlikely to start against Ghana",
-    "snippet": "Thomas Tuchel says Bukayo Saka will be nursed through the next week of training but is unlikely to start for England until the final World Cup group game against Panama.",
-    "time": "3h ago",
-    "timestamp": 1781812800,
-    "color": "linear-gradient(135deg, #f59e0b, #78350f)",
-    "overlay": "⚽",
-    "link": "https://www.skysports.com/football/news/11095/13555396/world-cup-2026-bukayo-saka-unlikely-to-start-for-england-until-panama-game-thomas-tuchel-says",
-    "image": "https://e0.365dm.com/26/06/1920x1080/skysports-bukayo-saka-england_7276927.jpg?20260618175044",
-    "source": "Sky Sports",
-    "lang": "en",
-    "id": 206
+    "id": 209
   },
   {
     "category": "tactics",
     "title": "Clarke: Underdog tag will bring best out of Scotland vs Morocco",
     "snippet": "Steve Clarke believes Scotland are often at their best when expectations are against them as they prepare for a World Cup showdown with Morocco.",
-    "time": "4h ago",
+    "time": "7h ago",
     "timestamp": 1781809200,
     "color": "linear-gradient(135deg, #f59e0b, #78350f)",
     "overlay": "⚽",
@@ -109,13 +151,13 @@
     "image": "https://e2.365dm.com/26/06/1920x1080/skysports-football-steve-clarke_7277020.jpg?20260618191811",
     "source": "Sky Sports",
     "lang": "en",
-    "id": 207
+    "id": 210
   },
   {
     "category": "rules",
     "title": "Mokoena's late penalty earns South Africa draw against Czech Republic",
     "snippet": "Teboho Mokoena scores an 83rd-minute penalty to earn South Africa a draw against the Czech Republic at the World Cup.",
-    "time": "4h ago",
+    "time": "7h ago",
     "timestamp": 1781808567,
     "color": "linear-gradient(135deg, #64748b, #334155)",
     "overlay": "📺",
@@ -123,13 +165,13 @@
     "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/1b8a/live/102a1ea0-6b44-11f1-b1db-af71d47507d6.jpg",
     "source": "BBC Sport",
     "lang": "en",
-    "id": 208
+    "id": 211
   },
   {
     "category": "rules",
     "title": "Late penalty gifts South Africa first point against wasteful Czech Republic",
     "snippet": "Teboho Mokoena's late penalty gifted South Africa their first point of the World Cup after wasteful Czech Republic failed to make their chances pay in a 1-1 draw in Atlanta.",
-    "time": "4h ago",
+    "time": "7h ago",
     "timestamp": 1781808300,
     "color": "linear-gradient(135deg, #64748b, #334155)",
     "overlay": "📺",
@@ -137,13 +179,13 @@
     "image": "https://e1.365dm.com/26/06/1920x1080/skysports-teboho-mokoena-south-africa_7277002.jpg?20260618190224",
     "source": "Sky Sports",
     "lang": "en",
-    "id": 209
+    "id": 212
   },
   {
     "category": "tactics",
     "title": "Who England and Scotland face in World Cup last 32 as it stands",
     "snippet": "Who is on course to meet in the last 32 of the World Cup? View all the projected ties after the latest group stage results here.",
-    "time": "4h ago",
+    "time": "7h ago",
     "timestamp": 1781807154,
     "color": "linear-gradient(135deg, #f59e0b, #78350f)",
     "overlay": "⚽",
@@ -151,60 +193,18 @@
     "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/f583/live/abc90c60-6b33-11f1-858e-3f275ac14006.png",
     "source": "BBC Sport",
     "lang": "en",
-    "id": 210
+    "id": 213
   },
   {
     "category": "tactics",
     "title": "Ivory Coast's Wahi allowed into Canada after visa issue",
     "snippet": "The Ivory Coast football federation have announced their forward Elye Wahi will be allowed into Canada for their next World Cup game after earlier being denied entry.",
-    "time": "4h ago",
+    "time": "7h ago",
     "timestamp": 1781806394,
     "color": "linear-gradient(135deg, #f59e0b, #78350f)",
     "overlay": "⚽",
     "link": "https://www.bbc.com/sport/football/articles/cvg7n7xdnd0o?at_medium=RSS&at_campaign=rss",
     "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/3ba2/live/94400940-6b01-11f1-8317-e1f912f75a64.jpg",
-    "source": "BBC Sport",
-    "lang": "en",
-    "id": 211
-  },
-  {
-    "category": "lineup",
-    "title": "Tuchel's complaints lead to Fifa moving photographers",
-    "snippet": "England head coach Thomas Tuchel has won a battle with Fifa to get photographers moved away from the bench during the national anthems.",
-    "time": "5h ago",
-    "timestamp": 1781804659,
-    "color": "linear-gradient(135deg, #3b82f6, #1e3a8a)",
-    "overlay": "📋",
-    "link": "https://www.bbc.com/sport/football/articles/cdejd2p65k3o?at_medium=RSS&at_campaign=rss",
-    "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/c25e/live/68ca4a50-6aa2-11f1-8a84-9dc78e6db533.jpg",
-    "source": "BBC Sport",
-    "lang": "en",
-    "id": 212
-  },
-  {
-    "category": "tactics",
-    "title": "New Zealand make World Cup history with first mother-son duo",
-    "snippet": "New Zealand make history as Tyler and Jenny Bindon become the first mother-son duo to play at the World Cup.",
-    "time": "6h ago",
-    "timestamp": 1781802274,
-    "color": "linear-gradient(135deg, #f59e0b, #78350f)",
-    "overlay": "⚽",
-    "link": "https://www.bbc.com/sport/football/articles/cly7r603vrno?at_medium=RSS&at_campaign=rss",
-    "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/c285/live/836fc050-6b2f-11f1-858e-3f275ac14006.jpg",
-    "source": "BBC Sport",
-    "lang": "en",
-    "id": 213
-  },
-  {
-    "category": "tactics",
-    "title": "Rice expected to be fit to face Ghana despite back pain",
-    "snippet": "Declan Rice is expected to be available for England's World Cup match against Ghana after suffering from lower back pain during the win over Croatia.",
-    "time": "6h ago",
-    "timestamp": 1781800979,
-    "color": "linear-gradient(135deg, #f59e0b, #78350f)",
-    "overlay": "⚽",
-    "link": "https://www.bbc.com/sport/football/articles/cdr45g01vk3o?at_medium=RSS&at_campaign=rss",
-    "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/de8a/live/6afa8ad0-6b31-11f1-858e-3f275ac14006.jpg",
     "source": "BBC Sport",
     "lang": "en",
     "id": 214
@@ -213,7 +213,7 @@
     "category": "rules",
     "title": "El Mundial de las diásporas, estadios llenos gracias a los inmigrantes: \"Son los que viven aquí. Otros no se han atrevido a cruzar la frontera\"",
     "snippet": "La FIFA bate récords de asistencia, pese al astronómico precio de las entradas. «Vivimos esto como si estuviésemos en nuestro país», dicen los aficionados Leer",
-    "time": "56m ago",
+    "time": "3h ago",
     "timestamp": 1781820988,
     "color": "linear-gradient(135deg, #64748b, #334155)",
     "overlay": "📺",
@@ -227,7 +227,7 @@
     "category": "tactics",
     "title": "Suiza castiga a Bosnia con una goleada postrera que le acerca a las eliminatorias",
     "snippet": "Un doblete de Manzambi decanta el triunfo helvético (4-1) ante un rival obligado a ganar a Qatar en la última jornada. Leer",
-    "time": "1h ago",
+    "time": "4h ago",
     "timestamp": 1781819997,
     "color": "linear-gradient(135deg, #f59e0b, #78350f)",
     "overlay": "⚽",
@@ -241,7 +241,7 @@
     "category": "tactics",
     "title": "De Rocafonda a Times Square, el Mundial espera ansioso por Lamine: \"Todo lo que toca lo convierte en oro\"",
     "snippet": "La selección, y el torneo, viven pendientes de la evolución de una de las grandes estrellas mundiales. \"Está concienciado\", dicen en la concentración Leer",
-    "time": "1h ago",
+    "time": "4h ago",
     "timestamp": 1781818094,
     "color": "linear-gradient(135deg, #f59e0b, #78350f)",
     "overlay": "⚽",
@@ -255,7 +255,7 @@
     "category": "tactics",
     "title": "La MLS, 20 años de explosión para generar la columna vertebral de la selección de Estados Unidos",
     "snippet": "Solo cinco de los jugadores de Pochettino se han criado en canteras europeas. El incremento de la inversión lo arrancó la llegada de Beckham y lo ha multiplicado Messi Leer",
-    "time": "2h ago",
+    "time": "5h ago",
     "timestamp": 1781815234,
     "color": "linear-gradient(135deg, #f59e0b, #78350f)",
     "overlay": "⚽",
@@ -269,7 +269,7 @@
     "category": "tactics",
     "title": "Wilguens Paugain, sueños y ruina en la selección de Haití: \"No podemos volver a nuestro país, es muy peligroso\"",
     "snippet": "El internacional explica a EL MUNDO las dificultades del equipo y el país caribeño y el orgullo de jugar un Mundial: \"Mi hermano mayor se quedó en Haití y le capturó la policía al intentar irse a Dominicana\", cuenta. Leer",
-    "time": "2h ago",
+    "time": "5h ago",
     "timestamp": 1781815231,
     "color": "linear-gradient(135deg, #f59e0b, #78350f)",
     "overlay": "⚽",
@@ -283,7 +283,7 @@
     "category": "tactics",
     "title": "La explicación a las lágrimas de Messi ante Argelia: la enfermedad de su padre",
     "snippet": "La familia emite un comunicado donde pide respeto y privacidad sobre el estado de salud de Jorge Messi Leer",
-    "time": "5h ago",
+    "time": "8h ago",
     "timestamp": 1781806019,
     "color": "linear-gradient(135deg, #f59e0b, #78350f)",
     "overlay": "⚽",
@@ -297,7 +297,7 @@
     "category": "tactics",
     "title": "A qué hora es el México - Corea del Sur: horario, canal de TV y y dónde ver el partido del Mundial 2026",
     "snippet": "La Tri y los Guerreros de Taeguk se enfrentan por el liderato del Grupo A y por lograr más de medio billete para los dieciseisavos de final Leer",
-    "time": "6h ago",
+    "time": "9h ago",
     "timestamp": 1781801900,
     "color": "linear-gradient(135deg, #f59e0b, #78350f)",
     "overlay": "⚽",
@@ -311,7 +311,7 @@
     "category": "tactics",
     "title": "Costa de Marfil no podrá contar con Wahi ante Alemania: Canadá le frena el visado tras investigarse un caso de amaños",
     "snippet": "El delantero se quedará en EEUU tras ser interrogado antes del Mundial por recibir, presuntamente, una amarilla intencionada Leer",
-    "time": "8h ago",
+    "time": "11h ago",
     "timestamp": 1781792169,
     "color": "linear-gradient(135deg, #f59e0b, #78350f)",
     "overlay": "⚽",
@@ -325,7 +325,7 @@
     "category": "tactics",
     "title": "Partidos de hoy, jueves 18 de junio, del Mundial 2026: horarios y dónde ver por TV",
     "snippet": "México-Corea del Sur o Canadá-Qatar, entre los partidos que se juegan hoy Leer",
-    "time": "14h ago",
+    "time": "17h ago",
     "timestamp": 1781771811,
     "color": "linear-gradient(135deg, #f59e0b, #78350f)",
     "overlay": "⚽",
@@ -339,7 +339,7 @@
     "category": "transfer",
     "title": "Cucurella: \"Jugar para el Madrid es un honor, no muchos jugadores lo pueden decir\"",
     "snippet": "El lateral izquierdo elige EL MUNDO para hablar por primera vez como nuevo jugador blanco. Detalla lo rápido del fichaje y la llamada de Mourinho para convencerle. Es optimista para lo que resta de Mundial Leer",
-    "time": "16h ago",
+    "time": "19h ago",
     "timestamp": 1781765418,
     "color": "linear-gradient(135deg, #a855f7, #581c87)",
     "overlay": "🔄",
@@ -353,7 +353,7 @@
     "category": "rules",
     "title": "Una dominante Panamá cae ante Ghana en el tiempo de descuento y se complica el sueño mundialista",
     "snippet": "Panamá todavía tuvo una última acción en el área ghanesa, con una tangana incluida y tarjeta para Carlos Harvey, pero no encontró el empate. Ghana celebró una victoria de supervivencia. Panamá se quedó con la sensación amarga de haber hecho casi todo bien salvo lo esencial: marcar Leer",
-    "time": "17h ago",
+    "time": "20h ago",
     "timestamp": 1781761128,
     "color": "linear-gradient(135deg, #64748b, #334155)",
     "overlay": "📺",
@@ -421,37 +421,23 @@
   },
   {
     "category": "tactics",
-    "title": "Canadà no permet l’entrada d’Elye Wahi",
-    "snippet": "Canadà ha vetat l’entrada a Elye Wahi per al segon partit de Costa d’Ivori al Mundial, en què els africans s’enfrontaran a Alemanya. Oficialment, la federació ivoriana ha explicat que el davanter...",
-    "time": "6h ago",
-    "timestamp": 1781799771,
+    "title": "Pioneres i protagonistes",
+    "snippet": "El futbol és sempre el gran protagonista. Quan hi ha mundial masculí, encara més. Entre titulars encapçalats per la genialitat atemporal de Leo Messi o el gol al minut 95 de Ghana per superar Panamà,...",
+    "time": "2h ago",
+    "timestamp": 1781827200,
     "color": "linear-gradient(135deg, #f59e0b, #78350f)",
     "overlay": "⚽",
-    "link": "http://www.lesportiudecatalunya.cat/futbol/article/2652844-canada-no-permet-l-entrada-d-elye-wahi.html",
-    "image": "https://www.elpuntavui.cat/imatges/64/54/4x3/780_0008_6454935_ab2915d2ac3c5a05e695faf0a166e62bver3.jpg",
+    "link": "http://www.lesportiudecatalunya.cat/opinio/article/2652860-pioneres-i-protagonistes.html",
+    "image": "https://www.elpuntavui.cat/elements/enllacos/opinio2015/cjulia.png",
     "source": "El Punt Avui",
     "lang": "ca",
     "id": 230
   },
   {
-    "category": "tactics",
-    "title": "El CN Sabadell incorpora a la nord-americana Ryann Neushul",
-    "snippet": "L’Astralpool CN Sabadell ha fitxat a la nord-americana Ryann Neushul per afrontar la no va temporada plena de reptes. La californiana, de 26 anys, ha guanyat tres vegades el campionat mundial, els anys...",
-    "time": "6h ago",
-    "timestamp": 1781799564,
-    "color": "linear-gradient(135deg, #f59e0b, #78350f)",
-    "overlay": "⚽",
-    "link": "http://www.lesportiudecatalunya.cat/mes-esport/article/2652839-el-cn-sabadell-incorpora-a-la-nord-americana-ryann-neushul.html",
-    "image": "https://www.elpuntavui.cat/imatges/64/54/4x3/780_0008_6454946_0005a3faba07466207c61fd14e1af6bdver3.jpg",
-    "source": "El Punt Avui",
-    "lang": "ca",
-    "id": 231
-  },
-  {
     "category": "injury",
     "title": "\"Pot ser el pròxim Haaland\": el jove prodigi blaugrana que treu el cap al Mundial",
     "snippet": "\"Mare meva, el Hamza, l'egipci del Barça, al Mundial\", va escriure ell pel grup de WhatsApp del juvenil A de l'Osca quan es va assabentar de la notícia. \"Una polla\", va respondre un company d'equip. \"És un portent físic\", assegura ara Jordan Lawson Farrona (Mèrida, 2007). Hamza Abdelkarim (2008) va aterrar al Barça juvenil al mercat d'hivern com a cedit i el club ja ha executat l'opció de compra d'un milió i mig. El 8 de març va debutar amb gol contra l'Osca i dilluns passat es va estrenar al Mundial amb només 18 anys. És un dels cinc jugadors més joves de la competició i una de les principals promeses. En nou mesos ha passat del Mundial sub-17 al Mundial absolut i el Barça i Hansi Flick ja es freguen les mans pel present i el futur del nou de la ciutat del Caire.",
-    "time": "11h ago",
+    "time": "14h ago",
     "timestamp": 1781784041,
     "color": "linear-gradient(135deg, #ef4444, #7f1d1d)",
     "overlay": "🩺",
@@ -459,13 +445,13 @@
     "image": "https://static1.ara.cat/clip/63e7f946-4d48-40c8-81ec-e9a4a3cc34af_source-aspect-ratio_default_0.jpg",
     "source": "ARA Esports",
     "lang": "ca",
-    "id": 232
+    "id": 231
   },
   {
     "category": "tactics",
     "title": "Portugal falla en el debut mentre Anglaterra i Colòmbia no perdonen",
     "snippet": "La primera jornada dels grups K i L del Mundial 2026 ha deixat emocions fortes i algun resultat inesperat. Anglaterra ha complert els pronòstics amb una victòria de prestigi davant Croàcia (4-2), Colòmbia ha començat amb bon peu derrotant Uzbekistan (1-3), Ghana ha sumat tres punts d’or contra Panamà (1-0) i Portugal ha decebut amb … Continued",
-    "time": "14h ago",
+    "time": "17h ago",
     "timestamp": 1781770917,
     "color": "linear-gradient(135deg, #f59e0b, #78350f)",
     "overlay": "⚽",
@@ -473,21 +459,7 @@
     "image": "https://images.unsplash.com/photo-1518063319789-7217e6706b04?w=800&auto=format&fit=crop",
     "source": "Món Esport",
     "lang": "ca",
-    "id": 233
-  },
-  {
-    "category": "transfer",
-    "title": "Un any de Joan Garcia: de Cornellà al mundial",
-    "snippet": "Barça. Avui es compleix un any del fitxatge del porter de Sallent pel conjunt blaugrana, on s’ha consolidat com un dels millors del món en la demarcació i s’ha guanyat el bitllet per al mundial",
-    "time": "23h ago",
-    "timestamp": 1781740800,
-    "color": "linear-gradient(135deg, #a855f7, #581c87)",
-    "overlay": "🔄",
-    "link": "http://www.lesportiudecatalunya.cat/barca/article/2652499-un-any-de-joan-garcia-de-cornella-al-mundial.html",
-    "image": "https://www.elpuntavui.cat/imatges/64/54/4x3/780_0008_6454789_5e3a4eb119a905d4dd96b795e98d72bbver3.jpg",
-    "source": "El Punt Avui",
-    "lang": "ca",
-    "id": 234
+    "id": 232
   },
   {
     "category": "tactics",
@@ -501,7 +473,7 @@
     "image": "https://images.unsplash.com/photo-1508098682722-e99c43a406b2?w=800&auto=format&fit=crop",
     "source": "Món Esport",
     "lang": "ca",
-    "id": 235
+    "id": 233
   },
   {
     "category": "tactics",
@@ -515,7 +487,7 @@
     "image": "https://static1.ara.cat/clip/16428382-725c-41d7-96be-2d37165a2293_16-9-aspect-ratio_default_0.png",
     "source": "ARA Esports",
     "lang": "ca",
-    "id": 236
+    "id": 234
   },
   {
     "category": "tactics",
@@ -529,7 +501,7 @@
     "image": "https://d5r1tkwwv7d5g.cloudfront.net/articulos/articulos-730290.jpg",
     "source": "Nació Digital",
     "lang": "ca",
-    "id": 237
+    "id": 235
   },
   {
     "category": "transfer",
@@ -543,7 +515,7 @@
     "image": "https://images.unsplash.com/photo-1543351611-58f69d7c1781?w=800&auto=format&fit=crop",
     "source": "Món Esport",
     "lang": "ca",
-    "id": 238
+    "id": 236
   },
   {
     "category": "lineup",
@@ -557,7 +529,7 @@
     "image": "https://static1.ara.cat/clip/7afb5047-571d-4c79-877f-d76c0014af2b_16-9-aspect-ratio_default_0.jpg",
     "source": "ARA Esports",
     "lang": "ca",
-    "id": 239
+    "id": 237
   },
   {
     "category": "lineup",
@@ -571,7 +543,7 @@
     "image": "https://static1.ara.cat/clip/8c0e7da1-2afc-4a6a-b0a6-268bc48aa788_16-9-aspect-ratio_default_0.jpg",
     "source": "ARA Esports",
     "lang": "ca",
-    "id": 240
+    "id": 238
   },
   {
     "category": "lineup",
@@ -585,7 +557,7 @@
     "image": "https://static1.ara.cat/clip/f488db5e-e091-4455-8e7f-cfe408c8ed27_16-9-aspect-ratio_default_0.jpg",
     "source": "ARA Esports",
     "lang": "ca",
-    "id": 241
+    "id": 239
   },
   {
     "category": "tactics",
@@ -599,7 +571,7 @@
     "image": "https://static1.ara.cat/clip/1d1dd3a6-8080-4561-869f-b05b1badaf41_16-9-aspect-ratio_default_0_x898y637.jpg",
     "source": "ARA Esports",
     "lang": "ca",
-    "id": 242
+    "id": 240
   },
   {
     "category": "tactics",
@@ -613,7 +585,7 @@
     "image": "https://static1.ara.cat/clip/655353c6-f891-4d52-8356-7c1cc08407c4_16-9-aspect-ratio_default_0_x1208y1007.jpg",
     "source": "ARA Esports",
     "lang": "ca",
-    "id": 243
+    "id": 241
   },
   {
     "category": "lineup",
@@ -625,6 +597,34 @@
     "overlay": "📋",
     "link": "https://naciodigital.cat/esports/espanya-sestavella-contra-cap-verd-en-el-debut-al-mundial.html",
     "image": "https://d5r1tkwwv7d5g.cloudfront.net/articulos/articulos-729179.jpg",
+    "source": "Nació Digital",
+    "lang": "ca",
+    "id": 242
+  },
+  {
+    "category": "lineup",
+    "title": "Espanya s'estavella contra Cap Verd en el seu debut al Mundial",
+    "snippet": "Espanya, amb quatre blaugranes a l'onze –Cubarsí, Pedri, Gavi i Ferran–, va ser incapaç de desencallar el marcador (0-0) davant Cap Verd, país de poc més de mig milió d'habitants. Vozinha va ser l'heroi del seu conjunt davant un combinat espanyol que, ni amb l'entrada de Lamine Yamal a vint minuts del final, no va poder canviar el signe del partit.",
+    "time": "3d ago",
+    "timestamp": 1781546217,
+    "color": "linear-gradient(135deg, #3b82f6, #1e3a8a)",
+    "overlay": "📋",
+    "link": "https://www.ara.cat/esports/futbol/espanya-s-estavella-cap-verd-debut-mundial_1_5769672.html",
+    "image": "https://static1.ara.cat/clip/8e7251f4-b907-482f-80bd-2d1f7d821c3d_16-9-aspect-ratio_default_0.jpg",
+    "source": "ARA Esports",
+    "lang": "ca",
+    "id": 243
+  },
+  {
+    "category": "tactics",
+    "title": "Loughinisland 1994: una matança «mundial»",
+    "snippet": "Amb el Mundial, revisem un dels episodis més tràgics de la Copa del Món de futbol: la massacre que el pub d’un petit poblet del nord d’Irlanda va viure l’estiu de 1994 mentre els seus parroquians animaven la selecció irlandesa",
+    "time": "3d ago",
+    "timestamp": 1781534526,
+    "color": "linear-gradient(135deg, #f59e0b, #78350f)",
+    "overlay": "⚽",
+    "link": "https://naciodigital.cat/esports/loughinisland-1994-una-matanca-mundial.html",
+    "image": "https://d5r1tkwwv7d5g.cloudfront.net/articulos/articulos-729064.jpg",
     "source": "Nació Digital",
     "lang": "ca",
     "id": 244
