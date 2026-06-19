@@ -2990,48 +2990,36 @@
     "homeFlag": "🇲🇽",
     "away": "Korea Republic",
     "awayFlag": "🇰🇷",
-    "homeScore": 2,
-    "awayScore": 1,
-    "status": "live",
-    "minute": 70,
+    "homeScore": 1,
+    "awayScore": 0,
+    "status": "finished",
+    "minute": 0,
     "date": "Jun 19, 01:00 UTC",
     "location": "Guadalajara Stadium",
     "events": [
       {
-        "minute": 12,
-        "team": "Mexico",
-        "type": "goal",
-        "desc": "J. Araujo ⚽ (Goal!)"
-      },
-      {
-        "minute": 53,
+        "minute": 33,
         "team": "Mexico",
         "type": "goal",
         "desc": "Malagón ⚽ (Goal!)"
-      },
-      {
-        "minute": 70,
-        "team": "Korea Republic",
-        "type": "goal",
-        "desc": "Song ⚽ (Goal!)"
       }
     ],
     "stats": {
       "possession": [
-        48,
-        52
+        42,
+        58
       ],
       "shots": [
-        4,
-        2
+        8,
+        9
       ],
       "fouls": [
-        4,
-        4
+        9,
+        7
       ],
       "corners": [
-        0,
-        0
+        1,
+        2
       ]
     },
     "lineups": {

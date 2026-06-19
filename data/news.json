@@ -1,9 +1,65 @@
 [
   {
+    "category": "tactics",
+    "title": "Who am I? Guess World Cup star No 12",
+    "snippet": "Will you get today's player in as few attempts as possible?",
+    "time": "1h ago",
+    "timestamp": 1781848234,
+    "color": "linear-gradient(135deg, #f59e0b, #78350f)",
+    "overlay": "⚽",
+    "link": "https://www.bbc.com/sport/football/articles/cx21l22e81no?at_medium=RSS&at_campaign=rss",
+    "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/baea/live/1e7f6180-64ec-11f1-8e1d-bbbb1017d210.jpg",
+    "source": "BBC Sport",
+    "lang": "en",
+    "id": 200
+  },
+  {
+    "category": "tactics",
+    "title": "Hat-trick hero & Swiss wonderkid - World Cup duo set for Premier League?",
+    "snippet": "Will Canada hat-trick hero Jonathan David and Swiss goal-scoring midfielder Johan Manzambi be playing in the Premier League next season?",
+    "time": "3h ago",
+    "timestamp": 1781842753,
+    "color": "linear-gradient(135deg, #f59e0b, #78350f)",
+    "overlay": "⚽",
+    "link": "https://www.bbc.com/sport/articles/cp8rde9q76do?at_medium=RSS&at_campaign=rss",
+    "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/027e/live/dd031500-6b92-11f1-955b-d393d55ed370.png",
+    "source": "BBC Sport",
+    "lang": "en",
+    "id": 201
+  },
+  {
+    "category": "tactics",
+    "title": "Mexico beat South Korea to earn first World Cup knockout spot",
+    "snippet": "Mexico became the first nation to secure a spot in the World Cup round of 32  and they can thank a Seung-Gyu Kim goalkeeping error as South Korea were beaten 1-0 in Guadalajara.",
+    "time": "3h ago",
+    "timestamp": 1781842200,
+    "color": "linear-gradient(135deg, #f59e0b, #78350f)",
+    "overlay": "⚽",
+    "link": "https://www.skysports.com/football/mexico-vs-korea-republic/report/549793",
+    "image": "https://e2.365dm.com/26/06/1920x1080/skysports-mexico-romo-south-korea_7277344.jpg?20260619032135",
+    "source": "Sky Sports",
+    "lang": "en",
+    "id": 202
+  },
+  {
+    "category": "injury",
+    "title": "A day of tears, scuffles & history as injury mars Canada's moment",
+    "snippet": "Canada's first-ever win at a World Cup finals should have been cause for pure joy - but was overshadowed by a horrific injury to Ismael Kone, and the angry and emotional scenes that followed.",
+    "time": "3h ago",
+    "timestamp": 1781840063,
+    "color": "linear-gradient(135deg, #ef4444, #7f1d1d)",
+    "overlay": "🩺",
+    "link": "https://www.bbc.com/sport/football/articles/cly7r1zjmmlo?at_medium=RSS&at_campaign=rss",
+    "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/1bb0/live/11cbd630-6b90-11f1-b1db-af71d47507d6.jpg",
+    "source": "BBC Sport",
+    "lang": "en",
+    "id": 203
+  },
+  {
     "category": "injury",
     "title": "Canada score six but historic win marred by Kone injury",
     "snippet": "Ismael Kone's serious-looking injury left Canada manager Jesse Marsch in tears and overshadowed their first-ever World Cup finals win as they thrashed nine-man Qatar 6-0.",
-    "time": "11m ago",
+    "time": "5h ago",
     "timestamp": 1781834313,
     "color": "linear-gradient(135deg, #ef4444, #7f1d1d)",
     "overlay": "🩺",
@@ -11,13 +67,13 @@
     "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/9885/live/5462e5c0-6b71-11f1-8e1d-bbbb1017d210.jpg",
     "source": "BBC Sport",
     "lang": "en",
-    "id": 200
+    "id": 204
   },
   {
     "category": "injury",
     "title": "Kone injury is a 'huge loss' - Marsch",
     "snippet": "Canada coach Jessie Marsch praises his players for their 6-0 win over Qatar at the 2026 World Cup in Vancouver, but says losing Ismael Kone to a serious-looking injury is a \"huge loss\".",
-    "time": "1h ago",
+    "time": "6h ago",
     "timestamp": 1781830958,
     "color": "linear-gradient(135deg, #ef4444, #7f1d1d)",
     "overlay": "🩺",
@@ -25,13 +81,13 @@
     "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/2103/live/a8a4aa00-6b77-11f1-b1db-af71d47507d6.jpg",
     "source": "BBC Sport",
     "lang": "en",
-    "id": 201
+    "id": 205
   },
   {
     "category": "injury",
-    "title": "David scores hat-trick as Canada thrash NINE-man Qatar",
-    "snippet": "Canada are on the brink of qualifying for the World Cup knockout stages after a Jonathan David treble inspired a 6-0 win over woeful nine-man Qatar - in a result marred by a serious leg injury for midfielder Ismael Kone.",
-    "time": "1h ago",
+    "title": "David scores hat-trick for Canada but win vs Qatar marred by horror injury",
+    "snippet": "Canada are on the brink of qualifying for the World Cup knockout stages after a Jonathan David hat-trick inspired a 6-0 win over woeful nine-man Qatar - in a result marred by a serious leg injury for midfielder Ismael Kone.",
+    "time": "6h ago",
     "timestamp": 1781829900,
     "color": "linear-gradient(135deg, #ef4444, #7f1d1d)",
     "overlay": "🩺",
@@ -39,13 +95,13 @@
     "image": "https://e1.365dm.com/26/06/1920x1080/skysports-canada-qatar_7277256.jpg?20260618235349",
     "source": "Sky Sports",
     "lang": "en",
-    "id": 202
+    "id": 206
   },
   {
     "category": "tactics",
     "title": "Super sub Manzambi helps Switzerland close on knockout stages with thumping win",
     "snippet": "Switzerland took a giant leap towards qualifying for the World Cup knockout stages with an emphatic 4-1 win over Bosnia-Herzegovina in Los Angeles.",
-    "time": "3h ago",
+    "time": "9h ago",
     "timestamp": 1781820900,
     "color": "linear-gradient(135deg, #f59e0b, #78350f)",
     "overlay": "⚽",
@@ -53,13 +109,13 @@
     "image": "https://e1.365dm.com/26/06/1920x1080/skysports-football-switzerland_7277151.jpg?20260618214643",
     "source": "Sky Sports",
     "lang": "en",
-    "id": 203
+    "id": 207
   },
   {
     "category": "tactics",
     "title": "Manzambi double propels Switzerland to win against Bosnia",
     "snippet": "Substitute Johan Manzambi scores twice in a thrilling final 20 minutes, as Switzerland beat Bosnia-Herzegovina 4-1 to edge towards a place in the World Cup round of 32.",
-    "time": "4h ago",
+    "time": "9h ago",
     "timestamp": 1781820531,
     "color": "linear-gradient(135deg, #f59e0b, #78350f)",
     "overlay": "⚽",
@@ -67,13 +123,13 @@
     "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/8451/live/bb6029b0-6b60-11f1-b1db-af71d47507d6.jpg",
     "source": "BBC Sport",
     "lang": "en",
-    "id": 204
+    "id": 208
   },
   {
     "category": "tactics",
     "title": "Switzerland's Manzambi scores superb double against Bosnia",
     "snippet": "20-year-old Johan Manzambi scores twice as Switzerland beat Bosnia in their 2026 World Cup match in Los Angeles.",
-    "time": "4h ago",
+    "time": "10h ago",
     "timestamp": 1781817052,
     "color": "linear-gradient(135deg, #f59e0b, #78350f)",
     "overlay": "⚽",
@@ -81,13 +137,13 @@
     "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/56dc/live/9b7d8800-6b5a-11f1-8e1d-bbbb1017d210.jpg",
     "source": "BBC Sport",
     "lang": "en",
-    "id": 205
+    "id": 209
   },
   {
     "category": "tactics",
     "title": "Neville: France still favourites despite England display",
     "snippet": "Gary Neville believes England produced the best football of the World Cup so far in their second-half display against Croatia, but remains unconvinced that Thomas Tuchel's side should be considered favourites for the tournament.",
-    "time": "5h ago",
+    "time": "10h ago",
     "timestamp": 1781816400,
     "color": "linear-gradient(135deg, #f59e0b, #78350f)",
     "overlay": "⚽",
@@ -95,13 +151,13 @@
     "image": "https://e1.365dm.com/26/06/1920x1080/skysports-football-harry-kane_7276287.jpg?20260617235603",
     "source": "Sky Sports",
     "lang": "en",
-    "id": 206
+    "id": 210
   },
   {
     "category": "tactics",
     "title": "'Best 15 minutes any team has played' | England impress Neville",
     "snippet": "Gary Neville speaks highly on England and Thomas Tuchel after their win against Croatia in the World Cup, but says France remain his favourites to win the tournament.",
-    "time": "5h ago",
+    "time": "10h ago",
     "timestamp": 1781815020,
     "color": "linear-gradient(135deg, #f59e0b, #78350f)",
     "overlay": "⚽",
@@ -109,13 +165,13 @@
     "image": "https://e1.365dm.com/26/06/1920x1080/skysports-world-cup-england_7277100.jpg?20260618204022",
     "source": "Sky Sports",
     "lang": "en",
-    "id": 207
+    "id": 211
   },
   {
     "category": "tactics",
     "title": "Tuchel: Saka unlikely to start against Ghana",
     "snippet": "Thomas Tuchel says Bukayo Saka will be nursed through the next week of training but is unlikely to start for England until the final World Cup group game against Panama.",
-    "time": "6h ago",
+    "time": "11h ago",
     "timestamp": 1781812860,
     "color": "linear-gradient(135deg, #f59e0b, #78350f)",
     "overlay": "⚽",
@@ -123,13 +179,13 @@
     "image": "https://e0.365dm.com/26/06/1920x1080/skysports-bukayo-saka-england_7276927.jpg?20260618175044",
     "source": "Sky Sports",
     "lang": "en",
-    "id": 208
+    "id": 212
   },
   {
     "category": "tactics",
     "title": "Sutton's World Cup score predictions - second group games",
     "snippet": "BBC Sport's football expert Chris Sutton gives his predictions for the scores of the second round of group games at the 2026 World Cup.",
-    "time": "6h ago",
+    "time": "11h ago",
     "timestamp": 1781812821,
     "color": "linear-gradient(135deg, #f59e0b, #78350f)",
     "overlay": "⚽",
@@ -137,27 +193,13 @@
     "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/da24/live/94353bc0-641a-11f1-8546-8f19e4fe30f4.jpg",
     "source": "BBC Sport",
     "lang": "en",
-    "id": 209
-  },
-  {
-    "category": "tactics",
-    "title": "Clarke: Underdog tag will bring best out of Scotland vs Morocco",
-    "snippet": "Steve Clarke believes Scotland are often at their best when expectations are against them as they prepare for a World Cup showdown with Morocco.",
-    "time": "7h ago",
-    "timestamp": 1781809200,
-    "color": "linear-gradient(135deg, #f59e0b, #78350f)",
-    "overlay": "⚽",
-    "link": "https://www.skysports.com/football/news/11095/13555452/scotland-at-world-cup-steve-clarke-says-his-side-are-more-comfortable-as-underdogs-ahead-of-morocco-match",
-    "image": "https://e2.365dm.com/26/06/1920x1080/skysports-football-steve-clarke_7277020.jpg?20260618191811",
-    "source": "Sky Sports",
-    "lang": "en",
-    "id": 210
+    "id": 213
   },
   {
     "category": "rules",
     "title": "Mokoena's late penalty earns South Africa draw against Czech Republic",
     "snippet": "Teboho Mokoena scores an 83rd-minute penalty to earn South Africa a draw against the Czech Republic at the World Cup.",
-    "time": "7h ago",
+    "time": "12h ago",
     "timestamp": 1781808567,
     "color": "linear-gradient(135deg, #64748b, #334155)",
     "overlay": "📺",
@@ -165,55 +207,41 @@
     "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/1b8a/live/102a1ea0-6b44-11f1-b1db-af71d47507d6.jpg",
     "source": "BBC Sport",
     "lang": "en",
-    "id": 211
-  },
-  {
-    "category": "rules",
-    "title": "Late penalty gifts South Africa first point against wasteful Czech Republic",
-    "snippet": "Teboho Mokoena's late penalty gifted South Africa their first point of the World Cup after wasteful Czech Republic failed to make their chances pay in a 1-1 draw in Atlanta.",
-    "time": "7h ago",
-    "timestamp": 1781808300,
-    "color": "linear-gradient(135deg, #64748b, #334155)",
-    "overlay": "📺",
-    "link": "https://www.skysports.com/football/czech-republic-vs-south-africa/report/549790",
-    "image": "https://e1.365dm.com/26/06/1920x1080/skysports-teboho-mokoena-south-africa_7277002.jpg?20260618190224",
-    "source": "Sky Sports",
-    "lang": "en",
-    "id": 212
-  },
-  {
-    "category": "tactics",
-    "title": "Who England and Scotland face in World Cup last 32 as it stands",
-    "snippet": "Who is on course to meet in the last 32 of the World Cup? View all the projected ties after the latest group stage results here.",
-    "time": "7h ago",
-    "timestamp": 1781807154,
-    "color": "linear-gradient(135deg, #f59e0b, #78350f)",
-    "overlay": "⚽",
-    "link": "https://www.bbc.com/sport/articles/cvgl9wy3zwyo?at_medium=RSS&at_campaign=rss",
-    "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/f583/live/abc90c60-6b33-11f1-858e-3f275ac14006.png",
-    "source": "BBC Sport",
-    "lang": "en",
-    "id": 213
-  },
-  {
-    "category": "tactics",
-    "title": "Ivory Coast's Wahi allowed into Canada after visa issue",
-    "snippet": "The Ivory Coast football federation have announced their forward Elye Wahi will be allowed into Canada for their next World Cup game after earlier being denied entry.",
-    "time": "7h ago",
-    "timestamp": 1781806394,
-    "color": "linear-gradient(135deg, #f59e0b, #78350f)",
-    "overlay": "⚽",
-    "link": "https://www.bbc.com/sport/football/articles/cvg7n7xdnd0o?at_medium=RSS&at_campaign=rss",
-    "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/3ba2/live/94400940-6b01-11f1-8317-e1f912f75a64.jpg",
-    "source": "BBC Sport",
-    "lang": "en",
     "id": 214
+  },
+  {
+    "category": "tactics",
+    "title": "México, primera selección clasificada para dieciseisavos tras vencer a Corea",
+    "snippet": "Los anfitriones han ganado dos partidos y lideran el grupo A Leer",
+    "time": "1h ago",
+    "timestamp": 1781850074,
+    "color": "linear-gradient(135deg, #f59e0b, #78350f)",
+    "overlay": "⚽",
+    "link": "https://www.elmundo.es/deportes/futbol/mundial-de-futbol/2026/06/19/6a34df22e4d4d87a688b4574.html",
+    "image": "https://e00-elmundo.uecdn.es/assets/multimedia/imagenes/2026/06/19/17818500038549_990x0.jpg",
+    "source": "El Mundo Deportes",
+    "lang": "es",
+    "id": 215
+  },
+  {
+    "category": "injury",
+    "title": "La escalofriante lesión de Koné empaña la goleada de Canadá a Qatar",
+    "snippet": "La anfitriona logra su primera victoria en un Mundial y se coloca líder del grupo B con 4 puntos Leer",
+    "time": "1h ago",
+    "timestamp": 1781848006,
+    "color": "linear-gradient(135deg, #ef4444, #7f1d1d)",
+    "overlay": "🩺",
+    "link": "https://www.elmundo.es/deportes/futbol/mundial-de-futbol/2026/06/19/6a34d544e9cf4abf478b457c.html",
+    "image": "http://secure-uk.imrworldwide.com/cgi-bin/m?cid=es-widgetueditorial&amp;cg=rss-elmundo&amp;ci=es-widgetueditorial&amp;si=http://www.elmundo.es/rss/deportes.xml",
+    "source": "El Mundo Deportes",
+    "lang": "es",
+    "id": 216
   },
   {
     "category": "rules",
     "title": "El Mundial de las diásporas, estadios llenos gracias a los inmigrantes: \"Son los que viven aquí. Otros no se han atrevido a cruzar la frontera\"",
     "snippet": "La FIFA bate récords de asistencia, pese al astronómico precio de las entradas. «Vivimos esto como si estuviésemos en nuestro país», dicen los aficionados Leer",
-    "time": "3h ago",
+    "time": "9h ago",
     "timestamp": 1781820988,
     "color": "linear-gradient(135deg, #64748b, #334155)",
     "overlay": "📺",
@@ -221,13 +249,13 @@
     "image": "https://e00-elmundo.uecdn.es/assets/multimedia/imagenes/2026/06/17/17817098727340_990x0.jpg",
     "source": "El Mundo Deportes",
     "lang": "es",
-    "id": 215
+    "id": 217
   },
   {
     "category": "tactics",
     "title": "Suiza castiga a Bosnia con una goleada postrera que le acerca a las eliminatorias",
     "snippet": "Un doblete de Manzambi decanta el triunfo helvético (4-1) ante un rival obligado a ganar a Qatar en la última jornada. Leer",
-    "time": "4h ago",
+    "time": "9h ago",
     "timestamp": 1781819997,
     "color": "linear-gradient(135deg, #f59e0b, #78350f)",
     "overlay": "⚽",
@@ -235,13 +263,13 @@
     "image": "https://e00-elmundo.uecdn.es/assets/multimedia/imagenes/2026/06/18/17818197593769_990x0.jpg",
     "source": "El Mundo Deportes",
     "lang": "es",
-    "id": 216
+    "id": 218
   },
   {
     "category": "tactics",
     "title": "De Rocafonda a Times Square, el Mundial espera ansioso por Lamine: \"Todo lo que toca lo convierte en oro\"",
     "snippet": "La selección, y el torneo, viven pendientes de la evolución de una de las grandes estrellas mundiales. \"Está concienciado\", dicen en la concentración Leer",
-    "time": "4h ago",
+    "time": "10h ago",
     "timestamp": 1781818094,
     "color": "linear-gradient(135deg, #f59e0b, #78350f)",
     "overlay": "⚽",
@@ -249,13 +277,13 @@
     "image": "https://e00-elmundo.uecdn.es/assets/multimedia/imagenes/2026/06/18/17818017448531_990x0.jpg",
     "source": "El Mundo Deportes",
     "lang": "es",
-    "id": 217
+    "id": 219
   },
   {
     "category": "tactics",
     "title": "La MLS, 20 años de explosión para generar la columna vertebral de la selección de Estados Unidos",
     "snippet": "Solo cinco de los jugadores de Pochettino se han criado en canteras europeas. El incremento de la inversión lo arrancó la llegada de Beckham y lo ha multiplicado Messi Leer",
-    "time": "5h ago",
+    "time": "10h ago",
     "timestamp": 1781815234,
     "color": "linear-gradient(135deg, #f59e0b, #78350f)",
     "overlay": "⚽",
@@ -263,13 +291,13 @@
     "image": "https://e00-elmundo.uecdn.es/assets/multimedia/imagenes/2026/06/18/17818080136241_990x0.jpg",
     "source": "El Mundo Deportes",
     "lang": "es",
-    "id": 218
+    "id": 220
   },
   {
     "category": "tactics",
     "title": "Wilguens Paugain, sueños y ruina en la selección de Haití: \"No podemos volver a nuestro país, es muy peligroso\"",
     "snippet": "El internacional explica a EL MUNDO las dificultades del equipo y el país caribeño y el orgullo de jugar un Mundial: \"Mi hermano mayor se quedó en Haití y le capturó la policía al intentar irse a Dominicana\", cuenta. Leer",
-    "time": "5h ago",
+    "time": "10h ago",
     "timestamp": 1781815231,
     "color": "linear-gradient(135deg, #f59e0b, #78350f)",
     "overlay": "⚽",
@@ -277,13 +305,13 @@
     "image": "https://e00-elmundo.uecdn.es/assets/multimedia/imagenes/2026/06/18/17817989338286_990x0.jpg",
     "source": "El Mundo Deportes",
     "lang": "es",
-    "id": 219
+    "id": 221
   },
   {
     "category": "tactics",
     "title": "La explicación a las lágrimas de Messi ante Argelia: la enfermedad de su padre",
     "snippet": "La familia emite un comunicado donde pide respeto y privacidad sobre el estado de salud de Jorge Messi Leer",
-    "time": "8h ago",
+    "time": "13h ago",
     "timestamp": 1781806019,
     "color": "linear-gradient(135deg, #f59e0b, #78350f)",
     "overlay": "⚽",
@@ -291,13 +319,13 @@
     "image": "https://e00-elmundo.uecdn.es/assets/multimedia/imagenes/2026/06/18/17818057595337_990x0.jpg",
     "source": "El Mundo Deportes",
     "lang": "es",
-    "id": 220
+    "id": 222
   },
   {
     "category": "tactics",
     "title": "A qué hora es el México - Corea del Sur: horario, canal de TV y y dónde ver el partido del Mundial 2026",
     "snippet": "La Tri y los Guerreros de Taeguk se enfrentan por el liderato del Grupo A y por lograr más de medio billete para los dieciseisavos de final Leer",
-    "time": "9h ago",
+    "time": "14h ago",
     "timestamp": 1781801900,
     "color": "linear-gradient(135deg, #f59e0b, #78350f)",
     "overlay": "⚽",
@@ -305,13 +333,13 @@
     "image": "https://e00-elmundo.uecdn.es/assets/multimedia/imagenes/2026/06/18/17818017465458_990x0.jpg",
     "source": "El Mundo Deportes",
     "lang": "es",
-    "id": 221
+    "id": 223
   },
   {
     "category": "tactics",
     "title": "Costa de Marfil no podrá contar con Wahi ante Alemania: Canadá le frena el visado tras investigarse un caso de amaños",
     "snippet": "El delantero se quedará en EEUU tras ser interrogado antes del Mundial por recibir, presuntamente, una amarilla intencionada Leer",
-    "time": "11h ago",
+    "time": "17h ago",
     "timestamp": 1781792169,
     "color": "linear-gradient(135deg, #f59e0b, #78350f)",
     "overlay": "⚽",
@@ -319,13 +347,13 @@
     "image": "https://e00-elmundo.uecdn.es/assets/multimedia/imagenes/2026/06/18/17817916947931_990x0.jpg",
     "source": "El Mundo Deportes",
     "lang": "es",
-    "id": 222
+    "id": 224
   },
   {
     "category": "tactics",
     "title": "Partidos de hoy, jueves 18 de junio, del Mundial 2026: horarios y dónde ver por TV",
     "snippet": "México-Corea del Sur o Canadá-Qatar, entre los partidos que se juegan hoy Leer",
-    "time": "17h ago",
+    "time": "22h ago",
     "timestamp": 1781771811,
     "color": "linear-gradient(135deg, #f59e0b, #78350f)",
     "overlay": "⚽",
@@ -333,13 +361,13 @@
     "image": "https://e00-elmundo.uecdn.es/assets/multimedia/imagenes/2026/06/18/17817717941378_990x0.jpg",
     "source": "El Mundo Deportes",
     "lang": "es",
-    "id": 223
+    "id": 225
   },
   {
     "category": "transfer",
     "title": "Cucurella: \"Jugar para el Madrid es un honor, no muchos jugadores lo pueden decir\"",
     "snippet": "El lateral izquierdo elige EL MUNDO para hablar por primera vez como nuevo jugador blanco. Detalla lo rápido del fichaje y la llamada de Mourinho para convencerle. Es optimista para lo que resta de Mundial Leer",
-    "time": "19h ago",
+    "time": "1d ago",
     "timestamp": 1781765418,
     "color": "linear-gradient(135deg, #a855f7, #581c87)",
     "overlay": "🔄",
@@ -347,13 +375,13 @@
     "image": "http://secure-uk.imrworldwide.com/cgi-bin/m?cid=es-widgetueditorial&amp;cg=rss-elmundo&amp;ci=es-widgetueditorial&amp;si=http://www.elmundo.es/rss/deportes.xml",
     "source": "El Mundo Deportes",
     "lang": "es",
-    "id": 224
+    "id": 226
   },
   {
     "category": "rules",
     "title": "Una dominante Panamá cae ante Ghana en el tiempo de descuento y se complica el sueño mundialista",
     "snippet": "Panamá todavía tuvo una última acción en el área ghanesa, con una tangana incluida y tarjeta para Carlos Harvey, pero no encontró el empate. Ghana celebró una victoria de supervivencia. Panamá se quedó con la sensación amarga de haber hecho casi todo bien salvo lo esencial: marcar Leer",
-    "time": "20h ago",
+    "time": "1d ago",
     "timestamp": 1781761128,
     "color": "linear-gradient(135deg, #64748b, #334155)",
     "overlay": "📺",
@@ -361,7 +389,7 @@
     "image": "http://secure-uk.imrworldwide.com/cgi-bin/m?cid=es-widgetueditorial&amp;cg=rss-elmundo&amp;ci=es-widgetueditorial&amp;si=http://www.elmundo.es/rss/deportes.xml",
     "source": "El Mundo Deportes",
     "lang": "es",
-    "id": 225
+    "id": 227
   },
   {
     "category": "tactics",
@@ -375,7 +403,7 @@
     "image": "https://e00-elmundo.uecdn.es/assets/multimedia/imagenes/2026/06/17/17817228171034_990x0.jpg",
     "source": "El Mundo Deportes",
     "lang": "es",
-    "id": 226
+    "id": 228
   },
   {
     "category": "tactics",
@@ -389,41 +417,27 @@
     "image": "https://e00-elmundo.uecdn.es/assets/multimedia/imagenes/2026/06/17/17817258277499_990x0.jpg",
     "source": "El Mundo Deportes",
     "lang": "es",
-    "id": 227
-  },
-  {
-    "category": "tactics",
-    "title": "El duelo de goleadores está servido: Messi, Mbappé y Haaland, rápidos con el gatillo",
-    "snippet": "Messi (devorador de récords), Mbappé, Haaland, Vinicius y Musiala exhiben su liderazgo y se retan en un gran arranque del torneo Leer",
-    "time": "1d ago",
-    "timestamp": 1781725163,
-    "color": "linear-gradient(135deg, #f59e0b, #78350f)",
-    "overlay": "⚽",
-    "link": "https://www.elmundo.es/deportes/futbol/mundial-de-futbol/2026/06/17/6a32f38be4d4d8691e8b45af.html",
-    "image": "https://e00-elmundo.uecdn.es/assets/multimedia/imagenes/2026/06/17/17817247740817_990x0.jpg",
-    "source": "El Mundo Deportes",
-    "lang": "es",
-    "id": 228
-  },
-  {
-    "category": "tactics",
-    "title": "La televisión pública turca suspende a un locutor por confundir durante minutos a Irán y Nueva Zelanda en la retransmisión de su partido",
-    "snippet": "El locutor, con una larga carrera en televisión, arrancó la narración atribuyendo las jugadas del equipo neozelandés al iraní y viceversa Leer",
-    "time": "1d ago",
-    "timestamp": 1781717323,
-    "color": "linear-gradient(135deg, #f59e0b, #78350f)",
-    "overlay": "⚽",
-    "link": "https://www.elmundo.es/deportes/futbol/mundial-de-futbol/2026/06/17/6a32d948fc6c8301028b45b9.html",
-    "image": "https://e00-elmundo.uecdn.es/assets/multimedia/imagenes/2026/06/17/17817170312051_990x0.jpg",
-    "source": "El Mundo Deportes",
-    "lang": "es",
     "id": 229
+  },
+  {
+    "category": "tactics",
+    "title": "Mèxic venç Corea (1-0) i acabarà primer de grup",
+    "snippet": "La selecció mexicana, una de les amfitriones del mundial, té garantit l’accés als setzens de final, i com a primera de grup. El combinat dirigit per Javier Aguirre ha superat Corea del Sud (1-0) i...",
+    "time": "1h ago",
+    "timestamp": 1781848147,
+    "color": "linear-gradient(135deg, #f59e0b, #78350f)",
+    "overlay": "⚽",
+    "link": "http://www.lesportiudecatalunya.cat/futbol/article/2652900-mexic-venc-corea-1-0-i-acabara-primer-de-grup.html",
+    "image": "https://www.elpuntavui.cat/imatges/64/55/4x3/780_0008_6455009_782a9571cf9d2322ab6c8aea6804d5e8ver2.jpg",
+    "source": "El Punt Avui",
+    "lang": "ca",
+    "id": 230
   },
   {
     "category": "tactics",
     "title": "Pioneres i protagonistes",
     "snippet": "El futbol és sempre el gran protagonista. Quan hi ha mundial masculí, encara més. Entre titulars encapçalats per la genialitat atemporal de Leo Messi o el gol al minut 95 de Ghana per superar Panamà,...",
-    "time": "2h ago",
+    "time": "7h ago",
     "timestamp": 1781827200,
     "color": "linear-gradient(135deg, #f59e0b, #78350f)",
     "overlay": "⚽",
@@ -431,13 +445,13 @@
     "image": "https://www.elpuntavui.cat/elements/enllacos/opinio2015/cjulia.png",
     "source": "El Punt Avui",
     "lang": "ca",
-    "id": 230
+    "id": 231
   },
   {
     "category": "injury",
     "title": "\"Pot ser el pròxim Haaland\": el jove prodigi blaugrana que treu el cap al Mundial",
     "snippet": "\"Mare meva, el Hamza, l'egipci del Barça, al Mundial\", va escriure ell pel grup de WhatsApp del juvenil A de l'Osca quan es va assabentar de la notícia. \"Una polla\", va respondre un company d'equip. \"És un portent físic\", assegura ara Jordan Lawson Farrona (Mèrida, 2007). Hamza Abdelkarim (2008) va aterrar al Barça juvenil al mercat d'hivern com a cedit i el club ja ha executat l'opció de compra d'un milió i mig. El 8 de març va debutar amb gol contra l'Osca i dilluns passat es va estrenar al Mundial amb només 18 anys. És un dels cinc jugadors més joves de la competició i una de les principals promeses. En nou mesos ha passat del Mundial sub-17 al Mundial absolut i el Barça i Hansi Flick ja es freguen les mans pel present i el futur del nou de la ciutat del Caire.",
-    "time": "14h ago",
+    "time": "19h ago",
     "timestamp": 1781784041,
     "color": "linear-gradient(135deg, #ef4444, #7f1d1d)",
     "overlay": "🩺",
@@ -445,13 +459,13 @@
     "image": "https://static1.ara.cat/clip/63e7f946-4d48-40c8-81ec-e9a4a3cc34af_source-aspect-ratio_default_0.jpg",
     "source": "ARA Esports",
     "lang": "ca",
-    "id": 231
+    "id": 232
   },
   {
     "category": "tactics",
     "title": "Portugal falla en el debut mentre Anglaterra i Colòmbia no perdonen",
     "snippet": "La primera jornada dels grups K i L del Mundial 2026 ha deixat emocions fortes i algun resultat inesperat. Anglaterra ha complert els pronòstics amb una victòria de prestigi davant Croàcia (4-2), Colòmbia ha començat amb bon peu derrotant Uzbekistan (1-3), Ghana ha sumat tres punts d’or contra Panamà (1-0) i Portugal ha decebut amb … Continued",
-    "time": "17h ago",
+    "time": "23h ago",
     "timestamp": 1781770917,
     "color": "linear-gradient(135deg, #f59e0b, #78350f)",
     "overlay": "⚽",
@@ -459,7 +473,7 @@
     "image": "https://images.unsplash.com/photo-1518063319789-7217e6706b04?w=800&auto=format&fit=crop",
     "source": "Món Esport",
     "lang": "ca",
-    "id": 232
+    "id": 233
   },
   {
     "category": "tactics",
@@ -473,7 +487,7 @@
     "image": "https://images.unsplash.com/photo-1508098682722-e99c43a406b2?w=800&auto=format&fit=crop",
     "source": "Món Esport",
     "lang": "ca",
-    "id": 233
+    "id": 234
   },
   {
     "category": "tactics",
@@ -487,7 +501,7 @@
     "image": "https://static1.ara.cat/clip/16428382-725c-41d7-96be-2d37165a2293_16-9-aspect-ratio_default_0.png",
     "source": "ARA Esports",
     "lang": "ca",
-    "id": 234
+    "id": 235
   },
   {
     "category": "tactics",
@@ -501,7 +515,7 @@
     "image": "https://d5r1tkwwv7d5g.cloudfront.net/articulos/articulos-730290.jpg",
     "source": "Nació Digital",
     "lang": "ca",
-    "id": 235
+    "id": 236
   },
   {
     "category": "transfer",
@@ -515,13 +529,13 @@
     "image": "https://images.unsplash.com/photo-1543351611-58f69d7c1781?w=800&auto=format&fit=crop",
     "source": "Món Esport",
     "lang": "ca",
-    "id": 236
+    "id": 237
   },
   {
     "category": "lineup",
     "title": "Quin paper tindran les dones àrbitres en aquest Mundial?",
     "snippet": "L’arbitratge femení tornarà a tenir presència en un Mundial masculí. La FIFA ha inclòs sis dones dins del grup de 170 col·legiats convocats per al torneig: dues àrbitres principals, tres assistents i una especialista de VAR. L’atenció se centra especialment en les dues àrbitres principals: l’estatunidenca Tori Penso i la mexicana Katia García. Totes dues procedeixen de països organitzadors i afronten el repte més exigent de la seva trajectòria en el futbol masculí.",
-    "time": "1d ago",
+    "time": "2d ago",
     "timestamp": 1781672428,
     "color": "linear-gradient(135deg, #3b82f6, #1e3a8a)",
     "overlay": "📋",
@@ -529,13 +543,13 @@
     "image": "https://static1.ara.cat/clip/7afb5047-571d-4c79-877f-d76c0014af2b_16-9-aspect-ratio_default_0.jpg",
     "source": "ARA Esports",
     "lang": "ca",
-    "id": 237
+    "id": 238
   },
   {
     "category": "lineup",
     "title": "Messi és etern: fa tres gols i ja és el màxim golejador de la història dels Mundials",
     "snippet": "Tres crits de matinada van despertar molts veïns a Catalunya. Eren argentins que viuen aquí o catalans que enyoren Messi. L’exjugador del Barça va debutar la matinada de dimecres a Kansas City en el seu sisè Mundial. Ho feia  just el dia que feia 20 anys exactes del seu primer partit a una Copa del món, un llunyà 2006 a Alemanya. Messi entrava al terreny de joc defensant la corona aconseguida fa quatre anys a Qatar, quan per fi va ser campió. Els argentins s’enfrontaven a Algèria en un test que havia de permetre entendre el seu nivell de joc, després de jugar pocs amistosos de nivell els darrers mesos. I van superar el test amb nota gràcies a tres gols del seu capità. Hi havia gent que deia que no havia de ser titular perquè ja és veterà. Altres deien que viu permanentment de vacances a Miami. En realitat, Messi és etern i va marcar els tres gols de l’albiceleste. I encara va fer un quart gol que no va pujar al marcador. Tanbé va cometre una errada quan va trepitjar una rival molt fort, jugant amb foc. Els algerians van demanar targeta vermella, però l’àrbitre no el va fer fora.",
-    "time": "1d ago",
+    "time": "2d ago",
     "timestamp": 1781667059,
     "color": "linear-gradient(135deg, #3b82f6, #1e3a8a)",
     "overlay": "📋",
@@ -543,7 +557,7 @@
     "image": "https://static1.ara.cat/clip/8c0e7da1-2afc-4a6a-b0a6-268bc48aa788_16-9-aspect-ratio_default_0.jpg",
     "source": "ARA Esports",
     "lang": "ca",
-    "id": 238
+    "id": 239
   },
   {
     "category": "lineup",
@@ -557,13 +571,13 @@
     "image": "https://static1.ara.cat/clip/f488db5e-e091-4455-8e7f-cfe408c8ed27_16-9-aspect-ratio_default_0.jpg",
     "source": "ARA Esports",
     "lang": "ca",
-    "id": 239
+    "id": 240
   },
   {
     "category": "tactics",
     "title": "Els somnis es fan realitat al Mundial: el porter de 40 anys sense equip que ha aturat Espanya",
     "snippet": "Havia de ser el dia d'Espanya i de Lamine Yamal, però va ser el dia de Josimar Dias Vozinha, un sobrenom que en portuguès sona molt similar a \"àvia\". Va ser un conte de fades. Una d'aquelles històries que, si un guionista la inventa per fer-ne una sèrie de televisió, més d'un dirà que és impossible de creure. A vegades sembla que en aquest futbol modern ple de diners on els rics cada cop són més rics, no és possible que un senyor de 40 anys sense equip pugui brillar contra Lamine Yamal, Ferran Torres, Pedri i companyia. Però al Mundial de futbol, per sort, encara passen aquestes coses. Mai un porter de 40 anys havia aconseguit acabar un partit d'un Mundial sense rebre gols. Vozinha va aconseguir-ho.",
-    "time": "2d ago",
+    "time": "3d ago",
     "timestamp": 1781594013,
     "color": "linear-gradient(135deg, #f59e0b, #78350f)",
     "overlay": "⚽",
@@ -571,13 +585,13 @@
     "image": "https://static1.ara.cat/clip/1d1dd3a6-8080-4561-869f-b05b1badaf41_16-9-aspect-ratio_default_0_x898y637.jpg",
     "source": "ARA Esports",
     "lang": "ca",
-    "id": 240
+    "id": 241
   },
   {
     "category": "tactics",
     "title": "Xiulets a l'himne i problemes amb els visats: el caòtic debut de l'Iran al Mundial",
     "snippet": "Suats i cansats, els jugadors iranians donaven la volta al terreny de joc de l'estadi de Los Angeles aplaudint als aficionats. A la graderia, milers de ciutadans nord-americans d'origen iranià els estaven ovacionant mentre mostraven banderes monàrquiques. És a dir, símbols prohibits a l'actual Iran. Però per un moment, encara que fos, semblava que tots els iranians podien caminar de costat, units. La selecció de l'Iran ha debutat al Mundial empatant a 2 en un bonic partit contra una combativa Nova Zelanda que ha sorprès pel seu atreviment. Ha estat una jornada en què ha triomfat el futbol, amb gols i espectacle, tot i que en els dies anteriors només es parlava, com és lògic, de política. No sempre sona l'himne d'un país en territori del país que l'ha bombardejat.",
-    "time": "2d ago",
+    "time": "3d ago",
     "timestamp": 1781582176,
     "color": "linear-gradient(135deg, #f59e0b, #78350f)",
     "overlay": "⚽",
@@ -585,7 +599,7 @@
     "image": "https://static1.ara.cat/clip/655353c6-f891-4d52-8356-7c1cc08407c4_16-9-aspect-ratio_default_0_x1208y1007.jpg",
     "source": "ARA Esports",
     "lang": "ca",
-    "id": 241
+    "id": 242
   },
   {
     "category": "lineup",
@@ -599,7 +613,7 @@
     "image": "https://d5r1tkwwv7d5g.cloudfront.net/articulos/articulos-729179.jpg",
     "source": "Nació Digital",
     "lang": "ca",
-    "id": 242
+    "id": 243
   },
   {
     "category": "lineup",
@@ -612,20 +626,6 @@
     "link": "https://www.ara.cat/esports/futbol/espanya-s-estavella-cap-verd-debut-mundial_1_5769672.html",
     "image": "https://static1.ara.cat/clip/8e7251f4-b907-482f-80bd-2d1f7d821c3d_16-9-aspect-ratio_default_0.jpg",
     "source": "ARA Esports",
-    "lang": "ca",
-    "id": 243
-  },
-  {
-    "category": "tactics",
-    "title": "Loughinisland 1994: una matança «mundial»",
-    "snippet": "Amb el Mundial, revisem un dels episodis més tràgics de la Copa del Món de futbol: la massacre que el pub d’un petit poblet del nord d’Irlanda va viure l’estiu de 1994 mentre els seus parroquians animaven la selecció irlandesa",
-    "time": "3d ago",
-    "timestamp": 1781534526,
-    "color": "linear-gradient(135deg, #f59e0b, #78350f)",
-    "overlay": "⚽",
-    "link": "https://naciodigital.cat/esports/loughinisland-1994-una-matanca-mundial.html",
-    "image": "https://d5r1tkwwv7d5g.cloudfront.net/articulos/articulos-729064.jpg",
-    "source": "Nació Digital",
     "lang": "ca",
     "id": 244
   }
