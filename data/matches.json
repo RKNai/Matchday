@@ -3190,48 +3190,42 @@
     "homeFlag": "🏴󠁧󠁢󠁳󠁣󠁴󠁿",
     "away": "Morocco",
     "awayFlag": "🇲🇦",
-    "homeScore": 1,
-    "awayScore": 2,
-    "status": "live",
-    "minute": 70,
+    "homeScore": 2,
+    "awayScore": 0,
+    "status": "finished",
+    "minute": 0,
     "date": "Jun 19, 22:00 UTC",
     "location": "Boston Stadium",
     "events": [
       {
-        "minute": 7,
-        "team": "Morocco",
+        "minute": 8,
+        "team": "Scotland",
         "type": "goal",
-        "desc": "Adli ⚽ (Goal!)"
+        "desc": "Cooper ⚽ (Goal!)"
       },
       {
-        "minute": 17,
+        "minute": 67,
         "team": "Scotland",
         "type": "goal",
         "desc": "Hanley ⚽ (Goal!)"
-      },
-      {
-        "minute": 46,
-        "team": "Morocco",
-        "type": "goal",
-        "desc": "Chadi Riad ⚽ (Goal!)"
       }
     ],
     "stats": {
       "possession": [
-        38,
-        62
+        41,
+        59
       ],
       "shots": [
-        2,
-        5
+        6,
+        12
       ],
       "fouls": [
-        5,
-        5
+        11,
+        8
       ],
       "corners": [
-        0,
-        3
+        2,
+        5
       ]
     },
     "lineups": {
@@ -3299,29 +3293,48 @@
     "homeFlag": "🇧🇷",
     "away": "Haiti",
     "awayFlag": "🇭🇹",
-    "homeScore": 0,
-    "awayScore": 0,
-    "status": "upcoming",
-    "minute": 0,
+    "homeScore": 2,
+    "awayScore": 1,
+    "status": "live",
+    "minute": 33,
     "date": "Jun 20, 01:00 UTC",
     "location": "Philadelphia Stadium",
-    "events": [],
+    "events": [
+      {
+        "minute": 6,
+        "team": "Haiti",
+        "type": "goal",
+        "desc": "Jerome ⚽ (Goal!)"
+      },
+      {
+        "minute": 25,
+        "team": "Brazil",
+        "type": "goal",
+        "desc": "Yan Couto ⚽ (Goal!)"
+      },
+      {
+        "minute": 29,
+        "team": "Brazil",
+        "type": "goal",
+        "desc": "Beraldo ⚽ (Goal!)"
+      }
+    ],
     "stats": {
       "possession": [
-        50,
-        50
+        62,
+        38
       ],
       "shots": [
-        0,
+        7,
         0
       ],
       "fouls": [
-        0,
-        0
+        6,
+        5
       ],
       "corners": [
-        0,
-        0
+        4,
+        1
       ]
     },
     "lineups": {
