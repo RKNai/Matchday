@@ -3493,29 +3493,48 @@
     "homeFlag": "🇳🇱",
     "away": "Sweden",
     "awayFlag": "🇸🇪",
-    "homeScore": 0,
-    "awayScore": 0,
-    "status": "upcoming",
-    "minute": 0,
+    "homeScore": 1,
+    "awayScore": 2,
+    "status": "live",
+    "minute": 83,
     "date": "Jun 20, 17:00 UTC",
     "location": "Houston Stadium",
-    "events": [],
+    "events": [
+      {
+        "minute": 29,
+        "team": "Sweden",
+        "type": "goal",
+        "desc": "Nordfeldt ⚽ (Goal!)"
+      },
+      {
+        "minute": 60,
+        "team": "Netherlands",
+        "type": "goal",
+        "desc": "Geertruida ⚽ (Goal!)"
+      },
+      {
+        "minute": 81,
+        "team": "Sweden",
+        "type": "goal",
+        "desc": "Larsson ⚽ (Goal!)"
+      }
+    ],
     "stats": {
       "possession": [
-        0,
-        0
+        57,
+        43
       ],
       "shots": [
-        0,
-        0
+        9,
+        12
       ],
       "fouls": [
-        0,
-        0
+        5,
+        6
       ],
       "corners": [
-        0,
-        0
+        1,
+        3
       ]
     },
     "lineups": {

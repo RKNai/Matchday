@@ -1,9 +1,37 @@
 [
   {
     "category": "tactics",
+    "title": "Saka trains alone as England prepare for Ghana game",
+    "snippet": "Bukayo Saka was the only player not present in group training as England continued their preparations for their second World Cup match against Ghana.",
+    "time": "20m ago",
+    "timestamp": 1781978559,
+    "color": "linear-gradient(135deg, #f59e0b, #78350f)",
+    "overlay": "⚽",
+    "link": "https://www.bbc.com/sport/football/articles/cr47wqdq26lo?at_medium=RSS&at_campaign=rss",
+    "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/ed1e/live/7d2c8b10-6cce-11f1-af86-f18c6df0a749.jpg",
+    "source": "BBC Sport",
+    "lang": "en",
+    "id": 200
+  },
+  {
+    "category": "tactics",
+    "title": "Brobbey scores twice against Sweden",
+    "snippet": "Brian Brobbey scores twice in the first half in Netherland's World Cup match with Sweden.",
+    "time": "25m ago",
+    "timestamp": 1781978243,
+    "color": "linear-gradient(135deg, #f59e0b, #78350f)",
+    "overlay": "⚽",
+    "link": "https://www.bbc.com/sport/football/videos/cvgq90lvyklo?at_medium=RSS&at_campaign=rss",
+    "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/d59a/live/71022ee0-6ccd-11f1-8546-8f19e4fe30f4.jpg",
+    "source": "BBC Sport",
+    "lang": "en",
+    "id": 201
+  },
+  {
+    "category": "tactics",
     "title": "How does qualification for the World Cup knockout stage work?",
     "snippet": "With the second round of group-stage matches under way, we assess who can play who in the knockout rounds - and how they can get there.",
-    "time": "34m ago",
+    "time": "1h ago",
     "timestamp": 1781972640,
     "color": "linear-gradient(135deg, #f59e0b, #78350f)",
     "overlay": "⚽",
@@ -11,13 +39,13 @@
     "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/ca7e/live/406b0410-6cbd-11f1-9fea-e751269afdb9.jpg",
     "source": "BBC Sport",
     "lang": "en",
-    "id": 200
+    "id": 202
   },
   {
     "category": "tactics",
     "title": "Boston bounce sends Scotland to Miami with hope and no fear",
     "snippet": "Scotland and their fans head to Miami for a World Cup date with destiny after making memories in Boston to last a lifetime.",
-    "time": "2h ago",
+    "time": "3h ago",
     "timestamp": 1781966619,
     "color": "linear-gradient(135deg, #f59e0b, #78350f)",
     "overlay": "⚽",
@@ -25,13 +53,13 @@
     "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/71e5/live/620d4300-6cb6-11f1-9fea-e751269afdb9.jpg",
     "source": "BBC Sport",
     "lang": "en",
-    "id": 201
+    "id": 203
   },
   {
     "category": "tactics",
     "title": "Why Kane is different at this World Cup - Shearer",
     "snippet": "Former England captain Alan Shearer explains what has changed for Harry Kane since his struggles at the 2022 World Cup in Qatar.",
-    "time": "3h ago",
+    "time": "4h ago",
     "timestamp": 1781961852,
     "color": "linear-gradient(135deg, #f59e0b, #78350f)",
     "overlay": "⚽",
@@ -39,13 +67,13 @@
     "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/a69c/live/a4d23930-6cbf-11f1-95c0-035571ba4bec.jpg",
     "source": "BBC Sport",
     "lang": "en",
-    "id": 202
+    "id": 204
   },
   {
     "category": "injury",
     "title": "Curacao's trailblazer doctor on football's big stage",
     "snippet": "Dr Suzanne Huurman is head of medical staff for Curacao's national men's side - the World Cup's smallest ever team by population and size.",
-    "time": "4h ago",
+    "time": "5h ago",
     "timestamp": 1781958917,
     "color": "linear-gradient(135deg, #ef4444, #7f1d1d)",
     "overlay": "🩺",
@@ -53,13 +81,13 @@
     "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/7e7b/live/3f190c20-68ed-11f1-a322-77bd30adf518.jpg",
     "source": "BBC Sport",
     "lang": "en",
-    "id": 203
+    "id": 205
   },
   {
     "category": "tactics",
     "title": "Boyd: Scotland can’t concede early against Brazil",
     "snippet": "Kris Boyd says Scotland cannot concede another early goal when they meet Brazil in their final Group C match at the World Cup on Wednesday after going behind after 70 seconds against Morocco.",
-    "time": "4h ago",
+    "time": "6h ago",
     "timestamp": 1781956800,
     "color": "linear-gradient(135deg, #f59e0b, #78350f)",
     "overlay": "⚽",
@@ -67,13 +95,13 @@
     "image": "https://e0.365dm.com/26/06/1920x1080/skysports-robertson-scotland_7278498.jpg?20260620121845",
     "source": "Sky Sports",
     "lang": "en",
-    "id": 204
+    "id": 206
   },
   {
     "category": "tactics",
     "title": "Oh, brother! The sibling rivals lining up for different World Cup teams",
     "snippet": "Sibling rivals are lining up for different teams at the World Cup, with seven pairs of brothers in total at this tournament.",
-    "time": "5h ago",
+    "time": "6h ago",
     "timestamp": 1781956537,
     "color": "linear-gradient(135deg, #f59e0b, #78350f)",
     "overlay": "⚽",
@@ -81,13 +109,13 @@
     "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/ce42/live/9ffa7e10-6b2d-11f1-858e-3f275ac14006.jpg",
     "source": "BBC Sport",
     "lang": "en",
-    "id": 205
+    "id": 207
   },
   {
     "category": "tactics",
     "title": "Why are so many World Cup goals being scored late?",
     "snippet": "World Cup 2026 is witnessing a surge in late goals. Longer stoppage times, tactical substitutions and hydration breaks are reshaping matches",
-    "time": "5h ago",
+    "time": "6h ago",
     "timestamp": 1781955540,
     "color": "linear-gradient(135deg, #f59e0b, #78350f)",
     "overlay": "⚽",
@@ -95,13 +123,13 @@
     "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/8110/live/ca9c98b0-6be1-11f1-95c7-b58617a2924f.jpg",
     "source": "BBC Sport",
     "lang": "en",
-    "id": 206
+    "id": 208
   },
   {
     "category": "tactics",
     "title": "'Everything I do is for you' - how tragedy is driving Diomande",
     "snippet": "BBC Sport explores how exciting young Ivory Coast Yan Diomande is determined to succeed at the World Cup in honour of his sister.",
-    "time": "8h ago",
+    "time": "9h ago",
     "timestamp": 1781945818,
     "color": "linear-gradient(135deg, #f59e0b, #78350f)",
     "overlay": "⚽",
@@ -109,13 +137,13 @@
     "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/09b3/live/ad64bcc0-6bbc-11f1-8e5f-879143928516.jpg",
     "source": "BBC Sport",
     "lang": "en",
-    "id": 207
+    "id": 209
   },
   {
     "category": "tactics",
     "title": "White House in talks over Iran travel restrictions",
     "snippet": "The White House is considering changing the strict travel restrictions Iran are facing at the 2026 World Cup.",
-    "time": "8h ago",
+    "time": "9h ago",
     "timestamp": 1781945570,
     "color": "linear-gradient(135deg, #f59e0b, #78350f)",
     "overlay": "⚽",
@@ -123,13 +151,13 @@
     "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/9210/live/46b2f1d0-6bae-11f1-8e5f-879143928516.jpg",
     "source": "BBC Sport",
     "lang": "en",
-    "id": 208
+    "id": 210
   },
   {
     "category": "rules",
     "title": "World Cup groups separated by head-to-head records for first time",
     "snippet": "Fifa is using head-to-head records instead of group goal difference as the first tiebreaker for teams who are level on points at the World Cup.",
-    "time": "8h ago",
+    "time": "9h ago",
     "timestamp": 1781943954,
     "color": "linear-gradient(135deg, #64748b, #334155)",
     "overlay": "📺",
@@ -137,27 +165,13 @@
     "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/1e25/live/0ab864e0-6c0c-11f1-866d-31e44f099e94.jpg",
     "source": "BBC Sport",
     "lang": "en",
-    "id": 209
-  },
-  {
-    "category": "rules",
-    "title": "Harsh or fair decisions? Scotland denied TWO penalties in Morocco defeat!",
-    "snippet": "The Scotland camp and pundits react after two penalty appeals were denied in the World Cup defeat against Morocco.",
-    "time": "9h ago",
-    "timestamp": 1781940300,
-    "color": "linear-gradient(135deg, #64748b, #334155)",
-    "overlay": "📺",
-    "link": "https://www.skysports.com/watch/video/13556024/world-cup-scotland-camp-react-to-mcginn-and-mctominays-denied-penalties-vs-morocco",
-    "image": "https://e0.365dm.com/26/06/1920x1080/skysports-football-pen_7278373.jpg?20260620075720",
-    "source": "Sky Sports",
-    "lang": "en",
-    "id": 210
+    "id": 211
   },
   {
     "category": "tactics",
     "title": "Who am I? Guess World Cup star No 13",
     "snippet": "Will you get today's player in as few attempts as possible?",
-    "time": "10h ago",
+    "time": "12h ago",
     "timestamp": 1781935323,
     "color": "linear-gradient(135deg, #f59e0b, #78350f)",
     "overlay": "⚽",
@@ -165,13 +179,13 @@
     "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/d5ef/live/5e58bf90-64ec-11f1-8e1d-bbbb1017d210.jpg",
     "source": "BBC Sport",
     "lang": "en",
-    "id": 211
+    "id": 212
   },
   {
     "category": "rules",
     "title": "10-man Paraguay knock out Turkey despite Almiron red card",
     "snippet": "Watch highlights as 10-man Paraguay win despite Miguel Almiron's red card, eliminating Turkey from the 2026 World Cup.",
-    "time": "11h ago",
+    "time": "12h ago",
     "timestamp": 1781934591,
     "color": "linear-gradient(135deg, #64748b, #334155)",
     "overlay": "📺",
@@ -179,13 +193,13 @@
     "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/bdb2/live/d3e41ed0-6c67-11f1-8546-8f19e4fe30f4.jpg",
     "source": "BBC Sport",
     "lang": "en",
-    "id": 212
+    "id": 213
   },
   {
     "category": "tactics",
     "title": "Guler sends apology after Turkey suffer shock elimination from World Cup",
     "snippet": "In an emotionally-charged encounter in San Francisco, Turkey were sent packing from the World Cup having fallen to back-to-back defeats, losing 1-0 to steely Paraguay after also suffering at the hands of Australia.",
-    "time": "11h ago",
+    "time": "12h ago",
     "timestamp": 1781934300,
     "color": "linear-gradient(135deg, #f59e0b, #78350f)",
     "overlay": "⚽",
@@ -193,27 +207,13 @@
     "image": "https://e1.365dm.com/26/06/1920x1080/skysports-turkey-paraguay_7278351.jpg?20260620063007",
     "source": "Sky Sports",
     "lang": "en",
-    "id": 213
-  },
-  {
-    "category": "tactics",
-    "title": "World Cup first sees Almiron sent off for covering mouth",
-    "snippet": "Watch Miguel Almiron become the first player to be sent off under new rules preventing players from covering their mouths during a game at the 2026 World Cup, with the Paraguay midfielder shown red in a win over Turkey.",
-    "time": "11h ago",
-    "timestamp": 1781931957,
-    "color": "linear-gradient(135deg, #f59e0b, #78350f)",
-    "overlay": "⚽",
-    "link": "https://www.bbc.com/sport/football/videos/c17y0977klgo?at_medium=RSS&at_campaign=rss",
-    "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/50a3/live/c0af7db0-6c61-11f1-b1db-af71d47507d6.jpg",
-    "source": "BBC Sport",
-    "lang": "en",
     "id": 214
   },
   {
     "category": "tactics",
     "title": "Neymar, cuestión de Estado en Brasil: Lula critica que es \"un jugador con teletrabajo\" y Ancelotti le recupera para el partido clave contra Escocia",
     "snippet": "El presidente se mete de lleno en la actualidad de la selección, que vence a Haití con comodidad. El centrocampista del Santos no viajó con el equipo y se perdió su segundo partido. Vinicius, MVP. Leer",
-    "time": "56m ago",
+    "time": "2h ago",
     "timestamp": 1781971321,
     "color": "linear-gradient(135deg, #f59e0b, #78350f)",
     "overlay": "⚽",
@@ -225,9 +225,23 @@
   },
   {
     "category": "tactics",
+    "title": "Portugal se blinda: \"Casi dábamos por hecho que algo así iba a suceder\"",
+    "snippet": "Palm Beach Gardens, campamento base de Portugal, ajena al caos en redes sociales",
+    "time": "2h ago",
+    "timestamp": 1781971288,
+    "color": "linear-gradient(135deg, #f59e0b, #78350f)",
+    "overlay": "⚽",
+    "link": "https://www.marca.com/futbol/mundial/2026/06/20/portugal-blinda-dabamos-hecho-asi-iba-suceder.html",
+    "image": "https://e01-xlk-ue-marca.uecdn.es/files/horizontal_image_desktop/uploads/2026/06/20/6a36b5e644f91.jpeg",
+    "source": "Marca",
+    "lang": "es",
+    "id": 216
+  },
+  {
+    "category": "tactics",
     "title": "El \"vergonzoso\" desastre de Turquía, eliminada del Mundial: \"Que hagan andando y nadando los 10.000 kilómetros entre San Francisco y Estambul\"",
     "snippet": "El equipo de Arda Güler suma ante Paraguay su segunda derrota y ya no tiene opciones de pasar la fase de grupos. Leer",
-    "time": "1h ago",
+    "time": "2h ago",
     "timestamp": 1781970808,
     "color": "linear-gradient(135deg, #f59e0b, #78350f)",
     "overlay": "⚽",
@@ -235,13 +249,13 @@
     "image": "https://e00-elmundo.uecdn.es/assets/multimedia/imagenes/2026/06/20/17819692535082_990x0.jpg",
     "source": "El Mundo Deportes",
     "lang": "es",
-    "id": 216
+    "id": 217
   },
   {
     "category": "tactics",
     "title": "El 'pentágono' protege a la EE.UU. de Pochettino",
     "snippet": "El dibujo que ha creado en el medio 'recrea' la forma de la sede del Departamento de Defensa",
-    "time": "1h ago",
+    "time": "3h ago",
     "timestamp": 1781967846,
     "color": "linear-gradient(135deg, #f59e0b, #78350f)",
     "overlay": "⚽",
@@ -249,13 +263,13 @@
     "image": "https://e01-xlk-ue-marca.uecdn.es/files/horizontal_image_desktop/uploads/2026/06/19/6a35b38e537c8.jpeg",
     "source": "Marca",
     "lang": "es",
-    "id": 217
+    "id": 218
   },
   {
     "category": "tactics",
-    "title": "De Jong, Dumfries y Gyokeres, titulares",
+    "title": "Países Bajos ya se la juega",
     "snippet": "Sigue el partido y consulta cómo va Países Bajos contra Suecia",
-    "time": "1h ago",
+    "time": "3h ago",
     "timestamp": 1781967805,
     "color": "linear-gradient(135deg, #f59e0b, #78350f)",
     "overlay": "⚽",
@@ -263,13 +277,13 @@
     "image": "https://e01-xlk-ue-marca.uecdn.es/files/horizontal_image_desktop/uploads/2026/06/20/17819658684244.jpeg",
     "source": "Marca",
     "lang": "es",
-    "id": 218
+    "id": 219
   },
   {
     "category": "press",
     "title": "Diogo Dalot: \"Hay millones de personas que quieren que Portugal gane, y otras muchas que quizá no\"",
     "snippet": "El defensa del Manchester United, sin minutos en esta Copa del Mundo, habló ante la prensa",
-    "time": "2h ago",
+    "time": "3h ago",
     "timestamp": 1781966698,
     "color": "linear-gradient(135deg, #0d9488, #115e59)",
     "overlay": "🎙️",
@@ -277,41 +291,13 @@
     "image": "https://e01-xlk-ue-marca.uecdn.es/files/horizontal_image_desktop/uploads/2026/06/20/6a369f8641034.jpeg",
     "source": "Marca",
     "lang": "es",
-    "id": 219
-  },
-  {
-    "category": "tactics",
-    "title": "Zubimendi: \"A Lamine Yamal le hemos sufrido esta semana\"",
-    "snippet": "\"No sé si es justo decir que tenemos que mejorar, pero sí que tenemos que acertar más\", aseguró Borja Iglesias",
-    "time": "2h ago",
-    "timestamp": 1781965680,
-    "color": "linear-gradient(135deg, #f59e0b, #78350f)",
-    "overlay": "⚽",
-    "link": "https://www.marca.com/futbol/mundial/2026/06/20/zubimendi-lamine-yamal-le-hemos-sufrido-semana.html",
-    "image": "https://images.unsplash.com/photo-1579952363873-27f3bade9f55?w=800&auto=format&fit=crop",
-    "source": "Marca",
-    "lang": "es",
     "id": 220
-  },
-  {
-    "category": "tactics",
-    "title": "De la nada al todo<br>",
-    "snippet": "El mediapunta de Al Nassr no tuvo minutos ante RD Congo, pero se presenta como una opción para el duelo con Uzbekistán<span class=\"xai-icon\" contenteditable=\"false\" aria-hidden=\"true\" tabindex=\"-1\" style=\"user-select: none; pointer-events: auto;\"></span>",
-    "time": "2h ago",
-    "timestamp": 1781965466,
-    "color": "linear-gradient(135deg, #f59e0b, #78350f)",
-    "overlay": "⚽",
-    "link": "https://www.marca.com/futbol/mundial/2026/06/20/joao-felix-portugal-dile-entrenador-te-ponga.html",
-    "image": "https://e01-xlk-ue-marca.uecdn.es/files/horizontal_image_desktop/uploads/2026/06/19/6a35a426ea0d5.jpeg",
-    "source": "Marca",
-    "lang": "es",
-    "id": 221
   },
   {
     "category": "lineup",
     "title": "Barcola tiene premio con Francia",
     "snippet": "El extremo, que ha ido perdiendo presencia con Luis Enrique y con Deschamps, puede volver al once ante Irak",
-    "time": "5h ago",
+    "time": "7h ago",
     "timestamp": 1781954319,
     "color": "linear-gradient(135deg, #3b82f6, #1e3a8a)",
     "overlay": "📋",
@@ -319,13 +305,13 @@
     "image": "https://e01-xlk-ue-marca.uecdn.es/files/horizontal_image_desktop/uploads/2026/06/19/6a35bb131b4e3.jpeg",
     "source": "Marca",
     "lang": "es",
-    "id": 222
+    "id": 221
   },
   {
     "category": "tactics",
     "title": "Al Barça empieza a salirle caro el Mundial",
     "snippet": "Araujo, De Jong, Raphinha... ya han tenido que parar por molestias",
-    "time": "7h ago",
+    "time": "8h ago",
     "timestamp": 1781948517,
     "color": "linear-gradient(135deg, #f59e0b, #78350f)",
     "overlay": "⚽",
@@ -333,13 +319,13 @@
     "image": "https://e01-xlk-ue-marca.uecdn.es/files/horizontal_image_desktop/uploads/2026/06/20/6a3659213ad53.jpeg",
     "source": "Marca",
     "lang": "es",
-    "id": 223
+    "id": 222
   },
   {
     "category": "transfer",
     "title": "\"El Bayern debería considerar su fichaje\"",
     "snippet": "Al medio suizo le bastaron 19' ante Bosnia para romper el 0-0 con dos goles y llevarse el 'MVP'",
-    "time": "8h ago",
+    "time": "9h ago",
     "timestamp": 1781945793,
     "color": "linear-gradient(135deg, #a855f7, #581c87)",
     "overlay": "🔄",
@@ -347,13 +333,13 @@
     "image": "https://e01-xlk-ue-marca.uecdn.es/files/horizontal_image_desktop/uploads/2026/06/19/6a358c32d26ca.jpeg",
     "source": "Marca",
     "lang": "es",
-    "id": 224
+    "id": 223
   },
   {
     "category": "tactics",
     "title": "Alemania - Costa de Marfil: horario y dónde ver hoy por TV el partido del Mundial 2026",
     "snippet": "Tras un debut sencillo con Curazao, el equipo de Nagelsmann se juega hoy el liderato del grupo E Leer",
-    "time": "8h ago",
+    "time": "10h ago",
     "timestamp": 1781942400,
     "color": "linear-gradient(135deg, #f59e0b, #78350f)",
     "overlay": "⚽",
@@ -361,13 +347,13 @@
     "image": "https://e00-elmundo.uecdn.es/assets/multimedia/imagenes/2026/06/19/17818651953017_990x0.jpg",
     "source": "El Mundo Deportes",
     "lang": "es",
-    "id": 225
+    "id": 224
   },
   {
     "category": "press",
     "title": "Vinicius: \"Tengo que escuchar más a Ancelotti\"",
     "snippet": "\"Hoy jugué en una posición diferente. El míster me pidió actuar por dentro, entre dos zagueros\", dice el futbolista brasileño, elegido MVP del partido y autor de un gol y una asistencia",
-    "time": "9h ago",
+    "time": "11h ago",
     "timestamp": 1781940171,
     "color": "linear-gradient(135deg, #0d9488, #115e59)",
     "overlay": "🎙️",
@@ -375,13 +361,13 @@
     "image": "https://e01-xlk-ue-marca.uecdn.es/files/horizontal_image_desktop/uploads/2026/06/20/6a363fb420f7d.jpeg",
     "source": "Marca",
     "lang": "es",
-    "id": 226
+    "id": 225
   },
   {
     "category": "tactics",
     "title": "El calor suspende las pantallas gigantes de Colón&nbsp;",
     "snippet": "Sigue todas las novedades y la última hora en directo",
-    "time": "9h ago",
+    "time": "11h ago",
     "timestamp": 1781939373,
     "color": "linear-gradient(135deg, #f59e0b, #78350f)",
     "overlay": "⚽",
@@ -389,27 +375,27 @@
     "image": "https://e01-xlk-ue-marca.uecdn.es/files/horizontal_image_desktop/uploads/2026/06/20/6a369e571cfe7.jpeg",
     "source": "Marca",
     "lang": "es",
-    "id": 227
+    "id": 226
   },
   {
     "category": "tactics",
     "title": "Paraguay quiere venganza: \"Queremos otra vez a España en cuartos\"",
     "snippet": "",
-    "time": "9h ago",
+    "time": "11h ago",
     "timestamp": 1781939099,
     "color": "linear-gradient(135deg, #f59e0b, #78350f)",
     "overlay": "⚽",
     "link": "https://www.marca.com/futbol/mundial/2026/06/20/paraguay-quiere-venganza-queremos-vez-espana-cuartos-video.html",
-    "image": "https://images.unsplash.com/photo-1543351611-58f69d7c1781?w=800&auto=format&fit=crop",
+    "image": "https://images.unsplash.com/photo-1518063319789-7217e6706b04?w=800&auto=format&fit=crop",
     "source": "Marca",
     "lang": "es",
-    "id": 228
+    "id": 227
   },
   {
     "category": "tactics",
     "title": "Países Bajos - Suecia: horario y dónde ver hoy por TV el partido del Mundial 2026",
     "snippet": "Los de Koeman, tras pinchar con un empate frente a Japón, se enfrentan a los líderes del grupo F Leer",
-    "time": "9h ago",
+    "time": "11h ago",
     "timestamp": 1781938800,
     "color": "linear-gradient(135deg, #f59e0b, #78350f)",
     "overlay": "⚽",
@@ -417,13 +403,27 @@
     "image": "https://e00-elmundo.uecdn.es/assets/multimedia/imagenes/2026/06/19/17818605131927_990x0.jpg",
     "source": "El Mundo Deportes",
     "lang": "es",
+    "id": 228
+  },
+  {
+    "category": "tactics",
+    "title": "\"El otoño de Messi y Cristiano Ronaldo\"",
+    "snippet": "'Al otro lado del espejo', una opinión de Alfredo Relaño",
+    "time": "12h ago",
+    "timestamp": 1781933343,
+    "color": "linear-gradient(135deg, #f59e0b, #78350f)",
+    "overlay": "⚽",
+    "link": "https://www.marca.com/futbol/mundial/opinion/2026/06/20/otono-messi-cristiano-ronaldo.html",
+    "image": "https://e01-xlk-ue-marca.uecdn.es/files/horizontal_image_desktop/uploads/2026/06/19/6a3573c1a7e0a.jpeg",
+    "source": "Marca",
+    "lang": "es",
     "id": 229
   },
   {
     "category": "lineup",
     "title": "El Mundial més globalitzat divideix famílies, amb germans i pares en equips diferents",
     "snippet": "Quan la selecció del Marroc va aconseguir un brillant i merescut empat contra el Brasil en el debut al Mundial, moltes persones van reaccionar amb una ganyota. Per primer cop va jugar a la fase final d’una Copa del Món un equip on cap dels futbolistes havia nascut al seu país. La plantilla inicial tenia un sol jugador nascut al Marroc, Ounahi. Però amb les substitucions van coincidir 11 jugadors nascuts a l'estranger, dos dels quals a Catalunya, Ismael Saibari i Ayoube Amaimouni. Tots amb arrels al Marroc, en aquest cas. Però nascuts a l'estranger, fills de la diàspora marroquina. El Marroc ja fa anys que va obrir una oficina a Espanya on té treballant un grup de persones que detecten a tot Europa jugadors que siguin fills o nets de marroquins, per tal de reclutar-los, com van intentar fer amb Lamine Yamal sense sort.",
-    "time": "58m ago",
+    "time": "2h ago",
     "timestamp": 1781971236,
     "color": "linear-gradient(135deg, #3b82f6, #1e3a8a)",
     "overlay": "📋",
@@ -437,7 +437,7 @@
     "category": "injury",
     "title": "Raphinha encén totes les alertes al Mundial",
     "snippet": "El Brasil ha recuperat les bones sensacions al Mundial amb una convincent victòria per 3-0 davant Haití, però el triomf ha quedat completament eclipsat per la possible lesió de Raphinha. L’extrem del Futbol Club Barcelona ha hagut de demanar el canvi abans del descans després de notar unes molèsties musculars a la cuixa dreta, una … Continued",
-    "time": "7h ago",
+    "time": "8h ago",
     "timestamp": 1781948803,
     "color": "linear-gradient(135deg, #ef4444, #7f1d1d)",
     "overlay": "🩺",
@@ -451,7 +451,7 @@
     "category": "press",
     "title": "Els Estats Units convencen, el Brasil respon i Turquia diu adeu al Mundial",
     "snippet": "La segona jornada dels grups C i D del Mundial 2026 ha començat a aclarir el panorama. Els Estats Units s’han convertit en una de les primeres seleccions a assegurar-se un lloc als setzens de final després de superar Austràlia per 2-0, mentre que el Brasil ha recuperat les bones sensacions golejant Haití (3-0). El … Continued",
-    "time": "8h ago",
+    "time": "9h ago",
     "timestamp": 1781945257,
     "color": "linear-gradient(135deg, #0d9488, #115e59)",
     "overlay": "🎙️",
@@ -465,7 +465,7 @@
     "category": "injury",
     "title": "Raphinha, altre cop lesionat, té una margarida per desfullar",
     "snippet": "Raphael Dias Belloli, Raphinha, torna a estar lesionat. En ple debat sobre el seu futur al Barça, l'atacant blaugrana ha caigut en el segon partit que jugava la selecció brasilera al Mundial. Mateix problema, mateix múscul. Al minut 40 del duel contra Haití (3-0), ha notat una punxada a la cuixa dreta i ha hagut de demanar el canvi. Hi ha trencament de fibres a l'isquiotibial i difícilment tornarà a jugar en aquest campionat. És una pèssima notícia per a la canarinha i també per a un futbolista exposat a les bondats dels petrodòlars.",
-    "time": "10h ago",
+    "time": "12h ago",
     "timestamp": 1781935222,
     "color": "linear-gradient(135deg, #ef4444, #7f1d1d)",
     "overlay": "🩺",
@@ -479,7 +479,7 @@
     "category": "tactics",
     "title": "Turquia, eliminada en perdre contra Paraguai (0-1)",
     "snippet": "La selecció turca ha estat una de les grans decepcions del mundial 2026, fins al punt que arribarà a la tercera jornada, contra els Estats Units, sense tenir res a fer per evitar l’eliminació. Els...",
-    "time": "11h ago",
+    "time": "12h ago",
     "timestamp": 1781933169,
     "color": "linear-gradient(135deg, #f59e0b, #78350f)",
     "overlay": "⚽",
@@ -493,7 +493,7 @@
     "category": "tactics",
     "title": "Saibari impulsa el Marroc contra Escòcia (1-0)",
     "snippet": "El terrassenc Ismael Saibari continua acaparant protagonisme en el mundial. El davanter va debutar marcant el gol del Marroc contra el Brasil (1-1) i avui ha estat determinant en marcar el gol que ha decidit...",
-    "time": "11h ago",
+    "time": "13h ago",
     "timestamp": 1781932478,
     "color": "linear-gradient(135deg, #f59e0b, #78350f)",
     "overlay": "⚽",
