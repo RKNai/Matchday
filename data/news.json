@@ -1,9 +1,37 @@
 [
   {
+    "category": "press",
+    "title": "Cooling hoodies help England staff combat World Cup heat",
+    "snippet": "As the England players trained under the searing heat of the Kansas City sun on Saturday, manager Thomas Tuchel took a very different approach to keeping himself cool.",
+    "time": "1h ago",
+    "timestamp": 1781986661,
+    "color": "linear-gradient(135deg, #0d9488, #115e59)",
+    "overlay": "🎙️",
+    "link": "https://www.bbc.com/sport/football/articles/cwy0gn19zqlo?at_medium=RSS&at_campaign=rss",
+    "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/56c9/live/1a5813d0-6ce0-11f1-aa77-e37ebac005b3.jpg",
+    "source": "BBC Sport",
+    "lang": "en",
+    "id": 200
+  },
+  {
+    "category": "tactics",
+    "title": "Scotland expects: What is behind McTominay's understated World Cup?",
+    "snippet": "Some are suggesting Scott McTominay has not had the expected impact for Scotland at the World Cup, but is that fair on the Napoli midfielder?",
+    "time": "1h ago",
+    "timestamp": 1781986571,
+    "color": "linear-gradient(135deg, #f59e0b, #78350f)",
+    "overlay": "⚽",
+    "link": "https://www.bbc.com/sport/football/articles/c78yn1gzy6do?at_medium=RSS&at_campaign=rss",
+    "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/b799/live/a666e320-6ce4-11f1-8e1d-bbbb1017d210.jpg",
+    "source": "BBC Sport",
+    "lang": "en",
+    "id": 201
+  },
+  {
     "category": "tactics",
     "title": "Lift-off for Netherlands with thumping win over Sweden",
     "snippet": "Netherlands took a huge step towards the World Cup knockout stages with a commanding 5-1 victory over Sweden in Group F, inspired by brilliant doubles from Brian Brobbey and Cody Gakpo.",
-    "time": "7m ago",
+    "time": "1h ago",
     "timestamp": 1781985480,
     "color": "linear-gradient(135deg, #f59e0b, #78350f)",
     "overlay": "⚽",
@@ -11,13 +39,13 @@
     "image": "https://e2.365dm.com/26/06/1920x1080/skysports-cody-gakpo-netherlands_7278785.jpg?20260620195430",
     "source": "Sky Sports",
     "lang": "en",
-    "id": 200
+    "id": 202
   },
   {
     "category": "tactics",
     "title": "Scotland 0-1 Morocco: Unique angles and behind the scenes",
     "snippet": "All the unique angles, and everything the TV cameras didn't show you, from Scotland's 1-0 defeat by Morocco at the 2026 World Cup in North America.",
-    "time": "19m ago",
+    "time": "1h ago",
     "timestamp": 1781984721,
     "color": "linear-gradient(135deg, #f59e0b, #78350f)",
     "overlay": "⚽",
@@ -25,13 +53,13 @@
     "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/66eb/live/205dd350-6ce0-11f1-8e1d-bbbb1017d210.jpg",
     "source": "BBC Sport",
     "lang": "en",
-    "id": 201
+    "id": 203
   },
   {
     "category": "tactics",
     "title": "Gakpo fires home the 100th goal of this World Cup",
     "snippet": "Cody Gakpo scores the 100th goal of this World Cup as he his second of the game to put Netherlands 4-0 ahead against Sweden.",
-    "time": "1h ago",
+    "time": "2h ago",
     "timestamp": 1781981295,
     "color": "linear-gradient(135deg, #f59e0b, #78350f)",
     "overlay": "⚽",
@@ -39,13 +67,13 @@
     "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/f105/live/95400d00-6cd6-11f1-8e1d-bbbb1017d210.jpg",
     "source": "BBC Sport",
     "lang": "en",
-    "id": 202
+    "id": 204
   },
   {
     "category": "tactics",
     "title": "Saka trains alone as England prepare for Ghana game",
     "snippet": "Bukayo Saka was the only player not present in group training as England continued their preparations for their second World Cup match against Ghana.",
-    "time": "2h ago",
+    "time": "3h ago",
     "timestamp": 1781978559,
     "color": "linear-gradient(135deg, #f59e0b, #78350f)",
     "overlay": "⚽",
@@ -53,13 +81,13 @@
     "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/ed1e/live/7d2c8b10-6cce-11f1-af86-f18c6df0a749.jpg",
     "source": "BBC Sport",
     "lang": "en",
-    "id": 203
+    "id": 205
   },
   {
     "category": "tactics",
     "title": "Brobbey scores twice against Sweden",
     "snippet": "Brian Brobbey scores twice in the first half in Netherland's World Cup match with Sweden.",
-    "time": "2h ago",
+    "time": "3h ago",
     "timestamp": 1781978243,
     "color": "linear-gradient(135deg, #f59e0b, #78350f)",
     "overlay": "⚽",
@@ -67,13 +95,13 @@
     "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/d59a/live/71022ee0-6ccd-11f1-8546-8f19e4fe30f4.jpg",
     "source": "BBC Sport",
     "lang": "en",
-    "id": 204
+    "id": 206
   },
   {
     "category": "tactics",
     "title": "How does qualification for the World Cup knockout stage work?",
     "snippet": "With the second round of group-stage matches under way, we assess who can play who in the knockout rounds - and how they can get there.",
-    "time": "3h ago",
+    "time": "5h ago",
     "timestamp": 1781972640,
     "color": "linear-gradient(135deg, #f59e0b, #78350f)",
     "overlay": "⚽",
@@ -81,13 +109,13 @@
     "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/ca7e/live/406b0410-6cbd-11f1-9fea-e751269afdb9.jpg",
     "source": "BBC Sport",
     "lang": "en",
-    "id": 205
+    "id": 207
   },
   {
     "category": "tactics",
     "title": "Boston bounce sends Scotland to Miami with hope and no fear",
     "snippet": "Scotland and their fans head to Miami for a World Cup date with destiny after making memories in Boston to last a lifetime.",
-    "time": "5h ago",
+    "time": "6h ago",
     "timestamp": 1781966619,
     "color": "linear-gradient(135deg, #f59e0b, #78350f)",
     "overlay": "⚽",
@@ -95,13 +123,13 @@
     "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/71e5/live/620d4300-6cb6-11f1-9fea-e751269afdb9.jpg",
     "source": "BBC Sport",
     "lang": "en",
-    "id": 206
+    "id": 208
   },
   {
     "category": "tactics",
     "title": "Why Kane is different at this World Cup - Shearer",
     "snippet": "Former England captain Alan Shearer explains what has changed for Harry Kane since his struggles at the 2022 World Cup in Qatar.",
-    "time": "6h ago",
+    "time": "8h ago",
     "timestamp": 1781961852,
     "color": "linear-gradient(135deg, #f59e0b, #78350f)",
     "overlay": "⚽",
@@ -109,13 +137,13 @@
     "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/a69c/live/a4d23930-6cbf-11f1-95c0-035571ba4bec.jpg",
     "source": "BBC Sport",
     "lang": "en",
-    "id": 207
+    "id": 209
   },
   {
     "category": "injury",
     "title": "Curacao's trailblazer doctor on football's big stage",
     "snippet": "Dr Suzanne Huurman is head of medical staff for Curacao's national men's side - the World Cup's smallest ever team by population and size.",
-    "time": "7h ago",
+    "time": "9h ago",
     "timestamp": 1781958917,
     "color": "linear-gradient(135deg, #ef4444, #7f1d1d)",
     "overlay": "🩺",
@@ -123,13 +151,13 @@
     "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/7e7b/live/3f190c20-68ed-11f1-a322-77bd30adf518.jpg",
     "source": "BBC Sport",
     "lang": "en",
-    "id": 208
+    "id": 210
   },
   {
     "category": "tactics",
     "title": "Boyd: Scotland can’t concede early against Brazil",
     "snippet": "Kris Boyd says Scotland cannot concede another early goal when they meet Brazil in their final Group C match at the World Cup on Wednesday after going behind after 70 seconds against Morocco.",
-    "time": "8h ago",
+    "time": "9h ago",
     "timestamp": 1781956800,
     "color": "linear-gradient(135deg, #f59e0b, #78350f)",
     "overlay": "⚽",
@@ -137,13 +165,13 @@
     "image": "https://e0.365dm.com/26/06/1920x1080/skysports-robertson-scotland_7278498.jpg?20260620121845",
     "source": "Sky Sports",
     "lang": "en",
-    "id": 209
+    "id": 211
   },
   {
     "category": "tactics",
     "title": "Oh, brother! The sibling rivals lining up for different World Cup teams",
     "snippet": "Sibling rivals are lining up for different teams at the World Cup, with seven pairs of brothers in total at this tournament.",
-    "time": "8h ago",
+    "time": "9h ago",
     "timestamp": 1781956537,
     "color": "linear-gradient(135deg, #f59e0b, #78350f)",
     "overlay": "⚽",
@@ -151,13 +179,13 @@
     "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/ce42/live/9ffa7e10-6b2d-11f1-858e-3f275ac14006.jpg",
     "source": "BBC Sport",
     "lang": "en",
-    "id": 210
+    "id": 212
   },
   {
     "category": "tactics",
     "title": "Why are so many World Cup goals being scored late?",
     "snippet": "World Cup 2026 is witnessing a surge in late goals. Longer stoppage times, tactical substitutions and hydration breaks are reshaping matches",
-    "time": "8h ago",
+    "time": "10h ago",
     "timestamp": 1781955540,
     "color": "linear-gradient(135deg, #f59e0b, #78350f)",
     "overlay": "⚽",
@@ -165,13 +193,13 @@
     "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/8110/live/ca9c98b0-6be1-11f1-95c7-b58617a2924f.jpg",
     "source": "BBC Sport",
     "lang": "en",
-    "id": 211
+    "id": 213
   },
   {
     "category": "tactics",
     "title": "'Everything I do is for you' - how tragedy is driving Diomande",
     "snippet": "BBC Sport explores how exciting young Ivory Coast Yan Diomande is determined to succeed at the World Cup in honour of his sister.",
-    "time": "11h ago",
+    "time": "12h ago",
     "timestamp": 1781945818,
     "color": "linear-gradient(135deg, #f59e0b, #78350f)",
     "overlay": "⚽",
@@ -179,41 +207,41 @@
     "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/09b3/live/ad64bcc0-6bbc-11f1-8e5f-879143928516.jpg",
     "source": "BBC Sport",
     "lang": "en",
-    "id": 212
+    "id": 214
+  },
+  {
+    "category": "injury",
+    "title": "Raphinha, preocupación máxima: no se sabe cuándo volverá",
+    "snippet": "La CBF confirma la lesión muscular del futbolista azulgrana... pero no se 'atreven' a fijar una fecha de regreso en medio de las dudas sobre su continuidad",
+    "time": "49m ago",
+    "timestamp": 1781988609,
+    "color": "linear-gradient(135deg, #ef4444, #7f1d1d)",
+    "overlay": "🩺",
+    "link": "https://www.marca.com/futbol/mundial/2026/06/20/raphinha-preocupacion-maxima-muchas-dudas.html",
+    "image": "https://e01-xlk-ue-marca.uecdn.es/files/horizontal_image_desktop/uploads/2026/06/20/6a36fa9704edf.jpeg",
+    "source": "Marca",
+    "lang": "es",
+    "id": 215
   },
   {
     "category": "tactics",
-    "title": "White House in talks over Iran travel restrictions",
-    "snippet": "The White House is considering changing the strict travel restrictions Iran are facing at the 2026 World Cup.",
-    "time": "11h ago",
-    "timestamp": 1781945570,
+    "title": "¿Qué hacer con Pedri? La elección táctica de De la Fuente para cambiar el rumbo ante Arabia",
+    "snippet": "Líder de la mayoría de estadísticas ante Cabo Verde, su posición en el campo genera controversia Leer",
+    "time": "53m ago",
+    "timestamp": 1781988358,
     "color": "linear-gradient(135deg, #f59e0b, #78350f)",
     "overlay": "⚽",
-    "link": "https://www.bbc.com/sport/football/articles/c5yz70gjy3xo?at_medium=RSS&at_campaign=rss",
-    "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/9210/live/46b2f1d0-6bae-11f1-8e5f-879143928516.jpg",
-    "source": "BBC Sport",
-    "lang": "en",
-    "id": 213
-  },
-  {
-    "category": "rules",
-    "title": "World Cup groups separated by head-to-head records for first time",
-    "snippet": "Fifa is using head-to-head records instead of group goal difference as the first tiebreaker for teams who are level on points at the World Cup.",
-    "time": "11h ago",
-    "timestamp": 1781943954,
-    "color": "linear-gradient(135deg, #64748b, #334155)",
-    "overlay": "📺",
-    "link": "https://www.bbc.com/sport/football/articles/cn94jrj8d5go?at_medium=RSS&at_campaign=rss",
-    "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/1e25/live/0ab864e0-6c0c-11f1-866d-31e44f099e94.jpg",
-    "source": "BBC Sport",
-    "lang": "en",
-    "id": 214
+    "link": "https://www.elmundo.es/deportes/futbol/mundial-de-futbol/2026/06/20/6a36b738e9cf4ad24d8b4576.html",
+    "image": "https://e00-elmundo.uecdn.es/assets/multimedia/imagenes/2026/06/20/17819642917831_990x0.jpg",
+    "source": "El Mundo Deportes",
+    "lang": "es",
+    "id": 216
   },
   {
     "category": "tactics",
     "title": "Digne: \"La expulsión por taparse la boca para insultar me parece bien\"",
     "snippet": "El lateral celebra la primera expulsión del Mundial al jugador de Paraguay Miguel Almirón por este gesto",
-    "time": "3m ago",
+    "time": "1h ago",
     "timestamp": 1781985698,
     "color": "linear-gradient(135deg, #f59e0b, #78350f)",
     "overlay": "⚽",
@@ -221,27 +249,13 @@
     "image": "https://e01-xlk-ue-marca.uecdn.es/files/horizontal_image_desktop/uploads/2026/06/20/6a36f08481304.jpeg",
     "source": "Marca",
     "lang": "es",
-    "id": 215
-  },
-  {
-    "category": "tactics",
-    "title": "Gakpo lidera el top 1 del Power Ranking en la fiesta holandesa",
-    "snippet": "El '11' anotó un doblete en la goleada de Holanda a Suecia (5-1)",
-    "time": "25m ago",
-    "timestamp": 1781984368,
-    "color": "linear-gradient(135deg, #f59e0b, #78350f)",
-    "overlay": "⚽",
-    "link": "https://www.marca.com/futbol/mundial/2026/06/20/gakpo-lidera-top-1-power-ranking-fiesta-holandesa.html",
-    "image": "https://e01-xlk-ue-marca.uecdn.es/files/horizontal_image_desktop/uploads/2026/06/20/6a36ec3b69d62.jpeg",
-    "source": "Marca",
-    "lang": "es",
-    "id": 216
+    "id": 217
   },
   {
     "category": "tactics",
     "title": "Gakpo se viste de héroe y lidera la goleada a Suecia que hace reconocible a Países Bajos en este Mundial",
     "snippet": "El jugador del Liverpool marca un doblete que le coloca junto a Rep, Bergkamp y Robben. Se sumaron a fiesta dos apuestas de futuro de Ronald Koeman: Brobbey y Summerville. Leer",
-    "time": "40m ago",
+    "time": "2h ago",
     "timestamp": 1781983499,
     "color": "linear-gradient(135deg, #f59e0b, #78350f)",
     "overlay": "⚽",
@@ -249,13 +263,13 @@
     "image": "https://e00-elmundo.uecdn.es/assets/multimedia/imagenes/2026/06/20/17819829728717_990x0.jpg",
     "source": "El Mundo Deportes",
     "lang": "es",
-    "id": 217
+    "id": 218
   },
   {
     "category": "press",
-    "title": "Dumfries ya es 'Míster Asistencia': dos ante Suecia",
+    "title": "El Madrid ha fichado a 'Míster Asistencia'<br>",
     "snippet": "",
-    "time": "48m ago",
+    "time": "2h ago",
     "timestamp": 1781982986,
     "color": "linear-gradient(135deg, #0d9488, #115e59)",
     "overlay": "🎙️",
@@ -263,13 +277,13 @@
     "image": "https://images.unsplash.com/photo-1543351611-58f69d7c1781?w=800&auto=format&fit=crop",
     "source": "Marca",
     "lang": "es",
-    "id": 218
+    "id": 219
   },
   {
     "category": "tactics",
     "title": "Países Bajos 5-1 Suecia | Resumen Mundial 2026",
     "snippet": "",
-    "time": "50m ago",
+    "time": "2h ago",
     "timestamp": 1781982864,
     "color": "linear-gradient(135deg, #f59e0b, #78350f)",
     "overlay": "⚽",
@@ -277,13 +291,13 @@
     "image": "https://images.unsplash.com/photo-1579952363873-27f3bade9f55?w=800&auto=format&fit=crop",
     "source": "Marca",
     "lang": "es",
-    "id": 219
+    "id": 220
   },
   {
     "category": "tactics",
     "title": "Molina, un rédito seguro",
     "snippet": "Con los grandes del Calcio llamando a su puerta, el Atlético aguarda al Mundial convencido de ganar: si se revaloriza no saldría por menos de 30 kilos, si se queda cumple el deseo del Cholo",
-    "time": "59m ago",
+    "time": "2h ago",
     "timestamp": 1781982343,
     "color": "linear-gradient(135deg, #f59e0b, #78350f)",
     "overlay": "⚽",
@@ -291,13 +305,13 @@
     "image": "https://e01-xlk-ue-marca.uecdn.es/files/horizontal_image_desktop/uploads/2026/06/20/6a36c0f1a2bf1.jpeg",
     "source": "Marca",
     "lang": "es",
-    "id": 220
+    "id": 221
   },
   {
     "category": "tactics",
     "title": "La 'Oranje' se desata triturando a Suecia",
     "snippet": "Dos dobletes de Gakpo y Brobbey, dos asistencias de Dumfries y la guinda de Summerville guían a Países Bajos hacia su primer triunfo",
-    "time": "1h ago",
+    "time": "2h ago",
     "timestamp": 1781981828,
     "color": "linear-gradient(135deg, #f59e0b, #78350f)",
     "overlay": "⚽",
@@ -305,55 +319,55 @@
     "image": "https://images.unsplash.com/photo-1508098682722-e99c43a406b2?w=800&auto=format&fit=crop",
     "source": "Marca",
     "lang": "es",
-    "id": 221
-  },
-  {
-    "category": "tactics",
-    "title": "Havertz casi marca al primer minuto",
-    "snippet": "Sigue el partido y consulta cómo va Alemania contra Costa de Marfil",
-    "time": "1h ago",
-    "timestamp": 1781978791,
-    "color": "linear-gradient(135deg, #f59e0b, #78350f)",
-    "overlay": "⚽",
-    "link": "https://www.marca.com/futbol/mundial/2026/06/20/01-0117-20260620-357-1221.html",
-    "image": "https://e01-xlk-ue-marca.uecdn.es/files/horizontal_image_desktop/uploads/2026/06/20/17819728911680.jpeg",
-    "source": "Marca",
-    "lang": "es",
     "id": 222
   },
   {
     "category": "tactics",
-    "title": "Solbakken bromea sobre los 1.000 kg de comida: \"Si el salmón sigue ahí dentro de tres semanas, no lo sé\"",
-    "snippet": "",
-    "time": "2h ago",
-    "timestamp": 1781976367,
+    "title": "¡Empata Alemania, marca Undav!",
+    "snippet": "Sigue el partido y consulta cómo va Alemania contra Costa de Marfil",
+    "time": "3h ago",
+    "timestamp": 1781978791,
     "color": "linear-gradient(135deg, #f59e0b, #78350f)",
     "overlay": "⚽",
-    "link": "https://www.marca.com/futbol/mundial/2026/06/20/solbakken-bromea-sobre-1-000-kg-comida-salmon-sigue-ahi-tres-semanas-video.html",
-    "image": "https://images.unsplash.com/photo-1543351611-58f69d7c1781?w=800&auto=format&fit=crop",
+    "link": "https://www.marca.com/futbol/mundial/2026/06/20/01-0117-20260620-357-1221.html",
+    "image": "https://e01-xlk-ue-marca.uecdn.es/files/horizontal_image_desktop/uploads/2026/06/20/6a36fd7ceb6c9.jpeg",
     "source": "Marca",
     "lang": "es",
     "id": 223
   },
   {
     "category": "tactics",
-    "title": "El emotivo recibimiento de Canadá a Koné tras pasar por el quirófano",
+    "title": "Solbakken bromea sobre los 1.000 kg de comida: \"Si el salmón sigue ahí dentro de tres semanas, no lo sé\"",
     "snippet": "",
-    "time": "2h ago",
-    "timestamp": 1781975630,
+    "time": "4h ago",
+    "timestamp": 1781976367,
     "color": "linear-gradient(135deg, #f59e0b, #78350f)",
     "overlay": "⚽",
-    "link": "https://www.marca.com/futbol/mundial/2026/06/20/emotivo-recibimiento-canada-kone-pasar-quirofan-video.html",
-    "image": "https://images.unsplash.com/photo-1543351611-58f69d7c1781?w=800&auto=format&fit=crop",
+    "link": "https://www.marca.com/futbol/mundial/2026/06/20/solbakken-bromea-sobre-1-000-kg-comida-salmon-sigue-ahi-tres-semanas-video.html",
+    "image": "https://images.unsplash.com/photo-1508098682722-e99c43a406b2?w=800&auto=format&fit=crop",
     "source": "Marca",
     "lang": "es",
     "id": 224
   },
   {
     "category": "tactics",
+    "title": "El emotivo recibimiento de Canadá a Koné tras pasar por el quirófano",
+    "snippet": "",
+    "time": "4h ago",
+    "timestamp": 1781975630,
+    "color": "linear-gradient(135deg, #f59e0b, #78350f)",
+    "overlay": "⚽",
+    "link": "https://www.marca.com/futbol/mundial/2026/06/20/emotivo-recibimiento-canada-kone-pasar-quirofan-video.html",
+    "image": "https://images.unsplash.com/photo-1518063319789-7217e6706b04?w=800&auto=format&fit=crop",
+    "source": "Marca",
+    "lang": "es",
+    "id": 225
+  },
+  {
+    "category": "tactics",
     "title": "Neymar, cuestión de Estado en Brasil: Lula critica que es \"un jugador con teletrabajo\" y Ancelotti le recupera para el partido clave contra Escocia",
     "snippet": "El presidente se mete de lleno en la actualidad de la selección, que vence a Haití con comodidad. El centrocampista del Santos no viajó con el equipo y se perdió su segundo partido. Vinicius, MVP. Leer",
-    "time": "4h ago",
+    "time": "5h ago",
     "timestamp": 1781971321,
     "color": "linear-gradient(135deg, #f59e0b, #78350f)",
     "overlay": "⚽",
@@ -361,13 +375,13 @@
     "image": "https://e00-elmundo.uecdn.es/assets/multimedia/imagenes/2026/06/20/17819338388430_990x0.jpg",
     "source": "El Mundo Deportes",
     "lang": "es",
-    "id": 225
+    "id": 226
   },
   {
     "category": "tactics",
     "title": "Portugal se blinda: \"Casi dábamos por hecho que algo así iba a suceder\"",
     "snippet": "Palm Beach Gardens, campamento base de Portugal, ajena al caos en redes sociales",
-    "time": "4h ago",
+    "time": "5h ago",
     "timestamp": 1781971288,
     "color": "linear-gradient(135deg, #f59e0b, #78350f)",
     "overlay": "⚽",
@@ -375,13 +389,13 @@
     "image": "https://e01-xlk-ue-marca.uecdn.es/files/horizontal_image_desktop/uploads/2026/06/20/6a36b5e644f91.jpeg",
     "source": "Marca",
     "lang": "es",
-    "id": 226
+    "id": 227
   },
   {
     "category": "tactics",
     "title": "El \"vergonzoso\" desastre de Turquía, eliminada del Mundial: \"Que hagan andando y nadando los 10.000 kilómetros entre San Francisco y Estambul\"",
     "snippet": "El equipo de Arda Güler suma ante Paraguay su segunda derrota y ya no tiene opciones de pasar la fase de grupos. Leer",
-    "time": "4h ago",
+    "time": "5h ago",
     "timestamp": 1781970808,
     "color": "linear-gradient(135deg, #f59e0b, #78350f)",
     "overlay": "⚽",
@@ -389,13 +403,13 @@
     "image": "https://e00-elmundo.uecdn.es/assets/multimedia/imagenes/2026/06/20/17819692535082_990x0.jpg",
     "source": "El Mundo Deportes",
     "lang": "es",
-    "id": 227
+    "id": 228
   },
   {
     "category": "tactics",
     "title": "El 'pentágono' protege a la EE.UU. de Pochettino",
     "snippet": "El dibujo que ha creado en el medio 'recrea' la forma de la sede del Departamento de Defensa",
-    "time": "5h ago",
+    "time": "6h ago",
     "timestamp": 1781967846,
     "color": "linear-gradient(135deg, #f59e0b, #78350f)",
     "overlay": "⚽",
@@ -403,27 +417,13 @@
     "image": "https://e01-xlk-ue-marca.uecdn.es/files/horizontal_image_desktop/uploads/2026/06/19/6a35b38e537c8.jpeg",
     "source": "Marca",
     "lang": "es",
-    "id": 228
-  },
-  {
-    "category": "tactics",
-    "title": "Al Barça empieza a salirle caro el Mundial",
-    "snippet": "Araujo, De Jong, Raphinha... ya han tenido que parar por molestias",
-    "time": "10h ago",
-    "timestamp": 1781948517,
-    "color": "linear-gradient(135deg, #f59e0b, #78350f)",
-    "overlay": "⚽",
-    "link": "https://www.marca.com/futbol/barcelona/2026/06/20/barca-empieza-salirle-caro-mundial.html",
-    "image": "https://e01-xlk-ue-marca.uecdn.es/files/horizontal_image_desktop/uploads/2026/06/20/6a3659213ad53.jpeg",
-    "source": "Marca",
-    "lang": "es",
     "id": 229
   },
   {
     "category": "lineup",
-    "title": "El Mundial més globalitzat divideix famílies, amb germans i pares en equips diferents",
+    "title": "El Mundial que enfronta tres parelles de germans: amics a casa, rivals al camp",
     "snippet": "Quan la selecció del Marroc va aconseguir un brillant i merescut empat contra el Brasil en el debut al Mundial, moltes persones van reaccionar amb una ganyota. Per primer cop va jugar a la fase final d’una Copa del Món un equip on cap dels futbolistes havia nascut al seu país. La plantilla inicial tenia un sol jugador nascut al Marroc, Ounahi. Però amb les substitucions van coincidir 11 jugadors nascuts a l'estranger, dos dels quals a Catalunya, Ismael Saibari i Ayoube Amaimouni. Tots amb arrels al Marroc, en aquest cas. Però nascuts a l'estranger, fills de la diàspora marroquina. El Marroc ja fa anys que va obrir una oficina a Espanya on té treballant un grup de persones que detecten a tot Europa jugadors que siguin fills o nets de marroquins, per tal de reclutar-los, com van intentar fer amb Lamine Yamal sense sort.",
-    "time": "4h ago",
+    "time": "5h ago",
     "timestamp": 1781971236,
     "color": "linear-gradient(135deg, #3b82f6, #1e3a8a)",
     "overlay": "📋",
@@ -437,12 +437,12 @@
     "category": "injury",
     "title": "Raphinha encén totes les alertes al Mundial",
     "snippet": "El Brasil ha recuperat les bones sensacions al Mundial amb una convincent victòria per 3-0 davant Haití, però el triomf ha quedat completament eclipsat per la possible lesió de Raphinha. L’extrem del Futbol Club Barcelona ha hagut de demanar el canvi abans del descans després de notar unes molèsties musculars a la cuixa dreta, una … Continued",
-    "time": "10h ago",
+    "time": "11h ago",
     "timestamp": 1781948803,
     "color": "linear-gradient(135deg, #ef4444, #7f1d1d)",
     "overlay": "🩺",
     "link": "https://monesport.cat/barca/jugadors/raphinha-encen-alertes-mundial-485593/",
-    "image": "https://images.unsplash.com/photo-1579952363873-27f3bade9f55?w=800&auto=format&fit=crop",
+    "image": "https://images.unsplash.com/photo-1518063319789-7217e6706b04?w=800&auto=format&fit=crop",
     "source": "Món Esport",
     "lang": "ca",
     "id": 231
@@ -451,12 +451,12 @@
     "category": "press",
     "title": "Els Estats Units convencen, el Brasil respon i Turquia diu adeu al Mundial",
     "snippet": "La segona jornada dels grups C i D del Mundial 2026 ha començat a aclarir el panorama. Els Estats Units s’han convertit en una de les primeres seleccions a assegurar-se un lloc als setzens de final després de superar Austràlia per 2-0, mentre que el Brasil ha recuperat les bones sensacions golejant Haití (3-0). El … Continued",
-    "time": "11h ago",
+    "time": "12h ago",
     "timestamp": 1781945257,
     "color": "linear-gradient(135deg, #0d9488, #115e59)",
     "overlay": "🎙️",
     "link": "https://monesport.cat/futbol/internacional/estats-units-convencen-brasil-respon-turquia-adeu-485584/",
-    "image": "https://images.unsplash.com/photo-1518063319789-7217e6706b04?w=800&auto=format&fit=crop",
+    "image": "https://images.unsplash.com/photo-1508098682722-e99c43a406b2?w=800&auto=format&fit=crop",
     "source": "Món Esport",
     "lang": "ca",
     "id": 232
@@ -464,8 +464,8 @@
   {
     "category": "injury",
     "title": "Raphinha, altre cop lesionat, té una margarida per desfullar",
-    "snippet": "Raphael Dias Belloli, Raphinha, torna a estar lesionat. En ple debat sobre el seu futur al Barça, l'atacant blaugrana ha caigut en el segon partit que jugava la selecció brasilera al Mundial. Mateix problema, mateix múscul. Al minut 40 del duel contra Haití (3-0), ha notat una punxada a la cuixa dreta i ha hagut de demanar el canvi. Hi ha trencament de fibres a l'isquiotibial i difícilment tornarà a jugar en aquest campionat. És una pèssima notícia per a la canarinha i també per a un futbolista exposat a les bondats dels petrodòlars.",
-    "time": "14h ago",
+    "snippet": "Raphael Dias Belloli, Raphinha, torna a estar lesionat. En ple debat sobre el seu futur immediat al Barça, l'atacant culer ha caigut en el segon partit que jugava la selecció brasilera al Mundial. Mateix problema, mateix múscul. Al minut 40 del duel contra Haití (3-0), ha notat una punxada a la cuixa dreta i ha hagut de demanar el canvi. Hi ha trencament de fibres a l'isquiotibial i difícilment tornarà a jugar en aquest campionat, si bé la Confederació Brasilera de Futbol (CBF) el mantindrà convocat per si el pot recuperar per a les eliminatòries. És una pèssima notícia per a la canarinha i també per a un futbolista exposat a les bondats dels petrodòlars.",
+    "time": "15h ago",
     "timestamp": 1781935222,
     "color": "linear-gradient(135deg, #ef4444, #7f1d1d)",
     "overlay": "🩺",
@@ -479,7 +479,7 @@
     "category": "tactics",
     "title": "Turquia, eliminada en perdre contra Paraguai (0-1)",
     "snippet": "La selecció turca ha estat una de les grans decepcions del mundial 2026, fins al punt que arribarà a la tercera jornada, contra els Estats Units, sense tenir res a fer per evitar l’eliminació. Els...",
-    "time": "14h ago",
+    "time": "16h ago",
     "timestamp": 1781933169,
     "color": "linear-gradient(135deg, #f59e0b, #78350f)",
     "overlay": "⚽",
@@ -493,7 +493,7 @@
     "category": "tactics",
     "title": "Saibari impulsa el Marroc contra Escòcia (1-0)",
     "snippet": "El terrassenc Ismael Saibari continua acaparant protagonisme en el mundial. El davanter va debutar marcant el gol del Marroc contra el Brasil (1-1) i avui ha estat determinant en marcar el gol que ha decidit...",
-    "time": "14h ago",
+    "time": "16h ago",
     "timestamp": 1781932478,
     "color": "linear-gradient(135deg, #f59e0b, #78350f)",
     "overlay": "⚽",
@@ -526,7 +526,7 @@
     "color": "linear-gradient(135deg, #a855f7, #581c87)",
     "overlay": "🔄",
     "link": "https://monesport.cat/madrid/club-madrid/michael-olise-veritable-gran-objectiu-mercat-fitxatges-485551/",
-    "image": "https://images.unsplash.com/photo-1518063319789-7217e6706b04?w=800&auto=format&fit=crop",
+    "image": "https://images.unsplash.com/photo-1508098682722-e99c43a406b2?w=800&auto=format&fit=crop",
     "source": "Món Esport",
     "lang": "ca",
     "id": 237
@@ -540,7 +540,7 @@
     "color": "linear-gradient(135deg, #f59e0b, #78350f)",
     "overlay": "⚽",
     "link": "https://monesport.cat/futbol/internacional/mundial-segona-jornada-golejades-primera-seleccio-classificada-485541/",
-    "image": "https://images.unsplash.com/photo-1508098682722-e99c43a406b2?w=800&auto=format&fit=crop",
+    "image": "https://images.unsplash.com/photo-1543351611-58f69d7c1781?w=800&auto=format&fit=crop",
     "source": "Món Esport",
     "lang": "ca",
     "id": 238

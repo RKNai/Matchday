@@ -3493,13 +3493,19 @@
     "homeFlag": "🇳🇱",
     "away": "Sweden",
     "awayFlag": "🇸🇪",
-    "homeScore": 1,
+    "homeScore": 5,
     "awayScore": 1,
     "status": "finished",
     "minute": 0,
     "date": "Jun 20, 17:00 UTC",
     "location": "Houston Stadium",
     "events": [
+      {
+        "minute": 29,
+        "team": "Netherlands",
+        "type": "goal",
+        "desc": "Veerman ⚽ (Goal!)"
+      },
       {
         "minute": 30,
         "team": "Netherlands",
@@ -3511,6 +3517,24 @@
         "team": "Sweden",
         "type": "goal",
         "desc": "Larsson ⚽ (Goal!)"
+      },
+      {
+        "minute": 58,
+        "team": "Netherlands",
+        "type": "goal",
+        "desc": "Bergwijn ⚽ (Goal!)"
+      },
+      {
+        "minute": 59,
+        "team": "Netherlands",
+        "type": "goal",
+        "desc": "Wijnaldum ⚽ (Goal!)"
+      },
+      {
+        "minute": 88,
+        "team": "Netherlands",
+        "type": "goal",
+        "desc": "Gravenberch ⚽ (Goal!)"
       }
     ],
     "stats": {
@@ -3596,48 +3620,29 @@
     "homeFlag": "🇩🇪",
     "away": "Côte d'Ivoire",
     "awayFlag": "🇨🇮",
-    "homeScore": 2,
-    "awayScore": 1,
+    "homeScore": 0,
+    "awayScore": 0,
     "status": "live",
-    "minute": 5,
+    "minute": 90,
     "date": "Jun 20, 20:00 UTC",
     "location": "Toronto Stadium",
-    "events": [
-      {
-        "minute": 3,
-        "team": "Côte d'Ivoire",
-        "type": "goal",
-        "desc": "Lazare ⚽ (Goal!)"
-      },
-      {
-        "minute": 4,
-        "team": "Germany",
-        "type": "goal",
-        "desc": "Groß ⚽ (Goal!)"
-      },
-      {
-        "minute": 5,
-        "team": "Germany",
-        "type": "goal",
-        "desc": "Henrichs ⚽ (Goal!)"
-      }
-    ],
+    "events": [],
     "stats": {
       "possession": [
-        51,
-        49
+        62,
+        38
       ],
       "shots": [
-        1,
-        0
+        12,
+        8
       ],
       "fouls": [
-        0,
-        0
+        3,
+        5
       ],
       "corners": [
-        0,
-        1
+        8,
+        2
       ]
     },
     "lineups": {
