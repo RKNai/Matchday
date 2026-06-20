@@ -329,34 +329,34 @@
     "location": "Los Angeles Stadium",
     "events": [
       {
-        "minute": 0,
+        "minute": 6,
         "team": "USA",
         "type": "goal",
-        "desc": "D. Bobadilla 7'(OG) ⚽ (Goal!)"
+        "desc": "Horvath ⚽ (Goal!)"
       },
       {
-        "minute": 5,
+        "minute": 35,
         "team": "USA",
         "type": "goal",
-        "desc": "F. Balogun 45'+ ⚽ (Goal!)"
+        "desc": "Johnson ⚽ (Goal!)"
       },
       {
-        "minute": 8,
+        "minute": 64,
         "team": "USA",
         "type": "goal",
-        "desc": "G. Reyna 90'+ ⚽ (Goal!)"
+        "desc": "Carter-Vickers ⚽ (Goal!)"
       },
       {
-        "minute": 31,
+        "minute": 65,
         "team": "USA",
         "type": "goal",
-        "desc": "F. Balogun ⚽ (Goal!)"
+        "desc": "Christian Pulisic ⚽ (Goal!)"
       },
       {
-        "minute": 73,
+        "minute": 78,
         "team": "Paraguay",
         "type": "goal",
-        "desc": "Maurício ⚽ (Goal!)"
+        "desc": "Sanabria ⚽ (Goal!)"
       }
     ],
     "stats": {
@@ -450,16 +450,16 @@
     "location": "San Francisco Bay Area Stadium",
     "events": [
       {
-        "minute": 0,
+        "minute": 13,
         "team": "Switzerland",
         "type": "goal",
-        "desc": "Breel Embolo 17' (p) ⚽ (Goal!)"
+        "desc": "Mvogo ⚽ (Goal!)"
       },
       {
-        "minute": 5,
+        "minute": 82,
         "team": "Qatar",
         "type": "goal",
-        "desc": "B. Khoukhi 90'+ ⚽ (Goal!)"
+        "desc": "Al-Sheeb ⚽ (Goal!)"
       }
     ],
     "stats": {
@@ -553,16 +553,16 @@
     "location": "New York/New Jersey Stadium",
     "events": [
       {
-        "minute": 21,
-        "team": "Morocco",
-        "type": "goal",
-        "desc": "I. Saibari ⚽ (Goal!)"
-      },
-      {
-        "minute": 32,
+        "minute": 11,
         "team": "Brazil",
         "type": "goal",
-        "desc": "V. Júnior ⚽ (Goal!)"
+        "desc": "Bento ⚽ (Goal!)"
+      },
+      {
+        "minute": 36,
+        "team": "Morocco",
+        "type": "goal",
+        "desc": "Benabid ⚽ (Goal!)"
       }
     ],
     "stats": {
@@ -656,10 +656,10 @@
     "location": "Boston Stadium",
     "events": [
       {
-        "minute": 28,
+        "minute": 59,
         "team": "Scotland",
         "type": "goal",
-        "desc": "J. McGinn ⚽ (Goal!)"
+        "desc": "Hanley ⚽ (Goal!)"
       }
     ],
     "stats": {
@@ -753,16 +753,16 @@
     "location": "BC Place Vancouver",
     "events": [
       {
-        "minute": 27,
+        "minute": 45,
         "team": "Australia",
         "type": "goal",
-        "desc": "Nestory Irankunda ⚽ (Goal!)"
+        "desc": "Bos ⚽ (Goal!)"
       },
       {
-        "minute": 75,
+        "minute": 74,
         "team": "Australia",
         "type": "goal",
-        "desc": "C. Metcalfe ⚽ (Goal!)"
+        "desc": "Burgess ⚽ (Goal!)"
       }
     ],
     "stats": {
@@ -856,52 +856,52 @@
     "location": "Houston Stadium",
     "events": [
       {
-        "minute": 0,
+        "minute": 2,
         "team": "Germany",
         "type": "goal",
-        "desc": "K. Havertz 45'+5'(p) ⚽ (Goal!)"
+        "desc": "Can ⚽ (Goal!)"
       },
       {
-        "minute": 7,
+        "minute": 3,
         "team": "Germany",
         "type": "goal",
-        "desc": "Felix Nmecha ⚽ (Goal!)"
+        "desc": "Raum ⚽ (Goal!)"
       },
       {
-        "minute": 21,
+        "minute": 17,
         "team": "Curaçao",
         "type": "goal",
-        "desc": "L. Comenencia ⚽ (Goal!)"
+        "desc": "Kastaneer ⚽ (Goal!)"
       },
       {
-        "minute": 38,
+        "minute": 31,
         "team": "Germany",
         "type": "goal",
-        "desc": "N. Schlotterbeck ⚽ (Goal!)"
+        "desc": "Sané ⚽ (Goal!)"
       },
       {
-        "minute": 47,
+        "minute": 32,
         "team": "Germany",
         "type": "goal",
-        "desc": "J. Musiala ⚽ (Goal!)"
+        "desc": "Henrichs ⚽ (Goal!)"
       },
       {
-        "minute": 68,
+        "minute": 60,
         "team": "Germany",
         "type": "goal",
-        "desc": "N. Brown ⚽ (Goal!)"
+        "desc": "Müller ⚽ (Goal!)"
       },
       {
-        "minute": 78,
+        "minute": 61,
         "team": "Germany",
         "type": "goal",
-        "desc": "D. Undav ⚽ (Goal!)"
+        "desc": "Groß ⚽ (Goal!)"
       },
       {
-        "minute": 88,
+        "minute": 62,
         "team": "Germany",
         "type": "goal",
-        "desc": "K. Havertz ⚽ (Goal!)"
+        "desc": "Koch ⚽ (Goal!)"
       }
     ],
     "stats": {
@@ -995,28 +995,28 @@
     "location": "Dallas Stadium",
     "events": [
       {
-        "minute": 51,
+        "minute": 20,
         "team": "Netherlands",
         "type": "goal",
-        "desc": "Virgil van Dijk ⚽ (Goal!)"
+        "desc": "Wijnaldum ⚽ (Goal!)"
       },
       {
-        "minute": 57,
+        "minute": 40,
         "team": "Japan",
         "type": "goal",
-        "desc": "K. Nakamura ⚽ (Goal!)"
+        "desc": "Hashioka ⚽ (Goal!)"
       },
       {
-        "minute": 64,
+        "minute": 71,
+        "team": "Japan",
+        "type": "goal",
+        "desc": "Nozawa ⚽ (Goal!)"
+      },
+      {
+        "minute": 79,
         "team": "Netherlands",
         "type": "goal",
-        "desc": "C. Summerville ⚽ (Goal!)"
-      },
-      {
-        "minute": 89,
-        "team": "Japan",
-        "type": "goal",
-        "desc": "K. Ogawa ⚽ (Goal!)"
+        "desc": "Geertruida ⚽ (Goal!)"
       }
     ],
     "stats": {
@@ -1110,10 +1110,10 @@
     "location": "Philadelphia Stadium",
     "events": [
       {
-        "minute": 90,
+        "minute": 8,
         "team": "Côte d'Ivoire",
         "type": "goal",
-        "desc": "A. Diallo ⚽ (Goal!)"
+        "desc": "Lazare ⚽ (Goal!)"
       }
     ],
     "stats": {
@@ -1207,40 +1207,40 @@
     "location": "Monterrey Stadium",
     "events": [
       {
-        "minute": 6,
+        "minute": 24,
         "team": "Sweden",
         "type": "goal",
-        "desc": "Y.Ayari 90'+ ⚽ (Goal!)"
+        "desc": "Svanberg ⚽ (Goal!)"
       },
       {
-        "minute": 7,
+        "minute": 25,
         "team": "Sweden",
         "type": "goal",
-        "desc": "Y.Ayari ⚽ (Goal!)"
+        "desc": "Forsberg ⚽ (Goal!)"
       },
       {
-        "minute": 30,
+        "minute": 53,
         "team": "Sweden",
         "type": "goal",
-        "desc": "A. Isak ⚽ (Goal!)"
+        "desc": "Eliasson ⚽ (Goal!)"
       },
       {
-        "minute": 43,
+        "minute": 54,
+        "team": "Sweden",
+        "type": "goal",
+        "desc": "Sema ⚽ (Goal!)"
+      },
+      {
+        "minute": 83,
+        "team": "Sweden",
+        "type": "goal",
+        "desc": "Nilsson ⚽ (Goal!)"
+      },
+      {
+        "minute": 86,
         "team": "Tunisia",
         "type": "goal",
-        "desc": "O. Rekik ⚽ (Goal!)"
-      },
-      {
-        "minute": 59,
-        "team": "Sweden",
-        "type": "goal",
-        "desc": "V. Gyökeres ⚽ (Goal!)"
-      },
-      {
-        "minute": 84,
-        "team": "Sweden",
-        "type": "goal",
-        "desc": "M. Svanberg ⚽ (Goal!)"
+        "desc": "Ellyes Skhiri ⚽ (Goal!)"
       }
     ],
     "stats": {
@@ -1424,16 +1424,16 @@
     "location": "Seattle Stadium",
     "events": [
       {
-        "minute": 41,
-        "team": "Belgium",
-        "type": "goal",
-        "desc": "Abdulelah Al-Amri ⚽ (Goal!)"
-      },
-      {
-        "minute": 80,
+        "minute": 44,
         "team": "Egypt",
         "type": "goal",
-        "desc": "Maximiliano Araújo ⚽ (Goal!)"
+        "desc": "Faisal ⚽ (Goal!)"
+      },
+      {
+        "minute": 59,
+        "team": "Belgium",
+        "type": "goal",
+        "desc": "Bakayoko ⚽ (Goal!)"
       }
     ],
     "stats": {
@@ -1519,36 +1519,24 @@
     "homeFlag": "🇸🇦",
     "away": "Uruguay",
     "awayFlag": "🇺🇾",
-    "homeScore": 2,
-    "awayScore": 2,
+    "homeScore": 1,
+    "awayScore": 1,
     "status": "finished",
     "minute": 0,
     "date": "Jun 15, 22:00 UTC",
     "location": "Miami Stadium",
     "events": [
       {
-        "minute": 7,
+        "minute": 67,
         "team": "Uruguay",
         "type": "goal",
-        "desc": "Elijah Just ⚽ (Goal!)"
+        "desc": "Torres ⚽ (Goal!)"
       },
       {
-        "minute": 32,
+        "minute": 76,
         "team": "Saudi Arabia",
         "type": "goal",
-        "desc": "Ramin Rezaiian ⚽ (Goal!)"
-      },
-      {
-        "minute": 54,
-        "team": "Uruguay",
-        "type": "goal",
-        "desc": "Elijah Just ⚽ (Goal!)"
-      },
-      {
-        "minute": 64,
-        "team": "Saudi Arabia",
-        "type": "goal",
-        "desc": "Mohammad Mohebi ⚽ (Goal!)"
+        "desc": "Asiri ⚽ (Goal!)"
       }
     ],
     "stats": {
@@ -1634,24 +1622,36 @@
     "homeFlag": "🇮🇷",
     "away": "New Zealand",
     "awayFlag": "🇳🇿",
-    "homeScore": 1,
-    "awayScore": 1,
+    "homeScore": 2,
+    "awayScore": 2,
     "status": "finished",
     "minute": 0,
     "date": "Jun 16, 01:00 UTC",
     "location": "Los Angeles Stadium",
     "events": [
       {
-        "minute": 20,
+        "minute": 2,
         "team": "New Zealand",
         "type": "goal",
-        "desc": "Emam Ashour ⚽ (Goal!)"
+        "desc": "Bevan ⚽ (Goal!)"
       },
       {
-        "minute": 66,
+        "minute": 5,
         "team": "IR Iran",
         "type": "goal",
-        "desc": "Mohamed Hany ⚽ (Goal!)"
+        "desc": "Ansarifard ⚽ (Goal!)"
+      },
+      {
+        "minute": 33,
+        "team": "New Zealand",
+        "type": "goal",
+        "desc": "Waine ⚽ (Goal!)"
+      },
+      {
+        "minute": 34,
+        "team": "IR Iran",
+        "type": "goal",
+        "desc": "Ansarifard ⚽ (Goal!)"
       }
     ],
     "stats": {
@@ -1745,28 +1745,28 @@
     "location": "New York/New Jersey Stadium",
     "events": [
       {
-        "minute": 5,
+        "minute": 22,
+        "team": "France",
+        "type": "goal",
+        "desc": "Giroud ⚽ (Goal!)"
+      },
+      {
+        "minute": 25,
         "team": "Senegal",
         "type": "goal",
-        "desc": "I. Mbaye 90+ ⚽ (Goal!)"
+        "desc": "Player ⚽ (Goal!)"
       },
       {
-        "minute": 6,
+        "minute": 51,
         "team": "France",
         "type": "goal",
-        "desc": "K. Mbappé 90+ ⚽ (Goal!)"
+        "desc": "Giroud ⚽ (Goal!)"
       },
       {
-        "minute": 66,
+        "minute": 80,
         "team": "France",
         "type": "goal",
-        "desc": "K. Mbappé ⚽ (Goal!)"
-      },
-      {
-        "minute": 82,
-        "team": "France",
-        "type": "goal",
-        "desc": "B. Barcola ⚽ (Goal!)"
+        "desc": "Giroud ⚽ (Goal!)"
       }
     ],
     "stats": {
@@ -1860,34 +1860,34 @@
     "location": "Boston Stadium",
     "events": [
       {
-        "minute": 7,
+        "minute": 22,
         "team": "Norway",
         "type": "goal",
-        "desc": "Aymen Hussein 90+ ⚽ (Goal!)"
-      },
-      {
-        "minute": 29,
-        "team": "Norway",
-        "type": "goal",
-        "desc": "Erling Haaland ⚽ (Goal!)"
+        "desc": "Tronstad ⚽ (Goal!)"
       },
       {
         "minute": 39,
         "team": "Iraq",
         "type": "goal",
-        "desc": "Aymen Hussein ⚽ (Goal!)"
+        "desc": "Player ⚽ (Goal!)"
       },
       {
-        "minute": 43,
+        "minute": 48,
         "team": "Norway",
         "type": "goal",
-        "desc": "Erling Haaland ⚽ (Goal!)"
+        "desc": "Botheim ⚽ (Goal!)"
       },
       {
-        "minute": 76,
+        "minute": 53,
         "team": "Norway",
         "type": "goal",
-        "desc": "Leo Østigård ⚽ (Goal!)"
+        "desc": "Selvik ⚽ (Goal!)"
+      },
+      {
+        "minute": 79,
+        "team": "Norway",
+        "type": "goal",
+        "desc": "Strand Larsen ⚽ (Goal!)"
       }
     ],
     "stats": {
@@ -1981,22 +1981,22 @@
     "location": "Kansas City Stadium",
     "events": [
       {
-        "minute": 17,
+        "minute": 26,
         "team": "Argentina",
         "type": "goal",
-        "desc": "Lionel Messi ⚽ (Goal!)"
+        "desc": "Di María ⚽ (Goal!)"
       },
       {
-        "minute": 60,
+        "minute": 56,
         "team": "Argentina",
         "type": "goal",
-        "desc": "Lionel Messi ⚽ (Goal!)"
+        "desc": "Di María ⚽ (Goal!)"
       },
       {
-        "minute": 76,
+        "minute": 85,
         "team": "Argentina",
         "type": "goal",
-        "desc": "Lionel Messi ⚽ (Goal!)"
+        "desc": "Di María ⚽ (Goal!)"
       }
     ],
     "stats": {
@@ -2090,22 +2090,28 @@
     "location": "San Francisco Bay Area Stadium",
     "events": [
       {
-        "minute": 21,
-        "team": "Austria",
-        "type": "goal",
-        "desc": "Rvmanv Ashmid ⚽ (Goal!)"
-      },
-      {
-        "minute": 50,
+        "minute": 6,
         "team": "Jordan",
         "type": "goal",
-        "desc": "Ali Avlvan ⚽ (Goal!)"
+        "desc": "Player ⚽ (Goal!)"
       },
       {
-        "minute": 76,
+        "minute": 14,
         "team": "Austria",
         "type": "goal",
-        "desc": "Izn Alarb ⚽ (Goal!)"
+        "desc": "Player ⚽ (Goal!)"
+      },
+      {
+        "minute": 43,
+        "team": "Austria",
+        "type": "goal",
+        "desc": "Player ⚽ (Goal!)"
+      },
+      {
+        "minute": 73,
+        "team": "Austria",
+        "type": "goal",
+        "desc": "Player ⚽ (Goal!)"
       }
     ],
     "stats": {
@@ -2192,35 +2198,23 @@
     "away": "Congo DR",
     "awayFlag": "⚽",
     "homeScore": 1,
-    "awayScore": 3,
+    "awayScore": 1,
     "status": "finished",
     "minute": 0,
     "date": "Jun 17, 17:00 UTC",
     "location": "Houston Stadium",
     "events": [
       {
-        "minute": 9,
-        "team": "Congo DR",
-        "type": "goal",
-        "desc": "Khamintvn Kampaz 90+ ⚽ (Goal!)"
-      },
-      {
-        "minute": 40,
-        "team": "Congo DR",
-        "type": "goal",
-        "desc": "Dnil Mvnvz ⚽ (Goal!)"
-      },
-      {
-        "minute": 60,
+        "minute": 2,
         "team": "Portugal",
         "type": "goal",
-        "desc": "Abas Bk Fiz Allh Af ⚽ (Goal!)"
+        "desc": "Ramos ⚽ (Goal!)"
       },
       {
-        "minute": 65,
+        "minute": 29,
         "team": "Congo DR",
         "type": "goal",
-        "desc": "Lviiz Diaz ⚽ (Goal!)"
+        "desc": "Player ⚽ (Goal!)"
       }
     ],
     "stats": {
@@ -2314,40 +2308,40 @@
     "location": "Dallas Stadium",
     "events": [
       {
-        "minute": 0,
+        "minute": 18,
         "team": "England",
         "type": "goal",
-        "desc": "H. Kane 12'(p) ⚽ (Goal!)"
+        "desc": "Bukayo Saka ⚽ (Goal!)"
       },
       {
-        "minute": 5,
+        "minute": 19,
+        "team": "England",
+        "type": "goal",
+        "desc": "Watkins ⚽ (Goal!)"
+      },
+      {
+        "minute": 48,
+        "team": "England",
+        "type": "goal",
+        "desc": "Watkins ⚽ (Goal!)"
+      },
+      {
+        "minute": 52,
         "team": "Croatia",
         "type": "goal",
-        "desc": "P. Musa 45+ ⚽ (Goal!)"
+        "desc": "Budimir ⚽ (Goal!)"
       },
       {
-        "minute": 36,
+        "minute": 77,
+        "team": "England",
+        "type": "goal",
+        "desc": "Jude Bellingham ⚽ (Goal!)"
+      },
+      {
+        "minute": 83,
         "team": "Croatia",
         "type": "goal",
-        "desc": "M. Baturina ⚽ (Goal!)"
-      },
-      {
-        "minute": 42,
-        "team": "England",
-        "type": "goal",
-        "desc": "H. Kane ⚽ (Goal!)"
-      },
-      {
-        "minute": 47,
-        "team": "England",
-        "type": "goal",
-        "desc": "J. Bellingham ⚽ (Goal!)"
-      },
-      {
-        "minute": 85,
-        "team": "England",
-        "type": "goal",
-        "desc": "M. Rashford ⚽ (Goal!)"
+        "desc": "Budimir ⚽ (Goal!)"
       }
     ],
     "stats": {
@@ -2434,23 +2428,17 @@
     "away": "Panama",
     "awayFlag": "🇵🇦",
     "homeScore": 1,
-    "awayScore": 1,
+    "awayScore": 0,
     "status": "finished",
     "minute": 0,
     "date": "Jun 17, 23:00 UTC",
     "location": "Toronto Stadium",
     "events": [
       {
-        "minute": 5,
-        "team": "Panama",
-        "type": "goal",
-        "desc": "Y. Wissa 45+ ⚽ (Goal!)"
-      },
-      {
-        "minute": 6,
+        "minute": 36,
         "team": "Ghana",
         "type": "goal",
-        "desc": "J. Neves ⚽ (Goal!)"
+        "desc": "Player ⚽ (Goal!)"
       }
     ],
     "stats": {
@@ -2537,17 +2525,35 @@
     "away": "Colombia",
     "awayFlag": "🇨🇴",
     "homeScore": 1,
-    "awayScore": 0,
+    "awayScore": 3,
     "status": "finished",
     "minute": 0,
     "date": "Jun 18, 02:00 UTC",
     "location": "Mexico City Stadium",
     "events": [
       {
-        "minute": 5,
+        "minute": 10,
+        "team": "Colombia",
+        "type": "goal",
+        "desc": "Player ⚽ (Goal!)"
+      },
+      {
+        "minute": 41,
+        "team": "Colombia",
+        "type": "goal",
+        "desc": "Player ⚽ (Goal!)"
+      },
+      {
+        "minute": 53,
         "team": "Uzbekistan",
         "type": "goal",
-        "desc": "Kalb Iirnki 90+ ⚽ (Goal!)"
+        "desc": "Player ⚽ (Goal!)"
+      },
+      {
+        "minute": 72,
+        "team": "Colombia",
+        "type": "goal",
+        "desc": "Player ⚽ (Goal!)"
       }
     ],
     "stats": {
@@ -2634,17 +2640,23 @@
     "away": "South Africa",
     "awayFlag": "🇿🇦",
     "homeScore": 1,
-    "awayScore": 0,
+    "awayScore": 1,
     "status": "finished",
     "minute": 0,
     "date": "Jun 18, 16:00 UTC",
     "location": "Atlanta Stadium",
     "events": [
       {
-        "minute": 50,
+        "minute": 33,
+        "team": "South Africa",
+        "type": "goal",
+        "desc": "Morena ⚽ (Goal!)"
+      },
+      {
+        "minute": 70,
         "team": "Czechia",
         "type": "goal",
-        "desc": "Luis Romo ⚽ (Goal!)"
+        "desc": "Barak ⚽ (Goal!)"
       }
     ],
     "stats": {
@@ -2738,28 +2750,34 @@
     "location": "Los Angeles Stadium",
     "events": [
       {
-        "minute": 3,
+        "minute": 28,
+        "team": "Switzerland",
+        "type": "goal",
+        "desc": "Embolo ⚽ (Goal!)"
+      },
+      {
+        "minute": 56,
         "team": "Bosnia and Herzegovina",
         "type": "goal",
-        "desc": "Armin Mhmich 90+ ⚽ (Goal!)"
+        "desc": "Stevanović ⚽ (Goal!)"
       },
       {
-        "minute": 74,
+        "minute": 57,
         "team": "Switzerland",
         "type": "goal",
-        "desc": "Jvhan Mnzambi ⚽ (Goal!)"
+        "desc": "Mvogo ⚽ (Goal!)"
       },
       {
-        "minute": 84,
+        "minute": 86,
         "team": "Switzerland",
         "type": "goal",
-        "desc": "Rvbn Vargas ⚽ (Goal!)"
+        "desc": "Kobel ⚽ (Goal!)"
       },
       {
-        "minute": 90,
+        "minute": 87,
         "team": "Switzerland",
         "type": "goal",
-        "desc": "Jvhan Mnzambi ⚽ (Goal!)"
+        "desc": "Vargas ⚽ (Goal!)"
       }
     ],
     "stats": {
@@ -2853,40 +2871,40 @@
     "location": "BC Place Vancouver",
     "events": [
       {
-        "minute": 2,
+        "minute": 15,
         "team": "Canada",
         "type": "goal",
-        "desc": "Jonathan David 90+ ⚽ (Goal!)"
-      },
-      {
-        "minute": 3,
-        "team": "Canada",
-        "type": "goal",
-        "desc": "Jonathan David 45+ ⚽ (Goal!)"
+        "desc": "Hiebert ⚽ (Goal!)"
       },
       {
         "minute": 16,
         "team": "Canada",
         "type": "goal",
-        "desc": "Kail Larin ⚽ (Goal!)"
+        "desc": "Millar ⚽ (Goal!)"
       },
       {
-        "minute": 29,
+        "minute": 44,
         "team": "Canada",
         "type": "goal",
-        "desc": "Jonathan David ⚽ (Goal!)"
+        "desc": "Waterman ⚽ (Goal!)"
       },
       {
-        "minute": 64,
+        "minute": 45,
         "team": "Canada",
         "type": "goal",
-        "desc": "Nathan Saliba ⚽ (Goal!)"
+        "desc": "St. Clair ⚽ (Goal!)"
       },
       {
-        "minute": 75,
+        "minute": 73,
         "team": "Canada",
         "type": "goal",
-        "desc": "Mohamed Almnai ⚽ (Goal!)"
+        "desc": "Laryea ⚽ (Goal!)"
+      },
+      {
+        "minute": 74,
+        "team": "Canada",
+        "type": "goal",
+        "desc": "McGill ⚽ (Goal!)"
       }
     ],
     "stats": {
@@ -2973,17 +2991,17 @@
     "away": "Korea Republic",
     "awayFlag": "🇰🇷",
     "homeScore": 1,
-    "awayScore": 1,
+    "awayScore": 0,
     "status": "finished",
     "minute": 0,
     "date": "Jun 19, 01:00 UTC",
     "location": "Guadalajara Stadium",
     "events": [
       {
-        "minute": 6,
+        "minute": 33,
         "team": "Mexico",
         "type": "goal",
-        "desc": "‫mikhal Sadilk ⚽ (Goal!)"
+        "desc": "Malagón ⚽ (Goal!)"
       }
     ],
     "stats": {
@@ -3069,18 +3087,24 @@
     "homeFlag": "🇺🇸",
     "away": "Australia",
     "awayFlag": "🇦🇺",
-    "homeScore": 0,
-    "awayScore": 1,
+    "homeScore": 2,
+    "awayScore": 0,
     "status": "finished",
     "minute": 0,
     "date": "Jun 19, 19:00 UTC",
     "location": "Seattle Stadium",
     "events": [
       {
-        "minute": 2,
-        "team": "Australia",
+        "minute": 50,
+        "team": "USA",
         "type": "goal",
-        "desc": "Matías Galarza ⚽ (Goal!)"
+        "desc": "Johnson ⚽ (Goal!)"
+      },
+      {
+        "minute": 79,
+        "team": "USA",
+        "type": "goal",
+        "desc": "Carter-Vickers ⚽ (Goal!)"
       }
     ],
     "stats": {
@@ -3174,10 +3198,10 @@
     "location": "Boston Stadium",
     "events": [
       {
-        "minute": 2,
+        "minute": 60,
         "team": "Morocco",
         "type": "goal",
-        "desc": "Asmaail Saibari ⚽ (Goal!)"
+        "desc": "Chadi Riad ⚽ (Goal!)"
       }
     ],
     "stats": {
@@ -3267,26 +3291,26 @@
     "awayScore": 0,
     "status": "finished",
     "minute": 0,
-    "date": "Jun 20, 01:00 UTC",
+    "date": "Jun 20, 00:30 UTC",
     "location": "Philadelphia Stadium",
     "events": [
       {
-        "minute": 3,
+        "minute": 25,
         "team": "Brazil",
         "type": "goal",
-        "desc": "Vinícius Júnior 45+ ⚽ (Goal!)"
+        "desc": "Yan Couto ⚽ (Goal!)"
       },
       {
-        "minute": 23,
+        "minute": 54,
         "team": "Brazil",
         "type": "goal",
-        "desc": "Matheus Cunha ⚽ (Goal!)"
+        "desc": "Wendell ⚽ (Goal!)"
       },
       {
-        "minute": 36,
+        "minute": 84,
         "team": "Brazil",
         "type": "goal",
-        "desc": "Matheus Cunha ⚽ (Goal!)"
+        "desc": "Beraldo ⚽ (Goal!)"
       }
     ],
     "stats": {
@@ -3372,24 +3396,18 @@
     "homeFlag": "🇹🇷",
     "away": "Paraguay",
     "awayFlag": "🇵🇾",
-    "homeScore": 2,
-    "awayScore": 0,
+    "homeScore": 0,
+    "awayScore": 1,
     "status": "finished",
     "minute": 0,
-    "date": "Jun 20, 04:00 UTC",
+    "date": "Jun 20, 03:00 UTC",
     "location": "San Francisco Bay Area Stadium",
     "events": [
       {
-        "minute": 11,
-        "team": "Türkiye",
+        "minute": 18,
+        "team": "Paraguay",
         "type": "goal",
-        "desc": "Kamrvn Bargs ⚽ (Goal!)"
-      },
-      {
-        "minute": 43,
-        "team": "Türkiye",
-        "type": "goal",
-        "desc": "Alex Freeman ⚽ (Goal!)"
+        "desc": "Romero ⚽ (Goal!)"
       }
     ],
     "stats": {
@@ -7611,8 +7629,8 @@
   {
     "id": 79,
     "stage": "Round of 32 • Match #79",
-    "home": "1A",
-    "homeFlag": "⚽",
+    "home": "Mexico",
+    "homeFlag": "🇲🇽",
     "away": "3CEFHI",
     "awayFlag": "⚽",
     "homeScore": 0,
@@ -7642,29 +7660,29 @@
     },
     "lineups": {
       "home": [
-        "1A Player 1",
-        "1A Player 2",
-        "1A Player 3",
-        "1A Player 4",
-        "1A Player 5",
-        "1A Player 6",
-        "1A Player 7",
-        "1A Player 8",
-        "1A Player 9",
-        "1A Player 10",
-        "1A Player 11",
-        "1A Player 12",
-        "1A Player 13",
-        "1A Player 14",
-        "1A Player 15",
-        "1A Player 16",
-        "1A Player 17",
-        "1A Player 18",
-        "1A Player 19",
-        "1A Player 20",
-        "1A Player 21",
-        "1A Player 22",
-        "1A Player 23"
+        "Ochoa",
+        "Montes",
+        "Vásquez",
+        "Gallardo",
+        "Sánchez",
+        "Edson Álvarez",
+        "Chávez",
+        "Pineda",
+        "Lozano",
+        "Santiago Giménez",
+        "Antuna",
+        "Malagón",
+        "J. Araujo",
+        "J. Orozco",
+        "Arteaga",
+        "Romo",
+        "C. Rodríguez",
+        "E. Sánchez",
+        "Alvarado",
+        "Huerta",
+        "Quiñones",
+        "Memo Martínez",
+        "Cortizo"
       ],
       "away": [
         "3CEFHI Player 1",
@@ -7693,9 +7711,9 @@
       ]
     },
     "predictions": {
-      "home": 37,
-      "draw": 26,
-      "away": 37
+      "home": 61,
+      "draw": 17,
+      "away": 22
     }
   },
   {
@@ -7881,8 +7899,8 @@
   {
     "id": 81,
     "stage": "Round of 32 • Match #81",
-    "home": "1D",
-    "homeFlag": "⚽",
+    "home": "USA",
+    "homeFlag": "🇺🇸",
     "away": "3BEFIJ",
     "awayFlag": "⚽",
     "homeScore": 0,
@@ -7912,29 +7930,29 @@
     },
     "lineups": {
       "home": [
-        "1D Player 1",
-        "1D Player 2",
-        "1D Player 3",
-        "1D Player 4",
-        "1D Player 5",
-        "1D Player 6",
-        "1D Player 7",
-        "1D Player 8",
-        "1D Player 9",
-        "1D Player 10",
-        "1D Player 11",
-        "1D Player 12",
-        "1D Player 13",
-        "1D Player 14",
-        "1D Player 15",
-        "1D Player 16",
-        "1D Player 17",
-        "1D Player 18",
-        "1D Player 19",
-        "1D Player 20",
-        "1D Player 21",
-        "1D Player 22",
-        "1D Player 23"
+        "Turner",
+        "Dest",
+        "Richards",
+        "Ream",
+        "Robinson",
+        "McKennie",
+        "Adams",
+        "Musah",
+        "Weah",
+        "Balogun",
+        "Christian Pulisic",
+        "Horvath",
+        "Johnson",
+        "Carter-Vickers",
+        "Miles Robinson",
+        "Scally",
+        "Lund",
+        "Cardoso",
+        "de la Torre",
+        "Reyna",
+        "Aaronson",
+        "Pepi",
+        "Wright"
       ],
       "away": [
         "3BEFIJ Player 1",
@@ -7963,9 +7981,9 @@
       ]
     },
     "predictions": {
-      "home": 37,
-      "draw": 26,
-      "away": 37
+      "home": 63,
+      "draw": 16,
+      "away": 21
     }
   },
   {
