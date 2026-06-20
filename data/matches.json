@@ -3494,26 +3494,20 @@
     "away": "Sweden",
     "awayFlag": "🇸🇪",
     "homeScore": 1,
-    "awayScore": 2,
-    "status": "live",
-    "minute": 83,
+    "awayScore": 1,
+    "status": "finished",
+    "minute": 0,
     "date": "Jun 20, 17:00 UTC",
     "location": "Houston Stadium",
     "events": [
       {
-        "minute": 29,
-        "team": "Sweden",
-        "type": "goal",
-        "desc": "Nordfeldt ⚽ (Goal!)"
-      },
-      {
-        "minute": 60,
+        "minute": 30,
         "team": "Netherlands",
         "type": "goal",
         "desc": "Geertruida ⚽ (Goal!)"
       },
       {
-        "minute": 81,
+        "minute": 41,
         "team": "Sweden",
         "type": "goal",
         "desc": "Larsson ⚽ (Goal!)"
@@ -3521,20 +3515,20 @@
     ],
     "stats": {
       "possession": [
-        57,
-        43
+        51,
+        49
       ],
       "shots": [
+        10,
+        16
+      ],
+      "fouls": [
         9,
         12
       ],
-      "fouls": [
-        5,
-        6
-      ],
       "corners": [
-        1,
-        3
+        2,
+        5
       ]
     },
     "lineups": {
@@ -3602,20 +3596,39 @@
     "homeFlag": "🇩🇪",
     "away": "Côte d'Ivoire",
     "awayFlag": "🇨🇮",
-    "homeScore": 0,
-    "awayScore": 0,
-    "status": "upcoming",
-    "minute": 0,
+    "homeScore": 2,
+    "awayScore": 1,
+    "status": "live",
+    "minute": 5,
     "date": "Jun 20, 20:00 UTC",
     "location": "Toronto Stadium",
-    "events": [],
+    "events": [
+      {
+        "minute": 3,
+        "team": "Côte d'Ivoire",
+        "type": "goal",
+        "desc": "Lazare ⚽ (Goal!)"
+      },
+      {
+        "minute": 4,
+        "team": "Germany",
+        "type": "goal",
+        "desc": "Groß ⚽ (Goal!)"
+      },
+      {
+        "minute": 5,
+        "team": "Germany",
+        "type": "goal",
+        "desc": "Henrichs ⚽ (Goal!)"
+      }
+    ],
     "stats": {
       "possession": [
-        50,
-        50
+        51,
+        49
       ],
       "shots": [
-        0,
+        1,
         0
       ],
       "fouls": [
@@ -3624,7 +3637,7 @@
       ],
       "corners": [
         0,
-        0
+        1
       ]
     },
     "lineups": {
