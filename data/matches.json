@@ -3802,9 +3802,9 @@
     "away": "Japan",
     "awayFlag": "🇯🇵",
     "homeScore": 0,
-    "awayScore": 2,
-    "status": "live",
-    "minute": 82,
+    "awayScore": 4,
+    "status": "finished",
+    "minute": 0,
     "date": "Jun 21, 04:00 UTC",
     "location": "Monterrey Stadium",
     "events": [
@@ -3819,24 +3819,36 @@
         "team": "Japan",
         "type": "goal",
         "desc": "Aiash Ivida ⚽ (Goal!)"
+      },
+      {
+        "minute": 69,
+        "team": "Japan",
+        "type": "goal",
+        "desc": "Junya Itō ⚽ (Goal!)"
+      },
+      {
+        "minute": 83,
+        "team": "Japan",
+        "type": "goal",
+        "desc": "Aiash Ivida ⚽ (Goal!)"
       }
     ],
     "stats": {
       "possession": [
-        37,
-        63
+        38,
+        62
       ],
       "shots": [
         2,
-        6
+        11
       ],
       "fouls": [
-        7,
-        10
+        8,
+        15
       ],
       "corners": [
-        1,
-        3
+        3,
+        5
       ]
     },
     "lineups": {
@@ -7320,8 +7332,8 @@
   {
     "id": 74,
     "stage": "Round of 32 • Match #74",
-    "home": "1E",
-    "homeFlag": "⚽",
+    "home": "Germany",
+    "homeFlag": "🇩🇪",
     "away": "3ABCDF",
     "awayFlag": "⚽",
     "homeScore": 0,
@@ -7351,29 +7363,29 @@
     },
     "lineups": {
       "home": [
-        "1E Player 1",
-        "1E Player 2",
-        "1E Player 3",
-        "1E Player 4",
-        "1E Player 5",
-        "1E Player 6",
-        "1E Player 7",
-        "1E Player 8",
-        "1E Player 9",
-        "1E Player 10",
-        "1E Player 11",
-        "1E Player 12",
-        "1E Player 13",
-        "1E Player 14",
-        "1E Player 15",
-        "1E Player 16",
-        "1E Player 17",
-        "1E Player 18",
-        "1E Player 19",
-        "1E Player 20",
-        "1E Player 21",
-        "1E Player 22",
-        "1E Player 23"
+        "Ter Stegen",
+        "Kimmich",
+        "Rüdiger",
+        "Tah",
+        "Mittelstädt",
+        "Andrich",
+        "Kroos",
+        "Jamal Musiala",
+        "Gündogan",
+        "Florian Wirtz",
+        "Havertz",
+        "Baumann",
+        "Neuer",
+        "Schlotterbeck",
+        "Anton",
+        "Koch",
+        "Raum",
+        "Henrichs",
+        "Groß",
+        "Can",
+        "Sané",
+        "Müller",
+        "Füllkrug"
       ],
       "away": [
         "3ABCDF Player 1",
@@ -7402,9 +7414,9 @@
       ]
     },
     "predictions": {
-      "home": 37,
-      "draw": 26,
-      "away": 37
+      "home": 63,
+      "draw": 16,
+      "away": 21
     }
   },
   {

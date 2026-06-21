@@ -1,9 +1,37 @@
 [
   {
     "category": "tactics",
+    "title": "Japan run riot as Tunisia eliminated in Renard's first game",
+    "snippet": "Ayase Ueda scores twice to help Japan to a thumping 4-0 win, as Herve Renard's first game in charge of Tunisia ends with his side being eliminated from the 2026 World Cup.",
+    "time": "2h ago",
+    "timestamp": 1782023115,
+    "color": "linear-gradient(135deg, #f59e0b, #78350f)",
+    "overlay": "⚽",
+    "link": "https://www.bbc.com/sport/football/videos/cx260v333plo?at_medium=RSS&at_campaign=rss",
+    "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/547c/live/34d20aa0-6d39-11f1-8546-8f19e4fe30f4.jpg",
+    "source": "BBC Sport",
+    "lang": "en",
+    "id": 200
+  },
+  {
+    "category": "tactics",
+    "title": "Who am I? Guess World Cup star No 14",
+    "snippet": "Will you get today's player in as few attempts as possible?",
+    "time": "2h ago",
+    "timestamp": 1782022361,
+    "color": "linear-gradient(135deg, #f59e0b, #78350f)",
+    "overlay": "⚽",
+    "link": "https://www.bbc.com/sport/football/articles/c3e2wj9ppy4o?at_medium=RSS&at_campaign=rss",
+    "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/95af/live/abb60bd0-64ec-11f1-8546-8f19e4fe30f4.jpg",
+    "source": "BBC Sport",
+    "lang": "en",
+    "id": 201
+  },
+  {
+    "category": "tactics",
     "title": "Goalline technology denies Japan goal by fractions",
     "snippet": "Tunisia goalkeeper Aymen Dahmen makes an \"unbelievable save\" to prevent Japan from doubling their lead by the finest of margins, in their 2026 World Cup match at Estadio Monterrey.",
-    "time": "20m ago",
+    "time": "4h ago",
     "timestamp": 1782018104,
     "color": "linear-gradient(135deg, #f59e0b, #78350f)",
     "overlay": "⚽",
@@ -11,13 +39,13 @@
     "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/18a4/live/58788cc0-6d2c-11f1-8546-8f19e4fe30f4.jpg",
     "source": "BBC Sport",
     "lang": "en",
-    "id": 200
+    "id": 202
   },
   {
     "category": "tactics",
     "title": "Meet the record-equalling keeper who helped Curacao make history",
-    "snippet": "Curacao keeper Eloy Room makes a record-equalling 15 saves to help his tiny island nation to a first World Cup point with their goalless draw against Ecuador.",
-    "time": "53m ago",
+    "snippet": "Curacao's Eloy Room makes a record-equalling 15 saves to help his tiny island nation to a first World Cup point against Ecuador.",
+    "time": "4h ago",
     "timestamp": 1782016168,
     "color": "linear-gradient(135deg, #f59e0b, #78350f)",
     "overlay": "⚽",
@@ -25,13 +53,13 @@
     "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/6da1/live/cc8be0e0-6d26-11f1-8546-8f19e4fe30f4.jpg",
     "source": "BBC Sport",
     "lang": "en",
-    "id": 201
+    "id": 203
   },
   {
     "category": "tactics",
     "title": "Impenetrable Room inspires Curacao to first World Cup point",
     "snippet": "Curacao goalkeeper Eloy Room equals the record for most saves in a World Cup match, as Dick Advocaat's side earn their first ever point in the tournament with a 0-0 draw against Ecuador at the Kansas City Stadium.",
-    "time": "2h ago",
+    "time": "5h ago",
     "timestamp": 1782011681,
     "color": "linear-gradient(135deg, #f59e0b, #78350f)",
     "overlay": "⚽",
@@ -39,13 +67,13 @@
     "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/989e/live/515dc050-6d17-11f1-8e1d-bbbb1017d210.jpg",
     "source": "BBC Sport",
     "lang": "en",
-    "id": 202
+    "id": 204
   },
   {
     "category": "tactics",
-    "title": "Curacao earn first point as incredible Room makes history in Ecuador draw",
+    "title": "History makers! Curacao earn first point, keeper records most saves at WC",
     "snippet": "Curacao goalkeeper Eloy Room made history with an incredible 15 saves to earn his country their first ever World Cup point by holding Ecuador to a 0-0 draw in Group E.",
-    "time": "2h ago",
+    "time": "6h ago",
     "timestamp": 1782010800,
     "color": "linear-gradient(135deg, #f59e0b, #78350f)",
     "overlay": "⚽",
@@ -53,13 +81,13 @@
     "image": "https://e2.365dm.com/26/06/1920x1080/skysports-curacao-eloy-room_7278972.jpg?20260621023705",
     "source": "Sky Sports",
     "lang": "en",
-    "id": 203
+    "id": 205
   },
   {
     "category": "tactics",
     "title": "Rice feels like he will get an assist at every corner",
     "snippet": "Declan Rice feels like he will get an assist \"every time\" he takes a corner - and says England fans should be \"excited\" for what is to come at the World Cup.",
-    "time": "4h ago",
+    "time": "8h ago",
     "timestamp": 1782003834,
     "color": "linear-gradient(135deg, #f59e0b, #78350f)",
     "overlay": "⚽",
@@ -67,13 +95,13 @@
     "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/03c7/live/60a03720-6d06-11f1-b622-5db122690c78.jpg",
     "source": "BBC Sport",
     "lang": "en",
-    "id": 204
+    "id": 206
   },
   {
     "category": "press",
     "title": "From factory floor to World Cup star - Germany's super-sub Undav",
     "snippet": "It was not long ago that his manager Julian Nagelsmann called him out openly - but Deniz Undav is proving himself a key player for Germany at the World Cup.",
-    "time": "5h ago",
+    "time": "8h ago",
     "timestamp": 1782001327,
     "color": "linear-gradient(135deg, #0d9488, #115e59)",
     "overlay": "🎙️",
@@ -81,13 +109,13 @@
     "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/eca3/live/4db43390-6d07-11f1-8546-8f19e4fe30f4.jpg",
     "source": "BBC Sport",
     "lang": "en",
-    "id": 205
+    "id": 207
   },
   {
     "category": "tactics",
     "title": "Fastest World Cup to 100 goals in 68 years - are balls and breaks behind it?",
     "snippet": "The 2026 World Cup becomes the fastest edition of the tournament to hit 100 goals since 1958 - with the landmark reached in the 33rd game. But what is behind the scoring spree?",
-    "time": "5h ago",
+    "time": "9h ago",
     "timestamp": 1781999186,
     "color": "linear-gradient(135deg, #f59e0b, #78350f)",
     "overlay": "⚽",
@@ -95,13 +123,13 @@
     "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/fbca/live/6f5805b0-6ceb-11f1-8fed-b71bf98a91c0.jpg",
     "source": "BBC Sport",
     "lang": "en",
-    "id": 206
+    "id": 208
   },
   {
     "category": "tactics",
     "title": "Doku criticised over plan to return home for birth",
     "snippet": "Winger Jeremy Doku is criticised for saying he wants to leave Belgium's World Cup camp to be with his wife when she gives birth to their first child.",
-    "time": "6h ago",
+    "time": "9h ago",
     "timestamp": 1781997681,
     "color": "linear-gradient(135deg, #f59e0b, #78350f)",
     "overlay": "⚽",
@@ -109,13 +137,13 @@
     "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/e9f0/live/437e5230-6cf7-11f1-a2f0-b979aaa59223.jpg",
     "source": "BBC Sport",
     "lang": "en",
-    "id": 207
+    "id": 209
   },
   {
     "category": "tactics",
     "title": "Undav clinches win over Ivory Coast as Germany reach knockouts",
     "snippet": "Deniz Undav's 94th-minute goal clinched a come-from-behind 2-1 victory for Germany against Ivory Coast in Group E to send them into the World Cup knockout stages.",
-    "time": "6h ago",
+    "time": "10h ago",
     "timestamp": 1781996700,
     "color": "linear-gradient(135deg, #f59e0b, #78350f)",
     "overlay": "⚽",
@@ -123,13 +151,13 @@
     "image": "https://e2.365dm.com/26/06/1920x1080/skysports-football-germany_7278872.jpg?20260620224003",
     "source": "Sky Sports",
     "lang": "en",
-    "id": 208
+    "id": 210
   },
   {
     "category": "tactics",
     "title": "Undav scores twice as Germany fight back to beat Ivory Coast",
     "snippet": "Deniz Undav rescues Germany with his second-half double helping them to come from behind to defeat Ivory Coast and book their place in the knockout stages of the World Cup.",
-    "time": "6h ago",
+    "time": "10h ago",
     "timestamp": 1781995552,
     "color": "linear-gradient(135deg, #f59e0b, #78350f)",
     "overlay": "⚽",
@@ -137,13 +165,13 @@
     "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/ad75/live/3486a530-6cf6-11f1-8e1d-bbbb1017d210.jpg",
     "source": "BBC Sport",
     "lang": "en",
-    "id": 209
+    "id": 211
   },
   {
     "category": "press",
     "title": "Cooling hoodies help England staff combat World Cup heat",
     "snippet": "As the England players trained under the searing heat of the Kansas City sun on Saturday, manager Thomas Tuchel took a very different approach to keeping himself cool.",
-    "time": "9h ago",
+    "time": "12h ago",
     "timestamp": 1781986661,
     "color": "linear-gradient(135deg, #0d9488, #115e59)",
     "overlay": "🎙️",
@@ -151,13 +179,13 @@
     "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/56c9/live/1a5813d0-6ce0-11f1-aa77-e37ebac005b3.jpg",
     "source": "BBC Sport",
     "lang": "en",
-    "id": 210
+    "id": 212
   },
   {
     "category": "tactics",
     "title": "Scotland expects: What is behind McTominay's understated World Cup?",
     "snippet": "Some are suggesting Scott McTominay has not had the expected impact for Scotland at the World Cup, but is that fair on the Napoli midfielder?",
-    "time": "9h ago",
+    "time": "12h ago",
     "timestamp": 1781986571,
     "color": "linear-gradient(135deg, #f59e0b, #78350f)",
     "overlay": "⚽",
@@ -165,13 +193,13 @@
     "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/b799/live/a666e320-6ce4-11f1-8e1d-bbbb1017d210.jpg",
     "source": "BBC Sport",
     "lang": "en",
-    "id": 211
+    "id": 213
   },
   {
     "category": "tactics",
     "title": "Lift-off for Netherlands with thumping win over Sweden",
     "snippet": "Netherlands took a huge step towards the World Cup knockout stages with a commanding 5-1 victory over Sweden in Group F, inspired by brilliant doubles from Brian Brobbey and Cody Gakpo.",
-    "time": "9h ago",
+    "time": "13h ago",
     "timestamp": 1781985480,
     "color": "linear-gradient(135deg, #f59e0b, #78350f)",
     "overlay": "⚽",
@@ -179,41 +207,69 @@
     "image": "https://e2.365dm.com/26/06/1920x1080/skysports-cody-gakpo-netherlands_7278785.jpg?20260620195430",
     "source": "Sky Sports",
     "lang": "en",
-    "id": 212
-  },
-  {
-    "category": "tactics",
-    "title": "Scotland 0-1 Morocco: Unique angles and behind the scenes",
-    "snippet": "All the unique angles, and everything the TV cameras didn't show you, from Scotland's 1-0 defeat by Morocco at the 2026 World Cup in North America.",
-    "time": "9h ago",
-    "timestamp": 1781984721,
-    "color": "linear-gradient(135deg, #f59e0b, #78350f)",
-    "overlay": "⚽",
-    "link": "https://www.bbc.com/sport/videos/c0ly473g3dgo?at_medium=RSS&at_campaign=rss",
-    "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/66eb/live/205dd350-6ce0-11f1-8e1d-bbbb1017d210.jpg",
-    "source": "BBC Sport",
-    "lang": "en",
-    "id": 213
-  },
-  {
-    "category": "tactics",
-    "title": "Netherlands thrash Sweden to all but guarantee last-32 place",
-    "snippet": "Brian Brobbey and Cody Gakpo score two goals apiece as the Netherlands cruise past Sweden 5-1 to all but mathematically guarantee a place in the last 32 of the World Cup.",
-    "time": "9h ago",
-    "timestamp": 1781984190,
-    "color": "linear-gradient(135deg, #f59e0b, #78350f)",
-    "overlay": "⚽",
-    "link": "https://www.bbc.com/sport/football/videos/c17yl58xlpdo?at_medium=RSS&at_campaign=rss",
-    "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/1c4a/live/9f160a30-6cdd-11f1-8e1d-bbbb1017d210.jpg",
-    "source": "BBC Sport",
-    "lang": "en",
     "id": 214
+  },
+  {
+    "category": "tactics",
+    "title": "Alemania remonta ante Costa de Marfil en el minuto 94 y se mete en los cruces tres Mundiales después",
+    "snippet": "Dos goles de Undav le dan la vuelta al inicial de Kessie y los germanos se redimen tras dos torneos fracasando. Leer",
+    "time": "21m ago",
+    "timestamp": 1782031716,
+    "color": "linear-gradient(135deg, #f59e0b, #78350f)",
+    "overlay": "⚽",
+    "link": "https://www.elmundo.es/deportes/futbol/mundial-de-futbol/2026/06/21/6a370d2f21efa03e5b8b4587.html",
+    "image": "https://e00-elmundo.uecdn.es/assets/multimedia/imagenes/2026/06/21/17819933596462_990x0.jpg",
+    "source": "El Mundo Deportes",
+    "lang": "es",
+    "id": 215
+  },
+  {
+    "category": "tactics",
+    "title": "España - Arabia Saudí: horario y dónde ver hoy por TV el partido del Mundial 2026",
+    "snippet": "La selección española juega hoy su segundo partido en el Mundial, en el que se enfrentará contra Arabia Saudí Leer",
+    "time": "2h ago",
+    "timestamp": 1782025200,
+    "color": "linear-gradient(135deg, #f59e0b, #78350f)",
+    "overlay": "⚽",
+    "link": "https://www.elmundo.es/deportes/futbol/mundial-de-futbol/2026/06/21/6a351143e4d4d82f5d8b45a4.html",
+    "image": "https://e00-elmundo.uecdn.es/assets/multimedia/imagenes/2026/06/19/17818642981269_990x0.jpg",
+    "source": "El Mundo Deportes",
+    "lang": "es",
+    "id": 216
+  },
+  {
+    "category": "tactics",
+    "title": "Japón golea a Túnez en el partido 1.000 de la historia de los Mundiales",
+    "snippet": "En Monterrey, norte de México, Japón cumplió con los pronósticos pasó por encima de las 'Águilas de Cartago', que pese a la llegada del técnico francés Herve Renard en lugar del destituido Sabri Lamouchi sucumbieron con dos goles de Ayase Ueda, uno de Daichi Kamada y otro de Junya Ito Leer",
+    "time": "2h ago",
+    "timestamp": 1782024224,
+    "color": "linear-gradient(135deg, #f59e0b, #78350f)",
+    "overlay": "⚽",
+    "link": "https://www.elmundo.es/deportes/futbol/mundial-de-futbol/2026/06/21/6a37881efc6c83eb548b4570.html",
+    "image": "https://e00-elmundo.uecdn.es/assets/multimedia/imagenes/2026/06/21/17820241362606_990x0.jpg",
+    "source": "El Mundo Deportes",
+    "lang": "es",
+    "id": 217
+  },
+  {
+    "category": "tactics",
+    "title": "Ecuador hipoteca gran parte de sus opciones ante Curazao, que celebra su primer punto",
+    "snippet": "Impresionante actuación del guardameta curazoleño Eloy Room Leer",
+    "time": "3h ago",
+    "timestamp": 1782021456,
+    "color": "linear-gradient(135deg, #f59e0b, #78350f)",
+    "overlay": "⚽",
+    "link": "https://www.elmundo.es/deportes/futbol/mundial-de-futbol/2026/06/21/6a377cd7e85eceea738b45ba.html",
+    "image": "https://e00-elmundo.uecdn.es/assets/multimedia/imagenes/2026/06/21/17820210980430_990x0.jpg",
+    "source": "El Mundo Deportes",
+    "lang": "es",
+    "id": 218
   },
   {
     "category": "tactics",
     "title": "Atrapados en el Hard Rock Stadium de Miami: así reacciona el Mundial a una tormenta eléctrica",
     "snippet": "Protocolos diferentes para el día de partido y el resto",
-    "time": "5h ago",
+    "time": "9h ago",
     "timestamp": 1782000116,
     "color": "linear-gradient(135deg, #f59e0b, #78350f)",
     "overlay": "⚽",
@@ -221,13 +277,13 @@
     "image": "https://e01-xlk-ue-marca.uecdn.es/files/horizontal_image_desktop/uploads/2026/06/21/6a37283b4771b.jpeg",
     "source": "Marca",
     "lang": "es",
-    "id": 215
+    "id": 219
   },
   {
     "category": "tactics",
     "title": "Marcelo Bielsa, a fondo: el tatuaje de De la Fuente, la anécdota de Bilbao, la posición de Fede Valverde...",
     "snippet": "El seleccionador de Uruguay habló en la previa del partido ante Cabo Verde",
-    "time": "6h ago",
+    "time": "9h ago",
     "timestamp": 1781997406,
     "color": "linear-gradient(135deg, #f59e0b, #78350f)",
     "overlay": "⚽",
@@ -235,13 +291,13 @@
     "image": "https://e01-xlk-ue-marca.uecdn.es/files/horizontal_image_desktop/uploads/2026/06/21/6a371666cadf5.jpeg",
     "source": "Marca",
     "lang": "es",
-    "id": 216
+    "id": 220
   },
   {
     "category": "tactics",
     "title": "Alemania 2-1 Costa de Marfil | Resumen Mundial 2026",
     "snippet": "",
-    "time": "7h ago",
+    "time": "10h ago",
     "timestamp": 1781993850,
     "color": "linear-gradient(135deg, #f59e0b, #78350f)",
     "overlay": "⚽",
@@ -249,13 +305,13 @@
     "image": "https://images.unsplash.com/photo-1543351611-58f69d7c1781?w=800&auto=format&fit=crop",
     "source": "Marca",
     "lang": "es",
-    "id": 217
+    "id": 221
   },
   {
     "category": "tactics",
     "title": "Undav se cuela en el podio del Mundial",
     "snippet": "El ariete del Stuttgart, el mejor del duelo ante Costa de Marfil, ya es el tercer jugador con mejor rendimiento hasta ahora&nbsp;",
-    "time": "7h ago",
+    "time": "10h ago",
     "timestamp": 1781993637,
     "color": "linear-gradient(135deg, #f59e0b, #78350f)",
     "overlay": "⚽",
@@ -263,27 +319,13 @@
     "image": "https://e01-xlk-ue-marca.uecdn.es/files/horizontal_image_desktop/uploads/2026/06/21/6a37104b02f56.jpeg",
     "source": "Marca",
     "lang": "es",
-    "id": 218
-  },
-  {
-    "category": "tactics",
-    "title": "Alemania remonta ante Costa de Marfil en el minuto 94 y se mete en los cruces tres Mundiales después",
-    "snippet": "Dos goles de Undav le dan la vuelta al inicial de Kessie y los germanos se redimen tras dos torneos fracasando. Leer",
-    "time": "7h ago",
-    "timestamp": 1781993531,
-    "color": "linear-gradient(135deg, #f59e0b, #78350f)",
-    "overlay": "⚽",
-    "link": "https://www.elmundo.es/deportes/futbol/mundial-de-futbol/2026/06/21/6a370d2f21efa03e5b8b4587.html",
-    "image": "https://e00-elmundo.uecdn.es/assets/multimedia/imagenes/2026/06/21/17819933596462_990x0.jpg",
-    "source": "El Mundo Deportes",
-    "lang": "es",
-    "id": 219
+    "id": 222
   },
   {
     "category": "tactics",
     "title": "A la épica alemana",
     "snippet": "Sale en la segunda mitad para hacer un doblete y voltear el marcador ante una gran Costa de Marfil",
-    "time": "7h ago",
+    "time": "10h ago",
     "timestamp": 1781993411,
     "color": "linear-gradient(135deg, #f59e0b, #78350f)",
     "overlay": "⚽",
@@ -291,13 +333,13 @@
     "image": "https://images.unsplash.com/photo-1518063319789-7217e6706b04?w=800&auto=format&fit=crop",
     "source": "Marca",
     "lang": "es",
-    "id": 220
+    "id": 223
   },
   {
     "category": "tactics",
     "title": "El gol de Undav en el 94' que evitó el empate ante Costa de Marfil",
     "snippet": "",
-    "time": "7h ago",
+    "time": "10h ago",
     "timestamp": 1781993392,
     "color": "linear-gradient(135deg, #f59e0b, #78350f)",
     "overlay": "⚽",
@@ -305,13 +347,13 @@
     "image": "https://images.unsplash.com/photo-1508098682722-e99c43a406b2?w=800&auto=format&fit=crop",
     "source": "Marca",
     "lang": "es",
-    "id": 221
+    "id": 224
   },
   {
     "category": "tactics",
     "title": "Ecuador no encuentra el gol que necesita",
     "snippet": "Sigue el partido y consulta cómo va Ecuador contra Curazao",
-    "time": "7h ago",
+    "time": "11h ago",
     "timestamp": 1781992823,
     "color": "linear-gradient(135deg, #f59e0b, #78350f)",
     "overlay": "⚽",
@@ -319,13 +361,13 @@
     "image": "https://e01-xlk-ue-marca.uecdn.es/files/horizontal_image_desktop/uploads/2026/06/21/6a3730184e263.jpeg",
     "source": "Marca",
     "lang": "es",
-    "id": 222
+    "id": 225
   },
   {
     "category": "lineup",
     "title": "Luis De la Fuente compara a Lamine con Dalí y Miguel Ángel: \"Son genios\"",
     "snippet": "El seleccionador pone mucho énfasis en restarle dramatismo al partido contra Arabia Saudí. Anuncia cambios para el once Leer",
-    "time": "7h ago",
+    "time": "11h ago",
     "timestamp": 1781991122,
     "color": "linear-gradient(135deg, #3b82f6, #1e3a8a)",
     "overlay": "📋",
@@ -333,13 +375,13 @@
     "image": "https://e00-elmundo.uecdn.es/assets/multimedia/imagenes/2026/06/20/17819896745425_990x0.jpg",
     "source": "El Mundo Deportes",
     "lang": "es",
-    "id": 223
+    "id": 226
   },
   {
     "category": "tactics",
     "title": "El \"vergonzoso\" desastre de Turquía, eliminada del Mundial: \"Que hagan andando y nadando los 10.000 kilómetros entre San Francisco y Estambul\"",
     "snippet": "El equipo de Arda Güler suma ante Paraguay su segunda derrota y ya no tiene opciones de pasar la fase de grupos. Leer",
-    "time": "7h ago",
+    "time": "11h ago",
     "timestamp": 1781990874,
     "color": "linear-gradient(135deg, #f59e0b, #78350f)",
     "overlay": "⚽",
@@ -347,13 +389,13 @@
     "image": "https://e00-elmundo.uecdn.es/assets/multimedia/imagenes/2026/06/20/17819692535082_990x0.jpg",
     "source": "El Mundo Deportes",
     "lang": "es",
-    "id": 224
+    "id": 227
   },
   {
     "category": "tactics",
     "title": "Lopes Cabral, el soldado de Mourinho que empató con Cabo Verde ante España: \"Las grandes selecciones infravaloran a las africanas, merecemos más respeto\"",
     "snippet": "El lateral es una de las estrellas de Cabo Verde. Acaba de fichar por el Trabzonspor por 10 millones tras estar seis meses a las órdenes de Mourinho. \"Es directo. Un día me dijo: 'Has jugado como una mierda'. Ha tenido mucha influencia en mí\", cuenta a EL MUNDO Leer",
-    "time": "7h ago",
+    "time": "11h ago",
     "timestamp": 1781990631,
     "color": "linear-gradient(135deg, #f59e0b, #78350f)",
     "overlay": "⚽",
@@ -361,13 +403,13 @@
     "image": "https://e00-elmundo.uecdn.es/assets/multimedia/imagenes/2026/06/20/17819746835062_990x0.jpg",
     "source": "El Mundo Deportes",
     "lang": "es",
-    "id": 225
+    "id": 228
   },
   {
     "category": "press",
     "title": "Al-Dawsari, el Neymar de Arabia que hizo un Erasmus en la Liga: \"Tácticamente era un desastre\"",
     "snippet": "El capitán saudí fue uno de los jugadores que pasó seis meses en España en 2018. Jugó con el Villarreal 33 minutos ante el Real Madrid. \"Lleva años jugando al lado de Benzema, Malcom o Theo Hernández...tiene muchos de lo que aprender\", recuerda Luismi Loro, segundo entrenador Leer",
-    "time": "7h ago",
+    "time": "11h ago",
     "timestamp": 1781990597,
     "color": "linear-gradient(135deg, #0d9488, #115e59)",
     "overlay": "🎙️",
@@ -375,55 +417,27 @@
     "image": "https://e00-elmundo.uecdn.es/assets/multimedia/imagenes/2026/06/20/17819070769600_990x0.jpg",
     "source": "El Mundo Deportes",
     "lang": "es",
-    "id": 226
-  },
-  {
-    "category": "tactics",
-    "title": "La maldición de la posesión: nadie gana con la pelota en este arranque de Mundial",
-    "snippet": "De las cinco primeras selecciones con más balón en la primera jornada, ninguna ganó. Turquía tuvo más del 70% en los dos partidos y perdió ambos, algo que nunca había ocurrido. España dio 811 pases para generar siete disparos entre los tres palos. La más efectiva, Alemania y la menos, Portugal Leer",
-    "time": "7h ago",
-    "timestamp": 1781990560,
-    "color": "linear-gradient(135deg, #f59e0b, #78350f)",
-    "overlay": "⚽",
-    "link": "https://www.elmundo.es/deportes/futbol/mundial-de-futbol/2026/06/20/6a35e022e85ecef2668b45b9.html",
-    "image": "https://e00-elmundo.uecdn.es/assets/multimedia/imagenes/2026/06/20/17819659274884_990x0.jpg",
-    "source": "El Mundo Deportes",
-    "lang": "es",
-    "id": 227
-  },
-  {
-    "category": "tactics",
-    "title": "Europa contra Europa",
-    "snippet": "Leer",
-    "time": "8h ago",
-    "timestamp": 1781990538,
-    "color": "linear-gradient(135deg, #f59e0b, #78350f)",
-    "overlay": "⚽",
-    "link": "https://www.elmundo.es/deportes/futbol/mundial-de-futbol/2026/06/20/6a36b620e85ece80518b45b4.html",
-    "image": "https://e00-elmundo.uecdn.es/assets/multimedia/imagenes/2026/06/20/17819811610348_990x0.jpg",
-    "source": "El Mundo Deportes",
-    "lang": "es",
-    "id": 228
-  },
-  {
-    "category": "injury",
-    "title": "Raphinha, sin fecha de regreso",
-    "snippet": "La CBF confirma la lesión muscular del futbolista azulgrana... pero no se 'atreven' a fijar una fecha de regreso en medio de las dudas sobre su continuidad",
-    "time": "8h ago",
-    "timestamp": 1781988609,
-    "color": "linear-gradient(135deg, #ef4444, #7f1d1d)",
-    "overlay": "🩺",
-    "link": "https://www.marca.com/futbol/mundial/2026/06/20/raphinha-preocupacion-maxima-muchas-dudas.html",
-    "image": "https://e01-xlk-ue-marca.uecdn.es/files/horizontal_image_desktop/uploads/2026/06/20/6a36fa9704edf.jpeg",
-    "source": "Marca",
-    "lang": "es",
     "id": 229
+  },
+  {
+    "category": "tactics",
+    "title": "Jornada de contrastos al Mundial: golejades, patiment i un empat històric",
+    "snippet": "La segona jornada dels grups E i F del Mundial 2026 ha deixat una de les actuacions més espectaculars del torneig fins ara. Els Països Baixos han atropellat Suècia (5-1) en una exhibició ofensiva, Alemanya ha derrotat Costa d’Ivori (2-1) i s’ha convertit en una de les primeres seleccions classificades per als setzens de final, … Continued",
+    "time": "21m ago",
+    "timestamp": 1782031688,
+    "color": "linear-gradient(135deg, #f59e0b, #78350f)",
+    "overlay": "⚽",
+    "link": "https://monesport.cat/futbol/internacional/jornada-mundial-golejades-empat-historic-485631/",
+    "image": "https://images.unsplash.com/photo-1508098682722-e99c43a406b2?w=800&auto=format&fit=crop",
+    "source": "Món Esport",
+    "lang": "ca",
+    "id": 230
   },
   {
     "category": "tactics",
     "title": "De més verdes en maduren, encara",
     "snippet": "M’assec davant de l’ordinador i Saibari ja marca, un golàs –un altre!–, i em revinc d’una cosa que ja sé: un mundial de futbol sempre val la pena. T’empasses qualsevol partit a l’hora que...",
-    "time": "5h ago",
+    "time": "9h ago",
     "timestamp": 1782000000,
     "color": "linear-gradient(135deg, #f59e0b, #78350f)",
     "overlay": "⚽",
@@ -431,13 +445,13 @@
     "image": "https://www.elpuntavui.cat/imatges/64/55/4x3/780_0008_6455232_bacdc9b7e8816181bac43d82d904f8fcver2.jpg",
     "source": "El Punt Avui",
     "lang": "ca",
-    "id": 230
+    "id": 231
   },
   {
     "category": "lineup",
     "title": "El Mundial que enfronta tres parelles de germans: amics a casa, rivals al camp",
     "snippet": "Quan la selecció del Marroc va aconseguir un brillant i merescut empat contra el Brasil en el debut al Mundial, moltes persones van reaccionar amb una ganyota. Per primer cop va jugar a la fase final d’una Copa del Món un equip on cap dels futbolistes havia nascut al seu país. La plantilla inicial tenia un sol jugador nascut al Marroc, Ounahi. Però amb les substitucions van coincidir 11 jugadors nascuts a l'estranger, dos dels quals a Catalunya, Ismael Saibari i Ayoube Amaimouni. Tots amb arrels al Marroc, en aquest cas. Però nascuts a l'estranger, fills de la diàspora marroquina. El Marroc ja fa anys que va obrir una oficina a Espanya on té treballant un grup de persones que detecten a tot Europa jugadors que siguin fills o nets de marroquins, per tal de reclutar-los, com van intentar fer amb Lamine Yamal sense sort.",
-    "time": "13h ago",
+    "time": "17h ago",
     "timestamp": 1781971236,
     "color": "linear-gradient(135deg, #3b82f6, #1e3a8a)",
     "overlay": "📋",
@@ -445,41 +459,41 @@
     "image": "https://static1.ara.cat/clip/11fc97da-a9bc-4abc-9bc1-0450309730fa_source-aspect-ratio_default_0_x2336y859.jpg",
     "source": "ARA Esports",
     "lang": "ca",
-    "id": 231
+    "id": 232
   },
   {
     "category": "injury",
     "title": "Raphinha encén totes les alertes al Mundial",
     "snippet": "El Brasil ha recuperat les bones sensacions al Mundial amb una convincent victòria per 3-0 davant Haití, però el triomf ha quedat completament eclipsat per la possible lesió de Raphinha. L’extrem del Futbol Club Barcelona ha hagut de demanar el canvi abans del descans després de notar unes molèsties musculars a la cuixa dreta, una … Continued",
-    "time": "19h ago",
+    "time": "23h ago",
     "timestamp": 1781948803,
     "color": "linear-gradient(135deg, #ef4444, #7f1d1d)",
     "overlay": "🩺",
     "link": "https://monesport.cat/barca/jugadors/raphinha-encen-alertes-mundial-485593/",
-    "image": "https://images.unsplash.com/photo-1518063319789-7217e6706b04?w=800&auto=format&fit=crop",
-    "source": "Món Esport",
-    "lang": "ca",
-    "id": 232
-  },
-  {
-    "category": "press",
-    "title": "Els Estats Units convencen, el Brasil respon i Turquia diu adeu al Mundial",
-    "snippet": "La segona jornada dels grups C i D del Mundial 2026 ha començat a aclarir el panorama. Els Estats Units s’han convertit en una de les primeres seleccions a assegurar-se un lloc als setzens de final després de superar Austràlia per 2-0, mentre que el Brasil ha recuperat les bones sensacions golejant Haití (3-0). El … Continued",
-    "time": "20h ago",
-    "timestamp": 1781945257,
-    "color": "linear-gradient(135deg, #0d9488, #115e59)",
-    "overlay": "🎙️",
-    "link": "https://monesport.cat/futbol/internacional/estats-units-convencen-brasil-respon-turquia-adeu-485584/",
     "image": "https://images.unsplash.com/photo-1508098682722-e99c43a406b2?w=800&auto=format&fit=crop",
     "source": "Món Esport",
     "lang": "ca",
     "id": 233
   },
   {
+    "category": "press",
+    "title": "Els Estats Units convencen, el Brasil respon i Turquia diu adeu al Mundial",
+    "snippet": "La segona jornada dels grups C i D del Mundial 2026 ha començat a aclarir el panorama. Els Estats Units s’han convertit en una de les primeres seleccions a assegurar-se un lloc als setzens de final després de superar Austràlia per 2-0, mentre que el Brasil ha recuperat les bones sensacions golejant Haití (3-0). El … Continued",
+    "time": "1d ago",
+    "timestamp": 1781945257,
+    "color": "linear-gradient(135deg, #0d9488, #115e59)",
+    "overlay": "🎙️",
+    "link": "https://monesport.cat/futbol/internacional/estats-units-convencen-brasil-respon-turquia-adeu-485584/",
+    "image": "https://images.unsplash.com/photo-1543351611-58f69d7c1781?w=800&auto=format&fit=crop",
+    "source": "Món Esport",
+    "lang": "ca",
+    "id": 234
+  },
+  {
     "category": "injury",
     "title": "Raphinha, altre cop lesionat, té una margarida per desfullar",
     "snippet": "Raphael Dias Belloli, Raphinha, torna a estar lesionat. En ple debat sobre el seu futur immediat al Barça, l'atacant culer ha caigut en el segon partit que jugava la selecció brasilera al Mundial. Mateix problema, mateix múscul. Al minut 40 del duel contra Haití (3-0), ha notat una punxada a la cuixa dreta i ha hagut de demanar el canvi. Hi ha trencament de fibres a l'isquiotibial i difícilment tornarà a jugar en aquest campionat, si bé la Confederació Brasilera de Futbol (CBF) el mantindrà convocat per si el pot recuperar per a les eliminatòries. És una pèssima notícia per a la canarinha i també per a un futbolista exposat a les bondats dels petrodòlars.",
-    "time": "23h ago",
+    "time": "1d ago",
     "timestamp": 1781935222,
     "color": "linear-gradient(135deg, #ef4444, #7f1d1d)",
     "overlay": "🩺",
@@ -487,7 +501,7 @@
     "image": "https://static1.ara.cat/clip/d968cee6-1377-4996-b718-1422b0f44fc4_16-9-aspect-ratio_default_0.png",
     "source": "ARA Esports",
     "lang": "ca",
-    "id": 234
+    "id": 235
   },
   {
     "category": "lineup",
@@ -501,7 +515,7 @@
     "image": "https://static1.ara.cat/clip/e5b466ba-e8a0-4ec7-a671-57968b5e684e_16-9-aspect-ratio_default_0.jpg",
     "source": "ARA Esports",
     "lang": "ca",
-    "id": 235
+    "id": 236
   },
   {
     "category": "transfer",
@@ -512,20 +526,6 @@
     "color": "linear-gradient(135deg, #a855f7, #581c87)",
     "overlay": "🔄",
     "link": "https://monesport.cat/madrid/club-madrid/michael-olise-veritable-gran-objectiu-mercat-fitxatges-485551/",
-    "image": "https://images.unsplash.com/photo-1508098682722-e99c43a406b2?w=800&auto=format&fit=crop",
-    "source": "Món Esport",
-    "lang": "ca",
-    "id": 236
-  },
-  {
-    "category": "tactics",
-    "title": "Jornada de golejades al Mundial amb la primera selecció classificada",
-    "snippet": "El Mundial 2026 continua endavant i aquest dijous s’ha disputat un dia més de la segona jornada de la fase de grups, en el qual hi ha hagut diverses golejades i s’ha produït la primera classificació d’una selecció per a la següent fase, els setzens de final. Suïssa i el Canadà han golejat amb contundència … Continued",
-    "time": "1d ago",
-    "timestamp": 1781859999,
-    "color": "linear-gradient(135deg, #f59e0b, #78350f)",
-    "overlay": "⚽",
-    "link": "https://monesport.cat/futbol/internacional/mundial-segona-jornada-golejades-primera-seleccio-classificada-485541/",
     "image": "https://images.unsplash.com/photo-1543351611-58f69d7c1781?w=800&auto=format&fit=crop",
     "source": "Món Esport",
     "lang": "ca",
@@ -619,7 +619,7 @@
     "category": "tactics",
     "title": "Els somnis es fan realitat al Mundial: el porter de 40 anys sense equip que ha aturat Espanya",
     "snippet": "Havia de ser el dia d'Espanya i de Lamine Yamal, però va ser el dia de Josimar Dias Vozinha, un sobrenom que en portuguès sona molt similar a \"àvia\". Va ser un conte de fades. Una d'aquelles històries que, si un guionista la inventa per fer-ne una sèrie de televisió, més d'un dirà que és impossible de creure. A vegades sembla que en aquest futbol modern ple de diners on els rics cada cop són més rics, no és possible que un senyor de 40 anys sense equip pugui brillar contra Lamine Yamal, Ferran Torres, Pedri i companyia. Però al Mundial de futbol, per sort, encara passen aquestes coses. Mai un porter de 40 anys havia aconseguit acabar un partit d'un Mundial sense rebre gols. Vozinha va aconseguir-ho.",
-    "time": "4d ago",
+    "time": "5d ago",
     "timestamp": 1781594013,
     "color": "linear-gradient(135deg, #f59e0b, #78350f)",
     "overlay": "⚽",
